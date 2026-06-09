@@ -1,0 +1,10 @@
+{
+  "retrieval": "core/3.query/retrieval-core.ts",
+  "grounding": "core/3.query/grounding.ts",
+  "adaptation": "core/3.query/temporal-engine.ts",
+  "scenario_synthesis": "core/3.query/scenario-engine.ts",
+  "reconciliation": "core/3.query/reconciler.ts",
+  "macro_conditioning": "core/news/news-modifier.ts",
+  "final_reduction": "PMSO (core/3.query/reconciler.ts)",
+  "master_orchestration": "core/3.query/orchestrators/master-orchestrator.ts"
+}
