@@ -1,0 +1,484 @@
+[
+  {
+    "agent_name": "bearish-breaker",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects bearish breaker patterns for potential short entries",
+    "query_templates": [
+      "How to identify a bearish breaker setup?",
+      "What are the characteristics of a bearish breaker entry?"
+    ],
+    "focus": [
+      "Market trades higher",
+      "Takes out liquidity (e.g., previous swing high)"
+    ],
+    "signal": "Identified potential bearish entry point based on breaker pattern."
+  },
+  {
+    "agent_name": "breaker",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Detects Breaker formations",
+    "query_templates": [
+      "Explain the components of a bullish breaker pattern.",
+      "How are breaker formations engineered by institutional traders?"
+    ],
+    "focus": [
+      "liquidity grab",
+      "break of market structure"
+    ],
+    "signal": "Indicates a potential market reversal or continuation setup."
+  },
+  {
+    "agent_name": "bullish-breaker",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Detects bullish reversal or continuation patterns.",
+    "query_templates": [
+      "How to identify a bullish breaker?",
+      "Explain the inverse of a bearish breaker pattern."
+    ],
+    "focus": [
+      "Short-term low",
+      "Reversal pattern"
+    ],
+    "signal": "Indicates potential bullish market shift or continuation."
+  },
+  {
+    "agent_name": "consequent-encroachment",
+    "type": "behavior",
+    "layer": "HTF",
+    "role": "Detects the interaction of price with a key level's midpoint and its confirmation.",
+    "query_templates": [
+      "How does DXY WEEKLY price interact with Consequent Encroachment?",
+      "What confirms Consequent Encroachment on the DXY via a daily close?"
+    ],
+    "focus": [
+      "DXY WEEKLY",
+      "Consequent Encroachment"
+    ],
+    "signal": "Confirmation of Consequent Encroachment by a daily close above or below the midpoint, implying continuation or retest of a range."
+  },
+  {
+    "agent_name": "bear-flag",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Identifies bearish continuation patterns",
+    "query_templates": [
+      "What does a classic bear flag look like?",
+      "How to spot a bear flag pattern?"
+    ],
+    "focus": [
+      "Prior downtrend",
+      "Consolidation period"
+    ],
+    "signal": "Bear flag pattern identified, indicating potential continuation of the downtrend."
+  },
+  {
+    "agent_name": "judas-swing",
+    "type": "behavior",
+    "layer": "ITF",
+    "role": "Detects manipulative market movements designed to absorb liquidity before the true directional move.",
+    "query_templates": [
+      "How to identify a Judas Swing with Power of Three?",
+      "What are the characteristics of liquidity absorption in a Judas Swing?"
+    ],
+    "focus": [
+      "Liquidity absorption",
+      "False market movement"
+    ],
+    "signal": "Highlights a high-probability reversal point after a manipulated price action."
+  },
+  {
+    "agent_name": "stop-hunt",
+    "type": "behavior",
+    "layer": "ITF",
+    "role": "Identifies Stop Hunt",
+    "query_templates": [
+      "Market running stops below bodies",
+      "Liquidity sweep definition"
+    ],
+    "focus": [
+      "Previous Low/High",
+      "Price sweep"
+    ],
+    "signal": "Liquidity Cleared"
+  },
+  {
+    "agent_name": "ote-pattern",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Identifies the Optimal Trade Entry pattern for potential entries.",
+    "query_templates": [
+      "How to find OTE patterns?",
+      "What are the best OTE entry zones?"
+    ],
+    "focus": [
+      "Fibonacci retracement levels (e.g., 62-79%)",
+      "Market structure context (e.g., previous swing points)"
+    ],
+    "signal": "Confirmation of an OTE pattern within a high-probability entry zone."
+  },
+  {
+    "agent_name": "smt-divergence",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects relative strength or weakness between correlated assets to identify potential reversals or strong directional bias.",
+    "query_templates": [
+      "How to identify SMT Divergence on indices like NQ, ES, YM?",
+      "What does SMT Divergence signal for trade entry or management?"
+    ],
+    "focus": [
+      "Correlated assets (e.g., NQ, ES, YM)",
+      "Divergent price action (e.g., one makes a new low, the other doesn't)"
+    ],
+    "signal": "A potential market reversal, a strong directional bias in one asset over another, or confirmation for a specific trade setup."
+  },
+  {
+    "agent_name": "sell-stop-hunt",
+    "type": "behavior",
+    "layer": "ITF",
+    "role": "Detects the market's action of moving below a consolidation to trigger and absorb sell stops, often to facilitate an opposing market move.",
+    "query_templates": [
+      "How are sell stops used for order absorption below consolidation?",
+      "What market movements typically follow a sell stop hunt?"
+    ],
+    "focus": [
+      "Market break below consolidation",
+      "Absorption of sell stops"
+    ],
+    "signal": "Identification of a market move designed to clear sell-side liquidity below consolidation, indicating potential for a reversal or expansion in the opposite direction."
+  },
+  {
+    "agent_name": "relative-equal-lows",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Detects relative equal lows as potential liquidity targets.",
+    "query_templates": [
+      "How to identify relative equal lows on a price chart?",
+      "What happens after price reaches below relative equal lows?"
+    ],
+    "focus": [
+      "Two or more swing lows at approximately the same price level",
+      "The expectation of price trading below these lows to sweep liquidity"
+    ],
+    "signal": "Highlights relative equal lows as a significant liquidity pool and potential price target."
+  },
+  {
+    "agent_name": "outside-day",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Detects an engulfing candlestick pattern",
+    "query_templates": [
+      "How to identify an outside day candle pattern?",
+      "What does an outside day pattern signify?"
+    ],
+    "focus": [
+      "Current candle's high exceeds previous candle's high",
+      "Current candle's low exceeds previous candle's low"
+    ],
+    "signal": "Detection of an Outside Day pattern, indicating potential strong momentum or a reversal setup."
+  },
+  {
+    "agent_name": "pyramiding",
+    "type": "behavior",
+    "layer": "LTF",
+    "role": "Detects opportunities and conditions for adding to an existing profitable position.",
+    "query_templates": [
+      "How to scale into a trade using pyramiding?",
+      "What are the ideal conditions for pyramiding entries?"
+    ],
+    "focus": [
+      "Mean Threshold adherence",
+      "Identified entry level"
+    ],
+    "signal": "Suggests an additional entry point to pyramid an existing position."
+  },
+  {
+    "agent_name": "bearish-resistance",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "detects potential bearish reversal points based on price action into resistance",
+    "query_templates": [
+      "How to anticipate bearish resistance?",
+      "What are the conditions for bearish resistance confirmation?"
+    ],
+    "focus": [
+      "Market moving up",
+      "Potential bearish resistance level"
+    ],
+    "signal": "Indicates a high-probability area for a bearish reversal"
+  },
+  {
+    "agent_name": "bullish-tuesday-open-pattern",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects a specific bullish entry pattern at Tuesday's open",
+    "query_templates": [
+      "Bullish Tuesday 4 AM candle entry strategy",
+      "Tuesday opening price bullish pattern rules"
+    ],
+    "focus": [
+      "Tuesday's 4:00 AM candle",
+      "Buying at or below open"
+    ],
+    "signal": "Bullish entry signal at Tuesday's open"
+  },
+  {
+    "agent_name": "swing-points",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Identifies and prioritizes significant intermediate and short-term swing points (highs and lows) to define market structure.",
+    "query_templates": [
+      "How to identify intermediate term swing points?",
+      "What are significant swing highs and lows?"
+    ],
+    "focus": [
+      "Intermediate term highs/lows",
+      "Short term swing points"
+    ],
+    "signal": "Identified significant swing highs and lows, indicating key market structure."
+  },
+  {
+    "agent_name": "bearish-judas-swing",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects initial bullish manipulation (false move) before a significant bearish move.",
+    "query_templates": [
+      "What are the characteristics of a bearish Judas Swing?",
+      "How to identify manipulation above the Asian range low for a bearish Judas Swing?"
+    ],
+    "focus": [
+      "Higher Time Frame (HTF) bearish bias alignment.",
+      "Initial manipulation or false break above a key high (e.g., Asian high, midnight open)."
+    ],
+    "signal": "Indicates potential bearish reversal after a liquidity grab or false breakout."
+  },
+  {
+    "agent_name": "smart-money-mechanics",
+    "type": "behavior",
+    "layer": "HTF",
+    "role": "Identifies smart money's market intentions, strategies, and their footprint through order flow and counterparty interactions.",
+    "query_templates": [
+      "Smart money exit strategy for short positions.",
+      "Counterparty mechanics benefiting smart money."
+    ],
+    "focus": [
+      "Smart Money Objectives",
+      "Counterparty Mechanics"
+    ],
+    "signal": "Provides insight into potential smart money directional bias, accumulation/distribution zones, or areas of liquidity targeting."
+  },
+  {
+    "agent_name": "turtle-soup",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects liquidity grabs and potential reversals",
+    "query_templates": [
+      "How to identify the Turtle Soup pattern?",
+      "Explain institutional order flow in the context of Turtle Soup."
+    ],
+    "focus": [
+      "False break",
+      "Liquidity sweep"
+    ],
+    "signal": "Potential market reversal after a liquidity grab"
+  },
+  {
+    "agent_name": "diagonal-trendline-resistance",
+    "type": "pattern",
+    "layer": "ITF",
+    "role": "Detects potential resistance levels formed by a diagonal trendline.",
+    "query_templates": [
+      "What defines diagonal trendline resistance?",
+      "How to identify diagonal trendline resistance?"
+    ],
+    "focus": [
+      "Downward-sloping line",
+      "Multiple price touches"
+    ],
+    "signal": "Indicates a potential selling opportunity or price reversal/slowdown."
+  },
+  {
+    "agent_name": "bullish-order-flow-decline",
+    "type": "pattern",
+    "layer": "HTF",
+    "role": "Detect weakening of bullish order flow and potential bias shift.",
+    "query_templates": [
+      "How to identify declines in bullish order flow?",
+      "What signals a weakening bullish trend?"
+    ],
+    "focus": [
+      "Aggressive moves away from a level",
+      "Time spent at that level"
+    ],
+    "signal": "Indication of weakening bullish momentum, potential for reversal or consolidation."
+  },
+  {
+    "agent_name": "failure-swing",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects an alternative entry opportunity after a missed optimal entry.",
+    "query_templates": [
+      "How to identify a Failure Swing entry?",
+      "Failure Swing vs. Breaker entry criteria?"
+    ],
+    "focus": [
+      "Missed optimal entry (Breaker)",
+      "Price takes off without optimal entry"
+    ],
+    "signal": "An alternative entry point and stop loss level."
+  },
+  {
+    "agent_name": "accumulating-long-positions",
+    "type": "behavior",
+    "layer": "LTF",
+    "role": "Detects opportunities to scale into or re-enter long positions and manage profits.",
+    "query_templates": [
+      "How to add to a long position on subsequent down candles?",
+      "How to manage profits while accumulating long positions?"
+    ],
+    "focus": [
+      "Adding to existing long positions",
+      "Re-entry points on down candles"
+    ],
+    "signal": "Identifies potential add-on entry points, re-entry zones, and profit management cues for long trades."
+  },
+  {
+    "agent_name": "one-shot-one-kill",
+    "type": "behavior",
+    "layer": "LTF",
+    "role": "Detects specific high-probability trade setups and procedures",
+    "query_templates": [
+      "How to execute a One Shot One Kill setup?",
+      "What are the prerequisites for One Shot One Kill trades?"
+    ],
+    "focus": [
+      "Efficiency",
+      "Procedure"
+    ],
+    "signal": "High-probability trade setup identified for entry"
+  },
+  {
+    "agent_name": "day-of-week-characteristics",
+    "type": "pattern",
+    "layer": "HTF",
+    "role": "Detects typical daily market behaviors, tendencies, and potential for reversals based on the specific day of the week.",
+    "query_templates": [
+      "What are the expected characteristics for trading on specific days of the week?",
+      "How do market dynamics and potential reversals change in the late week?"
+    ],
+    "focus": [
+      "Specific day of week (e.g., Thursday, late week)",
+      "Expected market tendency (e.g., ideal trading day, smaller range)"
+    ],
+    "signal": "Indicates anticipated market behavior, potential for weekly reversals, or the need to adjust expectations based on the current day."
+  },
+  {
+    "agent_name": "turtle-soup-buy",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Detects a Turtle Soup Buy entry setup",
+    "query_templates": [
+      "How to identify a Turtle Soup buy setup?",
+      "What are the conditions for a Turtle Soup entry on the buy side?"
+    ],
+    "focus": [
+      "short term low",
+      "taken out twice"
+    ],
+    "signal": "Potential Long entry based on market manipulation around a low."
+  },
+  {
+    "agent_name": "asian-open-scalp",
+    "type": "behavior",
+    "layer": "LTF",
+    "role": "Asian Open Scalping Opportunity Detector",
+    "query_templates": [
+      "How to scalp the Asian Open?",
+      "Asian session entry strategy for scalping"
+    ],
+    "focus": [
+      "Asian Open",
+      "Market Direction (Bullish/Bearish)"
+    ],
+    "signal": "Entry signal for Asian Open scalp (long or short)"
+  },
+  {
+    "agent_name": "ote-pattern-recognition",
+    "type": "pattern",
+    "layer": "LTF",
+    "role": "Identifies Optimal Trade Entry (OTE) patterns.",
+    "query_templates": [
+      "How to recognize OTE patterns?",
+      "Explain the Optimal Trade Entry pattern recognition concept."
+    ],
+    "focus": [
+      "Optimal Trade Entry",
+      "Pattern Identification"
+    ],
+    "signal": "Provides identified OTE pattern for potential entry."
+  },
+  {
+    "agent_name": "htf-bias",
+    "type": "concept",
+    "layer": "HTF",
+    "role": "Determines the overall higher timeframe directional bias.",
+    "query_templates": [
+      "How to determine overall HTF bias?",
+      "What is the current HTF market direction?"
+    ],
+    "focus": [
+      "HTF order flow",
+      "HTF liquidity",
+      "HTF key levels"
+    ],
+    "signal": "Overall HTF directional bias (bullish/bearish/neutral/unknown)."
+  },
+  {
+    "agent_name": "htf-macro",
+    "type": "behavior",
+    "layer": "HTF",
+    "role": "Analyzes macroeconomic context and its influence on HTF bias.",
+    "query_templates": [
+      "What is the macroeconomic impact on HTF?",
+      "How do news events affect HTF bias?"
+    ],
+    "focus": [
+      "Economic events",
+      "Intermarket data"
+    ],
+    "signal": "Macroeconomic impact on HTF bias (bullish/bearish/neutral/none)."
+  },
+  {
+    "agent_name": "htf-liquidity",
+    "type": "target",
+    "layer": "HTF",
+    "role": "Identifies higher timeframe liquidity pools and potential price targets.",
+    "query_templates": [
+      "Where are the HTF liquidity targets?",
+      "Identify buy-side and sell-side liquidity on HTF."
+    ],
+    "focus": [
+      "HTF swing highs/lows",
+      "HTF inefficiencies",
+      "HTF PD arrays"
+    ],
+    "signal": "Key HTF liquidity targets (array of strings)."
+  },
+  {
+    "agent_name": "htf-pd-array",
+    "type": "concept",
+    "layer": "HTF",
+    "role": "Detects and interprets HTF Premium/Discount Arrays.",
+    "query_templates": [
+      "What is the current HTF PD Array status?",
+      "Identify Premium/Discount Arrays on HTF."
+    ],
+    "focus": [
+      "HTF Premium/Discount Arrays",
+      "Price interaction with PD arrays"
+    ],
+    "signal": "Current PD Array status (premium/discount/equilibrium/unknown)."
+  }
+]
