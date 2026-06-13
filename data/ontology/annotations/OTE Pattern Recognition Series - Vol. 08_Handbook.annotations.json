@@ -1,0 +1,60 @@
+[
+  {
+    "chunk_id": "chunk_4117",
+    "concepts": [
+      {
+        "canonical": "TIME_SENSITIVE_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific time of day"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTEXTUAL_FRAMEWORK",
+          "HIGH_PROBABILITY_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RULE_BASED_METHODOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "very specific rule-based ideas"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_DESCRIPTION",
+          "DISCRETION_REDUCTION",
+          "CONSISTENCY_DRIVER",
+          "OBJECTIVITY_ENFORCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_TRADE_OPPORTUNITIES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "happening every single day",
+          "Monday through Friday"
+        ],
+        "narrative_roles": [
+          "EXPECTED_TRADE_FREQUENCY",
+          "VALIDATION_OF_METHODOLOGY",
+          "DAILY_ROUTINE"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FREE EDUCATION AND HINDSIGHT RELEVANCE",
+      "source_file": "OTE Pattern Recognition Series - Vol. 08_Handbook.chunks.json"
+    }
+  }
+]

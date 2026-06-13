@@ -1,0 +1,1135 @@
+[
+  {
+    "chunk_id": "chunk_1810",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "took out the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy side inefficiency"
+        ],
+        "narrative_roles": [
+          "REJECTION_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "RE_BALANCE",
+          "ACCUMULATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Fair Value Sell Side"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BISI",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance (BISI)"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "current lows are lost"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "CONDITIONAL_LOGIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old sell side level"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "RE_TEST_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Current sentiment on the dollar is bullish, expecting weakness in indices and continuation lower in Forex"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "INTERMARKET_CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1811",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old daily Fair Value Gap",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ATTRACTION_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "'buy side imbalance sell side inefficiency' (BISI)",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "ATTRACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ATTRACTION_POINT",
+          "FUEL_FOR_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "continuation on the upside is expected"
+        ],
+        "narrative_roles": [
+          "PRICE_FORECAST",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY FOUR-HOUR ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1812",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance as a draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old weekly inversion Fair",
+          "inversion FVG as resistance"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "LIQUIDITY_REPURPOSE",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "discount weekly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "continuation lower on EUR/USD",
+          "continuation higher on the DXY"
+        ],
+        "narrative_roles": [
+          "MARKET_OUTLOOK",
+          "PRICE_FORECAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD WEEKLY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1813",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small 'Mohawk' above the level",
+          "expected deviation outside the range defined for an inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_CONCEPT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'Institutional Order Flow Entry Drills'"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "MAGNET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint (consequent encroachment)"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "PARTIAL_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly inversion Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "last up-close candle before displacement",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "RESISTANCE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1814",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Institutional Order Flow Entry Drill"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side imbalance buy side inefficiency",
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "MAGNETIC_PULL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly inversion",
+          "inversion FVG"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swiping the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Distribution occurred"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "ORDER_FLOW_REFERENCE",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Balanced Price Range"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_IMBALANCE_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DXY_CORRELATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY continues moving higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "INTERMARKET_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD FOUR-HOUR CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1815",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "REVERSAL_INDICATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Multiple relative equal highs",
+          "\"too obvious\""
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LIQUIDITY",
+          "STOP_HUNT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rejected"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional Order Flow Entry Drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "ORDER_FLOW_ANALYSIS",
+          "LIQUIDITY_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "(between a candle's low and another's high)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER",
+          "LIQUIDITY_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small, partial entry"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_SIZING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UP_CLOSE_CANDLE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "An up-close candle"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "ORDER_BLOCK_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "discount range"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_ZONE",
+          "PRICE_RANGE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FVG",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly inversion FVG"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_INDICATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidating"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "current low",
+          "other lows",
+          "low of the weekly"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING",
+          "SUPPORT"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS_CONFIRMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish dollar"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "1.0835 ish level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DXY",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish order flow"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD HOURLY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1816",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "higher timeframe weekly inefficiency",
+          "specific gap",
+          "bullish discount FVG",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "SUPPORT_LEVEL",
+          "REVERSAL_ZONE",
+          "DISCOUNT_ARRAY_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "break lower",
+          "breakdown"
+        ],
+        "narrative_roles": [
+          "BIAS_SHIFT",
+          "TREND_REVERSAL_SIGNAL",
+          "FAILURE_OF_EXPECTED_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONALITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Seasonally, August is a fickle month",
+          "Historically, August is often a month to stand aside or be very nimble"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_GUIDANCE",
+          "TRADING_CONDITIONS_ASSESSMENT",
+          "EXPECTED_VOLATILITY_OR_CHOPPINESS"
+        ],
+        "temporal_tags": [
+          "AUGUST"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDICES WEEKLY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1817",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "last up-close candle prior to displacement is a bearish order block"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'Power of Three' (sell side delivery)"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "DISTRIBUTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running the sell side",
+          "run to sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PRICE_DRAW",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGETING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gaps"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "PRICE_REBALANCE",
+          "LIQUIDITY_VOID",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'Buy Side Imbalance Sell Side Efficiency' (BIBS)"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "PRICE_REBALANCE",
+          "LIQUIDITY_VOID",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ VS S&P",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1818",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "NASDAQ was unwilling to make a higher high compared to the S&P",
+          "cracking correlation"
+        ],
+        "narrative_roles": [
+          "MARKET_HEALTH_INDICATOR",
+          "REVERSAL_SIGNAL",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "An imbalance was traded into",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_EFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "'sell side imbalance buy side efficiency'",
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "REBALANCING",
+          "FAIR_VALUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "ACCELERATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTINUATION",
+          "ACCELERATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "last up close candle",
+          "bearish order block",
+          "up-close candle that forms a bearish order"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "LIQUIDITY_POOL",
+          "POTENTIAL_REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "'shift in market structure'",
+          "broke lower, taking out the short-term low"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_SIGNAL",
+          "BIAS_CHANGE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BREAKER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "a breaker (high-low-higher)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "RESISTANCE_LEVEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_PROGRAM",
+        "confidence": 1,
+        "surface_terms": [
+          "'sell program'"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "BIAS_CONFIRMATION",
+          "TREND_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REJECTION_LEVEL",
+          "MITIGATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_PURGE",
+          "ORDER_BLOCK_FORMATION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDICES DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - Market Review & August Trading Concerns_Handbook.chunks.json"
+    }
+  }
+]

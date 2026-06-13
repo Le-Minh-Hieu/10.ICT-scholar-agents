@@ -1,0 +1,404 @@
+[
+  {
+    "chunk_id": "chunk_660",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "MARKET_CONTEXT",
+          "LIQUIDITY_ENGINEERING_AGENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_TIMES",
+        "confidence": 0.85,
+        "surface_terms": [
+          "highest probable times of the day to trade"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "TIMING_STRATEGY"
+        ],
+        "temporal_tags": [
+          "OPTIMAL_TRADE_WINDOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "high probability setups"
+        ],
+        "narrative_roles": [
+          "SETUP_IDENTIFICATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VOLUME 1 FOCUS AREAS AND STUDY APPROACH",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_661",
+    "concepts": [
+      {
+        "canonical": "SCALPING",
+        "confidence": 1,
+        "surface_terms": [
+          "high probability scalp",
+          "short-term intraday scalping",
+          "scalping"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "TIMEFRAME_CONTEXT",
+          "ENTRY_MODEL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high probability scalp"
+        ],
+        "narrative_roles": [
+          "QUALIFIER",
+          "SETUP_CONFIRMATION",
+          "EDGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_LIQUIDITY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POINT",
+          "HIGHER_TIMEFRAME_REFERENCE",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "longer-term conditions"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_BIAS",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING HIGH PROBABILITY SCALPING WITH AN EXAMPLE",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_662",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 1,
+        "surface_terms": [
+          "TARGETING PRIOR DAY'S LIQUIDITY",
+          "targeting buy stops"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out previous day's highs or previous day's lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH_LOW_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's highs",
+          "previous day's lows",
+          "prior day's high",
+          "buy stops above the previous day's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIOD",
+        "confidence": 1,
+        "surface_terms": [
+          "last three days",
+          "a day or two ago",
+          "counting today as day one",
+          "Wednesday's data",
+          "Tuesday's data"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "LAST_THREE_DAYS",
+          "TODAY",
+          "WEDNESDAY_DATA",
+          "TUESDAY_DATA"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "THREE_DAY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "This is your range",
+          "highest high and the lowest low in the last three days"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "LAST_THREE_DAYS"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING PRIOR DAY'S LIQUIDITY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_663",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_MINDSET",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional mindset",
+          "how bank traders trade",
+          "think institutionally"
+        ],
+        "narrative_roles": [
+          "CORE_PHILOSOPHY",
+          "PATH_TO_CONSISTENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_MINDSET",
+        "confidence": 1,
+        "surface_terms": [
+          "retail",
+          "retail stuff",
+          "retail mindset",
+          "retail methods"
+        ],
+        "narrative_roles": [
+          "ANTI_PATTERN",
+          "HINDRANCE_TO_CONSISTENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSISTENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "consistency",
+          "consistent"
+        ],
+        "narrative_roles": [
+          "TRADING_GOAL",
+          "OUTCOME_OF_ICT_METHODS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADOPTING AN INSTITUTIONAL MINDSET FOR CONSISTENCY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_664",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "primary timeframe will be the daily",
+          "hourly chart",
+          "gives you a bias"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "gives you a bias",
+          "bias"
+        ],
+        "narrative_roles": [
+          "MARKET_FORECASTING",
+          "STRATEGY_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily highs and lows",
+          "previous day's highs or highs from two days ago",
+          "Wednesday's data, with its low and high",
+          "Tuesday's high and low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE_POINTS",
+          "TARGETING_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Wednesday",
+          "Tuesday",
+          "today",
+          "tomorrow"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "looking for liquidity",
+          "traded below Wednesday's low today",
+          "traded below Tuesday's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_ANALYSIS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Wednesday",
+          "Tuesday",
+          "today"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING DAILY HIGHS AND LOWS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_665",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOCUSING ON ONE CURRENCY PAIR FOR MASTERY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 1 of 3_Handbook.chunks.json"
+    }
+  }
+]

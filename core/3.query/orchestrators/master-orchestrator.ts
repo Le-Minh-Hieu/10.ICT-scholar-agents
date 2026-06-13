@@ -645,13 +645,13 @@ function normalizeMasterOutput(raw: any, fallbackSources?: { validatedInput?: Ma
             ),
 
           equilibrium:
-            htfPD?.equilibrium ?? 0,
+            htfPD?.pd_context?.equilibrium ?? htfPD?.equilibrium ?? 0,
 
           range_high:
-            htfPD?.range_high ?? 0,
+            htfPD?.pd_context?.range_high ?? htfPD?.range_high ?? 0,
 
           range_low:
-            htfPD?.range_low ?? 0,
+            htfPD?.pd_context?.range_low ?? htfPD?.range_low ?? 0,
 
           notes:
             input.htf?.reasoning ||
@@ -791,9 +791,9 @@ function normalizeMasterOutput(raw: any, fallbackSources?: { validatedInput?: Ma
       if (htfPD) {
         normalized.layers.htf = {
           ...normalized.layers.htf,
-          equilibrium: normalized.layers.htf.equilibrium || htfPD?.equilibrium || 0,
-          range_high: normalized.layers.htf.range_high || htfPD?.range_high || 0,
-          range_low: normalized.layers.htf.range_low || htfPD?.range_low || 0,
+          equilibrium: normalized.layers.htf.equilibrium || (htfPD?.pd_context?.equilibrium ?? htfPD?.equilibrium ?? 0),
+          range_high: normalized.layers.htf.range_high || (htfPD?.pd_context?.range_high ?? htfPD?.range_high ?? 0),
+          range_low: normalized.layers.htf.range_low || (htfPD?.pd_context?.range_low ?? htfPD?.range_low ?? 0),
         };
       }
 
@@ -995,12 +995,15 @@ const masterDecisionTool = [{
 export async function runMasterOrchestrator(
   input: any
 ): Promise<MasterOutput> {
-  const validatedInput = MasterOrchestratorInputSchema.parse(input);
-  log({ stage: "MASTER_ORCHESTRATOR", message: "Starting Consolidated Master Orchestrator", data: { input: validatedInput } });
-
-  const captureId = (global as any).currentCaptureId || Date.now().toString();
+  if (!(global as any).currentCaptureId) {
+    (global as any).currentCaptureId = Date.now().toString();
+  }
+  const captureId = (global as any).currentCaptureId;
   const date = (global as any).currentDate;
   const session = (global as any).currentSession;
+
+  const validatedInput = MasterOrchestratorInputSchema.parse(input);
+  log({ stage: "MASTER_ORCHESTRATOR", message: "Starting Consolidated Master Orchestrator", data: { input: validatedInput } });
 
   const facts = PMSOReconciler.extractFactsFromOutputs([validatedInput.htf, validatedInput.itf, validatedInput.ltf, validatedInput.time]);
   let temporalState =
@@ -1380,7 +1383,8 @@ export async function runMasterOrchestrator(
 
     memory.scenarios = reconcileScenarios(
       { ...memory, scenarios: newScenarios },
-      previousScenarios
+      previousScenarios,
+      newsModifier
     );
 
     log({

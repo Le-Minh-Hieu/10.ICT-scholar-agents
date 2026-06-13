@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-06-13T08:53:40.157Z",
+  "agentType": "Weekly-Agent",
+  "currentCallId": "Weekly-Agent-Weekly-Agent-1781340715139-10",
+  "prompt": "## ROLE\nYou are an ICT Time Analysis Agent specializing in Weekly profile analysis.\n\n## TASK\nAnalyze the weekly time-based market environment using grounded knowledge, chart images, and provided time context.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the LIVE ICT weekly time-based observations for EURUSD:\n\n*   **Weekly Open Range Timing**: The high of the first 24 hours of the current week (Monday, June 10th) was approximately 1.15786, and the low was approximately 1.14997.\n*   **New Week Opening Gap (NWOG) Status**: There was no significant New Week Opening Gap, as Friday's closing price (approx. 1.15000) was very close to Monday's opening price (approx. 1.14997).\n*   **Intra-Week Volatility Windows**: Monday (June 10th) displayed relative consolidation, holding within the previous Friday's range. Tuesday (June 11th) shows an expansion of the daily range to the upside, pushing above Monday's high.\n*   **Weekly Range Boundaries**: The current week's price action is contained within the boundaries of the previous full weekly range (June 3rd - June 7th), which had a high around 1.1685 and a low around 1.14997. Price is currently trading below the approximate equilibrium of this previous weekly range (~1.1592).\n*   **Daily FVG Reference**: Price is currently interacting with and trading within a daily bearish Fair Value Gap (FVG). This FVG was created by the strong downward move on June 5th and 6th, spanning approximately from the low of June 5th (1.15386) to the high of June 6th (1.16016). Current price is in the lower portion of this FVG.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_4070]\nMULTIPLE CONVERGING NWOGS INDICATE CONSOLIDATION\nAnother characteristic of a consolidation market is when there's a multitude of New Week Opening Gaps converging within a range. In the example, there's a New Week Opening Gap high, a New Week Opening Gap low, another high, and another low, plus a shaded rectangle showing another NWOG. The convergence of these three New Week Opening Gaps in close proximity for this particular week in history indicates that the market will tend to enter a range-bounded environment.\n\n[CHUNK_ID:chunk_4077]\nPRICE ACTION AND NWOG DYNAMIC\nOnce annotated, observing the market reveals how price consistently refers back to these old new week opening gaps. They often act as dynamic levels of support and resistance. Range-bound/Consolidation: Occurs when price is close to the NWOG and has difficulty moving away, Range Expansion/Trending: Characterized by aggressive movement away from the NWOG, without returning to it, indicating a strong weekly trend. Price can gravitate back to the current week's NWOG, or even previous weeks' or months' old NWOGs, highlighting their enduring significance as fair value levels for algorithms. It is crucial to retain this historical NWOG data on your charts, as the influence of these levels extends beyond the week they are formed.\n\n[CHUNK_ID:chunk_632]\nMARKET REACTION TO NWOG, FVG, AND PERSISTENT DXY DIVERGENCE\nThe market 'keyed off' the 4134.25 level (an old New Week Opening Gap low) but 'failed to go to the buy side.' It then respected the 'consequent encroachment' of the teal-colored 5-minute Fair Value Gap, leading to a move lower. However, it 'failed to touch' a specific FVG, which would have signaled a further lower low. Crucially, the Dollar Index is still not moving to a higher high, maintaining a critical divergence.\n\n[CHUNK_ID:chunk_1317]\nWEEKLY CHART EXAMPLE\nObserving four weeks of price action with delineated weekly opening prices: Week 1: Price shows a willingness to go below the opening price while bullish, providing a buying Week 2: Price gets ahead of itself and needs to retrace. Even though the weekly opening price is traded Week 3: After retracement and slight consolidation, another opportunity arises where price shows buying Later in Week 3 (Thursday): After taking out equal lows formed on Monday and Tuesday, another buying opportunity presents itself after a deep retracement below Monday and Tuesday's lows.\n\n[CHUNK_ID:chunk_1927]\nDAILY JOURNAL ENTRY EXAMPLE AND WEEKLY PROFILE ANALYSIS\nPrice delivered lower as expected from the monthly fair value gap SIBI. The 'weekly profile' (a template or roadmap of likely price movement, not market profile or volume profile) showed an obvious Monday high-of-the-week bearish profile, forming after the daily fair value gap SIBI was Wednesday's lower gap opening and large range down-close day confirmed the bearish bias. The daily range extended past the inversion fair value gap low, telegraphing a high probability of repricing to the inversion fair value gap consequent encroachment before moving lower on Friday. Friday was an easy short-selling day, with a bearish institutional order flow entry drill and a bearish order block within the inversion fair value gap, using its consequent encroachment as the ideal premium PD array Note: For new students, non-farm payroll Fridays are typically avoided, but the price action still offers ICT reiterates that indicators like Depth of Market, VWAP, or volume profile are 'gimmicks' and have no bearing on why price moves. Price action in the candlesticks contains all necessary information.\n\n[CHUNK_ID:chunk_2965]\nCONSOLIDATION MIDWEEK RALLY\nA retracement occurs on Tuesday, trading down into Wednesday into a discount fair value gap, liquidity A high or medium impact news event on Wednesday (London or New York session) acts as a catalyst. The swing projection fulcrum point is the intra-week high formed on Tuesday (or Monday's high). The target is a premium PD array (monthly, weekly, or daily) with converging Fib extensions of 127 percent and/or 168 percent, or a perfect measured swing projection. To anchor the Fib: Pull the Fib from the highest high (fulcrum point) down to where the market trades into the order block or discount PD array. This range will project the swing up into the premium PD arrays. The ultimate target is a time frame lesser than the one used for the bullish order block entry (e.g., if daily OB, target a four-hour premium PD array) that overlaps with 127 percent or 168 percent Fib extensions.\n\n[CHUNK_ID:chunk_1854]\nFAIR VALUE GAP ANALYSIS\nGood afternoon, folks. Happy Saturday to you. We're going to do a little bit of a review today. Here's the Dollar Index on our weekly chart. There is a Fair Value Gap (FVG) that has been left in place from last week's trading, which is this weekly candle. I want to see if we can keep this level in the form of resistance. In other words, price can go up here, hit it, and how we trade after we go into it is going to be If we were to go above the FVG, come back down, I would expect it to act as support. Maybe reach up into the rejection block, which is this highest up-close price here. Eventually target the high and the consequent encroachment of that wick.\n\n[CHUNK_ID:chunk_215]\nIDENTIFYING THE FAIR VALUE GAP (FVG) AND ENTRY\nSo, in your chart, once you're developing this idea and learning it, you're going to highlight this candle's low, this candle's high, and this right here is what I teach my students as a 'Fair Value Gap'.\n\n## INPUT CONTEXT\n\n        TIME CONTEXT (NY TIME):\n        - NY Time: 2026-06-13T04:52:29.821-04:00\n        - Day of Week: Saturday\n        - Week of Month: W2\n        - Market Status: CLOSED\n\n        \n        WEEKLY NEWS PROFILE:\n        - Week Start: 2026-06-08\n        - Week Type: MULTI_THEME\n        - Primary Drivers: OTHER, CPI, RATES, LABOR, GDP\n        - Volatility Expectation: unknown\n        - Macro Bias: bearish\n        - Dominant Theme: unknown\n        - Dominant Narrative: unknown\n        - Weekly Delivery Model: The week is expected to begin with pre-catalyst consolidation or a liquidity engineering move higher, leading into a significant bearish reversal and expansion lower post-Wednesday's US CPI release. This will establish a 'Wednesday High of the Week' and sustain a stronger US Dollar, pressuring other currencies and risk assets through the latter half of the week.\n        - Weekly Story Arc: unknown\n        - Active Events: none\n        - Macro Timeline: 2026-06-10T12:30:00.000Z: Core CPI m/m -> EXPANSION; 2026-06-10T12:30:00.000Z: Core CPI y/y -> EXPANSION; 2026-06-10T12:30:00.000Z: CPI m/m -> EXPANSION; 2026-06-10T12:30:00.000Z: CPI y/y -> EXPANSION; 2026-06-11T12:15:00.000Z: Main Refinancing Rate -> REPRICING\n        - Regime: Volatility=HIGH, Liquidity=STABLE, Alignment=BEARISH\n  \n\n        Task: Weekly Time Analysis\n        \n\n## CONSTRAINTS\n- Analyze the provided 3 timeframes.\n- ROLE FOCUS: If supported, identify the weekly profile, day-of-week behavior, and intra-week timing patterns.\n- You MUST use grounded knowledge to identify weekly timing concepts (e.g., weekly profiles, Monday/Friday behavior, expansion patterns).\n- You MUST extract principles from grounded knowledge before applying them.\n- You MUST map those principles onto the current chart context using the provided TIME CONTEXT.\n- Your analysis MUST be derived from grounded knowledge FIRST, then validated using chart evidence.\n- DO NOT rely on intuition or assumptions.\n- DO NOT ignore grounded knowledge.\n- DO NOT generate entry signals\n\n## OUTPUT FORMAT\n{\n      \"timing_bias\": \"favorable | neutral | unfavorable\",\n      \"trading_window\": \"active | inactive\",\n      \"expectation\": \"Accumulation | Re-accumulation | Consolidation | Manipulation | Reversal | Expansion | Distribution | Re-distribution | Consolidation | Retracement\",\n      \"confidence\": \"high | medium | low\",\n      \"notes\": \"Step-by-step reasoning citing visual evidence.\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:53:39 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"timing_bias\": \"favorable\",\n  \"trading_window\": \"inactive\",\n  \"expectation\": \"Reversal | Expansion\",\n  \"confidence\": \"high\",\n  \"notes\": \"The market is currently closed on Saturday, June 13th, 2026. Analyzing the preceding week's action and the provided news profile:\\n\\n1.  **Weekly Delivery Model & Macro Context**: The 'Weekly Delivery Model' explicitly forecasts a week beginning with 'pre-catalyst consolidation or a liquidity engineering move higher, leading into a significant bearish reversal and expansion lower' post-mid-week catalyst, establishing a 'Wednesday High of the Week' and a stronger US Dollar. This aligns with the 'Macro Bias: bearish' and 'Regime: Alignment=BEARISH'.\\n2.  **Intra-Week Price Action vs. Model**: Monday (June 10th) displayed 'relative consolidation', which fits the 'pre-catalyst consolidation' phase of the delivery model. Tuesday (June 11th) showed 'an expansion of the daily range to the upside, pushing above Monday's high'. This price action aligns well with the 'liquidity engineering move higher' portion of the delivery model, even though the CPI catalyst occurred on Tuesday (June 10th) rather than Wednesday as implied by the model's text (Macro Timeline indicates CPI on June 10th). This suggests the market executed the initial 'liquidity engineering' phase ahead of the expected bearish reversal.\\n3.  **Daily Fair Value Gap (FVG) as Resistance**: Price is currently 'interacting with and trading within a daily bearish Fair Value Gap (FVG)' from June 5th-6th (approx. 1.15386 to 1.16016), specifically in its lower portion. As per grounded knowledge (chunk_1854, chunk_632), FVGs often act as resistance. The Tuesday move higher likely targeted or filled into this bearish FVG, setting the stage for the anticipated reversal, consistent with the overall bearish macro bias.\\n4.  **Weekly Profile Expectation**: Given the 'liquidity engineering move higher' on Tuesday, the stage is set for the 'significant bearish reversal and expansion lower' as outlined in the delivery model. This points towards the formation of a 'Wednesday High of the Week' profile (or a high established around the mid-week point following the CPI catalyst), where price is expected to distribute from the high and expand lower in the latter half of the week, following the pattern described in chunk_1927 for a bearish profile. The current week's price action being contained within the previous week's range and below its equilibrium also supports potential for downward expansion or targeting lower levels if a reversal occurs.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -2.476746318734349
+        }
+      ],
+      "createTime": "2026-06-13T08:53:21.474417Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "gRotarH6HKGci-8P_7qZwQg",
+      "usageMetadata": {
+        "promptTokenCount": 3204,
+        "candidatesTokenCount": 599,
+        "totalTokenCount": 6632,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2430
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 599
+          }
+        ],
+        "thoughtsTokenCount": 2829
+      }
+    },
+    "parsed": {
+      "timing_bias": "favorable",
+      "trading_window": "inactive",
+      "expectation": "Reversal | Expansion",
+      "confidence": "high",
+      "notes": "The market is currently closed on Saturday, June 13th, 2026. Analyzing the preceding week's action and the provided news profile:\n\n1.  **Weekly Delivery Model & Macro Context**: The 'Weekly Delivery Model' explicitly forecasts a week beginning with 'pre-catalyst consolidation or a liquidity engineering move higher, leading into a significant bearish reversal and expansion lower' post-mid-week catalyst, establishing a 'Wednesday High of the Week' and a stronger US Dollar. This aligns with the 'Macro Bias: bearish' and 'Regime: Alignment=BEARISH'.\n2.  **Intra-Week Price Action vs. Model**: Monday (June 10th) displayed 'relative consolidation', which fits the 'pre-catalyst consolidation' phase of the delivery model. Tuesday (June 11th) showed 'an expansion of the daily range to the upside, pushing above Monday's high'. This price action aligns well with the 'liquidity engineering move higher' portion of the delivery model, even though the CPI catalyst occurred on Tuesday (June 10th) rather than Wednesday as implied by the model's text (Macro Timeline indicates CPI on June 10th). This suggests the market executed the initial 'liquidity engineering' phase ahead of the expected bearish reversal.\n3.  **Daily Fair Value Gap (FVG) as Resistance**: Price is currently 'interacting with and trading within a daily bearish Fair Value Gap (FVG)' from June 5th-6th (approx. 1.15386 to 1.16016), specifically in its lower portion. As per grounded knowledge (chunk_1854, chunk_632), FVGs often act as resistance. The Tuesday move higher likely targeted or filled into this bearish FVG, setting the stage for the anticipated reversal, consistent with the overall bearish macro bias.\n4.  **Weekly Profile Expectation**: Given the 'liquidity engineering move higher' on Tuesday, the stage is set for the 'significant bearish reversal and expansion lower' as outlined in the delivery model. This points towards the formation of a 'Wednesday High of the Week' profile (or a high established around the mid-week point following the CPI catalyst), where price is expected to distribute from the high and expand lower in the latter half of the week, following the pattern described in chunk_1927 for a bearish profile. The current week's price action being contained within the previous week's range and below its equilibrium also supports potential for downward expansion or targeting lower levels if a reversal occurs."
+    },
+    "latency": 23461.64120000042,
+    "telemetry": {
+      "promptTokens": 3204,
+      "completionTokens": 599,
+      "totalTokens": 6632
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": {
+      "timing_bias": "unfavorable",
+      "trading_window": "active",
+      "expectation": "Reversal",
+      "confidence": "high",
+      "notes": "The provided context indicates a bearish macro bias for the week, with a dominant narrative suggesting a bearish reversal and expansion lower post-US CPI release on Wednesday. The weekly delivery model explicitly states that the week is expected to begin with consolidation or a liquidity grab, followed by a significant bearish reversal. Live market observations show that Tuesday experienced an expansion to the upside, which could be interpreted as a liquidity grab or pre-catalyst move. Price is currently trading within a daily bearish Fair Value Gap (FVG) and below the equilibrium of the previous weekly range, aligning with the expected bearish sentiment. The macro timeline also shows 'EXPANSION' events for Core CPI and CPI data on Wednesday, which are expected to drive the bearish reversal. Therefore, the expectation is for a reversal to the downside. The market is currently in a state where significant events are unfolding or about to unfold, making it an active trading window."
+    },
+    "latency": 2365.88570000045,
+    "telemetry": {
+      "promptTokens": 2492,
+      "completionTokens": 200,
+      "totalTokens": 2692
+    },
+    "estimatedCost": 0.0028919999999999996
+  }
+}

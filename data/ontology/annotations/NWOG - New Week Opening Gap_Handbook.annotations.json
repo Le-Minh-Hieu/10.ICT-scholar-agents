@@ -1,0 +1,445 @@
+[
+  {
+    "chunk_id": "chunk_4074",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NWOG",
+          "ICT New Week Opening Gap",
+          "new week opening gaps",
+          "the gap between the previous week's Friday close and Sunday's opening price"
+        ],
+        "narrative_roles": [
+          "FAIR_VALUE_IDENTIFICATION",
+          "REPRICING_REFERENCE",
+          "ALGORITHMIC_REFERENCE"
+        ],
+        "temporal_tags": [
+          "previous week's Friday close",
+          "Sunday's opening price",
+          "weeks or even months later"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "large fund fair value",
+          "points of fair value"
+        ],
+        "narrative_roles": [
+          "PRICE_EQUILIBRIUM",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "real liquidity void",
+          "liquidity voids",
+          "absence of buying and selling",
+          "no printed data between two specific price points"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "TARGET_AREA",
+          "ALGORITHMIC_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "old inefficiencies",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "ALGORITHMIC_REFERENCE",
+          "REPRICING_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NWOG AS A LARGE FUND FAIR VALUE TOOL",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4075",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gaps",
+          "NWOGs"
+        ],
+        "narrative_roles": [
+          "VALUATION_REFERENCE",
+          "PRICE_MAGNET",
+          "CHART_SETUP_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "new week",
+          "rolling 30-day",
+          "month-long look back",
+          "four to five weeks"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "large fund fair valuation",
+          "fair valuation",
+          "real fund level valuation",
+          "fair value",
+          "sustained levels of fair value"
+        ],
+        "narrative_roles": [
+          "VALUATION_REFERENCE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "large fund fair valuation",
+          "real fund level valuation"
+        ],
+        "narrative_roles": [
+          "VALUATION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "simple fair value gaps"
+        ],
+        "narrative_roles": [
+          "COMPARATIVE_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL CHART SETUP FOR NWOGS",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4076",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NWOG",
+          "New Week Opening Gap",
+          "the NWOG",
+          "the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "Friday's closing price",
+          "Sunday's opening price",
+          "Sunday's date"
+        ],
+        "session_tags": [
+          "WEEKLY_OPEN",
+          "SUNDAY_OPEN",
+          "FRIDAY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSEQUENT ENCROACHMENT",
+          "Consequent Encroachment",
+          "The 50 percent level on the Fibonacci represents the Consequent Encroachment of the NWOG",
+          "50 percent level"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_LEVEL",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [
+          "Friday's closing price",
+          "Sunday's opening price"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUADRANTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "QUADRANTS",
+          "quadrants",
+          "midpoints between the 50 percent level and the high/low of the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_LEVEL",
+          "SUB_DIVISIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'mean threshold'"
+        ],
+        "narrative_roles": [
+          "ANALOGOUS_CONCEPT",
+          "PRICE_REFERENCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ANALOGOUS_CONCEPT",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSEQUENT ENCROACHMENT AND QUADRANTS",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4077",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gaps",
+          "old new week opening gaps",
+          "NWOG",
+          "current week's NWOG",
+          "previous weeks' or months' old NWOGs",
+          "historical NWOG data"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ATTRACTION",
+          "FAIR_VALUE_REFERENCE",
+          "MARKET_STATE_IDENTIFICATION",
+          "HISTORICAL_SIGNIFICANCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "dynamic levels of support and resistance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Range-bound/Consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRENDING",
+        "confidence": 1,
+        "surface_terms": [
+          "Range Expansion/Trending",
+          "strong weekly trend"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_REFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value levels"
+        ],
+        "narrative_roles": [
+          "FAIR_VALUE_REFERENCE",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE ACTION AND NWOG DYNAMIC",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4078",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NWOG",
+          "difference between Friday's closing price and Sunday's opening price"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "IDENTIFICATION_OF_GAP"
+        ],
+        "temporal_tags": [
+          "FRIDAY_CLOSE",
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Consequent"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "POTENTIAL_REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANAGING NWOG TEMPLATES FOR MULTIPLE INSTRUMENTS",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4079",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "NWOG",
+          "NWOG Actual",
+          "NWOG Standard",
+          "these gaps"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "GAP_ANALYSIS",
+          "PRICE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK",
+          "SUNDAY"
+        ],
+        "session_tags": [
+          "SUNDAY_OPEN"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair valuation points"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "PRICE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MULTI_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_ALGORITHMS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market algorithms"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVERS",
+          "PRICE_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING NWOG 'ACTUAL' VS. 'STANDARD' (HOMEWORK)",
+      "source_file": "NWOG - New Week Opening Gap_Handbook.chunks.json"
+    }
+  }
+]

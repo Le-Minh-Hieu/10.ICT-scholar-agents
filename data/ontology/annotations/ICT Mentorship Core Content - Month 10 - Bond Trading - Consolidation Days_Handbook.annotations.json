@@ -1,0 +1,806 @@
+[
+  {
+    "chunk_id": "chunk_3243",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIME FRAME PREMIUM/DISCOUNT ARRAYS",
+          "premium or discount array",
+          "premium array",
+          "discount",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "PRICE_TARGET",
+          "REACTION_POINT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "HIGHER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Consolidation days",
+          "consolidate",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "REACTION_TO_PD_ARRAY",
+          "PRECURSOR_TO_MOVE",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retrace"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "REACTION_TO_PD_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reverse"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "REACTION_TO_PD_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIME FRAME PREMIUM/DISCOUNT ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3244",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame PD array",
+          "premium array"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TARGET_ZONE",
+          "DISTRIBUTION_ZONE",
+          "MARKET_STRUCTURE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STATE_CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT TAKING AND MARKET PAUSES",
+          "profit-taking",
+          "pause in the advancement of price",
+          "period of consolidation",
+          "take a breather",
+          "consolidate"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "REACTION_TO_LIQUIDITY_ZONE",
+          "DISTRIBUTION",
+          "TEMPORARY_HALT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PREMIUM_CONTEXT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium array after an advance from a discount"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_CONTEXT",
+          "TRADE_SETUP_CONTEXT",
+          "END_OF_EXPANSION_PHASE",
+          "LIQUIDITY_ENGINEERING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING AND MARKET PAUSES AT HTF PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3245",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "EQUILIBRIUM",
+          "equilibrium of a higher time frame price swing or midpoint",
+          "midpoint",
+          "equilibrium price point",
+          "stay around equilibrium"
+        ],
+        "narrative_roles": [
+          "PAUSE_POINT",
+          "RETRACEMENT_TARGET",
+          "CONSOLIDATION_INITIATION",
+          "LEVEL_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium or discount array",
+          "higher time frame premium or discount array"
+        ],
+        "narrative_roles": [
+          "PAUSE_POINT",
+          "RETRACEMENT_TARGET",
+          "CONSOLIDATION_INITIATION",
+          "LEVEL_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "a pause",
+          "Consolidations",
+          "consolidate at that midpoint",
+          "a pause before continuation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PRICE_ACTION_DOMINANCE",
+          "PAUSE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CYCLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MARKET CYCLES",
+          "markets move from consolidation to expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_TRANSITION",
+          "STRUCTURAL_OVERVIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "measured move"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "TARGET_IDENTIFICATION",
+          "LEVEL_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "price action",
+          "immediate response in price"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "higher time frame",
+          "higher time frame price swing",
+          "higher time frame premium or discount array",
+          "longer-term price point",
+          "higher time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LEVEL_VALIDATION",
+          "MACRO_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EQUILIBRIUM, MARKET CYCLES, AND WORKING PRICE LEVELS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3246",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation days",
+          "consolidation",
+          "quiet periods",
+          "consolidation periods",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_MARKET",
+          "LOW_VOLATILITY",
+          "AVOID_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BANK_HOLIDAY",
+        "confidence": 1,
+        "surface_terms": [
+          "BANK HOLIDAYS",
+          "Bank holidays in the United States",
+          "holidays like the Fourth of July"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_INFLUENCER",
+          "LOW_VOLATILITY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "Fourth of July"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BOND_AUCTION_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "BOND AUCTION DAYS",
+          "Bond auction days",
+          "day before a bond auction",
+          "bond auction day itself"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_INFLUENCER",
+          "LOW_VOLATILITY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "day before a bond auction",
+          "bond auction day itself"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BANK HOLIDAYS AND BOND AUCTION DAYS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3247",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_CRITERIA",
+          "TRADE_CONDITIONS"
+        ],
+        "temporal_tags": [
+          "AM session",
+          "PM session"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "stops are taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_CRITERIA",
+          "PROFIT_TAKING_CRITERIA",
+          "RISK_MANAGEMENT",
+          "TRADE_CONDITIONS"
+        ],
+        "temporal_tags": [
+          "AM session",
+          "PM session"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation days",
+          "small ranges",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "TRADE_CONDITIONS",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "AM session",
+          "PM session",
+          "before noon",
+          "before 11:00 AM New York time",
+          "bond auction days",
+          "interest rate drivers due",
+          "2:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADE_TIMING_GUIDELINE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "PM session scalping",
+          "trade the PM session",
+          "conduct your trading in the AM session",
+          "before noon",
+          "before 11:00 AM New York time",
+          "move to the sidelines",
+          "Avoid trading the AM session on bond auction days",
+          "Avoid trading the PM session when interest rate drivers are due",
+          "2:00 PM New York time"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_TIMING",
+          "TRADE_AVOIDANCE_CRITERIA",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [
+          "AM session",
+          "PM session",
+          "before noon",
+          "before 11:00 AM New York time",
+          "bond auction days",
+          "interest rate drivers due",
+          "2:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PM SESSION CAVEATS AND GENERAL TRADING GUIDELINES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3248",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame premium array"
+        ],
+        "narrative_roles": [
+          "REACTION_ZONE",
+          "MARKET_CONTEXT",
+          "ANTICIPATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "pause or consolidation",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "STRATEGY_ADJUSTMENT_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADAPTING TRADING MENTALITY TO CONSOLIDATION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3249",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "stay within a predetermined range",
+          "anticipating a small range",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_MAXIMIZATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SETTING LARGER LIMIT EXITS",
+          "allow your limit exits to exceed your initial targets",
+          "provide a 'bonus.'",
+          "setting a 16-tick target allows for unexpected quick expansions to pay you more",
+          "Manage positions accordingly by watching price action near your objective",
+          "paid more than if only the first objective was taken"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "ADAPTIVE_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY_EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "unexpected quick expansions"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SETTING LARGER LIMIT EXITS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3250",
+    "concepts": [
+      {
+        "canonical": "MARKET_PHASE_CYCLE",
+        "confidence": 1,
+        "surface_terms": [
+          "Consolidation brings expansion",
+          "small range",
+          "consolidation day",
+          "large range",
+          "trending day",
+          "narrow range"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUNDAMENTAL_DRIVER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic calendar",
+          "high-impact news day",
+          "FOMC",
+          "high volatility"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS_CONFIRMATION",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_RELATIONSHIP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bond market is held in a narrow range, it creates a 'Stranglehold' on volatility for other asset classes on average",
+          "Do not expect extreme movements in other markets (like Japanese Yen or Swiss Franc) just because the bond market is consolidating"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "RISK_MANAGEMENT",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE MACRO VIEW",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3251",
+    "concepts": [
+      {
+        "canonical": "TRADE_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "trade psychology",
+          "reigning in fear and greed",
+          "emotionally driven into or out of trades",
+          "cool and collected"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "DISCIPLINE",
+          "PERFORMANCE_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROBABILITY",
+        "confidence": 1,
+        "surface_terms": [
+          "aligning with probabilities",
+          "what is most likely to occur"
+        ],
+        "narrative_roles": [
+          "DECISION_MAKING_FRAMEWORK",
+          "EXPECTANCY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_PERSPECTIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "macro perspective"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MASTERING TRADE PSYCHOLOGY AND ALIGNING WITH PROBABILITIES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3252",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation trading techniques",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "WAITING_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inevitable expansion moves",
+          "expansion moves"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "TRADING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONGEVITY AND SELF-MASTERY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3253",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "fickle' market behavior",
+          "Consolidation phases",
+          "quiet periods",
+          "consolidation periods",
+          "When the bond market consolidates"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "SETUP_PHASE",
+          "RISK_AVOIDANCE",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "expansion",
+          "trending environment",
+          "salad days' (easy trading days)",
+          "future opportunities",
+          "next big move",
+          "move more fluidly and efficiently"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PROFIT_OPPORTUNITY",
+          "TREND_FOLLOWING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart money uses consolidation periods to set up the next big move",
+          "let others wear themselves out emotionally and psychologically"
+        ],
+        "narrative_roles": [
+          "STRATEGIC_POSITIONING",
+          "LIQUIDITY_ENGINEERING",
+          "PATIENCE_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "This principle in the bond market reverberates through all other asset classes, especially for Forex traders",
+          "When the bond market consolidates, other markets are stifled; when it doesn't, they move more fluidly and efficiently."
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_AWARENESS",
+          "PREDICTIVE_ANALYSIS",
+          "RISK_MANAGEMENT",
+          "MACRO_OVERVIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BOND_MARKET_AS_INDICATOR",
+        "confidence": 1,
+        "surface_terms": [
+          "bond market provides relief by explaining periods of 'fickle' market behavior",
+          "the bond market",
+          "This principle in the bond market",
+          "When the bond market consolidates"
+        ],
+        "narrative_roles": [
+          "LEADING_INDICATOR",
+          "MARKET_DRIVER",
+          "CONTEXTUAL_ANALYSIS",
+          "MACRO_OVERVIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOREX APPLICATION AND LONG-TERM MARKET OUTLOOK",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Consolidation Days_Handbook.chunks.json"
+    }
+  }
+]

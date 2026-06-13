@@ -57,6 +57,15 @@ export async function htfMacroAgent(input: HTFMacroInput, minimal_context: any):
       pushImage(parts, input.us20y?.d, "HTF-US20Y-D", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT macro observations.
+
+Focus on identifying temporal trend displacements and intermarket alignments:
+1. **DXY Displacement Direction**: Note the candle direction and magnitude of displacement on Monthly/Weekly/Daily timeframes compared to prior periods. (TIME)
+2. **Yield Displacement Direction**: Identify whether US10Y and US20Y yields are rising or falling on Monthly/Weekly/Daily timeframes. (TIME)
+3. **Correlated Asset Timing Divergence**: Identify if DXY and US10Y/US20Y are moving in opposite directions or show timing misalignment. (TIME)
+4. **Macro OB/FVG Context**: Note if price is trading near a Monthly or Weekly Order Block/FVG. (PRICE)
+
+Output your observations as bullet points. Just report raw chart observations without bias forecasting.`,
     schema: htfMacroOutputSchema,
     mapOutput: (result) => {
       return {

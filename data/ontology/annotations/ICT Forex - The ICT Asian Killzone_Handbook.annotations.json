@@ -1,0 +1,389 @@
+[
+  {
+    "chunk_id": "chunk_1252",
+    "concepts": [
+      {
+        "canonical": "ASIAN_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "THE ASIAN OPEN",
+          "Asian open"
+        ],
+        "narrative_roles": [
+          "SESSION_DEFINITION",
+          "TRADING_OPPORTUNITY_WINDOW",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE)",
+          "OTE pattern",
+          "OTE setups"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SCALPING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "for a scalp",
+          "15 to 20 pips for a scalp"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_RETRACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term retracements"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "ENTRY_TRIGGER_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASSET_FOCUS_FOR_SESSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Australian Dollar, New Zealand Dollar, and Japanese Yen pairs"
+        ],
+        "narrative_roles": [
+          "ASSET_SELECTION",
+          "MARKET_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ASIAN OPEN",
+      "source_file": "ICT Forex - The ICT Asian Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1253",
+    "concepts": [
+      {
+        "canonical": "ASIAN_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian open",
+          "IDENTIFYING THE ASIAN OPEN ON CHARTS"
+        ],
+        "narrative_roles": [
+          "SESSION_REFERENCE",
+          "LIQUIDITY_ENGINEERING_START_POINT",
+          "SETUP_TIMING"
+        ],
+        "temporal_tags": [
+          "daylight savings time",
+          "window of about two hours"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE",
+          "giving an OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "previous day's range",
+          "previous Friday's high"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIA_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian session"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT",
+          "LIQUIDITY_BUILDUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "FRANKFURT_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Frankfurt or London open"
+        ],
+        "narrative_roles": [
+          "SESSION_REFERENCE",
+          "TRANSITIONAL_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "FRANKFURT"
+        ]
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Frankfurt or London open"
+        ],
+        "narrative_roles": [
+          "SESSION_REFERENCE",
+          "TRANSITIONAL_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE ASIAN OPEN ON CHARTS",
+      "source_file": "ICT Forex - The ICT Asian Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1254",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidate"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DESCRIPTION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_NY_TIME"
+        ],
+        "session_tags": [
+          "ASIAN_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION CHARACTERISTICS",
+      "source_file": "ICT Forex - The ICT Asian Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1255",
+    "concepts": [
+      {
+        "canonical": "ASIAN_KILLZONE_TRADING_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "ASIAN OPEN TO MIDNIGHT NY TIME",
+          "evening hours on the North American continent",
+          "small window of opportunity between the Asian open and midnight",
+          "typical slow period of the 24-hour banking cycle"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "SESSION_CONTEXT",
+          "MARKET_OPPORTUNITY"
+        ],
+        "temporal_tags": [
+          "ASIAN_OPEN",
+          "MIDNIGHT_NY"
+        ],
+        "session_tags": [
+          "ASIA",
+          "NY_OVERNIGHT"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish optimal trade entry",
+          "optimal trade entry pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "TRADE_SETUP",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "ASIAN_OPEN",
+          "MIDNIGHT_NY"
+        ],
+        "session_tags": [
+          "ASIA",
+          "NY_OVERNIGHT"
+        ]
+      },
+      {
+        "canonical": "CROSS_CURRENCY_PAIRS",
+        "confidence": 1,
+        "surface_terms": [
+          "cross",
+          "crosses",
+          "anything not coupled to a dollar but has a pair that's usually active during the Asian session, which are the Aussie, New Zealand, and Yen pairs"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_SELECTION",
+          "MARKET_CHARACTERISTIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "DOLLAR_BEHAVIOR_DURING_ASIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the dollar is usually quiet",
+          "not going to see a lot of manipulation by way of the dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "STRONG_WEAK_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "strong currency against a weak currency"
+        ],
+        "narrative_roles": [
+          "TRADE_BIAS_DEVELOPMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET_FIBONACCI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaches a target on the Fibonacci"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH_LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "trades above the previous day's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_DAILY_CYCLE_START",
+        "confidence": 1,
+        "surface_terms": [
+          "the financial day starts at midnight New York time"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "SESSION_BOUNDARY"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_NY"
+        ],
+        "session_tags": [
+          "NY_OVERNIGHT"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN OPEN TO MIDNIGHT NY TIME",
+      "source_file": "ICT Forex - The ICT Asian Killzone_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,724 @@
+[
+  {
+    "chunk_id": "chunk_387",
+    "concepts": [
+      {
+        "canonical": "MINIMUM_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "minimum trade framework",
+          "should offer 10 points (or 10 handles)",
+          "should offer 15 Pips",
+          "best-case price delivery you expect to see",
+          "anticipated move should at least offer this potential",
+          "If a move doesn't promise at least this range, it's likely not a high-probability trade",
+          "10 handles for indices is equivalent to 20 Pips in Forex",
+          "5 handles for indices is equivalent to 10 Pips in Forex"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERIA",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Silver Bullet trade setups"
+        ],
+        "narrative_roles": [
+          "TRADING_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TICKS, POINTS, AND PIPS",
+      "source_file": "2023 ICT Mentorship - ICT Silver Bullet Time Based Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_388",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity",
+          "draws on liquidity",
+          "next most likely draw"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "FRAMEWORK_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Silver Bullet setups"
+        ],
+        "narrative_roles": [
+          "TRADING_MODEL",
+          "STRATEGY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops above the previous day's high",
+          "sell-side liquidity or sell stops below the previous",
+          "runs on liquidity",
+          "retests of London session highs/lows",
+          "run above previous week's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH",
+          "PREVIOUS_DAY_LOW",
+          "PREVIOUS_WEEK_HIGH",
+          "PREVIOUS_WEEK_LOW"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's high"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_LOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_SESSION_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "Previous session highs"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_SESSION_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Previous session lows"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_WEEK_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "previous week's high"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_WEEK_HIGH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_WEEK_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Previous weekly high or low"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_WEEK_LOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap (NWOG)"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gaps"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI_BISI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI/BISI"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TYPES OF ICT SILVER BULLET SETUPS AND DRAWS ON LIQUIDITY",
+      "source_file": "2023 ICT Mentorship - ICT Silver Bullet Time Based Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_389",
+    "concepts": [
+      {
+        "canonical": "ICT_SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT SILVER BULLET SETUP 1",
+          "ICT Silver Bullet",
+          "London Open Silver Bullet",
+          "time-based model"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "TRADING_MODEL_TYPE"
+        ],
+        "temporal_tags": [
+          "3:00 AM",
+          "4:00 AM",
+          "60-minute intervals",
+          "New York local time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TRADING_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "between 3:00 AM and 4:00 AM New York local time",
+          "this 60-minute window"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "3:00 AM",
+          "4:00 AM",
+          "60-minute window",
+          "New York local time"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_CALIBRATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "calibrate your charts to New York local time",
+          "observing Daylight"
+        ],
+        "narrative_roles": [
+          "SETUP_PREPARATION"
+        ],
+        "temporal_tags": [
+          "New York local time",
+          "Daylight"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "FVG forms",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "3:00 AM",
+          "4:00 AM",
+          "New York local time"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "the next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "obvious sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "BIAS_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_RESPECT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "candle bodies staying within the FVG"
+        ],
+        "narrative_roles": [
+          "TRADE_VALIDATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "minimum framework",
+          "10 handles for futures",
+          "minimum of 5 handles profit"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "into the New York session"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "4:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT SILVER BULLET SETUP 1: LONDON OPEN (3:00 AM",
+      "source_file": "2023 ICT Mentorship - ICT Silver Bullet Time Based Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_390",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT SILVER BULLET SETUP 2",
+          "second ICT Silver Bullet setup",
+          "ICT Silver Bullet setup"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_MODEL",
+          "TIME_BASED_TRADING_MODEL"
+        ],
+        "temporal_tags": [
+          "10:00_AM",
+          "11:00_AM",
+          "60_MINUTE_WINDOW"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_AM_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "AM session"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows",
+          "sell-side liquidity below them"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "REVERSAL_POINT",
+          "CONTINUATION_POINT",
+          "DISPLACEMENT_INDICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short entry opportunity",
+          "trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "EXECUTION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "minimum potential of 10 handles",
+          "10 handles",
+          "reasonable profit",
+          "5 handles"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_WINDOW_FOR_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10:00 AM and 11:00 AM",
+          "60-minute window"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TIME_CONSTRAINT"
+        ],
+        "temporal_tags": [
+          "10:00_AM",
+          "11:00_AM",
+          "60_MINUTE_WINDOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTRUMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "E-mini S&P",
+          "indices"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "London Open setup"
+        ],
+        "narrative_roles": [
+          "COMPARATIVE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT SILVER BULLET SETUP 2: AM SESSION (10:00 AM",
+      "source_file": "2023 ICT Mentorship - ICT Silver Bullet Time Based Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_391",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Silver Bullet setup",
+          "ICT Silver Bullet setup 3",
+          "third and final ICT Silver Bullet setup"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "HIGH_PROBABILITY_SETUP",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [
+          "2:00 PM",
+          "3:00 PM"
+        ],
+        "session_tags": [
+          "PM_SESSION"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount Fair Value Gap (FVG)",
+          "FVG",
+          "new FVG",
+          "FVG above the market",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER_AREA",
+          "PROFIT_TARGET",
+          "RETRACEMENT_AREA",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "shift higher",
+          "swing broken to the upside",
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_INEFFICIENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Sell Side Imbalance Buy Side Inefficiency (SIBI)"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT SILVER BULLET SETUP 3: PM SESSION (2:00 PM",
+      "source_file": "2023 ICT Mentorship - ICT Silver Bullet Time Based Trading Model_Handbook.chunks.json"
+    }
+  }
+]

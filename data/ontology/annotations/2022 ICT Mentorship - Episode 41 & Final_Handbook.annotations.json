@@ -1,0 +1,1053 @@
+[
+  {
+    "chunk_id": "chunk_0",
+    "concepts": [
+      {
+        "canonical": "TIME_OF_DAY_CONSIDERATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'time of day' was utilized",
+          "how it should be used going forward"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FACTOR",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [
+          "TIME_OF_DAY"
+        ],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market dropped down to and took out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "INITIAL_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeted at the 3805 level",
+          "expectation to run up to this level"
+        ],
+        "narrative_roles": [
+          "PROJECTION",
+          "LIQUIDITY_SEEKING",
+          "REVERSAL_ZONE_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "TRADE_SETUP_CONDITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "If hit, a potential short setup would have been watched for"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REVERSAL_SETUP_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MORNING SESSION FRAMEWORK AND INITIAL EXPECTATIONS",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1",
+    "concepts": [
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK AM KILLZONE",
+          "New York Index AM session (killzone)"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "SESSION_DEFINITION"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "11:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_EVENT"
+        ],
+        "temporal_tags": [
+          "10 o'clock Powell event"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK AM KILLZONE AND TRADING DISCIPLINE",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ran above short-term buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MARKET BEHAVIOR AROUND NOON",
+          "As the noon hour approached",
+          "uncertainty about the market's direction, leading to disinterest",
+          "morning session",
+          "re-evaluate price action during and after the lunch hour (around 1:30 PM)"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "AVOID_TRADING"
+        ],
+        "temporal_tags": [
+          "NOON",
+          "LUNCH_HOUR",
+          "1_30_PM"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT_IMPACT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high-impact news event like a Fed Chair speech",
+          "does not pan out as expected",
+          "better to step away from the market"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "AVOID_TRADING",
+          "MARKET_CONTEXT_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "NEWS_EVENT",
+          "FED_SPEECH"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET BEHAVIOR AROUND NOON AND POST-NEWS STRATEGY",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "this FVG",
+          "larger FVG",
+          "smaller FVG",
+          "larger, more prominent FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "CONTINUATION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "running the buy side",
+          "took out sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP DYNAMICS",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "ran down, went below liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "deep discount FVG",
+          "FVG (between a low and a high)"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "deep discount FVG"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "PRICE_REBALANCING",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "TRADING_RULE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "decision was made not to go short because it was entering the lunch hour",
+          "generally preferred not to hold new positions into lunch"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_GUIDELINE",
+          "STRATEGIC_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "five-minute chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "EXECUTION_TIME_FRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT DURING LUNCH HOUR",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_5",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "two-minute FVG"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "OBSERVATION_POINT"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the initial run on the buy side",
+          "taking out a short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MORNING SESSION ON 5-MINUTE CHART AND UNFULFILLED EXPECTATIONS",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_6",
+    "concepts": [
+      {
+        "canonical": "TRADING_WINDOW_OPTIMIZATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "POST-LUNCH PRICE ACTION",
+          "After the lunch hour",
+          "closing at 1:00 PM",
+          "wait until 1:30 PM"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_PERIOD_IDENTIFICATION",
+          "PRICE_ACTION_FILTERING",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "1:00_PM",
+          "1:30_PM",
+          "NY_LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_LUNCH_BREAK"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_POINT",
+          "CONTINUATION_POINT",
+          "LIQUIDITY_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_SIGNAL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "took out the short-term high of the day"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_HIGH"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-LUNCH PRICE ACTION AND STRUCTURE SHIFT",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_7",
+    "concepts": [
+      {
+        "canonical": "HARD_STOP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A hard stop must be placed",
+          "hard stop",
+          "Trading without a hard stop"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "DISCIPLINE",
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLAN_ADHERENCE",
+          "PSYCHOLOGICAL_CONTROL_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "respecting risk",
+          "risk respect"
+        ],
+        "narrative_roles": [
+          "DISCIPLINE",
+          "SUSTAINABILITY",
+          "CAPITAL_PRESERVATION",
+          "PSYCHOLOGICAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF HARD STOPS",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_8",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_SETUP",
+          "RETRACEMENT_LEVEL",
+          "FLAGSHIP_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term shift in market structure"
+        ],
+        "narrative_roles": [
+          "CHANGE_OF_CHARACTER",
+          "TREND_REVERSAL_INDICATION",
+          "PRECURSOR_TO_ENTRY"
+        ],
+        "temporal_tags": [
+          "1:30 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "TARGET_AREA",
+          "ENTRY_POINT_CONFLUENCE",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_POOL",
+          "ENTRY_POINT_CONFLUENCE",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent to 79 percent retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_LEVEL_INDICATOR",
+          "OPTIMAL_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MIDPOINT_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "imbalances"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_AREA",
+          "PROFIT_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION",
+          "PROFIT_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE)",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_9",
+    "concepts": [
+      {
+        "canonical": "DRAWDOWN_MANAGEMENT_STRATEGY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "DRAWDOWN MANAGEMENT STRATEGY",
+          "manage drawdown",
+          "psychological impact of losses",
+          "one percent loss",
+          "risk half of one percent",
+          "make back 50 percent of the initial loss",
+          "returning to a full one percent risk",
+          "reduced further to one quarter of one percent risk",
+          "lowest recommended level"
+        ],
+        "narrative_roles": [
+          "ACCOUNT_PRESERVATION",
+          "RISK_MITIGATION",
+          "POSITION_SIZING_ADJUSTMENT",
+          "PSYCHOLOGICAL_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DRAWDOWN MANAGEMENT STRATEGY",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_10",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Effective drawdown management",
+          "prevents account blow-ups",
+          "replacing sharp declines with incremental recovery",
+          "three consecutive losses (one percent, half percent, quarter percent) only result in a 1.75 percent total drawdown, which is easily recoverable",
+          "escalating risk after losses (e.g., 1 percent loss, then risking 2 percent, then 3-4 percent, often without a hard stop)",
+          "quickly leads to a 10 percent drawdown",
+          "prioritize managing expectations and discipline",
+          "viewing drawdown as a temporary loan that will yield interest, maintaining a long-term perspective"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABILITY",
+          "DISCIPLINE_MAINTENANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFESSIONAL VS. INFANTILE MINDSETS",
+          "debilitating psychological battle of embarrassment and shame",
+          "Professional money managers prioritize managing expectations and discipline",
+          "maintaining a long-term perspective",
+          "The immediate desire to recover losses (the 'infantile' mindset) must be quelled."
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_BIAS_RECOGNITION",
+          "MENTAL_RESILIENCE",
+          "EXPECTATION_MANAGEMENT",
+          "DISCIPLINE_MAINTENANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFESSIONAL VS. INFANTILE MINDSETS",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_11",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "risk management plan",
+          "controls the severity of this tax by diligently calculating and sticking to their risk management plan"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_STRATEGY",
+          "DISCIPLINE_MAINTENANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY_RESILIENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tendency for new traders to quit due to short-term losses",
+          "inability to see beyond immediate setbacks",
+          "'tax on success'",
+          "losing trades are inevitable and common",
+          "No one is exempt from this"
+        ],
+        "narrative_roles": [
+          "MENTAL_FRAMEWORK",
+          "EXPECTATION_SETTING",
+          "OVERCOMING_ADVERSITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE INEVITABLE 'TAX ON SUCCESS'",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_12",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "ADJUSTING RISK",
+          "recovery must be incremental",
+          "two percent risk trade",
+          "limited to one percent risk",
+          "stop-loss points will vary",
+          "avoid prematurely increasing risk"
+        ],
+        "narrative_roles": [
+          "DISCIPLINE",
+          "SUSTAINABILITY",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAWDOWN_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ADJUSTING RISK IN DRAWDOWN",
+          "When coming out of drawdown",
+          "recovery must be incremental"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "RECOVERY_STRATEGY",
+          "DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fantasizing about quick riches",
+          "over excitement",
+          "unrealistic expectations",
+          "often failure"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_PITFALL",
+          "DISCIPLINE_REQUIREMENT",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVER_LEVERAGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "AVOIDING OVER-LEVERAGE",
+          "scaling up leverage"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_PITFALL",
+          "RISK_EXPOSURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADJUSTING RISK IN DRAWDOWN AND AVOIDING OVER-LEVERAGE",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_13",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONGEVITY AND CONTROLLED RISK",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_14",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term stop runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_OBSERVATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG re-accumulation"
+        ],
+        "narrative_roles": [
+          "REBALANCE_POINT",
+          "CONTINUATION",
+          "MARKET_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SYSTEMATIC MOVEMENT",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_15",
+    "concepts": [
+      {
+        "canonical": "PARTIAL_PROFITS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking partial profits",
+          "a portion of the position is closed"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STATIC_PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "static profit target (e.g., 15 or 20 points)"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "competition-level leverage (three percent to four and a half percent risk)",
+          "multiple positions"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "POSITION_SIZING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRATEGY_PERSONALIZATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "evolve and personalize these rules",
+          "fit their individual expectations and personality",
+          "avoiding rigid adherence that stifles uniqueness"
+        ],
+        "narrative_roles": [
+          "TRADER_DEVELOPMENT",
+          "PSYCHOLOGICAL_CONTROL",
+          "FLEXIBILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MASTERY_COMMITMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "commit six months to a year to master the concepts",
+          "trusting the model's repeatability despite short-term setbacks"
+        ],
+        "narrative_roles": [
+          "TRADER_DEVELOPMENT",
+          "PSYCHOLOGICAL_CONTROL",
+          "DISCIPLINE"
+        ],
+        "temporal_tags": [
+          "six months to a year"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MULTIPLE POSITIONS AND PERSONALIZATION",
+      "source_file": "2022 ICT Mentorship - Episode 41 & Final_Handbook.chunks.json"
+    }
+  }
+]

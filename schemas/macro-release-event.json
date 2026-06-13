@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MacroReleaseEvent",
+  "description": "Canonical schema for a macroeconomic calendar release",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "description": "Stable release id (source + native id or computed hash)" },
+    "name": { "type": "string", "description": "Human readable event name" },
+    "category": { "type": "string", "description": "Event category (CPI, PCE, LABOR, GDP, RATES, etc.)" },
+    "currency": { "type": "string", "description": "ISO currency or regional code (USD, EUR, GBP)" },
+    "impact": { "type": "string", "enum": ["HIGH","MEDIUM","LOW"], "description": "Qualitative impact" },
+    "impact_score": { "type": ["number","null"], "minimum": 0, "maximum": 1, "description": "Optional numeric impact score 0.0-1.0" },
+    "timezone": { "type": "string", "description": "IANA timezone identifier or offset" },
+    "scheduled_time": { "type": "string", "format": "date-time", "description": "ISO8601 scheduled time" },
+    "forecast": { "type": ["number","null"], "description": "Forecast value if available" },
+    "previous": { "type": ["number","null"], "description": "Previous value if available" },
+    "actual": { "type": ["number","null"], "description": "Actual reported value (null pre-release)" },
+    "lifecycle_phase": { "type": "string", "enum": ["PRE_EVENT","POST_EVENT","COOLDOWN"], "description": "Derived lifecycle phase" },
+    "window_boundaries": {
+      "type": "object",
+      "properties": {
+        "pre_start": { "type": ["string","null"], "format": "date-time" },
+        "pre_end": { "type": ["string","null"], "format": "date-time" },
+        "post_start": { "type": ["string","null"], "format": "date-time" },
+        "post_end": { "type": ["string","null"], "format": "date-time" },
+        "cooldown_end": { "type": ["string","null"], "format": "date-time" }
+      },
+      "additionalProperties": false
+    },
+    "volatility_risk": { "type": "number", "minimum": 0, "maximum": 1, "description": "Derived 0.0-1.0 volatility expectation" },
+    "confidence": { "type": ["number","null"], "minimum": 0, "maximum": 1, "description": "Provider confidence mapping or normalized score" },
+    "provenance": { "type": "object", "properties": { "source": { "type": "string" }, "payload_hash": { "type": "string" } }, "additionalProperties": false },
+    "affected_assets": { "type": "array", "items": { "type": "string" }, "description": "List of asset keys impacted by the release" },
+    "native_id": { "type": ["string","null"], "description": "Original provider id if available" }
+  },
+  "required": ["id","name","scheduled_time","currency"],
+  "additionalProperties": false
+}

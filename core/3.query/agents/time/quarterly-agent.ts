@@ -81,6 +81,16 @@ export async function quarterlyAgent(
       pushImage(parts, input.eurusd.tf2!, "Time-TF2", callId);
       pushImage(parts, input.eurusd.tf3!, "Time-TF3", callId);
     },
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT quarterly cycle observations.
+
+Focus on identifying quarterly timing and cycle context:
+1. **Quarterly Shift Timing**: Identify if the market is undergoing a transition dip or rally at the open of the current quarter. (TIME)
+2. **Quarterly Seasonality Phase**: Note if the current month in the quarter (M1, M2, M3) historically aligns with expansion or consolidation. (TIME)
+3. **Quarterly Opening Range**: Identify the high/low range created during the first trading week of the current quarter. (TIME)
+4. **Dealing Range & premium/discount Boundaries**: Define the broader quarterly dealing range and whether current price is premium, discount, or equilibrium. (PRICE)
+5. **HTF FVG Reference**: Reference any Monthly FVG that price is currently trading within or reacting to. (PRICE)
+
+Output observations as bullet points. Do NOT use the phrases 'Quarterly Bias', 'Quarterly Seasonality', or 'End-of-Quarter Effect' in observations.`,
     useGroundingVerification: false,
     mapOutput: (result) => {
       return {

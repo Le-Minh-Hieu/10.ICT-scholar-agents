@@ -1,0 +1,975 @@
+[
+  {
+    "chunk_id": "chunk_2600",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly and or weekly suggesting institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array above daily market price"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "ORDER_FLOW_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CANDLE_CLOSING_CRITERIA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "daily chart must close the candle with a down close",
+          "daily chart candle is trading or forming"
+        ],
+        "narrative_roles": [
+          "ENTRY_PRE-CONDITION",
+          "SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "placing a buy stop"
+        ],
+        "narrative_roles": [
+          "ENTRY_TECHNIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish candle opening"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL SETUP REQUIREMENTS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2601",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_CONFIRMATION",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIMEFRAME CONFIRMATION"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow reference point in the form of a PD array",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_ATTRACTION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly order block",
+          "order block Theory",
+          "bullish order block",
+          "A down candle is a bullish order block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ATTRACTION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_MECHANICS"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ATTRACTION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price will be drawn up there"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MECHANICS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DAILY ENTRY MECHANICS",
+          "waiting for the move to go against that intended direction",
+          "buying off of a down candle",
+          "opening price on the down candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_MECHANICS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIMEFRAME CONFIRMATION AND DAILY ENTRY MECHANICS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2602",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block Theory"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CANDLE PROGRESSION AND ENTRY MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2603",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly and or weekly PD arrays"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw on price",
+          "bring price higher"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame charts",
+          "higher time frame weekly and monthly ideas",
+          "monthly and or weekly PD arrays"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_DRIVER",
+          "MACRO_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "another opportunity to buy",
+          "add new positions"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "RISK_MANAGEMENT_STRATEGY",
+          "POSITION_SCALING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "come back down to that same opening price"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_CREATION",
+          "TESTING_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "taken profits off"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_PROTECTION",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "opening price on a down candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "looking for confirmation",
+          "new buying"
+        ],
+        "narrative_roles": [
+          "VALIDATION_OF_ENTRY",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RE-ENTRY AND PARTIAL PROFIT STRATEGY FOR LONGS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2604",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MANAGING PROFITS",
+          "take some of that position off",
+          "in partial profits"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_RE_ACCUMULATION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "RE-ACCUMULATING POSITIONS",
+          "put that same position that you took off in partial profits right back on",
+          "average in same cost"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "OPTIMAL_ENTRY",
+          "SCALING_IN_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORIGINAL_ENTRY_RETEST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement back to that same opening price",
+          "that same opening price"
+        ],
+        "narrative_roles": [
+          "RE_ENTRY_TARGET",
+          "LEVEL_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_EXECUTION_STRATEGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "new down candle that you enter on a buy stop at the opening price",
+          "enter on a buy stop"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "EXECUTION_STRATEGY",
+          "RE_ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANAGING PROFITS AND RE-ACCUMULATING POSITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2605",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly and or weekly PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "REVERSAL_POINT_CANDIDATE",
+          "PROFIT_TAKING_ZONE_CANDIDATE"
+        ],
+        "temporal_tags": [
+          "MONTHLY_CHART",
+          "WEEKLY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium market",
+          "overbought",
+          "premium ranges"
+        ],
+        "narrative_roles": [
+          "AVOID_ENTRY_ZONE",
+          "PROFIT_TAKING_ZONE",
+          "HIGH_PROBABILITY_SELL_ZONE"
+        ],
+        "temporal_tags": [
+          "MONTHLY_CHART",
+          "WEEKLY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "less than the range that you would identify on the monthly and weekly charts"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "HIGH_PROBABILITY_BUY_ZONE"
+        ],
+        "temporal_tags": [
+          "MONTHLY_CHART",
+          "WEEKLY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "BALANCED_PRICE"
+        ],
+        "temporal_tags": [
+          "MONTHLY_CHART",
+          "WEEKLY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "LIQUIDITY_SEEKER",
+          "OPPORTUNITY_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ENTRY_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Every down candle promotes new buying opportunities"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL",
+          "CONTINUATION_OPPORTUNITY",
+          "LIQUIDITY_ENGINEERING_FOR_ENTRY"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTINUATION OF LONG STRATEGY AND CAUTION IN PREMIUM",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2606",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY_TIMEFRAME",
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRUCTURAL_ENTRY_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "selling with stop orders",
+          "daily chart must close the candle with a up close",
+          "It is not valid while the daily chart candle is trading into or forming",
+          "The sell stop is placed at the bullish candles open"
+        ],
+        "narrative_roles": [
+          "SETUP_CONDITION",
+          "ENTRY_CONFIRMATION",
+          "ENTRY_EXECUTION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL SETUP REQUIREMENTS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2607",
+    "concepts": [
+      {
+        "canonical": "SELL_STOP_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING THE SELL STOP ENTRY POINT",
+          "place your sell stop for short entry",
+          "sell stop for short entry"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expecting weakness"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "TRADE_RATIONALE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE SELL STOP ENTRY POINT ON A BULLISH CANDLE",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2608",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_ANCHOR",
+          "POTENTIAL_SUPPORT",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "up candle right before the down price move",
+          "same order block",
+          "same up candle"
+        ],
+        "narrative_roles": [
+          "PRICE_ANCHOR",
+          "POTENTIAL_RESISTANCE",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stop on a down candle at the opening price",
+          "buy at that opening price",
+          "entry price technique that we use to go short at a bearish order block",
+          "go short at a bearish order block",
+          "sell on a stop right at that opening price"
+        ],
+        "narrative_roles": [
+          "INITIAL_ENTRY",
+          "ENTRY_CONFIRMATION",
+          "RE_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RE_ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "re-entry for shorts",
+          "retracement back to that same order block",
+          "get short again with the partial profit we've taken off"
+        ],
+        "narrative_roles": [
+          "POSITION_MANAGEMENT",
+          "SCALING_IN",
+          "CONTINUATION_TRADE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONNECTION TO BEARISH ORDER BLOCK THEORY AND RE-ENTRY FOR SHORTS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2609",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "small little down candle",
+          "new down candle",
+          "down candle or bearish candle's opening price",
+          "opening price of the down candle",
+          "next green candle or bullish candle, it opened lower than that down candle's open",
+          "bullish candle trades up",
+          "triggered long in that position"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "REVERSAL_CONFIRMATION",
+          "PRICE_ACTION_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_ORDER_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BUYING WITH STOP ORDERS",
+          "buy stop at the opening price",
+          "place a buy stop",
+          "our buy stop would have been triggered"
+        ],
+        "narrative_roles": [
+          "ORDER_PLACEMENT",
+          "ENTRY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUYING WITH STOP ORDERS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2610",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop-loss",
+          "below the swing low",
+          "below a specific reference point"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ORDER_PLACEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_ORDER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "entered long again on a buy stop",
+          "tripped in long on that particular entry point"
+        ],
+        "narrative_roles": [
+          "ENTRY_TECHNIQUE",
+          "ORDER_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing low that's most recently been created"
+        ],
+        "narrative_roles": [
+          "STRUCTURE_REFERENCE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "another down candle, so we could take a look at that opening price and should we see price trade back up to that level, we could be entered long again"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_REFERENCE",
+          "SUPPORT_RESISTANCE_LEVEL",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUCCESSIVE_ENTRY_OPPORTUNITIES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SUCCESSIVE BUYING OPPORTUNITIES",
+          "successive one two three candles lower, all being Down Candles. Each time we have an opportunity to be net long."
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "OPPORTUNITY_IDENTIFICATION",
+          "RETRACEMENT_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUCCESSIVE BUYING OPPORTUNITIES AND STOP-LOSS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2611",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "opening price of this down candle",
+          "opening price",
+          "lower candle's opening price"
+        ],
+        "narrative_roles": [
+          "POSITION_SCALING",
+          "CONTINUATION",
+          "RETRACEMENT_ENTRY",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADDING TO LONG POSITIONS ON SUBSEQUENT DOWN CANDLES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2612",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old high from 2007",
+          "that 123.50 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "TARGET_FOR_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "piercing of that 123.50 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "break in Market structure",
+          "market structure break",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "DIRECTIONAL_BIAS_SHIFT",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_ENTRY_TECHNIQUE",
+        "confidence": 1,
+        "surface_terms": [
+          "SELLING WITH STOP ORDERS",
+          "selling on a stop"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "EXECUTION_METHOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELLING WITH STOP ORDERS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2613",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily time frame was getting in sync with the lower objectives for the monthly and weekly Dollar Yen"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "looking for lower prices would draw a price on the daily chart lower"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TARGET_IDENTIFICATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "up candles that went back to the premium of the ranges that price was trading in for the daily chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TECHNIQUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "every opening price once it's triggered",
+          "you would be net short"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "EXECUTION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH TIMEFRAME ALIGNMENT FOR SHORT OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Stop Entry Techniques For  Long Term Traders_Handbook.chunks.json"
+    }
+  }
+]

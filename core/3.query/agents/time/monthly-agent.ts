@@ -77,6 +77,17 @@ export async function monthlyAgent(
       pushImage(parts, input.eurusd.tf2!, "Time-TF2", callId);
       pushImage(parts, input.eurusd.tf3!, "Time-TF3", callId);
     },
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT monthly time-based environment observations.
+
+Focus on monthly cycles and seasonality:
+1. **Turn-of-Month / End-of-Month Timing**: Identify if price is entering the Turn-of-Month window (last 3 days to first 3 days) or EOM window (last week). (TIME)
+2. **Monthly Options Expiry Window**: Note if price is approaching the third Friday of the month options expiration week. (TIME)
+3. **Monthly Seasonality Profile**: Observe if current month historically yields bearish or bullish expansions. (TIME)
+4. **Monthly Opening Range**: Identify the high/low range of the first trading day of the month. (TIME)
+5. **Monthly Dealing Range Reference**: Note if current price is in premium or discount relative to the monthly range. (PRICE)
+6. **Weekly Order Block Reference**: Note key weekly order blocks acting as current resistance or support. (PRICE)
+
+Output observations as bullet points. Do NOT use the phrases 'Monthly Bias', 'Monthly Seasonality', or 'Monthly Buy Day Bias' in observations.`,
     useGroundingVerification: false,
     mapOutput: (result) => {
       return {

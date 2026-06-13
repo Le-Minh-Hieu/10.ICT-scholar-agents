@@ -1,0 +1,594 @@
+[
+  {
+    "chunk_id": "chunk_3355",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDEX TRADING BASICS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3356",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P (ES) TICK VALUE AND LEVERAGE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3357",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SPOOS OPENING RANGE CONCEPT",
+          "9:30 AM and 10:00 AM New York time",
+          "This 30-minute span",
+          "right at the opening"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONTEXT",
+          "SESSION_ANCHOR"
+        ],
+        "temporal_tags": [
+          "NY_OPEN",
+          "9:30 AM New York time",
+          "10:00 AM New York time",
+          "30-minute span"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "HIGH_VOLUME_NODE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highest volume",
+          "surge of the highest volume"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_INDICATION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [
+          "9:30 AM New York time",
+          "10:00 AM New York time"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "SESSION_FOCUS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York session for day trading",
+          "9:30 AM New York time to 4:00 PM New York time"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_CONSTRAINT",
+          "MARKET_SELECTION"
+        ],
+        "temporal_tags": [
+          "NY_OPEN",
+          "9:30 AM New York time",
+          "4:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SPOOS OPENING RANGE CONCEPT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3358",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range",
+          "60-MINUTE OPENING RANGE"
+        ],
+        "narrative_roles": [
+          "DEFINITION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "9:30 AM New York time",
+          "10:30 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE 60-MINUTE OPENING RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3359",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range",
+          "Opening Range between 9:30 AM to 10:30 AM"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_EXTREME_FORMATION"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "10:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Spoofs market high or low of the day",
+          "run on stops",
+          "raid",
+          "stop hunt",
+          "liquidity grab"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "MARKET_EXTREME_FORMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "fair value setup"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCE",
+          "REVERSAL_INDICATION",
+          "MARKET_EXTREME_FORMATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIGNIFICANCE OF THE OPENING RANGE FOR MARKET EXTREMES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3360",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "OPENING RANGE VISUALIZATION",
+          "the one-hour Opening Range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "VISUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_ZONE_AWARENESS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Central Time",
+          "New York Time",
+          "East Coast time",
+          "an hour earlier",
+          "8:30 AM to 9:30 AM Central Time refers to 9:30 AM to 10:30 AM New York Time"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "CHART_INTERPRETATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "9:30 AM New York time",
+          "The true day begins at 9:30 AM New York time"
+        ],
+        "narrative_roles": [
+          "SESSION_START"
+        ],
+        "temporal_tags": [
+          "9:30 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_CLOSE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "4:00 PM New York time",
+          "ends at 4:00 PM New York time"
+        ],
+        "narrative_roles": [
+          "SESSION_END"
+        ],
+        "temporal_tags": [
+          "4:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE VISUALIZATION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3361",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "NASDAQ Opening Range",
+          "Opening Range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_IDENTIFIER",
+          "REFERENCE_POINT_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NASDAQ"
+        ]
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "'bearish order block'"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGET_AREA",
+          "HISTORICAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'rejection block'"
+        ],
+        "narrative_roles": [
+          "REJECTION_POINT",
+          "ENTRY_CONFIRMATION",
+          "SHORT_FACILITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "facilitation of a short",
+          "dramatic sell-off",
+          "short opportunity"
+        ],
+        "narrative_roles": [
+          "TRADE_OUTCOME",
+          "PROFIT_GENERATION"
+        ],
+        "temporal_tags": [
+          "LATER_IN_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ (NQ) OPENING RANGE EXAMPLE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3362",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range for the Dow Mini",
+          "9:30 AM in the morning New York time to 10:30 AM in the morning New York time",
+          "largest volume is typically during that morning, specifically the first 30 minutes from 9:30 AM to 10:00 AM",
+          "largest volume of the day for the morning session"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_OPENING_DYNAMICS",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "10:30 AM",
+          "10:00 AM",
+          "morning",
+          "New York time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "morning session"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOW MINI FUTURES (YM)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3363",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range high and low",
+          "Opening Range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'rejection block'",
+          "lowest close down closed candle"
+        ],
+        "narrative_roles": [
+          "REJECTION_POINT",
+          "PRICE_MAGNET",
+          "LIQUIDITY_DRAW_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAILURE_TO_EXTEND_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "wick that went down failed to go lower than the low formed in the Opening Range"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_SWEEP_FAILURE",
+          "MARKET_STRUCTURE_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOW MINI (YM) OPENING RANGE EXAMPLE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3364",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range",
+          "60-minute Opening Range",
+          "first 30 minutes (9:30 AM to 10:00 AM)"
+        ],
+        "narrative_roles": [
+          "SIGNAL_GENERATION",
+          "DIRECTIONAL_BIAS_ESTABLISHMENT",
+          "TREND_IDENTIFICATION",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "10:30 AM",
+          "10:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING INDICES AND OPENING RANGE PURPOSE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3365",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range idea",
+          "Opening Range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "REFERENCE_POINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "first hour",
+          "first 30 minutes"
+        ],
+        "session_tags": [
+          "AM"
+        ]
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "SMART_MONEY_ACTIVITY",
+          "ORDER_FLOW_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "support and resistance levels"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_POINTS",
+          "MARKET_STRUCTURE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_HIGH_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first hour's range high and low",
+          "first 30 minutes' high and low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_DEFINITION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "first hour",
+          "first 30 minutes"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "AM_TREND",
+        "confidence": 0.9,
+        "surface_terms": [
+          "AM Trend"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE NUANCES AND NEXT STEPS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  }
+]

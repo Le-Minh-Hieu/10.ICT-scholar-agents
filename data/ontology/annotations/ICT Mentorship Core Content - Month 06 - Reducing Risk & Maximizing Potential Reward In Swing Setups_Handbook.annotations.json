@@ -1,0 +1,1286 @@
+[
+  {
+    "chunk_id": "chunk_2849",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "MONTHLY AND WEEKLY PD ARRAYS (PREMIUM)",
+          "monthly and weekly levels",
+          "PD arrays for a premium",
+          "monthly and weekly levels"
+        ],
+        "narrative_roles": [
+          "SWING_TRADE_CONTEXT",
+          "ENTRY_CRITERIA",
+          "REVERSAL_AREA",
+          "PREMIUM_AREA"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "Bearish liquidity voids"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "ENTRY_CRITERIA",
+          "REVERSAL_AREA",
+          "PREMIUM_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Rejection blocks",
+          "candles that have real long wicks"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REVERSAL_CANDLE",
+          "PRICE_REJECTION",
+          "PREMIUM_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGHS_LOWS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old lows and old highs"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_AREA",
+          "ENTRY_CRITERIA",
+          "PREMIUM_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRAMING SWING TRADES WITH MONTHLY AND WEEKLY PD ARRAYS (PREMIUM)",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2850",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "TRADE_PLANNING",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "CONTEXTUAL_FRAMING_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "RANGE_DELINEATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "RANGE_DELINEATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PD ARRAY MATRIX AND CONTEXTUAL FRAMING",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2851",
+    "concepts": [
+      {
+        "canonical": "ENTRY_TECHNIQUE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "entry techniques",
+          "entry patterns",
+          "limit order",
+          "buying on a stop",
+          "selling on a stop"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "JANUARY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily chart",
+          "maximum time frames, monthly and weekly",
+          "context for our trade",
+          "four-hour basis"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "daily",
+          "monthly",
+          "weekly",
+          "4-HOUR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trades",
+          "swing trading",
+          "4-HOUR SWING TRADES"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [
+          "4-HOUR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "frame our risk around",
+          "reduces the ranges to a smaller, more conservative number"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING JANUARY'S ENTRY TECHNIQUES TO 4-HOUR SWING TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2852",
+    "concepts": [
+      {
+        "canonical": "REWARD_TO_RISK_RATIO",
+        "confidence": 1,
+        "surface_terms": [
+          "three to one reward to risk ratios",
+          "three to one",
+          "five to one",
+          "ten to one",
+          "3:1",
+          "reward to risk ratio conditions",
+          "reward to risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFITABILITY_STRATEGY",
+          "EXPECTANCY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE POWER OF REWARD TO RISK RATIOS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2853",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTROLLING LEVERAGE FOR SUSTAINABLE GROWTH",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2854",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame monthly and weekly level",
+          "higher time frame levels",
+          "high time frames",
+          "higher time frame price level",
+          "daily, a weekly, or a monthly"
+        ],
+        "narrative_roles": [
+          "GUIDING_PRINCIPLE",
+          "SMART_MONEY_ALIGNMENT",
+          "CONTEXTUAL_FRAMEWORK",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smart Money plays",
+          "Smart Money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "STRATEGY_ALIGNMENT",
+          "INFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "five-minute order block"
+        ],
+        "narrative_roles": [
+          "RELEVANCE_CRITERIA_BY_TIMEFRAME",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The algorithm is just allowing the price to get down to those levels"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "MARKET_MECHANICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIMIT_ORDER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "limit orders"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MECHANISM",
+          "REACTION_FUEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MAXIMIZING REWARD THROUGH HIGHER TIME FRAME LEVELS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2855",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMART MONEY ORDER LAYERING",
+          "They layer their orders just above or just below these levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily levels",
+          "four-hour levels",
+          "specific level in mind",
+          "these levels"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "LIQUIDITY_POOLS",
+          "POTENTIAL_REVERSAL_ZONE",
+          "ORDER_BLOCK_FORMATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the big figure",
+          "a 20 level",
+          "an 80 level",
+          "50 level",
+          "mid-figure level",
+          "60 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOLS",
+          "PRICE_REFERENCE",
+          "ENTRY_OR_TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REVERSAL_POINT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lower time frames",
+          "short-term trading",
+          "day trading",
+          "scalping",
+          "four-hour entry on higher time frame levels"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 1,
+        "surface_terms": [
+          "R multiples",
+          "reward on the risk",
+          "5R",
+          "five dollars for one dollar risk",
+          "three to one",
+          "five or higher",
+          "10, 12, even 15 to one",
+          "put very little money at risk to get huge price moves",
+          "massive price moves in relationship to the overall risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_SELECTION_CRITERIA",
+          "PROFITABILITY_METRIC",
+          "PROFESSIONAL_TRADING_GUIDELINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY ORDER LAYERING AND R-MULTIPLES",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2856",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame levels"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "KEY_LEVEL_IDENTIFICATION",
+          "SWING_TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "R_MULTIPLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "R-MULTIPLE POTENTIAL",
+          "10R wins"
+        ],
+        "narrative_roles": [
+          "PROFITABILITY_METRIC",
+          "TRADE_SELECTION_CRITERIA",
+          "PERFORMANCE_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUND_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FUND MANAGEMENT RETURNS",
+          "managing funds",
+          "manage other people's money"
+        ],
+        "narrative_roles": [
+          "PROFESSIONAL_TRADING_GOAL",
+          "WEALTH_ACUMULATION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELECTIVE_TRADING_PHILOSOPHY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "do very little trading",
+          "don't have to do very much",
+          "trade a lot"
+        ],
+        "narrative_roles": [
+          "TRADING_PHILOSOPHY",
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "MAXIMIZING_EFFICIENCY"
+        ],
+        "temporal_tags": [
+          "over the course of a year"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH R-MULTIPLE POTENTIAL AND FUND MANAGEMENT RETURNS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2857",
+    "concepts": [
+      {
+        "canonical": "SWING_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trades",
+          "swing trade"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE",
+          "TRADING_STRATEGY",
+          "LONG_TERM_APPROACH"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily chart",
+          "higher time frame setups"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "removing high leverage"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high R's"
+        ],
+        "narrative_roles": [
+          "PROFIT_OPTIMIZATION",
+          "TRADE_SELECTION_CRITERIA",
+          "STRATEGIC_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SWING TRADE FREQUENCY AND STRATEGIC SETUP",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2858",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "remove the high leverage",
+          "risk managed",
+          "low risk, high reward",
+          "remove your leverage",
+          "Your leverage is going to kill you",
+          "Prime brokerage will not allow you to leverage your D leverage",
+          "under leveraged",
+          "don't want to risk anything",
+          "keep your risk very small"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_PRINCIPLE",
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABLE_TRADING",
+          "PROFITABILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEVERAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "high leverage",
+          "50 to 1",
+          "hundred to one",
+          "two hundred to one",
+          "four hundred one",
+          "three to one leverage",
+          "remove your leverage",
+          "leverage is going to kill you",
+          "leverage your D leverage",
+          "under leveraged",
+          "million dollars leverage"
+        ],
+        "narrative_roles": [
+          "RISK_AMPLIFIER",
+          "CAPITAL_DEPLOYMENT_MECHANISM",
+          "ACCOUNT_MANAGEMENT_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "you're only trading with three minis",
+          "build your positions up to the point where you can eventually trade at a larger size",
+          "trading with a million dollars leverage",
+          "trading with a half a million dollars"
+        ],
+        "narrative_roles": [
+          "CAPITAL_DEPLOYMENT",
+          "RISK_CONTROL",
+          "ACCOUNT_GROWTH_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRIME_BROKERAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Prime brokerage"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FRAMEWORK",
+          "RISK_MANAGEMENT_MECHANISM",
+          "ACCOUNT_GROWTH_MILESTONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGIC LEVERAGE AND PRIME BROKERAGE",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2859",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "one and a half percent risk",
+          "50 Pips per stop",
+          "risk is already predefined at one and a half percent",
+          "The opportunity for drawdown is very, very low"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABLE_GROWTH",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REWARD_TO_RISK",
+        "confidence": 1,
+        "surface_terms": [
+          "10 reward to risk",
+          "ten to one multiples",
+          "for one dollar, you get back ten"
+        ],
+        "narrative_roles": [
+          "PROFITABILITY_METRIC",
+          "TRADE_SELECTION_CRITERIA",
+          "STRATEGY_PERFORMANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "swing setups",
+          "swing trading",
+          "six swings per year"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "TIME_HORIZON"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_FREQUENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "just six swings per year",
+          "six trades",
+          "very low frequency",
+          "one trade every four to six weeks"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADING_STRATEGY_DESIGN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly and or a weekly level"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERIA",
+          "POI_IDENTIFICATION",
+          "STRUCTURAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEVERAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "three to one leverage"
+        ],
+        "narrative_roles": [
+          "POSITION_SIZING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CONSERVATIVE PATH TO EXPONENTIAL GROWTH",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2860",
+    "concepts": [
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 1,
+        "surface_terms": [
+          "ten to one",
+          "huge multiples of reward to risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_SELECTION_CRITERIA",
+          "PROFIT_MAXIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "framing the setups on a monthly and or weekly level"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SETUP_IDENTIFICATION",
+          "TRADE_SELECTION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PATIENCE_AND_SELECTIVITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "You don't have to rush",
+          "you don't have to take every single swing trade",
+          "If it doesn't look right, just wait.",
+          "just six trades per year"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DISCIPLINE",
+          "TRADE_SELECTION_CRITERIA",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "every single swing trade"
+        ],
+        "narrative_roles": [
+          "TRADE_STYLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PATIENCE AND HIGH REWARD SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2861",
+    "concepts": [
+      {
+        "canonical": "PREMIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high in the range",
+          "deep, deep, deep in terms of the premium"
+        ],
+        "narrative_roles": [
+          "IDENTIFYING_BIAS",
+          "ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "this high here",
+          "old monthly high",
+          "old high back in 2009 in October"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE",
+          "KEY_REFERENCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "April 2011",
+          "October 2009"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "last up candle in October"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_ZONE_IDENTIFICATION",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [
+          "October 2009"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold of that last up candle"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_ZONE_IDENTIFICATION",
+          "MITIGATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reduce it down to a lower time frame",
+          "executable time frame of four hours"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_METHODOLOGY",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR EXAMPLE",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2862",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAYS",
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "TRADE_SETUP_IDENTIFICATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "last up candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RESISTANCE_LEVEL",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "141.55 level"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "mean threshold of that last down candle"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "2010"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [
+          "OCTOBER"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "four-hour time frame",
+          "four-hour"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_FRAMEWORK",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TECHNIQUE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "entry techniques",
+          "entry technique"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "JANUARY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "position trading concepts",
+          "position trading"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [
+          "JANUARY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENORMOUS REWARD POTENTIAL FROM MONTHLY-FRAMED PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2863",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "MONTHLY-FRAMED PD ARRAYS",
+          "Premium PD arrays",
+          "monthly discount PD arrays"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "PRICE_ANALYSIS",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold of the last down candle in October 2010"
+        ],
+        "narrative_roles": [
+          "PRICE_ANALYSIS",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "October 2010",
+          "November"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REWARD_TO_RISK",
+        "confidence": 1,
+        "surface_terms": [
+          "ENORMOUS REWARD POTENTIAL",
+          "over 650 pips for one setup",
+          "60 pip stop loss",
+          "10 to 1 reward to risk scenario"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PLANNING",
+          "EXPECTANCY_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "135 is a potential area as a downside objective",
+          "downside objective is again several hundred pips"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "141.55, if that's the price you get",
+          "get entry for short"
+        ],
+        "narrative_roles": [
+          "TRADE_ENTRY",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENORMOUS REWARD POTENTIAL FROM MONTHLY-FRAMED PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2864",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "monthly and or weekly scenario"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "BIAS_DETERMINATION",
+          "TRADE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly or weekly PD array"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TRADE_IDENTIFICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium or discount"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "TRADE_PLANNING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "five to one reward to risk scenario",
+          "five to one payouts"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT",
+          "TRADE_SELECTION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing trades"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "TRADE_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADDITIONAL HOMEWORK",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Reducing Risk & Maximizing Potential Reward In Swing Setups_Handbook.chunks.json"
+    }
+  }
+]

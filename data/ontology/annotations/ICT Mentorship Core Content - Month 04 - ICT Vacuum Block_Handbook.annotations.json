@@ -1,0 +1,518 @@
+[
+  {
+    "chunk_id": "chunk_2355",
+    "concepts": [
+      {
+        "canonical": "VACUUM_BLOCK_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "VACUUM BLOCK GAPS",
+          "periods of no trading"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_INEFFICIENCY_ORIGIN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Economic calendar releases",
+          "Non-Farm Payroll",
+          "FOMC-related events",
+          "interest rate",
+          "NFP event",
+          "non-farm payroll"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "Non-Farm Payroll",
+          "FOMC-related events",
+          "Interest Rate Announcements"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "GEOPOLITICAL_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Unforeseen geopolitical events",
+          "terrorist attack"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "MARKET_CONTEXT",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTEXT AND CAUSES OF VACUUM BLOCK GAPS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2356",
+    "concepts": [
+      {
+        "canonical": "GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "GAPS",
+          "gap up",
+          "the space between the two candles"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_INEFFICIENCY",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT MARKET",
+          "market that's in a discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "OPTIMAL_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity above the current trading price"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "ORDER_FLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish news",
+          "news event"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UPTREND",
+        "confidence": 0.9,
+        "surface_terms": [
+          "upward market",
+          "higher prices are still expected"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "BIAS_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "downward correction",
+          "retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "OPPORTUNITY_FOR_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GAPS IN A DISCOUNT MARKET",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2357",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.98,
+        "surface_terms": [
+          "a gap",
+          "'vacuum' of trading",
+          "vacuum of liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "LIQUIDITY_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VACUUM OF LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2358",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap closure",
+          "close that gap in",
+          "the gap will fill",
+          "the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCING",
+          "HIGH_PROBABILITY_EVENT",
+          "ANTICIPATED_PRICE_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY OF GAP CLOSURE",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2359",
+    "concepts": [
+      {
+        "canonical": "VACUUM_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "vacuum block",
+          "this range"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_IDENTIFICATION",
+          "LIQUIDITY_VOID_INDICATION",
+          "REBALANCE_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap",
+          "absence of liquidity and traded price",
+          "high and the low of the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_IDENTIFICATION",
+          "LIQUIDITY_VOID_INDICATION",
+          "REBALANCE_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE VACUUM BLOCK AS A PRICE RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2360",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "a down candle",
+          "the higher of two consecutive down candles prior to the gap up"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap up",
+          "the gap",
+          "gap opening"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "LIQUIDITY_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_GAP_FILL",
+        "confidence": 1,
+        "surface_terms": [
+          "PARTIAL GAP FILL",
+          "prevent the gap from filling entirely",
+          "leaving a portion of the gap opening intact"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "CONTINUATION_INDICATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy opportunity"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL",
+          "OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "placing a stop below the lowest down candle"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PARTIAL GAP FILL TO A BULLISH ORDER BLOCK",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2361",
+    "concepts": [
+      {
+        "canonical": "GAP_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FULL GAP FILL",
+          "leave the gap open"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_EXPECTATION",
+          "TARGET_AREA",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last up candle before the gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ORIGIN_OF_MOVE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME OF DAY CONSIDERATION",
+          "early in the New York session",
+          "late in the afternoon"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FACTOR",
+          "DECISION_FACTOR"
+        ],
+        "temporal_tags": [
+          "early in the New York session",
+          "late in the afternoon"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FULL GAP FILL AND TIME OF DAY CONSIDERATION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2362",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Gaps like these",
+          "gap",
+          "portion of the gap may remain open",
+          "remaining open portion",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE_TARGET",
+          "PRICE_MAGNET",
+          "SETUP_FORMATION",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "10 o'clock hour",
+          "11 o'clock hour",
+          "later time",
+          "specific trading day",
+          "when news embargoes lift"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIMING AND FAIR VALUE GAPS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2363",
+    "concepts": [
+      {
+        "canonical": "VACUUM_BLOCK",
+        "confidence": 0.98,
+        "surface_terms": [
+          "COMPLETE CLOSURE AND PERFECT PRICE DELIVERY",
+          "The close of the up candle right before the gap forms",
+          "gap forms",
+          "price trades lower and hits this level",
+          "complete closure of the gap",
+          "full return on a The entire range is 100 percent filled",
+          "perfect delivery of price"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "MITIGATION",
+          "REBALANCING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "unfulfilled bullish liquidity above the highest high",
+          "highest high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss below the lowest low",
+          "lowest low"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A buy setup here"
+        ],
+        "narrative_roles": [
+          "TRADE_INITIATION",
+          "CONFIRMATION_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMPLETE CLOSURE AND PERFECT PRICE DELIVERY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Vacuum Block_Handbook.chunks.json"
+    }
+  }
+]

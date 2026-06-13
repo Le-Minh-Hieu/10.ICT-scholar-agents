@@ -1,0 +1,1382 @@
+[
+  {
+    "chunk_id": "chunk_2130",
+    "concepts": [
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 1,
+        "surface_terms": [
+          "Neophyte traders",
+          "breakout traders",
+          "will bracket the trading range with orders",
+          "lack a clear directional idea",
+          "long-term trend followers"
+        ],
+        "narrative_roles": [
+          "EXPLOITED_BEHAVIOR",
+          "LIQUIDITY_SOURCE_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy stops to initiate a long position above old highs",
+          "Sell stops to initiate a short position below old lows",
+          "orders on both sides"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old highs",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Buy stops to initiate a long position above old highs",
+          "Sell stops to initiate a short position below old lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEOPHYTE TRADER BEHAVIOR IN TRADING RANGES",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2131",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "send price below the range",
+          "neutralize the sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER ACTIONS IN BULLISH FALSE BREAKOUTS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2132",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy stops above the old high",
+          "recent high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RETAIL_TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell stops below the lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RETAIL_TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breakout trader",
+          "neophyte trader's perspective",
+          "They aim to capture a move that would hopefully continue",
+          "getting short on weakness or buying on strength when breaking above an old high"
+        ],
+        "narrative_roles": [
+          "CONTRARIAN_INDICATOR",
+          "LIQUIDITY_PROVIDER_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trading range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP_AREA",
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKOUT TRADER'S GRAPHICAL PERSPECTIVE",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2133",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ENVIRONMENT FOCUS",
+          "predominantly bullish environment",
+          "buying environment",
+          "bearish"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PERSPECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker's perspective"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "SMART_MONEY_MINDSET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "below the marketplace where lows exist in the form of sell stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ENVIRONMENT FOCUS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2134",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL STOP ABSORPTION",
+          "breaks below consolidation",
+          "buying those sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops",
+          "those sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "LIQUIDITY_TARGET",
+          "ORDER_PAIRING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "INSTITUTIONAL_FLOW",
+          "ORDER_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "LIQUIDITY_TARGET",
+          "FUTURE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL STOP ABSORPTION FOR LONG ORDERS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2135",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_HUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "PRICE EXPANSION TO TARGET BUY STOPS",
+          "liquidity above the old high",
+          "Those buy stops"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell stops being run out below the consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_EVENT",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA",
+        "confidence": 1,
+        "surface_terms": [
+          "(think IPDA)"
+        ],
+        "narrative_roles": [
+          "CONCEPTUAL_FRAMEWORK",
+          "UNDERLYING_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "allowing smart money to scale out of long positions or take some profits."
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE EXPANSION TO TARGET BUY STOPS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2136",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "trading range",
+          "area of consolidation",
+          "another trading range",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "SETUP_PHASE",
+          "LIQUIDITY_ENGINEERING_TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL STOP HUNT",
+          "drops below that trading range to take out the sell stops below consolidation",
+          "take out the sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_ACTIVATION",
+          "FALSE_BREAKOUT_INITIATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUBSEQUENT CONSOLIDATION AND SELL STOP HUNT",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2137",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take the sell stops below (e.g., 108.55)",
+          "taking the market below this short-term consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_SEEKING",
+          "FALSE_BREAKOUT",
+          "ENTRY_TRIGGER_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops are resting above that old high",
+          "objectives"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET",
+          "INSTITUTIONAL_OBJECTIVE",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_INTENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INTERPRETING MARKET MAKER INTENT",
+          "internal thought process should be",
+          "they've already shown a willingness",
+          "If they are taking the market...",
+          "they're probably going to run the price higher"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "DIRECTIONAL_BIAS_FORMATION",
+          "SMART_MONEY_ALIGNMENT",
+          "REVERSAL_FORECASTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERPRETING MARKET MAKER INTENT",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2138",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "running sell stops",
+          "taking the market below a consolidation to run sell stops out",
+          "absorb those sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ACCUMULATION",
+          "SMART_MONEY_TRAP",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PURPOSE OF RUNNING SELL STOPS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2139",
+    "concepts": [
+      {
+        "canonical": "BUY_MODEL_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONFIRMING THE BUY MODEL",
+          "pricing in a buy model"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Price runs above that old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_REACHED"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PROFIT TAKING",
+          "liquidate some of their positions to hedge",
+          "liquidate positions that those traders on the bank level are actually speculating for profit",
+          "scale them off",
+          "get out with a profit"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "HEDGING",
+          "LIQUIDITY_PROVISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_TRADE_CYCLE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "two areas at which the market makers have booked long positions",
+          "This is how they actually take their trades, put them on, and scale them off, placing their entries and limit orders"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMING THE BUY MODEL AND PROFIT TAKING",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2140",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY ABOVE OLD HIGHS",
+          "Liquidity",
+          "liquidity is going to rest above it"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "OLD HIGHS",
+          "old high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_BODIES_SIGNIFICANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CANDLE BODIES",
+          "bodies of the candles",
+          "body of the candles",
+          "primarily all the volume is seen in the bodies of the candles",
+          "most volume"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "VOLUME_INTERPRETATION",
+          "LIQUIDITY_IDENTIFICATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY ABOVE OLD HIGHS (CANDLE BODIES)",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2141",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "took the stops out below the 108.95"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops resting above that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_AGGREGATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "109.40 or higher",
+          "the next objective would be 109.40"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TAKING_ZONE",
+          "DIRECTIONAL_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "PRECURSOR_TO_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION AND REPRICING",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2142",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "109.40 is swept",
+          "moving just above the bodies of the candles",
+          "buy stops above the old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "TRAPPING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "orders are stacking higher each time",
+          "buying a little bit higher each time",
+          "working their orders in",
+          "scale off and profit"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "POSITION_BUILDING",
+          "ORDER_FLOW_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "providing liquidity for those individuals that want sell stops to be activated",
+          "those individuals that want buy stops above the old highs",
+          "their liquidity is being provided as well"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "LIQUIDITY_PROVISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUY STOP ACTIVATION AND ORDER STACKING",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2143",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "SELL STOP HUNT",
+          "trade below that consolidation",
+          "movement down into that level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY TARGET",
+          "where is the liquidity at?",
+          "waiting up there for price once it gets there"
+        ],
+        "narrative_roles": [
+          "PRICE_DIRECTION",
+          "OBJECTIVE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOPS",
+        "confidence": 1,
+        "surface_terms": [
+          "specifically buy stops",
+          "willing buyers that are waiting up there"
+        ],
+        "narrative_roles": [
+          "FUEL_FOR_MOVEMENT",
+          "ORDER_AGGREGATION",
+          "LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "that consolidation"
+        ],
+        "narrative_roles": [
+          "PREVIOUS_PRICE_ACTION_STATE",
+          "RANGE_BOUND_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Above the old high",
+          "at 109.45 or so"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LARGE RANGE SELL STOP HUNT AND LIQUIDITY TARGET",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2144",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_PROFIT_CYCLE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER'S PROFIT CYCLE"
+        ],
+        "narrative_roles": [
+          "OVERARCHING_THEME",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "They're buying",
+          "smart money's buying at 108.90 or 108.85 in that area"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ENTRY",
+          "PHASE_OF_PROFIT_CYCLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops are used to pair long exits",
+          "sell it for a profit at 109.45 to 109.50",
+          "willing participants to be buying it from them when they want to sell it for a profit",
+          "109.45 to 109.50 is hit"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "INSTITUTIONAL_EXIT",
+          "SMART_MONEY_DISTRIBUTION",
+          "LIQUIDITY_CONSUMPTION",
+          "TARGETING_BUY_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER'S PROFIT CYCLE",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2145",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "market makers",
+          "the market maker"
+        ],
+        "narrative_roles": [
+          "ACTOR",
+          "LIQUIDITY_PROVIDER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "providing liquidity",
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_PROVISION",
+          "MARKET_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING MARKET MAKER'S ROLE: PROVIDING LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2146",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY",
+          "liquidity",
+          "area of liquidity that's been untapped"
+        ],
+        "narrative_roles": [
+          "PRIMARY_DRIVER",
+          "MARKET_ENGINE",
+          "DIRECTIONAL_BIAS_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "directional bias",
+          "underlying directional premise",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_ENGINEERING_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "trade setups",
+          "signals"
+        ],
+        "narrative_roles": [
+          "ENTRY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY AS THE PRIMARY DRIVER OF PRICE ACTION",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2147",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buyers above old highs",
+          "sellers below old lows",
+          "liquidity rests"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seek the buyers",
+          "seek the sellers"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_MANIPULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CONTROLLING PRICE",
+          "Think like the market maker",
+          "complete control of price",
+          "drive price"
+        ],
+        "narrative_roles": [
+          "CORE_ICT_PERSPECTIVE",
+          "LIQUIDITY_ENGINEERING_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTROLLING PRICE",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2148",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the market seeks the liquidity below the marketplace",
+          "absorbs it",
+          "quickly runs the other direction"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "building a buy model"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_ESTABLISHMENT",
+          "POSITION_ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "go into consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP_PHASE",
+          "CONTEXTUAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market makers are facilitating their long positions",
+          "what side of the market they're reaching for"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "POSITION_ACCUMULATION",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCERNMENT THROUGH CONSOLIDATION BEHAVIOR",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2149",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "FALSE BREAKOUTS",
+          "false breakout",
+          "market goes below these consolidations",
+          "movements below it are always going to be viewed in our eyes as a false breakout",
+          "trip up traders otherwise or knock them out of profitable positions if they would have been remaining long"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "TRAP",
+          "SMART_MONEY_ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ACCUMULATION SIGNALS"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "POSITION_BUILDING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_FORMATION",
+          "MARKET_STRUCTURE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EFFICIENCY_PARADIGM",
+        "confidence": 1,
+        "surface_terms": [
+          "market efficiency paradigm"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "ICT_PHILOSOPHY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_PROVISION",
+        "confidence": 1,
+        "surface_terms": [
+          "provider of liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "SMART_MONEY_OPERATIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PERSPECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker does",
+          "See it in just in the same scope or perspective as a market maker does"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "ANALYTICAL_FRAMEWORK",
+          "SMART_MONEY_MINDSET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FALSE BREAKOUTS AS ACCUMULATION SIGNALS",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2150",
+    "concepts": [
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "MEASURED MOVES FOR PRICE OBJECTIVES",
+          "measured move",
+          "The second leg in price higher is equal to that first one"
+        ],
+        "narrative_roles": [
+          "PRICE_OBJECTIVE_IDENTIFICATION",
+          "TARGET_PROJECTION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first initial false breakout below the old lows and consolidation",
+          "initial low that it ran up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the algorithm will reach for to offer price"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEASURED MOVES FOR PRICE OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2151",
+    "concepts": [
+      {
+        "canonical": "MARKET_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IDENTIFYING BULLISH OR BEARISH MARKET PROFILES",
+          "bullish market",
+          "bullish market profile"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops being run",
+          "the sell stops would be run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "below a consolidation"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "LIQUIDITY_POOL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "goes through the buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BULLISH OR BEARISH MARKET PROFILES",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2152",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUSION AND UPCOMING MENTORSHIP CONTENT",
+      "source_file": "ICT Mentorship Core Content - Month 02 - Market Maker Trap False Breakouts_Handbook.chunks.json"
+    }
+  }
+]

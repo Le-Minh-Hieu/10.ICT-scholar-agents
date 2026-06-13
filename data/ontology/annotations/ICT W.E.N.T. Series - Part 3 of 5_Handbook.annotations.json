@@ -1,0 +1,597 @@
+[
+  {
+    "chunk_id": "chunk_3719",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHOOSING YOUR PRIMARY TRADING TIMEFRAME AND STYLE",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3720",
+    "concepts": [
+      {
+        "canonical": "POSITION_TRADE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Position Trades"
+        ],
+        "narrative_roles": [
+          "TRADE_STYLE",
+          "TRADE_MANAGEMENT",
+          "TIMEFRAME_SELECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Swing Trades"
+        ],
+        "narrative_roles": [
+          "TRADE_STYLE",
+          "TRADE_MANAGEMENT",
+          "TIMEFRAME_SELECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure",
+          "Market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "DIRECTIONAL_BIAS",
+          "TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly"
+        ],
+        "narrative_roles": [
+          "TIMEFRAME_SELECTION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily",
+          "Highest timeframe"
+        ],
+        "narrative_roles": [
+          "TIMEFRAME_SELECTION",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "TRADE_PREMISE_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOUR_HOUR_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "Four-hour"
+        ],
+        "narrative_roles": [
+          "TIMEFRAME_SELECTION",
+          "MID_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_PREMISE",
+        "confidence": 1,
+        "surface_terms": [
+          "trade premise"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "CONTEXTUALIZATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POSITION AND SWING TRADES",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3721",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Four-hour",
+          "One One-hour",
+          "Fifteen-minute",
+          "Five-minute charts",
+          "mid-level timeframe",
+          "three timeframes across the spectrum",
+          "across the spectrum for each trading model"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUALIZATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Market structure broken down"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Timing for entry",
+          "used for entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Trade management",
+          "profit-taking"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "determine directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_IDENTIFICATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "identifying early reversal signs"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM AND DAY",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3722",
+    "concepts": [
+      {
+        "canonical": "MULTIPLE_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "multiple timeframe market structure analysis",
+          "multiple timeframe market structure"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highest of the three timeframes",
+          "mid timeframes",
+          "shortest timeframe",
+          "daily chart",
+          "four-hour timeframe",
+          "one-hour",
+          "higher timeframe"
+        ],
+        "narrative_roles": [
+          "HIERARCHICAL_ANALYSIS",
+          "ENTRY_TIMING",
+          "TRADE_MANAGEMENT",
+          "DIRECTIONAL_BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "daily chart",
+          "four-hour timeframe",
+          "one-hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "TRADE_PREMISE_FORMATION",
+          "HIGH_PROBABILITY_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_PREMISE",
+        "confidence": 1,
+        "surface_terms": [
+          "trade premise"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "DIRECTIONAL_BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "timing purposes",
+          "entry timing"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "managed",
+          "management occurs"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trading",
+          "swing trade"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEYS TO MULTIPLE TIMEFRAME MARKET STRUCTURE ANALYSIS",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3723",
+    "concepts": [
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "key resistance level",
+          "Support/resistance trumps everything",
+          "key support/resistance levels",
+          "support/resistance"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_CONCEPT",
+          "CONTEXTUAL_ANALYSIS",
+          "LEVEL_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_AREA",
+          "GUIDING_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe",
+          "highest timeframe",
+          "daily and weekly charts"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Market profiles (trending, reversal, consolidation)",
+          "trending",
+          "reversal",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_STRUCTURE_ANALYSIS_AID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "FRAMEWORK_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bullish premise"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PRIMACY OF SUPPORT/RESISTANCE AND MARKET PROFILES",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3724",
+    "concepts": [
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "APPLYING TOP-DOWN ANALYSIS",
+          "zoom in from the monthly chart to the weekly and daily timeframes",
+          "top-down approach"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "BIAS_DETERMINATION",
+          "ALIGNMENT_WITH_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure",
+          "overall framework of price structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "DIRECTIONAL_BIAS",
+          "FRAMEWORK_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish scenario"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "implied resistance levels"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'gray area'",
+          "uncertainty during this period"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_ASPECT",
+          "RISK_MANAGEMENT",
+          "HOLDING_PERIOD_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING TOP-DOWN ANALYSIS AND NAVIGATING THE 'GRAY AREA'",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3725",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "resistance being broken"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "support being held"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "blowing out previous lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "mid-level or shorter-term timeframes"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_BUILDING",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH SCENARIOS",
+      "source_file": "ICT W.E.N.T. Series - Part 3 of 5_Handbook.chunks.json"
+    }
+  }
+]

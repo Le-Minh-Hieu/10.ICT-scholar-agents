@@ -1,0 +1,2590 @@
+[
+  {
+    "chunk_id": "chunk_592",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ZONE",
+          "SUPPLY_ZONE",
+          "PRICE_DELIVERY_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ZONE",
+          "DEMAND_ZONE",
+          "PRICE_DELIVERY_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gap higher when Sunday's gap opening",
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_OBJECTIVE",
+          "LIQUIDITY_ZONE",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "Sunday's gap opening",
+          "Friday's close"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "imbalances"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_OBJECTIVE",
+          "LIQUIDITY_VOID_FILLING",
+          "REBALANCE_OF_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "the midpoint"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_LEVEL",
+          "PRICE_REJECTION_POINT",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREVIOUS DAY'S ANALYSIS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_593",
+    "concepts": [
+      {
+        "canonical": "LAST_HOUR_MACRO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LAST HOUR MACRO",
+          "final hour macro",
+          "macro"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_BEHAVIOR_PATTERN",
+          "MARKET_ANOMALY",
+          "LIQUIDITY_ENGINEERING_PHASE"
+        ],
+        "temporal_tags": [
+          "last hour",
+          "final hour",
+          "middle part of the day",
+          "right after lunch"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ALGORITHMIC BEHAVIOR",
+          "algorithm",
+          "the algorithm uses certain elements"
+        ],
+        "narrative_roles": [
+          "MARKET_OPERATION",
+          "ORDER_FLOW_DRIVING_FORCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running for liquidity",
+          "moved allotment"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MICRO_MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small micro market structure"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "LOCAL_CONTEXT_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Fair Value Gap",
+          "15-minute Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_ZONE",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "9th of February",
+          "15-minute"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LAST HOUR MACRO AND ALGORITHMIC BEHAVIOR",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_594",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH MARKET STRUCTURE SHIFT",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "STANDARD DEVIATION",
+          "running standard deviation",
+          "standard deviations are noted here"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order Block",
+          "two down closed candles here"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "RETRACEMENT_TARGET",
+          "ENTRY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy side",
+          "Buy side's resting there",
+          "What's above here? Buy side",
+          "There's your Buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure",
+          "institutional market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "final hour macro"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "NY_CLOSE_WINDOW"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Mohawks"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FIB"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH MARKET STRUCTURE SHIFT AND STANDARD DEVIATION",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_595",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity",
+          "what liquidity is likely to provide"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINE",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY DRAW",
+          "the next draw"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low",
+          "short term low",
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "taking Buy side with this run",
+          "attacks the Sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute Fair Value Gap",
+          "Fair Value Gap",
+          "Small little Fair Value Gap",
+          "old Fair Value Gap",
+          "shaded area"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "PRICE_ACTION_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT",
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "15-minute"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "shift in market structure that's bearish counter trend",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATOR",
+          "BIAS_REVERSAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COUNTER_TREND_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COUNTER-TREND TRADING",
+          "bearish counter trend",
+          "buying and selling in the same day",
+          "trade without a bias"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "BIAS_CONTEXT",
+          "INTRA_DAY_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Consequent encroachment of that 15-minute Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFINEMENT",
+          "ENTRY_POINT_REFINEMENT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_ANALYSIS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "running your standard deviations from the high to that low"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "QUANTITATIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COUNTER-TREND TRADING AND LIQUIDITY DRAW",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_596",
+    "concepts": [
+      {
+        "canonical": "COUNTER_TREND_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "COUNTER-TREND TRADING"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY DRAW"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE_AREA",
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute time frame"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT",
+          "CHART_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COUNTER-TREND TRADING AND LIQUIDITY DRAW",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_597",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAP",
+          "Fairway Gap",
+          "imbalance or a Fair Value Gap",
+          "Fair Value"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint (consequent encroachment)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_QUADRANTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "upper quarter",
+          "midpoint",
+          "75% of the range",
+          "low",
+          "first quarter",
+          "high",
+          "quarter point",
+          "upper portion of it"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REACTION_LEVEL",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An Institutional Order Flow Entry Drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADING_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure on that candle"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy side resting above that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4130 and a half",
+          "target where it reaches for",
+          "41.50",
+          "41.50 and a quarter"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The algorithm can reach as far as"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Volume imbalance to the tick"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_LEVEL",
+          "IMBALANCE_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIMIT_ORDER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "their orders will fill because of the difference between the bid and the ask",
+          "that limit order you would potentially have there"
+        ],
+        "narrative_roles": [
+          "ENTRY_MECHANISM",
+          "EXIT_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "afternoon hourly last hour trading objective",
+          "The last minute of the last hour of trading"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [
+          "AFTERNOON",
+          "LAST_HOUR_OF_TRADING",
+          "LAST_MINUTE_OF_TRADING"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING FAIR VALUE GAP QUADRANTS FOR BULLISH/BEARISH BIAS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_598",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAP",
+          "NWOG",
+          "previous week New Week Opening Gap",
+          "Sunday's opening Gap",
+          "new week opening gaps"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "REBALANCING",
+          "LIQUIDITY_DRAW",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "Sunday's opening",
+          "Friday's close",
+          "New Week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "real Fair Value",
+          "real points of interest"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "REBALANCING",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "New Day Opening Gaps"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "REBALANCING",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "New Day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAP (NWOG)",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_599",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fair Value 15-minute time frame"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.98,
+        "surface_terms": [
+          "small little actual Gap on the daily chart",
+          "daily Gap",
+          "actual Gap there where there's no printed data at all",
+          "real liquidity void",
+          "range of that daily chart gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "LONG_TERM_TARGET",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Monday, August 22nd of 2022",
+          "August 19th of 2022"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs to inefficiencies",
+          "next upside draw",
+          "High is 4208.50"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PREDICTIVE_BIAS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ran Buy side here yet"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "LIQUIDITY_TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CPI hits",
+          "tsunami of price action comes in",
+          "CPI number today",
+          "if it can turn bullish today",
+          "if CPI turns"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_CATALYST",
+          "MARKET_STRUCTURE_SHIFT_CATALYST"
+        ],
+        "temporal_tags": [
+          "today"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-CPI TRADING STRATEGY AND DAILY CHART GAP",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_600",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "INITIAL CPI PRICE ACTION",
+          "CPI number",
+          "CPI Release"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [
+          "February 14, 2023",
+          "CPI Release"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ATTRACTION",
+          "SUPPORT/RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taken Buy side out",
+          "Buy side liquidity pool for ES was just a raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "piercing that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "February 9th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY INFLUENCE",
+          "Dollar Index",
+          "DX"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL CPI PRICE ACTION AND DXY INFLUENCE",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_601",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "cleared out Buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "non-farm payroll",
+          "CPI number",
+          "8:30 CPI number",
+          "NFP event"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY_DRIVER",
+          "PRICE_MANIPULATION_CONTEXT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "CPI_RELEASE",
+          "8_30_AM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "low in this high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of this wick"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_LEVEL",
+          "REFERENCE_POINT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "opening at 9:30",
+          "opening bell rings at 9:30 New York time"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_ENGINEERING_START"
+        ],
+        "temporal_tags": [
+          "9_30_AM",
+          "NY_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "SUPPORT_LEVEL",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "REBALANCING_LEVEL",
+          "RETRACEMENT_TARGET",
+          "PRICE_INEFFICIENCY",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-CPI MICRO ANALYSIS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_602",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "LEVEL_OF_INTEREST",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "9:30",
+          "bell hasn't rang yet"
+        ],
+        "narrative_roles": [
+          "SESSION_OPEN",
+          "LIQUIDITY_GENERATION_POINT"
+        ],
+        "temporal_tags": [
+          "9:30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRE_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "pre-session"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_PHASE",
+          "NARRATIVE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM_PRE"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run on that 41.70"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "watching that dollar"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "non-farm payroll",
+          "this type of event",
+          "those days",
+          "NFP event"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "RISK_MANAGEMENT_CONTEXT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "CPI_RELEASE_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "good day for a lot of people to lose money",
+          "hurt you",
+          "trade every other day and not trade those days"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EFFICIENT_PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Efficiency, meaning that this is as far as you would want to see it"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "PRICE_BEHAVIOR_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-CPI MICRO ANALYSIS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_603",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy side",
+          "Sell side",
+          "both sides Buy side and Sell side",
+          "liquidity at 1.2130",
+          "liquidity at 1.2135",
+          "Sell side below that",
+          "1.2135 Sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run back up into its Gap",
+          "Gap",
+          "separation between that"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [
+          "Monday 1900",
+          "Monday 1800"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "cleared out itself side",
+          "taken out like three different levels of short-term lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_DRIVER",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.8,
+        "surface_terms": [
+          "too smooth"
+        ],
+        "narrative_roles": [
+          "DECEPTION",
+          "TRAP_SETTING",
+          "ANTICIPATION_OF_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_604",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "Cable was unwilling to make that lower low",
+          "relationship between your 15-minute time frame lows"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRE_MARKET_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PRE-MARKET RANGE",
+          "inside this range"
+        ],
+        "narrative_roles": [
+          "PRICE_CONSOLIDATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Euro Dollar and Cable",
+          "confirmation in dollar that would support lower dollar",
+          "higher prices on foreign currency",
+          "Bonds are still not any help at all",
+          "Dollar Index and NASDAQ and Forex",
+          "measuring risk on risk off across a wide array of different instruments",
+          "using the bond market as well",
+          "five year, the 10-year and the 30-year",
+          "looking for divergences in their yields"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "RISK_ASSESSMENT",
+          "CONFIRMATION_OR_NEGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30 opening bell for equities"
+        ],
+        "narrative_roles": [
+          "SESSION_OPEN",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RISK_ON_RISK_OFF_DYNAMICS",
+        "confidence": 1,
+        "surface_terms": [
+          "A higher dollar is risk off",
+          "equities and foreign currencies to drop",
+          "measuring risk on risk off"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "MARKET_SENTIMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "41.70 and a quarter level for ES"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LACK_OF_ENTRY_STRUCTURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "no point for me to work with as a turning point intraday"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE AND PRE-MARKET RANGE",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_605",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "INDICES SMT DIVERGENCE",
+          "SMT",
+          "NASDAQ failed to make a lower level as Dow did",
+          "So that's Divergence",
+          "Smart Money Technique",
+          "Smart Money Tool"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "MARKET_SENTIMENT_INDICATOR"
+        ],
+        "temporal_tags": [
+          "February 14th",
+          "08:38",
+          "near term",
+          "very short term"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDICES SMT DIVERGENCE (YM, NQ, ES)",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_606",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Gap here",
+          "Fair Value Gap",
+          "Fairway Gap",
+          "Fairbank apps",
+          "shaded area",
+          "shaped area",
+          "that Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "DIRECTIONAL_BIAS",
+          "PRICE_ACTION_READING",
+          "INVALIDATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_MIDPOINT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint",
+          "midpoint between that",
+          "midpoint from consequent encroachment to the high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_HIGH_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "high of it",
+          "high of the Fairway Gap",
+          "Fair Value Gap high",
+          "the high in that little bit of a range"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "INVALIDATION_LEVEL",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_LOW_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "below the Fair Value Gap",
+          "the low outside of that Gap"
+        ],
+        "narrative_roles": [
+          "INVALIDATION_LEVEL",
+          "STOP_LOSS_PLACEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence",
+          "USDX SMT diversion"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PREDICTIVE_TOOL",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_HUNT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "chopping up, getting people in, getting people stopped out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION_INDICATION",
+          "VOLATILITY_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_EVENT",
+          "MARKET_VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "CPI_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_AM_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first part of this morning",
+          "after 9:30",
+          "before we get to 9:30",
+          "9:30"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "MARKET_PHASE_INDICATION",
+          "CONTEXTUAL_SETTING"
+        ],
+        "temporal_tags": [
+          "9:30_AM_EST"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT_RULES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop loss",
+          "kill it",
+          "procedures and processes",
+          "rules",
+          "rules of engagement",
+          "know what you're looking for, what you don't want to see",
+          "routine",
+          "written down",
+          "understood"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "DISCIPLINE_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "enter there",
+          "use that also as an entry"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES FOCUS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_607",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "shaded Fair Value Gap",
+          "small little gap between these two candles",
+          "shaded blue area, which is that Gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "PRICE_MAGNET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encroachment",
+          "consequent correction"
+        ],
+        "narrative_roles": [
+          "MITIGATION",
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "previous week New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "PRICE_MAGNET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Sell stops below that",
+          "Sell side below here",
+          "orders below here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES FOCUS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_608",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Fair Value Gaps",
+          "Gap",
+          "sphere Bay Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "SUPPORT_RESISTANCE",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalances",
+          "Imbalances",
+          "Buy side imbalances",
+          "inefficiencies",
+          "Sell side imbalance",
+          "Buy side inefficiencies",
+          "small imbalance",
+          "imbalanced"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "PRICE_DELIVERY",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encouragement",
+          "consequent encroachment",
+          "midpoint between the high and consequent encouragement",
+          "constant encouragement of the wick"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_POINT",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RECLAIMED_FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reclaimed Fair Value Gap",
+          "resistance broken turn support"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "FLIP_ZONE",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejection block",
+          "highest up close closing price here"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET_LEVEL",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Sell side below these lows",
+          "Sell side's been tagged here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "clean up the Sell side below these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ORDER_FLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING FAIR VALUE GAP BOUNDARIES AND TAPE READING",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_609",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "DEFINING FAIR VALUE GAP BOUNDARIES",
+          "Small little Gap in here",
+          "treat this as an area to watch and see if it supports it to take us back up into this",
+          "if it rejects it and goes lower"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ACTION_OBSERVATION",
+          "SETUP_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_POINT",
+          "POTENTIAL_CONTINUATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TAPE_READING",
+        "confidence": 1,
+        "surface_terms": [
+          "TAPE READING",
+          "it's tape reading"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY",
+          "INSIGHT_GENERATION",
+          "SETUP_IDENTIFICATION",
+          "GRANULAR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STATE_CHOP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stuck in this chop"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "AVOIDANCE_STRATEGY",
+          "UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "wait until 9:30"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_EXPECTATION",
+          "VOLATILITY_EXPECTATION",
+          "ENTRY_TIMING_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETEST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Retest back to that theory that you got low, the blue shaded area"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "ENTRY_CONFIRMATION",
+          "VALIDATION_OF_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING FAIR VALUE GAP BOUNDARIES AND TAPE READING",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_610",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "orders would be resting below old lows",
+          "above old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "previous New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side",
+          "pound dollar 1.2135 Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "consequent encroachment midpoint"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_TARGET",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAPPED_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "cleared Buy side traders are at that point trapped net long"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [
+          "CPI_RELEASE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish SMT"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_INDICATOR",
+          "ENTRY_CONFIRMATION_INVALIDATION"
+        ],
+        "temporal_tags": [
+          "FEBRUARY_9TH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "LIQUIDITY_TARGET",
+          "PRICE_REBALANCING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish on the day"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_OPENING_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "New York Opening Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "MARKET_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TAPE READING",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_611",
+    "concepts": [
+      {
+        "canonical": "TAPE_READING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TAPE READING"
+        ],
+        "narrative_roles": [
+          "REAL_TIME_ANALYSIS",
+          "INTENT_INTERPRETATION",
+          "SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "framing a narrative"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bias for the session"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TAPE READING",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_612",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "better value Gap",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TARGET",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "1.2130 Sell side",
+          "Sell side liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "drawing liquidity",
+          "draw to get to the Sell side liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "1.2130",
+          "1.2135",
+          "1.2110",
+          "1.2108 and a half level",
+          "lower quarter level",
+          "41.37 and a quarter level",
+          "41.35 and a quarter",
+          "midpoint",
+          "low"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_TARGET",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "previous week's New Week Opening Gap",
+          "old New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "PRICE_ANCHOR",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "previous week",
+          "New Week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "February 13th",
+          "9:45 candle",
+          "09:45"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [
+          "February 13th",
+          "9:45"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET RELATIONSHIPS AND NARRATIVE BUILDING",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_613",
+    "concepts": [
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERPRETING OPENING GAPS",
+          "gap lower",
+          "difference between that",
+          "Gap Band opening"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "BIAS_FORMATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERPRETING OPENING RANGE",
+          "opening range",
+          "first 30 minutes",
+          "30 minute time window"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "BIAS_FORMATION",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "9:30 to traditionally about 10 o'clock",
+          "30 minutes"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_SESSION_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "yesterday that session closed",
+          "yesterday's closing price",
+          "previous session close",
+          "where we closed yesterday",
+          "41.50 and a quarter"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "FAIR_VALUE_REFERENCE",
+          "TARGET_LEVEL",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "15 minutes after four"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "GAP_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market will likely pull up and try to gravitate towards that",
+          "get back to the previous session close",
+          "reprice back to that level",
+          "willingness to want to see the algorithm reprice back to that level",
+          "interest for us to reprice back up to the previous session close",
+          "getting back to where we were yesterday"
+        ],
+        "narrative_roles": [
+          "MARKET_EFFICIENCY",
+          "PRICE_REBALANCING",
+          "LIQUIDITY_SEEKING",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "first 30 minutes"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "MARKET_EFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "frame a bias",
+          "extremely bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERPRETING OPENING GAPS AND OPENING RANGE",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_614",
+    "concepts": [
+      {
+        "canonical": "MARKET_OPEN_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING BELL",
+          "Opening bell's ringing"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "VOLATILITY_INITIATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "breached that on ES",
+          "low end of that shaded area",
+          "41.22 and a quarter"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fair Value Gap",
+          "sphere Vega",
+          "Gap closure"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "SUPPORT_RESISTANCE",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [
+          "yesterday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_RELATIONSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "inter-market relationships",
+          "Dollar Index",
+          "weight of Forex",
+          "Risk on, risk off"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "MARKET_CONTEXT",
+          "CATALYST"
+        ],
+        "temporal_tags": [
+          "this morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "February 9th low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SWING_LOW_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "February 9th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "turtle soup scenario",
+          "Going down there and rejecting it",
+          "reject"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SWEEP",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING BELL PRICE ACTION AND INITIAL TARGETS",
+      "source_file": "February 14, 2023 ES Live Commentary CPI Release_Handbook.chunks.json"
+    }
+  }
+]

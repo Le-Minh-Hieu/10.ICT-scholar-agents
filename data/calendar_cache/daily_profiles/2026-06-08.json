@@ -1,0 +1,201 @@
+{
+  "profile_date_utc": "2026-06-08T06:34:41.874Z",
+  "market_date": "2026-06-08",
+  "market_weekday": "Monday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-08",
+  "source_week_profile_id": "2026-06-08",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.4
+      },
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      },
+      {
+        "currency": "GBP",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.25
+  },
+  "daily_bias": {
+    "daily_bias": "neutral",
+    "confidence": 0,
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [],
+    "source": "calendar"
+  },
+  "day_type": "Pre-Catalyst Indecision",
+  "day_confidence": 0.25,
+  "day_role_in_week": "Pre-Catalyst Indecision",
+  "weekly_alignment_state": "Monday is characterized by a neutral daily bias against an overarching bearish weekly bias. The market is in a pre-catalyst phase, awaiting high-impact inflation data mid-week. Therefore, the day is unlikely to show strong alignment with the expected bearish weekly expansion, instead favoring subdued activity or manipulation.",
+  "dominant_weekly_theme": "Inflationary Catalyst with Bearish Weekly Profile",
+  "dominant_weekly_narrative": "The week is anchored by a bearish bias, primarily driven by persistent inflation concerns as indicated by the INFLATION bucket score. High-impact US CPI and PPI data on Wednesday and Thursday are anticipated to be market-defining catalysts, expected to bring significant 'carnage' and sharp directional moves. The initial part of the week (Monday and Tuesday) is likely to see subdued activity or potential manipulation as markets await these critical inflation reports, setting up a potential 'Wednesday High of the Week' scenario. While inflation drives the overall bearishness for risk assets, it is also identified as a bearish driver for the USD itself, creating a nuanced and potentially conflicting outlook for the dollar compared to its typical response to rising inflation expectations. The low confidence score for the overall bias, coupled with ICT's explicit warnings about CPI week unpredictability, underscores the need for extreme caution and acknowledgement of high volatility.",
+  "weekly_delivery_model": "Early week consolidation and build-up leading to a Wednesday High of the Week, followed by sustained bearish expansion driven by high-impact inflation reports.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": null,
+  "expected_expansion_day": "Wednesday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "routine liquidity conditions"
+    ],
+    "expected_liquidity_sequence": [],
+    "high_attention_windows": [],
+    "expected_displacement_windows": [],
+    "expected_reversal_windows": []
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:Pre-Catalyst Indecision",
+      "weekly_model:Early week consolidation and build-up leading to a Wednesday High of the Week, followed by sustained bearish expansion driven by high-impact inflation reports.",
+      "dominant_theme:Inflationary Catalyst with Bearish Weekly Profile"
+    ],
+    "queries": [
+      "Monday daily profile intraday ICT",
+      "Monday Pre-Catalyst Indecision ICT weekly delivery model"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_232",
+      "chunk_1927",
+      "chunk_1085",
+      "chunk_1944",
+      "chunk_139",
+      "chunk_1945",
+      "chunk_42",
+      "chunk_863",
+      "chunk_291",
+      "chunk_308",
+      "chunk_797",
+      "chunk_29",
+      "chunk_3561",
+      "chunk_283",
+      "chunk_827",
+      "chunk_3339",
+      "chunk_3523",
+      "chunk_509",
+      "chunk_391",
+      "chunk_3257",
+      "chunk_3931",
+      "chunk_1726",
+      "chunk_1431",
+      "chunk_368",
+      "chunk_552",
+      "chunk_3674",
+      "chunk_1597",
+      "chunk_1419",
+      "chunk_3621",
+      "chunk_285",
+      "chunk_128",
+      "chunk_3556",
+      "chunk_855"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Weekly Profile Analysis",
+        "chunk_id": "chunk_1927",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Range Expansion",
+        "chunk_id": "chunk_863",
+        "relevance": null
+      },
+      {
+        "concept": "Daily Bias & Higher Timeframe Alignment",
+        "chunk_id": "chunk_797",
+        "relevance": null
+      },
+      {
+        "concept": "Caution Reiteration",
+        "chunk_id": "chunk_1085",
+        "relevance": null
+      },
+      {
+        "concept": "ICT Ma Deuce Model (News Delivery)",
+        "chunk_id": "chunk_1944",
+        "relevance": null
+      },
+      {
+        "concept": "ICT Ma Deuce Model (Inversion FVG & Inefficiency)",
+        "chunk_id": "chunk_1945",
+        "relevance": null
+      },
+      {
+        "concept": "Price Delivery in New York Session",
+        "chunk_id": "chunk_291",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Monday is projected as a day of Pre-Catalyst Indecision. The overall weekly theme is bearish due to persistent inflation concerns, with Wednesday and Thursday's CPI and PPI data expected to be market-defining catalysts bringing significant volatility. However, Monday and Tuesday are likely to see subdued activity or potential manipulation as the market positions itself. The low confidence in both daily and weekly biases, coupled with ICT's warnings about CPI week unpredictability, mandates extreme caution and an acknowledgment that this day's action is unlikely to reveal the week's true directional expansion.",
+    "key_if_then_paths": {
+      "IF_subdued_consolidation_persists": "THEN the 'Pre-Catalyst Indecision' role is confirmed, aligning with the expectation of markets awaiting mid-week catalysts. Focus remains on observing internal range development.",
+      "IF_unexpected_sharp_moves_occur_without_catalyst": "THEN this could be interpreted as 'potential manipulation' as per the dominant narrative, clearing liquidity ahead of the main event, but not necessarily signaling the weekly direction."
+    },
+    "invalidation_conditions": "A clear, sustained, and significant directional expansion on Monday, especially one that decisively breaks major daily or weekly structural levels, would invalidate the 'Pre-Catalyst Indecision' role and the expectation of early-week subdued activity. Such a move without any associated catalysts would be highly unusual given the current context."
+  },
+  "intraday_awareness": {
+    "session_focus": "The primary focus for Monday should be observation, patience, and avoiding aggressive directional plays. Attention should be on identifying consolidation patterns, potential minor liquidity sweeps, and monitoring for any signs of 'manipulation' or 'false moves' as the market awaits the true catalysts later in the week. Given the 'Pre-Catalyst Indecision' role, there are no specific catalysts to react to.",
+    "catalyst_priorities": [],
+    "caution_flags": [
+      "Low confidence score (0.25) for the overall weekly bias and 0 confidence for the daily bias.",
+      "ICT's explicit warnings about CPI week unpredictability.",
+      "Expectation of 'extreme caution' and 'high volatility' for the week.",
+      "Anticipation of 'subdued activity or potential manipulation' on Monday and Tuesday.",
+      "The nuanced and potentially conflicting outlook for the USD due to inflation being a bearish driver for the dollar itself."
+    ],
+    "execution_risk_context": "Execution risk is high due to the 'Pre-Catalyst Indecision' nature of the day, low confidence in daily direction, and the explicit warnings of 'subdued activity or potential manipulation'. The market is in a holding pattern ahead of major catalysts, which increases the likelihood of choppy, non-committal price action or liquidity grabs that do not lead to sustained moves. Aggressive directional trading is not advisable."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-08T06:34:45.736Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-08T06:35:12.893Z",
+  "version": 1
+}

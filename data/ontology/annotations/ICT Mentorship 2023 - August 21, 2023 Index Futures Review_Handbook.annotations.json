@@ -1,0 +1,958 @@
+[
+  {
+    "chunk_id": "chunk_1658",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell Side Imbalance Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_INEFFICIENCY",
+          "DRAW_ON_LIQUIDITY",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment"
+        ],
+        "narrative_roles": [
+          "MIDPOINT",
+          "MITIGATION_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "KEY_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P 500 DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1659",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_RELIQUIFICATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Buy Side Reliquification"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_LOWER_LOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "lower low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_INDICATION",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "daily Sell Side Imbalance Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.98,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REVERSAL_ZONE",
+          "ENTRY_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P 500 HOURLY CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1660",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking its perspective buy side",
+          "draw up into that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PREDICTIVE_BIAS",
+          "EXPECTED_MOVE"
+        ],
+        "temporal_tags": [
+          "tonight",
+          "tomorrow"
+        ],
+        "session_tags": [
+          "ASIA",
+          "LONDON_AM",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ HOURLY CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1661",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher low formed",
+          "respective lows"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "2 AM",
+          "11 AM"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ HOURLY CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1662",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "up-close candle",
+          "Draw that through all this mess",
+          "X-ray view on price",
+          "sensitivity"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_SENSITIVITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high",
+          "lower low"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ HOURLY CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1663",
+    "concepts": [
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-MINUTE CHART",
+          "daily chart",
+          "lower time frame",
+          "daily"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "transitions from one time frame to the next",
+          "transposed from the daily chart down to the lower time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Consequent Encroachment",
+          "midpoint"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE",
+          "REJECTION_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_LEVEL_OR_RANGE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pink box",
+          "daily"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "REFERENCE_POINT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTRUMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "S&P",
+          "NASDAQ"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUNDARY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high end of its range"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_TARGET",
+          "REJECTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "15-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1664",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "attacked the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_VALIDATION",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 15-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1665",
+    "concepts": [
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "5-MINUTE CHART",
+          "five-minute chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily inefficiency",
+          "Sell Side Imbalance Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_REACTION_ZONE",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1666",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_DELIVERY_CATALYST",
+          "TRADE_INITIATION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "second exit or short"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_EXIT",
+          "TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 5-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1667",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out the high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "2 o'clock"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The stop would be below that candle"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_POI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "falls short of the high",
+          "This high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PRICE_TARGET",
+          "CONTEXTUAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "go back up one time frame",
+          "two time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 5-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1668",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiencies",
+          "NASDAQ's daily inefficiency"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "PRICE_REACTION",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUEUNT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION",
+          "BREAKOUT_SIGNAL",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish",
+          "bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "intraday basis"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "INDECIISION"
+        ],
+        "temporal_tags": [
+          "intraday basis"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET OUTLOOK",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1669",
+    "concepts": [
+      {
+        "canonical": "MACRO_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "longer term short on the daily chart",
+          "Macro Short"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trading models"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE_CLASSIFICATION",
+          "EXPECTED_HOLDING_PERIOD"
+        ],
+        "temporal_tags": [
+          "take a little bit of time to develop"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INDUCEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "series of up-close candles form before the actual setup forms"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP_FORMATION",
+          "PRE_SETUP_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET OUTLOOK",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1670",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "down-closed candle here that's shaded",
+          "bearish breaker",
+          "the high and the low, that down-closed candle, extend that through, that's your bearish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "REFERENCE_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1671",
+    "concepts": [
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "get taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [
+          "in the afternoon"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1672",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running up as a Judas"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sell side of the curve"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1673",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "POTENTIAL_TARGET",
+          "MAGNET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Inversion Fair Value"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily Sell Side Imbalance Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "MAGNET_FOR_PRICE",
+          "POTENTIAL_TARGET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1674",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "daily inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_MAGNET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Inversion Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "SUPPORT_RESISTANCE_FLIP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1675",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "half of this inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "TARGET_AREA",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 1-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 21, 2023 Index Futures Review_Handbook.chunks.json"
+    }
+  }
+]

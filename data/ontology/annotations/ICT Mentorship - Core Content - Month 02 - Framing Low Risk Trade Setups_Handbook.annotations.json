@@ -1,0 +1,269 @@
+[
+  {
+    "chunk_id": "chunk_1556",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame",
+          "lower time frame",
+          "higher time frame levels to lower time frame charts"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "SETUP_REFINEMENT",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "STRATEGIES FOR LOWERING TRADE RISK",
+          "lower the risk in a trade",
+          "Reducing overall exposure",
+          "lower risk"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pips for stop losses",
+          "Smaller stop-loss placement",
+          "stop losses"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGIES FOR LOWERING TRADE RISK",
+      "source_file": "ICT Mentorship - Core Content - Month 02 - Framing Low Risk Trade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1557",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "old low",
+          "price trades below it",
+          "area below the old low contains sell stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_INITIATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Turtle Soup long setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP_PATTERN",
+          "REVERSAL_PATTERN",
+          "FAKE_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block (a down candle)",
+          "this particular bullish order block",
+          "midpoint of this down candle up to its high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_REVERSAL_POINT",
+          "SMART_MONEY_FOOTPRINT",
+          "MITIGATION_BLOCK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "REFINING RISK WITH A 15-MINUTE TIME FRAME",
+          "15-minute time frame",
+          "hourly chart",
+          "utilizing the 15-minute time frame for refinement"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ENTRY_REFINEMENT",
+          "CONFLUENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "smart money buy orders"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ORDER_FLOW",
+          "OPPORTUNITY_EXPLOITATION",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING RISK WITH A 15-MINUTE TIME FRAME",
+      "source_file": "ICT Mentorship - Core Content - Month 02 - Framing Low Risk Trade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1558",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bullish order block"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "SUPPORT",
+          "ENTRY_ANCHOR"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "down candle is subsequently violated"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_REFINEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "refining the entry",
+          "refined entry",
+          "target the open, high, or midpoint of this down candle",
+          "place an entry",
+          "7542 entry level"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_REDUCTION",
+          "PRECISION_ENTRY"
+        ],
+        "temporal_tags": [
+          "5-MINUTE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss still at 757",
+          "stop of less than 10 pips",
+          "8-pip risk",
+          "ultra-short stop-losses"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REWARD_TO_RISK_RATIO",
+        "confidence": 1,
+        "surface_terms": [
+          "multiple of three R",
+          "3:1 reward ratio"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TARGETING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial buy stops framed on the hourly chart"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "HOURLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "thorough understanding of price action",
+          "why it should respond at these specific levels"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_UNDERSTANDING",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE TIME FRAME",
+      "source_file": "ICT Mentorship - Core Content - Month 02 - Framing Low Risk Trade Setups_Handbook.chunks.json"
+    }
+  }
+]

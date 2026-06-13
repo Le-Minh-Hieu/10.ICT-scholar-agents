@@ -1,0 +1,173 @@
+[
+  {
+    "chunk_id": "chunk_3000",
+    "concepts": [
+      {
+        "canonical": "IPTA_TRUE_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "IPTA True Day",
+          "interbank 24-hour cycle",
+          "definitive beginning and ending of an interbank 24-hour cycle"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_DEFINITION",
+          "TIME_BASED_FRAMEWORK",
+          "DAILY_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "12:00 AM (midnight)",
+          "3:00 PM",
+          "Every day",
+          "24-hour"
+        ],
+        "session_tags": [
+          "NEW_YORK_LOCAL_TIME"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE IPTA TRUE DAY",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Defining The Daily Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3001",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close"
+        ],
+        "narrative_roles": [
+          "DAILY_RANGE_FORMATION",
+          "LIQUIDITY_REFERENCE",
+          "TIME_BASED_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE_TIME"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York close",
+          "IPTA True Day close"
+        ],
+        "narrative_roles": [
+          "DAILY_RANGE_FORMATION",
+          "DAILY_BIAS_REFERENCE",
+          "TIME_BASED_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "3:00_PM_NY"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FOMC",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "interest rate announcements",
+          "FOMC minutes"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "VOLATILITY_DRIVER",
+          "MACRO_EVENT_INFLUENCE"
+        ],
+        "temporal_tags": [
+          "2:00_PM_NY_TO_3:00_PM_NY"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "IPTA_TRUE_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "IPTA True Day"
+        ],
+        "narrative_roles": [
+          "DAILY_RANGE_DEFINITION",
+          "MARKET_STRUCTURE_DEFINITION",
+          "TIME_BASED_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_NY",
+          "3:00_PM_NY"
+        ],
+        "session_tags": [
+          "FULL_DAY"
+        ]
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily range",
+          "daily range open, high, low, and close"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "TRADING_FRAMEWORK",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "FULL_DAY"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "LIQUIDITY_BUILDUP",
+          "MARKET_PAUSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON CLOSE, NEW YORK CLOSE, AND FOMC INFLUENCE",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Defining The Daily Range_Handbook.chunks.json"
+    }
+  }
+]

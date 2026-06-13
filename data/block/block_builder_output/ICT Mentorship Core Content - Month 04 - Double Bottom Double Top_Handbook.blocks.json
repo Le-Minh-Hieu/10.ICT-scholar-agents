@@ -1,0 +1,38 @@
+[
+  {
+    "section_title": "INTRODUCTION TO DOUBLE TOPS AND BOTTOMS",
+    "content": "This teaching focuses specifically on double tops and bottoms within the ICT Mentorship content. We will\nbegin by discussing measured moves, clean highs, and clean lows in price action.\nLooking at a drop in price with relatively equal highs, there is a reoccurring phenomenon of measured\nmoves in the marketplace. For instance, a price swing projected upwards can give a close approximation to\na future high level."
+  },
+  {
+    "section_title": "ICT'S BLEND OF INSTITUTIONAL AND RETAIL PERSPECTIVES",
+    "content": "As a developing trader, ICT blended institutional and retail trading concepts. This involved understanding\nthat price would run stops above highs and below lows. By integrating these insights with price delivery and\nobserving patterns like double tops, specific market behaviors became apparent.\nWhen two highs are in close proximity, indicating a double top, price often shows a willingness to go lower.\nThe focus then shifts to identifying liquidity pools and ranges above and below such consolidations."
+  },
+  {
+    "section_title": "IDENTIFYING LIQUIDITY VOIDS AND ORDER BLOCKS",
+    "content": "To understand potential price movements, it is crucial to delineate liquidity pools and ranges. For example,\nidentify specific candle opens and highs to define a range. In a scenario with predominantly sell-side\ndelivery below a certain candle, a liquidity void (or gap) exists.\nConversely, a fair value gap can be identified lower down, alongside a bullish order block. A bullish order\nblock is typically the last down candle before a significant up move, with its open being a key reference\npoint. Mapping out these elements on both sides of the market allows for building reasonable expectations\nfor price action."
+  },
+  {
+    "section_title": "CONTRASTING RETAIL AND INSTITUTIONAL TRADING SCENARIOS",
+    "content": "The retail trading universe typically views a double top as resistance, prompting short positions with\nprotective buy stops placed above these highs. They would anticipate price to trade down to previous\nsupport levels.\nFrom an institutional perspective, the understanding is that buy stops are accumulated above the double\ntop. The market maker might initially drive price lower to:\n- Close a fair value gap.\n- Hit a bullish order block.\nAfter achieving this, price is then expected to rally to clear out the buy stops above the double top.\nAlternatively, the market might trade up into a liquidity void to close it, then trade lower to close a fair value\ngap or hit a bullish order block."
+  },
+  {
+    "section_title": "EXECUTING THE DOUBLE TOP LIQUIDITY RUN",
+    "content": "In a typical scenario, if the market starts to break down, it will first seek sell-side liquidity. This means\ndropping into areas like a fair value gap or a bullish order block. Following this, the expectation is for the\nequal highs (double top) to be 'blown out' as price moves to clear buy stops and reach into a liquidity void.\nExample sequence:\n- Market drops, hitting a bullish order block, showing willingness to rally.\n- The double top is then breached, and buy stops are liquidated.\n- Price focuses on closing the liquidity void, precisely trading up to the opening of a specific bearish order\nblock candle, sometimes to the pip. The high of the candle often matches the open of the bearish order\nblock candle that preceded the down move.\nThis demonstrates a double top buy stop liquidity run up into a liquidity void to a bearish order block,\nfollowed by a run on liquidity below previous lows."
+  },
+  {
+    "section_title": "MEASURED MOVES AND MOMENTUM DIVERGENCE",
+    "content": "Consider another double top. Price trading down into a bullish order block (the last down candle before an\nup move) presents a buying opportunity. Retail traders perceive this double top as resistance and place\nprotective buy stops above it, anticipating a sell-off.\nHowever, from an institutional view, price will aim to go beyond this 'resistance'. The extent of this move can\nbe projected by measuring the distance from the high of the double top down to the low between the two\npeaks. This measurement is then projected upwards from the double top to determine the algorithmic\nobjective.\nOften, momentum divergence will be observed at the level of old resistance (the double top), deceiving\nretail traders into selling, while the market is primed to hit the projected measured move objective, running\nbuy stops. The market rallies, trades through, sometimes hitting the objective within one pip, then a\nsubsequent down move runs out liquidity below lows."
+  },
+  {
+    "section_title": "MEASURED MOVES AND ALGORITHMIC OBJECTIVES",
+    "content": "Now, let's apply the concept to a double bottom. Retail traders perceive a double bottom as support,\nexpecting price to rally away. Consequently, sell stops will accumulate below these lows.\nTo determine the algorithmic objective for a move through a double bottom, measure the distance from the\nhigh between the two troughs down to the low of the double bottom. This range is then projected\ndownwards from the double bottom. This projection provides the specific price level where the algorithm\nwill seek to expand and take out downside liquidity.\nAfter hitting this objective, subsequent price action often shows a reaction back up towards the double top\nreference point, illustrating how the algorithm references these past price points."
+  },
+  {
+    "section_title": "UNDERSTANDING ALGORITHM BEHAVIOR WITH DOUBLE TOPS/BOTTOMS",
+    "content": "A crucial insight is that the algorithm inherently understands and remembers double top and double bottom\nreference points, even if significant time has passed. It uses these consolidation areas to make projections,\nexpanding price action above and below these zones. This algorithmic behavior explains the characteristic\n'spike reversals' observed in the marketplace and the subsequent price reactions.\nKey Principles:\n- Never trust double bottoms and double tops as absolute support or resistance.\n- Market makers and the interbank algorithm will run through old highs and lows to clear liquidity (sell stops\nbelow, buy stops above).\n- High probability trading occurs at the extreme ends of a range, while the middle of the range presents low\nprobability setups."
+  },
+  {
+    "section_title": "PRACTICAL APPLICATION AND TIMEFRAME CONSIDERATIONS",
+    "content": "Going forward, consistently highlight double top and double bottom areas on your charts. These provide\nlaser-guided precision levels where price will intentionally drive through to clear buy stops (above) or sell\nstops (below).\nConsiderations for application:\n- Timeframes: While 15-minute or 5-minute charts might show 10-20 pip stop runs, higher timeframes like\nthe hourly chart demand a different approach. The algorithm uses these double top/bottom reference\npoints for larger moves, with ranges potentially expanding significantly (e.g., 48 pips) based on the\nconsolidation movement.\n- Clean Levels: Focus on identifying 'clean' levels. Even if there isn't an immediate trade, this information\nprovides valuable insight for future price movements, especially when price eventually runs through such\nlevels and reverses, signaling the next liquidity target (e.g., cell stops after buy stops are taken).\nThis phenomenon is observable across all timeframes. Practice identifying it to enhance your trading\ninsights."
+  }
+]

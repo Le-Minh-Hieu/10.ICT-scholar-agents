@@ -1,0 +1,1003 @@
+[
+  {
+    "chunk_id": "chunk_975",
+    "concepts": [
+      {
+        "canonical": "TRADE_PLAN",
+        "confidence": 1,
+        "surface_terms": [
+          "trade plan",
+          "trading plan"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_FRAMEWORK",
+          "METHODOLOGY_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNIVERSAL TRADE PLAN STAGES OVERVIEW",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_976",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 1,
+        "surface_terms": [
+          "medium and high impact events",
+          "events on the week to come",
+          "calendar events"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GENERATION",
+          "CATALYST_FOR_PRICE_ACTION",
+          "MARKET_BIAS_INFLUENCER"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "week to come"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXT_SETTING",
+          "PRICE_ACTION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific weekly profile",
+          "that week's range"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "EXPECTED_RANGE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 1: PREPARATION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_977",
+    "concepts": [
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "highest high",
+          "lowest low",
+          "past 20 trading days",
+          "current dealing range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "RANGE_IDENTIFICATION",
+          "STRUCTURAL_REFERENCE",
+          "PRE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "20_TRADING_DAYS"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HISTORICAL_DATA_ANALYSIS_SCOPE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "IPA data range",
+          "last 20, 40, and 60 days",
+          "We do not count Sundays",
+          "universal trade model",
+          "multiple time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "METHODOLOGY_GUIDANCE",
+          "PRE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "20_DAYS",
+          "40_DAYS",
+          "60_DAYS",
+          "SUNDAYS_EXCLUSION"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 1: PREPARATION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_978",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "20-day look back",
+          "40-day",
+          "60-day",
+          "define the last 20, 40, and 60 trading days",
+          "determine that range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRICE_RANGE_DEFINITION",
+          "PRE-ANALYSIS"
+        ],
+        "temporal_tags": [
+          "20-day",
+          "40-day",
+          "60-day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUNDARIES",
+        "confidence": 1,
+        "surface_terms": [
+          "The highest high",
+          "the lowest low"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "premium and discount PD array Matrix",
+          "splitting that range in half",
+          "premium and discount",
+          "discount ranges"
+        ],
+        "narrative_roles": [
+          "TRADE_LOCATION_IDENTIFICATION",
+          "PRICE_BIAS_DETERMINATION",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 1: PREPARATION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_979",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity",
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST_IDENTIFICATION",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly range bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker buy and sell models",
+          "market maker buy model"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_FRAMEWORK",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "original consolidation",
+          "premium consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_POOL_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VALUATION_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "discount market",
+          "discount",
+          "premium"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_CRITERIA",
+          "MARKET_CYCLE_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 1: PREPARATION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_980",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "RESISTANCE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONVICTION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic event found on the economic calendar"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY_INJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volatility injection"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "LIQUIDITY_ENGINEERING_EFFECT",
+          "ENTRY_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "low resistance liquidity run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "PRICE_DELIVERY_MODEL",
+          "EXPANSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 1: PREPARATION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_981",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker sell model"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_MODEL",
+          "DIRECTIONAL_BIAS_DRIVER",
+          "FRAMEWORK_FOR_PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "it goes up first to drop down"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_GRAB",
+          "FAKE_MOVE_SETUP",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 2: OPPORTUNITY DISCOVERY",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_982",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array",
+          "premium array",
+          "premium PD"
+        ],
+        "narrative_roles": [
+          "TARGET_FOR_PRICE",
+          "RESISTANCE_LEVEL",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_TYPE",
+          "TARGET_FOR_PRICE",
+          "RESISTANCE_LEVEL",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_TYPE",
+          "TARGET_FOR_PRICE",
+          "RESISTANCE_LEVEL",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "turtle soup"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TERMINUS",
+        "confidence": 1,
+        "surface_terms": [
+          "Terminus"
+        ],
+        "narrative_roles": [
+          "TARGET_FOR_PRICE",
+          "POTENTIAL_REVERSAL_POINT",
+          "EXIT_STRATEGY",
+          "DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION_PHASE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "stage one or stage two of reaccumulation"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "ENTRY_CONFIRMATION_FOR_LONG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERSOLD_MARKET_CONDITION",
+        "confidence": 0.75,
+        "surface_terms": [
+          "oversold market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CONTEXT",
+          "PRICE_LEVEL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERBOUGHT_MARKET_CONDITION",
+        "confidence": 0.75,
+        "surface_terms": [
+          "overbought condition"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CONTEXT",
+          "PRICE_LEVEL_CONTEXT",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.75,
+        "surface_terms": [
+          "resistance level"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT",
+          "TARGET_FOR_PRICE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_OF_THE_CURVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side of the curve"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION_BIAS",
+          "STRATEGY_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_OPPORTUNITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "sell opportunity"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "REVERSAL_PLAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 2: OPPORTUNITY DISCOVERY",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_983",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker buy model"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array",
+          "premium array"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PD_ARRAY_TYPE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORIGINAL_CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "original consolidation above the market",
+          "original consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PD_ARRAY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stage one and or stage two reaccumulation period",
+          "stage one or two reaccumulation"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE_IDENTIFICATION",
+          "CONTINUATION",
+          "MARKET_CYCLE_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PD_ARRAY_TYPE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_OF_THE_CURVE",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side of the curve",
+          "buy side of the curve of a market maker buy model"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_PHASE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure break to the upside"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 2: OPPORTUNITY DISCOVERY",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_984",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "dropping lower for a Judas swing",
+          "manipulation and price opposite to our trade bias"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_SETUP",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps",
+          "discount fair value gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERION",
+          "DISCOUNT_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy sell stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ENTRY_CRITERION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "economic calendar suggests a volatility injection",
+          "economic calendar"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "TIMING_ALIGNMENT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "NEWS_EVENT_TIME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "stage one or two reaccumulation",
+          "reaccumulation"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_PHASE",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 3: TRADE PLANNING",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_985",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_CONVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "standard deviation"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 4: TRADE EXECUTION",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_986",
+    "concepts": [
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADE MANAGEMENT",
+          "stop loss can be reduced",
+          "stop must be at break even",
+          "taking something off at 20 Pips",
+          "taking something off at 40 Pips",
+          "taking something off at 60",
+          "banking as we go further in progression",
+          "open risk",
+          "risk remaining in the trade"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_PROTECTION",
+          "SCALING_OUT",
+          "BREAK_EVEN_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STAGE 5: TRADE MANAGEMENT",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_987",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "risk per trade is 1.5%",
+          "$20,000 multiplied by 1.5%",
+          "$300",
+          "risk of $200",
+          "maximum of 1.5% of $20,000"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Stop required for the trade is 20 Pips",
+          "Micro Lots",
+          "10 cents per pip",
+          "150 Micro Lots per trade",
+          "Mini Lots",
+          "$1 per pip",
+          "15 mini lots per trade",
+          "Standard Lot",
+          "$10 per pip",
+          "1.5 standard lot",
+          "one lot per trade",
+          "Always round down",
+          "Mini lots are always more flexible",
+          "we like to use minis"
+        ],
+        "narrative_roles": [
+          "EXECUTION_STRATEGY",
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MINI, STANDARD LOTS)",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_988",
+    "concepts": [
+      {
+        "canonical": "BACKTESTING",
+        "confidence": 1,
+        "surface_terms": [
+          "backtesting",
+          "collect multiple sample sets with this trade plan",
+          "Dig into your charts and study"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "VALIDATION",
+          "CONFIDENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUOUS_LEARNING",
+        "confidence": 1,
+        "surface_terms": [
+          "CONTINUOUS LEARNING",
+          "rewatch the lessons",
+          "Dig into your charts and study"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "MASTERY_PATH",
+          "KNOWLEDGE_ACQUISITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_PLAN_DEVELOPMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this trade plan",
+          "collect multiple sample sets with this trade plan"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEFINITION",
+          "METHODOLOGY_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BACKTESTING AND CONTINUOUS LEARNING",
+      "source_file": "ICT Charter Price Action Model 6 Buyside Trade Plan_Handbook.chunks.json"
+    }
+  }
+]

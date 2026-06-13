@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-06-13T11:49:43.873Z",
+  "agentType": "HTF-Liquidity-Agent",
+  "currentCallId": "HTF-Liquidity-Agent-HTF-Liquidity-Agent-1781351251906-21",
+  "prompt": "## ROLE\nYou are an ICT liquidity detection system.\n\n## TASK\nIdentify HTF liquidity using STRICT grounded reasoning. Determine where liquidity rests (above / below).\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere's an analysis of the provided charts focusing on liquidity:\n\n### EURUSD 1M (Monthly Chart)\n\n*   **Buy-side Liquidity (BSL) Pools**:\n    *   Significant BSL rests above the major swing high around 1.2550 (from 2018).\n    *   BSL is present above the swing high at 1.2081 (February 2021).\n    *   BSL is resting above the swing high at 1.18492 (January 2023).\n    *   BSL exists above the recent swing high around 1.1710 (July 2023).\n*   **Sell-side Liquidity (SSL) Pools**:\n    *   Significant SSL rests below the major swing low around 0.9530 (September 2022).\n    *   SSL is present below the swing low at 1.0179 (September 2022).\n    *   SSL is resting below the swing low at 1.1410 (October 2023).\n    *   SSL exists below the old equal lows (EQL) around 1.12142 (April 2020).\n*   **Liquidity Sweeps & Stop Hunts**:\n    *   The low formed in September 2022 (around 0.9530) swept beneath prior significant swing lows from March 2020 and May 2020 (both around 1.0630).\n*   **Liquidity Voids, Imbalance Zones, & Delivery Gaps**:\n    *   A large downward delivery gap/liquidity void exists from the sharp price decline between January 2022 and September 2022.\n    *   A significant upward liquidity void is observed from the strong rally between September 2022 and February 2023.\n\n### EURUSD 1W (Weekly Chart)\n\n*   **Buy-side Liquidity (BSL) Pools**:\n    *   BSL rests above the weekly swing high at 1.2081 (February 2021).\n    *   BSL is present above the weekly swing high at 1.18492 (January 2023).\n    *   BSL exists above the equal highs (EQH) around 1.1680 (March and July 2023).\n    *   BSL is above the recent swing high around 1.1710 (July 2023).\n*   **Sell-side Liquidity (SSL) Pools**:\n    *   SSL rests below the weekly swing low at 1.0179 (September 2022).\n    *   SSL is present below the weekly swing low at 1.1410 (October 2023).\n    *   SSL exists below the old equal lows (EQL) around 1.12142 (April 2020).\n    *   SSL is below the recent swing low around 1.1500 (August 2023).\n*   **Liquidity Sweeps & Stop Hunts**:\n    *   The weekly low of September 2022 (1.0179) swept beneath prior swing lows from May 2020 and March 2020.\n    *   Price swept above the highs around 1.1710 (July 2023) in late July / early August 2023, followed by a significant price reversal.\n*   **Liquidity Voids, Imbalance Zones, & Delivery Gaps**:\n    *   A clear upward liquidity void/delivery gap is visible from the strong rally in late 2022 / early 2023.\n    *   A downward liquidity void was created by the sharp decline in August 2023.\n\n### EURUSD 1D (Daily Chart)\n\n*   **Buy-side Liquidity (BSL) Pools**:\n    *   BSL rests above the daily swing high at 1.18492 (January 2023).\n    *   BSL is present above the equal highs (EQH) around 1.1700 (July and August 2023).\n    *   BSL exists above the most recent swing high at 1.1710 (July 2023).\n    *   BSL is above the high of the current daily candle and the cluster of highs around 1.1680.\n*   **Sell-side Liquidity (SSL) Pools**:\n    *   SSL rests below the daily swing low at 1.1410 (October 2023).\n    *   SSL is present below the daily swing low around 1.1500 (August 2023).\n    *   SSL exists below the equal lows (EQL) around 1.1560 (late August and early September 2023).\n*   **Liquidity Sweeps & Stop Hunts**:\n    *   Price recently swept the daily low around 1.1560 (EQL) in late September 2023, subsequently dropping towards the 1.1410 SSL before reversing upwards.\n    *   The rally in early November 2023 swept above the daily highs from late August and September 2023 (around 1.1680).\n*   **Liquidity Voids, Imbalance Zones, & Delivery Gaps**:\n    *   A significant downward liquidity void/delivery gap is visible from the strong daily decline in early August 2023.\n    *   A clear upward liquidity void was created by the strong bullish move on November 3rd, 2023.\n    *   Smaller liquidity voids are present within the recent strong daily candles.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_4194]\nLIQUIDITY AND INEFFICIENCY\nTo take out buy stops (above old highs) or sell stops (below old lows). To trade into some form of inefficiency (a Fair Value Gap). This is not due to 'buying pressure' or 'selling pressure.' A single trade can hit a limit up, demonstrating The algorithm prioritizes inefficiencies, then liquidity. If in a premium and no inefficiency above, it seeks sell-side liquidity. If in a discount and no inefficiency below, it seeks buy-side liquidity.\n\n[CHUNK_ID:chunk_1741]\nPRICE DELIVERY AND INEFFICIENCY TYPES\nPrice rotation on a liquidity Continuum basis, meaning that the price is efficiently delivered between a range of price action. For instance, if we were to look at the range between 103.20 and 103.40, that's 20 Pips. For Euro, it's moved up, down, up, down in that range between 40 and 20 multiple times. Notice that? So if price has been moving back and forth between a defined range of 103.40 and 103.20, if we get a bias which is what I'm sharing, I'm sharing my 30 years experience with you, telling you that this is If we ever get an opening on a candle and it drops down to a previous high stopped short, like say the low was up here and didn't go all the way down to Monday's high, that would create a typical deferred inefficiency, meaning that it would go to a fair value Gap protocol. Something like what we've seen. Well, let me take it back up one more time. This is a fair value gap between this candle's high and this candle's low. And at one candle on the downside, that low, that high, in between those two price points, price only went down. So it's a fair value Gap, yes, but a specific category is a SIBI (Sell Side Imbalance, Buy Side Inefficiency). So it needs to see what to be efficiently balanced:\n\n[CHUNK_ID:chunk_215]\nIDENTIFYING THE FAIR VALUE GAP (FVG) AND ENTRY\nSo, in your chart, once you're developing this idea and learning it, you're going to highlight this candle's low, this candle's high, and this right here is what I teach my students as a 'Fair Value Gap'.\n\n[CHUNK_ID:chunk_4260]\nNWOG & CLASSIC S&R\nAll right, so here is the 15-minute chart. Current new week opening gap high, current new week opening gap low. There's that fair value gap I mentioned. Sell-side was taken, consolidation inside of the new week opening gap and then broke aggressively lower. Fair value gap, trade up into consequent encroachment. Remember that old idea of classic support resistance? Here's that low, how you know that low is going to be support turn resistance? Because you have the inefficiency right there. Trades up into it and then sells off down into the imbalance and fair value gap and sell-side liquidity. Order block, three of those candles holding price back near the 70 level of the range that makes a new equipment gap. So sell-side imbalance by-side inefficiency consequent encroachment, midpoint of that, sells off. Order block, look at the opening price there. Hits it, delivering inefficiency is what we're underneath right now. I don't know because I've been talking, we could be above this right now. I don't know what price is doing. I'm a little talking to you through a laptop down in my basement. My trading office is two floors up. So I'm watching to see what we do um in tomorrow. I favor, you know, downside, but I don't know how we're going to deliver overnight.\n\n[CHUNK_ID:chunk_3153]\nLIQUIDITY VOIDS AND FAIR VALUE\nThe orange shaded area shows a quick, sudden movement away from a price level (an aggressive drop). This quick movement creates a 'liquidity void', meaning there were pockets where price wasn't delivered efficiently on every available price level; it moved too quickly, creating skips or gaps. We anticipate either a long entry to fill in that range, or we wait for price to come all the way back up to fill Once the void is filled, price will likely resume its original direction (e.g., going lower after filling a void This is what we look for in terms of liquidity voids.\n\n[CHUNK_ID:chunk_2001]\nEURO ANALYSIS\nSo anyway, we're looking at this draw on liquidity here. I mentioned how this inefficiency would act as an inversion fair value gap. That's not noted now, but go back and don't take my word for anything I'm saying here. Go back and look at the analysis that I gave in Twitter spaces talking about it, in the live streams that I've talked about these things, in the video commentaries that I've posted. Incidentally, I also have this in my notes here. I saw a tweet someone mentioned that there was not a tweet, I'm sorry, I get a lot of comments in my videos and somebody mentioned a link to me that is a YouTube video for my 2023 playlist, but I was unable to put it in the playlist. I don't know how I messed that up, but if you're listening or if you know that there should be a video that's not in the 2023 mentorship playlist, send that link to me on Twitter so that way I can make sure it's in the playlist. I appreciate that.\n\n## INPUT CONTEXT\nEURUSD (M → W → D) Liquidity Context\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Extract Principles, 2. Apply to Chart, 3. Derive Signals, 4. Self-Validation\n- Extract at least 2 unique principles from grounded knowledge\n- If both liquidity.above and below are true, you MUST explain directional preference or uncertainty\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"liquidity\": {\"above\": boolean, \"below\": boolean},\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning following the mandatory order\"\n    }\n\nIMPORTANT: Your previous response was not valid JSON. Please return only valid JSON. You MUST call the 'output' function with args matching the schema exactly.",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 11:49:33 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n      \"principles\": [\n        {\n          \"rule\": \"Price is drawn to pools of liquidity, which typically reside above old swing highs (Buy-side Liquidity - BSL) and below old swing lows (Sell-side Liquidity - SSL), as these represent areas where stop orders accumulate.\",\n          \"chunk_id\": \"chunk_4194\"\n        },\n        {\n          \"rule\": \"The market algorithm prioritizes filling inefficiencies such as Fair Value Gaps (FVG) and Liquidity Voids before seeking liquidity pools. Price tends to move to rebalance these areas, often implying an initial move in the direction of the void or gap.\",\n          \"chunk_id\": \"chunk_4194\"\n        }\n      ],\n      \"liquidity\": {\n        \"above\": true,\n        \"below\": true\n      },\n      \"confidence\": 0.9,\n      \"references\": [\n        \"chunk_4194\",\n        \"chunk_3153\"\n      ],\n      \"notes\": \"1. **Extract Principles**: \\n   - Principle 1: Liquidity rests above old highs (BSL) and below old lows (SSL) (CHUNK_ID:chunk_4194).\\n   - Principle 2: The market algorithm prioritizes inefficiencies (FVG/Liquidity Voids) before seeking liquidity (CHUNK_ID:chunk_4194, CHUNK_ID:chunk_3153).\\n\\n2. **Apply to Chart**: \\n   - Current price is approximately 1.15786 (based on the Daily chart's last displayed high).\\n   - **HTF Buy-side Liquidity (BSL) above**: \\n     - On the Monthly chart, significant BSL is noted above 1.1710 (July 2023) and 1.18492 (January 2023).\\n     - On the Weekly chart, BSL is present above 1.1680 (EQH March and July 2023) and 1.1710 (July 2023).\\n     - On the Daily chart, BSL rests above 1.1700 (EQH July and August 2023) and 1.1710 (July 2023).\\n   - **HTF Sell-side Liquidity (SSL) below**: \\n     - On the Monthly chart, significant SSL rests below 1.1410 (October 2023).\\n     - On the Weekly chart, SSL is present below 1.1500 (August 2023) and 1.1410 (October 2023).\\n     - On the Daily chart, SSL rests below 1.1560 (EQL late August and early September 2023) and 1.1500 (August 2023) and 1.1410 (October 2023).\\n   - **HTF Inefficiencies (Liquidity Voids/FVGs)**: \\n     - The Daily chart analysis identifies 'A clear upward liquidity void was created by the strong bullish move on November 3rd, 2023'. This void is located below the current price level.\\n\\n3. **Derive Signals**: \\n   - Based on Principle 1, there are clear HTF BSL pools above the current price (e.g., 1.1710) and clear HTF SSL pools below the current price (e.g., 1.1500, 1.1410). Thus, both `liquidity.above` and `liquidity.below` are true.\\n   - To determine directional preference, we apply Principle 2: 'The algorithm prioritizes inefficiencies, then liquidity' (CHUNK_ID:chunk_4194). The most immediate HTF influence from inefficiencies is the 'upward liquidity void' on the Daily chart, created by the strong bullish move on November 3rd, 2023. This void is currently situated *below* the price. According to ICT principles, price tends to return to fill these voids for efficient delivery (CHUNK_ID:chunk_3153). Therefore, the immediate draw is for price to move lower to address this inefficiency.\\n   - **Directional Preference**: The primary, immediate HTF draw is *below* the current price to fill the identified upward liquidity void. After this inefficiency is addressed, price may then seek further SSL targets (e.g., 1.1500, 1.1410) or reverse to target higher BSL (e.g., 1.1710).\\n\\n4. **Self-Validation**: The reasoning strictly follows the mandated order. Two unique principles have been extracted and applied. Both above and below liquidity are acknowledged, and a directional preference is explained based on the prioritization of inefficiencies as per grounded knowledge.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -2.475217176501476
+        }
+      ],
+      "createTime": "2026-06-13T11:48:53.953021Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "pUMtar2VOv-s1t8Pt5j1KA",
+      "usageMetadata": {
+        "promptTokenCount": 3600,
+        "candidatesTokenCount": 1101,
+        "totalTokenCount": 10763,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2826
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1101
+          }
+        ],
+        "thoughtsTokenCount": 6062
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Price is drawn to pools of liquidity, which typically reside above old swing highs (Buy-side Liquidity - BSL) and below old swing lows (Sell-side Liquidity - SSL), as these represent areas where stop orders accumulate.",
+          "chunk_id": "chunk_4194"
+        },
+        {
+          "rule": "The market algorithm prioritizes filling inefficiencies such as Fair Value Gaps (FVG) and Liquidity Voids before seeking liquidity pools. Price tends to move to rebalance these areas, often implying an initial move in the direction of the void or gap.",
+          "chunk_id": "chunk_4194"
+        }
+      ],
+      "liquidity": {
+        "above": true,
+        "below": true
+      },
+      "confidence": 0.9,
+      "references": [
+        "chunk_4194",
+        "chunk_3153"
+      ],
+      "notes": "1. **Extract Principles**: \n   - Principle 1: Liquidity rests above old highs (BSL) and below old lows (SSL) (CHUNK_ID:chunk_4194).\n   - Principle 2: The market algorithm prioritizes inefficiencies (FVG/Liquidity Voids) before seeking liquidity (CHUNK_ID:chunk_4194, CHUNK_ID:chunk_3153).\n\n2. **Apply to Chart**: \n   - Current price is approximately 1.15786 (based on the Daily chart's last displayed high).\n   - **HTF Buy-side Liquidity (BSL) above**: \n     - On the Monthly chart, significant BSL is noted above 1.1710 (July 2023) and 1.18492 (January 2023).\n     - On the Weekly chart, BSL is present above 1.1680 (EQH March and July 2023) and 1.1710 (July 2023).\n     - On the Daily chart, BSL rests above 1.1700 (EQH July and August 2023) and 1.1710 (July 2023).\n   - **HTF Sell-side Liquidity (SSL) below**: \n     - On the Monthly chart, significant SSL rests below 1.1410 (October 2023).\n     - On the Weekly chart, SSL is present below 1.1500 (August 2023) and 1.1410 (October 2023).\n     - On the Daily chart, SSL rests below 1.1560 (EQL late August and early September 2023) and 1.1500 (August 2023) and 1.1410 (October 2023).\n   - **HTF Inefficiencies (Liquidity Voids/FVGs)**: \n     - The Daily chart analysis identifies 'A clear upward liquidity void was created by the strong bullish move on November 3rd, 2023'. This void is located below the current price level.\n\n3. **Derive Signals**: \n   - Based on Principle 1, there are clear HTF BSL pools above the current price (e.g., 1.1710) and clear HTF SSL pools below the current price (e.g., 1.1500, 1.1410). Thus, both `liquidity.above` and `liquidity.below` are true.\n   - To determine directional preference, we apply Principle 2: 'The algorithm prioritizes inefficiencies, then liquidity' (CHUNK_ID:chunk_4194). The most immediate HTF influence from inefficiencies is the 'upward liquidity void' on the Daily chart, created by the strong bullish move on November 3rd, 2023. This void is currently situated *below* the price. According to ICT principles, price tends to return to fill these voids for efficient delivery (CHUNK_ID:chunk_3153). Therefore, the immediate draw is for price to move lower to address this inefficiency.\n   - **Directional Preference**: The primary, immediate HTF draw is *below* the current price to fill the identified upward liquidity void. After this inefficiency is addressed, price may then seek further SSL targets (e.g., 1.1500, 1.1410) or reverse to target higher BSL (e.g., 1.1710).\n\n4. **Self-Validation**: The reasoning strictly follows the mandated order. Two unique principles have been extracted and applied. Both above and below liquidity are acknowledged, and a directional preference is explained based on the prioritization of inefficiencies as per grounded knowledge."
+    },
+    "latency": 52782.37950000074,
+    "telemetry": {
+      "promptTokens": 3600,
+      "completionTokens": 1101,
+      "totalTokens": 10763
+    }
+  },
+  "openrouter": {
+    "modelUsed": "amazon/nova-micro-v1",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Significant buy-side liquidity (BSL) rests above major swing highs.",
+          "chunk_id": "CHUNK_ID:chunk_4194"
+        },
+        {
+          "rule": "Significant sell-side liquidity (SSL) rests below major swing lows.",
+          "chunk_id": "CHUNK_ID:chunk_4194"
+        }
+      ],
+      "liquidity": {
+        "above": true,
+        "below": true
+      },
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_4194"
+      ],
+      "notes": "1. Extracted the principle that significant BSL rests above major swing highs (CHUNK_ID:chunk_4194). 2. Extracted the principle that significant SSL rests below major swing lows (CHUNK_ID:chunk_4194). 3. Applied these principles to the EURUSD chart observations: BSL is above the major swing high around 1.2550 and SSL is below the major swing low around 0.9530. 4. Derived signals: Liquidity is present both above and below the current price level, indicating potential for both buying and selling. 5. Self-validated by confirming the presence of liquidity pools as described in the chart observations."
+    },
+    "latency": 3622.1058999998495,
+    "telemetry": {
+      "promptTokens": 3312,
+      "completionTokens": 628,
+      "totalTokens": 3940
+    },
+    "estimatedCost": 0.004568
+  }
+}

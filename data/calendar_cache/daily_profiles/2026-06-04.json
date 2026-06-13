@@ -1,0 +1,366 @@
+{
+  "profile_date_utc": "2026-06-04T04:49:01.352Z",
+  "market_date": "2026-06-04",
+  "market_weekday": "Thursday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-01",
+  "source_week_profile_id": "2026-06-01",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.5
+      },
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.2
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.35
+  },
+  "daily_bias": {
+    "daily_bias": "bearish",
+    "confidence": 0.15,
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": -1,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "CHF",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.2
+      },
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "source": "calendar"
+  },
+  "day_type": "Bearish Expansion Day",
+  "day_confidence": 0.5,
+  "day_role_in_week": "Continued Bearish Pressure / NFP Pre-positioning",
+  "weekly_alignment_state": "Aligned with the weekly bearish profile, continuing expansion lower after an anticipated early-week high.",
+  "dominant_weekly_theme": "Bearish Weekly Profile with Early Week High and NFP Expansion",
+  "dominant_weekly_narrative": "The week is anchored by a bearish bias, driven by persistent inflation concerns primarily impacting EUR, and signs of labor market weakness affecting USD. This sets the stage for a classic bearish weekly profile, anticipating an early week high forming, most likely by Wednesday. This initial move higher should be interpreted as a potential retracement or buy stop raid into premium arrays, offering optimal short entry opportunities. Significant European CPI data on Tuesday and a barrage of US labor market reports throughout the week, culminating in Non-Farm Payrolls on Friday, are expected to inject substantial volatility. The latter half of the week, particularly Friday, is anticipated to see further bearish expansion, potentially manifesting as a 'Seek and Destroy Bearish Friday' as institutional order flow pushes price lower, confirming the week's overall downside objective. While NFP weeks can be choppy, the expectation is for the bearish momentum to solidify and lead to the weekly low.",
+  "weekly_delivery_model": "A bearish weekly structure forming a high early in the week (Monday-Wednesday) and expanding lower into the week's end, driven by high-impact inflation and labor market events.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": "Friday",
+  "expected_expansion_day": "Friday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [
+    {
+      "event_id": "forexfactory:321d51a39351",
+      "title": "RBA Gov Bullock Speaks",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-04T05:00:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "01:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Continued Bearish Pressure / NFP Pre-positioning",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:78f610630a77",
+      "title": "CPI m/m",
+      "category": "CPI",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-04T06:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "02:30",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ],
+      "catalyst_role": "Continued Bearish Pressure / NFP Pre-positioning",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:18ac8b4f44c5",
+      "title": "ECB President Lagarde Speaks",
+      "category": "OTHER",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-04T08:00:00.000Z",
+      "expected_effect": "REPRICING",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "04:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ],
+      "catalyst_role": "Continued Bearish Pressure / NFP Pre-positioning",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:3e2f4ce64b2b",
+      "title": "Unemployment Claims",
+      "category": "LABOR",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-04T12:30:00.000Z",
+      "expected_effect": "EXPANSION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "Continued Bearish Pressure / NFP Pre-positioning",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:2cdc1960efbb",
+      "title": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-04T15:40:00.000Z",
+      "expected_effect": "REPRICING",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "11:40",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ],
+      "catalyst_role": "Continued Bearish Pressure / NFP Pre-positioning",
+      "confidence": 0.6
+    }
+  ],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "event-driven repricing",
+      "liquidity sensitivity around scheduled releases"
+    ],
+    "expected_liquidity_sequence": [
+      "01:00 RBA Gov Bullock Speaks",
+      "02:30 CPI m/m",
+      "04:00 ECB President Lagarde Speaks",
+      "08:30 Unemployment Claims",
+      "11:40 BOE Gov Bailey Speaks"
+    ],
+    "high_attention_windows": [
+      "london_killzone",
+      "new_york_killzone",
+      "ny_0830_macro",
+      "london_close_window"
+    ],
+    "expected_displacement_windows": [
+      "london_killzone",
+      "new_york_killzone",
+      "ny_0830_macro"
+    ],
+    "expected_reversal_windows": [
+      "01:00",
+      "02:30",
+      "04:00",
+      "08:30",
+      "11:40"
+    ]
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:Continued Bearish Pressure / NFP Pre-positioning",
+      "weekly_model:A bearish weekly structure forming a high early in the week (Monday-Wednesday) and expanding lower into the week's end, driven by high-impact inflation and labor market events.",
+      "dominant_theme:Bearish Weekly Profile with Early Week High and NFP Expansion",
+      "catalyst:RBA Gov Bullock Speaks",
+      "time:01:00",
+      "catalyst:CPI m/m",
+      "time:02:30",
+      "killzone:london_killzone",
+      "catalyst:ECB President Lagarde Speaks",
+      "time:04:00"
+    ],
+    "queries": [
+      "Thursday daily profile intraday ICT",
+      "Thursday Continued Bearish Pressure / NFP Pre-positioning ICT weekly delivery model",
+      "CPI m/m MEDIUM 02:30 New York ICT profile",
+      "ECB President Lagarde Speaks MEDIUM 04:00 New York ICT profile",
+      "RBA Gov Bullock Speaks HIGH 01:00 New York ICT profile",
+      "A bearish weekly structure forming a high early in the week (Monday-Wednesday) and expanding lower into the week's end, driven by high-impact inflation and labor market events. CPI m/m MEDIUM Thursday",
+      "A bearish weekly structure forming a high early in the week (Monday-Wednesday) and expanding lower into the week's end, driven by high-impact inflation and labor market events. ECB President Lagarde Speaks MEDIUM Thursday",
+      "A bearish weekly structure forming a high early in the week (Monday-Wednesday) and expanding lower into the week's end, driven by high-impact inflation and labor market events. RBA Gov Bullock Speaks HIGH Thursday",
+      "CPI m/m MEDIUM london killzone New York",
+      "ECB President Lagarde Speaks MEDIUM london killzone New York"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_2917",
+      "chunk_2964",
+      "chunk_2919",
+      "chunk_2989",
+      "chunk_2923",
+      "chunk_2970",
+      "chunk_2966",
+      "chunk_1927",
+      "chunk_2968",
+      "chunk_1210",
+      "chunk_2921",
+      "chunk_917",
+      "chunk_3125",
+      "chunk_3126",
+      "chunk_1276",
+      "chunk_1419",
+      "chunk_3110",
+      "chunk_4205",
+      "chunk_516",
+      "chunk_4207",
+      "chunk_4017",
+      "chunk_4023",
+      "chunk_4024"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Wednesday High of the Week / Bearish Reversal",
+        "chunk_id": "chunk_2917",
+        "relevance": null
+      },
+      {
+        "concept": "Wednesday High of the Week / Bearish Reversal",
+        "chunk_id": "chunk_2964",
+        "relevance": null
+      },
+      {
+        "concept": "Bearish Expansion into Friday",
+        "chunk_id": "chunk_2919",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Pattern for Bearish Expansion",
+        "chunk_id": "chunk_2989",
+        "relevance": null
+      },
+      {
+        "concept": "Wednesday Weekly Reversal (Bearish)",
+        "chunk_id": "chunk_2923",
+        "relevance": null
+      },
+      {
+        "concept": "Wednesday Weekly Reversal (Bearish)",
+        "chunk_id": "chunk_2970",
+        "relevance": null
+      },
+      {
+        "concept": "Consolidation Midweek Decline",
+        "chunk_id": "chunk_2966",
+        "relevance": null
+      },
+      {
+        "concept": "Consolidation Destroy Bearish Friday (Thursday's Role)",
+        "chunk_id": "chunk_2968",
+        "relevance": null
+      },
+      {
+        "concept": "Seek and Destroy Bearish Friday",
+        "chunk_id": "chunk_2921",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Thursday is positioned as a day of continued bearish pressure, following the anticipated early-week high (likely Wednesday). The market is expected to expand lower, initiating pre-Non-Farm Payroll positioning that targets sell-side liquidity below recent lows. High-impact US Unemployment Claims will be a primary catalyst for potential expansion, while central bank speeches may induce temporary repricing.",
+    "key_if_then_paths": {
+      "if_scenario_1": {
+        "condition": "Early session (London/New York Open) sees a retracement higher into premium arrays.",
+        "then_outcome": "This will likely be interpreted as a liquidity grab for institutional short entries, followed by a continuation of the bearish expansion."
+      },
+      "if_scenario_2": {
+        "condition": "US Unemployment Claims data indicates stronger-than-expected labor market conditions.",
+        "then_outcome": "A temporary counter-trend rally could occur, but given the dominant weekly bearish bias, this rally might serve as an opportunity to sell into strength (liquidity grab) before further downside."
+      },
+      "if_scenario_3": {
+        "condition": "US Unemployment Claims data indicates weaker-than-expected labor market conditions.",
+        "then_outcome": "This would reinforce the bearish USD narrative and likely accelerate the downward expansion, pushing price closer to the anticipated weekly low."
+      }
+    },
+    "invalidation_conditions": "A sustained break and close above Wednesday's high, especially on high volume, would challenge the early-week high formation and the continued bearish pressure. Price holding significantly above key daily/weekly resistance levels (e.g., Wednesday's high) into the New York close would also invalidate the expected bearish continuation for the day."
+  },
+  "intraday_awareness": {
+    "session_focus": {
+      "london_session": "Monitor for European CPI data and ECB President Lagarde's speech for potential repricing or initial bearish pushes. Look for price to respect bearish premium arrays before a potential drive lower.",
+      "new_york_session": "Primary focus on US Unemployment Claims at 08:30 AM ET for a significant expansionary move. Anticipate continued bearish momentum and targeting of sell-side liquidity, especially as institutions position for Friday's NFP. BOE Gov Bailey's speech later in the session could add volatility."
+    },
+    "catalyst_priorities": [
+      "RBA Gov Bullock Speaks",
+      "CPI m/m",
+      "ECB President Lagarde Speaks",
+      "Unemployment Claims",
+      "BOE Gov Bailey Speaks"
+    ],
+    "caution_flags": [
+      "Thursday preceding NFP often involves choppy price action and strategic pre-positioning, which can lead to false moves or temporary consolidation.",
+      "The confidence level for today's specific role is moderate (0.5), indicating potential for deviations from the expected path despite the overall weekly bias.",
+      "Multiple central bank speeches throughout the day (RBA, ECB, BOE) could introduce short-term volatility and cause temporary repricing against the prevailing bias."
+    ],
+    "execution_risk_context": "The market is operating within a pre-NFP environment, suggesting heightened volatility and potential for 'seek and destroy' liquidity runs. Traders should be aware of potential for sharp swings around high-impact news releases, particularly Unemployment Claims, as institutions establish positions for Friday. Choppy conditions due to NFP anticipation require precision in identifying optimal entry and exit points."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-04T04:50:15.105Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-04T04:50:37.715Z",
+  "version": 1
+}

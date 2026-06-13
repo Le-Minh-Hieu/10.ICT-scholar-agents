@@ -1,0 +1,1480 @@
+[
+  {
+    "chunk_id": "chunk_3175",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount market",
+          "buying in a discount market",
+          "lower third of the current trading range"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE_BUY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium market",
+          "selling at a premium",
+          "upper third portion of that range"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE_SELL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "fair value",
+          "fair value for the market maker",
+          "fair valuation for market maker participation"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_MAKER_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVIEW OF EQUILIBRIUM, DISCOUNT, AND PREMIUM",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3176",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAPS",
+          "gap",
+          "void",
+          "fair value",
+          "this area",
+          "range",
+          "these levels in here",
+          "this range here"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_FORMATION",
+          "PRICE_ATTRACTION",
+          "IMBALANCE_FILLING",
+          "INSTITUTIONAL_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_FORMATION",
+          "PRICE_ATTRACTION",
+          "IMBALANCE_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF FAIR VALUE GAPS FOR PRICE MOVEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3177",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "fair value",
+          "back down into equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_STATE",
+          "RETRACEMENT_TARGET",
+          "DECISION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure break",
+          "where did market structure break most recently?",
+          "Did it break a swing high or did it break a swing low most recently?",
+          "broke through here",
+          "market structure break of a recent high",
+          "It broke that high"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TREND_REVERSAL_SIGNAL",
+          "PRICE_ACTION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high",
+          "swing low",
+          "these highs",
+          "this low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENTS",
+          "LIQUIDITY_REFERENCE_POINTS",
+          "RANGE_BOUNDARIES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "clearing out these highs",
+          "price ran through it, clearing out these highs right on this up candle"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT_INDICATION",
+          "PRE_ENTRY_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading range",
+          "range",
+          "most current trading range",
+          "smaller consolidated trading range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DISCOUNT_PREMIUM_FRAMEWORK",
+          "PRICE_BOUNDARY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "lower portion of the range",
+          "real low area where it would be deemed oversold",
+          "oversold"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_CONDITION",
+          "BUY_AREA_IDENTIFICATION",
+          "PRICE_EFFICIENCY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETERMINING DIRECTION FROM EQUILIBRIUM AND MARKET STRUCTURE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3178",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "fair valuation",
+          "Fair valuation",
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ALGORITHM",
+          "TARGET",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "lower end of that range",
+          "upside to build in a premium",
+          "premium",
+          "buying at a discount",
+          "discount",
+          "low end of the range"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ALGORITHM",
+          "TRADE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "open price action",
+          "market's going to want to come up there and close that in"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ALGORITHM",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "This up candle right before the down move"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "give us a directional bias"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING CONCEPTS FOR HIGH PROBABILITY FAIR VALUATION SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3179",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equal distance of the high to the low",
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "SMART_MONEY_ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair valuation",
+          "fair value"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "SMART_MONEY_ACCUMULATION",
+          "SMART_MONEY_DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "SUBOPTIMAL_ENTRY",
+          "SMART_MONEY_DISTRIBUTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "broke through a swing high"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market makers can build a net long book",
+          "sell their positions at a fair value for them"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION",
+          "DISTRIBUTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMING MARKET MAKER FAIR VALUE FOR LONGS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3180",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM AND DISCOUNT",
+          "equilibrium",
+          "premium",
+          "above 50% level",
+          "below equilibrium",
+          "at a discount",
+          "deep discount",
+          "suppressed"
+        ],
+        "narrative_roles": [
+          "PRICE_RANGE_ANALYSIS",
+          "MARKET_CONDITION",
+          "TRADE_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY",
+          "upper portion of the optimal trade entry",
+          "62 to 79% retracement level",
+          "79% retracement level",
+          "70.5",
+          "62% retracement level",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "RETRACEMENT_TARGET",
+          "HIGH_PROBABILITY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FIBONACCI"
+        ],
+        "narrative_roles": [
+          "TECHNICAL_ANALYSIS_TOOL",
+          "PRICE_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "range from this high to this low",
+          "low to the high",
+          "Range High and the low",
+          "total range high to low",
+          "range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SWING_POINT_IDENTIFICATION",
+          "CONTEXT_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING PREMIUM AND DISCOUNT WITH FIBONACCI (OPTIMAL TRADE ENTRY)",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3181",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops above here",
+          "takes those stops",
+          "runs through this short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "turtle soup"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "FAILED_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Goes into consolidation",
+          "staying in a sideways consolidation",
+          "went back into consolidation",
+          "small little range"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "REACCUMULATION_REDISTRIBUTION",
+          "RANGE_BOUND_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "building equilibrium",
+          "equilibrium price point",
+          "hanging around fair value",
+          "another area of fair value",
+          "The market's fair for those long positions"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "FAIR_VALUE_ASSESSMENT",
+          "INSTITUTIONAL_INTEREST_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market maker that have already accumulated longs on it"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ORDER_FLOW",
+          "ACCUMULATION_DISTRIBUTION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expands to the upside"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOID_CLOSURE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "VOID CLOSURE",
+          "starts filling in all of this again"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER DISTRIBUTION AND VOID CLOSURE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3182",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDATION OF MARKET MAKER LONG POSITIONS",
+          "sell the longs",
+          "they're selling",
+          "selling all the positions they accumulated",
+          "look to sell their position",
+          "liquidate their positions"
+        ],
+        "narrative_roles": [
+          "DISTRIBUTION",
+          "PROFIT_TAKING",
+          "MARKET_MAKER_STRATEGY",
+          "SELL_SIDE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "started accumulating down here",
+          "accumulated here",
+          "accumulated here and down here"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION",
+          "MARKET_MAKER_STRATEGY",
+          "PRE_DISTRIBUTION_PHASE",
+          "BUY_SIDE_DELIVERY_PRELUDE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount prices",
+          "premium",
+          "premium price that speculators would trade at"
+        ],
+        "narrative_roles": [
+          "PRICE_THEORY",
+          "MARKET_MAKER_STRATEGY",
+          "VALUE_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_FAIR_VALUE_LIQUIDATION_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value to the market maker to liquidate their positions",
+          "new specific area of fair value for the market maker to liquidate their long positions in here",
+          "small little pocket between this low, this up candle's low, and this up candle's high"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PROFIT_TAKING",
+          "MARKET_MAKER_STRATEGY",
+          "EXIT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE_RESOLUTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "void filled in right here",
+          "it's filled in"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_INFORMATION",
+          "PREVIOUS_TARGET_MET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDATION OF MARKET MAKER LONG POSITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3183",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PRECURSOR_TO_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "directional bias",
+          "prognostication for directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_DEFINITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this high down to this low",
+          "range defined there",
+          "market's in this range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "equilibrium price point"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "MARKET_CONTEXT",
+          "PREMIUM_DISCOUNT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium",
+          "discount",
+          "below the equilibrium price point",
+          "area of discount"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LIQUIDITY_ANALYSIS",
+          "OPTIMAL_TRADE_ENTRY",
+          "SMART_MONEY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market makers",
+          "market makers to accumulate longs"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "INSTITUTIONAL_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "accumulate longs"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "ENTRY_STRATEGY",
+          "ORDER_FLOW_DYNAMICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Traders on the retail level",
+          "selling point",
+          "get short",
+          "tripped up in Fibonacci",
+          "not enough"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION_TARGET",
+          "OPPOSITE_OF_SMART_MONEY",
+          "MISGUIDED_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING DIRECTIONAL BIAS FROM CONSOLIDATION",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3184",
+    "concepts": [
+      {
+        "canonical": "RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "current total range",
+          "lower portion of that range",
+          "most recent trading range high and low"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "Equilibrium price point"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "LIQUIDITY TARGETS",
+          "built-in buy stops above this high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "valuation gap",
+          "fair value Gap",
+          "spent very little time in this area",
+          "all down movement, all down movement, no buying was actually occurring in here",
+          "all on the sell side, one way flows",
+          "close in where only selling took place and no real buyers",
+          "close in the range between this up candle and this up candle"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "PRICE_ATTRACTION",
+          "FVG_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "make a run on stops above the swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE, EQUILIBRIUM, AND LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3185",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE",
+          "fair value sake"
+        ],
+        "narrative_roles": [
+          "VALUATION_REFERENCE",
+          "CONTEXT_SETTING",
+          "TARGET_SETTING_BASIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "deep discount here"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERION",
+          "HIGH_PROBABILITY_TRADE_AREA",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_VALUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "PRICE_MAGNET",
+          "TARGET",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STRATEGIC TARGET SETTING BASED ON FAIR VALUE",
+          "where the market makers should aim",
+          "calling 7665 for the week",
+          "the level at which if we look at the high, the low comes in at 7675"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_PLANNING",
+          "PROJECTION",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXIT_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "I want to be just below where I ultimately think it's going to go",
+          "10 pips or so before the actual level I think is actually going to be hit",
+          "I want to be getting out just a little bit before that"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_MAXIMIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market makers should aim"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVERS",
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "this high to this low",
+          "this high and this low",
+          "the high, the low"
+        ],
+        "narrative_roles": [
+          "RANGE_DELINEATION",
+          "REFERENCE_POINTS",
+          "CONTEXT_SETTING",
+          "MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGIC TARGET SETTING BASED ON FAIR VALUE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3186",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value",
+          "fair value in the perspective of the market maker",
+          "fair value for the market maker"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION",
+          "VALUATION_MODEL",
+          "MARKET_EFFICIENCY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "at a premium",
+          "deep discount"
+        ],
+        "narrative_roles": [
+          "VALUATION_MODEL",
+          "PRICE_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_VS_SMART_MONEY_PERSPECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MARKET MAKER VS. RETAIL PERSPECTIVE ON FAIR VALUE",
+          "market efficiency paradigm",
+          "how you perceive the marketplace is not how retail is going to see price"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "MARKET_STRUCTURE_CONTEXT",
+          "MISDIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_AND_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "area of distribution",
+          "accumulation down here",
+          "re-accumulation",
+          "distribute long positions"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "shaded liquidity void",
+          "areas of liquidity voids",
+          "fill in that"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION",
+          "MARKET_EFFICIENCY",
+          "TARGETING_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pools above old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGETING_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "They're going to see this as the market's going to probably keep going up because it's been going up."
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "MISDIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scaling out",
+          "scale some of it out"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER VS. RETAIL PERSPECTIVE ON FAIR VALUE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3187",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "lows where stops would be building up below it",
+          "liquidity pools in the form of sell stops",
+          "sell stops",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_DRIVER_FUEL",
+          "EXTERNAL_RANGE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "markets move from buy stops and sell stops and sell stops to buy stops"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value",
+          "discount",
+          "premium",
+          "these three reference"
+        ],
+        "narrative_roles": [
+          "VALUATION_MODEL",
+          "PRICE_DELIVERY_MODEL",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market maker's action",
+          "accumulating",
+          "manipulating",
+          "distributing"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "MARKET_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "PERSPECTIVE",
+          "UNDERLYING_PRINCIPLE",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "lower end of the most recent range for valuation"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "VALUATION_MODEL_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MOVEMENT AND MARKET MAKER INTENT",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3188",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_INTENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MARKET MAKER INTENT"
+        ],
+        "narrative_roles": [
+          "UNDERSTANDING_INSTITUTIONAL_MOTIVATION",
+          "PREDICTIVE_ANALYTICS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MOVEMENT AND MARKET MAKER INTENT",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3189",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this void here"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "the highs because we understand that that's where the buy stops are going to reside"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "SMART MONEY PERSPECTIVE",
+          "market maker",
+          "smart money longs"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_PERSPECTIVE",
+          "ORDER_FLOW_PERSPECTIVE",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidate their longs at a discount",
+          "where's a fair value for them to exit their longs",
+          "area of fair value for price to be liquidating smart money longs"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "DISTRIBUTION_ZONE",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY PERSPECTIVE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3190",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY PERSPECTIVE",
+          "market makers",
+          "the banks",
+          "smart money's perspective"
+        ],
+        "narrative_roles": [
+          "UNDERSTANDING_MARKET_DYNAMICS",
+          "CONTRARIAN_VIEW",
+          "PROFIT_GENERATION_MOTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_MINDSET",
+        "confidence": 1,
+        "surface_terms": [
+          "retail should be doing",
+          "retail is doing",
+          "retail mind",
+          "less informed crowd's opinion"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "CONTRARIAN_VIEW",
+          "MISGUIDED_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value"
+        ],
+        "narrative_roles": [
+          "MARKET_EFFICIENCY",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity gaps"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seek that liquidity",
+          "run against the less informed crowd's opinion"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS",
+          "PROFIT_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY PERSPECTIVE",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Fair Valuation_Handbook.chunks.json"
+    }
+  }
+]

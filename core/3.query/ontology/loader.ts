@@ -108,6 +108,28 @@ class OntologyLoader {
     this.surfaceToCanonical.clear();
     return this.load();
   }
+
+  /**
+   * Find canonical concepts from free-text by matching against surface terms.
+   * Used by vision-first to detect concepts in vision summaries.
+   */
+  public findConceptsInText(text: string): string[] {
+    if (!text) return [];
+    
+    const textLower = text.toLowerCase();
+    const found = new Set<string>();
+    
+    // Match each surface term against the text (word boundary aware)
+    for (const [surfaceTerm, canonical] of this.surfaceToCanonical.entries()) {
+      // Create word boundary pattern: \b term \b
+      const pattern = new RegExp(`\\b${surfaceTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+      if (pattern.test(textLower)) {
+        found.add(canonical);
+      }
+    }
+    
+    return Array.from(found);
+  }
 }
 
 export const ontologyLoader = new OntologyLoader();

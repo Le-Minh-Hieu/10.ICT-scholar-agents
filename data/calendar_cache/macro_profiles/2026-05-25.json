@@ -1,0 +1,1466 @@
+{
+  "week_start": "2026-05-25",
+  "week_type": "MULTI_THEME",
+  "primary_drivers": [
+    "OTHER",
+    "RATES",
+    "LABOR",
+    "CPI",
+    "GDP"
+  ],
+  "volatility_expectation": "HIGH",
+  "delivery_model": "mixed",
+  "macro_bias": "bullish",
+  "narrative_confidence": 0.35769999999999996,
+  "active_events": [],
+  "upcoming_events": [
+    {
+      "id": "forexfactory:4056a08ef4eb",
+      "title": "BOE Gov Bailey Speaks",
+      "scheduled_time": "2026-05-29T08:20:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "04:20",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:eb74e5da8bff",
+      "title": "ISM Manufacturing PMI",
+      "scheduled_time": "2026-06-01T14:00:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:728272a6ef7f",
+      "title": "BOE Gov Bailey Speaks",
+      "scheduled_time": "2026-06-02T14:00:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:dfbf7c3f547f",
+      "title": "ADP Non-Farm Employment Change",
+      "scheduled_time": "2026-06-03T12:15:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-03",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:6dc2e43ffca3",
+      "title": "ISM Services PMI",
+      "scheduled_time": "2026-06-03T14:00:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-03",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:2cdc1960efbb",
+      "title": "BOE Gov Bailey Speaks",
+      "scheduled_time": "2026-06-04T15:40:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "11:40",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    },
+    {
+      "id": "forexfactory:2cf63b971758",
+      "title": "Average Hourly Earnings m/m",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:9d5ff56370fe",
+      "title": "Non-Farm Employment Change",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:1b1c516a70f3",
+      "title": "Unemployment Rate",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:ffc2dc195459",
+      "title": "CB Consumer Confidence",
+      "scheduled_time": "2026-05-26T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-26",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:78a498033f1c",
+      "title": "ECB President Lagarde Speaks",
+      "scheduled_time": "2026-05-28T06:10:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "02:10",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:26f8754c93fd",
+      "title": "FOMC Member Powell Speaks",
+      "scheduled_time": "2026-06-01T00:30:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "20:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:9bdca4669224",
+      "title": "ISM Manufacturing Prices",
+      "scheduled_time": "2026-06-01T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:11508a18ac8a",
+      "title": "Core CPI Flash Estimate y/y",
+      "scheduled_time": "2026-06-02T09:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:3e9234f9365b",
+      "title": "CPI Flash Estimate y/y",
+      "scheduled_time": "2026-06-02T09:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:886538124785",
+      "title": "JOLTS Job Openings",
+      "scheduled_time": "2026-06-02T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:354365cec913",
+      "title": "Treasury Sec Bessent Speaks",
+      "scheduled_time": "2026-06-03T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-03",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:18ac8b4f44c5",
+      "title": "ECB President Lagarde Speaks",
+      "scheduled_time": "2026-06-04T08:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "04:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:3e2f4ce64b2b",
+      "title": "Unemployment Claims",
+      "scheduled_time": "2026-06-04T12:30:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-04",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:055342305ee7",
+      "title": "BOE Gov Bailey Speaks",
+      "scheduled_time": "2026-06-05T18:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "14:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:24b557c62f05",
+      "title": "BRC Shop Price Index y/y",
+      "scheduled_time": "2026-05-25T23:01:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-25",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "19:01",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:6839c33fa5cd",
+      "title": "CBI Realized Sales",
+      "scheduled_time": "2026-05-26T10:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-26",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "06:00",
+      "session_tags": [
+        "pre_new_york"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:8f0cc9bba7a1",
+      "title": "HPI m/m",
+      "scheduled_time": "2026-05-26T13:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-26",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "09:00",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:d2a8171747ef",
+      "title": "ADP Weekly Employment Change",
+      "scheduled_time": "2026-05-27T12:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:f610c110404d",
+      "title": "Richmond Manufacturing Index",
+      "scheduled_time": "2026-05-27T14:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:1af2b59a53d2",
+      "title": "FOMC Member Cook Speaks",
+      "scheduled_time": "2026-05-27T19:55:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "15:55",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:c48bf258fa0a",
+      "title": "API Weekly Statistical Bulletin",
+      "scheduled_time": "2026-05-27T20:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "16:30",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:2b5139485a9b",
+      "title": "FOMC Member Jefferson Speaks",
+      "scheduled_time": "2026-05-28T00:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "20:00",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:a92a51a2ff4e",
+      "title": "MPC Member Lombardelli Speaks",
+      "scheduled_time": "2026-05-28T02:25:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-27",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "22:25",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:67ad46922ceb",
+      "title": "MPC Member Breeden Speaks",
+      "scheduled_time": "2026-05-28T08:05:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "04:05",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:dabcaf867986",
+      "title": "ECB Monetary Policy Meeting Accounts",
+      "scheduled_time": "2026-05-28T11:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "07:30",
+      "session_tags": [
+        "pre_new_york"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:23c0eabb6191",
+      "title": "FOMC Member Williams Speaks",
+      "scheduled_time": "2026-05-28T12:55:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:55",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:ff61873e676f",
+      "title": "FOMC Member Musalem Speaks",
+      "scheduled_time": "2026-05-28T14:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "10:15",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    },
+    {
+      "id": "forexfactory:c602fe6a18d3",
+      "title": "Natural Gas Storage",
+      "scheduled_time": "2026-05-28T14:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "10:30",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    },
+    {
+      "id": "forexfactory:99a6be29162f",
+      "title": "Crude Oil Inventories",
+      "scheduled_time": "2026-05-28T16:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "12:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:2dd341be8702",
+      "title": "FOMC Member Barkin Speaks",
+      "scheduled_time": "2026-05-28T19:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-28",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "15:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:ca19a2feaba0",
+      "title": "German Import Prices m/m",
+      "scheduled_time": "2026-05-29T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:b7069dfaddbb",
+      "title": "French Consumer Spending m/m",
+      "scheduled_time": "2026-05-29T06:45:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:45",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:b8b254a30b99",
+      "title": "German Unemployment Change",
+      "scheduled_time": "2026-05-29T07:55:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "03:55",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:0d07aef6ae28",
+      "title": "Italian Monthly Unemployment Rate",
+      "scheduled_time": "2026-05-29T08:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "04:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:afd837725f7d",
+      "title": "Italian Prelim CPI m/m",
+      "scheduled_time": "2026-05-29T09:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:a2126a2ed232",
+      "title": "FOMC Member Schmid Speaks",
+      "scheduled_time": "2026-05-29T10:50:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "06:50",
+      "session_tags": [
+        "pre_new_york"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:26c7881e23e9",
+      "title": "FOMC Member Bowman Speaks",
+      "scheduled_time": "2026-05-29T13:10:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "09:10",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:60d3fc1b1ba6",
+      "title": "FOMC Member Paulson Speaks",
+      "scheduled_time": "2026-05-29T13:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "09:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:52070a56d999",
+      "title": "Chicago PMI",
+      "scheduled_time": "2026-05-29T13:45:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "09:45",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:304a53a3084c",
+      "title": "FOMC Member Daly Speaks",
+      "scheduled_time": "2026-05-29T16:40:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-29",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "12:40",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:e83c05fc17df",
+      "title": "MPC Member Mann Speaks",
+      "scheduled_time": "2026-05-30T09:40:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-30",
+      "market_weekday": "Saturday",
+      "market_time_hhmm": "05:40",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:aa584cc9938b",
+      "title": "MPC Member Greene Speaks",
+      "scheduled_time": "2026-05-31T12:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:63d1e4ab8611",
+      "title": "FOMC Member Waller Speaks",
+      "scheduled_time": "2026-05-31T12:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:59798a3eae8c",
+      "title": "German Retail Sales m/m",
+      "scheduled_time": "2026-06-01T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    }
+  ],
+  "retrieval_context": {
+    "expandedQueries": [
+      "weekly profile\n\nMonday:\nISM Manufacturing PMI - High Impact\nISM Manufacturing Prices - Medium Impact\n\nTuesday:\nCB Consumer Confidence - Medium Impact\nCore CPI Flash Estimate y/y - Medium Impact\nCPI Flash Estimate y/y - Medium Impact\nBOE Gov Bailey Speaks - High Impact\nJOLTS Job Openings - Medium Impact\n\nWednesday:\nADP Non-Farm Employment Change - High Impact\nISM Services PMI - High Impact\nTreasury Sec Bessent Speaks - Medium Impact\n\nThursday:\nECB President Lagarde Speaks - Medium Impact\nECB President Lagarde Speaks - Medium Impact\nUnemployment Claims - Medium Impact\nBOE Gov Bailey Speaks - High Impact\n\nFriday:\nBOE Gov Bailey Speaks - High Impact\nAverage Hourly Earnings m/m - High Impact\nNon-Farm Employment Change - High Impact\nUnemployment Rate - High Impact\nBOE Gov Bailey Speaks - Medium Impact"
+    ],
+    "top_chunks": [
+      "chunk_1927",
+      "chunk_3799",
+      "chunk_946",
+      "chunk_1299",
+      "chunk_1202",
+      "chunk_2917",
+      "chunk_2921",
+      "chunk_3540",
+      "chunk_917",
+      "chunk_2968",
+      "chunk_3125",
+      "chunk_4207",
+      "chunk_1988",
+      "chunk_552",
+      "chunk_4024",
+      "chunk_4023",
+      "chunk_577",
+      "chunk_3528",
+      "chunk_2111",
+      "chunk_279",
+      "chunk_3274",
+      "chunk_704"
+    ]
+  },
+  "narrative_state": "Week 2026-05-25: MULTI_THEME — bias=bullish; expect high volatility.",
+  "narrative_scope": "weekly_dominant",
+  "narrative_as_of": "2026-05-25",
+  "narrative_event_category": "MULTI_THEME",
+  "macro_themes": [
+    {
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "confidence": 0.9,
+      "supporting_events": [
+        "WEEKLY_PROFILE"
+      ],
+      "supporting_evidence": [
+        "- chunk_1927: DAILY JOURNAL ENTRY EXAMPLE AND WEEKLY PROFILE ANALYSIS Price delivered lower as expected from the monthly fair value gap SIBI. The 'weekly profile' (a template or roadmap of likel",
+        "- chunk_3799: DEVELOPING YOUR WEEKLY PROFILE Once you have that determined, then you can focus on a weekly profile. Now if it's bullish, then you're expecting to have a weekly profile that's bul",
+        "- chunk_946: WEEKLY PROFILE & INSTITUTIONAL ORDER FLOW ENTRY When we are bullish, we will note the European open price on Tuesday (which could also be Monday or Wednesday, focusing on the weekl"
+      ]
+    }
+  ],
+  "macro_timeline": [
+    {
+      "catalyst": "CB Consumer Confidence",
+      "date": "2026-05-26T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "chunk_id": "chunk_917",
+          "summary": "ECONOMIC CALENDAR AND WEEKLY PROFILE In the preparation stage, we always refer to the economic calendar for the coming week. We note all medium and high-impact news events for the"
+        },
+        {
+          "chunk_id": "chunk_3125",
+          "summary": "IDENTIFYING HIGH AND MEDIUM IMPACT NEWS EVENTS For Tuesday, May 30th, 2017, we look for high impact and medium impact news events. The next step is to examine the release times of"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-26",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "FOMC Member Powell Speaks",
+      "date": "2026-06-01T00:30:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "20:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "catalyst": "ISM Manufacturing PMI",
+      "date": "2026-06-01T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "ISM Manufacturing Prices",
+      "date": "2026-06-01T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "Core CPI Flash Estimate y/y",
+      "date": "2026-06-02T09:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "REPRICING",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "catalyst": "CPI Flash Estimate y/y",
+      "date": "2026-06-02T09:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "REPRICING",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "catalyst": "JOLTS Job Openings",
+      "date": "2026-06-02T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4024",
+          "summary": "ANALYZING SUNDAY'S OPENING GAP AND MONDAY'S TRADING POTENTIAL So I'm looking for, in my mind, a lower gap opening on Sunday. But because of this, this is important to write this do"
+        },
+        {
+          "chunk_id": "chunk_4023",
+          "summary": "SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "ISM Services PMI",
+      "date": "2026-06-03T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-03",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "Treasury Sec Bessent Speaks",
+      "date": "2026-06-03T14:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "ACCUMULATION",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-03",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "Average Hourly Earnings m/m",
+      "date": "2026-06-05T12:30:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2921",
+          "summary": "SEEK AND DESTROY BEARISH FRIDAY This is a neutral or low probability market profile. Running shallow stops under and above the intra-week highs and lows. Then runs the intra-week l"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "Non-Farm Employment Change",
+      "date": "2026-06-05T12:30:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "confidence": 1,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2921",
+          "summary": "SEEK AND DESTROY BEARISH FRIDAY This is a neutral or low probability market profile. Running shallow stops under and above the intra-week highs and lows. Then runs the intra-week l"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "Unemployment Rate",
+      "date": "2026-06-05T12:30:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2921",
+          "summary": "SEEK AND DESTROY BEARISH FRIDAY This is a neutral or low probability market profile. Running shallow stops under and above the intra-week highs and lows. Then runs the intra-week l"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "BOE Gov Bailey Speaks",
+      "date": "2026-06-05T18:00:00.000Z",
+      "theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2921",
+          "summary": "SEEK AND DESTROY BEARISH FRIDAY This is a neutral or low probability market profile. Running shallow stops under and above the intra-week highs and lows. Then runs the intra-week l"
+        },
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_279",
+          "summary": "TRADING DISCIPLINE AND WEEKLY STRATEGY This week is the first week of the month, transitioning between months, and includes a Non-Farm Payroll Personal Rule: I typically aim to com"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "14:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    }
+  ],
+  "weekly_delivery_model": {
+    "model": "The market begins with pre-catalyst consolidation or early-week liquidity building, transitions into major catalyst volatility and potential manipulation around key news like CPI, followed by mid-week liquidity build-up, a high of the week established by a buy stop raid on Thursday, and concludes with an NFP-driven end-of-week liquidity cleanse and sell stop hunt.",
+    "expected_weekly_high_day": "Thursday",
+    "expected_weekly_low_day": "Friday",
+    "expected_expansion_day": "Friday",
+    "weekly_path": {
+      "Tuesday": "PENDING_MODEL",
+      "Monday": "PENDING_MODEL",
+      "Wednesday": "PENDING_MODEL",
+      "Friday": "PENDING_MODEL"
+    },
+    "confidence": 0.75
+  },
+  "daily_delivery_model": {
+    "expected_day_type": "UNCLASSIFIED",
+    "expected_liquidity_sequence": [],
+    "confidence": 0.1
+  },
+  "intraday_expectations": {
+    "expected_displacement_window": [],
+    "expected_reversal_window": [],
+    "execution_risk": "HIGH",
+    "confidence_modifier": -0.9
+  },
+  "retrieval_queries": [
+    "weekly profile\n\nMonday:\nISM Manufacturing PMI - High Impact\nISM Manufacturing Prices - Medium Impact\n\nTuesday:\nCB Consumer Confidence - Medium Impact\nCore CPI Flash Estimate y/y - Medium Impact\nCPI Flash Estimate y/y - Medium Impact\nBOE Gov Bailey Speaks - High Impact\nJOLTS Job Openings - Medium Impact\n\nWednesday:\nADP Non-Farm Employment Change - High Impact\nISM Services PMI - High Impact\nTreasury Sec Bessent Speaks - Medium Impact\n\nThursday:\nECB President Lagarde Speaks - Medium Impact\nECB President Lagarde Speaks - Medium Impact\nUnemployment Claims - Medium Impact\nBOE Gov Bailey Speaks - High Impact\n\nFriday:\nBOE Gov Bailey Speaks - High Impact\nAverage Hourly Earnings m/m - High Impact\nNon-Farm Employment Change - High Impact\nUnemployment Rate - High Impact\nBOE Gov Bailey Speaks - Medium Impact"
+  ],
+  "regime": {
+    "volatility": "HIGH",
+    "liquidity": "STABLE",
+    "macro_alignment": "BULLISH"
+  },
+  "narrative_history": [
+    {
+      "ts": "2026-06-01T09:48:41.981Z",
+      "narrative": "Week 2026-05-25: MULTI_THEME — bias=bullish; expect high volatility.",
+      "confidence": 0.48999999999999994
+    }
+  ],
+  "weekly_story_arc": [
+    {
+      "day": "Monday",
+      "role": "Pre-Catalyst Consolidation",
+      "supporting_event_ids": [
+        "forexfactory:eb74e5da8bff",
+        "forexfactory:9bdca4669224"
+      ],
+      "supporting_events": [
+        "ISM Manufacturing PMI",
+        "ISM Manufacturing Prices"
+      ],
+      "supporting_chunks": [
+        "chunk_4024",
+        "chunk_4023",
+        "chunk_2968"
+      ],
+      "confidence": 0.85,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Tuesday",
+      "role": "Major Catalyst Volatility",
+      "supporting_event_ids": [
+        "forexfactory:728272a6ef7f",
+        "forexfactory:11508a18ac8a",
+        "forexfactory:3e9234f9365b",
+        "forexfactory:886538124785"
+      ],
+      "supporting_events": [
+        "BOE Gov Bailey Speaks",
+        "Core CPI Flash Estimate y/y",
+        "CPI Flash Estimate y/y",
+        "JOLTS Job Openings"
+      ],
+      "supporting_chunks": [
+        "chunk_4207",
+        "chunk_4024",
+        "chunk_4023",
+        "chunk_3125"
+      ],
+      "confidence": 0.95,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Mid-Week Liquidity Build",
+      "supporting_event_ids": [
+        "forexfactory:dfbf7c3f547f",
+        "forexfactory:6dc2e43ffca3",
+        "forexfactory:354365cec913"
+      ],
+      "supporting_events": [
+        "ADP Non-Farm Employment Change",
+        "ISM Services PMI",
+        "Treasury Sec Bessent Speaks"
+      ],
+      "supporting_chunks": [
+        "chunk_2968",
+        "chunk_2917",
+        "chunk_279"
+      ],
+      "confidence": 0.85,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Thursday",
+      "role": "High of Week Liquidity Raid",
+      "supporting_event_ids": [
+        "forexfactory:2cdc1960efbb",
+        "forexfactory:18ac8b4f44c5",
+        "forexfactory:3e2f4ce64b2b"
+      ],
+      "supporting_events": [
+        "BOE Gov Bailey Speaks",
+        "ECB President Lagarde Speaks",
+        "Unemployment Claims"
+      ],
+      "supporting_chunks": [
+        "chunk_2968",
+        "chunk_1202"
+      ],
+      "confidence": 0.9,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Friday",
+      "role": "NFP Liquidity Cleanse",
+      "supporting_event_ids": [
+        "forexfactory:2cf63b971758",
+        "forexfactory:9d5ff56370fe",
+        "forexfactory:1b1c516a70f3",
+        "forexfactory:055342305ee7"
+      ],
+      "supporting_events": [
+        "Average Hourly Earnings m/m",
+        "Non-Farm Employment Change",
+        "Unemployment Rate",
+        "BOE Gov Bailey Speaks"
+      ],
+      "supporting_chunks": [
+        "chunk_2921",
+        "chunk_2968",
+        "chunk_279",
+        "chunk_704",
+        "chunk_1927",
+        "chunk_2111"
+      ],
+      "confidence": 0.95,
+      "market_timezone": "America/New_York"
+    }
+  ],
+  "dominant_theme": "A week characterized by high-impact economic catalysts (CPI, NFP) is likely to exhibit a 'Consolidation Destroy Bearish Friday' profile, involving early-week liquidity building, followed by price manipulation around news events, a mid-week liquidity build-up, a buy-stop raid leading to the high of the week, and ultimately a run on sell-side liquidity into the week's end. ICT context heavily cautions against trading during such high-impact events due to potential manual intervention and uncertainty.",
+  "dominant_narrative": "The week is set to open with initial consolidation or quiet trading, particularly on Monday, as markets anticipate Tuesday's impactful CPI release. Tuesday is expected to bring significant volatility and potential market manipulation around the CPI data, described as a 'weapon of mass destruction' by ICT. Following this, Wednesday may see further consolidation or a reaction to the CPI event, serving as a period to build liquidity. Thursday is then anticipated to form the high of the week through a buy stop raid, often catalyzed by medium to high-impact news. The week culminates on Friday with the Non-Farm Payroll report, expected to trigger a run on sell stops and a cleansing of liquidity, fulfilling a 'Consolidation Destroy Bearish Friday' or 'Seek and Destroy Bearish Friday' profile, with ICT generally advising against trading on NFP day.",
+  "macro_ire": {
+    "avg_uncertainty": 0.9,
+    "avg_volatility": 0.9,
+    "execution_risk": "HIGH",
+    "liquidity_condition": "UNSTABLE",
+    "confidence_modifier": -0.9
+  },
+  "adaptation_history": [
+    {
+      "ts": "2026-06-01T09:48:41.982Z",
+      "alignmentScore": 1,
+      "deviation": 0,
+      "adaptationPressure": 0.45,
+      "note": "avgUncertainty=0.900,avgVol=0.900"
+    }
+  ],
+  "confidence_evolution": [
+    {
+      "ts": "2026-06-01T09:48:41.982Z",
+      "confidence": 0.35769999999999996,
+      "source": "adaptation"
+    }
+  ],
+  "updated_at": "2026-06-01T09:48:41.984Z",
+  "version": 1
+}

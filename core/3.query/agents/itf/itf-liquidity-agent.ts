@@ -50,6 +50,16 @@ export async function itfLiquidityAgent(input: ITFLiquidityInput, minimal_contex
       pushImage(parts, input.eurusd.m15, "ITF-EURUSD-M15", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT liquidity observations on the Intermediate Time Frame (ITF - H4, H1, M15).
+
+Focus strictly on identifying resting liquidity pools, sweeps, and inducement levels:
+1. **Buy-side Liquidity (BSL) Pools**: Locate resting liquidity above H4/H1 swing highs, equal highs (EQH), or intermediate-term highs. (LIQUIDITY)
+2. **Sell-side Liquidity (SSL) Pools**: Locate resting liquidity below H4/H1 swing lows, equal lows (EQL), or intermediate-term lows. (LIQUIDITY)
+3. **Liquidity Sweeps & Stop Hunts**: Check if recent price action has swept BSL or SSL pools on H4, H1, or M15 charts before reversing. (LIQUIDITY)
+4. **Inducements**: Identify minor swing highs/lows acting as inducement (trapping early buyers/sellers) before major liquidity pools are reached. (LIQUIDITY)
+5. **Liquidity Voids & Delivery Gaps**: Identify unfilled price spaces or delivery gaps on intermediate timeframes acting as magnets for price. (LIQUIDITY)
+
+Output your observations as objective bullet points. Focus purely on liquidity location and action. Do NOT try to identify or prioritize specific FVG structures.`,
     schema: itfLiquidityOutputSchema,
     mapOutput: (result) => {
       const notes = (result?.notes || "").toLowerCase();

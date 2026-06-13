@@ -1,0 +1,2689 @@
+[
+  {
+    "chunk_id": "chunk_755",
+    "concepts": [
+      {
+        "canonical": "COT_DATA_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "COT (Commitment of Traders)",
+          "Commercials should ideally be in a net long position",
+          "net short",
+          "aggressively lessening their short positions",
+          "open interest"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "SMART_MONEY_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERSOLD_CONDITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The daily chart should be oversold",
+          "daily Williams %R indicator",
+          "sentiment should ideally be oversold"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Stock Indices: Major stock indices (Nasdaq, Dow, S&P) should be firm and/or bullish",
+          "failure swings between these indices",
+          "Commodities: Should be bullish",
+          "CRB index, which should be trading firm to bullish",
+          "Gold and Oil: As benchmarks for the economy, Gold and Oil should also be firm and/or bullish"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "CORRELATION_ANALYSIS",
+          "DIVERGENCE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a key support level"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "POTENTIAL_REVERSAL_ZONE",
+          "LIQUIDITY_POOL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy pattern (e.g., Optimal Trade Entry)"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH MARKET CONDITIONS",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_756",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH MARKET CONDITIONS",
+          "indicators for bearish conditions",
+          "soft and/or bearish",
+          "trading bearishly",
+          "weaker prices",
+          "confirming a bearish market condition"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COT (Commitment of Traders)",
+          "Stock Indices: Major stock indices (Nasdaq, Dow, S&P)",
+          "Commodities: Should be bearish. Reference the CRB index",
+          "Gold and Oil: As benchmarks"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "MARKET_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_DATA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COT (Commitment of Traders)",
+          "Commercials' net positions should show them as net short",
+          "aggressively increasing their short positions",
+          "observable via open interest"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_BEHAVIOR",
+          "MARKET_BIAS_DETERMINATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERBOUGHT_OVERSOLD_INDICATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "The daily chart should be overbought",
+          "based on a daily Williams %R"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "CONFLUENCE",
+          "MARKET_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "topping formations",
+          "rejections at highs",
+          "trading at key resistance levels",
+          "potentially encountering resistance"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "CONFLUENCE",
+          "BEARISH_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH MARKET CONDITIONS",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_757",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "ANTICIPATORY STAGE",
+          "Identifying Higher Timeframe Key Levels",
+          "Always start by identifying monthly, weekly, and daily key support and resistance levels"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly, weekly, and daily key support and resistance levels",
+          "These levels act as catalysts for signals"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "SIGNAL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONALITY",
+        "confidence": 1,
+        "surface_terms": [
+          "If seasonally bullish",
+          "If seasonally bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Stalking Yield Triads",
+          "2-year, 5-year, and 10-year US interest rate yields",
+          "US, German, and UK country yields",
+          "yield triad divergence"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXT_SETTING",
+          "MARKET_HEALTH_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "positive divergence",
+          "one yield fails to make a lower low (while others do)",
+          "If they fail to make equal highs",
+          "yield triad divergence"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXT_SETTING",
+          "SIGNAL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SENTIMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullishness",
+          "Risk On' scenario",
+          "overall bearish stage in the marketplace"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATORY STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_758",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergences",
+          "USDX SMT divergence",
+          "cracking correlation"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_DIRECTIONAL_BIAS",
+          "ANOMALY_DETECTION",
+          "FORECASTING",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "key resistance",
+          "support level"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "CONTEXT_SETTING",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATORY STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_759",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE_CORRELATED_PAIRS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Correlated Pair SMT Divergence (GBP/USD 'Pound' vs. EUR/USD 'Euro')",
+          "one fails to make a lower low",
+          "fail to make equal highs"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "CONFLUENCE_FACTOR",
+          "MARKET_STRUCTURE_SHIFT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE_STOCK_INDICES",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Stock Market Indices SMT Divergence (Dow, S&P 500, Nasdaq Composite)",
+          "SMT divergences between these indices",
+          "one fails to make a lower low at a key support level",
+          "one index bucks the trend at key resistance or support"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "CONFLUENCE_FACTOR",
+          "MARKET_STRUCTURE_SHIFT_INDICATION",
+          "TRADE_MANAGEMENT_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "key support level",
+          "key resistance levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "POTENTIAL_REVERSAL_ZONE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term shift",
+          "short-term shift lower",
+          "signals a potential setup"
+        ],
+        "narrative_roles": [
+          "ANTICIPATED_OUTCOME",
+          "SIGNAL_IMPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_INDICATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOW_THEORY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Use Dow Theory"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_TOOL",
+          "TREND_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "upside continuation",
+          "downside continuation"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_OUTCOME",
+          "SIGNAL_IMPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tighten stops",
+          "take profits",
+          "exit a trade"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "SIGNAL_RESPONSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATORY STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_760",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "commercials are net long",
+          "commercials are net short",
+          "overall trend of commercial trading",
+          "commercials are lessening their short positions",
+          "commercials are aggressively increasing their short positions"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "LONG_TERM_DIRECTION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "weekly charts"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drop in open interest",
+          "increase in open interest"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL_GENERATION",
+          "BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "COMMERCIAL_ACTIVITY_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "key support and resistance levels",
+          "at support",
+          "at resistance",
+          "key resistance levels",
+          "key support levels"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "STRUCTURAL_REFERENCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "higher timeframe"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_TREND",
+        "confidence": 0.9,
+        "surface_terms": [
+          "long-term macro trends"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "long-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERBOUGHT_OVERSOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "overbought on the daily chart",
+          "oversold on the daily chart"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIGNAL_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy signal forming or having formed",
+          "strong indication of a buy signal",
+          "strong sell signal",
+          "Expect sell signals",
+          "Expect buy signals"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_INITIATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATORY STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_761",
+    "concepts": [
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Key Levels",
+          "monthly, weekly, and daily key support and resistance",
+          "key support",
+          "key resistance level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TRADE_PLANNING",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SENTIMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Risk Sentiment",
+          "'Risk On'"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_PROGRAM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Buy Program"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "TRADE_TRIGGER",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_PROGRAM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Sell Program"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "TRADE_TRIGGER",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINTS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing point formation",
+          "swing high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_TRIGGER",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Transpose higher timeframe key levels (monthly, weekly, daily) down to lower timeframes (60-minute",
+          "Wait for price to trade to these higher timeframe key support/resistance levels",
+          "lower timeframes (60-minute",
+          "1-hour",
+          "4-hour"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "TRADE_PLANNING",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "FILTERING"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY",
+          "1_HOUR",
+          "4_HOUR",
+          "60_MINUTE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily chart's market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_CONFIRMATION",
+          "FILTERING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "market flow from 1-hour or 4-hour charts"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_AVOIDANCE",
+          "CONTEXTUAL_WARNING"
+        ],
+        "temporal_tags": [
+          "1_HOUR",
+          "4_HOUR"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTION STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_762",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Understanding higher timeframe (intermediate term) trading",
+          "trade with the prevailing market tide",
+          "Trading with the higher timeframe premise",
+          "counter-trend trading"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PROBABILITY_ENHANCEMENT",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTION STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_763",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "Stop-Loss Orders",
+          "stop-loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIXED_STOP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "30 pips from the entry point",
+          "30 pips above for shorts"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKE",
+        "confidence": 1,
+        "surface_terms": [
+          "Take 50% of the position off once the trade reaches 30 pips profit",
+          "Take 30% of the original position off at the 127% extension",
+          "The goal is to have 70-80% of the trade in profit",
+          "Any small remaining portion can be left to ride"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_EVEN_STOP",
+        "confidence": 1,
+        "surface_terms": [
+          "Immediately move the stop-loss to break-even",
+          "risk-free scenario"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci extensions: 127%",
+          "162%",
+          "200%",
+          "127% extension",
+          "162% extensions",
+          "200% extension"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TECHNICAL_ANALYSIS_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Look for targets",
+          "Profits should be booked"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traded swing",
+          "swing being traded"
+        ],
+        "narrative_roles": [
+          "TECHNICAL_ANALYSIS_TOOL",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTION STAGE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_764",
+    "concepts": [
+      {
+        "canonical": "BOND_YIELD_TRIAD",
+        "confidence": 1,
+        "surface_terms": [
+          "BOND YIELD TRIAD",
+          "bond yield triads",
+          "5-year US Treasury T-note yield",
+          "UK 5-year bond yield",
+          "German 5-year bond yield"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_TOOL",
+          "MACRO_ANALYSIS_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Yield Triad SMT divergence",
+          "disparity and shifting among the yields",
+          "modestly lower high"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "INTERMARKET_ANALYSIS",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [
+          "April"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BOND YIELD TRIAD",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_765",
+    "concepts": [
+      {
+        "canonical": "YIELD_TRIAD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "YIELD TRIAD",
+          "The US yield (orange) made a higher high, while the German yield (green) was unable to make a",
+          "demonstrates symmetry between yields and their respective futures contracts",
+          "The US yield (orange) made a higher high, but the UK 5-year yield (green) was unable to make a"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "CONTEXT_SETTING",
+          "BIAS_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence in yields"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_GENERATOR",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CURRENCY_DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "weaker British Pound and EUR/ USD ('Fiber') prices, and a rally in the US Dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_PREDICTION",
+          "TRADE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "April/May spring seasonal influence"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_BIAS",
+          "TRADE_CONTEXT"
+        ],
+        "temporal_tags": [
+          "APRIL",
+          "MAY",
+          "SPRING"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "YIELD TRIAD",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_766",
+    "concepts": [
+      {
+        "canonical": "YIELD_TRIAD",
+        "confidence": 1,
+        "surface_terms": [
+          "YIELD TRIAD"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "unable to make comparable highs",
+          "UK yield traded higher, while the German yield was weaker and failed to make a higher high"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_SIGNAL",
+          "DIRECTIONAL_BIAS",
+          "INTERMARKET_ANALYSIS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "underlying weakness in the German yield translated into actual price weakness for EUR/USD",
+          "German yields showed no interest in higher yields; instead, there was selling, leading to accelerated weakness into June and July for EUR/USD"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "MARKET_FORECASTING"
+        ],
+        "temporal_tags": [
+          "March-April",
+          "June",
+          "July"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "YIELD TRIAD",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_767",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT and Open Interest analysis",
+          "open interest",
+          "Total Volume",
+          "total open interest",
+          "sharp drop in open interest",
+          "declining open interest",
+          "Commitment of Traders Line Chart"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "INTERMARKET_ANALYSIS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commercials were 'tipping their hand'",
+          "lessening their short positions",
+          "aggressively reducing their short positions",
+          "red line (commercials) showed they were net short"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "SMART_MONEY_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "Seasonal tendency",
+          "seasonally higher USD prices"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "key support level"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_STATE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BARCHART.COM WALKTHROUGH",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_768",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE (from a high to a low)"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_IDENTIFICATION",
+          "ENTRY_MODEL_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "briefly took out an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading range",
+          "larger trading range"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT report",
+          "Commercial Commitment of Traders Line Chart"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_POSITIONING",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 1,
+        "surface_terms": [
+          "Commercials were quickly adding shorts",
+          "rapid drop in the red line (commercial activity)",
+          "net long to net short positions",
+          "aggressive commercial short selling"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_POSITIONING",
+          "REVERSAL_INDICATION",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST",
+        "confidence": 1,
+        "surface_terms": [
+          "rapid increase in open interest",
+          "increasing open interest"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "SMART_MONEY_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSIDE_THE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "'inside the range' concept"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Weekly nearest",
+          "A weekly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BARCHART.COM WALKTHROUGH",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_769",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'fake out' move",
+          "rejected harshly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commercial traders held a net short position",
+          "commercials reducing shorts for bullishness"
+        ],
+        "narrative_roles": [
+          "MACRO_DIRECTIONAL_BIAS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal timeframe (April-May)",
+          "seasonal period when Fiber and Cable were expected to decline"
+        ],
+        "narrative_roles": [
+          "MACRO_DIRECTIONAL_BIAS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "April-May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "aligned with the dollar being poised to rally",
+          "bearish outlook for GBP/USD, aligning with the bullish USD outlook",
+          "inverse of the Dollar's behavior",
+          "indicating bearishness for the Euro"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "INTERMARKET_RELATIONSHIPS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence (weakness)",
+          "'Fiber' was unwilling to make a higher high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST",
+        "confidence": 1,
+        "surface_terms": [
+          "open interest",
+          "Open interest was increasing during this consolidation phase",
+          "declining OI"
+        ],
+        "narrative_roles": [
+          "MACRO_DIRECTIONAL_BIAS",
+          "BIAS_CONFIRMATION",
+          "MARKET_BEHAVIOR_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation/trading range"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_INDICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "April-May"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BARCHART.COM WALKTHROUGH",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_770",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "beginning of April"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONALITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seasonally weak period for the Euro"
+        ],
+        "narrative_roles": [
+          "BIAS_DEVELOPMENT",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commercials were predominantly net long",
+          "added slightly to their net long positions",
+          "reduction of net long positions by Commercials",
+          "indirect increase in their short exposure",
+          "Commercials lessening their net longs",
+          "indicated increasing short positions",
+          "higher timeframe confirmation"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_CONFIRMATION",
+          "BIAS_DEVELOPMENT",
+          "SENTIMENT_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "April",
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "correlated SMT divergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "BIAS_DEVELOPMENT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "April"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BARCHART.COM WALKTHROUGH",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_771",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence across the key stock indices"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "An Optimal Trade Entry (OTE) swing"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous old highs",
+          "Upside objectives"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONTEXT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seasonal tendency pointed to a British Pound decline",
+          "'Risk Off' scenario",
+          "weakness in stock indices was expected",
+          "waning momentum (per Dow Theory)",
+          "potential withdrawal or retracement lower"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "USDX RALLY",
+          "bullish USD thesis"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USDX RALLY AND STOCK INDEX SMT DIVERGENCE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_772",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence",
+          "Correlated Pair SMT divergence",
+          "Fiber was unable to make a higher high",
+          "Cable was willing and able to make a higher high",
+          "weaker of the sisters",
+          "relatively stronger pair",
+          "weaker",
+          "prime candidate for a sell scenario"
+        ],
+        "narrative_roles": [
+          "RELATIVE_STRENGTH_WEAKNESS_IDENTIFICATION",
+          "ENTRY_BIAS_CONFIRMATION",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [
+          "April 2012",
+          "April"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD AND GBP/USD",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_773",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "from a high to a low",
+          "70.5% Fibonacci retracement level",
+          "'sweet the 70.5% Fibonacci retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION",
+          "TRADE_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "April seasonal decline period",
+          "bearish seasonal window"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "MACRO_CONTEXT",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [
+          "April"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish outlook",
+          "expected weakness",
+          "significant shorting opportunity"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "TRADE_DIRECTION_GUIDANCE",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "1.63 big figure",
+          "1.63 level"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe implied resistance level"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "SUPPORT_RESISTANCE",
+          "TRADE_ZONE_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD AND GBP/USD",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_774",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+          "SMT divergences",
+          "USDX SMT divergence",
+          "This specific USDX SMT divergence (Fiber not confirming Cable's high while USDX made a lower low)"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_ESTABLISHMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "April/May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Made a higher high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "SMT_CONTRIBUTOR"
+        ],
+        "temporal_tags": [
+          "April/May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "from a high to a low"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_BREAK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Price traded down below a previous low",
+          "market structure breaks a low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "CONTINUATION_CONFIRMATION",
+          "SIGNAL_FOR_FURTHER_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci extensions",
+          "downside targets"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "confirmed a USDX SMT divergence (showing the dollar was weaker than expected relative to Cable's strength)",
+          "strengthened the USDX SMT divergence thesis, indicating the Dollar was stronger than expected relative",
+          "very large bearish price swing was likely to unfold for Fiber",
+          "overall expectation of higher Dollar prices"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_ESTABLISHMENT",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_775",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+          "SMT divergence",
+          "USDX SMT and Correlated Pair SMT"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "127%, 162%, and 200% extensions",
+          "127% extension",
+          "162% extension"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "OTE",
+          "shorting at the OTE",
+          "'inside the range' sweet spot",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 1,
+        "surface_terms": [
+          "old support became resistance"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONALITY",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal period in April",
+          "April seasonal decline"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "April",
+          "early May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower timeframe",
+          "higher timeframe swing"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "62% retracement level"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_LEVEL",
+          "POTENTIAL_TURNING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_776",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+          "SMT DIVERGENCE"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_TURNED_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broke down below this support, retested it as resistance"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "swing points",
+          "daily swing points",
+          "lower highs",
+          "weekly swing high",
+          "a high, followed by a lower high, then another lower high on a weekly chart",
+          "multi-timeframe swing points"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "multiple timeframes",
+          "multi-timeframe swing points, combining daily and weekly confirmations",
+          "daily and weekly confirmations"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_THE_WEEK_FORMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly high to form",
+          "high of the week"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Draw a Fibonacci from the swing high down to a low",
+          "79% retracement level",
+          "higher timeframe Fibonacci level",
+          "62% retracement on the daily chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ENVIRONMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish environment"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_777",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+          "This confluence"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "HIGH_PROBABILITY_SETUP",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'sucker rally'",
+          "enticing buyers before reversing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "TRAP",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe bearish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open"
+        ],
+        "narrative_roles": [
+          "TIME_OF_DAY_BIAS",
+          "SESSION_LIQUIDITY_GENERATOR"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USDX AND CROSS-CURRENCY SMT DIVERGENCE",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_778",
+    "concepts": [
+      {
+        "canonical": "FRACTAL_PRICE_ACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTAL PRICE ACTION",
+          "price fractality",
+          "Smaller, fractal Optimal Trade Entries (OTEs) can be observed within this larger price move",
+          "Price is fractal; patterns like OTEs repeat across different timeframes",
+          "smaller fractal OTEs can be observed within larger timeframe movements"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR_ANALYSIS",
+          "SCALABILITY",
+          "MULTI_TIMEFRAME_CONSISTENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTEs",
+          "Optimal Trade Entries (OTEs)",
+          "'sweet spot' (overlapping Fib levels) for additional short entry opportunities",
+          "another Optimal Trade Entry (OTE) opportunity"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "April seasonal decline"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "FUNDAMENTAL_CONTEXT"
+        ],
+        "temporal_tags": [
+          "APRIL_SEASONAL"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Drawing a Fibonacci from the high to a low",
+          "overlapping Fib levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_COMPONENT",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "CONFLUENCE_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high timeframe charts and breaking them down",
+          "larger timeframe movements"
+        ],
+        "narrative_roles": [
+          "TOP_DOWN_ANALYSIS",
+          "BIAS_ESTABLISHMENT",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "162% extension"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "POTENTIAL_REVERSAL_ZONE",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shift",
+          "If price breaks above a previous high after a decline, it indicates a market structure shift"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "BIAS_SHIFT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTAL PRICE ACTION AND MULTIPLE OTES FOR SHORTING",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_779",
+    "concepts": [
+      {
+        "canonical": "FRACTAL_PRICE_ACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTAL PRICE ACTION"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE",
+          "another OTE",
+          "retest",
+          "intraday OTEs",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REFINEMENT",
+          "PROFIT_TAKING_OPTIMIZATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "162% extension"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Macro view tools"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendencies"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "SEASONAL"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TECHNIQUE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "SENTIMENT_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Short-term analysis"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "PRECISE_TIMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swings"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE_IDENTIFICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTAL PRICE ACTION AND MULTIPLE OTES FOR SHORTING",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_780",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swings"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "intraday Optimal Trade Entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_STRUCTURE_FORMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly high to form on Monday or Tuesday",
+          "weekly low to form on Monday or Tuesday"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_BIAS",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London open"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "MARKET_SESSION_KEY_TIME"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Initial stop-loss orders",
+          "'potential striking distance'"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "move stops to a profitable area",
+          "trailing stops too tightly"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_CHANGE_CONFIRMATION",
+        "confidence": 0.75,
+        "surface_terms": [
+          "support broken, retested"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT_CONFIRMATION",
+          "MARKET_STRUCTURE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Scale out profits"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION_TARGETS",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci extensions: 127%, 162%, and 200%",
+          "127%",
+          "162%",
+          "200%"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_SWING_IDENTIFICATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "price swing",
+          "lowest low candle to a high"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_BASIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY TIMING, TRADE MANAGEMENT, AND PROFIT TAKING",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_781",
+    "concepts": [
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "ENTRY TIMING",
+          "TRADE MANAGEMENT",
+          "PROFIT TAKING",
+          "Conservative",
+          "Flexible",
+          "Aggressive Management"
+        ],
+        "narrative_roles": [
+          "OVERALL_STRATEGY",
+          "EXECUTION_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "50% profit at 30 pips gain",
+          "30% of the total position off at 127% extension",
+          "10% at 162%",
+          "30% of the remaining 50% off at 127%",
+          "remaining 20% off at 162%",
+          "half of the remaining portion off",
+          "last 25%"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move stop to break-even",
+          "trail the stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTING_CAPITAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "127% extension",
+          "162%"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TECHNICAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY TIMING, TRADE MANAGEMENT, AND PROFIT TAKING",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_782",
+    "concepts": [
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "intermediate-term swing trading"
+        ],
+        "narrative_roles": [
+          "APPLICATION_CONTEXT",
+          "STRATEGY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe macro analysis"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "DIRECTIONAL_ANALYSIS",
+          "TOP_DOWN_METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SYNCHRONIZATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "synchronize with the market"
+        ],
+        "narrative_roles": [
+          "ALIGNMENT_WITH_BIAS",
+          "CONFIRMATION_OF_DIRECTION",
+          "MARKET_FLOW_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Smaller timeframe concepts",
+          "precise timing"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "EXECUTION_REFINEMENT",
+          "OPTIMAL_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUSION AND FURTHER RESOURCES",
+      "source_file": "ICT - Trading Plan Development 5_Handbook.chunks.json"
+    }
+  }
+]

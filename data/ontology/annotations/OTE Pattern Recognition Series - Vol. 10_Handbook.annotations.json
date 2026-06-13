@@ -1,0 +1,324 @@
+[
+  {
+    "chunk_id": "chunk_4121",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Tuesday's previous daily high",
+          "daily high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "May 20th, 2020"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "price to run above Tuesday's daily high",
+          "reaches up for it",
+          "just piercing it very modestly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "time of day"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART SETUP AND INITIAL PRICE ACTION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4122",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci retracement"
+        ],
+        "narrative_roles": [
+          "TOOL",
+          "RETRACEMENT_STRATEGY",
+          "ENTRY_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "79 retracement level",
+          "70.5 level",
+          "sweet spot"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "HIGH_PROBABILITY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "find some support"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous daily high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIG_FIGURE",
+        "confidence": 1,
+        "surface_terms": [
+          "big figure 0.6600 level"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_LEVEL",
+          "TARGET_ZONE",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price expands above",
+          "runs and expands above"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "DIRECTIONAL_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING THE FIBONACCI FOR OPTIMAL TRADE ENTRY (OTE)",
+      "source_file": "OTE Pattern Recognition Series - Vol. 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4123",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci levels",
+          "Fibonacci tool"
+        ],
+        "narrative_roles": [
+          "TECHNICAL_ANALYSIS_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "negative 1.5 level",
+          "projected movements"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVIEW OF FIBONACCI LEVELS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4124",
+    "concepts": [
+      {
+        "canonical": "BIG_FIGURE",
+        "confidence": 1,
+        "surface_terms": [
+          "The big figure",
+          "0.6600",
+          "big figure"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_MAGNET",
+          "PSYCHOLOGICAL_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "specific Fibonacci level",
+          "The Fibonacci"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_PROJECTION",
+          "GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "one standard deviation level"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "STATISTICAL_REFERENCE_POINT",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "Tuesday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE_POINT",
+          "MARKET_STRUCTURE_REFERENCE",
+          "ENGINEERED_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price runs above Tuesday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "INDICATION_OF_REVERSAL_OR_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING THE BIG FIGURE AND STANDARD DEVIATIONS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4125",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity residing above the old high",
+          "running liquidity above the"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "significant big figure levels"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY AND BIG FIGURES",
+      "source_file": "OTE Pattern Recognition Series - Vol. 10_Handbook.chunks.json"
+    }
+  }
+]

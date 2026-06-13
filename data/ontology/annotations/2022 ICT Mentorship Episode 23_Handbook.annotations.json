@@ -1,0 +1,331 @@
+[
+  {
+    "chunk_id": "chunk_137",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_ATTRACTION",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "second imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_ATTRACTION",
+          "REVERSAL_ZONE",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "'stab up' into a second imbalance",
+          "potentially signaling a sell opportunity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "immediate expectation is for price to come down first"
+        ],
+        "narrative_roles": [
+          "EXPECTATION_SETTING",
+          "TRADE_PLANNING",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL MARKET OBSERVATION AND IMBALANCE",
+      "source_file": "2022 ICT Mentorship Episode 23_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_138",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "fake out"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "LIQUIDITY_ENGINEERING",
+          "VOLATILITY_PATTERN"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "NON_FARM_PAYROLLS"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run through Tuesday's high",
+          "short-term low run"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING OPPORTUNITIES AND FOMC VOLATILITY",
+      "source_file": "2022 ICT Mentorship Episode 23_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_139",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC DELIVERY",
+          "algorithmic delivery close to expectations"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "MARKET_CONFIRMATION",
+          "EXECUTION_MECHANISM"
+        ],
+        "temporal_tags": [
+          "FOMC_TIMING",
+          "2_PM_ET",
+          "2:30_PM_ET"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "where price will draw to before turning"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "TARGET_IDENTIFICATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONALIZED SETUPS AND ALGORITHMIC DELIVERY",
+      "source_file": "2022 ICT Mentorship Episode 23_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_140",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "imbalances",
+          "fair value gap, which serves as the 'mean one'"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block (blue line)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "taking out Tuesday's high 'much more meaningfully'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "Tuesday's high"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEQUENTIAL PRICE ACTION AND MULTIPLE TRADE OPPORTUNITIES",
+      "source_file": "2022 ICT Mentorship Episode 23_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_141",
+    "concepts": [
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "pre-FOMC"
+        ],
+        "narrative_roles": [
+          "MAJOR_NEWS_EVENT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "FOMC"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "resting buy-side liquidity above a high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ATTRACTION",
+          "PRICE_INEFFICIENCY",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "order block (two down-closed candles)",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'runs' Tuesday's highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_CONTINUATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small imbalances"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PRICE_INEFFICIENCY",
+          "REBALANCING_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETAILED BREAKDOWN OF EIGHT SETUPS",
+      "source_file": "2022 ICT Mentorship Episode 23_Handbook.chunks.json"
+    }
+  }
+]

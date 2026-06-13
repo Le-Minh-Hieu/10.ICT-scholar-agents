@@ -1,0 +1,616 @@
+[
+  {
+    "chunk_id": "chunk_2332",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "a fair value gap",
+          "This area",
+          "what is referred to as a fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING A FAIR VALUE GAP ON A DAILY CHART",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2333",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG formation",
+          "forming the FVG",
+          "fair value gap",
+          "defining the fair value gap"
+        ],
+        "narrative_roles": [
+          "FORMATION",
+          "IDENTIFICATION",
+          "ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "buy side liquidity has already been offered",
+          "delivering buy side liquidity",
+          "buy side liquidity has already been traded there"
+        ],
+        "narrative_roles": [
+          "DELIVERY",
+          "UTILIZATION",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY DELIVERY",
+          "delivering buy side liquidity",
+          "buy side liquidity has already been offered",
+          "buy side liquidity has already been traded there"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "UTILIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "significant down candle",
+          "primary down candle",
+          "higher bearish candle"
+        ],
+        "narrative_roles": [
+          "ORIGINATION_POINT",
+          "REFERENCE_POINT_FOR_FVG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING LIQUIDITY DELIVERY AND FVG FORMATION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2334",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "fair value gap",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "REBALANCE_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity run on sell stops",
+          "moves below this previous low",
+          "'turtle soup'",
+          "false break below an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops below it",
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous low",
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "BUY_SIDE_LIQUIDITY_CLUSTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "return and fill the FVG",
+          "closing the fair value gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "TRADE_COMPLETION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "MARKET STRUCTURE"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FVG INTERACTION WITH LIQUIDITY RUNS AND MARKET STRUCTURE (4-HOUR",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2335",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "FVG fill",
+          "fair value gaps",
+          "fair value gap fill",
+          "fair value gap",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PROFITABLE_CONDITION",
+          "ENTRY_CONFIRMATION",
+          "PRICE_TARGET",
+          "RANGE_BOUND_CONTEXT"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART",
+          "END_OF_YEAR_HOLIDAY_TRADING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "double tops (where buy stops rest above)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "'turtle soup' run below an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_PATTERN",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FVG AS A PROFITABLE CONDITION IN RANGE-BOUND MARKETS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2336",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "REVERSE FVG",
+          "fair value gaps",
+          "fair value gap",
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "PRICE_MAGNET",
+          "LIQUIDITY_DRAW",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY VOIDS/POOLS",
+          "liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "CONFLUENCE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY VOIDS/POOLS",
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "CONFLUENCE",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "CONFLUENCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side liquidity runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "OVERLAP WITH",
+          "overlap in their behavior",
+          "overlap between"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_SETUP",
+          "CONTEXT_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "breakaway gaps"
+        ],
+        "narrative_roles": [
+          "GAP_ANALYSIS",
+          "CONTEXT_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURING_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "measuring gaps"
+        ],
+        "narrative_roles": [
+          "GAP_ANALYSIS",
+          "CONTEXT_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVERSE FVG AND OVERLAP WITH LIQUIDITY VOIDS/POOLS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2337",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "fair value gap",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_AREA",
+          "REBALANCING_AREA",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY POOL"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION_AREA",
+          "TARGET_FOR_PRICE",
+          "LIQUIDITY_ENGINEERING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "1.0475 level",
+          "old high (1.0475)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "run above an old high",
+          "liquidity run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "POTENTIAL_REVERSAL_INDICATION",
+          "CLEANING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FVG AND LIQUIDITY POOL INTERACTION ON 5-MINUTE CHART",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2338",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNETISM",
+          "LIQUIDITY_DRAW",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out the previous high of 1.0477",
+          "reaching a candle high of 1.0478",
+          "a one-pip run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A gap then forms",
+          "from one candle's close (1.0472) to the next candle's open (1.0470)",
+          "a two-pip",
+          "refined price level of 1.0470"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_CREATION",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE ACTION AND GAPS ON A 15-MINUTE CHART",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2339",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP_CLOSURE",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG CLOSURE",
+          "perfectly filling in the price delivery",
+          "efficient gap closure",
+          "efficient closure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "PRICE_EFFICIENCY_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "buy side liquidity is last offered",
+          "buy side liquidity was offered",
+          "buy side liquidity delivery"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "DOWNSIDE DELIVERY",
+          "price moves entirely down",
+          "selling opportunity",
+          "anticipate this range to be delivered lower"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_INDICATION",
+          "MARKET_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION OF FVG CLOSURE AND DOWNSIDE DELIVERY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - ICT Fair Value Gaps FVG_Handbook.chunks.json"
+    }
+  }
+]

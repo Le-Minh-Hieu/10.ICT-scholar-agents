@@ -1,0 +1,223 @@
+{
+  "timestamp": "2026-06-13T09:05:22.887Z",
+  "agentType": "Scenario-Engine",
+  "currentCallId": "Scenario-Engine-1781341423713-48",
+  "prompt": "You are an ICT Scenario Simulation Engineer. \nYour task is to generate 2-3 PLAUSIBLE market scenarios based on the provided hierarchical market state.\n\n## INPUT DATA\nHIERARCHICAL THESES:\n{\n  \"M15\": {\n    \"timeframe\": \"M15\",\n    \"bias\": \"suggests_bearish\",\n    \"confidence\": 0.8,\n    \"key_anchors\": [\n      \"M15 Bullish Order Block (1.15600 - 1.15615)\",\n      \"M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)\",\n      \"M15 Dealing Range Equilibrium (1.15755)\",\n      \"Previous M1 SSL Sweep (1.15660)\",\n      \"Potential 1.15600 Equal Lows (EQL)\"\n    ],\n    \"summary\": \"The M15 timeframe currently suggests a continuation of the H4 bearish pullback, evidenced by consistent bearish displacement, market structure shifts, and liquidity sweeps across micro timeframes. Despite price trading within the discount zone of its immediate M15 dealing range and interacting with M15 bullish PD arrays (OB, FVG) around 1.15600-1.15620, a recent M1 SSL sweep at 1.15660 failed to initiate a reversal, indicating a probable drive towards deeper sell-side liquidity, potentially targeting 1.15600 Equal Lows.\",\n    \"supporting_chunks\": [\n      \"chunk_3094\",\n      \"chunk_4105\",\n      \"chunk_1006\",\n      \"chunk_215\"\n    ],\n    \"opposing_evidence\": \"Current M15 price action is situated within the discount zone of its active dealing range, actively interacting with identified bullish PD arrays (Order Block and FVG/BISI) between 1.15580-1.15620. This positioning is sub-optimal for initiating new short positions, potentially indicating a temporary reaction point or consolidation before further downside.\",\n    \"shift_conditions\": \"A shift towards a bullish M15 bias would require a sustained bullish market structure shift (MSS) with significant displacement, closing decisively above the M15 dealing range equilibrium (1.15755). Alternatively, a strong, confirmed reversal from the M15 bullish OB/FVG area (1.15580-1.15620) that negates recent bearish displacement on M5/M1 would challenge this bearish outlook.\"\n  },\n  \"DAILY\": {\n    \"timeframe\": \"DAILY\",\n    \"bias\": \"suggests_bullish\",\n    \"confidence\": 0.75,\n    \"key_anchors\": [\n      \"Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)\",\n      \"Price located in a discount zone according to the PD Array agent\",\n      \"DXY daily candle observed as a small bearish inside bar, suggesting a short-term pause in DXY's bullish momentum\",\n      \"Underlying DXY Monthly and Weekly bullish trend, suggesting an overall bearish macro context for EUR/GBP, making the current bullish move a retracement\",\n      \"Weekly Profile's macro bias is bearish\"\n    ],\n    \"summary\": \"The HTF bias is determined by synthesizing insights from structure, macro, liquidity, and PD array agents.\\n\\n1.  **Primary Bias Formation:** The `structure` agent, despite having conflicting bullish (Monthly BOS) and bearish (Weekly/Daily BOS) anchors, explicitly highlights a 'Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)'. This divergence is a strong technical signal for a potential upward movement. However, the `macro` agent indicates strong bullish momentum for DXY on both Monthly and Weekly timeframes, and the `weekly_profile` explicitly states a 'macro_bias: bearish' for EUR/GBP. This establishes an overarching bearish macro trend for EUR/GBP. Given the bullish SMT divergence, the primary bias for the immediate HTF is a bullish retracement against this stronger bearish macro trend.\\n\\n2.  **Confirm with Liquidity:** The `liquidity` agent reports `liquidity_context: {above: true, below: true}`, indicating the presence of liquidity targets in both directions. While it doesn't definitively confirm the direction, it ensures that there are liquidity pools available for a bullish retracement to target, which is consistent with the primary bias of an upward move. The `internal_conflict: true` in the liquidity agent suggests balanced liquidity, not opposing a short-term retracement.\\n\\n3.  **Use PD Array for Context:** The `pd_array` agent states that price is currently in a `discount` zone. For an asset within an overall bearish trend, a price in a discount zone, especially when coupled with a bullish divergence like an SMT, is a highly probable area for smart money to initiate buying for a retracement back towards equilibrium or premium levels.\\n\\n**Conclusion:** The combination of a 'Bullish SMT divergence' (structure) signaling a potential reversal or strong retracement, price being in a 'discount' zone (PD Array) making it attractive for buyers, and the DXY's 'Daily small bearish inside bar' (macro) suggesting a temporary pause in USD strength, collectively points to a bullish expectation for the HTF and the next candle. This bullish movement is interpreted as a retracement within the broader bearish macro context for EUR/GBP.\",\n    \"supporting_chunks\": []\n  }\n}\n\nINTERMARKET CONTEXT:\n{\n  \"primary_asset\": \"EURUSD\",\n  \"external_influences\": [],\n  \"smt_hints\": [],\n  \"overall_relational_alignment\": 0\n}\n\nMACRO CONTEXT:\n{\n  \"event_phase\": \"IDLE\",\n  \"execution_modifiers\": {\n    \"reduce_size\": true,\n    \"avoid_pre_news_entry\": false\n  },\n  \"macro_catalysts\": [],\n  \"macro_invalidation_hints\": [\n    \"Tuesday is designated as an 'Early Week Price Manipulation' day, serving as a setup for the dominant 'Wednesday High of the Week' profile. With no major catalysts today, price is expected to consolidate or be engineered higher, potentially sweeping buy-side liquidity or reaching into premium arrays. This move will build the necessary liquidity and market structure to establish the weekly high on Wednesday, preceding the significant bearish expansion driven by US CPI data.\"\n  ]\n}\n\nKEY RETRIEVED EVIDENCE:\n\n\n## MANDATORY GUIDELINES\n1. GROUNDING: Every scenario MUST be derived from the provided evidence. Cite chunk_ids.\n2. BRANCHING: Focus on the tension between HTF bias and LTF displacement.\n3. DEVIL'S ADVOCATE: For every scenario, you MUST identify exactly what evidence contradicts it and what specific price action would invalidate it.\n4. PROBABILISTIC: Use language of uncertainty. Avoid \"the market will\".\n5. NO HALLUCINATION: Do not invent levels or concepts not present in the input.\n\n## SCENARIO TYPES\n- CONTINUATION: HTF bias prevails.\n- REVERSAL: Structural shift against HTF.\n- RETRACEMENT: LTF move against HTF but within bounds.\n- LIQUIDITY_SWEEP: Manipulation before move.\n\n## OUTPUT FORMAT (JSON ONLY)\n{\n  \"scenarios\": [\n    {\n      \"name\": \"short_descriptive_name\",\n      \"type\": \"CONTINUATION\" | \"REVERSAL\" | \"RETRACEMENT\" | \"LIQUIDITY_SWEEP\",\n      \"plausibility\": 0.0 - 1.0,\n      \"description\": \"1-2 sentence description\",\n      \"narrative_continuation\": \"What happens next if this plays out?\",\n      \"supporting_evidence\": [\"chunk_ids\"],\n      \"contradicting_evidence\": [\"chunk_ids\"],\n      \"supporting_anchors\": [\"Specific ICT levels\"],\n      \"contradicting_anchors\": [\"Opposing levels\"],\n      \"invalidated_by\": [\"Specific price action conditions\"]\n    }\n  ],\n  \"uncertainty_notes\": \"Summary of why the market is currently difficult to read\"\n}\n\nIMPORTANT: Be critical. If evidence is conflicting, reflect that in lower plausibility scores.",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 09:04:07 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"scenarios\": [\n    {\n      \"name\": \"Macro-Driven Bullish Retracement and Buy-Side Liquidity Grab\",\n      \"type\": \"RETRACEMENT\",\n      \"plausibility\": 0.75,\n      \"description\": \"Despite immediate M15 bearish displacement, price could reject the M15 bullish PD array area (1.15580-1.15620) and be engineered higher, aligning with the DAILY bullish retracement bias and the Macro context of 'Early Week Price Manipulation' to sweep buy-side liquidity.\",\n      \"narrative_continuation\": \"If this scenario plays out, price would likely consolidate around the M15 bullish PD arrays, then push higher, potentially targeting the M15 Dealing Range Equilibrium (1.15755) or higher premium arrays to sweep buy-side liquidity, establishing a temporary high before a potential bearish reversal on Wednesday.\",\n      \"supporting_evidence\": [\n        \"DAILY:summary\",\n        \"MACRO CONTEXT:macro_invalidation_hints\",\n        \"M15:opposing_evidence\"\n      ],\n      \"contradicting_evidence\": [\n        \"M15:bias\",\n        \"M15:summary\"\n      ],\n      \"supporting_anchors\": [\n        \"M15 Bullish Order Block (1.15600 - 1.15615)\",\n        \"M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)\",\n        \"DXY daily candle observed as a small bearish inside bar\"\n      ],\n      \"contradicting_anchors\": [\n        \"Potential 1.15600 Equal Lows (EQL)\",\n        \"Previous M1 SSL Sweep (1.15660)\"\n      ],\n      \"invalidated_by\": [\n        \"A sustained M15 close below the 1.15580 FVG/BISI low, targeting 1.15600 EQL with significant displacement on higher volume.\"\n      ]\n    },\n    {\n      \"name\": \"M15 Bearish Continuation to Sweep Equal Lows\",\n      \"type\": \"CONTINUATION\",\n      \"plausibility\": 0.60,\n      \"description\": \"The immediate M15 bearish displacement might continue, overcoming the current bullish PD arrays, to sweep the potential 1.15600 Equal Lows as identified by the M15 analysis, reinforcing the underlying weekly bearish macro bias.\",\n      \"narrative_continuation\": \"Should this scenario materialize, price would break convincingly below the 1.15580-1.15620 support zone, reaching for and sweeping the 1.15600 Equal Lows, potentially continuing lower towards unexplored sell-side liquidity or a deeper discount array within the broader bearish trend.\",\n      \"supporting_evidence\": [\n        \"M15:bias\",\n        \"M15:confidence\",\n        \"M15:summary\",\n        \"M15:supporting_chunks\"\n      ],\n      \"contradicting_evidence\": [\n        \"DAILY:bias\",\n        \"DAILY:confidence\",\n        \"DAILY:summary\",\n        \"MACRO CONTEXT:macro_invalidation_hints\",\n        \"M15:opposing_evidence\"\n      ],\n      \"supporting_anchors\": [\n        \"Potential 1.15600 Equal Lows (EQL)\",\n        \"Previous M1 SSL Sweep (1.15660)\"\n      ],\n      \"contradicting_anchors\": [\n        \"M15 Bullish Order Block (1.15600 - 1.15615)\",\n        \"M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)\",\n        \"M15 Dealing Range Equilibrium (1.15755)\"\n      ],\n      \"invalidated_by\": [\n        \"A sustained bullish market structure shift (MSS) above the M15 dealing range equilibrium (1.15755) with significant displacement, or a strong, confirmed reversal from the M15 bullish OB/FVG area (1.15580-1.15620) that negates recent M5/M1 bearish displacement.\"\n      ]\n    }\n  ],\n  \"uncertainty_notes\": \"The market presents a clear tension between the immediate M15 bearish bias pushing towards equal lows and the higher timeframe DAILY bullish retracement thesis, which is further supported by the explicit Macro context expecting price to be engineered higher on this 'Early Week Price Manipulation' day. Price's current interaction with M15 bullish PD arrays in a discount zone, despite consistent bearish displacement, exacerbates this uncertainty, making the immediate direction highly contested.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -1.1370541395644795
+        }
+      ],
+      "createTime": "2026-06-13T09:03:46.130118Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "8hwtasb4B4melb4P2Jn0gQo",
+      "usageMetadata": {
+        "promptTokenCount": 1878,
+        "candidatesTokenCount": 1105,
+        "totalTokenCount": 6139,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1878
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1105
+          }
+        ],
+        "thoughtsTokenCount": 3156
+      }
+    },
+    "parsed": {
+      "scenarios": [
+        {
+          "name": "Macro-Driven Bullish Retracement and Buy-Side Liquidity Grab",
+          "type": "RETRACEMENT",
+          "plausibility": 0.75,
+          "description": "Despite immediate M15 bearish displacement, price could reject the M15 bullish PD array area (1.15580-1.15620) and be engineered higher, aligning with the DAILY bullish retracement bias and the Macro context of 'Early Week Price Manipulation' to sweep buy-side liquidity.",
+          "narrative_continuation": "If this scenario plays out, price would likely consolidate around the M15 bullish PD arrays, then push higher, potentially targeting the M15 Dealing Range Equilibrium (1.15755) or higher premium arrays to sweep buy-side liquidity, establishing a temporary high before a potential bearish reversal on Wednesday.",
+          "supporting_evidence": [
+            "DAILY:summary",
+            "MACRO CONTEXT:macro_invalidation_hints",
+            "M15:opposing_evidence"
+          ],
+          "contradicting_evidence": [
+            "M15:bias",
+            "M15:summary"
+          ],
+          "supporting_anchors": [
+            "M15 Bullish Order Block (1.15600 - 1.15615)",
+            "M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)",
+            "DXY daily candle observed as a small bearish inside bar"
+          ],
+          "contradicting_anchors": [
+            "Potential 1.15600 Equal Lows (EQL)",
+            "Previous M1 SSL Sweep (1.15660)"
+          ],
+          "invalidated_by": [
+            "A sustained M15 close below the 1.15580 FVG/BISI low, targeting 1.15600 EQL with significant displacement on higher volume."
+          ]
+        },
+        {
+          "name": "M15 Bearish Continuation to Sweep Equal Lows",
+          "type": "CONTINUATION",
+          "plausibility": 0.6,
+          "description": "The immediate M15 bearish displacement might continue, overcoming the current bullish PD arrays, to sweep the potential 1.15600 Equal Lows as identified by the M15 analysis, reinforcing the underlying weekly bearish macro bias.",
+          "narrative_continuation": "Should this scenario materialize, price would break convincingly below the 1.15580-1.15620 support zone, reaching for and sweeping the 1.15600 Equal Lows, potentially continuing lower towards unexplored sell-side liquidity or a deeper discount array within the broader bearish trend.",
+          "supporting_evidence": [
+            "M15:bias",
+            "M15:confidence",
+            "M15:summary",
+            "M15:supporting_chunks"
+          ],
+          "contradicting_evidence": [
+            "DAILY:bias",
+            "DAILY:confidence",
+            "DAILY:summary",
+            "MACRO CONTEXT:macro_invalidation_hints",
+            "M15:opposing_evidence"
+          ],
+          "supporting_anchors": [
+            "Potential 1.15600 Equal Lows (EQL)",
+            "Previous M1 SSL Sweep (1.15660)"
+          ],
+          "contradicting_anchors": [
+            "M15 Bullish Order Block (1.15600 - 1.15615)",
+            "M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)",
+            "M15 Dealing Range Equilibrium (1.15755)"
+          ],
+          "invalidated_by": [
+            "A sustained bullish market structure shift (MSS) above the M15 dealing range equilibrium (1.15755) with significant displacement, or a strong, confirmed reversal from the M15 bullish OB/FVG area (1.15580-1.15620) that negates recent M5/M1 bearish displacement."
+          ]
+        }
+      ],
+      "uncertainty_notes": "The market presents a clear tension between the immediate M15 bearish bias pushing towards equal lows and the higher timeframe DAILY bullish retracement thesis, which is further supported by the explicit Macro context expecting price to be engineered higher on this 'Early Week Price Manipulation' day. Price's current interaction with M15 bullish PD arrays in a discount zone, despite consistent bearish displacement, exacerbates this uncertainty, making the immediate direction highly contested."
+    },
+    "latency": 99170.9888999993,
+    "telemetry": {
+      "promptTokens": 1878,
+      "completionTokens": 1105,
+      "totalTokens": 6139
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": {
+      "scenarios": [
+        {
+          "name": "M15 Bearish Continuation Against HTF Retracement",
+          "type": "CONTINUATION",
+          "plausibility": 0.65,
+          "description": "The M15 bearish bias continues, pushing price lower despite the DAILY bullish retracement bias. This scenario prioritizes the immediate bearish displacement on lower timeframes.",
+          "narrative_continuation": "Price continues to break lower on the M15, potentially targeting the 1.15600 Equal Lows. The DAILY bullish retracement may be delayed or occur at significantly lower levels.",
+          "supporting_evidence": [
+            "M15_summary",
+            "M15_key_anchors"
+          ],
+          "contradicting_evidence": [
+            "DAILY_summary",
+            "DAILY_key_anchors"
+          ],
+          "supporting_anchors": [
+            "Potential 1.15600 Equal Lows (EQL)",
+            "Previous M1 SSL Sweep (1.15660)"
+          ],
+          "contradicting_anchors": [
+            "Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)",
+            "Price located in a discount zone according to the PD Array agent"
+          ],
+          "invalidated_by": "A decisive close above the M15 Dealing Range Equilibrium (1.15755) with strong bullish displacement."
+        },
+        {
+          "name": "DAILY Bullish Retracement from M15 Discount",
+          "type": "RETRACEMENT",
+          "plausibility": 0.75,
+          "description": "The DAILY bullish retracement bias takes precedence, with price reacting from the M15 discount zone and bullish PD arrays, overriding the immediate M15 bearish sentiment.",
+          "narrative_continuation": "Price finds support at the M15 bullish Order Block (1.15600 - 1.15615) and FVG (1.15580 - 1.15620), initiating a move higher towards the M15 Dealing Range Equilibrium (1.15755) and potentially higher premium levels on the DAILY chart.",
+          "supporting_evidence": [
+            "DAILY_summary",
+            "DAILY_key_anchors",
+            "M15_opposing_evidence"
+          ],
+          "contradicting_evidence": [
+            "M15_summary",
+            "M15_key_anchors"
+          ],
+          "supporting_anchors": [
+            "M15 Bullish Order Block (1.15600 - 1.15615)",
+            "M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)",
+            "Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)",
+            "Price located in a discount zone according to the PD Array agent"
+          ],
+          "contradicting_anchors": [
+            "Previous M1 SSL Sweep (1.15660)",
+            "Potential 1.15600 Equal Lows (EQL)"
+          ],
+          "invalidated_by": "A sustained break below the M15 Bullish Order Block (1.15600 - 1.15615) with significant bearish displacement."
+        },
+        {
+          "name": "Early Week Price Engineering (Liquidity Sweep)",
+          "type": "LIQUIDITY_SWEEP",
+          "plausibility": 0.6,
+          "description": "Price engineers higher in the early week, potentially sweeping buy-side liquidity above the M15 dealing range, in preparation for a larger bearish move later in the week, aligning with macro context.",
+          "narrative_continuation": "Price briefly rallies, taking out liquidity above recent highs (e.g., above 1.15755), before reversing sharply, setting up for the anticipated bearish expansion driven by US CPI data.",
+          "supporting_evidence": [
+            "MACRO_context",
+            "M15_key_anchors",
+            "DAILY_key_anchors"
+          ],
+          "contradicting_evidence": [
+            "M15_summary"
+          ],
+          "supporting_anchors": [
+            "Tuesday is designated as an 'Early Week Price Manipulation' day",
+            "M15 Dealing Range Equilibrium (1.15755)",
+            "Potential 1.15600 Equal Lows (EQL)"
+          ],
+          "contradicting_anchors": [
+            "M15 Bullish Order Block (1.15600 - 1.15615)",
+            "M15 Fair Value Gap (FVG) / BISI (1.15580 - 1.15620)"
+          ],
+          "invalidated_by": "A sustained bearish move that immediately breaks below the M15 FVG/OB area without a prior upward sweep."
+        }
+      ],
+      "uncertainty_notes": "The market presents conflicting signals between the immediate M15 bearish bias and the higher timeframe DAILY bullish retracement bias. The macro context suggests potential early week manipulation, adding another layer of complexity. The presence of liquidity targets in both directions and the interaction with key PD arrays at the M15 level create a volatile environment where short-term price action could easily be engineered before a more defined move."
+    },
+    "latency": 4369.124499999918,
+    "telemetry": {
+      "promptTokens": 1878,
+      "completionTokens": 1284,
+      "totalTokens": 3162
+    },
+    "estimatedCost": 0.004446
+  }
+}

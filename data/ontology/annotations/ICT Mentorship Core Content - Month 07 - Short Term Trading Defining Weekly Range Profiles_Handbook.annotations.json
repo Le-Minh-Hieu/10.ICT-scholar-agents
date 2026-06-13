@@ -1,0 +1,937 @@
+[
+  {
+    "chunk_id": "chunk_2914",
+    "concepts": [
+      {
+        "canonical": "TUESDAY_LOW_OF_WEEK_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "CLASSIC TUESDAY LOW OF THE WEEK",
+          "form the low of the week"
+        ],
+        "narrative_roles": [
+          "WEEKLY_PROFILE_IDENTIFICATION",
+          "SETUP_IDENTIFICATION",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market profile is generally bullish",
+          "expectation for higher prices"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame discount array",
+          "that array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "SUPPORT_ZONE",
+          "REVERSAL_POINT",
+          "INSTITUTIONAL_BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SEEKING_DRIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drops into a higher time frame discount array",
+          "drive lower",
+          "fails to drop into that array on Monday"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ACCUMULATION_PHASE",
+          "ENTRY_TRIGGER",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": [
+          "LONDON_OPEN",
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2915",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "CLASSIC TUESDAY HIGH OF THE WEEK",
+          "market profile for the week is generally bearish"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_MODEL",
+          "EXPECTATIONAL_BIAS",
+          "MACRO_VIEW"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "LIQUIDITY_TARGET",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_THE_WEEK",
+        "confidence": 1,
+        "surface_terms": [
+          "high of the week"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "PRICE_EXTREME",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SETUP_CONDITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market fails to rise into that array on Monday"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_INDICATOR",
+          "SETUP_CONDITION",
+          "EXPECTATIONAL_SHIFT"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DRIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drive higher"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": [
+          "LONDON_OPEN",
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY HIGH OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2916",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_LOW_OF_THE_WEEK_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "WEDNESDAY LOW OF THE WEEK",
+          "This profile"
+        ],
+        "narrative_roles": [
+          "WEEKLY_PROFILE",
+          "DIRECTIONAL_BIAS_INDICATION",
+          "LIQUIDITY_DRAW_ON",
+          "PRICE_ACTION_PATTERN"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "MONDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame discount array",
+          "that array"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "LIQUIDITY_ZONE",
+          "INSTITUTIONAL_FOOTPRINT",
+          "PRICE_ACTION_ANCHOR",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "higher time frame"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "run out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_SETUP",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2917",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_HIGH_OF_THE_WEEK_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "WEDNESDAY HIGH OF THE WEEK",
+          "This profile"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "MACRO_STRUCTURE",
+          "WEEKLY_RANGE_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "generally bearish",
+          "expectation for lower prices"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "LIQUIDITY_TARGET_AREA",
+          "REVERSAL_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_TO_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rises into that higher time frame premium array",
+          "see the drive",
+          "This drive typically occurs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DELIVERY",
+          "REVERSAL_POINT_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "Wednesday's London open",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "LIQUIDITY_POCKET",
+          "HIGH_PROBABILITY_TIMING"
+        ],
+        "temporal_tags": [
+          "Wednesday's London open",
+          "Wednesday's New York session"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_ACTION_CONTEXT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Monday and Tuesday can be up days as well to form this profile"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRE_LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "London open high on Wednesday can be run out",
+          "run out on Wednesday's New York session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "Wednesday's London open",
+          "Wednesday's New York session"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY HIGH OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2918",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_RANGE_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONSOLIDATION MIDWEEK RALLY (BULLISH)",
+          "bullish market profile"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_IDENTIFICATION",
+          "WEEKLY_BIAS_SETUP",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "MIDWEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs the intra-week high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION_SETUP",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expands higher",
+          "expand higher"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "DIRECTIONAL_MOVEMENT",
+          "TARGET_APPROACH"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_TARGET",
+          "REVERSAL_ZONE_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "ORIGIN_OF_MOVEMENT",
+          "SUPPORT_ZONE",
+          "RETRACEMENT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION MIDWEEK RALLY (BULLISH)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2919",
+    "concepts": [
+      {
+        "canonical": "MARKET_PROFILE_WEEKLY",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATION MIDWEEK DECLINE (BEARISH)",
+          "bearish market profile"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_IDENTIFICATION",
+          "WEEKLY_PRICE_DELIVERY_MODEL",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "MIDWEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish",
+          "expectation for lower prices",
+          "market is bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_ASSUMPTION",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs the intra-week low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DELIVERY_MECHANISM",
+          "TREND_ACCELERATION"
+        ],
+        "temporal_tags": [
+          "INTRA_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expands lower",
+          "expand lower"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "MOMENTUM_CONFIRMATION",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "REVERSAL_POINT_ORIGIN",
+          "DISTRIBUTION_ZONE"
+        ],
+        "temporal_tags": [
+          "RECENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "DEMAND_ZONE",
+          "TARGET_ZONE",
+          "ACCUMULATION_ZONE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_CONFIRMATION",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION MIDWEEK DECLINE (BEARISH)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2920",
+    "concepts": [
+      {
+        "canonical": "SEEK_AND_DESTROY_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "SEEK AND DESTROY BULLISH FRIDAY"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE_CLASSIFICATION",
+          "LOW_PROBABILITY_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Running shallow stops under and above the intra-week highs and lows",
+          "runs the intra-week high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "intra-week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "expands higher into Friday"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION",
+          "TREND_DEVELOPMENT"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "interest rate announcements",
+          "Non-Farm"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "summer months of July and August"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_EVALUATION",
+          "RISK_MANAGEMENT_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "July",
+          "August"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_PROBABILITY_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "neutral or low probability market profile",
+          "better to avoid trading these conditions altogether"
+        ],
+        "narrative_roles": [
+          "SETUP_EVALUATION",
+          "RISK_MANAGEMENT_GUIDANCE",
+          "TRADING_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEEK AND DESTROY BULLISH FRIDAY",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2921",
+    "concepts": [
+      {
+        "canonical": "MARKET_PROFILE_CLASSIFICATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SEEK AND DESTROY BEARISH FRIDAY",
+          "market profile",
+          "This profile",
+          "neutral or low probability market profile"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE_CLASSIFICATION",
+          "CONTEXTUAL_INFORMATION"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "July",
+          "August",
+          "interest rate announcements",
+          "Non-Farm Payroll"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Running shallow stops under and above the intra-week highs and lows",
+          "runs the intra-week low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRE_TREND_CLEARANCE"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expands lower"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "DIRECTIONAL_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEEK AND DESTROY BEARISH FRIDAY",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2922",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_REVERSAL_PROFILE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "WEDNESDAY WEEKLY REVERSAL (BULLISH)",
+          "This market profile is bullish",
+          "expectation for higher prices"
+        ],
+        "narrative_roles": [
+          "PROFILE_IDENTIFICATION",
+          "MARKET_BIAS",
+          "REVERSAL_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame discount array"
+        ],
+        "narrative_roles": [
+          "VALUE_AREA",
+          "ENTRY_CRITERIA",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "higher time frame"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.99,
+        "surface_terms": [
+          "induce sell stops",
+          "pending sell-side liquidity",
+          "sell stop raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST",
+          "INSTITUTIONAL_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional buying",
+          "Price will pair institutional buying with pending sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "REVERSAL_CONFIRMATION",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_CONTEXT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "long-term or intermediate-term low"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "long-term",
+          "intermediate-term"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY WEEKLY REVERSAL (BULLISH)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2923",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_REVERSAL_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEDNESDAY WEEKLY REVERSAL (BEARISH)",
+          "This market profile is bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "LIQUIDITY_TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "HIGHER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy stops",
+          "long-term or intermediate-term high",
+          "pending buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "LONG_TERM",
+          "INTERMEDIATE_TERM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "induce buy stops",
+          "buy stop raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SELLING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional selling"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_CONTEXT",
+          "MARKET_MANIPULATION",
+          "REVERSAL_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY WEEKLY REVERSAL (BEARISH)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Defining Weekly Range Profiles_Handbook.chunks.json"
+    }
+  }
+]

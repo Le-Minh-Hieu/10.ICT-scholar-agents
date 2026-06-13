@@ -1,0 +1,97 @@
+[
+  {
+    "chunk_id": "chunk_62",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "closure of the fair value gap",
+          "fair value gap",
+          "small little fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "ATTRACTION_POINT",
+          "TARGET_FULFILLMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidate in that area",
+          "pausing",
+          "bull flag"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_PATTERN",
+          "PRICE_ACTION_OBSERVATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "reaccumulate for new longs"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "SMART_MONEY_ACTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-ENTRY OBSERVATION AND ANTICIPATED PRICE ACTION",
+      "source_file": "2022 ICT Mentorship Episode 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_63",
+    "concepts": [
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "business limit order filled",
+          "entry"
+        ],
+        "narrative_roles": [
+          "TRADE_INITIATION",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRECISION_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TARGETED_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE EXECUTION CONCLUSION",
+      "source_file": "2022 ICT Mentorship Episode 14_Handbook.chunks.json"
+    }
+  }
+]

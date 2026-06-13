@@ -106,6 +106,17 @@ export async function sessionAgent(
       pushImage(parts, input.eurusd.tf2!, "Time-TF2", callId);
       pushImage(parts, input.eurusd.tf3!, "Time-TF3", callId);
     },
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT session-based timing observations.
+
+Focus on session-level timing windows:
+1. **Midnight Open Timing**: Reference the 00:00 NY midnight opening price line and current price location relative to it. (TIME)
+2. **Judas Swing Timing Window**: Identify if a raid/sweep occurred between 02:00 and 04:00 NY time. (TIME)
+3. **Silver Bullet Hour Timing**: Note price behavior between 10:00 AM and 11:00 AM NY time. (TIME)
+4. **Asian / London / NY Open Timing**: Observe expansion velocities relative to the open of each session. (TIME)
+5. **Session Range boundaries**: Identify session highs/lows. (PRICE)
+6. **M15/M5 FVG/OB Reference**: Note M15/M5 FVGs or OBs tested during session windows. (PRICE)
+
+Output observations as bullet points. Do NOT use the phrases 'Session Reversal', 'Morning Session Setups', or 'Afternoon Session' in observations.`,
     useGroundingVerification: false,
     mapOutput: (result) => {
       return {

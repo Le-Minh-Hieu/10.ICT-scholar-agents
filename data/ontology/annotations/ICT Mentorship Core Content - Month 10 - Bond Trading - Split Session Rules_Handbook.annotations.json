@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_id": "chunk_3254",
+    "concepts": [
+      {
+        "canonical": "TRADING_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "overnight sessions",
+          "London session",
+          "New York AM Session",
+          "New York PM Session",
+          "two distinct sessions for bonds"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TIMING"
+        ],
+        "temporal_tags": [
+          "8 AM New York time",
+          "Noon New York time",
+          "3 PM New York time",
+          "2 PM"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open Kill Zone",
+          "London Close Kill Zone"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "New York Open",
+          "London Close"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING KEY TRADING SESSIONS FOR BONDS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3255",
+    "concepts": [
+      {
+        "canonical": "SESSION_PLANNING",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "New York session hours",
+          "focused primarily on the New York session hours"
+        ],
+        "narrative_roles": [
+          "PRIMARY_ANALYTICAL_FRAMEWORK",
+          "PRIMARY_TRADING_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "INTERSESSIONAL_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trade overnight",
+          "during the London session",
+          "London open",
+          "overnight trading during the London session",
+          "information from overnight trading during the London session"
+        ],
+        "narrative_roles": [
+          "SECONDARY_TRADING_WINDOW",
+          "INFORMATION_GATHERING",
+          "PRE_NY_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK SESSION FOR BOND ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3256",
+    "concepts": [
+      {
+        "canonical": "HIGH_PROBABILITY_TIME_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "largest volume is seen between 8 AM and 9 AM New York time",
+          "before the equities open (between 8 AM and 9:30 AM New York time)",
+          "largest influx of purchasing and selling of treasury bond futures",
+          "The AM session has a built-in advantage because it generally sees the largest volume of the day",
+          "More often than not, you're going to see a move in the AM session"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "VOLUME_CONFIRMATION",
+          "SESSION_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "8 AM New York time",
+          "9 AM New York time",
+          "9:30 AM New York time",
+          "before the equities open"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "form the higher low of the New York session"
+        ],
+        "narrative_roles": [
+          "TREND_FORMATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "SESSION_RANGE_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "blending of, or total range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_ACTION_CONTINUATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "continuation"
+        ],
+        "narrative_roles": [
+          "TREND_FOLLOWING",
+          "PRICE_ACTION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "PRICE_ACTION_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reversal"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "PRICE_ACTION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_PRICE_ACTION",
+          "PRICE_ACTION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VOLUME AND SESSION CHARACTERISTICS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3257",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT'S PERSONAL KILL ZONE FOR COMMODITIES",
+          "AM Session: 8:20 AM to 11:00 AM (my 'Kill Zone'"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "8:20 AM",
+          "11:00 AM",
+          "New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSION_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "PM Session: Noon to 3 PM"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "RISKIER_TRADING_WINDOW"
+        ],
+        "temporal_tags": [
+          "Noon",
+          "3 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Trending days",
+          "complete trading day be one-sided",
+          "completely bullish through the AM and PM trend"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_IDENTIFICATION",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the day",
+          "full daily range",
+          "price can trade all the way up to 3 PM"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "PRICE_EXTREMUM_IDENTIFICATION",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "opening around 8 AM or 8:20 AM New York time"
+        ],
+        "narrative_roles": [
+          "SESSION_REFERENCE_POINT",
+          "POTENTIAL_DAILY_EXTREMUM"
+        ],
+        "temporal_tags": [
+          "8 AM",
+          "8:20 AM",
+          "New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S PERSONAL KILL ZONE FOR COMMODITIES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3258",
+    "concepts": [
+      {
+        "canonical": "MARKET_BEHAVIOR_TRENDING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Trending days",
+          "trending environment"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "PM session"
+        ]
+      },
+      {
+        "canonical": "MARKET_BEHAVIOR_CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidated",
+          "consolidating",
+          "quiet"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM session"
+        ]
+      },
+      {
+        "canonical": "MACRO_ECONOMIC_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FOMC announcement"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "late afternoon"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MOVE_CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runner",
+          "move continuously goes into the next trading session or the session after that"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DESCRIPTION",
+          "TREND_EXTENSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "next trading session",
+          "session after that"
+        ]
+      },
+      {
+        "canonical": "MARKET_MOVE_SWING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRENDING AND CONSOLIDATION DAY SCENARIOS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3259",
+    "concepts": [
+      {
+        "canonical": "LONDON_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "traditional London session",
+          "London session",
+          "these two reference points (2 AM to 5 AM)"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "INFORMATION_GATHERING"
+        ],
+        "temporal_tags": [
+          "2 AM New York time",
+          "5 AM New York time",
+          "overnight price trading"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "INFORMATION_GATHERING",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON SESSION AS A REFERENCE POINT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3260",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "closed a fair value gap"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range",
+          "opening range low",
+          "support at the opening range"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "LIQUIDITY_REFERENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "8 AM",
+          "9 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out that opening range low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "The down move was a Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "ENTRY_CONFIRMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "The daily range"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "8 AM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_MODEL",
+          "BIAS_ESTABLISHMENT",
+          "ACCUMULATION_MANIPULATION_DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 1: BULLISH TRENDING DAY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3261",
+    "concepts": [
+      {
+        "canonical": "MARKET_REVERSAL_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET REVERSAL PROFILE",
+          "market reversal",
+          "AM session going higher and the PM session going lower"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "CONTEXT_SETTING",
+          "TRADING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "taking out the low formed in the London open",
+          "traded down below the London session lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [
+          "London open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "AM session"
+        ]
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "creating a failure swing"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "PRICE_ACTION_PATTERN",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "REVERSAL_ZONE",
+          "ENTRY_POINT",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "went into expansion",
+          "entire morning trend"
+        ],
+        "narrative_roles": [
+          "TREND_DEVELOPMENT",
+          "MOMENTUM"
+        ],
+        "temporal_tags": [
+          "morning",
+          "Noon"
+        ],
+        "session_tags": [
+          "AM session"
+        ]
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "created a market reversal",
+          "A reversal took place"
+        ],
+        "narrative_roles": [
+          "REVERSAL_EVENT",
+          "CHANGE_OF_CHARACTER"
+        ],
+        "temporal_tags": [
+          "Noon",
+          "3 PM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR_PHASE",
+          "POST_TREND_ACTIVITY"
+        ],
+        "temporal_tags": [
+          "After 3 PM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRUE_DAY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "true day in Forex"
+        ],
+        "narrative_roles": [
+          "MARKET_MEASUREMENT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SPECIFIC_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "London Session",
+          "London open",
+          "8 AM to 9 AM session",
+          "Noon",
+          "AM session",
+          "3 PM",
+          "PM session",
+          "After 3 PM"
+        ],
+        "narrative_roles": [
+          "TIMING_CONTEXT",
+          "SESSION_DELINEATION"
+        ],
+        "temporal_tags": [
+          "London open",
+          "8 AM",
+          "9 AM",
+          "Noon",
+          "3 PM"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 2: MARKET REVERSAL PROFILE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3262",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "JUDAS SWING"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [
+          "NY_7AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TURTLE SOUP",
+          "created the Turtle Soup"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "NY_8AM_TO_9AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "clearing out the equal highs",
+          "swept the London High",
+          "blew out the lows formed in the London session and the early 7 o'clock low",
+          "took out the liquidity below the lows",
+          "ran the buy stops in the London highs",
+          "swept both sides of the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [
+          "LONDON_2AM_HOUR",
+          "NY_7AM",
+          "NY_8AM_HOUR"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "equal highs",
+          "London High",
+          "buy stops in the London highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "LONDON_2AM_HIGH"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "lows formed in the London session",
+          "early 7 o'clock low",
+          "liquidity below the lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "LONDON_SESSION_LOW",
+          "NY_7AM_LOW"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_OPEN_KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York open Kill Zone"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TIME_WINDOW",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "NY_7AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish order blocks",
+          "down-closed candle created a bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "NY_8AM_TO_9AM"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 3: JUDAS SWING AND TURTLE SOUP SETUP",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Split Session Rules_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "chunk_id": "chunk_2127",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "new order block",
+          "new down candle where price trades away from it (above it)",
+          "this new order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RE-ENTRY_POINT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "underlying directional premise remains strong"
+        ],
+        "narrative_roles": [
+          "TRADE_VALIDATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RE-EVALUATING AND RE-ENTERING THE TRADE",
+      "source_file": "ICT Mentorship Core Content - Month 02 - How To Mitigate Losing Trades Effectively_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2128",
+    "concepts": [
+      {
+        "canonical": "RE_ENTRY_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "REDUCED RISK RE-ENTRY",
+          "re-entering",
+          "re-entry"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MITIGATION",
+          "STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "REDUCED RISK RE-ENTRY",
+          "allow for a bit more movement against the position",
+          "Do not be obsessed with an ultra tight stop loss this time",
+          "re-entry risk",
+          "primary principle is using half the leverage and position size"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "TRADE_MANAGEMENT",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss",
+          "ultra tight stop loss",
+          "placed below the order block",
+          "below the candle's low"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "INVALIDATION_LEVEL",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order block",
+          "bullish order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "INVALIDATION_LEVEL_REFERENCE",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 1,
+        "surface_terms": [
+          "one half of the position size",
+          "initial loss was two percent",
+          "re-entry risk is one percent",
+          "initial loss was one percent",
+          "re-entry risk is one half of one percent",
+          "half the leverage and position size"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "aim to buy at the top of that candle",
+          "Entries can be defined by the opening or top of the down candle"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_POINT_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REDUCED RISK RE-ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 02 - How To Mitigate Losing Trades Effectively_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2129",
+    "concepts": [
+      {
+        "canonical": "MITIGATION",
+        "confidence": 1,
+        "surface_terms": [
+          "ACHIEVING MITIGATION (R2)",
+          "MITIGATION (R2)",
+          "fully mitigated",
+          "The entire loss is recouped",
+          "recover a full stop out",
+          "Erase errors"
+        ],
+        "narrative_roles": [
+          "TRADE_RECOVERY",
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_UNIT_SCALING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "R1",
+          "R2",
+          "one percent is at risk",
+          "one percent return (R1)",
+          "second standard deviation from the defined risk (R2)"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INITIAL PROFIT TAKING",
+          "taking the trade off",
+          "get back to even",
+          "Close the week flat"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_MANAGEMENT",
+          "WEEKEND_RISK_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACHIEVING MITIGATION (R2) AND INITIAL PROFIT TAKING",
+      "source_file": "ICT Mentorship Core Content - Month 02 - How To Mitigate Losing Trades Effectively_Handbook.chunks.json"
+    }
+  }
+]

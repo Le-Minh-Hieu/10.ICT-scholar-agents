@@ -1,0 +1,612 @@
+[
+  {
+    "chunk_id": "chunk_3977",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "TARGET_AREA",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Trade management",
+          "peeling off one of two remaining contracts",
+          "stop loss was set"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "END_OF_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_EXTREMES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the day's high",
+          "the low and the high of the day"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT",
+          "RESISTANCE_LEVEL",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scalping opportunities"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "SHORT_TERM_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET OBSERVATION AND TRADE MANAGEMENT",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3978",
+    "concepts": [
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Propulsion Block",
+          "older block",
+          "higher down-closed candle identified as a Propulsion Block",
+          "this block"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SUPPORT",
+          "PRICE_DEFENSE_ZONE",
+          "RETRACEMENT_LIMITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK MECHANICS AND PRICE RETRACEMENT",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3979",
+    "concepts": [
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Propulsion Block"
+        ],
+        "narrative_roles": [
+          "KEY_BARRIER",
+          "REVERSAL_POINT_CANDIDATE",
+          "CONTINUATION_POINT_CANDIDATE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midpoint of the Propulsion Block",
+          "Propulsion Block's mean threshold"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "CONFIRMATION_LEVEL",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "designated volume imbalance area",
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "IMBALANCE_CORRECTION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "IMBALANCE_CORRECTION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "a low and sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK VIOLATION AND REPRICING",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3980",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance",
+          "Volume imbalances"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "TARGET_AREA",
+          "FLEXIBLE_REFERENCE",
+          "REPRICING_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side imbalance/inefficiency between a candle's high and another candle's low"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "REPRICING_CATALYST",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REPRICING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seamless delivery",
+          "fill in all of this",
+          "re-pricing to that low"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_EXPECTATION",
+          "BALANCE_RESTORATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'overshot' to a candle's low",
+          "potentially get down below this low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "EXTENSION_OF_REPRICING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VOLUME IMBALANCE FLEXIBILITY AND TARGET AREAS",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3981",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "consequent encroachment of a Fair Value Gap",
+          "buy side inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "POTENTIAL_REVERSAL_AREA",
+          "SUPPORT/RESISTANCE",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT/RESISTANCE",
+          "ENTRY_POINT_CONTEXT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalances",
+          "a volume imbalance"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "PRICE_MAGNET",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.75,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BROKER FEED DISCREPANCIES AND DEEPER PRICE ACTION",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3982",
+    "concepts": [
+      {
+        "canonical": "PRICE_ACTION_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "watching price action",
+          "price action observation"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_ANALYSIS",
+          "INSIGHT_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "key levels",
+          "day's high",
+          "day's low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURAL_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'FED effect'",
+          "Fed speaker talks",
+          "news"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "POTENTIAL_VOLATILITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_AS_INSTITUTIONAL_SMOKESCREEN",
+        "confidence": 0.98,
+        "surface_terms": [
+          "'smoke screen' for price to do what it was intended to do",
+          "traditional expectations and rules can be overridden",
+          "'wild price action'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "INSTITUTIONAL_DECEPTION",
+          "BEHAVIORAL_BIAS_EXPLOITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BENEFITS OF PRICE ACTION OBSERVATION AND THE FED EFFECT",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3983",
+    "concepts": [
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance",
+          "multiple imbalances",
+          "multiple volume imbalances",
+          "porous pockets"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "PRICE_ACTION_DRIVER",
+          "REBALANCE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD arrays",
+          "specific arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DRIVER",
+          "REACTION_POINT",
+          "MARKET_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHOPPY_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'spotty' market",
+          "Difficulty in smooth price movement",
+          "hard to get a clear, obvious run",
+          "go back and forth",
+          "price can 'bang around'",
+          "back-and-forth movement"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "TRADE_CHALLENGE",
+          "UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rebalancing them"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "determine where to place a stop loss"
+        ],
+        "narrative_roles": [
+          "TRADE_MECHANICS",
+          "RISK_MITIGATION",
+          "TRADE_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Challenges in trade trust",
+          "difficult to trust trades"
+        ],
+        "narrative_roles": [
+          "TRADER_SENTIMENT",
+          "TRADE_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING A 'SPOTTY' MARKET WITH MULTIPLE IMBALANCES",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3984",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "this Fair Value Gap",
+          "this gap",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_INEFFICIENCY",
+          "TRADE_MANAGEMENT_FACTOR",
+          "CONTINUATION_CRITERION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal highs",
+          "these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out buy side liquidity",
+          "taking sell side",
+          "macro run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SWEEP",
+          "TARGET_LEVEL",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "3:30 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Structure Shift (MSS)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trading into a discount"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_ZONE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Stop loss placement",
+          "immediately below the long entry",
+          "lower, around 89.25"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_PROTECTION",
+          "AVOIDANCE_OF_LIQUIDITY_RUNS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POTENTIAL RALLY, MARKET STRUCTURE SHIFT, AND STOP LOSS PLACEMENT",
+      "source_file": "Market Review February 10, 2023_Handbook.chunks.json"
+    }
+  }
+]

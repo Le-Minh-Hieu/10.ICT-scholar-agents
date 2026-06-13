@@ -1,0 +1,1928 @@
+[
+  {
+    "chunk_id": "chunk_2287",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "timeframe selection"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "SETUP_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_CHART",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Chart",
+          "Monthly Charts"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "BIAS_ESTABLISHMENT",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "position trading",
+          "long-term position trading"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "direction that's derived by the information on the Monthly Chart"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "intraday intolerant",
+          "intraday work",
+          "short-term trading"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE_CONTRAST",
+          "TRADING_STYLE_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY CHART FOR POSITION TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2288",
+    "concepts": [
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "Swing trading",
+          "swing trading"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TRADE_FREQUENCY_DEFINITION",
+          "TIMEFRAME_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "one or two trades within a three-month period",
+          "every quarter of the year",
+          "every three to four months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "Weekly Chart"
+        ],
+        "narrative_roles": [
+          "TIMEFRAME_SELECTION",
+          "ANALYSIS_TOOL",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "TRADE_FRAMING",
+          "PATIENCE_REQUIREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_TIMEFRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Monthly",
+          "Monthly Chart"
+        ],
+        "narrative_roles": [
+          "TIMEFRAME_SELECTION",
+          "COMPARISON_REFERENCE",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "PATIENCE_REQUIREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "setup",
+          "setups"
+        ],
+        "narrative_roles": [
+          "TRADING_OPPORTUNITY_IDENTIFICATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "intraday trades",
+          "intraday minute by minute basis"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TRADE_FREQUENCY_DEFINITION",
+          "CONTRAST_TO_HIGHER_TIMEFRAMES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term volatility"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_MITIGATION_BY_HTF"
+        ],
+        "temporal_tags": [
+          "short-term"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY CHART FOR SWING TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2289",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily Chart",
+          "intraday price action",
+          "lower timeframes",
+          "Weekly Chart"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_ALIGNMENT",
+          "ANALYTICAL_FRAMEWORK",
+          "PSYCHOLOGICAL_FIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "interbank levels",
+          "where stops would be residing",
+          "long-term objectives would be seen in the form of liquidity above or below"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOLS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing traders",
+          "short-term traders",
+          "day trading models"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_ALIGNMENT",
+          "PSYCHOLOGICAL_FIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CHART SUITABILITY AND RECOMMENDATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2290",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DAILY CHART SUITABILITY AND RECOMMENDATIONS",
+          "can't be in front of the price action",
+          "higher timeframes",
+          "submit to a lot of time too"
+        ],
+        "narrative_roles": [
+          "STRATEGY_ADAPTATION",
+          "LIFESTYLE_CONSIDERATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframes"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TIME_FRAME_SELECTION_OPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price action"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "ANALYSIS_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CHART SUITABILITY AND RECOMMENDATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2291",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING SETUPS FOR YOUR UNIQUE TRADING MODEL",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2292",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "price action"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "ANALYTICAL_FRAMEWORK",
+          "SOURCE_OF_SETUPS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INDICATOR_RELIANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "indicators",
+          "mathematically derived indicator"
+        ],
+        "narrative_roles": [
+          "PITFALL_WARNING",
+          "CONTRAST_TO_ICT",
+          "COMMON_RETAIL_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE EPIPHANY OF INSTITUTIONAL ORDER FLOW AND PRICE ACTION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2293",
+    "concepts": [
+      {
+        "canonical": "SETUP_IDENTIFICATION",
+        "confidence": 1,
+        "surface_terms": [
+          "FINDING UNIQUE & REPEATABLE SETUPS",
+          "setups",
+          "unique characteristics that repeat themselves",
+          "generic characteristics and traits in price action that repeat over and over again",
+          "specific setups",
+          "a setup that we individually as a trader like"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEVELOPMENT",
+          "PATTERN_RECOGNITION",
+          "CONSISTENCY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "not limited to any one of these specific timeframes",
+          "some of them overlap, some of them won't overlap"
+        ],
+        "narrative_roles": [
+          "MARKET_UNDERSTANDING",
+          "TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STRATEGY_CUSTOMIZATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "find a setup that we individually as a trader like",
+          "individually as a trader like",
+          "give you an opportunity to be in the marketplace in the right direction"
+        ],
+        "narrative_roles": [
+          "PERSONALIZED_TRADING",
+          "DIRECTIONAL_BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINDING UNIQUE & REPEATABLE SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2294",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly and Weekly Charts",
+          "direction of the Monthly and Weekly Charts",
+          "bearish marketplace",
+          "bullish on the Monthly and Weekly Chart",
+          "trading short",
+          "look for buy signals"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Trend Trader",
+          "long-term position trader"
+        ],
+        "narrative_roles": [
+          "STRATEGY_CLASSIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TREND TRADER",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2295",
+    "concepts": [
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Swing Trader",
+          "Swing Trader, they're trading",
+          "swing trading on the Daily Chart"
+        ],
+        "narrative_roles": [
+          "CONTRASTING_STYLE",
+          "TRADER_PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Daily intermediate term price action",
+          "Daily Chart",
+          "Monthly Chart",
+          "Weekly Chart",
+          "lower timeframe than the Daily Chart",
+          "Timeframe Selection"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEFINITION",
+          "PERSONAL_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "Daily",
+          "Monthly",
+          "Weekly",
+          "intermediate term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "VELOCITY_OF_CAPITAL",
+        "confidence": 0.97,
+        "surface_terms": [
+          "ICT'S PREFERENCE FOR VELOCITY",
+          "my money to have velocity",
+          "put my money at work, let it do its thing, get my return, and then compound that return rate and my base equity and put it back to work again"
+        ],
+        "narrative_roles": [
+          "TRADER_OBJECTIVE",
+          "COMPOUNDING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SWING TRADER & ICT'S PREFERENCE FOR VELOCITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2296",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SWING TRADER & ICT'S PREFERENCE FOR VELOCITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2297",
+    "concepts": [
+      {
+        "canonical": "CONTRARIAN_TRADING_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "Contrarian Trader",
+          "being contrarian",
+          "to be a contrarian trader",
+          "contrarian"
+        ],
+        "narrative_roles": [
+          "TRADING_APPROACH",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trading reversal patterns at market extremes",
+          "capitulation",
+          "that last bit of burst higher if it's been bullish",
+          "that quick sudden drop with a great deal of magnitude going lower",
+          "blow-off move",
+          "go above a previous month high, and that may be a really good selling scenario to sell short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "Daily Chart",
+          "previous month high"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTRARIAN TRADER",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2298",
+    "concepts": [
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SHORT-TERM TRADING",
+          "Day Trader's model",
+          "day trading in nature"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEFINITION",
+          "TRADER_PROFILE_DEFINITION",
+          "HOLDING_PERIOD_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "Weekly ranges",
+          "intraday swing",
+          "long term higher timeframe charts",
+          "timeframe selection",
+          "Four hour or less"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_TIMING_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM TRADING & DAY TRADING (ICT'S SPECIALTY)",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2299",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BIAS",
+          "directional bias",
+          "today's going to be up or down",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_ANALYSIS",
+          "TRADE_PLANNING",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "START WITH THE DAILY CHART",
+          "start in the Daily",
+          "start the Daily Chart",
+          "Daily Chart",
+          "higher timeframe reference points"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ANALYTICAL_FRAMEWORK",
+          "DIRECTIONAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DYNAMICS_UNDERSTANDING",
+          "DIRECTIONAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "START WITH THE DAILY CHART FOR BIAS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2300",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Monthly Chart",
+          "long-term price action reference",
+          "largest price action swings",
+          "timeframe",
+          "length of time this chart requires to present a setup"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_DETERMINATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "directional bias",
+          "'trend'",
+          "trading in that direction",
+          "same directional bias or in that trend direction",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lowest risk with the highest reward conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_OPTIMIZATION",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.75,
+        "surface_terms": [
+          "optimal entry for a sell"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONG-TERM PRICE ACTION REFERENCE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2301",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market broke down on a monthly basis",
+          "down move",
+          "takes a greater deal of magnitude lower",
+          "its surge is lower"
+        ],
+        "narrative_roles": [
+          "ESTABLISHING_DIRECTION",
+          "TREND_CONFIRMATION",
+          "IMPULSE_LEG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small little consolidation",
+          "600 pips or so in range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "PRECURSOR_TO_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Monthly Chart",
+          "monthly basis",
+          "each one of these candles represents a month"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO USD BREAKDOWN",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2302",
+    "concepts": [
+      {
+        "canonical": "MONTHLY_CANDLE",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly candlesticks",
+          "monthly candles",
+          "each individual candle",
+          "every one of these bars"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "TIME_AND_PRICE_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly range",
+          "highest part of that candle",
+          "high it traded to the most for that particular month",
+          "low of the candle",
+          "lowest it traded for that month",
+          "opening is where the month started trading",
+          "closed is the last trading day of the month where it closed"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "TIME_AND_PRICE_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "hidden setups",
+          "plethora of setups",
+          "individual setups"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CANDLE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily candles"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "TIME_AND_PRICE_ANALYSIS",
+          "LOWER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "20 trading days",
+          "potential trading days"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "TIME_AND_PRICE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "non-farm payroll",
+          "NFP event"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "AVOIDANCE_CRITERIA",
+          "HIGH_IMPACT_NEWS_EVENT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING MONTHLY CANDLESTICKS AND HIDDEN SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2303",
+    "concepts": [
+      {
+        "canonical": "TIME_FRAME_NESTING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly candlesticks",
+          "monthly data",
+          "four weekly candles",
+          "inside the weekly candle",
+          "representation of monthly data"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "hidden setups",
+          "great deal of opportunities"
+        ],
+        "narrative_roles": [
+          "TRADING_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING MONTHLY CANDLESTICKS AND HIDDEN SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2304",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Chart",
+          "higher timeframes",
+          "seed of opportunity",
+          "really high probability"
+        ],
+        "narrative_roles": [
+          "BIAS_SETTING",
+          "CONTEXTUAL_ANALYSIS",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "large banks and institutions",
+          "deep pockets",
+          "smart money",
+          "banks, institutions",
+          "moving price around",
+          "driven by deep pockets"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVERS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIGNIFICANT_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "specific levels",
+          "sensitivity at specific levels",
+          "on these levels"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REACTION_AREA",
+          "INSTITUTIONAL_INTEREST_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE MONTHLY CHART AS A 'SEED' OF OPPORTUNITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2305",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "returns back to that up candle's low",
+          "trade back down into this down candle",
+          "bearish candle here that was violated on the upside, and then it returns back into that down candle"
+        ],
+        "narrative_roles": [
+          "RE_ENTRY",
+          "SUPPORT_ZONE",
+          "MITIGATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stops obviously around that 1.46 level",
+          "stops resting above that high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price may reach up above to take these stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RE_ENTRY",
+          "RESISTANCE_ZONE",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PATIENCE FOR RE-ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2306",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PATIENCE FOR RE-ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2307",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY AND SELL STOPS",
+          "sell stops",
+          "those lows",
+          "stops",
+          "those particular stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "LIQUIDITY AND SELL STOPS",
+          "sell stops",
+          "Below those lows",
+          "stop loss orders right below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows",
+          "all these lows in here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rushing down to get to those stops",
+          "explodes to run out those particular stops",
+          "blows out the lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "large funds",
+          "Large funds, long-term trend following funds",
+          "They will leave stops in for a very, very long time"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVERS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY AND SELL STOPS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2308",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "get down to these stops",
+          "clear out those stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET",
+          "ORDER_FLOW_DESTINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_TRADER",
+        "confidence": 1,
+        "surface_terms": [
+          "position trader"
+        ],
+        "narrative_roles": [
+          "TRADER_PROFILE",
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [
+          "LONG_TERM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_CHART",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TIMEFRAME",
+          "HIGH_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONAL SUITABILITY AND RANGE DEFINITION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2309",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "that orange level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "OPPORTUNITY_ZONE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "known range to work within",
+          "potential range identified"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "TRADING_PLANNING_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "ANALYTICAL_PERSPECTIVE",
+          "BIG_PICTURE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Monthly"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONAL SUITABILITY AND RANGE DEFINITION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2310",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down candle right before the move up",
+          "This down candle is a breaker",
+          "This breaker"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "RESISTANCE",
+          "RETEST"
+        ],
+        "temporal_tags": [
+          "Weekly Chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity",
+          "Large fund liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_DRAW",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "Monthly Chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "range is potentially going to expand to run out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "Monthly Chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_REFERENCE_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous institutional reference points"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "Weekly Chart"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMEDIATE TERM PRICE ACTION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2311",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE_DEFINITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the range is defined from a known high and a known low"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "RANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUNDARY",
+          "SUPPLY_ZONE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal lows",
+          "stops that were resting below that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DEMAND_ZONE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "take our fib and lay it across those two reference points",
+          "grading that price swing"
+        ],
+        "narrative_roles": [
+          "RANGE_ANALYSIS",
+          "LEVEL_IDENTIFICATION",
+          "DISCOUNT_PREMIUM_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_KEY_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "these levels that we have here, these horizontal lines",
+          "areas at which the market should see new setups form",
+          "this particular level"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_POINT",
+          "ENTRY_POINT_GUIDANCE",
+          "SETUP_FORMATION_ZONE",
+          "ANTICIPATORY_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM TRADING & PRICE SWING GRADING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2312",
+    "concepts": [
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "SHORT-TERM TRADING",
+          "PRICE SWING GRADING"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_SETUP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "setups"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION_CONTEXT",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first quarter lower from the high down to the low",
+          "25% of that range"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "POTENTIAL_ENTRY_ZONE_IDENTIFICATION",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "PRICE_DISCOVERY",
+          "REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "fills in a void"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCE",
+          "LIQUIDITY_DRAW",
+          "POTENTIAL_REVERSAL_ZONE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Chart",
+          "Weekly Chart",
+          "Daily Chart",
+          "breaking down the Monthly Chart into a Weekly Chart, then Weekly Chart breaking that down into a Daily Chart"
+        ],
+        "narrative_roles": [
+          "TOP_DOWN_ANALYSIS",
+          "CONTEXT_SETTING",
+          "TRADE_PLANNING",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM TRADING & PRICE SWING GRADING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2313",
+    "concepts": [
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "TURTLE SOUP (FALSE BREAKOUTS) EXPLAINED",
+          "FALSE BREAKOUTS",
+          "takes out a short-term high just by a little bit and then quickly accelerates on the downside",
+          "market trades above it, and then explodes lower",
+          "run above it and then explodes lower",
+          "market will come back and knock you out"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seek liquidity above old highs",
+          "run above it",
+          "market trades above it",
+          "takes out a short-term high just by a little bit",
+          "absorbing liquidity on the buy side",
+          "pair up their orders to sell into those known participants"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high",
+          "old highs",
+          "short-term high, relatively equal to this one here",
+          "recent high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy stops resting above that short-term high",
+          "trailed stop loss in the form of a buy stop",
+          "put a buy stop above a recent high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "FUEL_FOR_LARGE_ORDERS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "long-term lower",
+          "bearish on the marketplace"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "long-term"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TURTLE SOUP (FALSE BREAKOUTS) EXPLAINED",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2314",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish order blocks",
+          "Monthly bearish order block",
+          "various order blocks"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE_AREA",
+          "LIQUIDITY_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run setup trader",
+          "turtle soups",
+          "false break",
+          "run above equal highs",
+          "taking out the buy stops",
+          "previous turtle soup"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breakers",
+          "This down candle in here, right before the move up above this short term high, that down candle is a breaker",
+          "another breaker in here: down candle right before the up move that takes out a previous high"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "LIQUIDITY_REPURPOSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKERS AND BEARISH ORDER BLOCKS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2315",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop runs",
+          "turtle soup",
+          "turtle soup run on stops",
+          "run on stops",
+          "raid",
+          "stop hunt",
+          "liquidity grab"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRICE_ACTION_CONTEXT",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE_EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "expansion to happen"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNIVERSAL APPLICATION OF THE THREE SETUPS AND PERSONAL MASTERY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2316",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "void",
+          "that void",
+          "liquidity void on the upside"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_MAGNET",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run that previous high",
+          "make a new high"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_CORE_SETUP_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "three conditions in the marketplace",
+          "these three things",
+          "these three characteristics in price action",
+          "the only three I trade with today"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_FRAMEWORK",
+          "CORE_STRATEGY",
+          "SIMPLICITY_IN_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "HISTORICAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reversal",
+          "trend following pullback",
+          "expansion out of a consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "OUTCOME_PREDICTION",
+          "PRICE_ACTION_CLASSIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNIVERSAL APPLICATION OF THE THREE SETUPS AND PERSONAL MASTERY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Timeframe Selection & Defining Setups_Handbook.chunks.json"
+    }
+  }
+]

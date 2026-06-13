@@ -1,0 +1,823 @@
+[
+  {
+    "chunk_id": "chunk_3125",
+    "concepts": [
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high impact and medium impact news events",
+          "economic news releases",
+          "high or medium impact events"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open Kill Zones",
+          "New York Open Kill Zones"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_WINDOW",
+          "TRADING_CONTEXT",
+          "VOLUME_PERIOD"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_BEHAVIOR_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY_INJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volatility injections"
+        ],
+        "narrative_roles": [
+          "MARKET_DYNAMICS",
+          "LIQUIDITY_ENGINEERING_CONSEQUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING HIGH AND MEDIUM IMPACT NEWS EVENTS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3126",
+    "concepts": [
+      {
+        "canonical": "SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London or New York session"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "medium or high impact news events",
+          "medium impact news event for the Euro Dollar",
+          "Spanish flash CPI"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "PRICE_MANIPULATION_CATALYST"
+        ],
+        "temporal_tags": [
+          "3 AM",
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "potential manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "3 AM hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open Kill Zone"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "London Open Kill Zone",
+          "3 AM hour"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TRADE_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "potential day trade or scalp opportunity"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONTEXT",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOCUSING ON SPECIFIC NEWS AND PAIR FOR DAY TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3127",
+    "concepts": [
+      {
+        "canonical": "IPTA_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "last 60 trading days",
+          "60, 40, and 20-day true IPTA ranges",
+          "these ranges",
+          "the range",
+          "the lookback"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ANALYTICAL_FRAMEWORK",
+          "HISTORICAL_REFERENCE",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "60 trading days",
+          "40-day",
+          "20-day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DYNAMIC_RANGE_ADJUSTMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "DYNAMIC ADJUSTMENT OF LOOKBACK RANGES",
+          "dynamically shift forward",
+          "one day is added to the range, and one day is cut off from the lookback",
+          "continuously updated perspective"
+        ],
+        "narrative_roles": [
+          "ADAPTIVE_ANALYSIS",
+          "MAINTAINING_RELEVANCE",
+          "DATA_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Every new day",
+          "yesterday's daily candle"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CANDLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "yesterday's daily candle",
+          "daily candle"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "UNIT_OF_MEASUREMENT",
+          "PRICE_ACTION_UNIT"
+        ],
+        "temporal_tags": [
+          "daily",
+          "yesterday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DYNAMIC ADJUSTMENT OF LOOKBACK RANGES",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3128",
+    "concepts": [
+      {
+        "canonical": "LOOKBACK_BOX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LOOKBACK BOXES",
+          "ranges",
+          "boxes on the chart",
+          "shifted forward each day",
+          "count yesterday's daily candle as day one and go back 60, 40, and 20 days directly"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "REFERENCE_POINT_DEFINITION",
+          "CONTEXTUAL_ANALYSIS",
+          "CHARTING_METHODOLOGY"
+        ],
+        "temporal_tags": [
+          "daily",
+          "60 days",
+          "40 days",
+          "20 days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A quarterly shift",
+          "anticipated every three months"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "POTENTIAL_REVERSAL_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "quarterly",
+          "every three months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_CHANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "potential market structure changes",
+          "trend reversals"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_CHANGE_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICAL APPLICATION OF LOOKBACK BOXES AND LIVE TRADING DISCLAIMER",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3129",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD (Premium/Discount) arrays",
+          "PD arrays",
+          "premium array",
+          "discount array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_REFERENCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIOD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "20-day range",
+          "last 20 days",
+          "20-day period",
+          "40-day trading range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "RANGE_DELINEATION",
+          "ANALYTICAL_SCOPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_EXHAUSTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "exhausted",
+          "traded through a premium array",
+          "traded away from a discount array"
+        ],
+        "narrative_roles": [
+          "CRITERIA_FOR_RANGE_ADJUSTMENT",
+          "CONTINUATION_CRITERIA",
+          "VALIDATION_OF_PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING PD ARRAYS IN THE 20-DAY RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3130",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "fair value gap that needs to fill",
+          "small fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "IMBALANCE",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midpoint that acts as a breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "MITIGATION_POINT",
+          "RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FURTHER PREMIUM PD ARRAY IDENTIFICATION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3131",
+    "concepts": [
+      {
+        "canonical": "SUNDAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday gap"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAP",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "last bearish order block",
+          "last up-close candle before a down move"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUNDAY GAPS AND FAIR VALUE GAP RESISTANCE",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3132",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swept below an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount market"
+        ],
+        "narrative_roles": [
+          "BUY_BIAS",
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "upside PD arrays",
+          "potential resistance points"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT_EXPECTATION",
+          "COUNTER_TREND_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HISTORICAL CONTEXT AND POTENTIAL FOR RETRACEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3133",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING DISCOUNT PD ARRAYS",
+          "discount arrays",
+          "below market price",
+          "for discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "VALUE_AREA_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "the last down closed candle",
+          "bullish order block basis point"
+        ],
+        "narrative_roles": [
+          "ENTRY_AREA",
+          "LIQUIDITY_REFERENCE",
+          "PRICE_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "INTERNAL_LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "propulsion candle",
+          "this candle s high was violated, making it a propulsion candle"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "STRENGTH_INDICATOR",
+          "ORDER_BLOCK_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "created a higher high"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING DISCOUNT PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3134",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT_IDENTIFICATION",
+          "BIAS_DETERMINATION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TREND_IDENTIFICATION",
+          "MARKET_SENTIMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order blocks (up candles before down moves)"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gaps filled"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_COMPLETION",
+          "LIQUIDITY_DRAW",
+          "EFFICIENCY_RESTORATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lows broken"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "LIQUIDITY_GRAB",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMPLETING PD ARRAY DELINEATION AND INSTITUTIONAL ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3135",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "HIGH_PROBABILITY_TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COUNTER_TREND_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "counter-trend trades"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_TYPE",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "within a discount",
+          "extreme discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "REVERSAL_CRITERIA_CONSIDERATION",
+          "ENTRY_CRITERIA_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "below an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "PRICE_REFERENCE_POINT",
+          "LIQUIDITY_SWEEP_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_SCENARIO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reversal scenario"
+        ],
+        "narrative_roles": [
+          "MARKET_OUTCOME_PREDICTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a measure of retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_OUTCOME_PREDICTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "potential gaps"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_VOIDS",
+          "RETRACEMENT_TARGET",
+          "REVERSAL_CRITERIA_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "a last up candle higher up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "POTENTIAL_RETRACEMENT_TARGET",
+          "POTENTIAL_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING DIRECTION AND COUNTER-TREND OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 09 - ICT Day Trade Routine_Handbook.chunks.json"
+    }
+  }
+]

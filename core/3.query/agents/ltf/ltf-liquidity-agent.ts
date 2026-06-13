@@ -54,6 +54,16 @@ export async function ltfLiquidityAgent(input: LTFLiquidityInput, minimal_contex
       pushImage(parts, input.eurusd.m1!, "LTF-EURUSD-M1", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT liquidity observations on the Low Time Frame (LTF - M15, M5, M1).
+
+Focus strictly on identifying resting micro-liquidity pools, sweeps, and inducements (Answer the question: WHERE IS LIQUIDITY?):
+1. **Micro Buy-side Liquidity (BSL) Pools**: Locate resting liquidity above local swing highs, equal highs (EQH), or session highs on M15, M5, or M1. (LIQUIDITY)
+2. **Micro Sell-side Liquidity (SSL) Pools**: Locate resting liquidity below local swing lows, equal lows (EQL), or session lows on M15, M5, or M1. (LIQUIDITY)
+3. **Liquidity Sweeps & Stop Hunts**: Check if recent price action has swept BSL or SSL pools on M15, M5, or M1 charts before reversing or pulling back. (LIQUIDITY)
+4. **Inducements**: Identify minor swing highs/lows acting as local inducement (trapping early buyers/sellers) before major liquidity pools are reached. (LIQUIDITY)
+5. **Liquidity Voids & Delivery Gaps**: Identify unfilled price spaces or delivery gaps on low timeframes acting as magnets for price. (LIQUIDITY)
+
+Output your observations as objective bullet points. Focus purely on liquidity location and action. Do NOT try to identify or prioritize specific FVG structures.`,
     schema: ltfLiquidityOutputSchema,
     mapOutput: (result) => {
       return {

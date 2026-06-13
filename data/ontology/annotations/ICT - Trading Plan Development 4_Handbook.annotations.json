@@ -1,0 +1,1306 @@
+[
+  {
+    "chunk_id": "chunk_744",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly timeframe builds upon the monthly analysis",
+          "monthly analysis",
+          "monthly chart",
+          "monthly and weekly key levels",
+          "lower timeframes",
+          "higher time frame support and resistance levels on this timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LEVEL_DERIVATION",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "key support and resistance levels",
+          "key levels",
+          "higher time frame support and resistance levels",
+          "key resistance and support levels"
+        ],
+        "narrative_roles": [
+          "LEVEL_DERIVATION",
+          "CONTEXTUAL_ANALYSIS",
+          "STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Identifying market structure",
+          "market structure",
+          "Identifying market structure through key swings (highs and lows)"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS",
+          "STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing highs and swing lows",
+          "key swings (highs and lows)"
+        ],
+        "narrative_roles": [
+          "LEVEL_DERIVATION",
+          "STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci levels",
+          "Deriving Fibonacci levels"
+        ],
+        "narrative_roles": [
+          "LEVEL_DERIVATION",
+          "TARGET_IDENTIFICATION",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT_EXTENSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "extensions and/or retracement levels"
+        ],
+        "narrative_roles": [
+          "LEVEL_DERIVATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "convergence on lower timeframes",
+          "convergences"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "HIGH_PROBABILITY_AREA_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT (Commitment of Traders) analysis",
+          "net traders' position",
+          "commercial traders' trend",
+          "extreme net long session during a downtrend",
+          "low pricing by commercials",
+          "bearish positions less advantageous"
+        ],
+        "narrative_roles": [
+          "SENTIMENT_ANALYSIS",
+          "FUNDAMENTAL_ANALYSIS",
+          "BIAS_ADJUSTMENT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_INDICATOR",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly momentum indicator",
+          "stochastic",
+          "MACD",
+          "RSI",
+          "Taperstar",
+          "momentum"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE WEEKLY CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_745",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "commercial traders' trend",
+          "COT data"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "LONG_TERM_DIRECTIONAL_BIAS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADITIONAL_TECHNICAL_ANALYSIS_REJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "overbought/oversold conditions",
+          "momentum",
+          "market sentiment concepts"
+        ],
+        "narrative_roles": [
+          "CONTRASTING_TRADITIONAL_ANALYSIS",
+          "FILTERING_NOISE",
+          "METHODOLOGY_CLARIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE WEEKLY CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_746",
+    "concepts": [
+      {
+        "canonical": "DAILY_CHART",
+        "confidence": 1,
+        "surface_terms": [
+          "THE DAILY CHART",
+          "daily chart",
+          "daily timeframe"
+        ],
+        "narrative_roles": [
+          "PRIMARY_ANALYSIS_TIMEFRAME",
+          "CONTEXTUAL_SETTING"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST",
+        "confidence": 1,
+        "surface_terms": [
+          "OPEN INTEREST",
+          "total open interest"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "COMMERCIAL_POSITIONING_INDICATOR",
+          "BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT",
+          "SMT (Smart Money Tool) divergence",
+          "USDX SMT"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "TREND_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market structure",
+          "Identifying market structure",
+          "key swing highs and lows"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "DIRECTIONAL_BIAS",
+          "KEY_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_LEVELS",
+        "confidence": 1,
+        "surface_terms": [
+          "key support and resistance levels",
+          "intermediate timeframe support and resistance levels",
+          "higher timeframe (weekly and monthly) support and resistance levels"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION",
+          "CONFLUENCE_BUILDING",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "MONTHLY_TIMEFRAME",
+          "WEEKLY_TIMEFRAME",
+          "INTERMEDIATE_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "transpose your monthly and weekly key support and resistance levels",
+          "referencing higher timeframe (weekly and monthly) support and resistance levels"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "STRENGTHENING_CONVICTION",
+          "LEVEL_VALIDATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY_TIMEFRAME",
+          "WEEKLY_TIMEFRAME",
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci",
+          "extensions and retracements",
+          "Fibonacci extensions and retracement levels",
+          "convergences"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "ENTRY_IDENTIFICATION",
+          "SUPPORT_RESISTANCE_AREA_IDENTIFICATION",
+          "CONFLUENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The greater the confluence of levels",
+          "convergences"
+        ],
+        "narrative_roles": [
+          "STRENGTHENING_CONVICTION",
+          "SIGNAL_VALIDATION",
+          "HIGH_PROBABILITY_AREA_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_DIVERGENCE",
+        "confidence": 0.7,
+        "surface_terms": [
+          "momentum indicator (e.g., RSI, Williams Percent R, stochastic, or MACD)",
+          "overbought/oversold conditions",
+          "divergences"
+        ],
+        "narrative_roles": [
+          "SUPPLEMENTARY_ANALYSIS",
+          "POTENTIAL_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE DAILY CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_747",
+    "concepts": [
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "commercial traders' open interest",
+          "adding to shorts or lessening shorts",
+          "relationship of open interest and price action"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BIAS_IDENTIFICATION",
+          "FUNDAMENTAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "SMART_MONEY_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_ANALYSIS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "intermediate-term sentiment",
+          "momentum indicator"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "STRENGTH_WEAKNESS_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence",
+          "USDX and correlative pairs"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "BIAS_IDENTIFICATION",
+          "REVERSAL_SIGNAL",
+          "SMART_MONEY_TRACKING",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE DAILY CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_748",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Market structure is crucial",
+          "looking for trend",
+          "consolidation",
+          "reversal",
+          "market profiling",
+          "determine if the market is bullish or bearish",
+          "if an interim high or low has been established",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "KEY_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Turtle Soups"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFLECTIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reflections"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_TRINITY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Monthly Trinity",
+          "previous month's range high and low",
+          "matrix levels from the ICT Trinity level indicator"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE_POINTS"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_MONTH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fibonacci levels",
+          "key highs and lows in the price swings"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_ZONE",
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Monthly Pivots"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "four-hour timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_VIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Higher timeframe key support and resistance levels",
+          "short-term support and resistance levels"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_INDICATORS",
+        "confidence": 0.75,
+        "surface_terms": [
+          "momentum indicators"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "ADDITIONAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TREND ANALYSIS",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_749",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure",
+          "key highs",
+          "lows",
+          "swings"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci retracements"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "extensions"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "confluences"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 1,
+        "surface_terms": [
+          "buy and sell pivot zones",
+          "Monthly Pivots"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERBOUGHT_OVERSOLD_INDICATOR",
+        "confidence": 1,
+        "surface_terms": [
+          "overbought/oversold indicator",
+          "stochastic",
+          "RSI",
+          "Williams %R",
+          "MACD"
+        ],
+        "narrative_roles": [
+          "SENTIMENT_ANALYSIS",
+          "CONFIRMATION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_TRINITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Monthly Trinity",
+          "previous month's range",
+          "previous month's high, low, or middle"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TREND ANALYSIS",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_750",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "THE ONE-HOUR CHART",
+          "one-hour (60-minute) chart",
+          "this timeframe",
+          "60-minute chart",
+          "other timeframes",
+          "4 hour chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe support and resistance levels",
+          "short-term support and resistance levels"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_WEEK_HIGH_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Weekly Trinity: looking at the previous week's high and low",
+          "previous week's high and low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "KEY_LEVEL_IDENTIFICATION",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Utilizing Fibonacci levels based on price swings",
+          "pulling Fibonacci levels between these swings for retracements and extensions",
+          "Fibonacci levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION",
+          "RETRACEMENT_ANALYSIS",
+          "CONTINUATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Pivot Points",
+          "Weekly Pivots",
+          "Monthly pivots"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market structure",
+          "overall price structure",
+          "moving higher",
+          "lower",
+          "consolidating",
+          "reversing",
+          "market profiling",
+          "key highs, lows, and swings",
+          "Identifying market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "TREND_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_PRICE_PATTERNS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Price patterns",
+          "individualized/specialty ICT patterns"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_INDICATOR",
+        "confidence": 0.75,
+        "surface_terms": [
+          "momentum indicator",
+          "MACD",
+          "stochastics"
+        ],
+        "narrative_roles": [
+          "OSCILLATOR_ANALYSIS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ONE-HOUR CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_751",
+    "concepts": [
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe support and resistance levels",
+          "key support/resistance levels"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous three days' highs and lows",
+          "highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily fractal high or low",
+          "fractal low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry buys",
+          "Optimal Trade Entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFLECTION_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reflection buys",
+          "reflections"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 1,
+        "surface_terms": [
+          "Pivot Points",
+          "Daily Pivots",
+          "GMT pivots",
+          "New York pivots"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "GMT",
+          "New York Midnight time",
+          "Asia session's midnight"
+        ],
+        "session_tags": [
+          "ASIA",
+          "FRANKFURT",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT concepts",
+          "USDX SMT divergence",
+          "correlative pair SMTs"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "failure swings"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "intermarket analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "The Asian Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0 GMT",
+          "5 GMT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FIFTEEN-MINUTE CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_752",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "THE FIVE-MINUTE CHART",
+          "The five-minute timeframe"
+        ],
+        "narrative_roles": [
+          "CHART_ANALYSIS_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe support and resistance levels",
+          "short-term and intraday support and resistance levels",
+          "key resistance and support",
+          "implied support/resistance"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Transposing higher timeframe support and resistance levels",
+          "higher timeframe levels"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous three days' highs and lows",
+          "daily highs and lows",
+          "current position relative to the daily high or low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAYS",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing highs and swing lows",
+          "dominant price swings",
+          "three bars make a swing high/low"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Pulling Fibonacci from swing highs and swing lows",
+          "resistance and support based on Fibonacci"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "REVERSAL_PREDICTION",
+          "CONTINUATION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_PIVOT_POINTS",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily Pivot Points",
+          "daily pivots"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Kill Zones",
+          "London Open Kill Zone",
+          "New York Open Kill Zone",
+          "London Close Kill Zone",
+          "Asia's Kill Zone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "LIQUIDITY_ENGINEERING_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON_OPEN",
+          "NY_OPEN",
+          "LONDON_CLOSE",
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "The Asian Range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0_GMT",
+          "5_GMT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Average Daily Range (ADR)"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "individual dealing range highs and lows"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_ZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy and sell pivot zones"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FIVE-MINUTE CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_753",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "initial range high and low using the Asian range indicator",
+          "Asian range indicator",
+          "0 GMT",
+          "5 GMT"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "PRE_OPEN_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0 GMT",
+          "5 GMT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "manipulation",
+          "Anticipating manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_BEHAVIOR_EXPECTATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION",
+          "TRAP_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FIVE-MINUTE CHART",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_754",
+    "concepts": [
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The Asian Range indicator",
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0 to 5 GMT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SETTING UP MT4 TEMPLATES FOR EFFICIENCY",
+      "source_file": "ICT - Trading Plan Development 4_Handbook.chunks.json"
+    }
+  }
+]

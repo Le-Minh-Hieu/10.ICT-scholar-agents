@@ -1,0 +1,1342 @@
+[
+  {
+    "chunk_id": "chunk_2432",
+    "concepts": [
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "EXTERNAL RANGE LIQUIDITY",
+          "External range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET_AREA",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_CONFLUENCE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_CONFLUENCE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Range High"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Range Low"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Runs on liquidity",
+          "External range liquidity runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FILLING_MECHANISM",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "ORDER_CONFLUENCE",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low resistance conditions",
+          "low resistance"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_CONDITION",
+          "PROFITABILITY_INDICATOR",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high resistance"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "TRADE_AVOIDANCE_CRITERION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXTERNAL RANGE LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2433",
+    "concepts": [
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERNAL RANGE LIQUIDITY"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TYPE",
+          "LIQUIDITY_CONTEXT",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGETING",
+          "IMBALANCE_CORRECTION",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair value gaps"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGETING",
+          "IMBALANCE_CORRECTION",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERNAL RANGE LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2434",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "level where there was very little or no trading",
+          "big gap underneath",
+          "gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_FILL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap fill",
+          "close a range",
+          "aggressively reprice to close those ranges"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "INEFFICIENCY_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity run",
+          "stopping out traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING GAP RISK",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2435",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCKS",
+          "Order blocks"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_COMPONENT",
+          "ORDER_FLOW_POINT_OF_INTEREST",
+          "PRICE_DELIVERY_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER MODELS",
+          "Market Maker Buy and Sell Models"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_FRAMEWORK",
+          "SMART_MONEY_MANIPULATION_SCHEMA",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER BLOCKS AND MARKET MAKER MODELS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2436",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "candle highs/lows"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "internal range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "MONTHLY CHART OBJECTIVES AND LOWER TIMEFRAME REFINEMENT",
+          "higher timeframe chart",
+          "lower timeframe",
+          "monthly Japanese Yen",
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_METHODOLOGY",
+          "REFINEMENT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price will look to fill"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_ANALYSIS",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "delivery was only on one side"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFINEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MONTHLY CHART OBJECTIVES AND LOWER TIMEFRAME REFINEMENT",
+          "lower timeframe refinement",
+          "further refinement of these levels",
+          "adjusting wicks to pinpoint the exact area"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_METHODOLOGY",
+          "PRECISION",
+          "ENTRY_CONFIRMATION_PREP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY CHART OBJECTIVES AND LOWER TIMEFRAME REFINEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2437",
+    "concepts": [
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "return to internal range liquidity",
+          "internal range liquidity",
+          "internal range liquidity entries",
+          "buying inside the range"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "LIQUIDITY_POOL",
+          "REVERSAL_POINT",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity",
+          "exit on external range liquidity",
+          "exits at external range liquidity",
+          "targeting stops below the low",
+          "selling outside the range"
+        ],
+        "narrative_roles": [
+          "EXIT_CRITERIA",
+          "PROFIT_TARGET",
+          "LIQUIDITY_POOL",
+          "TRADING_STRATEGY",
+          "STOP_HUNT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish order block",
+          "the last up candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPLY_ZONE",
+          "REVERSAL_CANDLESTICK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trading range",
+          "this range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LIQUIDITY_CONTAINMENT",
+          "STRUCTURE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A short entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_HUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeting stops below the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERNAL ENTRY, EXTERNAL EXIT STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2438",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "previous order blocks"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ORDER_ACCUMULATION",
+          "SUPPORT",
+          "LIQUIDITY_POOL",
+          "RECAPITALIZATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "internal range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "RETRACEMENT_TARGET",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "LIQUIDITY_SWEEP_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops above highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_SWEEP_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "impulse price swing",
+          "rally",
+          "aggressive run"
+        ],
+        "narrative_roles": [
+          "TREND_PHASE",
+          "DIRECTIONAL_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTRACTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "retraces back"
+        ],
+        "narrative_roles": [
+          "TREND_PHASE",
+          "RETRACEMENT",
+          "CONSOLIDATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUILDING POSITIONS AND LONG-TERM OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2439",
+    "concepts": [
+      {
+        "canonical": "MARKET_EFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET EFFICIENCY",
+          "market constantly seeks to efficiently deliver price"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_PRINCIPLE",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "INSTITUTIONAL_ORDERFLOW_TARGET",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "monthly chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutions will drive price to that level",
+          "build more positions"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING",
+          "ACCUMULATION_DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "PRICE_IMBALANCE",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "internal range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "RETRACEMENT_TARGET",
+          "ORDER_BLOCK_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity",
+          "above range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PROFIT_TARGET",
+          "PRICE_MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_FLOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "impulse",
+          "retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_COMPONENT",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET EFFICIENCY AND NEW BUYING OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2440",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "previous bullish order blocks"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "ENTRY_POINT",
+          "PRICE_RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "periods of uncertainty",
+          "elections",
+          "being on the sidelines"
+        ],
+        "narrative_roles": [
+          "MARKET_AVOIDANCE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "hourly chart"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TOOL",
+          "PLANNING_STAGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_FREQUENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one setup per week"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADING_DISCIPLINE",
+          "PLANNING_STAGE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY SETUP FREQUENCY AND TIMEFRAME SELECTION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2441",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS_FOR_LOWER_TIMEFRAME_ENTRIES",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIMEFRAME BIAS FOR LOWER TIMEFRAME ENTRIES",
+          "higher timeframe (e.g., monthly chart) calls for a run higher",
+          "lower timeframe (e.g., hourly chart)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "DIRECTIONAL_BIAS",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity",
+          "sell stops",
+          "these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market is trying to breach",
+          "quick reaction away from these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_COLLECTION",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIMEFRAME BIAS FOR LOWER TIMEFRAME ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2442",
+    "concepts": [
+      {
+        "canonical": "IMPULSE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "salient price swings",
+          "Impulse price swings"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "previous order"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "framing the larger timeframe direction"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low resistance liquidity runs"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high resistance equilibrium runs"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "RANGE_BOUND_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_CONTEXT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY SETUP EXAMPLES",
+          "each week",
+          "weekly range"
+        ],
+        "narrative_roles": [
+          "TIME_FRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_CONTEXT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY SETUP EXAMPLES AND IMPULSE SWINGS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2443",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly chart",
+          "weekly chart",
+          "drop down to the weekly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "DIRECTIONAL_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "price was only offered on one side (fair value gaps)",
+          "fair value gaps",
+          "fair value gap as an initial target"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price breaking short-term highs"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Buy Profile"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow areas"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "ORIGIN_OF_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY OR WEEKLY",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2444",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "MONTHLY/WEEKLY BIAS FOR LOWER TIMEFRAME SIGNALS",
+          "monthly or weekly chart to determine the most likely market direction",
+          "bullish on monthly/weekly",
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_ANALYSIS",
+          "CONTEXTUAL_FRAMEWORK",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term highs on those lower timeframes to be the objective",
+          "next high"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY/WEEKLY BIAS FOR LOWER TIMEFRAME SIGNALS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2445",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 1,
+        "surface_terms": [
+          "50 pips per trade/week",
+          "secure your 50",
+          "profit objective can be met",
+          "capture the full range"
+        ],
+        "narrative_roles": [
+          "GOAL_SETTING",
+          "PROFIT_TAKING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STRATEGIC ENTRY AND EXIT FOR PIP GOALS",
+          "look for ranges with 50 pips or more",
+          "Don't feel compelled to capture the full range or wait for a break",
+          "meet within the range"
+        ],
+        "narrative_roles": [
+          "STRATEGY_EXECUTION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_DISCIPLINE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Don't feel compelled",
+          "avoids impulsive entries",
+          "small price swings"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "PSYCHOLOGY_MANAGEMENT",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ranges with 50 pips or more",
+          "full range",
+          "within the range"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGIC ENTRY AND EXIT FOR PIP GOALS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2446",
+    "concepts": [
+      {
+        "canonical": "SELECTIVE_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SELECTIVE TRADING",
+          "IMPULSIVE ENTRIES",
+          "trading less frequently but with higher quality, more potent setups",
+          "not trade every single setup in every timeframe"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "RISK_MANAGEMENT",
+          "IMPROVE_TRADE_QUALITY",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Pick a timeframe that aligns with your trading model and pip objectives",
+          "four-hour or daily chart",
+          "five-minute chart"
+        ],
+        "narrative_roles": [
+          "STRATEGY_ALIGNMENT",
+          "TRADE_PLANNING",
+          "GOAL_ACHIEVEMENT"
+        ],
+        "temporal_tags": [
+          "two weeks"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELECTIVE TRADING VS. IMPULSIVE ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2447",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DRIVING PRICE TO ORDERS",
+          "From a market maker's perspective, they drive price to where orders are"
+        ],
+        "narrative_roles": [
+          "PRICE_MANIPULATION",
+          "INSTITUTIONAL_ORDER_FLOW",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price will go above short-term highs",
+          "continuously break successive highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "TREND_CONTINUATION",
+          "MARKET_STRUCTURE_BREAK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_OBJECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "logical area to trade to",
+          "that objective is met"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "MONTHLY_CHART"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DRIVING PRICE TO ORDERS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2448",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly or weekly mindset",
+          "higher timeframe directional bias"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS",
+          "SETUP_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly or weekly mindset",
+          "lower timeframes",
+          "higher timeframe directional bias"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "low resistance liquidity runs"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CHARACTERISTIC",
+          "PROFIT_TARGET_DYNAMICS",
+          "EFFICIENT_PRICE_DELIVERY",
+          "IDEAL_TRADE_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high-probability setups"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RISK_MANAGEMENT",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MINDSET AND LOW RESISTANCE RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Reinforcing Liquidity Concepts & Price Delivery_Handbook.chunks.json"
+    }
+  }
+]

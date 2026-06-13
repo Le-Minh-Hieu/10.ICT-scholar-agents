@@ -1,0 +1,232 @@
+{
+  "profile_date_utc": "2026-06-02T01:25:49.820Z",
+  "market_date": "2026-06-01",
+  "market_weekday": "Monday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-01",
+  "source_week_profile_id": "2026-06-01",
+  "day_type": "Pre-CPI Consolidation",
+  "day_confidence": 0.8,
+  "day_role_in_week": "Pre-CPI Consolidation",
+  "weekly_alignment_state": "Monday serves as the cautious precursor to a week dominated by high-impact economic events. Price action is anticipated to reflect positioning and consolidation ahead of Tuesday's critical CPI release, aligning with the dominant narrative of a 'cautious start' to the week.",
+  "dominant_weekly_theme": "CPI and NFP Event-Driven Volatility Week",
+  "dominant_weekly_narrative": "The week is characterized by a cautious start on Monday, as market participants anticipate the highly impactful CPI release on Tuesday, which ICT describes as a 'weapon of mass destruction' for markets. This event is expected to induce significant volatility and repricing, potentially instigating a 'higher dollar and lower factor for index futures.' Following this, Wednesday often plays a role in confirming or extending the weekly profile (e.g., high/low of week). The latter part of the week, specifically Thursday and Friday, is prone to choppy action and less precise price movements, leading into the Non-Farm Payroll report on Friday, an event typically avoided due to its unpredictable nature and potential for 'seek and destroy' patterns.",
+  "weekly_delivery_model": "High Impact Event Volatility with NFP Concluding Range",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": "Friday",
+  "expected_expansion_day": "Tuesday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [
+    {
+      "event_id": "forexfactory:eb74e5da8bff",
+      "title": "ISM Manufacturing PMI",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-01T14:00:00.000Z",
+      "expected_effect": "ACCUMULATION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ],
+      "catalyst_role": "Pre-CPI Consolidation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:9bdca4669224",
+      "title": "ISM Manufacturing Prices",
+      "category": "OTHER",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-01T14:00:00.000Z",
+      "expected_effect": "ACCUMULATION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-01",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ],
+      "catalyst_role": "Pre-CPI Consolidation",
+      "confidence": 0.6
+    }
+  ],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "event-driven repricing",
+      "liquidity sensitivity around scheduled releases"
+    ],
+    "expected_liquidity_sequence": [
+      "10:00 ISM Manufacturing PMI",
+      "10:00 ISM Manufacturing Prices"
+    ],
+    "high_attention_windows": [
+      "london_close_window",
+      "ny_1000_macro"
+    ],
+    "expected_displacement_windows": [
+      "ny_1000_macro"
+    ],
+    "expected_reversal_windows": [
+      "10:00"
+    ]
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:Pre-CPI Consolidation",
+      "weekly_model:High Impact Event Volatility with NFP Concluding Range",
+      "dominant_theme:CPI and NFP Event-Driven Volatility Week",
+      "catalyst:ISM Manufacturing PMI",
+      "time:10:00",
+      "killzone:london_close_window",
+      "killzone:ny_1000_macro",
+      "catalyst:ISM Manufacturing Prices"
+    ],
+    "queries": [
+      "Monday daily profile intraday ICT",
+      "Monday Pre-CPI Consolidation ICT weekly delivery model",
+      "ISM Manufacturing PMI HIGH 10:00 New York ICT profile",
+      "ISM Manufacturing Prices MEDIUM 10:00 New York ICT profile",
+      "High Impact Event Volatility with NFP Concluding Range ISM Manufacturing PMI HIGH Monday",
+      "High Impact Event Volatility with NFP Concluding Range ISM Manufacturing Prices MEDIUM Monday",
+      "ISM Manufacturing PMI HIGH london close window New York",
+      "ISM Manufacturing PMI HIGH ny 1000 macro New York",
+      "ISM Manufacturing Prices MEDIUM london close window New York",
+      "ISM Manufacturing Prices MEDIUM ny 1000 macro New York"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_1927",
+      "chunk_863",
+      "chunk_797",
+      "chunk_92",
+      "chunk_2042",
+      "chunk_1612",
+      "chunk_4024",
+      "chunk_4023",
+      "chunk_588",
+      "chunk_3373",
+      "chunk_3565",
+      "chunk_1270",
+      "chunk_3743",
+      "chunk_3089",
+      "chunk_3076",
+      "chunk_1207",
+      "chunk_1273",
+      "chunk_3556",
+      "chunk_3822",
+      "chunk_3006",
+      "chunk_474",
+      "chunk_3820",
+      "chunk_281",
+      "chunk_1602",
+      "chunk_1607",
+      "chunk_3891",
+      "chunk_4224",
+      "chunk_1605",
+      "chunk_285"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Weekly Profile",
+        "chunk_id": "chunk_1927",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Range Expansion",
+        "chunk_id": "chunk_863",
+        "relevance": null
+      },
+      {
+        "concept": "Daily Bias / Higher Timeframe Direction",
+        "chunk_id": "chunk_797",
+        "relevance": null
+      },
+      {
+        "concept": "Kill Zone / News Impact",
+        "chunk_id": "chunk_92",
+        "relevance": null
+      },
+      {
+        "concept": "9:50-10:10 AM Macro",
+        "chunk_id": "chunk_1612",
+        "relevance": null
+      },
+      {
+        "concept": "Pre-News Market Precision",
+        "chunk_id": "chunk_588",
+        "relevance": null
+      },
+      {
+        "concept": "London Close Window / Intraday Profit Taking",
+        "chunk_id": "chunk_3565",
+        "relevance": null
+      },
+      {
+        "concept": "CPI Event Impact",
+        "chunk_id": "chunk_4024",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Monday is projected to be a day of pre-CPI consolidation, characterized by cautious market behavior. The 10:00 AM New York session, featuring ISM Manufacturing data, is expected to generate accumulation, with price likely ranging or gathering liquidity as participants await tomorrow's 'weapon of mass destruction' CPI report.",
+    "key_if_then_paths": [
+      {
+        "if": "The 10:00 AM ISM manufacturing reports provide a clear directional impulse or significant volatility.",
+        "then": "Price may establish the daily range or a period of accumulation around the news event, potentially setting up for Tuesday's expansion."
+      },
+      {
+        "if": "Price action remains largely subdued and consolidative throughout the day, particularly outside the 10:00 AM news window.",
+        "then": "This would reinforce the 'Pre-CPI Consolidation' thesis, indicating a market content to wait for the major event."
+      },
+      {
+        "if": "A significant, sustained directional expansion occurs early in the day, deviating from expected consolidation.",
+        "then": "This could suggest early repositioning for CPI, potentially challenging the pre-event consolidation narrative, but is considered less probable due to the proximity of CPI."
+      }
+    ],
+    "invalidation_conditions": [
+      "A strong, unexpected directional breakout and sustained expansion early in the New York session, particularly before or significantly after the 10:00 AM news, could invalidate the 'Pre-CPI Consolidation' thesis, suggesting market participants are not waiting for CPI."
+    ]
+  },
+  "intraday_awareness": {
+    "session_focus": {
+      "New York Open Kill Zone": "7:00 AM - 10:00 AM New York time (Forex) and 8:30 AM - 11:00 AM New York time (Indices), with particular attention to the 10:00 AM news.",
+      "Macro Events": "The 10:00 AM New York time release of ISM Manufacturing PMI and Prices, identified as a 'NY 1000 macro' window.",
+      "London Close Window": "The period between 10:00 AM and 12:00 PM New York time, which often sees profit-taking or the formation of the day's high/low on specific market types."
+    },
+    "catalyst_priorities": [
+      "ISM Manufacturing PMI",
+      "ISM Manufacturing Prices"
+    ],
+    "caution_flags": [
+      "The market is in a highly anticipatory state for Tuesday's CPI, which ICT labels a 'weapon of mass destruction,' suggesting underlying potential for extreme volatility later in the week.",
+      "Monday's 'Pre-CPI Consolidation' role implies price may be choppy or range-bound, which can present challenges for directional clarity.",
+      "The 10:00 AM news events, while expected to cause accumulation, may still induce whipsaws or liquidity grabs as markets react and reposition."
+    ],
+    "execution_risk_context": "Trading on Monday carries inherent risk due to its role as a pre-event consolidation day ahead of the CPI 'weapon of mass destruction.' The market's cautious stance may lead to compressed ranges and unpredictable moves around the 10:00 AM ISM news. Significant directional conviction may be lacking until Tuesday's CPI release, making the day prone to accumulation phases and potentially sharp but unsustained movements."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-02T01:27:08.976Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-02T01:27:34.473Z",
+  "version": 1
+}

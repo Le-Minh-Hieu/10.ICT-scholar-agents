@@ -1,0 +1,86 @@
+[
+  {
+    "section_title": "INTRODUCTION TO SHORT-TERM TRADING WITH IPDA & PD ARRAYS",
+    "content": "Welcome back folks, this is Lesson Four: Short-term Trading, blending IPDA data ranges and PD arrays for\nliquidity runs."
+  },
+  {
+    "section_title": "DEFINING IPDA DATA RANGES AND PD ARRAYS",
+    "content": "When we're looking at IPDA data ranges, we're referring to specifically time. And PD arrays are dealing\nspecifically with price. So, blending the two elements together, you're blending time and price theoretically."
+  },
+  {
+    "section_title": "IPDA DATA RANGES",
+    "content": "- TIME-BASED CONTEXT FOR LOOKBACK PERIODS\nIPDA data ranges provide you a context to look back the last 20 days, the last 40 days, and the last 60\ndays. As you move forward, you're casting forward for a new set of 20, 40, and 60. Each new day, you shift\nthat range forward. The look back period gives you the context of frame the PD arrays with a reference\npoint in time. The Interbank Price Delivery Algorithm will reach back into data arrays between the last 20\ndays, the last 40 days, and the last 60 days."
+  },
+  {
+    "section_title": "PD ARRAYS IN A PREMIUM MARKET",
+    "content": "Which data array they use or refer to is respective to the PD array in reference to price. If price is in a\npremium Market, obviously working for the market price up, we would be looking for a:\n- bearish mitigation block\n- bearish breaker\n- liquidity void\n- fair value Gap\n- bearish order block\n- rejection block\n- an old high or an old low"
+  },
+  {
+    "section_title": "PD ARRAYS IN A DISCOUNT MARKET",
+    "content": "For the market price in below, for a discount Market, we would be looking for a:\n- bullish mitigation block\n- bullish breaker\n- liquidity void\n- fair value Gap\n- bullish order block\n- rejection block\n- old low or old High"
+  },
+  {
+    "section_title": "HIERARCHY AND SELECTION OF PD ARRAYS BY THE ALGORITHM",
+    "content": "Moving from the market price up in the order that's listed in the premium data arrays, that's the order in\nwhich the algorithm will seek those respective price reference points. They're not in any different order; this\nis the order for the hierarchy in the way that they're set up. There is not always a void or Gap or mitigation\nblock. It may just simply need to go all the way up to a bearish order block or a rejection block, and the\nsame thing is said in opposite terms for when the market's in a discount."
+  },
+  {
+    "section_title": "PRACTICAL APPLICATION",
+    "content": "- IDENTIFYING PD ARRAYS ON CHARTS\nIt's not ambiguous when we look at price in the form of the PD array Matrix. A good practice is always to\nsimply go through your price charts and just look for where price is right now. At the market price and\nabove, looking back last 20 days, 40 days, and 60 days, which PD arrays in the form of a premium Market\nexist? Again, not all of these bearish or premium arrays will exist in your price. There may be a selection of\nthree or four, or maybe as little as two. Rarely we have all of them to choose from."
+  },
+  {
+    "section_title": "IDENTIFYING ACTIVE VS. EXHAUSTED PD ARRAYS",
+    "content": "So what you're doing is you're looking back over the last 20 days, and you're looking to see above us in\nterms of the market price what would be deemed as a premium Market. The last 20 days, which PD array\nexists in price action? Looking back 20 days, which discount PD array exists below us? There may be a PD\narray above and or below us that's already been used by price action. For instance, maybe a bullish order\nblock price has already traded down into and responded and reacted accordingly and had higher prices.\nThat PD array has now been exhausted, so you'd have to look for another discount PD array."
+  },
+  {
+    "section_title": "BLENDING TIME AND PRICE FOR ALGORITHMIC CONTEXT",
+    "content": "When we refer to time and price, what we're doing is we're blending both the components just like the\nalgorithm does. The algorithm has to go back a specific number of time. So what we do is we break it into:\n- 20 trading days, which is essentially one month\n- 40 trading days, which is essentially two months\n- 60 trading days, which is essentially three trading months\nBy combining both time and price, we get the closest thing we can arrive at in terms of what the algorithm\nwill seek to do in terms of trading to the next level liquidity."
+  },
+  {
+    "section_title": "MARKET DIRECTION AND PD ARRAY ROLE",
+    "content": "When the markets are bearish, we work from a premium Market down to a discount. This is based on\nwhatever premium PD array and discount PD array exist in your current market action. When it's bearish,\nthose premium PD arrays will be your resistance points or where sell signals or sell-offs will occur, or new\nsell setups. The objective for price to reach down into will be the discount PD arrays that exist in your price\naction. We don't force the idea of any of these PD arrays; they're either in the chart or they're not. If there's\nan absence of any one of them, it doesn't negate or increase or lessen the validity of an ideal setup. It just\nmeans that you have far less to choose from in terms of targets or setups.\nEXAMPLE\n- AUSTRALIAN DOLLAR DAILY CHART:"
+  },
+  {
+    "section_title": "TIME SEGMENTATION",
+    "content": "All right, let's take a look at an example. We're going to use the Australian dollar, this is the daily chart. The\nfirst thing you want to do is you want to break your market up in reference to time. So now we have the look\nback of 20 trading days, 40 trading days, and 60 trading days. We can go back all the way to the 60 trading\ndays, and you can see that the lowest point with the old low noted and the highest high formed in the last\n20 trading days. That is our total 60-day trading range."
+  },
+  {
+    "section_title": "DEFINING PREMIUM/DISCOUNT AND REACTING TO VIOLATIONS",
+    "content": "Splitting that market in half in reference to its old high and its old low, we can see where the premium and\ndiscount Market ranges exist. If this old low is violated, we would have to go back and look at the old low\nformed in the 60-day look back period. The arrow delineating the lowest low in the last 20 trading days, if\nthat is violated and traded below, we would go back not to the 40 trading days because there's no lower\nlow. The next lower low or discount PD array exists in the 60-day look back, and those levels are noted\nrespectively. The last 40 trading days, you can see the range is defined by the highest high and the lowest\nlow in the last 20 trading days."
+  },
+  {
+    "section_title": "OVERLAYING THE PD ARRAY MATRIX",
+    "content": "- INTERNALIZATION PROCESS\nSo when we look at the last 20 trading days, what we do is we think in terms of the PD array Matrix. Now\nwhat I've done here is I've overlaid the actual Matrix. Now you don't need to have this much information or\ntry to have this in your price action, but I'm giving you a graphic depiction on how I internalize and I\ninterpret price action."
+  },
+  {
+    "section_title": "IDENTIFYING PREMIUM AND DISCOUNT PD ARRAYS IN THE 20-DAY RANGE",
+    "content": "So if we see where price is right now at Friday's close of the week of this recording, market price is defined\nas Friday's close, and we would be looking at the highest high and the lowest low in the last 20 trading\ndays. That's our first look back period of 20 trading days. We start looking for:\n- bearish mitigation blocks in the premium range\n- a bearish breaker\n- liquidity void\n- fair value Gap\n- bearish order block\n- rejection blocks\n- an old high or old low\nBelow market price, we identify any:\n- bullish mitigation blocks\n- a bullish breaker\n- liquidity void\n- a fair value Gap\n- bullish order block\n- rejection block\n- an old low and or high"
+  },
+  {
+    "section_title": "SPECIFIC PD ARRAYS IDENTIFIED (20-DAY LOOKBACK)",
+    "content": "With that in mind, what I've noted is in the last 20 trading days, these are the respective premium and\ndiscount PD arrays. Working our way from the top down, we have an:\n- old High\n- rejection block\n- bearish order block mean threshold (that's the three of candles, the ranges of their bodies, highs high and\nlowest low in terms of the bodies, not the wicks; that's the mean threshold or Midway point)\n- bearish order block\nAnd then we trade down into the discount area, we see a:\n- bullish order block\n- bullish order block mean threshold\n- rejection block\n- old low"
+  },
+  {
+    "section_title": "REFINING ON A 4-HOUR CHART AND ADAPTING TO FAILED ANALYSIS",
+    "content": "If we move down into a four-hour chart, you can see how these PD arrays give you much more detail. You\ncan start to see how price moves from one PD array to the next. The market for the Australian dollar made\na higher high on Tuesday, failed to make a higher high and trade higher into a monthly range as I had\nexpected in my analysis. You're going to learn that having these understandings of short-term trading, it's\nnot required for you to know all the time exactly where the market's going to go. If you fail in your analysis,\nit'll give you an immediate reason to maybe reverse your analysis and take the trades in the opposite\ndirection. This was the case this week in our mentorship."
+  },
+  {
+    "section_title": "SHIFTING ORDER FLOW AND TARGETING EXIT POINTS",
+    "content": "Originally, I was long or bullish on the Australian dollar, but the expectation of a larger price move, it failed\nto do so on Tuesday. Once Tuesday broke down, as you'll see in the later slides in this presentation, we\nhave a lot more analysis to suggest the price was going to trade down and close the liquidity void. Now\nagain, this is a four-hour chart, so if we saw price fail on Tuesday and break down lower during Tuesday, we\nstart looking for bearish ideas inside of the premium range. So we look for all the premium PD arrays to\nstart keying off all potential sell scenarios. When we sell short on the daily PD arrays in the premium range,\nwe would be looking for a lesser time frame to target our exit. That would be in the form of a four-hour or\none-hour chart."
+  },
+  {
+    "section_title": "FOUR-HOUR CHART ANALYSIS",
+    "content": "- LIQUIDITY VOID AND INSTITUTIONAL LEVELS\nThe four-hour here shows a clear liquidity void as outlined here. Price also trades back up into a mitigation\nand breaker. Trades up to an Institutional price level 76.80, and while we're not necessarily needing the\nactual high of the week, we can still take participation in the market move because we understand that the\nshift in order flow has now been moved to bearish. So we were looking for discount PD arrays. The low\nmarket action at 76.80, we were in the premium range. The void closes and takes us into the discount\nrange, notice that in the shaded green area."
+  },
+  {
+    "section_title": "MARKET MAKER MANIPULATION TEMPLATE AND SHORT OBJECTIVES",
+    "content": "If we further refine this into the days of the week on a four-hour chart, you can see how this clearly came\ndown and closed in the liquidity void right to the PIP. If we add our Market Maker Manipulation template,\nforming the high of the week on Tuesday, trading at an old monthly, weekly, and or daily High liquidity pool.\nThat's what we saw on Tuesday; it traded slightly above Monday's high, rejected it. Once Tuesday broke\ndown, the likelihood that we would see lower prices was in effect. Why I said we could start looking for\nshorts at 76.80 with the objective of 7605 as our downside objective."
+  },
+  {
+    "section_title": "LESSER TIMEFRAME TARGETS AFTER LIQUIDITY POOL RAID",
+    "content": "That was framed as we see on our Market Maker Manipulation template. The discount Market PD array is\ngoing to be used on a time frame lesser than the premium liquidity pool that was used. So the daily high on\nMonday was violated on Tuesday; that's a liquidity pool raid on a daily High. If that's the context, we're\ngoing to drop down to a four-hour and or a one-hour chart to look for a discount PD array. It comes in the\nform of a liquidity void, taking us down into 7605 was our objective."
+  },
+  {
+    "section_title": "ACHIEVING MARKET SYMMETRY THROUGH BLENDING AND ADAPTABILITY",
+    "content": "Everything tied together, we get a combination of elements of time and price blending, and using the\nmarket maker manipulation templates in accordance to our market profiles that we used and learned in\nLesson Two. We get a symmetry in the marketplace that would otherwise probably escape everyone else.\nSo hopefully this is an example and understanding and using an example we used in live analysis this\nweek. While we were initially wrong in our expectation of a higher breakout on Aussie dollar, that failure\nswing on Tuesday gave us insight on how we can change gears and get short on Aussie dollar, even while\nit traded in sympathy with the weaker dollar, which isn't typical.\nCONCLUSION\n- BLENDING TIME AND PRICE FOR ALGORITHMIC PARAMETERS\nBlending the two, time and price, it gives us the ability to work within the same parameters that the\nalgorithm will at the interbank level. Hopefully, this has been insightful to you. We'll build more on these\nideas as we go through and trade with more insights using the IPDA data ranges and PD array Matrix."
+  }
+]

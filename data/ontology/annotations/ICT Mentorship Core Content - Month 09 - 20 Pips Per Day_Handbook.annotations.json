@@ -1,0 +1,1003 @@
+[
+  {
+    "chunk_id": "chunk_3067",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Profiling",
+          "current market environment",
+          "consolidation",
+          "reversing",
+          "expanding",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "PRE_TRADE_PLANNING",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "20 Pips",
+          "bank 20 Pips",
+          "take profits at this level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scalp",
+          "scalping"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "PROFIT_TAKING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BANKING 20 PIPS AND MARKET PROFILING",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3068",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York session stops",
+          "short-term lows formed in the New York session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "very late New York session"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Asia probes the low",
+          "'Turtle Soup long'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SWEEP",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [
+          "up to 12:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "SESSION_TRADING_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "METHOD 1: ASIAN SESSION STOPS",
+          "how to trade the Asian session",
+          "This technique, or pattern, is a complete system"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SESSION_SPECIFIC_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "METHOD 1: ASIAN SESSION STOPS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3069",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term highs",
+          "short-term highs formed in the New York session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ASIAN SESSION STOPS",
+          "scout short-term highs formed in the New York session",
+          "The selling setup is during the Asian session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "12:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "ASIA",
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "METHOD 1: ASIAN SESSION STOPS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3070",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "small pocket of stops resting above it",
+          "'late New York stops'",
+          "very low volume liquidity run",
+          "trades above that short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "PRICE_MANIPULATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "ASIAN_SESSION_PRECURSOR"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "SHORT_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SHORT SETUP ABOVE LATE NEW YORK HIGHS",
+          "we look to go short",
+          "take 20 Pips",
+          "If price trades above that short-term high (prior to the Asian session start) on a five-minute basis"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADING_STRATEGY",
+          "PROFIT_TARGET",
+          "TRADING_RULE"
+        ],
+        "temporal_tags": [
+          "ASIAN_SESSION_PRECURSOR"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Asian Range High",
+          "short-term high formed prior to the Asian session start",
+          "late New York highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "ASIAN_SESSION_PRECURSOR"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT SETUP ABOVE LATE NEW YORK HIGHS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3071",
+    "concepts": [
+      {
+        "canonical": "ASIAN_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "ASIAN SESSION",
+          "Asian session",
+          "defined Asian range",
+          "Asian trades"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "STRATEGY_SPECIFIC_CONTEXT",
+          "SESSIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "before midnight",
+          "8:00 p.m. New York time"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high where price trades above it",
+          "Fading this move",
+          "small rally is seen, which is then faded"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Matrix concepts (premium and discount)",
+          "premium and discount"
+        ],
+        "narrative_roles": [
+          "TRADE_CONTEXT",
+          "VALUE_ASSESSMENT",
+          "ENTRY_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3072",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trading above a short-term high",
+          "short-term high",
+          "above the short-term highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN_SESSION"
+        ]
+      },
+      {
+        "canonical": "ENTRY_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the entry is to sell short",
+          "ideal entry is around five Pips above the short-term highs",
+          "Aggressive traders might enter one or two Pips above",
+          "If a five-Pip entry isn't available, miss the trade"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_ENTRY",
+          "DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN_SESSION"
+        ]
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss is fixed at 20 Pips",
+          "filter to prevent advanced losses"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PRESERVATION_OF_CAPITAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3073",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high rallied above",
+          "initial 'whip' above a short-term high or below a short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_SETUP",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Judas Swing down is expected",
+          "making a Judas Swing",
+          "London session Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [
+          "DAY_CLOSE"
+        ],
+        "session_tags": [
+          "ASIAN",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range high",
+          "Asian range that trades lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term high",
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3074",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York expansion"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SCALPING_STRATEGY",
+          "HIGH_PROBABILITY_SETUP",
+          "MARKET_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "METHOD 2: NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3075",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "METHOD 2: NEW YORK EXPANSION",
+          "New York Expansion"
+        ],
+        "narrative_roles": [
+          "STRATEGY_TYPE",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "10:00 a.m. New York time",
+          "New York open"
+        ],
+        "narrative_roles": [
+          "TRADING_SESSION",
+          "TIMING_CONTEXT"
+        ],
+        "temporal_tags": [
+          "10:00_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "LONDON_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session"
+        ],
+        "narrative_roles": [
+          "TRADING_SESSION",
+          "TIMING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term lows",
+          "5-minute short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_STRUCTURE",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_OPEN",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "'Turtle Soup' move"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-day average daily range (ADR)",
+          "ADR"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "VOLATILITY_MEASURE",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PRICE_TARGET_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "METHOD 2: NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3076",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "METHOD 2: NEW YORK EXPANSION",
+          "The sell setup",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "up to 10:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "New York",
+          "New York open"
+        ]
+      },
+      {
+        "canonical": "DAILY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "daily high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "London"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "5 day average daily range",
+          "The average daily range for the last 5 days' low"
+        ],
+        "narrative_roles": [
+          "TARGETING_CRITERIA",
+          "VOLATILITY_REFERENCE",
+          "PROBABLE_TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trading above a 5-minute short-term high, taking out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "New York"
+        ]
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term highs",
+          "5-minute short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "New York open",
+          "New York"
+        ]
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Targeting 20 Pips",
+          "stop loss at 20 Pips"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "METHOD 2: NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3077",
+    "concepts": [
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK EXPANSION",
+          "upside expansion"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "TREND_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LOW_OF_THE_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low of the day"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "HIGH_OF_THE_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "comes down below a 5-minute short-term low, quickly rejects, and goes up",
+          "comes back above a 5-minute short-term high for buy stops that have been trailed down",
+          "short-term high is violated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-minute short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-minute short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London open"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ANCHOR",
+          "PRICE_ACTION_CATALYST"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BUY_STOPS",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "OPPORTUNITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "targets 20 Pips"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3078",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "look for a 5-minute low and allow price to break down below it",
+          "entices short sellers and breakout artists",
+          "knocking out existing long positions"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_PHASE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "NEW YORK EXPANSION"
+        ],
+        "narrative_roles": [
+          "SESSION_CONTEXT",
+          "MARKET_DELIVERY_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term intraday opportunities",
+          "day trade",
+          "20 Pips"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "every trading day",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 0.85,
+        "surface_terms": [
+          "5-minute low",
+          "5-minute chart"
+        ],
+        "narrative_roles": [
+          "CHART_ANALYSIS_FRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - 20 Pips Per Day_Handbook.chunks.json"
+    }
+  }
+]

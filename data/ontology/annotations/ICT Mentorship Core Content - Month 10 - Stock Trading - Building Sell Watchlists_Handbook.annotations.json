@@ -1,0 +1,514 @@
+[
+  {
+    "chunk_id": "chunk_3459",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "SEASONAL BEARISH FOCUS",
+          "bearish months",
+          "Dow Jones Industrial seasonals",
+          "May through July"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "FILTERING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "May",
+          "July"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation months"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "FILTERING"
+        ],
+        "temporal_tags": [
+          "consolidation months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower high"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_CRITERIA",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEASONAL BEARISH FOCUS AND INITIAL FILTERS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3460",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "Index SMT divergences",
+          "indices failed to make comparable higher highs",
+          "The NASDAQ made a higher high, but the Dow and S&P failed to"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "WEAKNESS_INDICATION",
+          "SMART_MONEY_ACTION_FINGERPRINT"
+        ],
+        "temporal_tags": [
+          "MAY_JULY_PERIOD",
+          "2015_MAY_JUNE_JULY_PERIOD"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "distribution"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "SMART_MONEY_ACTION",
+          "TREND_CHANGE",
+          "MARKET_BIAS_SHIFT"
+        ],
+        "temporal_tags": [
+          "MAY_JULY_PERIOD",
+          "2015_MAY_JUNE_JULY_PERIOD"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_MARKET_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MAY-JULY BEARISH PERIOD",
+          "bearish month",
+          "bearish period"
+        ],
+        "narrative_roles": [
+          "TREND_DIRECTION",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [
+          "JANUARY",
+          "MAY_HIGH",
+          "JULY",
+          "AUGUST_1ST",
+          "MAY_JULY_PERIOD"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOCUSING ON MAY-JULY BEARISH PERIOD AND SMT DIVERGENCE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3461",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "no SMT divergence for bearishness",
+          "No obvious divergence means no divergence"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION_FAILURE"
+        ],
+        "temporal_tags": [
+          "2014",
+          "May-July"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Dow Jones was making higher highs leading up to May. However, American Express shares were seeing failure to rally comparably"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "2015",
+          "May",
+          "first of August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "heavy distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "PRICE_ACTION_INTERPRETATION",
+          "INSTITUTIONAL_ACTIVITY"
+        ],
+        "temporal_tags": [
+          "2015",
+          "May",
+          "first of August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal high"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_BIAS",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "May-June-July"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AMERICAN EXPRESS (AXP)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3462",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow is bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_IDENTIFICATION",
+          "SMART_MONEY_DIRECTION"
+        ],
+        "temporal_tags": [
+          "2015",
+          "May to August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The Dow Jones was making higher highs, while Chevron shares were simultaneously making lower highs"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "WEAKNESS_INDICATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "2015",
+          "May to August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "heavy distribution"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "TREND_REVERSAL_INDICATION",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [
+          "2015",
+          "May to August"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seasonal decline from May to August"
+        ],
+        "narrative_roles": [
+          "MACRO_CONTEXT",
+          "PREDICTIVE_ANALYSIS",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "May to August"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_ACCELERATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ramp-up in selling acceleration"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING_EFFECT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "May to August"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHEVRON CORPORATION (CVX)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3463",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "heavy distribution",
+          "institutional order flow is already bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "INSTITUTIONAL_ACTIVITY",
+          "TREND_INITIATION"
+        ],
+        "temporal_tags": [
+          "May 2015",
+          "May to August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_WEAKNESS_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The Dow Jones was posting higher highs, while Exxon Mobil shares were simultaneously failing to make higher highs."
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "WARNING_SIGNAL",
+          "DISTRIBUTION_SIGNAL",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "May to August 2015"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_ACCELERATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "acceleration of selling"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "PRICE_ACTION",
+          "IMPULSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXXON MOBIL (XOM)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3464",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish market tone",
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "weekly basis",
+          "weekly chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Dow Jones made higher highs while Walmart was simultaneously failing to make higher highs"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "WEAKNESS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'Judas swing'",
+          "market protractionary state, where the rally is then sold",
+          "clearer rally failure"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_MOVE",
+          "TRAP_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WALMART (WMT)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3465",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "four asset class studies completed this month (stocks, bonds, commodities, S&P)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_MODEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy model and sell model tutorials"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADING_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific time of year",
+          "seasonal tendencies"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow (bearish or bullish on the weekly chart)"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "weekly chart"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF GENERAL MARKET INSIGHTS AND HOMEWORK",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3466",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUSION AND UPCOMING CONTENT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Stock Trading - Building Sell Watchlists_Handbook.chunks.json"
+    }
+  }
+]

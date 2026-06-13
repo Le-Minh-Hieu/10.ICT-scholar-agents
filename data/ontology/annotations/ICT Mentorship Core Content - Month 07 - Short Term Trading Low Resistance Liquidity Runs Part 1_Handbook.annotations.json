@@ -1,0 +1,1612 @@
+[
+  {
+    "chunk_id": "chunk_2924",
+    "concepts": [
+      {
+        "canonical": "TIME_AND_PRICE_ALIGNMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TIME AND PRICE IN TRADING SETUPS",
+          "time and price",
+          "time element"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "SETUP_IDENTIFICATION",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFERENCE_RANGE_DEFINITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'up-to-date ranges'",
+          "look-back period is the last three months",
+          "60-day up-to-date range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "CONTEXT_ESTABLISHMENT",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "last three months",
+          "60-day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT_ARRAYS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "premium and discount PD (Price Delivery) arrays"
+        ],
+        "narrative_roles": [
+          "VALUE_ASSESSMENT",
+          "TRADE_DIRECTION_BIAS",
+          "SETUP_IDENTIFICATION",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STYLE_SHORT_TERM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term trading",
+          "short-term trade"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_CLASSIFICATION",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_TRADE_SCENARIO",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'one-shot, one-kill' scenario"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION_PHILOSOPHY",
+          "TRADING_PSYCHOLOGY",
+          "RISK_MANAGEMENT_PHILOSOPHY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME AND PRICE IN TRADING SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2925",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PRICE MOVEMENT BETWEEN PREMIUM AND DISCOUNT",
+          "premium array",
+          "discount array",
+          "premium",
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_DIRECTION_FRAMEWORK",
+          "ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "time element",
+          "up-to-date range",
+          "time and price elements",
+          "20, 40, and 60 days"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "RANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "20 days",
+          "40 days",
+          "60 days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array Matrix",
+          "institutional reference points"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE MOVEMENT BETWEEN PREMIUM AND DISCOUNT",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2926",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Range Midpoint (50%)",
+          "50% midpoint",
+          "50% level",
+          "this midpoint"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MAGNET_LEVEL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "range",
+          "defined range",
+          "highest body candle (highest open or close) to the lowest body candle (lowest Note"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_DEFINITION",
+          "MEASUREMENT_BASIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE RANGE MIDPOINT (50%) USING FIBONACCI",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2927",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "MEASURING SUB-RANGES WITH FIBONACCI",
+          "Fib tool"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "RANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_IDENTIFICATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SUB-RANGES",
+          "Upper Range Subdivision",
+          "Lower Range Subdivision",
+          "total consolidation range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "50% level",
+          "midpoint"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_ANALYSIS",
+          "FAIR_VALUE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "main consolidation midpoint",
+          "total consolidation range"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEASURING SUB-RANGES WITH FIBONACCI",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2928",
+    "concepts": [
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium",
+          "'premium range'"
+        ],
+        "narrative_roles": [
+          "RANGE_DELINEATION",
+          "TRADE_BIAS",
+          "ENTRY_CRITERIA",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount",
+          "'discount range'"
+        ],
+        "narrative_roles": [
+          "RANGE_DELINEATION",
+          "TRADE_BIAS",
+          "ENTRY_CRITERIA",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation range",
+          "sub-ranges"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "RANGE_DELINEATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT",
+        "confidence": 1,
+        "surface_terms": [
+          "main midpoint",
+          "50% level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RANGE_DELINEATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING PREMIUM AND DISCOUNT IN SUB-RANGES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2929",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "Price Delivery arrays",
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODELING",
+          "ANALYTICAL_TOOL",
+          "TRADE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium and discount array"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODELING",
+          "TRADE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "APPLYING PD ARRAYS ACROSS TIMEFRAMES",
+          "monthly, weekly, and daily PD arrays"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "ANALYTICAL_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING PD ARRAYS ACROSS TIMEFRAMES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2930",
+    "concepts": [
+      {
+        "canonical": "TIME_AND_PRICE_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BLENDING TIME AND PRICE",
+          "We blend time and price"
+        ],
+        "narrative_roles": [
+          "CONTEXT_FRAMEWORK",
+          "TRADE_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_DISCOUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount PD array",
+          "discount"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_DRAW",
+          "SUPPORT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "February 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "February 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "premium level"
+        ],
+        "narrative_roles": [
+          "ORIGIN_OF_SELLS",
+          "HIGH_PROBABILITY_SELL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "TARGET",
+          "MULTI_TIMEFRAME_CONTEXT"
+        ],
+        "temporal_tags": [
+          "March 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REACTION_LEVEL"
+        ],
+        "temporal_tags": [
+          "March 2017"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING TIME AND PRICE FOR SHORT SCENARIOS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2931",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "FURTHER QUADRANT DEFINITION FOR PREMIUM AND DISCOUNT",
+          "initial premium and discount quadrants",
+          "premium and discount trading ranges",
+          "premium and discount format"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "TRADE_LOCATION_IDENTIFICATION",
+          "ANALYTICAL_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FURTHER QUADRANT DEFINITION FOR PREMIUM AND DISCOUNT",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2932",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_PRICE_DELIVERY_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower quadrant",
+          "discount range of the overall consolidation",
+          "discount PD"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_SETUP_LOCATION",
+          "OPTIMAL_BUY_ZONE",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PRICE_DELIVERY_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium range",
+          "premium range of this sub-PD array Matrix"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "EXIT_CRITERIA",
+          "OPTIMAL_SELL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ARRAY_MATRIX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD",
+          "sub-PD array Matrix"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "CONTEXTUAL_FRAMEWORK",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_ENTRY_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high probability new long positions"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL",
+          "TRADE_SETUP",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_COVERING_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high probability short covering objectives"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "First profit on a long is best taken once price enters the premium range"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOWER QUADRANT TRADING OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2933",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD arrays"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_PROJECTION",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "first objectives",
+          "profit targets"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "lower timeframes",
+          "4-hour or 1-hour chart"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRECISION_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "ALIGNMENT_STRATEGY",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOWER TIMEFRAME TARGETS FOR FIRST OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2934",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array",
+          "discount area"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4-hour or 1-hour",
+          "not visible on the daily chart",
+          "lower timeframe"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TECHNIQUE",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONG ENTRIES IN DISCOUNT SUB-RANGES AND PROFIT TAKING",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2935",
+    "concepts": [
+      {
+        "canonical": "OVERSOLD_OVERBOUGHT_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "OVERSOLD/UNDERVALUED",
+          "OVERBOUGHT/OVERVALUED",
+          "oversold conditions",
+          "overbought conditions",
+          "Oversold or undervalued entries",
+          "Overvalued or overbought entries"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "TRADE_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price ranges algorithmically through quadrants",
+          "premium range"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "ENTRY_MODEL_REFINEMENT",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "RESISTANCE_LEVEL",
+          "PRICE_CONTEXT"
+        ],
+        "temporal_tags": [
+          "4-hour",
+          "1-hour"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OVERSOLD/UNDERVALUED VS. OVERBOUGHT/OVERVALUED",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2936",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAYS",
+          "PD array matrices",
+          "actual PD arrays"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "MARKET_STRUCTURING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount and premium",
+          "range definition (premium/discount)",
+          "discount",
+          "premium"
+        ],
+        "narrative_roles": [
+          "VALUE_IDENTIFICATION",
+          "MARKET_STRUCTURING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_DEFINITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RANGE DEFINITION",
+          "range definition (premium/discount)",
+          "range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "MARKET_STRUCTURING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation range"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COUPLING RANGE DEFINITION WITH PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2937",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATION",
+          "In consolidation, price can oscillate",
+          "smaller consolidations within the larger one",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "RANGE_BOUND_TRADING",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "discount range"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RANGE_BASED_ANALYSIS",
+          "OPTIMAL_TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium range PD array"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "ENTRY_CRITERIA",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "oscillate, moving slightly outside the range before returning"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY ENTRIES AND EXITS IN CONSOLIDATION",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2938",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM MARKET",
+          "upper half (premium portion)",
+          "overall premium market",
+          "overvalued"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'oversold condition'",
+          "discount market",
+          "undervalued"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "ENTRY_CONFIRMATION",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "defines entries for longs (undervalued) or shorts (overvalued)"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRAMING OVERSOLD CONDITIONS IN A PREMIUM MARKET",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2939",
+    "concepts": [
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM MARKET INFLUENCE",
+          "PREMIUM",
+          "top of the larger consolidation",
+          "highest segment"
+        ],
+        "narrative_roles": [
+          "SHORT_OPPORTUNITY_ZONE",
+          "PRICE_REJECTION_ZONE",
+          "RANGE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array Matrix"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CATALYST",
+          "LIQUIDITY_REFERENCE_POINTS",
+          "SUPPLY_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order blocks"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "REVERSAL_CANDIDATE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "RESISTANCE_LEVEL",
+          "REVERSAL_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breakers"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "REVERSAL_CANDIDATE",
+          "MARKET_STRUCTURE_RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish mitigation blocks"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "REVERSAL_CANDIDATE",
+          "PRICE_REJECTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREMIUM MARKET INFLUENCE AND OPPORTUNITIES FOR SHORTS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2940",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bullish order block mean threshold"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_LEVEL",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE_LEVEL",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium 50% level"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "TARGET_ZONE",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE RESPONSE AND TARGETING",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2941",
+    "concepts": [
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low resistance liquidity runs"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_CRITERIA",
+          "PRICE_MOVEMENT_TENDENCY",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "TARGET_AREA",
+          "ORIGIN_OR_DESTINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "ENTRY_CONTEXT",
+          "ORIGIN_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "TARGET_CONTEXT",
+          "DESTINATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ONE_SHOT_ONE_KILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'one-shot, one-kill'"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TRADING_PHILOSOPHY",
+          "HIGH_PROBABILITY_SETUP",
+          "PRECISION_TRADING"
+        ],
+        "temporal_tags": [
+          "last three months",
+          "20 trading days",
+          "40 trading days",
+          "60 trading days"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF PERSONAL STUDY AND IDENTIFYING LOW RESISTANCE LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2942",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.98,
+        "surface_terms": [
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_DEFINITION",
+          "CONTEXT_BUILDING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium PD array Matrix"
+        ],
+        "narrative_roles": [
+          "SELLING_TARGETS_IDENTIFICATION",
+          "RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount PD array Matrix levels"
+        ],
+        "narrative_roles": [
+          "LONG_ENTRY_IDENTIFICATION",
+          "SHORT_COVERING_IDENTIFICATION",
+          "SUPPORT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_RANGE",
+        "confidence": 0.92,
+        "surface_terms": [
+          "premium/discount market",
+          "these ranges (premium/discount market)"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "ENTRY_CONFIRMATION",
+          "OBJECTIVE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOK_BACK_PERIOD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "20, 40, and 60-day look-back periods"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION_PARAMETER",
+          "CONTEXT_BUILDING_PARAMETER"
+        ],
+        "temporal_tags": [
+          "20_DAY",
+          "40_DAY",
+          "60_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTEXTUALIZING ENTRIES AND OBJECTIVES WITH PD ARRAY MATRIX",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2943",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "lower portion or lower half of the overall consolidation",
+          "lower quadrant",
+          "the discount Matrix"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY",
+          "RANGE_BOUND_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium range",
+          "upper portion",
+          "the last quadrant"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY",
+          "OPTIMAL_EXIT",
+          "RANGE_BOUND_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "overall consolidation"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_TRADING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDEAL BUY AND SELL ZONES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2944",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "premium range",
+          "overall premium zone",
+          "premium",
+          "discount within that premium"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "TRADE_BIAS",
+          "REFERENCE_FRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_ANCHOR",
+          "REVERSAL_ZONE_ORIGIN",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_LEVEL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "TARGET_ZONE",
+          "REVERSAL_ZONE_ORIGIN",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING OVERBOUGHT ZONES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2945",
+    "concepts": [
+      {
+        "canonical": "ONE_SHOT_ONE_KILL",
+        "confidence": 1,
+        "surface_terms": [
+          "ONE SHOT ONE KILL"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_PHILOSOPHY",
+          "TRADE_HORIZON_DEFINITION",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "SHORT_TERM_TRADING",
+          "DAILY_HORIZON",
+          "WEEKLY_HORIZON"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITION OF 'ONE SHOT ONE KILL'",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2946",
+    "concepts": [
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "LOW RESISTANCE LIQUIDITY RUNS",
+          "low resistance liquidity runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "TREND_FOLLOWING",
+          "MARKET_EFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array",
+          "profitable discount PD array",
+          "premium PD array",
+          "profitable premium PD array",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium market",
+          "discount long entries",
+          "higher you get up in the overall consolidation",
+          "lower you are in the total consolidation",
+          "range environment"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "BIAS_DETERMINATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "overall consolidation",
+          "total consolidation",
+          "range environment"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUMMARY OF OPTIMAL TRADING AREAS AND LOW RESISTANCE LIQUIDITY RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Low Resistance Liquidity Runs Part 1_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,1576 @@
+[
+  {
+    "chunk_id": "chunk_2461",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_SWING_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional swing points",
+          "institutional swing point"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_MODEL_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWO FORMS OF INSTITUTIONAL SWING POINTS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2462",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "THE BREAKER SWING POINT",
+          "The Breaker pattern",
+          "Breaker pattern"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "TRAP_PATTERN",
+          "INSTITUTIONAL_SWING_POINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "move slightly below a previous low",
+          "making a new higher high",
+          "stopping out the trader"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INITIATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE BREAKER SWING POINT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2463",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKER FORMATIONS"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Retail traders",
+          "ICT in his early days"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "makes one more pass higher",
+          "driving out that short-term high",
+          "spooking and upsetting already short traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "bearish order blocks"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP_CLOSURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "gap closure"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_REFERENCE_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "key institutional reference point"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "PRICE_TARGET_AREA",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PRICE_TARGET_PRECISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTEXTUALIZING BREAKER FORMATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2464",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "SIGNIFICANCE AND FREQUENCY OF THE BREAKER",
+          "THE BREAKER",
+          "this pattern",
+          "This exact pattern"
+        ],
+        "narrative_roles": [
+          "SETUP_FORMATION",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out the short-term low",
+          "buy stops are often targeted",
+          "fake out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "an order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "a fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.8,
+        "surface_terms": [
+          "a liquidity void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIGNIFICANCE AND FREQUENCY OF THE BREAKER",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2465",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "THE BREAKER SWING POINT",
+          "this pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "CONTINUATION_PATTERN",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops are run out below a short-term low",
+          "one more drive lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish/bullish order blocks"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CONFLUENCE_FACTOR",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CONFLUENCE_FACTOR",
+          "PRICE_LEVEL",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CONFLUENCE_FACTOR",
+          "PRICE_LEVEL",
+          "INEFFICIENCY",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE BREAKER SWING POINT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2466",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Breakers",
+          "Breaker pattern",
+          "bearish breaker",
+          "bullish breaker",
+          "buy side of the Breaker pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "PRICE_ACTION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops are being run out",
+          "A short-term high was passed through briefly",
+          "A short-term low was passed through briefly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gap",
+          "liquidity void",
+          "wasn't filled on the initial pass lower and then drives lower to close it in"
+        ],
+        "narrative_roles": [
+          "ATTRACTION",
+          "REBALANCE_POINT",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICE AND ENTRY CONFIDENCE FOR BREAKERS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2467",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Breaker entries",
+          "Breaker swing points",
+          "breakers"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SWING_POINT_IDENTIFICATION",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation blocks"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OVERCOMING FEAR AND ANTICIPATING BREAKER ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2468",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKER ENTRY",
+          "bearish Breaker",
+          "If price subsequently rallies back up to that trigger level, a trader can be a seller there."
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "market structure shift",
+          "it takes out the short-term low that formed between the previous high and the new higher high, this constitutes a market structure shift"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish swing point",
+          "previous high",
+          "new high",
+          "new higher high",
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "STRUCTURE_DEFINITION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_MINDSET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sell above a previous high like an institutional trader"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_REFERENCE",
+          "TRADING_PSYCHOLOGY_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER ENTRY POST-MARKET STRUCTURE SHIFT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2469",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL ENGINEERING OF BREAKERS",
+          "the breaking point (the short-term low that was broken)",
+          "the highest point of the Breaker"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily timeframe"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "subsequent pass through this high clears out that buy-side liquidity",
+          "stopping out initial short players"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the breaking point (the short-term low that was broken)"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INSTITUTIONAL ENGINEERING",
+          "allowing institutions to",
+          "Institutions do not want to offer them a good price"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL ENGINEERING OF BREAKERS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2470",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER SCENARIO DETAILS"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "STRUCTURE_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "SUPPORT_LEVEL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void that wasn't filled"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "SUPPORT_LEVEL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low that price dips below",
+          "old low from six months ago being run",
+          "driving one more time through it",
+          "observe a low that seems illogical for price to stop at",
+          "anticipating a drive lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_REFERENCE_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "key support level",
+          "bullish institutional reference point",
+          "true support level"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term low",
+          "old low",
+          "new lower low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER SCENARIO DETAILS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2471",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "protective sell stops just below that low",
+          "accumulating these sell stops",
+          "When these stops are hit"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Institutional thinking involves accumulating these sell stops",
+          "institutions act as buyers, acquiring assets at a deep discount"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_INDICATOR",
+          "MARKET_MANIPULATION",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "immediate, aggressive response away from that level",
+          "Price should not linger below the low",
+          "candle creating a long wick",
+          "market rejecting the low"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_PROOF"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "On daily timeframes",
+          "entire daily range"
+        ],
+        "narrative_roles": [
+          "TRADING_PERSPECTIVE",
+          "CONTEXTUAL_ANALYSIS",
+          "TIME_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2472",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shift",
+          "market structure shifts on the bullish side"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy below an old low",
+          "lowest point of the stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_ORIGIN",
+          "INSTITUTIONAL_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POINT_OF_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breaking point",
+          "short-term high that was broken",
+          "new trigger level"
+        ],
+        "narrative_roles": [
+          "ENTRY_LEVEL",
+          "REFERENCE_POINT",
+          "CONFIRMATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RETAIL VS. INSTITUTIONAL CANDLESTICK INTERPRETATION",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2473",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PROACTIVE VS. REACTIVE ENTRY IN BREAKERS",
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "PRICE_PATTERN",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "initial low is run",
+          "lowest point of the stop run",
+          "clearing sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure shifts",
+          "breaking the short-term high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "original breaking point (the short-term high that was violated)",
+          "this breaking point"
+        ],
+        "narrative_roles": [
+          "ENTRY_LEVEL",
+          "RETRACEMENT_TARGET",
+          "CONFIRMATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACTIVE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "REACTIVE ENTRY IN BREAKERS",
+          "If the market does provide an opportunity to return to this breaking point, a trader can be a buyer there with confidence."
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROACTIVE_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "PROACTIVE VS. REACTIVE ENTRY IN BREAKERS",
+          "price might not return to this exact point, continuing to scream higher. This would represent a missed opportunity."
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "MISSED_OPPORTUNITY_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROACTIVE VS. REACTIVE ENTRY IN BREAKERS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2474",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER ENTRY",
+          "Breaker Swing Point",
+          "Breaker",
+          "re-enter at the breaking point",
+          "return to that level",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING_REACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-MARKET STRUCTURE SHIFT",
+          "breaking market structure"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stops are run",
+          "false break above an old high (or below an old low)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "'Turtle Soup' pattern",
+          "a false break above an old high (or below an old low), followed by a rejection and quick move away"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing points",
+          "Breaker Swing Point"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PATTERN_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "initial optimal entry",
+          "buying at the lowest possible point and selling at the highest"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highest probability entries"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER ENTRY POST-MARKET STRUCTURE SHIFT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2475",
+    "concepts": [
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "FAILURE SWING",
+          "fails to make a new low"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breaks through a short-term high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Run an area of liquidity",
+          "above highs or below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Trap traders",
+          "sellers trapped below",
+          "buyers trapped above",
+          "preventing trapped traders from exiting at a favorable price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAILURE SWING",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2476",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Breaker swing point",
+          "Breaker setup",
+          "Breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY",
+          "TRADE_SETUP",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Failure Swing"
+        ],
+        "narrative_roles": [
+          "ALTERNATIVE_SCENARIO",
+          "TRADE_SETUP",
+          "MARKET_STRUCTURE_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "violation of the short-term high",
+          "violation of the short-term low"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING BREAKER VS. FAILURE SWING SCENARIOS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2477",
+    "concepts": [
+      {
+        "canonical": "FAILURE_SWING_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "Failure Swing pattern",
+          "FAILURE SWING ENTRY AND STOP LOSS"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "STOP_LOSS_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broken high (now acting as support)",
+          "price's return to this broken high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_FLIP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "Stop Loss",
+          "sell stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STOP_LOSS_PLACEMENT_LOGIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops have already been run out",
+          "run out",
+          "take out stops",
+          "trap or liquidate traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "STOP_LOSS_PLACEMENT_LOGIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutions aim to trap or liquidate traders",
+          "They drive price to take out stops",
+          "placing funds on the wrong side of the market",
+          "institutions are taking the opposite side, aggressively repricing to gain profit"
+        ],
+        "narrative_roles": [
+          "MARKET_MOTIVATION",
+          "PRICE_MANIPULATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAILURE SWING ENTRY AND STOP LOSS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2478",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "Breaker scenario",
+          "Breaker buy",
+          "BREAKER VS. FAILURE SWING STRATEGY"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "STRATEGY_TYPE",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Failure Swing",
+          "Failure Swing trigger level",
+          "high of that Failure Swing",
+          "rejection from a low (Failure Swing)",
+          "low of that Failure Swing",
+          "BREAKER VS. FAILURE SWING STRATEGY"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "STRATEGY_TYPE",
+          "REVERSAL_CONFIRMATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'Turtle Soup' setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops have already been cleared",
+          "sell stops have already been run",
+          "stops are cleared"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_VALIDATION_CRITERIA",
+          "STOP_PLACEMENT_REASONING",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STOP_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "break a short-term high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_LOGIC",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutions won't revisit those levels to give trapped traders an easy exit"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "TRADE_VALIDATION_CRITERIA",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short entry",
+          "return to that broken high"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "STRATEGY_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S PREFERRED BREAKER VS. FAILURE SWING STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2479",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "old high (Breaker)",
+          "old low (Breaker)",
+          "(Breaker)",
+          "pass through and reject (Breaker)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_TURNED_RESISTANCE",
+          "RESISTANCE_TURNED_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "fall short and then break away (Failure Swing)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "broken market"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_REFERENCE_POINTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old institutional order flow reference points",
+          "key support/resistance"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_IDENTIFICATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement back to a broken market",
+          "return/retracement back to a market"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIMPLIFIED APPROACH AND IMPORTANCE OF DEMO PRACTICE",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Institutional Swing Points_Handbook.chunks.json"
+    }
+  }
+]

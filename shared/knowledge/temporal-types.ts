@@ -30,6 +30,9 @@ export interface ActiveStructure {
 
   decay_score: number; // Penalty applied over time
 
+  catalyst_vulnerability?: "HIGH" | "MEDIUM" | "LOW";
+  scheduled_decay?: { trigger_time: string; decay_multiplier: number; reason: string }[];
+
   metadata: {
     strength: number;
     volume_confluence?: boolean;

@@ -1,0 +1,585 @@
+[
+  {
+    "chunk_id": "chunk_51",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "doesn't want to jeopardize them"
+        ],
+        "narrative_roles": [
+          "PRESERVATION_OF_CAPITAL",
+          "DISCIPLINE",
+          "CAUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_OBJECTIVES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "February profit goals",
+          "specific objectives for the week, day, and month",
+          "targeting 20%",
+          "20% monthly is a goal"
+        ],
+        "narrative_roles": [
+          "GOAL_SETTING",
+          "PERFORMANCE_MEASUREMENT",
+          "GUIDANCE_FOR_TRADING_DECISIONS"
+        ],
+        "temporal_tags": [
+          "February",
+          "week",
+          "day",
+          "month"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITIONS_ASSESSMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CURRENT MARKET CONDITIONS",
+          "heightened volatility and uncertainty"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "ADAPTIVE_TRADING",
+          "DECISION_MAKING_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CURRENT MARKET CONDITIONS AND RISK MANAGEMENT IN LIVE TRADING",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_52",
+    "concepts": [
+      {
+        "canonical": "PREMATURE_LIVE_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "rushing into live trading",
+          "you are not ready"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_PITFALL",
+          "TRADER_DEVELOPMENT_FAILURE",
+          "RISK_MANAGEMENT_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LACK_OF_PROPER_PREPARATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "without real backtesting",
+          "lack of time invested in backtesting and forward testing"
+        ],
+        "narrative_roles": [
+          "TRADER_DEVELOPMENT_STAGE_CRITICAL_FAILURE",
+          "SKILL_ACQUISITION_DEFICIENCY",
+          "MODEL_VALIDATION_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ADVERSE_TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fear",
+          "Nervousness and anxiety in trading",
+          "'tug of war'",
+          "'butterfly feeling'",
+          "can't relax while trading"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_PITFALL",
+          "PERFORMANCE_DEGRADATION",
+          "EMOTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PERIL OF RUSHING INTO LIVE TRADING",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_53",
+    "concepts": [
+      {
+        "canonical": "DEMO_ACCOUNT_UTILIZATION",
+        "confidence": 1,
+        "surface_terms": [
+          "demo account",
+          "UTILIZING DEMO ACCOUNTS",
+          "demo account to demonstrate principles",
+          "a demo account just as they would in a live account"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_TOOL",
+          "RISK_MANAGEMENT",
+          "CONCEPT_VALIDATION",
+          "COMPLIANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "manage personal risk",
+          "monetary risk"
+        ],
+        "narrative_roles": [
+          "PRESERVATION_OF_CAPITAL",
+          "EDUCATOR_PROTECTION",
+          "PRUDENT_PRACTICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "READING_THE_TAPE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reading the tape"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "SKILL_MAINTENANCE",
+          "CONTINUOUS_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNCERTAIN_MARKET_CONDITIONS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "uncertain market conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "ADAPTIVE_STRATEGY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING DEMO ACCOUNTS FOR TEACHING AND RISK MANAGEMENT",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_54",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "RETRACEMENT_TARGET",
+          "IMBALANCE_FILL",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "up-closed candle (its low or open)"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'magnet'",
+          "'draw on liquidity'",
+          "near-term bullish objective"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_AREA",
+          "LIQUIDITY_HUNT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING NEAR-TERM BULLISH OBJECTIVES",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_55",
+    "concepts": [
+      {
+        "canonical": "MARKET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move 'in sympathy' with ES",
+          "'all boats rise in high tide'",
+          "if one index is strong, others tend to follow"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_DYNAMICS_OBSERVATION",
+          "CONFIRMATION_BIAS",
+          "RELATIVE_STRENGTH/WEAKNESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ AND E-MINI S&P",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_56",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down-closed candles",
+          "act as support",
+          "should not be violated"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "REACCUMULATION_ZONE",
+          "ENTRY_POINT_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "up-closed candles",
+          "act as resistance",
+          "should not be breached"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "REDISTRIBUTION_ZONE",
+          "ENTRY_POINT_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Price retraces down into these candles",
+          "when price retraces"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_FOR_ENTRY",
+          "TESTING_SUPPORT/RESISTANCE",
+          "PSYCHOLOGICAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_BEHAVIOR_AND_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "New traders often get scared and exit profitable trades prematurely due to uncertainty",
+          "lacking the experience to trust the model"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_PITFALL",
+          "LACK_OF_CONVICTION",
+          "RISK_MANAGEMENT_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING BULLISH ORDER BLOCKS AND PRICE ACTION RULES",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_57",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down-closed candle, specifically its opening price"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An intermediate term low (a low with a higher low on both sides)"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "POTENTIAL_LIQUIDITY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE",
+          "overall market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "above previous highs"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME",
+        "confidence": 0.8,
+        "surface_terms": [
+          "TIME"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADING_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTING TRADES BASED ON MARKET STRUCTURE AND TIME",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_58",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGH PROBABILITY BULLISH ORDER BLOCKS",
+          "high-probability bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ENTRY_CONFIRMATION",
+          "TREND_CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "RETAIL_TRAP_LOCATION",
+          "LIQUIDITY_ENGINEERING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance (fair value gap)"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "ORDER_BLOCK_CONFIRMATION",
+          "ENTRY_CONFIRMATION_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY BULLISH ORDER BLOCKS",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_59",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "advanced market structure"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_CONCEPT",
+          "EDUCATIONAL_THEME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEMO ACCOUNT PRECISION AND LOGIC",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_60",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCIPLINE, GOAL SETTING, AND RESPONSIBILITY",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_61",
+    "concepts": [
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price action",
+          "it repeats constantly"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FOUNDATION",
+          "LEARNING_METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "losses are guaranteed",
+          "Good traders take losses"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "MINDSET_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "regain equity quickly"
+        ],
+        "narrative_roles": [
+          "EQUITY_PROTECTION",
+          "SUSTAINABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "A LIFELONG SKILL FOR FINANCIAL FREEDOM",
+      "source_file": "2022 ICT Mentorship Episode 13_Handbook.chunks.json"
+    }
+  }
+]

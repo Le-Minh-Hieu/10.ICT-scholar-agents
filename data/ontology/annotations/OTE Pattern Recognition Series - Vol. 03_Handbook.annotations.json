@@ -1,0 +1,275 @@
+[
+  {
+    "chunk_id": "chunk_4097",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "larger daily optimal trade entry",
+          "79% retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_SETUP",
+          "CONTEXT_BUILDING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY TARGETS",
+          "targeting liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing low, a swing high, and a retracement, indicating price is moving higher"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "PRECURSOR_TO_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DAILY CHART CONTEXT",
+          "larger daily optimal trade entry"
+        ],
+        "narrative_roles": [
+          "CONTEXT_BUILDING",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CHART CONTEXT AND LIQUIDITY TARGETS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 03_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4098",
+    "concepts": [
+      {
+        "canonical": "BIG_FIGURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "big figure",
+          "big figure of 2900",
+          "2900"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE",
+          "PSYCHOLOGICAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sweeps a big figure",
+          "trades into or sweeps a big figure"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADABLE_BOUNCE_RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "tradable bounce",
+          "retracement",
+          "quick market snaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_OPPORTUNITY",
+          "PROFIT_TAKING",
+          "SCALPING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUTURES_MARKET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "futures contract",
+          "handles"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "INSTRUMENT_SPECIFICITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "New York local time"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "SESSION_TIMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "designated time window is from 8:30 AM to 11:00 AM New York local time",
+          "static timeframe"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TRADING_WINDOW",
+          "MARKET_TIMING",
+          "ENTRY_OPTIMIZATION"
+        ],
+        "temporal_tags": [
+          "8:30_AM_NY",
+          "11:00_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DAILY_OBSERVED_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "observed pattern forms daily",
+          "static timeframe is consistent"
+        ],
+        "narrative_roles": [
+          "STRATEGY_RELIABILITY",
+          "RECURRING_OPPORTUNITY",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BIG FIGURE SIGNIFICANCE AND NEW YORK SESSION WINDOW",
+      "source_file": "OTE Pattern Recognition Series - Vol. 03_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4099",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE",
+          "'sweet spot' for optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_IDENTIFICATION",
+          "HIGH_PROBABILITY_AREA_IDENTIFICATION",
+          "RETRACEMENT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci tool",
+          "appropriate range",
+          "70.5 level"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "ENTRY_CONFIRMATION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_AM_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "New York session time window",
+          "8:30 AM to 11:00 AM New York local time"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "11:00 AM",
+          "New York local time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_LEVEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "2900 big figure"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "POTENTIAL_TURNING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING FIBONACCI FOR OTE IN NEW YORK SESSION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 03_Handbook.chunks.json"
+    }
+  }
+]

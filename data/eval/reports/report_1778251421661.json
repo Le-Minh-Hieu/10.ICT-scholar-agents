@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-05-08T14:43:41.660Z",
+  "summary": {
+    "precision_at_5": 0.16,
+    "ndcg_at_5": 0.17375898449753163,
+    "concept_alignment_rate": 1,
+    "session_accuracy": 0,
+    "rerank_delta": 0.04
+  },
+  "details": [
+    {
+      "query_id": "ICT_EVAL_001",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.21398626473452756,
+        "concepts_matched": [
+          "FAIR_VALUE_GAP"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_002",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_003",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP",
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_004",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_005",
+      "passed": true,
+      "metrics": {
+        "p5": 0.6,
+        "ndcg5": 0.6548086577531307,
+        "concepts_matched": [
+          "DAILY_BIAS"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": []
+      }
+    }
+  ],
+  "drift_flags": []
+}

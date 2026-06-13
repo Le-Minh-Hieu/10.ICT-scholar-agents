@@ -1,0 +1,764 @@
+[
+  {
+    "chunk_id": "chunk_909",
+    "concepts": [
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY RANGE EXPANSION",
+          "range expansion"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_OBJECTIVE",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_DELIVERY_OBJECTIVE"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "WEEKLY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY RANGE EXPANSION AND PRICE DELIVERY OBJECTIVES",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_910",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "An old down-close candle"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "INSTITUTIONAL_FOOTPRINT",
+          "SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "an old high"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fills the fair value Gap",
+          "rebalances the fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "TARGET_ACHIEVED",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "USD/CAD WEEKLY CHART ANALYSIS",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_911",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DEFINING THE WEEKLY OPENING PRICE FOR TRADING",
+          "opening price is a critical reference",
+          "Sunday's or Monday's midnight New York time opening price",
+          "Tuesday's opening price",
+          "4:00 AM New York time"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "BIAS_CONFIRMATION",
+          "TIMING_MECHANISM",
+          "DEFINITION_OF_ANCHOR"
+        ],
+        "temporal_tags": [
+          "Sunday",
+          "Monday",
+          "midnight New York time",
+          "Tuesday",
+          "4:00 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "typically creates the higher low of the week for bullish scenarios"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "BIAS_CONFIRMATION",
+          "MARKET_STRUCTURE_OBSERVATION",
+          "EXPECTED_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE WEEKLY OPENING PRICE FOR TRADING",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_912",
+    "concepts": [
+      {
+        "canonical": "BULLISH_TRADE_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ENTRY AND EXIT STRATEGY",
+          "When bullish, the strategy involves buying"
+        ],
+        "narrative_roles": [
+          "ENTRY_PLANNING",
+          "TRADE_STRATEGY_OVERVIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EARLY_NY_OPEN_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Tuesday's 4:00 AM New York time opening price",
+          "Tuesday's opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_ANCHOR_PRICE"
+        ],
+        "temporal_tags": [
+          "Tuesday's 4:00 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array below Tuesday's opening price"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short term swing low"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "PRICE_ACTION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "50-pip protective stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_HOLDING_PERIOD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The trade is held for an expansion on the week",
+          "minimum objective to hold until Thursday's New York open",
+          "This timeframe (Tuesday to Thursday)"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "TARGET_SETTING"
+        ],
+        "temporal_tags": [
+          "Thursday's New York open",
+          "Tuesday to Thursday"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "WEEKLY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bulk of the weekly range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PROFIT_POTENTIAL"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "TRADING_HOURS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion on the week"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT_EXPECTATION",
+          "PROFIT_DRIVER"
+        ],
+        "temporal_tags": [
+          "on the week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ENTRY AND EXIT STRATEGY FOR TUESDAY'S OPEN",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_913",
+    "concepts": [
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BULLISH TRADING PATTERN",
+          "specific pattern",
+          "This model"
+        ],
+        "narrative_roles": [
+          "SETUP",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "belief that price should go higher"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly chart",
+          "aligning with the belief",
+          "intraday perspective for Tuesday"
+        ],
+        "narrative_roles": [
+          "BIAS_GENERATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFERENCE_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "4:00 AM candle (Tuesday's opening price)",
+          "that price"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [
+          "4:00 AM",
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy under that price"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DISCOUNT_ENTRY",
+          "EXECUTION_STRATEGY"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXIT_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Hold the trade until Thursday's New York open",
+          "until stopped out",
+          "50-pip protective stop loss"
+        ],
+        "narrative_roles": [
+          "TAKE_PROFIT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Thursday"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH TRADING PATTERN AND RULES",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_914",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "DISCOUNT_ARRAY_IDENTIFICATION",
+          "DRAW_ON_LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_AREA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low"
+        ],
+        "narrative_roles": [
+          "DISCOUNT_ARRAY_IDENTIFICATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "DISCOUNT_ARRAY_IDENTIFICATION",
+          "DRAW_ON_LIQUIDITY_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "'Power of Three'"
+        ],
+        "narrative_roles": [
+          "MACRO_STRUCTURAL_MODEL",
+          "RANGE_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rallies above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Tuesday 4:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TARGET_TIME_BASED",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Thursday's New York open as the first objective",
+          "minimum objective for time and price confluence",
+          "Thursday's New York open"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TIME_BASED_EXIT"
+        ],
+        "temporal_tags": [
+          "Thursday NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RANGE_CAPTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "capture the bulk or the largest portion of the weekly range"
+        ],
+        "narrative_roles": [
+          "PROFIT_STRATEGY",
+          "RANGE_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "Tuesday",
+          "Thursday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH TRADING PATTERN AND LOGIC",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_915",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly range",
+          "the range within the weekly range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CONTEXT",
+          "RANGE_PROJECTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Capturing Monday's low"
+        ],
+        "narrative_roles": [
+          "STOP_HUNT",
+          "LIQUIDITY_INDUCEMENT",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "Monday's low"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_PRICE_THEORY",
+        "confidence": 1,
+        "surface_terms": [
+          "minimum objective for time and price theory"
+        ],
+        "narrative_roles": [
+          "TARGET_SETTING",
+          "TRADE_MANAGEMENT",
+          "MARKET_STRUCTURE_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "Tuesday's 4:00 AM",
+          "Thursday's New York open"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "expansion"
+        ],
+        "narrative_roles": [
+          "TREND_PHASE",
+          "MOMENTUM_CONFIRMATION",
+          "PROFIT_RUN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly candle",
+          "1-hour chart",
+          "15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ENTRY_TIMING",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE_DEVELOPMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "strong up-close on Tuesdays"
+        ],
+        "narrative_roles": [
+          "WEEKLY_PROFILE_PROJECTION",
+          "EXPECTED_BEHAVIOR",
+          "TIMING_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "Tuesdays"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MODEL LOGIC, HOMEWORK, AND TIMEFRAMES",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_916",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "SEASONAL TENDENCIES",
+          "seasonal tendencies",
+          "seasonally expected",
+          "weaker seasonal tendency"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "February 2019"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOLLAR_INDEX",
+        "confidence": 1,
+        "surface_terms": [
+          "DOLLAR INDEX",
+          "dollar index",
+          "dollar"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAYS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "significant discount arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_IDENTIFICATION",
+          "VALUE_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.8,
+        "surface_terms": [
+          "target",
+          "an objective for price to trade back up into",
+          "that level"
+        ],
+        "narrative_roles": [
+          "PRICE_OBJECTIVE",
+          "REACTION_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "REVERSALS",
+          "potential reversal"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_CHANGE",
+          "PROFIT_TAKING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEASONAL TENDENCIES AND DOLLAR INDEX REVERSALS",
+      "source_file": "ICT Charter Price Action Model 2 Amplified Lecture_Handbook.chunks.json"
+    }
+  }
+]

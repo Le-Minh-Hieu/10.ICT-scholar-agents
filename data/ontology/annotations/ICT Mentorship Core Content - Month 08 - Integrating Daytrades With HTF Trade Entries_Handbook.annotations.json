@@ -1,0 +1,371 @@
+[
+  {
+    "chunk_id": "chunk_3028",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INTEGRATING DAY TRADES WITH HIGHER TIME FRAME TRADE ENTRIES",
+          "integrating day trades with higher time frame trade entries",
+          "ICT day trading model"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY",
+          "TRADE_PLANNING",
+          "ENTRY_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "April 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HIGHER TIME FRAME",
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIME_FRAME",
+        "confidence": 0.85,
+        "surface_terms": [
+          "DAY TRADES",
+          "day trades"
+        ],
+        "narrative_roles": [
+          "ENTRY_EXECUTION",
+          "FINE_TUNING_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTEGRATING DAY TRADES WITH HIGHER TIME FRAME TRADE ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3029",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "A PERSONAL SOLUTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3030",
+    "concepts": [
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily range"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRUE_DAY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "'True Day Open'",
+          "'True Day' opening price",
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "0 GMT",
+          "midnight New York candle"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "BIAS_CONFIRMATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small protractionary moves",
+          "up on down days",
+          "down before an up close"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING THE DAILY RANGE AND TRUE DAY OPENS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3031",
+    "concepts": [
+      {
+        "canonical": "DAILY_OPEN_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening price",
+          "the open",
+          "little hyphenated dash",
+          "opening hashtag tick"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ANCHOR_FOR_DAILY_ANALYSIS",
+          "RANGE_PROJECTION_ANCHOR"
+        ],
+        "temporal_tags": [
+          "0 GMT",
+          "daily candles or bars"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DEVIATION_FROM_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "how much lower will it go from the opening",
+          "how much higher will it go than the opening",
+          "how much lower/higher from the open"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "PREDICTIVE_ANALYSIS",
+          "DAILY_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish day",
+          "bearish day",
+          "up-close day",
+          "lower close"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_FORECAST",
+          "TRADE_CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE 'HOW MUCH LOWER/HIGHER' FROM THE OPEN",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3032",
+    "concepts": [
+      {
+        "canonical": "PROTRACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "protraction",
+          "protractionary phase"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Central Bank Dealers Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_ENGINEERING_TOOL",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [
+          "0 GMT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "be a buyer at 0 GMT",
+          "buy directly at 0 GMT",
+          "primary focus for a bullish scenario is to be a buyer at 0 GMT",
+          "Initial Entry Strategy"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_EXECUTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "0 GMT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [
+          "0 GMT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-day Average Daily Range",
+          "ADR"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_TOOL",
+          "VOLATILITY_MEASURE",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING PROTRACTION AND INITIAL ENTRY STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3033",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS",
+          "90 to 100 pip stop",
+          "90-100 pip stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIME FRAME TRADES",
+          "higher time frame trade entries",
+          "higher time frame analysis"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FRAMEWORK",
+          "TRADE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "day trading concepts",
+          "minute-risk day trading"
+        ],
+        "narrative_roles": [
+          "STRATEGY_CONTRAST",
+          "APPROACH_DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "EXIT_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS FOR HIGHER TIME FRAME TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Integrating Daytrades With HTF Trade Entries_Handbook.chunks.json"
+    }
+  }
+]

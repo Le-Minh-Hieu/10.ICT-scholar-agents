@@ -1,0 +1,1272 @@
+[
+  {
+    "chunk_id": "chunk_2865",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE MILLION DOLLAR SWING SETUP FRAMEWORK",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2866",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Intermarket Analysis phase",
+          "Both groups of markets (Interest Rates/Currencies AND Commodities/Stocks) must show trending conditions",
+          "at least one trending market from each group",
+          "Interest Rate markets trending and Stock markets trending",
+          "Commodities trending and Currencies trending"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_BIAS_CONFIRMATION",
+          "PRE_TRADE_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REGIME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trending conditions",
+          "swing trade conditions",
+          "short-term or day trades"
+        ],
+        "narrative_roles": [
+          "MARKET_IDENTIFICATION",
+          "STRATEGY_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_IDENTIFICATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trending",
+          "trending conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_IDENTIFICATION",
+          "PRE_TRADE_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MAJOR MARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2867",
+    "concepts": [
+      {
+        "canonical": "COT_COMMERCIAL_POSITIONING_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "COT (Commitment of",
+          "Commercials buying or selling currently",
+          "zero-basis line",
+          "Commercials are lessening their short positions",
+          "below the zero line on the net Trader position graph",
+          "net long (if above the zero line)",
+          "hedging program",
+          "12-month net position range",
+          "moved to a buying side"
+        ],
+        "narrative_roles": [
+          "MACRO_STRUCTURAL_BIAS",
+          "INSTITUTIONAL_FOOTPRINT",
+          "PRE_TRADE_ANALYSIS",
+          "TRADE_TYPE_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "12-month net position range",
+          "currently"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADE_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing trade setups",
+          "wait for swing trading conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE_SELECTION",
+          "ENTRY_CRITERIA_MACRO"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_TRADE_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term or day trades",
+          "Consider short-term or day trades for now"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE_SELECTION"
+        ],
+        "temporal_tags": [
+          "for now"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "(COT HEDGING)",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2868",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS",
+          "bullish foreign currency/metal analysis",
+          "Is the Dollar Index supporting bearish price action for the US Dollar?",
+          "For a bullish outlook on foreign currencies or metals, the Dollar Index should be indicating a tendency to trade lower, signifying bearish prices (SMT Divergence against the metal or foreign currency)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_CONFIRMATION_FILTER",
+          "DIRECTIONAL_BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOLLAR_INDEX_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Dollar Index supporting bearish price action for the US Dollar",
+          "Dollar Index should be indicating a tendency to trade lower",
+          "bearish prices"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "INTERMARKET_CORRELATION",
+          "TRADE_CONFIRMATION_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "SMT Divergence",
+          "SMT Divergence against the metal or foreign currency"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "INTERMARKET_CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_TYPE_CLASSIFICATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "short-term or day trades",
+          "swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMODITY_FILTER",
+        "confidence": 0.7,
+        "surface_terms": [
+          "Commodity Filter process"
+        ],
+        "narrative_roles": [
+          "TRADE_CONFIRMATION_FILTER",
+          "ASSET_SPECIFIC_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2869",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "PRE_TRADE_CHECKLIST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "open interest dropping",
+          "dropped 10-15% or more",
+          "Open interest data"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "FILTERING_TRADES",
+          "SMART_MONEY_TRACKING",
+          "PRE_TRADE_CHECKLIST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_SHORT_COVERING",
+        "confidence": 1,
+        "surface_terms": [
+          "commercial short covering"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_TRACKING",
+          "BIAS_CONFIRMATION",
+          "ENTRY_CRITERIA_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADE_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish foreign currency/metal setup",
+          "swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE_IDENTIFICATION",
+          "BIAS_APPLICATION",
+          "TRADE_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Top Down Analysis process"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_STEP",
+          "SEQUENTIAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2870",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT Hedging program",
+          "commercial traders' net position range",
+          "Commercial Traders buying or selling currently?",
+          "net short position",
+          "net long"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SMART_MONEY_ANALYSIS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "last 12 months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish swing trade setups",
+          "If 'selling' (or holding a net short position)",
+          "If 'buying' (or net long)"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_SELECTION_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_TIMEFRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing trade setups",
+          "short-term or day trades",
+          "wait for swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CORRELATION_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Correlation Analysis process"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2871",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS",
+          "Is the Dollar Index supporting bullish price action for the US Dollar?"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING",
+          "CONFLUENCE",
+          "TRADE_SELECTION_FILTERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish foreign currency/metal analysis",
+          "bullish price action for the US Dollar"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_TYPE_SELECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term or day trades",
+          "swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY_ADJUSTMENT",
+          "RISK_MANAGEMENT_ADJUSTMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FILTER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commodity Filter process"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_FILTERING",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2872",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FILTER",
+          "BIAS_CONFIRMATION",
+          "TRADE_PLANNING_STEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_CONTINUATION_BEARISH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Commodities dropping lower",
+          "breaking old lows"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_IDENTIFICATION",
+          "INTERMARKET_CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_REJECTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejecting old highs"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_IDENTIFICATION",
+          "INTERMARKET_CORRELATION",
+          "MARKET_STRUCTURE_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST_FILTER",
+        "confidence": 1,
+        "surface_terms": [
+          "Open Interest Filter process"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION_FILTER",
+          "BIAS_CONFIRMATION",
+          "TRADE_PLANNING_STEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADE_CONDITIONS",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING_CRITERIA",
+          "MARKET_CONDITION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term or day trades"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING_ADJUSTMENT",
+          "RISK_MANAGEMENT_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2873",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "open interest rising, or has it increased 10-15% or more"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONFLUENCE",
+          "SMART_MONEY_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 1,
+        "surface_terms": [
+          "commercial short selling"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FLOW",
+          "MACRO_BIAS",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_SETUP_FILTER",
+        "confidence": 1,
+        "surface_terms": [
+          "final filter for a bearish foreign currency/metal setup"
+        ],
+        "narrative_roles": [
+          "TRADE_VALIDATION",
+          "ENTRY_CONFIRMATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Top Down Analysis process"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_TYPE_SELECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term or day trades",
+          "swing trade conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2875",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "contrary Monthly, Weekly, Daily Discount Arrays",
+          "Discount Arrays",
+          "intended Discount Array objective"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "Monthly",
+          "Weekly",
+          "Daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "FIB extension confluences"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "TARGET_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Leave stop loss from initial placement",
+          "protective stop loss to break even",
+          "trail stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "take something off in profit",
+          "Take full position off"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_IN_OR_ADDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "new shorting opportunities to add back"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "make a run for buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RISK_AWARENESS",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_REVIEW_AND_REENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reconsider the original reasons for the trade",
+          "re-enter at new Monthly, Weekly"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "STRATEGY_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "Monthly",
+          "Weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "seasonal tendency",
+          "strong rally for gold",
+          "Continuing from January into February, and potentially early March"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "MACRO_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "January",
+          "February",
+          "March"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL TRADE MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2876",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commercials (red line on COT chart)",
+          "Commercials' activity",
+          "commercial buying condition",
+          "aggressive hedging",
+          "lessening of shorts",
+          "commercial short Dollar Index"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "SENTIMENT_ANALYSIS",
+          "TRADE_BIAS_CONFIRMATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "DECEMBER_2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WILLIAMS_PERCENT_R",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Williams Percent R",
+          "oversold condition"
+        ],
+        "narrative_roles": [
+          "SENTIMENT_ANALYSIS",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "major support level (around 1142)"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "Gold was observed failing to make lower lows at a major support level (around 1142). Simultaneously, the Dollar Index showed a willingness to go higher"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "MID_DECEMBER",
+          "JANUARY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Further intermarket analysis",
+          "CRB (Commodity Research Bureau) Index",
+          "Open Interest (purple line)",
+          "Dollar Index Confirmation"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "TRADE_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_OBSERVATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "failing to make lower lows"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL TRADE MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2877",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly bullish order block",
+          "the last down candle before the up move"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "DEMAND_ZONE",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [
+          "November 2015",
+          "2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly PD array"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "potential equilibrium point",
+          "equilibrium",
+          "midway point or equilibrium for this range"
+        ],
+        "narrative_roles": [
+          "MIDPOINT_REFERENCE",
+          "DECISION_POINT"
+        ],
+        "temporal_tags": [
+          "May 1st, 2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "take out sell stops below the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL TRADE MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2878",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "initial stop run",
+          "another stop run",
+          "high formed at the midway point...is taken out",
+          "stop run on the lows",
+          "last stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_SEQUENCE",
+          "TRADE_SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "last down candle before the up move",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PD_ARRAY_MEMBER",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RETRACEMENT",
+          "Price retraced",
+          "retracing"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_SEQUENCE",
+          "CONSOLIDATION",
+          "ENTRY_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FIBONACCI CONFLUENCE",
+          "Fibonacci projections were applied",
+          "127% and 162%",
+          "confluence of Fibonacci",
+          "This projection precisely converged"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_FACTOR",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily PD array"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "SUPPORT_RESISTANCE",
+          "RANGE_DEFINITION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midway point",
+          "trading through equilibrium",
+          "retest the equilibrium high"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ACTION_SEQUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OBJECTIVE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "final objective",
+          "1255-1260",
+          "the objective",
+          "final leg to the objective",
+          "1260 level",
+          "final run to the objective"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "END_OF_MOVE",
+          "PLANNING_PARAMETER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL TRADE MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2879",
+    "concepts": [
+      {
+        "canonical": "FRACTAL_MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fractal nature of price swings"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "PATTERN_RECOGNITION",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL TRADE MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2880",
+    "concepts": [
+      {
+        "canonical": "TRADING_METHODOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SYSTEMATIC, PERMISSION-BASED APPROACH",
+          "systematic process",
+          "set of permissions",
+          "This system dictates precise actions"
+        ],
+        "narrative_roles": [
+          "DECISION_FRAMEWORK",
+          "RULE_BASED_TRADING",
+          "STRUCTURAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "adjust stop losses",
+          "when to leave them"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_METHODOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "specific entry methods",
+          "buying/selling on a stop or limit"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_SETUP_IDENTIFICATION",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SYSTEMATIC, PERMISSION-BASED APPROACH",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2881",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seasonally poised to move higher or lower",
+          "seasonal focus"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "TRADE_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERTRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIMITING OVERTRADING",
+          "making overtrading"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_TRAP",
+          "RISK_MANAGEMENT_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STYLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing trades",
+          "short-term and day trades",
+          "more frequent trading"
+        ],
+        "narrative_roles": [
+          "STRATEGY_APPLICATION",
+          "TRADER_PROFILE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "most solid swing trades",
+          "high-probability opportunities",
+          "rule based answer"
+        ],
+        "narrative_roles": [
+          "TRADE_FILTER",
+          "ENTRY_STRATEGY",
+          "SYSTEMATIC_APPROACH"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIMITING OVERTRADING AND SEASONAL FOCUS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2882",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PATIENCE, CONVICTION, AND VERIFICATION",
+      "source_file": "ICT Mentorship Core Content - Month 06 - The Million Dollar Swing Setup_Handbook.chunks.json"
+    }
+  }
+]

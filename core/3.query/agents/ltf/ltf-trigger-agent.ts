@@ -92,6 +92,16 @@ export async function ltfTriggerAgent(input: LTFTriggerInput, minimal_context: a
       pushImage(parts, input.eurusd.m1!, "LTF-EURUSD-M1", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT execution trigger and entry readiness on the low timeframes (M15, M5, M1).
+
+Focus strictly on evaluating the execution readiness and confluence of the trade entry, synthesizing the current market state rather than rediscovering raw building blocks:
+1. **Multi-Timeframe Alignment**: Evaluate if the low-timeframe evidence aligns with intermediate (ITF) narrative and high timeframe (HTF) bias. (TRIGGER)
+2. **Liquidity Objective & Sweeps**: Observe if key micro liquidity pools (sweeps/inducements) have been hit, confirming the stop hunt has occurred. (TRIGGER)
+3. **Low-Timeframe Structural Confirmation**: Confirm if a market structure shift (MSS) or change in state of delivery (CISD) has occurred as a consequence of the sweep. (TRIGGER)
+4. **Favorable Range Location**: Verify if the entry trigger is occurring in a highly favorable Premium/Discount zone (deep discount for buy, deep premium for sell) relative to the active dealing range. (TRIGGER)
+5. **Execution Pattern Validation**: Verify if there is a valid execution pattern (e.g. displacement, reaction off FVG/OB/Breaker) confirming the entry trigger. (TRIGGER)
+
+Output your observations as objective synthesis points assessing execution readiness and confluence. Do NOT make trade recommendations.`,
     schema: ltfTriggerOutputSchema,
     mapOutput: (result) => {
       return {

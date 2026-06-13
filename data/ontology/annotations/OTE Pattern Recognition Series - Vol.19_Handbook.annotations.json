@@ -1,0 +1,154 @@
+[
+  {
+    "chunk_id": "chunk_4150",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK SESSION",
+          "New York session"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "8:30_AM_NY",
+          "11:00_AM_NY"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY",
+          "optimal trade entries",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "10:25_AM_NY"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop-loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bias"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "broke a high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OPTIMAL TRADE ENTRY IN THE NEW YORK SESSION",
+      "source_file": "OTE Pattern Recognition Series - Vol.19_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4151",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PROFIT TARGETS"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY",
+          "PERFORMANCE_EVALUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_TARGETS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one standard deviation",
+          "1.5 standard deviation",
+          "Two standard deviations",
+          "old high"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING_TOOL",
+          "MEASUREMENT",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TARGETS AND SERIES CONCLUSION",
+      "source_file": "OTE Pattern Recognition Series - Vol.19_Handbook.chunks.json"
+    }
+  }
+]

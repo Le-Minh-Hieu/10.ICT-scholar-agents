@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-05-08T16:44:20.455Z",
+  "summary": {
+    "precision_at_5": 1,
+    "ndcg_at_5": 1,
+    "concept_alignment_rate": 1,
+    "session_accuracy": 0,
+    "rerank_delta": 0
+  },
+  "details": [
+    {
+      "query_id": "H-001",
+      "passed": true,
+      "metrics": {
+        "p5": 1,
+        "ndcg5": 1,
+        "concepts_matched": [],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "H-002",
+      "passed": true,
+      "metrics": {
+        "p5": 1,
+        "ndcg5": 1,
+        "concepts_matched": [],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "H-003",
+      "passed": true,
+      "metrics": {
+        "p5": 1,
+        "ndcg5": 1,
+        "concepts_matched": [],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    }
+  ],
+  "drift_flags": []
+}

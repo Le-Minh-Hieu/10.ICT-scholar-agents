@@ -1,0 +1,932 @@
+[
+  {
+    "chunk_id": "chunk_2533",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_DRAW",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly and or weekly charts should suggest institutional order flow"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_CLOSURE_VALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart must close the candle with a down close",
+          "It is not valid while the daily chart candle is trading and or forming"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL CONDITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2534",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish candle's close",
+          "close of a daily candle that's down close",
+          "buy limit order"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY_CLOSE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "market is bullish",
+          "expecting a higher price move",
+          "primarily bullish market condition"
+        ],
+        "narrative_roles": [
+          "CONTEXT_CONFIRMATION",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "undervalued"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUY LIMIT PLACEMENT AND MARKET CONTEXT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2535",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE BREAKS",
+          "market has already shown the willingness to have a market"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_IDENTIFICATION",
+          "STRATEGY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REVERSAL_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "turning points",
+          "big turning points"
+        ],
+        "narrative_roles": [
+          "PRICE_EXTREMUM",
+          "POTENTIAL_REVERSAL_ZONE",
+          "LIQUIDITY_POOL_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEVERAGING MARKET STRUCTURE BREAKS FOR LONG-TERM ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2536",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_MAKER_INTENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly and or weekly charts",
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "BIAS_CONFIRMATION",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLESTICK_CLOSE_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "must close the candle with an up close",
+          "It is not valid while the daily chart candle is trading and or forming."
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "VALIDATION_CRITERIA",
+          "SETUP_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "When selling with limit orders",
+          "institutional order flow will be seeking PD Arrays below the daily market price"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION_DETERMINATION",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL CONDITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2537",
+    "concepts": [
+      {
+        "canonical": "LIMIT_ORDER_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL LIMIT PLACEMENT",
+          "The sell limit is going to be placed",
+          "sell limit order",
+          "right there at the candle's close",
+          "bullish candle's close on the daily chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_TECHNIQUE",
+          "ORDER_PLACEMENT"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "overvalued or overbought condition",
+          "selling short in an overvalued or overbought condition"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_IDENTIFICATION",
+          "OPTIMAL_ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market that's predisposed to go lower"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 1,
+        "surface_terms": [
+          "will draw price lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PRICE_MAGNETISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly and or weekly PD Arrays"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL LIMIT PLACEMENT AND MARKET CONTEXT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2538",
+    "concepts": [
+      {
+        "canonical": "DAILY_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "daily PD Array",
+          "PD Arrays on the daily chart"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "CONTEXT_ALIGNMENT",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "REVERSAL_POINT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a gap that it's traded into",
+          "a filled void"
+        ],
+        "narrative_roles": [
+          "REBALANCING_AREA",
+          "ENTRY_REFERENCE",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a trade above a recent high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a retreat back into an old historical low (support broken becomes resistance)"
+        ],
+        "narrative_roles": [
+          "MITIGATION",
+          "REVERSAL_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CRITICAL ALIGNMENT WITH DAILY PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2539",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame monthly and weekly charts pulling price in one direction",
+          "on monthly and weekly, if you're expecting lower prices"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXTUALIZATION",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish PD Arrays"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET_AREA",
+          "BIAS_CONFIRMATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AREA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term premium",
+          "above that candle's close"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION",
+          "RISK_MITIGATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIMIT_ORDER_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Selling short on a limit"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY ENTRIES AND THE JUDAS SWING",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2540",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEKLY BULLISH ORDER BLOCK"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "ENTRY_ANCHOR",
+          "LONG_TERM_REFERENCE",
+          "LIQUIDITY_HOLD"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "DAILY ENTRIES"
+        ],
+        "narrative_roles": [
+          "ENTRY_FRAMEWORK",
+          "EXECUTION_STRATEGY"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "previous order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REFERENCE_POINT",
+          "LIQUIDITY_ORIGIN"
+        ],
+        "temporal_tags": [
+          "SEPTEMBER"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price retraced back down into it"
+        ],
+        "narrative_roles": [
+          "PULLBACK",
+          "OPPORTUNITY_FOR_ENTRY",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [
+          "SEPTEMBER"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_CANDLE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the down candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "ORDER_BLOCK_DEFINITION",
+          "PRICE_ACTION_ELEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly PD Array"
+        ],
+        "narrative_roles": [
+          "REVERSAL_ZONE",
+          "TARGET_ZONE",
+          "RESISTANCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ATTRACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "where price should be drawn"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY ENTRIES WITHIN THE WEEKLY BULLISH ORDER BLOCK",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2541",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "low formed in September",
+          "particular low"
+        ],
+        "narrative_roles": [
+          "TRADE_ORIGIN",
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "September 2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIMIT_ORDER_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "buying on a limit"
+        ],
+        "narrative_roles": [
+          "ENTRY_TECHNIQUE",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CANDLE_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily candle's close"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_CRITERION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly PD Array"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "LIQUIDITY_POOL",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "LIQUIDITY_POOL",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_PROFIT_METRIC",
+        "confidence": 1,
+        "surface_terms": [
+          "1800 pips"
+        ],
+        "narrative_roles": [
+          "TRADE_PERFORMANCE_METRIC",
+          "QUANTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "QUANTIFYING THE SEPTEMBER 2016 ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2542",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly PD Array"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly bearish order block"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "limit order below the daily close",
+          "using its close as a buy limit order entry point"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_CLOSE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily close",
+          "down close on the daily chart",
+          "its close"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "QUANTIFYING NOVEMBER 2016 ENTRIES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2544",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame charts",
+          "not hourly or 15-minute charts",
+          "long-term trends",
+          "monthly or weekly level"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FRAMEWORK",
+          "PERSPECTIVE_SHIFT",
+          "TRADE_SELECTION"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium price point"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "VALUE_ASSESSMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "long-term trends with a clear indication to move higher",
+          "opportunities to get positioned without needing to catch the exact high or low",
+          "beyond the equilibrium price point"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_DIRECTION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ABUNDANT OPPORTUNITIES ON HIGHER TIME FRAMES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2545",
+    "concepts": [
+      {
+        "canonical": "LONG_TERM_TRADING_STYLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LONG-TERM TRADING"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE_DEFINITION",
+          "OPPORTUNITY_IDENTIFICATION",
+          "RISK_MANAGEMENT_STRATEGY",
+          "FRAMEWORK_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "TRADE_SETUP_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly and monthly basis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TIME_FRAME_SELECTION",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONG-TERM TRADING FOR SIGNIFICANT PIPS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Limit Order Entry Techniques For Long Term Traders_Handbook.chunks.json"
+    }
+  }
+]

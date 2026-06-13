@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-06-13T08:55:32.670Z",
+  "agentType": "HTF-PDArray-Agent",
+  "currentCallId": "HTF-PDArray-Agent-HTF-PDArray-Agent-1781340841504-20",
+  "prompt": "## ROLE\nYou are an ICT PD Array (Premium/Discount) analysis system.\n\n## TASK\nDetect premium / discount zones using STRICT grounded reasoning. Identify HTF range, equilibrium, and current price position.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere's an analysis of the EURUSD charts based on ICT Premium/Discount (PD) Array observations:\n\n**Current Price:** Approximately 1.15669 (consistent across all provided charts).\n\n**1. HTF Dealing Range Boundaries (Primary Focus)**\n\n*   **Macro Monthly Dealing Range (Long-term Context)**:\n    *   **Swing High (BSL)**: 1.23013 (January 2021 high)\n    *   **Swing Low (SSL)**: 1.01779 (September 2022 low)\n*   **Active Monthly/Weekly/Daily Dealing Range (Most Recent Significant Swings)**:\n    *   **Swing High (BS)**: 1.18492 (July 2023 high)\n    *   **Swing Low (SS)**: 1.14110 (March 2024 low)\n\n**2. Equilibrium Level**\n\n*   **Macro Monthly Equilibrium**: 1.12396 (calculated) / 1.12142 (labeled on charts).\n*   **Active Monthly/Weekly/Daily Equilibrium**: 1.16301 (calculated: (1.18492 + 1.14110) / 2).\n\n**3. Current Price Position**\n\n*   **Relative to Macro Monthly Dealing Range**: Current price (1.15669) is above the Macro Monthly Equilibrium (1.12142). Therefore, it is trading in a **Premium zone** within this larger, long-term context.\n*   **Relative to Active Monthly/Weekly/Daily Dealing Range**: Current price (1.15669) is below the Active Dealing Range Equilibrium (1.16301). Therefore, it is trading in a **Discount zone** within the most recent significant swing.\n\n**4. PD Array Hierarchy (Where is price in the dealing range?)**\n\n*   Considering the **active Monthly/Weekly/Daily dealing range** defined by the 1.18492 high and 1.14110 low, price is currently situated within its **Discount zone**. It is trading below the 50% equilibrium level of 1.16301.\n\n**5. Premium / Discount PD Arrays (Supporting Reference)**\n\n*   **Within the Active Dealing Range's Premium Zone (above 1.16301)**:\n    *   **Daily Fair Value Gap (FVG)**: A notable bearish FVG exists on the Daily chart in the approximate range of 1.1600 - 1.1660. This area represents an inefficiency and could act as resistance if price re-enters the Premium.\n    *   **Daily Order Block (OB)**: A potential bearish Order Block could be identified in the 1.1680 - 1.1720 region on the Daily chart, which marked the origin of the recent significant bearish move.\n*   **Within the Active Dealing Range's Discount Zone (below 1.16301)**:\n    *   Current price (1.15669) is actively trading within this zone.\n    *   The Swing Low (SS) at 1.14110 acts as the deepest discount level, where previous bullish Order Blocks or Fair Value Gaps from the rally that initiated from this low could provide future support.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_1539]\nTRADING INTO THE GAP AND DAILY ORDER BLOCK\nBut we have the gap which we traded up into later in the morning. And this level here is the order block from the daily chart, so let me go back and show you what that is.\n\n[CHUNK_ID:chunk_2850]\nTHE PD ARRAY MATRIX AND CONTEXTUAL FRAMING\nI like to use order blocks in these teachings because to make the videos with every possible scenario it would be ridiculous in terms of length. But you're looking for, in terms of the PD Array Matrix, everything above you. You go in the order that that Matrix shows you. And again, there may not be a void, it may not be a fair value gap, but as you progress through that list from the bottom up for premium PD arrays, and from that list top down for the discount PD arrays, that's the order in which you hunt the current range you're trading in. By using those levels or those arrays on the monthly and weekly charts, it will give you the context of what you're going to be trading off of.\n\n[CHUNK_ID:chunk_215]\nIDENTIFYING THE FAIR VALUE GAP (FVG) AND ENTRY\nSo, in your chart, once you're developing this idea and learning it, you're going to highlight this candle's low, this candle's high, and this right here is what I teach my students as a 'Fair Value Gap'.\n\n[CHUNK_ID:chunk_484]\nFAIR VALUE GAP AND MARKET STRUCTURE SHIFT\nSo we trade down into the order block, we trade down into the BISI, which is a form of Fair Value Gap. It rallies up, consolidates, and then we dive one more time below short-term low, and then we run above this short-term high. That is a shift in market structure while it's in the discount. It left this Fair Value Gap right there. So this Fair Value Gap, I'll take it off so that way you can see it, that one candle right here, that's your Fair Value Gap. Let's add it back. And the way I did that is click on it, highlight it, hit delete key, it takes it off, and then when you want it back, just hold down Control and tap Z. The market ran away about this Fair Value Gap, and I mentioned that I wanted to see price stay above that and it would not go back below.\n\n[CHUNK_ID:chunk_2766]\nDAILY CHART PRICE ACTION AT MONTHLY AND WEEKLY ORDER BLOCKS\nThe price trades up close in this little gap in here, also gives a deep retracement. So in terms of the range between this high and this low, would this high be in the premium or the discount range? Clearly, it's in the premium range. And price also trades to a weekly order block. It's bearish. Price hits it perfectly and trades lower. Price trades up into a weekly order block as well here, sells off. Price trades lower and comes all the way back up to a weekly order block PD array, comes back and retraces and re-attempts one more time. Now notice it's trading through or deeper into a monthly bullish candle, which is a bearish order block. So it's trading up into, and it's also overlaying inside here with a weekly bearish order block's mean threshold.\n\n[CHUNK_ID:chunk_542]\nEXPLAINING THE VOLUME IMBALANCE\nThe market's going to go right into this little area, this little separation right there. Let me let me magnify that. Okay, and I want you to see, so there's the volume imbalance, see that? That candle's body at close, and then next candle open right here. There's no wick; the open is the high. So that's separation right there; that is a volume imbalance. That means that the algorithm has not offered, it has not offered price to the marketplace efficiently between these two price points. So it's kind of like a micro fair value gap. That little area right there, okay, and there you go, micro fair value gap.\n\n## INPUT CONTEXT\nEURUSD (M → W → D) PD Array Context\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Extract Principles, 2. Apply to Chart, 3. Derive Signals, 4. Self-Validation\n- Extract at least 2 unique principles from grounded knowledge\n- MUST include EXACTLY ONE CHUNK_ID per principle\n- If structure unclear → output 'unknown'\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"pd_array_status\": \"premium\" | \"discount\" | \"equilibrium\" | \"unknown\",\n      \"equilibrium\": number,\n      \"range_high\": number,\n      \"range_low\": number,\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning following the mandatory order\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:55:12 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"The determination of whether price is in a premium or discount zone is relative to a defined dealing range's 50% equilibrium level. Prices above equilibrium are considered premium, while prices below are discount, providing crucial context for retracements and price action (chunk_2766).\",\n      \"chunk_id\": \"chunk_2766\"\n    },\n    {\n      \"rule\": \"The PD Array Matrix organizes various Price Delivery (PD) arrays (such as order blocks, fair value gaps, voids) that market participants look for within premium (above equilibrium) or discount (below equilibrium) zones of a dealing range. These arrays offer contextual framing for potential support or resistance levels (chunk_2850).\",\n      \"chunk_id\": \"chunk_2850\"\n    }\n  ],\n  \"pd_array_status\": \"discount\",\n  \"equilibrium\": 1.16301,\n  \"range_high\": 1.18492,\n  \"range_low\": 1.14110,\n  \"confidence\": 1.0,\n  \"references\": [\n    \"chunk_2766\",\n    \"chunk_2850\"\n  ],\n  \"notes\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles:**\\n    *   Principle 1 (from chunk_2766): Price's position relative to the 50% equilibrium of a dealing range dictates if it's in a premium or discount zone.\\n    *   Principle 2 (from chunk_2850): Specific PD Arrays like Fair Value Gaps and Order Blocks are sought within these premium or discount zones for market context.\\n\\n2.  **Apply to Chart (using LIVE MARKET OBSERVATIONS):**\\n    *   We are focusing on the 'Active Monthly/Weekly/Daily Dealing Range' as the primary context, which is defined by the Swing High (BS) at 1.18492 (July 2023) and the Swing Low (SS) at 1.14110 (March 2024).\\n    *   The Equilibrium for this range is calculated as (1.18492 + 1.14110) / 2 = 1.16301.\\n    *   The Current Price is observed at 1.15669.\\n\\n3.  **Derive Signals:**\\n    *   Comparing the Current Price (1.15669) to the Active Dealing Range Equilibrium (1.16301), we observe that 1.15669 < 1.16301.\\n    *   Based on Principle 1 (chunk_2766), since the current price is below the 50% equilibrium level of the active dealing range, it is trading in a **Discount zone**.\\n    *   Principle 2 (chunk_2850) highlights that within this discount zone, we would look for specific discount PD Arrays (e.g., bullish Order Blocks, bullish FVGs) to potentially support price.\\n\\n4.  **Self-Validation:**\\n    *   The calculation of the equilibrium and the comparison with the current price are straightforward and consistent with the provided 'LIVE MARKET OBSERVATIONS'. The determination that the current price is in a 'Discount zone' is directly derived from these values and Principle 1 (chunk_2766), confirming the analysis.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.6677873250987563
+        }
+      ],
+      "createTime": "2026-06-13T08:55:02.426578Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "5hotatKEGp6RqMgPz5uH2A4",
+      "usageMetadata": {
+        "promptTokenCount": 2722,
+        "candidatesTokenCount": 799,
+        "totalTokenCount": 4881,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1948
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 799
+          }
+        ],
+        "thoughtsTokenCount": 1360
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "The determination of whether price is in a premium or discount zone is relative to a defined dealing range's 50% equilibrium level. Prices above equilibrium are considered premium, while prices below are discount, providing crucial context for retracements and price action (chunk_2766).",
+          "chunk_id": "chunk_2766"
+        },
+        {
+          "rule": "The PD Array Matrix organizes various Price Delivery (PD) arrays (such as order blocks, fair value gaps, voids) that market participants look for within premium (above equilibrium) or discount (below equilibrium) zones of a dealing range. These arrays offer contextual framing for potential support or resistance levels (chunk_2850).",
+          "chunk_id": "chunk_2850"
+        }
+      ],
+      "pd_array_status": "discount",
+      "equilibrium": 1.16301,
+      "range_high": 1.18492,
+      "range_low": 1.1411,
+      "confidence": 1,
+      "references": [
+        "chunk_2766",
+        "chunk_2850"
+      ],
+      "notes": "Step-by-step reasoning following the mandatory order:\n\n1.  **Extract Principles:**\n    *   Principle 1 (from chunk_2766): Price's position relative to the 50% equilibrium of a dealing range dictates if it's in a premium or discount zone.\n    *   Principle 2 (from chunk_2850): Specific PD Arrays like Fair Value Gaps and Order Blocks are sought within these premium or discount zones for market context.\n\n2.  **Apply to Chart (using LIVE MARKET OBSERVATIONS):**\n    *   We are focusing on the 'Active Monthly/Weekly/Daily Dealing Range' as the primary context, which is defined by the Swing High (BS) at 1.18492 (July 2023) and the Swing Low (SS) at 1.14110 (March 2024).\n    *   The Equilibrium for this range is calculated as (1.18492 + 1.14110) / 2 = 1.16301.\n    *   The Current Price is observed at 1.15669.\n\n3.  **Derive Signals:**\n    *   Comparing the Current Price (1.15669) to the Active Dealing Range Equilibrium (1.16301), we observe that 1.15669 < 1.16301.\n    *   Based on Principle 1 (chunk_2766), since the current price is below the 50% equilibrium level of the active dealing range, it is trading in a **Discount zone**.\n    *   Principle 2 (chunk_2850) highlights that within this discount zone, we would look for specific discount PD Arrays (e.g., bullish Order Blocks, bullish FVGs) to potentially support price.\n\n4.  **Self-Validation:**\n    *   The calculation of the equilibrium and the comparison with the current price are straightforward and consistent with the provided 'LIVE MARKET OBSERVATIONS'. The determination that the current price is in a 'Discount zone' is directly derived from these values and Principle 1 (chunk_2766), confirming the analysis."
+    },
+    "latency": 33911.56230000034,
+    "telemetry": {
+      "promptTokens": 2722,
+      "completionTokens": 799,
+      "totalTokens": 4881
+    }
+  },
+  "openrouter": {
+    "modelUsed": "nex-agi/nex-n2-pro:free",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Frame the active trading range first, then use the PD Array Matrix to identify premium or discount arrays within that current range; monthly/weekly context should guide the range being traded.",
+          "chunk_id": "chunk_2850"
+        },
+        {
+          "rule": "Within a defined high/low range, price above the range midpoint is premium and price below the range midpoint is discount; PD arrays are then read in that premium/discount context.",
+          "chunk_id": "chunk_2766"
+        }
+      ],
+      "pd_array_status": "discount",
+      "equilibrium": 1.16301,
+      "range_high": 1.18492,
+      "range_low": 1.1411,
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_2850",
+        "CHUNK_ID:chunk_2766"
+      ],
+      "notes": "Mandatory reasoning order: 1) Extract Principles — Principle A: use the PD Array Matrix by framing the current trading range first, then hunt premium/discount arrays from top-down in premium and bottom-up in discount; this supports using the active M/W/D dealing range rather than only the macro monthly range (CHUNK_ID:chunk_2850). Principle B: classify price as premium or discount relative to a defined high/low range, with price trading into premium arrays above equilibrium and discount arrays below equilibrium (CHUNK_ID:chunk_2766). 2) Apply to Chart — For EURUSD M→W→D context, the active most-recent significant dealing range is high 1.18492 and low 1.14110. Equilibrium is (1.18492 + 1.14110) / 2 = 1.16301. Current price is approximately 1.15669. 3) Derive Signals — Current price 1.15669 is below the active range equilibrium 1.16301 and above the active swing low 1.14110, so price is in the discount half of the active M/W/D dealing range. The macro monthly range would place price in premium versus its lower equilibrium, but the active M/W/D range is the operative context for this output. 4) Self-Validation — Structure is clear: range high 1.18492, range low 1.14110, equilibrium 1.16301, current price 1.15669. Since 1.15669 < 1.16301, the correct classification is discount. The nearby daily FVG/OB area near 1.1600–1.1660 is relevant because price is just below/within that premium-transition area, but it does not change the active-range PD classification."
+    },
+    "latency": 11501.014399999753,
+    "telemetry": {
+      "promptTokens": 2357,
+      "completionTokens": 1259,
+      "totalTokens": 3616
+    },
+    "estimatedCost": 0.004874999999999999
+  }
+}

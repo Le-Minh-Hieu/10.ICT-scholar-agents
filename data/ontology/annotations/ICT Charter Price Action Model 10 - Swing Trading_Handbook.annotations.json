@@ -1,0 +1,376 @@
+[
+  {
+    "chunk_id": "chunk_863",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS_PROJECTION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Weekly Range Expansion",
+          "Identifying the likely or most probable direction the next weekly bar or candle will expand in a directional sense",
+          "deriving whether the next week's candle will go up or down"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PREDICTION",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "next weekly bar",
+          "next week's candle"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_OF_WEEK_ANCHOR_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Day of Week",
+          "anchor point to form on a Monday, Tuesday, or Wednesday to frame a trade"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "TRADE_SETUP_WINDOW",
+          "MARKET_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.99,
+        "surface_terms": [
+          "external range liquidity pools",
+          "opposing external range liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_ATTRACTION",
+          "ENTRY_POINT_REFERENCE",
+          "EXIT_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRIVEN_ENTRY_EXIT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Utilizing external range liquidity pools to facilitate an entry in the direction of the weekly expansion",
+          "exiting on opposing external range liquidity pools"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "EXIT_STRATEGY",
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CORE COMPONENTS OF MODEL 10",
+      "source_file": "ICT Charter Price Action Model 10 - Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_864",
+    "concepts": [
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "EXTERNAL RANGE LIQUIDITY TARGETS",
+          "external range liquidity target",
+          "external range liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low",
+          "old lows",
+          "swing lows",
+          "such a swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT TAKING",
+          "short covering",
+          "taking partials",
+          "complete exit",
+          "take profits",
+          "close the trade"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midpoint (equilibrium)",
+          "equilibrium",
+          "below equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PD_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARENT_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "parent price swing",
+          "parent price swing (e.g., from a high to a low)"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.7,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "PRICE_MAGNET",
+          "REVERSAL_ZONE_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "LONGER_TERM_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_GRAB",
+        "confidence": 0.8,
+        "surface_terms": [
+          "trading below this low",
+          "breaks below such a swing low",
+          "price trades below it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_HUNT",
+          "CONTINUATION_SIGNAL",
+          "PROFIT_TAKING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING AND EXTERNAL RANGE LIQUIDITY TARGETS",
+      "source_file": "ICT Charter Price Action Model 10 - Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_865",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Taking partials",
+          "closing partial positions",
+          "taking additional portions",
+          "collapse the entire position",
+          "take partials above them",
+          "collapse the remaining position",
+          "exit the trade"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trading below a low",
+          "creates new short-term lows",
+          "sell it above an old high",
+          "creates short-term highs",
+          "trades above a significant old high",
+          "presses above the most significant one"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Turtle Soup entry (buying below an old low)"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_REFERENCE",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAILING_STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trailing stop loss",
+          "very tight trailing stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Avoid ultra-short term stop losses",
+          "prioritize protecting the open position"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "THREE_DRIVES_PATTERN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'three drives' pattern",
+          "price creates a high, a higher high, and then another higher high before a rejection"
+        ],
+        "narrative_roles": [
+          "EXIT_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANAGING PARTIAL PROFITS AND TRAILING STOPS",
+      "source_file": "ICT Charter Price Action Model 10 - Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_866",
+    "concepts": [
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take two partials",
+          "take one partial",
+          "partials"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_EXIT_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "third take profit is when all your position comes off",
+          "second exit is the remaining portion",
+          "exit"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANAGING PARTIAL PROFITS AND TRAILING STOPS",
+      "source_file": "ICT Charter Price Action Model 10 - Swing Trading_Handbook.chunks.json"
+    }
+  }
+]

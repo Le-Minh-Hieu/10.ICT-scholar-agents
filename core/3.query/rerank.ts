@@ -66,7 +66,10 @@ export async function rerank(
 ): Promise<Chunk[]> {
   if (process.env.RAG_DEBUG_DUMP === "true") {
     try {
-      const captureId = (global as any).currentCaptureId || Date.now().toString();
+      if (!(global as any).currentCaptureId) {
+        (global as any).currentCaptureId = Date.now().toString();
+      }
+      const captureId = (global as any).currentCaptureId;
       const agentName = "rerank";
       const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -96,7 +99,10 @@ export async function rerank(
   if (chunks.length <= 3) {
     if (process.env.RAG_DEBUG_DUMP === "true") {
       try {
-        const captureId = (global as any).currentCaptureId || Date.now().toString();
+        if (!(global as any).currentCaptureId) {
+          (global as any).currentCaptureId = Date.now().toString();
+        }
+        const captureId = (global as any).currentCaptureId;
         const agentName = "rerank";
         const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
         if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -128,7 +134,10 @@ export async function rerank(
 
       if (process.env.RAG_DEBUG_DUMP === "true") {
         try {
-          const captureId = (global as any).currentCaptureId || Date.now().toString();
+          if (!(global as any).currentCaptureId) {
+            (global as any).currentCaptureId = Date.now().toString();
+          }
+          const captureId = (global as any).currentCaptureId;
           const agentName = "rerank";
           const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
           if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -238,7 +247,10 @@ ${context}
 
   if (process.env.RAG_DEBUG_DUMP === "true") {
     try {
-      const captureId = (global as any).currentCaptureId || Date.now().toString();
+      if (!(global as any).currentCaptureId) {
+        (global as any).currentCaptureId = Date.now().toString();
+      }
+      const captureId = (global as any).currentCaptureId;
       const agentName = "rerank";
       const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });

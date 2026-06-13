@@ -1,0 +1,330 @@
+[
+  {
+    "chunk_id": "chunk_93",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPROACH TO FUNDED ACCOUNTS",
+      "source_file": "2022 ICT Mentorship Episode 18_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_94",
+    "concepts": [
+      {
+        "canonical": "DAILY_OPEN_PRICE_REFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "vertical line to delineate a new day at midnight New York local time",
+          "Highlight the opening price at New York midnight",
+          "Draw a horizontal line from this price, extending it to 11 AM New York local time",
+          "This line represents the daily opening price",
+          "key reference"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CHART_SETUP",
+          "DAILY_BIAS_CONTEXT",
+          "MARKET_STRUCTURE_CONTEXT"
+        ],
+        "temporal_tags": [
+          "midnight New York local time",
+          "11 AM New York local time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CHART_TIMEZONE_CONFIGURATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "TradingView chart is set to 'New York' time zone",
+          "consistency with my teachings"
+        ],
+        "narrative_roles": [
+          "CHART_SETUP",
+          "CONSISTENCY_MAINTENANCE",
+          "DATA_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_SYNCHRONIZATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "annotations made on higher timeframes (daily, hourly) will automatically appear on the 15-minute chart",
+          "TradingView charts are linked (using the 'link' button)"
+        ],
+        "narrative_roles": [
+          "CHART_SETUP",
+          "MULTI_TIMEFRAME_CONTEXT",
+          "ANALYTICAL_EFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "15-MINUTE CHART SETUP",
+      "source_file": "2022 ICT Mentorship Episode 18_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_95",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCK APPLICATION",
+          "ORDER BLOCK",
+          "the bearish order block",
+          "bearish order block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "5_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily FVG",
+          "fair value gap",
+          "higher timeframe imbalance",
+          "imbalance",
+          "subsequent fair value gap (imbalance)",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME",
+          "HIGHER_TIMEFRAME",
+          "5_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "hourly relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "HOURLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "displacement"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "5_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS",
+          "Stop Loss Placement",
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "intermediate-term swing high"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "INTERMEDIATE_TERM_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "KILL ZONE EXIT STRATEGY",
+          "Kill Zone Management",
+          "Kill zones"
+        ],
+        "narrative_roles": [
+          "SESSION_TRADING",
+          "TRADE_MANAGEMENT",
+          "TIME_BASED_RULE"
+        ],
+        "temporal_tags": [
+          "11:30_AM_NY_LOCAL_TIME",
+          "INTRADAY_TRADING"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Entry Strategy",
+          "limit order at a conservative entry point"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY_TRADING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish premise"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "5-minute chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ANALYSIS_FRAME"
+        ],
+        "temporal_tags": [
+          "5_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER BLOCK APPLICATION, STOP LOSS, AND KILL ZONE EXIT STRATEGY",
+      "source_file": "2022 ICT Mentorship Episode 18_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_96",
+    "concepts": [
+      {
+        "canonical": "PRICE_ACTION_STUDY_METHODOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consistent chart work",
+          "annotate them daily",
+          "study journal",
+          "logging your observations",
+          "potential setups",
+          "review your entire week's price action",
+          "Analyze when highs/lows were formed",
+          "biggest movement days",
+          "studying past price action (hindsight)",
+          "train your mind to recognize these repeating market signatures in real-time"
+        ],
+        "narrative_roles": [
+          "LEARNING_METHODOLOGY",
+          "SKILL_DEVELOPMENT",
+          "ANALYTICAL_PRACTICE",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [
+          "daily",
+          "end of the week",
+          "intraday",
+          "real-time"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "connecting intraday movements to daily and weekly charts"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "ANALYTICAL_TECHNIQUE"
+        ],
+        "temporal_tags": [
+          "intraday",
+          "daily",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY_DEVELOPMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "develops your psychological makeup as a trader",
+          "helps you trust the model"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_MASTERY",
+          "CONFIDENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF CONSISTENT CHART WORK AND STUDY JOURNALS",
+      "source_file": "2022 ICT Mentorship Episode 18_Handbook.chunks.json"
+    }
+  }
+]

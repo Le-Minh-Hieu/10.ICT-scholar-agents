@@ -1,0 +1,574 @@
+[
+  {
+    "chunk_id": "chunk_3828",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER BUY MODEL",
+          "market maker buy model"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER BUY MODEL",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3829",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "CONCEPT_DIFFERENTIATION",
+          "FALSE_POSITIVE_WARNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SPEED_BUMP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'SPEED BUMPS'",
+          "speed bump"
+        ],
+        "narrative_roles": [
+          "CONCEPT_DIFFERENTIATION",
+          "CONTINUATION",
+          "MINOR_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "smart money concepts"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_REFERENCE",
+          "CRITIQUE_OF_INCORRECT_APPLICATION",
+          "TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_MISCONCEPTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "perceived as a breaker by some, but it is not",
+          "incorrectly identify this as a sell area",
+          "'rip-off edition'"
+        ],
+        "narrative_roles": [
+          "DECEPTION",
+          "TRADER_BEHAVIOR",
+          "RISK_MANAGEMENT_WARNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING 'SPEED BUMPS' VS. BREAKERS",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3830",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "DRAW ON LIQUIDITY",
+          "The market is drawn to specific buy side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNETISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOL",
+          "INSTITUTIONAL_ORDERFLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "down closed candle",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL",
+          "RETRACEMENT_AREA",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint of that candle",
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "OPTIMAL_TRADE_ENTRY",
+          "DISCOUNT_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SPECIFIC",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PM Session Example"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": [
+          "PM_SESSION"
+        ]
+      },
+      {
+        "canonical": "DATE_SPECIFIC",
+        "confidence": 0.9,
+        "surface_terms": [
+          "January 31, 2023"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "January 31, 2023"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DRAW ON LIQUIDITY AND DOWN CLOSED CANDLE ENTRY",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3831",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "TARGETING HIGH OF THE DAY",
+          "take out the high of the day",
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "TRADE_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [
+          "HIGH_OF_THE_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADDING CONTRACTS AND TARGETING HIGH OF THE DAY",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3832",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "most recent down closed candle",
+          "from its high to its open",
+          "very sensitive price point"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REACTION_ZONE",
+          "PRICE_LEVEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF TWITTER CONTEXT AND SENSITIVE PRICE POINTS",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3833",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAP",
+          "new week opening gap",
+          "top end of the new week opening gap",
+          "high end of the shaded orange area",
+          "bottom of the gap",
+          "the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING THE NEW WEEK OPENING GAP EXTREMES",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3834",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAP",
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_HIT",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "POTENTIAL_SUPPORT",
+          "ENTRY_POINT_CANDIDATE",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish breaker"
+        ],
+        "narrative_roles": [
+          "MISINTERPRETATION_WARNING",
+          "CONTEXTUAL_CLARIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HITTING THE NEW WEEK OPENING GAP AND EXPECTED REACTIONS",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3835",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "MARKET_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Eighty percent of the position has already been taken off",
+          "contract selection will be dropped to one contract",
+          "peeling off singles"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY",
+          "PARTIAL_PROFIT_TAKING",
+          "POSITION_SIZING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "new focus is to reach the top of the new week opening gap"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop placement is strategic",
+          "if it's hit, the outcome is acceptable"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINAL TARGET AND CONTRACT ADJUSTMENT",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3836",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "BIAS_INDICATOR"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'real bull flag' scenario",
+          "bull flag"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_CONFIRMATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "higher high printing on the current candle"
+        ],
+        "narrative_roles": [
+          "SCALING_OUT_TRIGGER",
+          "PROFIT_TAKING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "peel off a contract",
+          "sold at market from the remaining five"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING 'BULL FLAGS' AND PATIENCE FOR ENTRIES",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3837",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The stop was eventually hit",
+          "stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_OUTCOME",
+          "TRADE_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE CONCLUSION AND EXECUTION REVIEW",
+      "source_file": "January 31, 2023 PM Session Example ⧹ New Week Opening Gap_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  }
+]

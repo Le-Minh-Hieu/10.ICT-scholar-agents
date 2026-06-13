@@ -1,0 +1,680 @@
+[
+  {
+    "chunk_id": "chunk_3380",
+    "concepts": [
+      {
+        "canonical": "PM_TREND",
+        "confidence": 1,
+        "surface_terms": [
+          "PM Trend",
+          "afternoon swing",
+          "trend or a price swing seen daily"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "INTRADAY_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "1 PM New York time",
+          "4 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRUE_DAILY_HIGH_LOW_FORMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "true day high or low will tend to form"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "3 PM New York time",
+          "4 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "PM_TREND_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "continuation of the AM Trend direction",
+          "intraday reversal"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "REVERSAL",
+          "MARKET_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PM_MOVE_VELOCITY_CHARACTERISTIC",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Measured moves in the afternoon tend to be faster than those seen in the AM session"
+        ],
+        "narrative_roles": [
+          "MARKET_CHARACTERISTIC_OBSERVATION",
+          "EXPECTED_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHARACTERISTICS OF THE PM TREND",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3381",
+    "concepts": [
+      {
+        "canonical": "PM_TREND",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PM Trend"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_MOVEMENT_TIMING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "PM TREND MOVEMENT TIMING",
+          "2 PM New York time sees the move begin",
+          "start as early as 1",
+          "2 o'clock in the afternoon New York time, the market really starts to heat up",
+          "sessions begin to move towards the closing basis of each trading day"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TIMING",
+          "ENTRY_TIMING_WINDOW",
+          "MARKET_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "2 PM New York time",
+          "1 PM New York time",
+          "afternoon New York time",
+          "closing basis of each trading day"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PM TREND MOVEMENT TIMING",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3382",
+    "concepts": [
+      {
+        "canonical": "NY_LUNCH_HOUR",
+        "confidence": 1,
+        "surface_terms": [
+          "New York lunch hour",
+          "the 'New York lunch hour'",
+          "lunch periods",
+          "full lunch hour"
+        ],
+        "narrative_roles": [
+          "TRANSITION_PERIOD",
+          "PERIOD_OF_LOW_VOLATILITY",
+          "MARKET_BEHAVIOR_CHANGE",
+          "TIME_BASED_BIAS_ELEMENT"
+        ],
+        "temporal_tags": [
+          "noon to 1 PM",
+          "11 AM to 2 PM",
+          "11 o'clock to 1 o'clock",
+          "11 o'clock to 2 o'clock",
+          "AM session",
+          "PM session",
+          "morning"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "consolidation",
+          "short periods of consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PAUSE",
+          "LIQUIDITY_BUILDUP_POTENTIAL",
+          "PRE_BREAKOUT_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "retracement",
+          "short periods of retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_PAUSE",
+          "CONTINUATION_SETUP",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE NEW YORK LUNCH HOUR AND ITS MARKET IMPACT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3383",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "PRICE_REJECTION",
+          "TREND_CONTINUATION",
+          "ENTRY_POINT",
+          "RETEST"
+        ],
+        "temporal_tags": [
+          "LAST_TRADING_HOUR",
+          "MARKET_CLOSE_APPROACH"
+        ],
+        "session_tags": [
+          "AFTERNOON_SESSION",
+          "PM_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P PM TREND EXAMPLE 1",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3384",
+    "concepts": [
+      {
+        "canonical": "PM_TREND",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PM Trend time window",
+          "PM session day"
+        ],
+        "narrative_roles": [
+          "STRATEGY_IDENTIFICATION",
+          "TIME_BASED_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "PM_SESSION"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous AM session's rejection block"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "AM_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "moving below the last down close candle's closing price",
+          "large red candle violates that previous AM session's rejection block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "PM_SESSION"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P PM TREND EXAMPLE 3",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3385",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "rejection of a previous high",
+          "'turtle soup'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOW E-MINI PM TREND EXAMPLE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3386",
+    "concepts": [
+      {
+        "canonical": "INDEX_SMT",
+        "confidence": 1,
+        "surface_terms": [
+          "INDEX SMT",
+          "one index fails to confirm a higher high (i.e., it makes a lower high or just fails to extend) when all three would typically be moving higher"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS_IDENTIFICATION",
+          "INTERMARKET_ANALYSIS",
+          "TRADE_SETUP_CRITERION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow is bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_ASSESSMENT",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BEARISH_MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish",
+          "that will be deemed bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_PREDICTION",
+          "TRADE_SETUP_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDEX SMT IN THE PM SESSION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3387",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "higher low formation on this particular day during the afternoon session. However, the NASDAQ futures contract made a lower low",
+          "'break' from what would Normally, a symmetrical market",
+          "divergence",
+          "relative strength"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT PM SESSION EXAMPLE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3388",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "divergence",
+          "Index SMT divergence",
+          "'crack' among all three indices"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "strong accumulation",
+          "smart money accumulation"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FOOTPRINT",
+          "PRE_TREND_MOVE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe discount array"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe",
+          "larger higher timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FOOTPRINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "early rejection"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TREND_DIRECTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "deciding on upside or downside movement",
+          "upside or downside movement",
+          "larger higher timeframe move unfolds"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_INITIATION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [
+          "afternoon session"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SESSION_TIMING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "2 PM",
+          "morning session",
+          "early rejection in the morning",
+          "afternoon session"
+        ],
+        "narrative_roles": [
+          "TIMING_ALIGNMENT",
+          "TRADE_WINDOW"
+        ],
+        "temporal_tags": [
+          "2 PM",
+          "morning",
+          "afternoon"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERPRETING SMT DIVERGENCE FOR TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3389",
+    "concepts": [
+      {
+        "canonical": "DAY_HIGH_LOW_FORMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high or low of the day",
+          "high of the day forming",
+          "low of the day will likely form"
+        ],
+        "narrative_roles": [
+          "RANGE_PREDICTION",
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "SESSION_PROFILING"
+        ],
+        "temporal_tags": [
+          "first hour",
+          "3 PM",
+          "4 PM"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening range",
+          "first hour of AM trading",
+          "first hour of trading"
+        ],
+        "narrative_roles": [
+          "INITIAL_BIAS_SETTING",
+          "HIGH_LOW_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "first hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TREND_CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "further upward movement",
+          "continuation",
+          "continue lower"
+        ],
+        "narrative_roles": [
+          "TRADE_CONFIRMATION",
+          "DIRECTIONAL_BIAS",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "during lunch"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BOND_MARKET_CLOSE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "after the bond market closes at 3 PM",
+          "until the bond market closes"
+        ],
+        "narrative_roles": [
+          "RANGE_FORMATION_CATALYST",
+          "LIQUIDITY_WITHDRAWAL",
+          "POTENTIAL_REVERSAL_POINT",
+          "TIME_BASED_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "3 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SESSION_BIAS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "If the AM session forms the low of the day and there's a strong uptrend...",
+          "Conversely, if the AM session or first hour of trading creates the high of the day and it's a down-close day...",
+          "confidence can be placed in trading in the same"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PREDICTIVE_MODELING",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "AM session"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PM SESSION AND DAY'S RANGE FORMATION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - PM Trend_Handbook.chunks.json"
+    }
+  }
+]

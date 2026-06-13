@@ -1,0 +1,41 @@
+=== LANE 0 RECONSTRUCTION ===
+33 pipeline concepts from htf_pipeline.json macro step
+Rules: anchor=1, canonical!=concept=+1, alias!=concept!=canonical=+1, template=+1
+Intent filter: no TIME/SESSION triggers, no educational/generic queries
+---
+1. "Dollar Index" => 4 (anchor, template, template, template)
+2. "DXY HTF Bias" => 3 (anchor, template, template)
+3. "DXY RANGING" => 4 (anchor, template, template, template)
+4. "Economic Calendar" => 1 (anchor)
+5. "Seasonal Tendencies" => 4 (anchor, template, template, template)
+6. "Seasonal Tendency" => 3 (anchor, template, template)
+7. "Seasonal Low" => 1 (anchor)
+8. "Seasonal Influences" => 1 (anchor)
+9. "Seasonal Divergence" => 3 (anchor, template, template)
+10. "Seasonal Earnings Confluence" => 1 (anchor)
+11. "10Y TN Seasonal Tendency" => 3 (anchor, template, template)
+12. "20Y TN Seasonal Tendency" => 3 (anchor, template, template)
+13. "Quarterly Shifts" => 3 (anchor, template, template)
+14. "Quarterly Market Shift" => 1 (anchor)
+15. "Interest Rate Differentials" => 3 (anchor, template, template)
+16. "Interest Rate Analysis" => 3 (anchor, template, template)
+17. "Interest Rate Triad" => 1 (anchor)
+18. "Yield Divergence" => 3 (anchor, template, template)
+19. "Yield Seeking & Dollar" => 1 (anchor)
+20. "Dollar Rally Risk Off" => 1 (anchor)
+21. "Intermarket Analysis" => 4 (anchor, template, template, template)
+22. "Inter-Market Confirmation" => 4 (anchor, template, template, template)
+23. "DXY Divergence" => 3 (anchor, template, template)
+24. "Dollar Index Confirmation" => 4 (anchor, template, template, template)
+25. "Macro Analysis" => 1 (anchor)
+26. "Primary Price Drivers" => 1 (anchor)
+27. "Fed Chair Testimony" => 1 (anchor)
+28. "Commodity Data Access" => 1 (anchor)
+29. "Commodity Market Segments" => 1 (anchor)
+30. "Open Interest" => 1 (anchor)
+31. "OPEN INTEREST" => 1 (anchor)
+32. "MACROS" => 4 (anchor, template, template, template)
+---
+SUM: 73
+TARGET: 73
+MATCH: YES

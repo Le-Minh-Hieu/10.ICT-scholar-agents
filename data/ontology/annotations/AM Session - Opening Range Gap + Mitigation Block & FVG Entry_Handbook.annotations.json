@@ -1,0 +1,286 @@
+[
+  {
+    "chunk_id": "chunk_436",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Mitigation Block",
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Morning Session Opening Range Gap"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 1,
+        "surface_terms": [
+          "primary draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MITIGATION BLOCK AND OPENING RANGE GAP ENTRY",
+      "source_file": "AM Session - Opening Range Gap + Mitigation Block & FVG Entry_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_437",
+    "concepts": [
+      {
+        "canonical": "NON_NFP_THURSDAY",
+        "confidence": 1,
+        "surface_terms": [
+          "non-Farm Payroll Thursday"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_EXPECTATION",
+          "MARKET_CONDITION_ASSESSMENT"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "NON_NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CHARACTER",
+        "confidence": 0.8,
+        "surface_terms": [
+          "give and take"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy-Side Imbalance/Inefficiency"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_PLACEMENT_CRITERIA",
+          "LIQUIDITY_VOID",
+          "SUPPORT_RESISTANCE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNMITIGATED_FVG",
+        "confidence": 0.95,
+        "surface_terms": [
+          "left open",
+          "unmitigated"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "CONTINUATION_INDICATOR",
+          "PRICE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET CONTEXT AND STOP LOSS RATIONALE",
+      "source_file": "AM Session - Opening Range Gap + Mitigation Block & FVG Entry_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_438",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first target",
+          "Five contracts are taken out at this first target"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_REDUCTION",
+          "CAPITAL_REDEPLOYMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Five contracts are taken out",
+          "maximum funded 15-contract allowance",
+          "$850,000 account"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ACCOUNT_MANAGEMENT",
+          "CAPITAL_ALLOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAWDOWN_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "managing both initial drawdown"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "PSYCHOLOGICAL_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_GENERATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "generating raw profit"
+        ],
+        "narrative_roles": [
+          "TRADE_OBJECTIVE",
+          "PERFORMANCE_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL TARGET AND CONTRACT MANAGEMENT",
+      "source_file": "AM Session - Opening Range Gap + Mitigation Block & FVG Entry_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_439",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "partial profit of five contracts is secured",
+          "Further partials are taken",
+          "ultimate limit order"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss is subsequently rolled to better than even",
+          "One contract is remaining to run"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "BREAKEVE_STOP",
+          "RUNNER_STRATEGY",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_LEVEL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING AND FINAL TRADE MANAGEMENT",
+      "source_file": "AM Session - Opening Range Gap + Mitigation Block & FVG Entry_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  }
+]

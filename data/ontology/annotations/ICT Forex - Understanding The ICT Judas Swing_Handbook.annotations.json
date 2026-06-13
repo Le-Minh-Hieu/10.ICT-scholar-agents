@@ -1,0 +1,720 @@
+[
+  {
+    "chunk_id": "chunk_1327",
+    "concepts": [
+      {
+        "canonical": "ICT_JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Judas Swing",
+          "price swing that sets the London session high or low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run on stops",
+          "energetic price swing",
+          "quick spike in price",
+          "raid",
+          "stop hunt",
+          "liquidity grab"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame understanding",
+          "higher time frame analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fractal and form on all time frames"
+        ],
+        "narrative_roles": [
+          "CONCEPT_APPLICABILITY",
+          "MULTI_TIME_FRAME_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CANDLE_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily high and low",
+          "open, high, low, and close on a daily candle"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINTS",
+          "LIQUIDITY_TARGETS",
+          "MARKET_STRUCTURE_DELINEATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITION AND HIGHER TIME FRAME CONTEXT",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1328",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH JUDAS SWING",
+          "Judas Swing",
+          "Judas Swing implemented in bullish conditions"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_MODEL",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range",
+          "Asian range high and low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midnight delineation in New York",
+          "opening price at midnight New York time",
+          "New York open price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_PRICE",
+          "BIAS_REFERENCE"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT",
+          "11 o'clock in the morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "existing analysis that strongly suggests bullish prices for Euro Dollar for the particular day",
+          "bullish prices for Euro Dollar for the particular day",
+          "this assumption is maintained"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "TRADE_FILTER",
+          "DIRECTIONAL_CONVICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1329",
+    "concepts": [
+      {
+        "canonical": "BULLISH_JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH JUDAS SWING",
+          "ICT Judas Swing",
+          "bullish Judas Swing",
+          "move below the opening price",
+          "drop below the opening price, when the market is bullish"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "LOW_FORMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [
+          "LOW_OF_THE_DAY"
+        ],
+        "session_tags": [
+          "LONDON",
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run-up to trip traders, hitting buy stops",
+          "trade down below the Asian range low to take stops",
+          "sweep of 10-20 pips or so below the Asian range low",
+          "running stops above the Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_TRIGGER",
+          "MARKET_MANIPULATION",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range",
+          "Asian range low",
+          "Asian range high"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "LIQUIDITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "PATTERN_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame premise anticipating bullishness",
+          "higher close on the day"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "tight consolidation"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1330",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "TRUE BULLISH JUDAS SWING",
+          "Judas Goat",
+          "ICT Judas"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DECEPTION",
+          "REVERSAL_SETUP",
+          "TRADER_TRAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "tears lower, going below the Asian range low",
+          "going below the opening price",
+          "drop below the opening price and Asian range low",
+          "initial pop above the Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "SWEEP_OF_HIGHS",
+          "SWEEP_OF_LOWS",
+          "DECEPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FALSE_BREAKOUT",
+        "confidence": 1,
+        "surface_terms": [
+          "false breakout"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DECEPTION",
+          "TRADER_TRAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range low",
+          "Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE_POINT",
+          "PRICE_RANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE_POINT",
+          "BIAS_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING THE TRUE BULLISH JUDAS SWING AND THE JUDAS GOAT",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1331",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH JUDAS SWING",
+          "Judas Swing",
+          "drop below the opening price at midnight"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FAKE_OUT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1332",
+    "concepts": [
+      {
+        "canonical": "BEARISH_JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH JUDAS SWING",
+          "Judas Swing",
+          "false or trap move",
+          "movement above the opening price and above the Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP_MOVE",
+          "MARKET_MANIPULATION",
+          "REVERSAL_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY_BIAS"
+        ],
+        "session_tags": [
+          "LONDON",
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1333",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH JUDAS SWING",
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "INDUCEMENT",
+          "MARKET_MANIPULATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame analysis",
+          "higher time frame analysis already suggests a bearish tone"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Asian range low",
+          "Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REFERENCE_POINT",
+          "ENGINEERING_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPENING_PRICE_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CONFIRMATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "would have their stops hit",
+          "run up, get everybody excited (e.g., breakout traders going long)"
+        ],
+        "narrative_roles": [
+          "STOP_HUNT",
+          "LIQUIDITY_ENGINEERING",
+          "TRAPPING",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1334",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING A VALID BEARISH JUDAS SWING",
+          "The Judas Swing",
+          "a nice ICT Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "HIGH_OF_DAY"
+        ],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reach for traits (likely 'targets' or 'levels')",
+          "quickly move away",
+          "traders have now been trapped",
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADER_TRAP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range high",
+          "Asian range low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MIDNIGHT_OPEN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price at midnight"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING A VALID BEARISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1335",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH JUDAS SWING",
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA_SESSION",
+          "LONDON_SESSION"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range low",
+          "Asian range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA_SESSION"
+        ]
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midnight opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "DAILY_BIAS_ANCHOR"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish tone from a higher time frame perspective"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TRADE_DIRECTION_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP_LIQUIDITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "trapped traders",
+          "the 'sheep are getting"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH JUDAS SWING",
+      "source_file": "ICT Forex - Understanding The ICT Judas Swing_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,1323 @@
+[
+  {
+    "chunk_id": "chunk_3642",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly order blocks"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "LIQUIDITY_ENGINEERING_REFERENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "THE RANGE",
+          "trading inside the range",
+          "L7 range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONTEXT",
+          "TRADING_STRATEGY",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE RANGE",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3643",
+    "concepts": [
+      {
+        "canonical": "L7_RANGE_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "THE L7 RANGE CONCEPT",
+          "L7 range"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL_INTRODUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "VOLATILITY",
+          "king of volatility"
+        ],
+        "narrative_roles": [
+          "MARKET_CHARACTERISTIC_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACTION_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaction high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACTION_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaction low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_PREMISE",
+        "confidence": 1,
+        "surface_terms": [
+          "directional premise"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "TRADING_PSYCHOLOGY_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE L7 RANGE CONCEPT AND VOLATILITY",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3644",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "dealing ranges",
+          "predetermined range",
+          "L7 Inside the Range concept",
+          "trading range",
+          "this low to this high"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "RANGE_BOUND_TRADING_STRATEGY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trading range",
+          "trending",
+          "always trending",
+          "in a trading range"
+        ],
+        "narrative_roles": [
+          "MARKET_CLASSIFICATION",
+          "CONTEXT_IDENTIFICATION_DILEMMA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFITING FROM INSIDE PREDETERMINED RANGES",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3645",
+    "concepts": [
+      {
+        "canonical": "SEVENTY_PERCENT_RANGE_RULE",
+        "confidence": 1,
+        "surface_terms": [
+          "REINTERPRETING THE 70% RANGE RULE",
+          "70% RANGE RULE",
+          "70 percent of the time inside of a trading range",
+          "70% odds that this market is going to have a very difficult time breaking out"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_STATISTIC",
+          "BIAS_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading range",
+          "high here and a low here. The range is defined by this low and this high",
+          "defined range of this low and this high"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "PRICE_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "range high",
+          "outside of that range high",
+          "above that range high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "STRUCTURAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stab through",
+          "move outside of that range high... 70% chance of failure to move to new highs and continue higher",
+          "violation on a few candles on the daily chart where it did in fact sweep above that range high back here, but ultimately what did it do? It returned back inside of the defined range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "PRICE_REJECTION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REINTERPRETING THE 70% RANGE RULE",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3646",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market also traded in this range with this high here and this low",
+          "the range was this high and this low",
+          "trade inside the range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "RANGE_BOUND_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish ICT order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "TARGET_LEVEL",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_RETEST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "to be retested"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "ENTRY_CONFIRMATION_FOR_COUNTER_TRADE",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "small little turtle soup",
+          "false break above old high and then rejection"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "false break above old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COUNTER_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "counter order block"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "RESISTANCE_LEVEL",
+          "PROFIT_TAKING_ZONE",
+          "INSTITUTIONAL_SELLING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SELLING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "known level of institutional selling"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "RESISTANCE_LEVEL",
+          "REVERSAL_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING COUNTER ORDER BLOCKS AND RANGE EXTREMES",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3647",
+    "concepts": [
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "dealing ranges",
+          "the range",
+          "several ranges to deal with",
+          "what dealing range are we within",
+          "all ranges that price works within"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "BIAS_DETERMINATION",
+          "PRICE_ACTION_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POINT_OF_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this high, this low",
+          "highs",
+          "reaction low",
+          "point of reference",
+          "another point of reference",
+          "This low here"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_REFERENCE",
+          "RANGE_BOUNDARIES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price came down into this low here, swept up just a little bit, and then rallied even more"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PATH_OF_LEAST_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "PATH OF LEAST RESISTANCE"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING MULTIPLE DEALING RANGES AND PATH OF LEAST RESISTANCE",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3648",
+    "concepts": [
+      {
+        "canonical": "RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "RANGE DYNAMICS",
+          "The range is this short term high term low",
+          "this is the true range here",
+          "This is the range that has not been violated, this high and this low",
+          "sweeps back into the range here",
+          "new range",
+          "new range low",
+          "this high to this low"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY SWEEPS",
+          "Above the short term highs, taking out any liquidity that's resting in the marketplace",
+          "violate this low and the old reference point low here. It breaks below it, it sweeps back into the range here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_CATALYST",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_RETEST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ORDER BLOCK RETESTS",
+          "trades back into"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REJECTION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "order blocks that it does trade within"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "SUPPLY_ZONE",
+          "REJECTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity that's resting in the marketplace"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "FUEL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high",
+          "short term high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_LOCATION",
+          "RANGE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low",
+          "short term low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_LOCATION",
+          "RANGE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE DYNAMICS, LIQUIDITY SWEEPS, AND ORDER BLOCK RETESTS",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3649",
+    "concepts": [
+      {
+        "canonical": "RANGE_DYNAMICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RANGE DYNAMICS"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY SWEEPS"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_RETEST",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCK RETESTS"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "this candle right there"
+        ],
+        "narrative_roles": [
+          "POI",
+          "SUPPLY_ZONE",
+          "ORIGIN_OF_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_MITIGATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "tag it right there"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "RETEST_OF_POI"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE DYNAMICS, LIQUIDITY SWEEPS, AND ORDER BLOCK RETESTS",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3650",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out lows",
+          "takes out highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STATE_RANGE_BOUND",
+        "confidence": 0.9,
+        "surface_terms": [
+          "present trading range",
+          "very range bound"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_STRATEGY_SCALPING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short term intraday scalps",
+          "short term intraday price swings",
+          "short term trading",
+          "intraday or day trading or short term trading"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ADAPTIVE_TRADING_STYLE"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CHARACTERISTIC_VOLATILITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "VOLATILITY",
+          "pretty volatile",
+          "very very volatile"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CRITERIA",
+          "OPPORTUNITY_ENABLER",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEVERAGING VOLATILITY",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3651",
+    "concepts": [
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "in the range",
+          "dealing range low",
+          "dealing range high",
+          "range high",
+          "range low",
+          "within a range",
+          "extreme of the range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LIQUIDITY_REFERENCE",
+          "SUPPORT_RESISTANCE",
+          "RANGE_BOUND"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish order block",
+          "old order block",
+          "previous bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_ZONE",
+          "RESISTANCE_ZONE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "80_20_RULE_PARTIAL_PROFIT_TAKING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "THE 80/20 RULE WITHIN RANGES",
+          "take a large portion of your trade off, maybe 80%, leave 20%",
+          "taking partial portions of our trade off"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "profit potential",
+          "take profits at old highs",
+          "logical place of resistance"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "blow out your stops"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 80/20 RULE WITHIN RANGES",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3652",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "THE 80/20 RULE IN ACTION",
+          "taking a large portion of your trade off",
+          "took 80% off",
+          "leave 20% on",
+          "making more money on the 20% remaining in the position than you did on your 80% taking it off from here to here",
+          "taking out again, 80% of the position right here, leaving 20% on",
+          "gives you a little bit more of a pump in that position"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_REALIZATION",
+          "POSITION_MANAGEMENT",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "previous order block",
+          "the order block is right here",
+          "buy right at the order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL",
+          "DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading inside the range",
+          "this is your high and this is your low",
+          "another range here",
+          "we have a low and a high",
+          "this range low will maintain",
+          "this range high will maintain"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_BOUNDARY",
+          "CONTEXTUAL_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROBABILITY_ASSESSMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "100% likelihood",
+          "70% of the time",
+          "70% odds that you are not going to see a higher breakout",
+          "70% likelihood that this range low will maintain and this range high will maintain"
+        ],
+        "narrative_roles": [
+          "DECISION_CRITERIA",
+          "MARKET_BIAS_IDENTIFICATION",
+          "STRATEGY_JUSTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "keeping risk low",
+          "minimizing risk",
+          "maximizing profit potential"
+        ],
+        "narrative_roles": [
+          "TRADING_PRINCIPLE",
+          "GOAL_SETTING",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 80/20 RULE IN ACTION",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3653",
+    "concepts": [
+      {
+        "canonical": "FRACTAL",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTALS",
+          "fractal low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FIBONACCI",
+          "fib",
+          "Fib level",
+          "62"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "EXTREME RANGE",
+          "dealing range high",
+          "new range low",
+          "range high",
+          "range low",
+          "this range",
+          "potential dealing ranges"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "STRUCTURAL_DEFINITION",
+          "PRICE_ACTION_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BARRIER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "barrier block"
+        ],
+        "narrative_roles": [
+          "SUPPLY_DEMAND_ZONE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "violated this low",
+          "fractal low that was broken to the downside"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CHANGE_INDICATION",
+          "LIQUIDITY_SWEEP_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST_OF_BROKEN_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "came back and retested it",
+          "prices moved back into this area here?"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION_CONFIRMATION",
+          "LIQUIDITY_REPURPOSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sweet spot"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this low here",
+          "old high back here",
+          "the low here prior to this rally up",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTALS, FIBONACCI, AND EXTREME RANGE",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3654",
+    "concepts": [
+      {
+        "canonical": "FRACTAL",
+        "confidence": 1,
+        "surface_terms": [
+          "fractal",
+          "low, lower low, higher low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "bearish order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "RESISTANCE_LEVEL",
+          "TRADE_BIAS",
+          "ENTRY_CRITERIA_NEGATIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "extreme of the range",
+          "dealing range high",
+          "far extreme of a dealing range",
+          "inside this range",
+          "current range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_BIAS",
+          "RISK_MANAGEMENT",
+          "PROBABILITY_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high",
+          "dealing range high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "RESISTANCE_LEVEL",
+          "DEALING_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "retested it in here"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_SIGNAL",
+          "MARKET_STRUCTURE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTALS, FIBONACCI, AND EXTREME RANGE",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3655",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_LEVEL",
+          "POTENTIAL_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inside the range",
+          "current trading range",
+          "outside of that range"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT",
+          "CONSOLIDATION_PHASE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweeps below it again",
+          "turtle soups"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BREAKOUT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "moves outside of the range"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TREND_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COUNTER_TREND_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "counter swing trades"
+        ],
+        "narrative_roles": [
+          "RANGE_TRADING_STRATEGY",
+          "SHORT_TERM_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highs and lows",
+          "old highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "prices retraced",
+          "retraces back to the highs and lows"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "POTENTIAL_ENTRY_ZONE",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY TRADING AT RANGE EXTREMES",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3656",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "range",
+          "dealing range highs and lows",
+          "that range staying intact",
+          "trading inside the range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "BOUNDARY_IDENTIFICATION",
+          "LIQUIDITY_CONTEXT",
+          "CONSOLIDATION_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks",
+          "bearish order block",
+          "previous bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PROFIT_TAKING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "keep your profits very concise, very objective",
+          "take your profits",
+          "banking them",
+          "compounding the growth of your equity"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MASTERFUL RANGE TRADING FOR COMPOUNDING EQUITY",
+      "source_file": "ICT Precision Trading Concepts - 3_Handbook.chunks.json"
+    }
+  }
+]

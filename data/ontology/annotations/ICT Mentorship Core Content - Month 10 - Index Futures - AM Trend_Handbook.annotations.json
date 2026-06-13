@@ -1,0 +1,824 @@
+[
+  {
+    "chunk_id": "chunk_3347",
+    "concepts": [
+      {
+        "canonical": "ASSET_CLASS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Index Futures",
+          "Index Trading"
+        ],
+        "narrative_roles": [
+          "ASSET_IDENTIFICATION",
+          "TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The AM Trend"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FOCUS",
+          "TEMPORAL_FOCUS",
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTH 10: INDEX FUTURES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3348",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "clearing sell-side liquidity (stops)",
+          "run on the lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "forming a bullish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_MODEL",
+          "PRICE_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "anticipate expansion",
+          "expansion move"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "PRICE_DELIVERY",
+          "TARGET_MOVE"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_AM_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The last two up-closed candles during the London session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ORDER_FLOW_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reduce or remove that exposure by going long"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DELIVERY",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "9:30_AM_EQUITIES_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON BREAKER AND NEW YORK EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3349",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH INDEX SMT",
+          "compare comparable highs between 5 AM and 9:30 AM",
+          "One index will fail to confirm a higher high",
+          "This failure to make a higher high indicates bearish institutional order flow",
+          "comparing highs within the 5 AM to 9:30 AM window",
+          "relative highs and lows across the spectrum of time within this window"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "DIVERGENCE",
+          "ORDER_FLOW_INDICATION",
+          "MARKET_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "5 AM",
+          "9:30 AM",
+          "5 AM to 9:30 AM window",
+          "four-and-a-half-hour period",
+          "7 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "TREND_DIRECTION",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_HIGHS_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RELATIVE HIGHS/LOWS",
+          "comparable highs",
+          "higher high",
+          "low could form at 7 AM and another at 9:30 AM"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINTS",
+          "STRUCTURAL_ELEMENTS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH INDEX SMT AND RELATIVE HIGHS/LOWS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3350",
+    "concepts": [
+      {
+        "canonical": "SMT_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "THE 5 AM TO 9:30 AM SMT KILLZONE",
+          "5 AM to 9:30 AM New York time frame",
+          "Killzone",
+          "four and-a-half-hour window"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "5 AM",
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMT divergences",
+          "these patterns",
+          "SMT acts as a filter",
+          "Index SMT",
+          "compare the lows"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_FILTER",
+          "SMART_MONEY_SIGNATURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame daily bias is bullish",
+          "expect price to trade higher",
+          "price is overall bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drop down to a four hour or one-hour basis"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION_REFINEMENT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "four hour",
+          "one-hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PDA_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PDA arrays"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "PRICE_MAGNET",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_TO_MAKE_LOWER_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price to fail to make a lower low during a retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "MARKET_STRUCTURE_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_FOOTPRINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMART MONEY FOOTPRINT",
+          "footprint of smart money",
+          "hallmark"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_EVIDENCE",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 5 AM TO 9:30 AM SMT KILLZONE AND SMART MONEY FOOTPRINT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3351",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT",
+          "cracks in correlation",
+          "indices should move in tandem (e.g., all dropping lower), but one fails to confirm",
+          "one fails to confirm"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "ANOMALY_DETECTION",
+          "MARKET_ANALYSIS_TOOL"
+        ],
+        "temporal_tags": [
+          "5_AM_NY",
+          "8_30_AM_NY",
+          "9_30_AM_NY",
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "bullish and bearish institutional order flow",
+          "bearish institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "LIQUIDITY_DRIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "comparable highs",
+          "comparing a higher or lower high/low",
+          "relative lows and highs to compare",
+          "indices should move in tandem"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_TOOL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING SMT FOR BULLISH AND BEARISH INSTITUTIONAL ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3352",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "Turtle Soup",
+          "run under the 5 AM low",
+          "low is violated",
+          "quickly reprice higher"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "5 AM low"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "massive buildup at the lows",
+          "5 AM low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "5 AM low"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION_DYNAMICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "5 AM start time",
+          "London traders",
+          "UK/European traders",
+          "North American indices",
+          "5 AM",
+          "5:30"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "5 AM",
+          "5:30"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "build-up of orders",
+          "Large flows"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVING_FORCE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CORRELATION_BREAK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'crack in correlation'"
+        ],
+        "narrative_roles": [
+          "ANOMALY_DETECTION",
+          "ENTRY_CONFIRMATION",
+          "PRECURSOR_TO_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RATIONALE FOR THE 5 AM START TIME AND ANTICIPATING TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3353",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional order flow is bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_INDICATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMT example with divergence",
+          "two diverge or go higher, one goes down"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "FALSE_MOVE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "BREAKOUT_LEVEL",
+          "FUEL_FOR_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKOUT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trade up through an old high",
+          "breakout above down-closed candles"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "down-closed candles, which later become bullish order blocks",
+          "high of a down-closed candle"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "ENTRY_ZONE",
+          "INSTITUTIONAL_ACCUMULATION",
+          "SUPPORT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Turtle Soup",
+          "Buying Weakness (Turtle Soup)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_GRAB",
+          "ENTRY_SETUP",
+          "STOP_HUNT_PATTERN",
+          "COUNTER_TREND_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low",
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_LEVEL",
+          "FUEL_FOR_MOVEMENT",
+          "STOP_HUNT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop run",
+          "scooping up sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_MECHANISM",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUYING STRENGTH VS. BUYING WEAKNESS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3354",
+    "concepts": [
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Turtle Soup"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT_OF_INTEREST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low",
+          "lower low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT_CHARACTERISTIC",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rapid reprice",
+          "speed of the move"
+        ],
+        "narrative_roles": [
+          "POST_MANIPULATION_REACTION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "two indices don't go lower, and one does",
+          "indices that diverge"
+        ],
+        "narrative_roles": [
+          "SETUP_CONFIRMATION",
+          "REVERSAL_INDICATOR",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "expansion"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "DIRECTIONAL_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_MAGNITUDE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "magnitude"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_METRIC",
+          "VOLATILITY_MEASURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AM_TREND",
+        "confidence": 1,
+        "surface_terms": [
+          "AM Trend"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "STRATEGY_FRAMEWORK",
+          "TEMPORAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PM_TREND",
+        "confidence": 1,
+        "surface_terms": [
+          "PM Trend"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "STRATEGY_FRAMEWORK",
+          "TEMPORAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "NY_LUNCH_HOUR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York lunch hour"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "TEMPORAL_BIAS",
+          "LIQUIDITY_CONTRACTION_PERIOD"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH"
+        ],
+        "session_tags": [
+          "NY_MIDDAY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SPEED, MAGNITUDE, AND NEXT STEPS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - AM Trend_Handbook.chunks.json"
+    }
+  }
+]

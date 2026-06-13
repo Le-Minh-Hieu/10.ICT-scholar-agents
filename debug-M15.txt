@@ -1,0 +1,202 @@
+You are a Hierarchical Market Summarizer specializing in ICT concepts.
+Your task is to compress the provided agent analyses and retrieved knowledge into a PROBABILISTIC THESIS for the M15 timeframe.
+
+## PARENT THESIS (H4)
+The H4 timeframe suggests a potential conclusion or reversal of the current bullish retracement, indicated by the formation of equal highs around 1.1588-1.1590 coupled with a bearish SMT divergence. While the overall Daily context still anticipates a retracement towards the 1.1600-1.1650 Daily Bearish FVG, the H4 exhibits signs of weakening bullish momentum and consolidation, potentially signaling a resumption of the dominant higher timeframe bearish trend from the lower boundary of this FVG target.
+
+## INPUT DATA
+AGENT OUTPUTS:
+[
+  {
+    "confidence": 0.95,
+    "reasoning": "The extraction process systematically analyzed the provided M15, M5, and M1 'LIVE MARKET OBSERVATIONS'. For each timeframe, specific instances of Market Structure Shifts (MSS), Displacement, Fair Value Gaps (FVG), and Change in State of Delivery (CISD) were identified based on the explicit descriptions. Confidence scores reflect the clarity and directness of the observation statements. 'Confirmed' types were used when the observation explicitly described a clear structural event, while 'possible_mss' was used for a described attempt that ultimately failed. No liquidity sweeps were explicitly described in the 'LIVE MARKET OBSERVATIONS', therefore none were extracted. Principles for each structure type were derived from the 'GROUNDED KNOWLEDGE' and applied to categorize the observations. The process strictly adhered to objective observation without inferring bias.",
+    "facts": [
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.95,
+        "anchor": "M15 swing highs around 13:00",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_displacement",
+        "confidence": 0.95,
+        "anchor": "M15 price action between 13:00 and 14:00",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_fvg",
+        "confidence": 0.9,
+        "anchor": "M15 13:00-14:00 displacement",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.9,
+        "anchor": "M15 swing low around 04:00 (next day)",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.9,
+        "anchor": "M15 swing high around 08:00",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.95,
+        "anchor": "M15 swing lows from 12:00 onwards",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_displacement",
+        "confidence": 0.95,
+        "anchor": "M15 price action from 12:00 to 17:00",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_fvg",
+        "confidence": 0.9,
+        "anchor": "M15 bearish leg from 12:00 onwards",
+        "timeframe": "M15"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.95,
+        "anchor": "M5 multiple swing highs around 13:00-14:00",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_displacement",
+        "confidence": 0.95,
+        "anchor": "M5 initial strong bullish impulse (left side)",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_fvg",
+        "confidence": 0.9,
+        "anchor": "M5 early bullish impulse",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.9,
+        "anchor": "M5 swing low around 04:00",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.9,
+        "anchor": "M5 swing high around 08:00",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.95,
+        "anchor": "M5 consecutive swing lows from 14:00 onwards",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_displacement",
+        "confidence": 0.95,
+        "anchor": "M5 price action from 14:00 onwards",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_fvg",
+        "confidence": 0.9,
+        "anchor": "M5 recent downward price action from 14:00 onwards",
+        "timeframe": "M5"
+      },
+      {
+        "type": "confirmed_mss",
+        "confidence": 0.95,
+        "anchor": "M1 micro swing lows from 14:30 onwards",
+        "timeframe": "M1"
+      },
+      {
+        "type": "confirmed_displacement",
+        "confidence": 0.95,
+        "anchor": "M1 price action around 15:00, 15:30, 16:45",
+        "timeframe": "M1"
+      },
+      {
+        "type": "confirmed_fvg",
+        "confidence": 0.9,
+        "anchor": "M1 sustained bearish movements",
+        "timeframe": "M1"
+      },
+      {
+        "type": "possible_mss",
+        "confidence": 0.85,
+        "anchor": "M1 swing high around 16:00",
+        "timeframe": "M1"
+      },
+      {
+        "type": "confirmed_cisd",
+        "confidence": 0.85,
+        "anchor": "M1 failed bullish attempt around 16:00",
+        "timeframe": "M1"
+      }
+    ]
+  },
+  {
+    "confidence": 0.8,
+    "reasoning": "The analysis of micro liquidity aligns predominantly with the higher timeframe (HTF) bearish bias (Confidence: 0.8) and the H4 Probabilistic Context Anchor's (PCA) suggested bearish shift. The HTF bias indicates price is in a 'premium' zone and expects a move lower towards equilibrium or discount. While the ITF context initially suggested a 'bullish retracement' (Confidence: 0.7) towards the Daily Bearish FVG (1.1600-1.1650), current live market action, particularly the sweep of SSL below 1.15650-1.15630, strongly indicates a shift in immediate bias towards bearish continuation.\n\nSeveral BSL sweeps, such as above 1.15900 (M15, ~03:00-03:30), 1.15850 (M5, ~05:00), 1.15750 (M1, ~15:00), and 1.15690 (M1, ~16:45), indicate repeated harvesting of buy-side liquidity by sellers, leading to downward reversals. These micro stop hunts are consistent with the H4 PCA's observation of 'weakening bullish momentum' and a 'potential conclusion or reversal of the current bullish retracement' around 1.1588-1.1590. These sweeps effectively supplied the necessary liquidity for price to push lower.\n\nConversely, the SSL sweep below 1.15450 (M5, ~08:30) initiated a strong upward reversal, which was consistent with the earlier phase of the ITF 'bullish retracement' towards higher BSL targets (1.1580-1.1660) and the price being in a 'discount' zone as per the ITF-PD-Array-Agent. However, this retracement appears to have stalled or reversed.\n\nThe current price action, actively sweeping SSL below 1.15650-1.15630, directly aligns with the H4 PCA's 'Shift Conditions': 'a clear break and close below the recent H4 consolidation lows (e.g., ~1.1560) would strongly confirm the immediate bearish bias for the H4 timeframe.' This ongoing sweep below these critical lows suggests a definitive shift away from the ITF bullish retracement narrative and a strong confirmation of the immediate bearish bias across lower timeframes, aligning with the overarching HTF bearish directional conviction. Inducements like the 1.15780 (M5, ~14:15) and 1.15720 (M1, ~15:30) swing highs trapped buyers before the bearish push, while the 1.15660 (M1, ~16:30) swing low induced sellers just before being swept, confirming liquidity hunting consistent with a sustained move lower. The confidence in the current bearish momentum and liquidity draw is high, as observed micro liquidity events are validating the HTF and H4 bearish conditions.",
+    "sweeps": [
+      "BSL Sweep above 1.15900 (M15, approx. 03:00-03:30): Price swept buy-side liquidity above this prominent swing high (yesterday's close/today's open) before immediately reversing downwards, indicating a stop hunt.",
+      "BSL Sweep above 1.15850 (M5, approx. 05:00): Price took out buy-side liquidity above this swing high, leading to an immediate reversal and downward movement.",
+      "SSL Sweep below 1.15450 (M5, approx. 08:30): Price aggressively swept sell-side liquidity below this prominent swing low, triggering a strong reversal upwards as part of the earlier bullish retracement.",
+      "BSL Sweep above 1.15750 (M1, approx. 15:00): Price moved above this short-term swing high, collecting buy-side liquidity, before resuming its bearish trajectory.",
+      "BSL Sweep above 1.15690 (M1, approx. 16:45): Price briefly traded above this recent swing high, harvesting buy-side liquidity, before continuing the immediate bearish trend.",
+      "Current SSL Sweep below 1.15650-1.15630 (M15, M5, M1, ongoing): Price is actively sweeping sell-side liquidity below the cluster of lows around 1.15650 (M15 ~05:00, M5 ~06:00 & 15:40) and 1.15630 (M15, M5, M1 current action), signaling a strong immediate bearish continuation."
+    ],
+    "inducement": [
+      "1.15750-1.15780 Equal Highs (M15, approx. 10:00-12:30): This cluster of relatively equal highs created an apparent resistance level, potentially inducing breakout buyers. This BSL could serve as inducement for a larger move lower if price fails to sustain above it.",
+      "1.15780 Minor Swing High (M5, approx. 14:15): This short-term high acted as an inducement, attracting buyers before the market reversed aggressively downwards, trapping them as the bearish move unfolded.",
+      "1.15720 Minor Swing High (M1, approx. 15:30): This minor high served as an inducement, potentially drawing in retail buyers before a significant bearish displacement occurred, trapping bullish positions.",
+      "1.15660 Minor Swing Low (M1, approx. 16:30): This short-term low likely induced early sellers, setting up a liquidity trap as the current bearish leg swept beneath it, accumulating further sell-side liquidity."
+    ]
+  },
+  {
+    "confidence": 0.9,
+    "reasoning": "Step-by-step reasoning following the contract: \n\n1.  **Extract Key Signals:**\n    *   **LTF Range (M15):** The current M15 bearish dealing range is defined by the swing high at ~1.15850 and the current swing low at ~1.15660. The Equilibrium of this range is (1.15850 + 1.15660) / 2 = 1.15755.\n    *   **Current Price:** Approximately 1.15669.\n    *   **Current Zone:** Price is trading at 1.15669, which is below the M15 Equilibrium of 1.15755, placing it firmly in a **Discount** zone. This is further corroborated by M5 and M1 charts also trading below their immediate bearish leg equilibriums, as per live observations.\n    *   **Specific PD Arrays (M5):** Price is approaching a prior M5 bullish Fair Value Gap (BISI) around **1.15640-1.15650**, identified from 08:30. Price has already traded through a small bearish FVG (BISI) around 1.15700-1.15720.\n    *   **Specific PD Arrays (M1):** Price is actively testing the last up-close candle, which acts as a bullish Order Block, just above the current lows, specifically around **1.15655-1.15660**.\n    *   **HTF Hard Bias:** Bearish (0.8 confidence), with price in HTF premium seeking lower.\n    *   **ITF Narrative Bias:** Bullish retracement (0.7 confidence), with price in ITF discount, targeting BSLs (1.1580-1.1660) and the Daily Bearish FVG (1.1600-1.1650).\n    *   **Probabilistic Context Anchor:** States H4 is in discount (current price ~1.1567 is slightly below equilibrium of 1.1571), and the Daily Bearish FVG (1.1600-1.1650) remains a magnet.\n\n2.  **Map Signals -> Fields:**\n    *   **zone:** Based on the current price (1.15669) being below the M15 dealing range equilibrium (1.15755), and further confirmed by observations on M5 and M1, the zone is classified as **discount**.\n    *   **pd_arrays:** The identified specific PD arrays are the M5 bullish FVG (BISI) at 1.15640-1.15650 and the M1 bullish Order Block at 1.15655-1.15660.\n\n3.  **Self-Validation:**\n    *   The classification of the current zone as 'discount' is consistent across the M15 chart calculation (1.15669 < 1.15755) and confirmed by the explicit 'LIVE MARKET OBSERVATIONS' and the 'PROBABILISTIC CONTEXT ANCHOR' (H4/H1 Dealing Range Discount). \n    *   The identified PD arrays, an M5 bullish FVG (BISI) [CHUNK_ID:chunk_484] and an M1 bullish Order Block [CHUNK_ID:chunk_1052], are active price levels providing potential support within this discount zone. The M5 bearish FVG (BISI) at 1.15700-1.15720 has been traded through and is no longer an active array for current analysis.\n    *   The combination of price being in a discount zone and testing bullish PD arrays aligns strongly with the 'ITF CONTEXT (NARRATIVE)' for a bullish retracement (0.7 confidence), which anticipates a move higher from a discount to target BSLs and higher timeframe FVGs. This is in harmony with the 'PROBABILISTIC CONTEXT ANCHOR' which notes the H4 in discount and the Daily FVG as a magnet higher, despite the overarching 'HTF CONTEXT (HARD BIAS)' being bearish. This LTF analysis therefore supports the immediate ITF bullish retracement expectation. [strong conviction]",
+    "zone": "discount",
+    "pd_arrays": [
+      "M5 Bullish Fair Value Gap (BISI) @ 1.15640-1.15650",
+      "M1 Bullish Order Block (last up-close candle) @ 1.15655-1.15660"
+    ]
+  },
+  {
+    "confidence": 0.9,
+    "reasoning": "1. **HTF + ITF Context Alignment:** The overarching HTF bias is bearish (Confidence: 0.8), with price currently in a premium zone expecting lower prices. While the ITF initially suggested a bullish retracement, the Probabilistic Context Anchor (H4) indicated a 'potential conclusion or reversal' of this retracement, and explicitly stated that 'a clear break and close below the recent H4 consolidation lows (e.g., ~1.1560) would strongly confirm the immediate bearish bias for the H4 timeframe.' The Live Market Observations and LTF-Liquidity-Agent confirm this shift condition is being met and validated by current price action (SSL sweep below 1.15650-1.15630). Therefore, the immediate short-term bias aligns with the dominant HTF bearish trend, confirming a resumption of bearish delivery. This implies the earlier ITF bullish retracement narrative has concluded or is failing. \n\n2. **Structure Alignment:** There is strong multi-timeframe alignment for a short-term bearish continuation. M15 shows an internal bearish bias with lower highs and breaks of internal lows. M5 confirms a clear short-term downtrend since ~15:00 with consistent lower lows and lower highs. M1 further reinforces this bearish structure, showing a continuous downtrend since 15:00, with a rejection from a retracement high and a break of recent micro lows. The LTF-Structure-Agent lists multiple confirmed MSS and displacement events to the downside across these timeframes. (Confluence: +1)\n\n3. **Liquidity:** The market has taken key buy-side liquidity (BSL) to initiate and confirm the current downward move. M5 BSL at ~1.1578 was swept at ~15:00, initiating the downtrend. M1 BSL at ~1.1570 was swept at ~17:00, just before a sharp reversal, confirming continuation. The LTF-Liquidity-Agent explicitly highlights numerous BSL sweeps leading to downward reversals and, critically, states 'Current SSL Sweep below 1.15650-1.15630 (M15, M5, M1, ongoing): Price is actively sweeping sell-side liquidity... signaling a strong immediate bearish continuation.' This active SSL sweep validates the bearish delivery, fulfilling the sweep criteria for a bearish setup. (Confluence: +1)\n\n4. **PD Array:** The entry trigger point was identified from a 'premium' zone relative to the immediate M1 swing (the 1.1570 high). This is a favorable location for a short entry. While the LTF-PD-Array-Agent notes the current price is in a 'discount' zone and testing 'bullish PD arrays' (M5 BFG 1.15640-1.15650, M1 BOB 1.15655-1.15660), this must be interpreted in context of the overwhelming bearish structural and liquidity evidence. The active SSL sweep below 1.15650-1.15630 indicates these purported bullish PD arrays are failing to hold and price is delivering through them, consistent with a strong bearish continuation rather than a reversal. The entry from premium and subsequent delivery into/through discount arrays supports the bearish trade. (Confluence: +1)\n\n**Confluence Score: 3.** All three critical factors (Structure, Liquidity, PD Array) align strongly with a bearish direction, validating the execution. The trade setup is a short, leveraging the confirmed bearish shift and continuation after a rejection from a premium zone following a liquidity sweep.",
+    "execute": true,
+    "direction": "bearish",
+    "entry": "Enter short after the rejection of the 1.1570 retracement high (which swept minor M1 BSL) and subsequent displacement breaking below the immediate prior swing low at 1.1567. This confirms the bearish execution pattern following a move from premium.",
+    "entry_price": 1.1567,
+    "stop_loss": 1.1573,
+    "take_profit": 1.1545,
+    "confluence_score": 3
+  }
+]
+
+KEY RETRIEVED CHUNKS:
+
+
+## MANDATORY GUIDELINES
+1. USE PROBABILISTIC LANGUAGE: Use terms like "suggests", "potential", "evidence for", "aligns with". NEVER state a market bias as an absolute fact.
+2. IDENTIFY ANCHORS: Extract specific ICT levels or concepts (FVGs, Order Blocks, Liquidity Pools) that are serving as the "anchor" for this timeframe.
+3. SEEK OPPOSING EVIDENCE: Explicitly look for data that contradicts the primary bias.
+4. DEFINE SHIFT CONDITIONS: What specific price action would invalidate this thesis?
+
+## OUTPUT FORMAT (JSON ONLY)
+{
+  "bias": "suggests_bullish" | "suggests_bearish" | "suggests_neutral" | "evidence_for_reversal" | "evidence_for_retracement",
+  "confidence": 0.7,
+  "key_anchors": ["Level 1", "Concept 2"],
+  "summary": "2-3 sentence probabilistic summary",
+  "supporting_chunks": ["chunk_id_1", "chunk_id_2"],
+  "opposing_evidence": "Notes on contradictory signals",
+  "shift_conditions": "What invalidates this?"
+}
+
+IMPORTANT: Be objective. If the data is conflicting, favor "suggests_neutral" or lower the confidence.

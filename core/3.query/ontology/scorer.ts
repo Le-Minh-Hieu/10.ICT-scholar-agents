@@ -26,15 +26,19 @@ export function calculateOntologyBonus(
   bonus += narrativeBonus;
 
   // 1. Concept Matching (Highest Weight)
+  const seenCanonicals = new Set<string>();
   for (const query of queries) {
     const queryCanonical = ontologyLoader.getCanonical(query);
     if (!queryCanonical) continue;
+
+    if (seenCanonicals.has(queryCanonical)) continue;
 
     for (const concept of annotation.concepts) {
       if (concept.canonical === queryCanonical) {
         // High confidence match
         bonus += 0.15 * concept.confidence;
         matchedConcepts.push(concept.canonical);
+        seenCanonicals.add(queryCanonical);
       }
     }
   }

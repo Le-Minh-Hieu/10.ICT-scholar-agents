@@ -1,0 +1,381 @@
+[
+  {
+    "chunk_id": "chunk_3234",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York session",
+          "New York Session Time",
+          "8:20 A.M.",
+          "3:00 P.M."
+        ],
+        "narrative_roles": [
+          "PRIMARY_TRADING_WINDOW",
+          "FRAMEWORK_FOR_ICT_CONCEPTS"
+        ],
+        "temporal_tags": [
+          "8:20 A.M.",
+          "3:00 P.M."
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE TREASURY BOND FUTURES CONTRACT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3235",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTRACT DELIVERY MONTHS AND SYMBOL FORMAT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3236",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TICK VALUE AND FULL HANDLE DEFINITION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3237",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "IMBALANCE_CORRECTION",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "IMBALANCE_CORRECTION",
+          "TARGET_AREA",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "STOCK_MARKET_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "OPENING RANGE"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "LIQUIDITY_ENGINEERING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "to be rated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "STOCK_MARKET_OPENING"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE SIGNIFICANCE AND LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3238",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE LOW",
+          "the low formed between 8 A.M. and 9 A.M."
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "8_AM_9_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "STOP_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP RUN",
+          "trades down below the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "8_AM_9_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "potential reversal"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "ANTICIPATED_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 1: OPENING RANGE LOW AND STOP RUN",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3239",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range",
+          "opening range high and low",
+          "8 A.M. to 9 A.M. price action block to define the opening range high and low",
+          "opening range concept"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "RANGE_DEFINITION",
+          "TEMPORAL_ANCHOR"
+        ],
+        "temporal_tags": [
+          "8 A.M.",
+          "9 A.M."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "the last two down-closed candles"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "AREA_OF_INTEREST",
+          "PRICE_REACTION_POINT",
+          "TRADE_SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 2: BULLISH ORDER BLOCK WITHIN OPENING RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3240",
+    "concepts": [
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DIVERGENCE",
+          "divergence in volume"
+        ],
+        "narrative_roles": [
+          "WEAKNESS_INDICATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "before 2 P.M."
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "STOP HUNT",
+          "ran the stops above that range",
+          "failed to go any higher",
+          "raid",
+          "stop hunt",
+          "liquidity grab",
+          "run on stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "before 2 P.M."
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FAIR VALUE GAP",
+          "traded down to close in the"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCING",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [
+          "before 2 P.M."
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 3: DIVERGENCE, STOP HUNT, AND FAIR VALUE GAP",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3241",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Held for longer terms (several months)",
+          "trends very well like a currency"
+        ],
+        "narrative_roles": [
+          "BIAS_GENERATION",
+          "TREND_IDENTIFICATION",
+          "POSITION_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relationship with the dollar, gold, and foreign currencies"
+        ],
+        "narrative_roles": [
+          "BIAS_GENERATION",
+          "MACRO_CONTEXT_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BOND MARKET TRADING STYLES AND DAILY PRACTICE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3242",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUSION AND NEXT STEPS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Basics & Opening Range Concept_Handbook.chunks.json"
+    }
+  }
+]

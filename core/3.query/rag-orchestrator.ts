@@ -14,7 +14,8 @@ export async function runRAG(pipelinePath: string, step?: string) {
     const kmPath = path.join(process.cwd(), "data/knowledge_map.json");
     const knowledgeMap = JSON.parse(fs.readFileSync(kmPath, "utf8"));
 
-    const queries = buildQueries(concepts, knowledgeMap);
+    const weightedQueries = buildQueries(concepts, knowledgeMap);
+    const queries = weightedQueries.map(q => q.query);
     const conceptEmbeddings = await embedQueries(queries);
 
     return retrieveRAG({

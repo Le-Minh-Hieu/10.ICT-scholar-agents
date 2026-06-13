@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-06-13T08:59:05.429Z",
+  "agentType": "HTF-Orchestrator",
+  "currentCallId": "HTF-Orchestrator-1781340970665-23",
+  "prompt": "## ROLE\nYou are an HTF Orchestrator.\n\n## TASK\nDetermine:\n1. HTF bias (bullish or bearish)\n2. Next candle bias (bullish or bearish)\n\n## GROUNDED KNOWLEDGE\nNo grounded knowledge provided.\n\n## INPUT CONTEXT\n{\n  \"structure\": {\n    \"agent\": \"HTF-Structure-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.98,\n    \"continuation_confidence\": 0.98,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"aligned\",\n    \"internal_conflict\": false,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [\n      \"Bullish SMT between EURUSD and GBPUSD daily lows (March/April 2024)\",\n      \"EURUSD Monthly Bullish BOS above 1.12830 (July 2023 high)\",\n      \"EURUSD Weekly Bearish BOS below 1.16900 (early Jan 2024 low) after Feb 2024 high\",\n      \"EURUSD Daily Bearish BOS below 1.16xxx (late Jan/early Feb 2024 low) after Feb 2024 high\",\n      \"GBPUSD Monthly Bullish BOS above 1.2447 (Jan 2023 high)\",\n      \"GBPUSD Weekly Bearish BOS below 1.25xxx (Nov 2023 low) after Feb 2024 high\",\n      \"GBPUSD Daily Bearish BOS below 1.34xxx (March 2024 low) after Feb 2024 high\",\n      \"EURUSD Monthly Bullish Order Block at 1.08xxx-1.10xxx range (late 2022/early 2023)\"\n    ],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_2444\",\n      \"chunk_2815\",\n      \"chunk_2010\",\n      \"chunk_2776\",\n      \"chunk_2441\",\n      \"chunk_4265\",\n      \"chunk_3627\",\n      \"chunk_2435\"\n    ],\n    \"reasoning_summary\": \"Step-by-step reasoning for fact extraction:\\n\\n**1. SMT Divergence Detection:**\\n*   **Bullish SMT (Daily, March/April 2024):** Visually observed EURUSD making a higher low (~1.140xx in April) compared to its March low (~1.138xx). Concurrently, GBPUSD made a lower low (~1.32xxx in April) compared to its March low (~1.34xxx). This differential in low formation between correlated pairs constitutes a bullish SMT divergence...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"facts\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T08:56:10.625Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"macro\": {\n    \"agent\": \"HTF-Macro-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.95,\n    \"continuation_confidence\": 0.95,\n    \"retracement_risk\": \"high\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"partial\",\n    \"internal_conflict\": true,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [\n      \"DXY Monthly Current Candle\",\n      \"DXY Weekly Current Candle\",\n      \"DXY Daily Current Candle\",\n      \"US10Y Monthly Current Candle\",\n      \"US10Y Weekly Current Candle\",\n      \"US10Y Daily Current Candle\",\n      \"US20Y Monthly Current Candle\",\n      \"US20Y Weekly Current Candle\"\n    ],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_2622\",\n      \"chunk_1854\",\n      \"chunk_2626\",\n      \"chunk_1498\",\n      \"chunk_1048\",\n      \"chunk_215\",\n      \"chunk_1871\",\n      \"chunk_2496\"\n    ],\n    \"reasoning_summary\": \"Extracted macro intermarket facts as observed from the provided charts and text. \\n\\n**DXY Displacement:**\\n- Monthly DXY is bullish, indicating strong upward momentum (Vision Primary).\\n- Weekly DXY is bullish, confirming upward displacement and breakout from consolidation (Vision Primary).\\n- Daily DXY is a small bearish inside bar, suggesting short-term consolidation after bullish movement (Vision Primary).\\n\\n**Yield Di...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"facts\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T08:56:06.827Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"liquidity\": {\n    \"agent\": \"HTF-Liquidity-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.95,\n    \"continuation_confidence\": 0.95,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"partial\",\n    \"internal_conflict\": true,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": true,\n      \"below\": true,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_4194\",\n      \"chunk_215\",\n      \"chunk_2001\",\n      \"chunk_1048\",\n      \"chunk_3153\",\n      \"chunk_1741\",\n      \"chunk_238\",\n      \"chunk_1037\"\n    ],\n    \"reasoning_summary\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles:**\\n    *   Principle 1 (Liquidity & Inefficiency Seeking): The market targets liquidity pools (buy stops above old highs, sell stops below old lows) and inefficiencies (like Fair Value Gaps). Price movement is dictated by these targets, with the algorithm prioritizing inefficiencies, then liquidity. If in a premium without inefficiency ab...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"liquidity\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T08:54:53.337Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"pd_array\": {\n    \"agent\": \"HTF-PDArray-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"discount\",\n    \"confidence\": 1,\n    \"continuation_confidence\": 1,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"aligned\",\n    \"internal_conflict\": false,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": \"discount\",\n      \"equilibrium\": 1.16301,\n      \"range_high\": 1.18492,\n      \"range_low\": 1.1411\n    },\n    \"key_anchors\": [],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_1539\",\n      \"chunk_2850\",\n      \"chunk_215\",\n      \"chunk_484\",\n      \"chunk_2766\",\n      \"chunk_542\",\n      \"chunk_2777\",\n      \"chunk_2984\"\n    ],\n    \"reasoning_summary\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles:**\\n    *   Principle 1 (from chunk_2766): Price's position relative to the 50% equilibrium of a dealing range dictates if it's in a premium or discount zone.\\n    *   Principle 2 (from chunk_2850): Specific PD Arrays like Fair Value Gaps and Order Blocks are sought within these premium or discount zones for market context.\\n\\n2.  **Apply to ...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"pd_array_status\",\n      \"equilibrium\",\n      \"range_high\",\n      \"range_low\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T08:55:11.268Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"weekly_profile\": {\n    \"week_type\": \"MULTI_THEME\",\n    \"macro_bias\": \"bearish\",\n    \"narrative_confidence\": 0.35769999999999996,\n    \"regime\": {\n      \"volatility\": \"HIGH\",\n      \"liquidity\": \"STABLE\",\n      \"macro_alignment\": \"BEARISH\"\n    },\n    \"macro_ire\": {\n      \"avg_uncertainty\": 0.9,\n      \"avg_volatility\": 1,\n      \"execution_risk\": \"HIGH\",\n      \"liquidity_condition\": \"UNSTABLE\",\n      \"confidence_modifier\": -0.9\n    },\n    \"active_events\": []\n  }\n}\n\n## CONSTRAINTS\n- You MUST ONLY use the provided input\n- You MUST NOT introduce new concepts or external knowledge\n- You MUST NOT assume anything outside the input\n- You MUST resolve conflicts explicitly\n- Every conclusion MUST be supported by evidence from input\n- The following fields are required: htf_bias, next_candle_bias, confidence, dominant_factors, reasoning\n- You are NOT a rule executor.\n- You must follow this reasoning framework:\n1. **Form Primary Bias:** Use a combined reading of the `structure` and `macro` agent outputs to establish a primary directional bias. `structure` provides the foundational market direction, while `macro` provides the broader economic context.\n2. **Confirm with Liquidity:** Use the `liquidity` agent's output to confirm or question the primary bias. If the identified liquidity targets (the draw on liquidity) align with the primary bias, confidence increases. If they oppose the primary bias, this is a significant conflict that must be explained in the `reasoning` and should lower the `confidence` score.\n3. **Use PD Array for Context:** Use the `pd_array` agent's output to understand the current price location. Is price in a premium or discount zone? This provides context for the potential moves identified in the other steps.\n- Respond by calling the \"generateHTFOutput\" tool with the exact JSON structure required.\n\n## OUTPUT FORMAT",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:56:37 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"htf_bias\": \"bullish\",\n  \"next_candle_bias\": \"bullish\",\n  \"confidence\": 0.75,\n  \"dominant_factors\": [\n    \"Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)\",\n    \"Price located in a discount zone according to the PD Array agent\",\n    \"DXY daily candle observed as a small bearish inside bar, suggesting a short-term pause in DXY's bullish momentum\",\n    \"Underlying DXY Monthly and Weekly bullish trend, suggesting an overall bearish macro context for EUR/GBP, making the current bullish move a retracement\",\n    \"Weekly Profile's macro bias is bearish\"\n  ],\n  \"reasoning\": \"The HTF bias is determined by synthesizing insights from structure, macro, liquidity, and PD array agents.\\n\\n1.  **Primary Bias Formation:** The `structure` agent, despite having conflicting bullish (Monthly BOS) and bearish (Weekly/Daily BOS) anchors, explicitly highlights a 'Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)'. This divergence is a strong technical signal for a potential upward movement. However, the `macro` agent indicates strong bullish momentum for DXY on both Monthly and Weekly timeframes, and the `weekly_profile` explicitly states a 'macro_bias: bearish' for EUR/GBP. This establishes an overarching bearish macro trend for EUR/GBP. Given the bullish SMT divergence, the primary bias for the immediate HTF is a bullish retracement against this stronger bearish macro trend.\\n\\n2.  **Confirm with Liquidity:** The `liquidity` agent reports `liquidity_context: {above: true, below: true}`, indicating the presence of liquidity targets in both directions. While it doesn't definitively confirm the direction, it ensures that there are liquidity pools available for a bullish retracement to target, which is consistent with the primary bias of an upward move. The `internal_conflict: true` in the liquidity agent suggests balanced liquidity, not opposing a short-term retracement.\\n\\n3.  **Use PD Array for Context:** The `pd_array` agent states that price is currently in a `discount` zone. For an asset within an overall bearish trend, a price in a discount zone, especially when coupled with a bullish divergence like an SMT, is a highly probable area for smart money to initiate buying for a retracement back towards equilibrium or premium levels.\\n\\n**Conclusion:** The combination of a 'Bullish SMT divergence' (structure) signaling a potential reversal or strong retracement, price being in a 'discount' zone (PD Array) making it attractive for buyers, and the DXY's 'Daily small bearish inside bar' (macro) suggesting a temporary pause in USD strength, collectively points to a bullish expectation for the HTF and the next candle. This bullish movement is interpreted as a retracement within the broader bearish macro context for EUR/GBP.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -2.974572735212481
+        }
+      ],
+      "createTime": "2026-06-13T08:56:14.699521Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "LhstaoHZKomelb4P2Jn0gQo",
+      "usageMetadata": {
+        "promptTokenCount": 3017,
+        "candidatesTokenCount": 653,
+        "totalTokenCount": 7328,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3017
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 653
+          }
+        ],
+        "thoughtsTokenCount": 3658
+      }
+    },
+    "parsed": {
+      "htf_bias": "bullish",
+      "next_candle_bias": "bullish",
+      "confidence": 0.75,
+      "dominant_factors": [
+        "Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)",
+        "Price located in a discount zone according to the PD Array agent",
+        "DXY daily candle observed as a small bearish inside bar, suggesting a short-term pause in DXY's bullish momentum",
+        "Underlying DXY Monthly and Weekly bullish trend, suggesting an overall bearish macro context for EUR/GBP, making the current bullish move a retracement",
+        "Weekly Profile's macro bias is bearish"
+      ],
+      "reasoning": "The HTF bias is determined by synthesizing insights from structure, macro, liquidity, and PD array agents.\n\n1.  **Primary Bias Formation:** The `structure` agent, despite having conflicting bullish (Monthly BOS) and bearish (Weekly/Daily BOS) anchors, explicitly highlights a 'Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)'. This divergence is a strong technical signal for a potential upward movement. However, the `macro` agent indicates strong bullish momentum for DXY on both Monthly and Weekly timeframes, and the `weekly_profile` explicitly states a 'macro_bias: bearish' for EUR/GBP. This establishes an overarching bearish macro trend for EUR/GBP. Given the bullish SMT divergence, the primary bias for the immediate HTF is a bullish retracement against this stronger bearish macro trend.\n\n2.  **Confirm with Liquidity:** The `liquidity` agent reports `liquidity_context: {above: true, below: true}`, indicating the presence of liquidity targets in both directions. While it doesn't definitively confirm the direction, it ensures that there are liquidity pools available for a bullish retracement to target, which is consistent with the primary bias of an upward move. The `internal_conflict: true` in the liquidity agent suggests balanced liquidity, not opposing a short-term retracement.\n\n3.  **Use PD Array for Context:** The `pd_array` agent states that price is currently in a `discount` zone. For an asset within an overall bearish trend, a price in a discount zone, especially when coupled with a bullish divergence like an SMT, is a highly probable area for smart money to initiate buying for a retracement back towards equilibrium or premium levels.\n\n**Conclusion:** The combination of a 'Bullish SMT divergence' (structure) signaling a potential reversal or strong retracement, price being in a 'discount' zone (PD Array) making it attractive for buyers, and the DXY's 'Daily small bearish inside bar' (macro) suggesting a temporary pause in USD strength, collectively points to a bullish expectation for the HTF and the next candle. This bullish movement is interpreted as a retracement within the broader bearish macro context for EUR/GBP."
+    },
+    "latency": 174764.04330000002,
+    "telemetry": {
+      "promptTokens": 3017,
+      "completionTokens": 653,
+      "totalTokens": 7328
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/free",
+    "success": true,
+    "parsed": {
+      "htf_bias": "bearish",
+      "next_candle_bias": "bearish",
+      "confidence": 0.84,
+      "dominant_factors": [
+        "Weekly profile macro bias bearish",
+        "PD Array indicating price in discount zone (zone: discount, equilibrium 1.16301)",
+        "Liquidity context shows both above and below targets, no directional pull",
+        "Structure agent highlights bullish SMT divergence but overall directional_bias unknown, reducing its weight"
+      ],
+      "reasoning": "1. **Form Primary Bias:** The structure agent does not specify a directional bias (unknown) despite high confidence in its analysis of a bullish SMT divergence. The macro agent also reports unknown directional bias, but the weekly profile explicitly states a bearish macro bias with a low narrative confidence (0.36) and a bearish regime. Combining these, the only concrete directional signal is the bearish macro bias, leading to a primary HTF bias of bearish. 2. **Confirm with Liquidity:** The liquidity agent reports liquidity both above and below the current price, indicating no clear liquidity-driven push in either direction. This neutral liquidity picture does not contradict the primary bearish bias, so confidence is not heavily penalized. 3. **Use PD Array for Context:** The PD array places price in a discount zone (zone: discount, equilibrium 1.16301, range 1.1411‑1.1849). A discount position typically supports a bearish outlook, reinforcing the primary bias. 4. **Conflict Resolution:** The only conflicting element is the bullish SMT divergence noted in the structure agent. Because the structure agent’s directional_bias is unknown, this bullish signal cannot override the stronger bearish macro and discount‑zone context. Therefore, the overall HTF bias remains bearish. 5. **Next Candle Bias:** With price in a discount zone and no immediate liquidity pull, the short‑term expectation aligns with the HTF bias, suggesting the next candle is also likely bearish. The confidence reflects the mixed signals (high confidence in structure and liquidity, but unknown directional bias and moderate macro retracement risk), resulting in a confidence score of 0.84."
+    },
+    "latency": 19547.252099999227,
+    "telemetry": {
+      "promptTokens": 2710,
+      "completionTokens": 601,
+      "totalTokens": 3311
+    },
+    "estimatedCost": 0.003912
+  }
+}

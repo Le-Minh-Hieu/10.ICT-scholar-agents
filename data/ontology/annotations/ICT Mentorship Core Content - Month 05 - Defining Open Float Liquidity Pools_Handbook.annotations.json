@@ -1,0 +1,690 @@
+[
+  {
+    "chunk_id": "chunk_2480",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "highest high",
+          "lowest low",
+          "targets",
+          "buy stops",
+          "sell stops",
+          "obvious buy stops and sell stops",
+          "liquidity pools",
+          "near-term liquidity pools",
+          "easiest near-term liquidity pools"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "MARKET_DIRECTION_CLUE",
+          "TRADING_STRATEGY_APPLICATION"
+        ],
+        "temporal_tags": [
+          "last 60 trading days",
+          "last 20 days",
+          "last 40 days",
+          "20-day interval",
+          "40-day interval",
+          "60-day interval",
+          "near-term",
+          "short-term",
+          "intermediate-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "traded through",
+          "market was drawn to buy stops at those July highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DIRECTION_CLUE"
+        ],
+        "temporal_tags": [
+          "late July 2016",
+          "September",
+          "August 1st, 2016"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPEN FLOAT INTERVALS AND MARKET DIRECTION CLUES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2481",
+    "concepts": [
+      {
+        "canonical": "OPEN_FLOAT_INTERVAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "OPEN FLOAT INTERVALS",
+          "open float",
+          "60-day interval",
+          "120-trading day open float range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_DEFINITION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "60-day interval",
+          "60 days forward",
+          "60 days back",
+          "120-trading day range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_REFERENCE_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highest high",
+          "lowest low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "MARKET_BIAS_REFERENCE",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "120-day range"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPEN FLOAT INTERVALS AND MARKET DIRECTION CLUES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2482",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "'Turtle Soup' pattern",
+          "false break above an old high",
+          "false break below an old low",
+          "buy stops are consistently hit",
+          "sell stops are consistently run out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "old high",
+          "old low",
+          "buy stops",
+          "sell stops",
+          "liquidity below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "institutional order flow is bearish",
+          "banks targeting liquidity below lows"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "MARKET_DIRECTION_INDICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE TURTLE SOUP PATTERN AND INSTITUTIONAL ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2483",
+    "concepts": [
+      {
+        "canonical": "OPEN_FLOAT_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "open float concept",
+          "60-day look back and 60-day cast forward",
+          "open float range",
+          "look back period includes 60, 40, and 20 trading days"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "SEPT-DEC 2016",
+          "September 1st",
+          "October 1st",
+          "November",
+          "December 1st",
+          "January"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOLS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Lowest low in the last 60 trading days prior to September 1st",
+          "highest high in the last 60 days prior to October 1st",
+          "lowest low",
+          "highest high",
+          "lowest low is identified where sell stops would"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "September 1st",
+          "October 1st",
+          "December 1st"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy stops above old highs continue to be taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "September 1st"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "confirming bullish institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Market repeatedly reaches for buy stops above the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taking out previous lows (bodies of candles from late September)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "first 20 trading days after October",
+          "late September"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_INDICATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejection and higher trade"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [
+          "first 20 trading days after October"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "the high is taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "November"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reinforcing the bullish institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taking out buy stops above the November high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "first 20 trading days after December 1st",
+          "November high"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "ultimately making a run down to a lower low for January"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [
+          "January",
+          "first 40 trading days after December 1st, 2016"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY ANALYSIS OF OPEN FLOAT (SEPT-DEC 2016)",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2484",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "A wick down below the 1.3050 level followed by a retrace indicates sell stops resting there were taken out",
+          "sweeps the sell stops",
+          "market wicks through this area, taking out large fund buy stops",
+          "market sweeps down to take"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "PRICE_ACTION_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops resting there",
+          "bodies of candles where buy stops would rest",
+          "low area with bodies of candles indicates where sell stops would be",
+          "buy stops above these levels and sell stops below them",
+          "new liquidity pool forms on both the buy side and sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DEFINITION",
+          "LIQUIDITY_IDENTIFICATION",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "Every 20 trading days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FALSE_BREAKOUT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "false breaks higher and lower"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "LIQUIDITY_ENGINEERING_RESULT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Identify the range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "FRAMEWORK_DEFINITION"
+        ],
+        "temporal_tags": [
+          "20-day intervals",
+          "40 days",
+          "60 days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "most obvious swing high and swing low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "RANGE_DEFINITION_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_FLOAT_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "applying open float concepts",
+          "total open float"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DEFINITION",
+          "LIQUIDITY_CALCULATION"
+        ],
+        "temporal_tags": [
+          "next 20-day intervals (20, 40, 60 days)",
+          "look back 60 days"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING OPEN FLOAT TO DOLLAR CAD DAILY CHART",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2485",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Bodies of candles run out in December, then quickly rejected",
+          "Bodies of candles made in November are rated in December and quickly rejected",
+          "Old highs are run out, where buy stops would be resting",
+          "running the bodies of candles that formed a low in November 2016",
+          "clearing sell stops below the 73.80 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "December",
+          "November",
+          "November 2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops would be resting",
+          "sell stops below the 73.80 level",
+          "an old low",
+          "a liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "OI",
+          "Open Interest",
+          "OI has already tanked",
+          "a 15% decrease is significant",
+          "Declining OI",
+          "smart money is unwilling to offer sell-side liquidity to buyers",
+          "Rapid OI decline when price hits support",
+          "smart money is not heavily short",
+          "High OI indicates a large liquidity program offered to buyers",
+          "banks holding risk"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FOOTPRINT_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "LIQUIDITY_WITHDRAWAL",
+          "LIQUIDITY_PROVISION",
+          "MARKET_MANIPULATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional moves",
+          "institutional sponsorship",
+          "smart money",
+          "banks holding risk"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "higher time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "support/resistance",
+          "support level (e.g., 73.80-73.60 for CAD Futures)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_POOL_IDENTIFICATION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CANADIAN DOLLAR FUTURES MARKET ANALYSIS AND OPEN INTEREST",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2486",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Open Float",
+          "120-day range",
+          "highest high and lowest low within this 120-day range",
+          "hard stops (actual buy and sell stops) are above old highs",
+          "last 60-day range (near a high or a low)",
+          "Near-term Open Float",
+          "Highest high and lowest low in the last 20 trading days",
+          "targets for the next near-term move (buy stops/sell stops)",
+          "Short-term Open Float",
+          "Highest high and lowest low in the last 40 trading days",
+          "Intermediate-term Open Float",
+          "Highest high and lowest low in the last 60 trading days"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "120-day",
+          "60-day",
+          "20 trading days",
+          "40 trading days",
+          "near-term",
+          "short-term",
+          "intermediate-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taking out buy stops",
+          "continuously being swept (buy stops or sell stops)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_INDICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow is bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "quarterly shift",
+          "next price shift",
+          "significant breakdown"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "ENTRY_CONFIRMATION",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "quarterly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart",
+          "lower time frame entries"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY_GUIDANCE",
+          "ANALYSIS_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "daily",
+          "lower time frame"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUMMARY OF OPEN FLOAT AND TRADING IMPLICATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Defining Open Float Liquidity Pools_Handbook.chunks.json"
+    }
+  }
+]

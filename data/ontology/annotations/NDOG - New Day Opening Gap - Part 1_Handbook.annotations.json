@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "chunk_4046",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap",
+          "NDOG",
+          "new day opening gap"
+        ],
+        "narrative_roles": [
+          "DAILY_FORMATION",
+          "PRICE_DIFFERENTIAL",
+          "SESSION_TRANSITION_INDICATOR",
+          "MARKET_OPENING_REFERENCE"
+        ],
+        "temporal_tags": [
+          "daily",
+          "Monday through Thursday",
+          "5 PM session",
+          "midnight",
+          "May 3rd",
+          "May 4th"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "CLOSING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "closing price",
+          "closing price from the previous session"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "INPUT_FOR_GAP_CALCULATION"
+        ],
+        "temporal_tags": [
+          "previous session",
+          "5 PM session"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUTURES_MARKET_OPEN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reopening of the Futures Market"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "INPUT_FOR_GAP_CALCULATION",
+          "SESSION_TRANSITION_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "WEEKLY_FORMATION",
+          "REPLACEMENT_FOR_NDOG"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE NDOG CLOSING PRICE AND DAILY FORMATION",
+      "source_file": "NDOG - New Day Opening Gap - Part 1_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4047",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "New Day Opening Gap",
+          "NDOG"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "PRICE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "NEW_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXTENDING THE NDOG INTO FUTURE PRICE ACTION",
+      "source_file": "NDOG - New Day Opening Gap - Part 1_Handbook.chunks.json"
+    }
+  }
+]

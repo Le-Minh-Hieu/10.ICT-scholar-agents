@@ -1,0 +1,686 @@
+[
+  {
+    "chunk_id": "chunk_43",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure",
+          "underlying market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "DIRECTIONAL_BIAS",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "selling above an old high",
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "FAKE_MOVE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEEP DIVE PREPARATION AND TRUST DEVELOPMENT",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_44",
+    "concepts": [
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "market's bias",
+          "initial idea",
+          "likely direction"
+        ],
+        "narrative_roles": [
+          "DETERMINING_DIRECTION",
+          "ANTICIPATING_PRICE_MOVEMENT",
+          "FRAMEWORK_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "DETERMINING_TARGET",
+          "ANTICIPATING_PRICE_MOVEMENT",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidate"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "REFINING_BIAS",
+          "UNCERTAINTY_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relationships between swing highs and lows"
+        ],
+        "narrative_roles": [
+          "DETERMINING_DIRECTION",
+          "MARKET_STATE_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING BIAS AND INTERPRETING PRICE CLUES",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_45",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "imbalance",
+          "discount level",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "REBALANCING_TARGET",
+          "SUPPORT_RESISTANCE",
+          "PRICE_LEVEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCING",
+        "confidence": 1,
+        "surface_terms": [
+          "rebalances an imbalance",
+          "rebalanced",
+          "rebalancing"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MECHANISM",
+          "MARKET_STRUCTURAL_FORMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMEDIATE_TERM_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "intermediate term high",
+          "Intermediate Term High",
+          "highest point of that",
+          "lower short-term high to its right and left"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFIER",
+          "POTENTIAL_RESISTANCE",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMEDIATE_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "intermediate term low",
+          "Intermediate Term Low",
+          "higher short-term low to its right and left"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFIER",
+          "POTENTIAL_SUPPORT",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_PATTERNS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'bull flag'",
+          "retail traders",
+          "retail patterns"
+        ],
+        "narrative_roles": [
+          "MISLEADING_SIGNAL",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FADING_RETAIL_PATTERNS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FADING RETAIL PATTERNS",
+          "which I often fade",
+          "fade"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "COUNTER_RETAIL_PSYCHOLOGY",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FADING RETAIL PATTERNS AND THE SIGNIFICANCE OF REBALANCING",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_46",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure",
+          "price structure",
+          "higher high, higher low",
+          "advanced market structure"
+        ],
+        "narrative_roles": [
+          "THEORETICAL_FRAMEWORK",
+          "FOUNDATIONAL_CONCEPT",
+          "EVOLVING_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "subordination of smaller time frame price swings to higher time frame order flow"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "DIRECTIONAL_BIAS_DETERMINATION",
+          "COMPLEX_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order flow",
+          "higher time frame order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_DETERMINATION",
+          "UNDERLYING_MARKET_DYNAMICS"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EVOLUTION OF MARKET STRUCTURE",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_47",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "hourly order block",
+          "up-closed candles",
+          "last up-closed candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [
+          "TIME_FRAME_H1",
+          "LOWER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "LOWER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_LOW_MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "long-term high",
+          "long-term low",
+          "short-term low",
+          "intermediate term low",
+          "Intermediate Term High"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_CONTEXT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "TIME_FRAME_H1"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The daily chart premise (...) guides my hourly framing."
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_SETTING",
+          "CONTEXTUAL_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "TIME_FRAME_DAILY",
+          "TIME_FRAME_H1"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TIMING_REFINEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The 15-minute chart becomes the 'bellwether' for entry techniques."
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRECISION_TRADING"
+        ],
+        "temporal_tags": [
+          "TIME_FRAME_M15"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "significant break in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci",
+          "anchor Fibonacci",
+          "common projection is -1.5 standard deviations",
+          "Fibonacci settings"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REBALANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "rebalancing"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING ORDER BLOCKS AND FIBONACCI FOR TARGETS",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_48",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONCLUDING MARKET STRUCTURE PRINCIPLES",
+          "market structure principles",
+          "swing highs/ lows to use for analysis"
+        ],
+        "narrative_roles": [
+          "OVERALL_FRAMEWORK",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMEDIATE_TERM_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Intermediate Term High or Low",
+          "ITH or ITL",
+          "key high/low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "TRADE_INVALIDATION_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An imbalance that is rebalanced"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVALIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "If violated",
+          "your trade idea is likely flawed. Cancel the idea"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "up-closed candles should keep price below them"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "MARKET_STRUCTURE_CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "down-closed candles should support price above them"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "MARKET_STRUCTURE_CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUDING MARKET STRUCTURE PRINCIPLES",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_49",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame",
+          "daily chart",
+          "paramount order flow",
+          "daily chart logic",
+          "daily trend"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_CONFIRMATION",
+          "TRADE_STRATEGY",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "knowing when to do nothing",
+          "neutral in the market",
+          "global confusion and uncertainty",
+          "cannot confidently frame a high-probability bullish or bearish idea",
+          "stay on the sidelines",
+          "reckless trading driven by regret"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGY",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "avoids many losing trades",
+          "common retail mistakes",
+          "invites failure",
+          "respecting risk is paramount",
+          "blown accounts"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "intraday counter-trend moves",
+          "traps designed to create more selling opportunities"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF DAILY CHART BIAS AND KNOWING WHEN TO DO NOTHING",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_50",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Liquidity",
+          "running above old highs for buy stops",
+          "below old lows for sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Imbalance",
+          "Rebalance",
+          "creating or rebalancing price inefficiencies",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "MARKET_STRUCTURE_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the market",
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_FALLACY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trend lines",
+          "moving averages",
+          "harmonic patterns",
+          "Elliot waves",
+          "faith-based premise",
+          "subjective retail patterns"
+        ],
+        "narrative_roles": [
+          "CONTRAST_TO_ICT_METHODOLOGY",
+          "BEHAVIORAL_COGNITION",
+          "MISDIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFUSION, TRUST, AND THE RIDDLE OF MARKET BEHAVIOR",
+      "source_file": "2022 ICT Mentorship Episode 12_Handbook.chunks.json"
+    }
+  }
+]

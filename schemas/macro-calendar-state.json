@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MacroCalendarState",
+  "description": "Weekly cached aggregation of macro release events and metadata",
+  "type": "object",
+  "properties": {
+    "week_start": { "type": "string", "format": "date-time", "description": "ISO start of the calendar week (anchor)" },
+    "week_end": { "type": "string", "format": "date-time", "description": "ISO end of the calendar week" },
+    "last_updated": { "type": "string", "format": "date-time" },
+    "source": { "type": "string", "description": "Primary adapter/source used to populate state" },
+    "refresh_hours": { "type": "number", "description": "Configured refresh cadence in hours" },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "./macro-release-event.json" }
+    },
+    "version": { "type": "string", "description": "Schema or state version" }
+  },
+  "required": ["week_start","week_end","last_updated","events","source"],
+  "additionalProperties": false
+}

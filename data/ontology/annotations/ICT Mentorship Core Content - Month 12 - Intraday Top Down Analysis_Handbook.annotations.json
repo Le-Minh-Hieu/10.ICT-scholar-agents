@@ -1,0 +1,2873 @@
+[
+  {
+    "chunk_id": "chunk_3552",
+    "concepts": [
+      {
+        "canonical": "HIGH_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "four-hour perspective",
+          "high time frame intraday four-hour chart",
+          "four-hour basis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "PRE_TRADE_ANALYSIS",
+          "STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "key levels"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "ENTRY_EXIT_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional analysis"
+        ],
+        "narrative_roles": [
+          "CORE_PHILOSOPHY",
+          "MARKET_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRESENTATION FOCUS AND OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3553",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "four-hour chart, working down into lower time frames",
+          "All monthly, weekly, and daily analysis is included when viewing the four-hour perspective"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "day of the week we're trading",
+          "weekend analysis",
+          "early week momentum",
+          "observe Monday to anticipate Tuesday and Wednesday's potential moves"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN",
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "any gaps"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "PRICE_ACTION_ANOMALY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3554",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CENTRAL BANK DEALER'S RANGE",
+          "CBDR",
+          "the Central Bank Dealer's Range",
+          "that range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "PRICE_PREDICTION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "LEVEL_IDENTIFICATION",
+          "RANGE_EXTENSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.75,
+        "surface_terms": [
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CENTRAL BANK DEALER'S RANGE (CBDR) DEVIATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3555",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE",
+          "VOLATILITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALER_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealer's Range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "INSTITUTIONAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FLOUT_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Flout",
+          "Flout Range",
+          "that combined range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "MARKET_ANALYSIS_TOOL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "standard deviations"
+        ],
+        "narrative_roles": [
+          "TARGET_PROJECTION",
+          "VOLATILITY_MEASUREMENT",
+          "DEVIATION_ANALYSIS",
+          "PRICE_EXTREMES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FLOUT RANGE AND DEVIATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3556",
+    "concepts": [
+      {
+        "canonical": "INTRADAY_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "INTRADAY PROFILES",
+          "intraday models"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "MARKET_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down day"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "STRATEGIC_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "upward swing first"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SESSIONAL_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "quiet London session followed by a run in New York"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "TRADE_SETUP_ANTICIPATION",
+          "LIQUIDITY_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTRADAY PROFILES AND MARKET BEHAVIOR",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3557",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTEGRATING HIGHER TIME FRAME ANALYSIS TO INTRADAY",
+          "analysis ideas transposed from the monthly, weekly, and daily charts",
+          "taken from the four-hour chart and carried over into the intraday charts"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXT_SETTING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Higher Time Frame Analysis",
+          "monthly",
+          "weekly",
+          "daily",
+          "four-hour chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INTRADAY",
+          "intraday charts"
+        ],
+        "narrative_roles": [
+          "ENTRY_EXECUTION",
+          "TACTICAL_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTEGRATING HIGHER TIME FRAME ANALYSIS TO INTRADAY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3558",
+    "concepts": [
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "PERSONAL TIME FRAME REFINEMENT",
+          "60 Minutes is a decent time frame",
+          "refinement",
+          "four",
+          "five-minute chart",
+          "15-minute minimum"
+        ],
+        "narrative_roles": [
+          "MULTIPLE_TIME_FRAME_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TIME_FRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ENTRY",
+          "five-minute entry",
+          "entries on a five-minute chart",
+          "confirm entries on a 15-minute minimum"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONAL TIME FRAME REFINEMENT & ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3559",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gaps",
+          "Fair Value Gap",
+          "gaps",
+          "pockets of illiquidity"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_CRITERIA",
+          "REFINEMENT_TOOL",
+          "MARKET_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "four-hour",
+          "60-minute",
+          "15-minute",
+          "five [minute]",
+          "one-hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_TYPE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breakers"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_TYPE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FLEXIBILITY IN TIME FRAME AND IDENTIFYING FAIR VALUE GAPS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3560",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "previous daily, weekly, and monthly analysis",
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "daily",
+          "weekly",
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "If I'm bearish from the higher time frame",
+          "If I'm bullish from the higher time frame"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_OF_THE_WEEK_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "DAY OF THE WEEK TRADING STRATEGY",
+          "look for shorts on Mondays, Tuesdays, and Wednesdays",
+          "look for longs on Mondays, Tuesdays, and Wednesdays"
+        ],
+        "narrative_roles": [
+          "ENTRY_FILTER",
+          "TIMING_CONSTRAINT",
+          "STRATEGY_APPLICATION"
+        ],
+        "temporal_tags": [
+          "Mondays",
+          "Tuesdays",
+          "Wednesdays"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAY OF THE WEEK TRADING STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3561",
+    "concepts": [
+      {
+        "canonical": "MARKET_TEMPLATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly or daily templates",
+          "Thursday and Friday templates",
+          "weekly profiles"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "EXPECTATION_SETTING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "late week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ADAPTIVE_PLANNING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ADJUSTING FOR LATE WEEK SCENARIOS",
+          "does not materialize, I look for late week scenarios",
+          "adjusting expectations to",
+          "aligning with potential weekly profiles"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PLAN_ADAPTATION",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "late week scenarios",
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADJUSTING FOR LATE WEEK SCENARIOS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3562",
+    "concepts": [
+      {
+        "canonical": "TRUE_DAY_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "TRUE DAY",
+          "hours defined by 'True Day'",
+          "this window"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "VOLUME_EXPECTATION",
+          "ENTRY_TIMING",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "3 AM New York time",
+          "10 AM New York time"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open"
+        ],
+        "narrative_roles": [
+          "TIMING_CONSIDERATION",
+          "EXPECTATION_ADJUSTMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRUE DAY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3563",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Kill Zone",
+          "London Open Kill Zone",
+          "New York Open setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "TIME_BASED_STRATEGY",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish",
+          "higher time frame is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONSTRAINT",
+          "PRE_TRADE_ANALYSIS",
+          "FRAMEWORK_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH KILL ZONE STRATEGY",
+          "trade setup",
+          "reposition or get a new position"
+        ],
+        "narrative_roles": [
+          "TRADING_PLAN",
+          "OPPORTUNITY_IDENTIFICATION",
+          "ADAPTIVE_TRADING"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH KILL ZONE STRATEGY (LONDON OPEN, NEW YORK OPEN)",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3564",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "KILL ZONE STRATEGY",
+          "London Open Kill Zone",
+          "New York Open setup"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FRAMEWORK",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BEARISH",
+          "higher time frame is bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "ENTRY_ANCHOR",
+          "LIQUIDITY_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH KILL ZONE STRATEGY (LONDON OPEN, NEW YORK OPEN)",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3565",
+    "concepts": [
+      {
+        "canonical": "INTRADAY_PROFIT_TAKING_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "INTRADAY PROFIT TAKING WINDOW",
+          "collapse the bulk or all of my intraday positions",
+          "profit taking",
+          "10 o'clock to 11 o'clock in the morning New York time window"
+        ],
+        "narrative_roles": [
+          "STRATEGY_APPLICATION",
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "TEMPORAL_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "10 o'clock to 11 o'clock New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close",
+          "beginnings of London Close"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_GUIDANCE",
+          "MARKET_PHASE_CHANGE",
+          "LIQUIDITY_DETERMINANT"
+        ],
+        "temporal_tags": [
+          "London Close"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE_OVERLAP",
+          "NY_MID"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTRADAY PROFIT TAKING WINDOW",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3566",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "standard deviations (one, two, or three) higher",
+          "deviations",
+          "Central Bank Dealer's Range deviation"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "REVERSAL_AREA_INDICATION",
+          "PREMIUM_DISCOUNT_ZONE_DELIMITER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array",
+          "60-minute premium array",
+          "15-minute premium array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_AREA_INDICATION",
+          "PRICE_EXTREMUM_INDICATION",
+          "CONFLUENCE_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PREMIUM_DISCOUNT_ARRAY",
+          "REVERSAL_AREA_INDICATION",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "an old high that needs to be run above for stops",
+          "'turtle soup'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD ARRAYS",
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_DELIVERY_MODEL_COMPONENT",
+          "CONFLUENCE_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "60-minute time frame",
+          "60-minute",
+          "15-minute",
+          "four-hour"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT",
+          "MULTIPLE_TIME_FRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING CBDR STANDARD DEVIATIONS WITH PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3567",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range Low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CRITERIA",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CRITERIA",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ASIAN RANGE ENTRY STRATEGY",
+          "best scenario is to go long",
+          "high-probability longs",
+          "high-probability scenario"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEFINITION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "If I'm bullish",
+          "If I'm bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN RANGE ENTRY STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3568",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range",
+          "Asian Range High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "STRUCTURAL_LEVEL",
+          "REFERENCE_POINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "RETEST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retested",
+          "retreated to and retested"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PULLBACK",
+          "LEVEL_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "support",
+          "retested as support"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_LEVEL",
+          "ENTRY_ZONE",
+          "DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "RESISTANCE"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_LEVEL",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "If I'm bullish",
+          "when bullish",
+          "long positions"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "accelerate and expand"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_CONFIRMATION",
+          "TREND_CONTINUATION",
+          "PRICE_TARGET_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open"
+        ],
+        "narrative_roles": [
+          "SESSION_START",
+          "VOLATILITY_EVENT",
+          "TEMPORAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "New York Open"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close"
+        ],
+        "narrative_roles": [
+          "SESSION_END",
+          "TEMPORAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "London Close"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "next day"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_REFERENCE",
+          "EXTENDED_CONTEXT"
+        ],
+        "temporal_tags": [
+          "Next Day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN RANGE RETEST AS SUPPORT/RESISTANCE",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3569",
+    "concepts": [
+      {
+        "canonical": "DAILY_RANGE_PROJECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "DAILY RANGE PROJECTIONS",
+          "daily range projections"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE",
+          "VOLATILITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealer's Range"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "INSTITUTIONAL_FLOW_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard deviations"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION_TOOL",
+          "VOLATILITY_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_IDENTIFICATION",
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_HIGH_LOW_TARGETS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low and high of the day",
+          "high or low of the day"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "REVERSAL_POINT",
+          "FORECASTING_OUTCOME"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY RANGE PROJECTIONS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3570",
+    "concepts": [
+      {
+        "canonical": "THE_FLOUT",
+        "confidence": 1,
+        "surface_terms": [
+          "The 'Flout'",
+          "Flout"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "PRICE_PROJECTION_BASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALER_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealer's Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "OVERNIGHT_TIME_WINDOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "ASIAN_SESSION_HOURS"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard deviation",
+          "one standard deviation",
+          "one, two, three, or more standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "VOLATILITY_MEASUREMENT",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FLOUT",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3571",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAY MATRIX"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "TRADE_SETUP_CALIBRATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "TRADE_IDEA_GENERATION",
+          "CONTEXT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "internal range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "external range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_PRICE_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "key price levels"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "CALIBRATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CALIBRATING KEY PRICE LEVELS WITH PD ARRAY MATRIX",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3572",
+    "concepts": [
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Average Daily Range",
+          "ADR",
+          "five-day Average Daily Range",
+          "intraday range extremes"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "PREDICTIVE_TOOL",
+          "DAILY_BIAS_ASSESSMENT",
+          "EXPECTATION_SETTING",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [
+          "INTRADAY",
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVERAGE DAILY RANGE (ADR) FOR INTRADAY EXTREMES",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3573",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF SPECIALIZING IN ONE SETUP",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3574",
+    "concepts": [
+      {
+        "canonical": "TRADING_PATTERN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ICT'S GO-TO TRADING PATTERNS",
+          "my go-to patterns",
+          "The patterns I execute on"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEVELOPMENT",
+          "SIMPLIFICATION",
+          "EXECUTION_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_STINGER",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ICT Stingers"
+        ],
+        "narrative_roles": [
+          "COMPLEXITY_AVOIDANCE",
+          "REJECTED_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFLECTION_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reflection patterns"
+        ],
+        "narrative_roles": [
+          "COMPLEXITY_AVOIDANCE",
+          "REJECTED_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S GO-TO TRADING PATTERNS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3575",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT BULLISH PATTERN #3: THE BULLISH BREAKER",
+          "Bullish Breaker",
+          "breaker",
+          "bullish breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_LEVEL",
+          "ALTERNATIVE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Turtle Soup entry",
+          "stop run at the lower low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT BULLISH PATTERN #3: THE BULLISH BREAKER",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3576",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER",
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "PYRAMIDING_ENTRY",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run",
+          "run the stops",
+          "turtle soup"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "internal range liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REFINEMENT",
+          "DISCOUNT_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "lower time frame bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "PRICE_IMBALANCE",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramiding",
+          "pyramid",
+          "add to that position"
+        ],
+        "narrative_roles": [
+          "POSITION_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pattern is universal across all time frames",
+          "reduce it down to look for its fractal on a smaller time frame",
+          "across all time frames (monthly to one-minute)"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TIME_FRAME_CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER AS CONTINGENCY OR PYRAMIDING ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3577",
+    "concepts": [
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Turtle Soup"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "CONTINGENCY_PLAN",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SUMMARY OF BULLISH PATTERNS AND TRADING DISCIPLINE",
+          "If I don't see price doing these three things, I don't do anything. Period.",
+          "If it doesn't look this clear to me in price, I do not trade."
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ENTRY_FILTER",
+          "DISCIPLINE_GUIDELINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUMMARY OF BULLISH PATTERNS AND TRADING DISCIPLINE",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3578",
+    "concepts": [
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targeting",
+          "targets"
+        ],
+        "narrative_roles": [
+          "PROFIT_OBJECTIVE",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "four-hour to Average Daily Range projections",
+          "Average Daily Range"
+        ],
+        "narrative_roles": [
+          "PROFIT_OBJECTIVE",
+          "RANGE_ANALYSIS",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALER_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Central Bank Dealer's Range"
+        ],
+        "narrative_roles": [
+          "RANGE_ANALYSIS",
+          "LIQUIDITY_REFERENCE",
+          "INSTITUTIONAL_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "RANGE_ANALYSIS",
+          "LIQUIDITY_REFERENCE",
+          "INITIAL_BALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LIMITS_OF_AUTOMATION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "limits of automation",
+          "automate",
+          "automation",
+          "algorithmic traders",
+          "plug and play"
+        ],
+        "narrative_roles": [
+          "TRADING_PHILOSOPHY",
+          "DISCRETIONARY_DECISION_MAKING",
+          "BEHAVIORAL_COGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING CONCEPTS FOR TARGETS AND THE LIMITS OF AUTOMATION",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3579",
+    "concepts": [
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "COMPREHENSIVE TRADING PROGRAMS (BUY, SELL, CONTINGENCY)",
+          "three specific criteria",
+          "two patterns"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEVELOPMENT",
+          "STRUCTURAL_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINGENCY_PLAN",
+        "confidence": 1,
+        "surface_terms": [
+          "'if I get it wrong' program",
+          "contingency plan if I miss an opportunity on one pattern"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ADAPTATION",
+          "OPPORTUNITY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy-side and sell-side patterns"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "OPPORTUNITY_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMPREHENSIVE TRADING PROGRAMS (BUY, SELL, CONTINGENCY)",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3580",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "ICT BEARISH PATTERN #1: OPTIMAL TRADE ENTRY (OTE)"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "REVERSAL_ZONE",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "impulse swing"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "TREND_INDICATION",
+          "MOMENTUM_DISPLAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "LIQUIDITY_VOID",
+          "RETRACEMENT_TARGET",
+          "ENTRY_POINT_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower low"
+        ],
+        "narrative_roles": [
+          "TREND_INDICATION",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "above a short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT BEARISH PATTERN #1: OPTIMAL TRADE ENTRY (OTE)",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3581",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH OTE PATTERN",
+          "Optimal Trade Entry",
+          "fair value trade",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_MODEL",
+          "TRADE_SETUP_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy stops are triggered",
+          "buy stop raid",
+          "buy stops are run out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "closing the Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "PRICE_MAGNATE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "bearish order block",
+          "high of the order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CANDIDATE",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "premium entry"
+        ],
+        "narrative_roles": [
+          "TRADE_CONDITION",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "impulse swing"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "PRICE_LEG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_PROVIDER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term high",
+          "highest high is at that swing high",
+          "previous short-term high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_LOCATION",
+          "STRUCTURAL_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETAILED EXPLANATION OF BEARISH OTE PATTERN",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3582",
+    "concepts": [
+      {
+        "canonical": "BEARISH_TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "DETAILED EXPLANATION OF BEARISH TURTLE SOUP",
+          "'Turtle Soup' sell",
+          "'Turtle Soup'",
+          "Turtle Soup entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "goes above the old high",
+          "run through that high",
+          "runs out buy stops",
+          "runs up on that news"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "London Open",
+          "8:30 AM New York Open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "STOP_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD Array Matrix",
+          "PD Arrays"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_TOOL",
+          "CONTEXT_SETTING",
+          "REVERSAL_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT",
+          "SUPPLY_ZONE",
+          "PD_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish market environment"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open"
+        ],
+        "narrative_roles": [
+          "SESSION_OPEN",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "8:30 AM New York Open"
+        ],
+        "narrative_roles": [
+          "SESSION_OPEN",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "8:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MACROECONOMIC_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "news event"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reversing"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "TREND_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London is consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAY_TRADE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "day trade"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "TRADE_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETAILED EXPLANATION OF BEARISH TURTLE SOUP",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3583",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame down to a lower time frame"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_APPROACH",
+          "METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "CORE_PRINCIPLE",
+          "BIAS_DETERMINATION",
+          "MARKET_DYNAMICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "CORE_PRINCIPLE",
+          "CONTEXTUAL_UNDERSTANDING",
+          "MARKET_DYNAMICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PD ARRAY MATRIX AND CONSISTENCY IN ICT CONCEPTS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3584",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "take your stop",
+          "opening it up to take your stop"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a low or an old high (where everyone else's stops are)",
+          "a low or an old high",
+          "everyone else's stops are"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BROKER_MANIPULATION",
+        "confidence": 0.97,
+        "surface_terms": [
+          "brokers can work that spread in their favor",
+          "opening it up",
+          "They won't let that spread help you when it's beneficial for you",
+          "you don't see this problem in demo, but it becomes apparent with a live account"
+        ],
+        "narrative_roles": [
+          "BROKER_INTERFERENCE",
+          "DECEPTION",
+          "SPREAD_EXPLOITATION",
+          "REAL_MARKET_DYNAMICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING INTERBANK PRICING AND SPREAD EFFECTS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3585",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker",
+          "breakers"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "TRADE_OPPORTUNITY",
+          "CONTEXT_SETTING",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "premium array sell level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "REJECTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEARNING_FROM_LOSSES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LEARNING FROM LOSSES",
+          "make mistakes",
+          "being wrong provides immediate feedback",
+          "Losing gives you premium insight",
+          "valuable insight"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "MINDSET_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SIGNIFICANCE OF BREAKERS AND LEARNING FROM LOSSES",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3586",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD MARKET CASE STUDY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3587",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "only buy-side was offered (no sell-side delivery)",
+          "exclusively buy-side offered"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "PRICE_ATTRACTION",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "a low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_POINT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD MARKET CASE STUDY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3588",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "downside discount array",
+          "discount array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TRADE_SETUP_IDENTIFICATION",
+          "OPTIMAL_TRADE_ENTRY_REGION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high (with a lower high to its left and right)",
+          "swing high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE",
+          "PD_ARRAY_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "OPTIMAL_TRADE_ENTRY_REGION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fair Value Gap",
+          "gap"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "LIQUIDITY_VOID",
+          "OPTIMAL_TRADE_ENTRY_REGION",
+          "PRICE_RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop",
+          "protective stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "We'd be a buyer if it fills the gap"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD MARKET CASE STUDY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3589",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "sell stops below these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buying sell stops below these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD MARKET CASE STUDY",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3590",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MENTORSHIP RECAP AND EMPOWERING TRADERS",
+      "source_file": "ICT Mentorship Core Content - Month 12 - Intraday Top Down Analysis_Handbook.chunks.json"
+    }
+  }
+]

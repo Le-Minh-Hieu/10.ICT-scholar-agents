@@ -1,0 +1,2459 @@
+[
+  {
+    "chunk_id": "chunk_4205",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_WITHDRAWAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "brokers and liquidity providers pull the liquidity",
+          "they don't let you connect"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_VOLATILITY"
+        ],
+        "temporal_tags": [
+          "CPI_EVENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term liquidity runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_IDENTIFICATION",
+          "POST_NEWS_TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs to inefficiencies",
+          "inefficiency between these candles' high and this candle's low"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_REBALANCE",
+          "POST_NEWS_TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the opening price of this down-close candle on the daily chart"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGNET",
+          "PRICE_REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reprice to this inefficiency",
+          "start to gravitate towards this"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "TARGET_IDENTIFICATION",
+          "POST_NEWS_TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CPI number",
+          "CPI"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [
+          "CPI_EVENT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI TRADING CAUTION AND POST-EVENT STRATEGY",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4206",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Order Block",
+          "short Order Block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "POI",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Gap",
+          "small little Gap",
+          "separation between these two candles",
+          "small little inefficiency",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "pool of liquidity",
+          "stops in liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_POINTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing highs",
+          "short-term highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GENERATION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_ECONOMIC_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CPI"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [
+          "CPI_RELEASE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR (EURUSD) ANALYSIS",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4207",
+    "concepts": [
+      {
+        "canonical": "MARKET_INTERVENTION",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET INTERVENTION",
+          "Manual intervention",
+          "powers that be",
+          "market makers",
+          "they step in",
+          "reprice to another price level"
+        ],
+        "narrative_roles": [
+          "MARKET_OVERRIDE",
+          "LIQUIDITY_ENGINEERING_AGENT",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [
+          "CPI",
+          "FOMC_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_DRIVER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market driver",
+          "CPI"
+        ],
+        "narrative_roles": [
+          "PRICE_CATALYST",
+          "RISK_FACTOR",
+          "INVALIDATION_SOURCE"
+        ],
+        "temporal_tags": [
+          "CPI",
+          "FOMC_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "landmines",
+          "dangerous",
+          "can't trust even my own concepts",
+          "respect the measure of risk",
+          "do not look at anything I'm saying today as a little nudge",
+          "If you're right, it was luck",
+          "complete uncertainty"
+        ],
+        "narrative_roles": [
+          "CAUTION",
+          "PROTECTION_OF_CAPITAL",
+          "PSYCHOLOGY_OF_TRADING"
+        ],
+        "temporal_tags": [
+          "CPI",
+          "FOMC_WEEK",
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Order Blocks"
+        ],
+        "narrative_roles": [
+          "INVALIDATED_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "support a bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_OUTLOOK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4208",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance-Fair Value Gap",
+          "Fair Value Gap",
+          "Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_TARGET",
+          "HIGHER_TIMEFRAME_CONTEXT"
+        ],
+        "temporal_tags": [
+          "weekly chart",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy Side Imbalance",
+          "efficiency",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PRICE_MAGNET",
+          "SUPPORT_RESISTANCE",
+          "HIGHER_TIMEFRAME_CONTEXT"
+        ],
+        "temporal_tags": [
+          "weekly chart",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "middle of this inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_TARGET",
+          "PRICE_REFERENCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "lower time frames"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "large consolidation",
+          "range"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_PRICE_ACTION",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [
+          "CPI"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNFINISHED_BUSINESS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "unfinished business"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [
+          "CPI"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CABLE (GBPUSD) ANALYSIS",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4209",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smaller Gap",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "REBALANCE_AREA",
+          "ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy side rests above here",
+          "buy side here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side is",
+          "Sell side's here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUNDAMENTAL_CATALYST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CPI"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "MARKET_MANIPULATION_WINDOW"
+        ],
+        "temporal_tags": [
+          "CPI_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P (ES) AND CPI LIVE SETUP",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4210",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "RESISTANCE_LEVEL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "swept the sell side",
+          "taken its sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_INDICATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "now buy side's next",
+          "ran for buy side"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "CONTINUATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_EVENT"
+        ],
+        "temporal_tags": [
+          "CPI_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL CPI PRICE ACTION",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4211",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENTIAL_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "PRICE_OBJECTIVE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "likely draw on down"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "tomorrow's rate announcement"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "RATE_ANNOUNCEMENT_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOW (YM)",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4212",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side here and sell side taken",
+          "take sell side",
+          "running up the buy side",
+          "liquidity is already pulled"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "EXTREME_VOLATILITY_EFFECT"
+        ],
+        "temporal_tags": [
+          "CPI CANDLE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "LIQUIDITY_TARGET_REFERENCE"
+        ],
+        "temporal_tags": [
+          "CPI CANDLE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT_VOLATILITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CPI CANDLE",
+          "in one minute, look how much the market has traversed",
+          "moves so fast",
+          "fierceness and velocity of how fast it moves around"
+        ],
+        "narrative_roles": [
+          "UNTRADABLE_CONDITIONS",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "CPI CANDLE",
+          "one-minute chart",
+          "in one minute"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BROKER_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Your broker's not going to let you trade that",
+          "white list fake broker",
+          "running on their own scam",
+          "Those orders will get filled because it's not really happening",
+          "will not let you fill",
+          "highly manipulated",
+          "won't be permitted, period",
+          "Brokers can take, because they A-Book a lot of people"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_CONSIDERATION",
+          "UNTRADABLE_CONDITIONS",
+          "REAL_MARKET_BEHAVIOR_EXPLANATION"
+        ],
+        "temporal_tags": [
+          "CPI CANDLE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI CANDLE AND LIQUIDITY",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4213",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "both sides of the liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOLS",
+        "confidence": 1,
+        "surface_terms": [
+          "pools of liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT_DRIVER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "POST-CPI PRICE ACTION ANALYSIS",
+          "report",
+          "market driver"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_EVENT"
+        ],
+        "temporal_tags": [
+          "CPI"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gamble on this report",
+          "risking ruin"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_TRAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this is a trap",
+          "'if I would have got a piece of that.'"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_TRAP",
+          "BEHAVIORAL_BIAS_WARNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-CPI PRICE ACTION ANALYSIS",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4214",
+    "concepts": [
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "non-farm payroll",
+          "non-farm payroll report",
+          "CPI number",
+          "high impact news drivers like CPI, rate announcements, non-farm payroll",
+          "NFP event"
+        ],
+        "narrative_roles": [
+          "CATALYST_FOR_VOLATILITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "CPI_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops",
+          "buy side liquidity",
+          "above these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops",
+          "sell side liquidity",
+          "below that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows",
+          "very, very smooth relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs",
+          "very, very smooth relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rip through it",
+          "made jagged",
+          "not so smooth already"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ALGORITHM'S TRUE BEHAVIOR",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4215",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "orders resting below here",
+          "relative equal highs",
+          "two pools of liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "CPI_EVENT",
+          "8:30_AM_EST",
+          "MICRO_TIMEFRAME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the market ran for those as well",
+          "overshot it by a little bit",
+          "ran up to it here and stopped",
+          "runs for the sell side",
+          "runs for the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "CPI_EVENT",
+          "8:30_AM_EST",
+          "MICRO_TIMEFRAME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "REACTION_POINT",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "CPI_EVENT",
+          "8:30_AM_EST",
+          "MICRO_TIMEFRAME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETAILED CPI 1-MINUTE AND SUB-MINUTE ANALYSIS",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4216",
+    "concepts": [
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one trading model",
+          "one little multiplier",
+          "one little thing that gives you a setup",
+          "one little thing that gives you a reason to engage the marketplace",
+          "lots of ways to get into things"
+        ],
+        "narrative_roles": [
+          "SYSTEM_DEVELOPMENT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Measure risk",
+          "define it"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "know where your stop should be"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TAKE_PROFIT_TARGETS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "where you should take profits (partial)",
+          "full terminus"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXIT_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "my exits",
+          "take off more than I should have",
+          "wish I left a little bit more on the trade"
+        ],
+        "narrative_roles": [
+          "PROFIT_OPTIMIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_MINDSET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Excellence is a pursuit; it's not a destination",
+          "always, always going to be something that you're striving to do better and reach for",
+          "I always want to make them better"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DEVELOPMENT",
+          "PERFORMANCE_IMPROVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE POWER OF FOCUSING ON ONE TRADING MODEL",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4217",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE POWER OF FOCUSING ON ONE TRADING MODEL",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4218",
+    "concepts": [
+      {
+        "canonical": "TRADING_MODEL_FOCUS",
+        "confidence": 1,
+        "surface_terms": [
+          "THE POWER OF FOCUSING ON ONE TRADING MODEL",
+          "one trading model",
+          "one thing, just one thing",
+          "what my mind is focused on at the time",
+          "that particular model to work"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "DECISION_FRAMEWORK",
+          "SIMPLIFICATION_STRATEGY",
+          "CONSISTENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERWHELMING_OPPORTUNITIES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "80 plus things that are jumping off the chart at me",
+          "so many things I can see as an opportunity in price",
+          "so many of them to choose from",
+          "I'm wrestling with that the whole time the market's ticking",
+          "That is such a distraction"
+        ],
+        "narrative_roles": [
+          "COGNITIVE_BIAS",
+          "PSYCHOLOGICAL_CHALLENGE",
+          "DISTRACTION_SOURCE",
+          "DECISION_PARALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_EXPECTATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "three handle run",
+          "a 10 handle run",
+          "a 15 handle run",
+          "a run that goes eight handles, reverses for four, runs for 13"
+        ],
+        "narrative_roles": [
+          "PROFIT_OBJECTIVE",
+          "TRADE_EXPECTATION",
+          "PERFORMANCE_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE POWER OF FOCUSING ON ONE TRADING MODEL",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4219",
+    "concepts": [
+      {
+        "canonical": "HFT_ALGORITHM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HFT BUY MODEL APPLICATION",
+          "high frequency trading algorithm",
+          "chaos high frequency trading algorithms"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "ORDER_FLOW_ENGINE",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side",
+          "only running for buy side",
+          "only looking for longs",
+          "only looking for buys",
+          "this side of the marketplace"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TARGET_SIDE",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_POINT",
+          "LIQUIDITY_CAPTURE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Small little inefficiency",
+          "very bad Gap",
+          "inefficiency",
+          "Fair Value Gap",
+          "my Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "ORDER_FLOW_IMBALANCE",
+          "ENTRY_CONFIRMATION",
+          "ORDER_BLOCK_QUALIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Order Block",
+          "down-closed candle",
+          "lowest close",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_DRAW",
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "LIQUIDITY_REFERENCE",
+          "ORDER_FLOW_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "ORDER_BLOCK_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HFT BUY MODEL APPLICATION",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4220",
+    "concepts": [
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "PROPULSION BLOCK",
+          "Propulsion Block"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_TYPE",
+          "CONTINUATION_MODEL",
+          "RANGE_BOUND_PRICE_ACTION",
+          "ALGORITHMIC_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Order Block",
+          "That's all one Order Block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FOOTPRINT",
+          "PRICE_DELIVERY_TARGET",
+          "STRUCTURAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "close the inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "MITIGATION_TARGET",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "ACCUMULATION"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "DISTRIBUTION"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_FALLACY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RETAIL FALLACIES",
+          "overbought, oversold"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "EXPLOITABLE_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_DELIVERY_ENGINE",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "marking time",
+          "time is spent marking time",
+          "it's just hanging around",
+          "all of this price action here is irrelevant, it's just marking time"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_BUILDUP",
+          "INDETERMINATE_PRICE_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price action",
+          "all of this price action"
+        ],
+        "narrative_roles": [
+          "MARKET_READING_METHODOLOGY",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inside of all these ranges in here",
+          "between this candle's high and this candle's low",
+          "inside this range",
+          "this range maintain itself"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "STRUCTURAL_DEFINITION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "offer delivery to the Order Block",
+          "Where does it draw to?"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_ACTION",
+          "TARGETING_LIQUIDITY_OR_INEFFICIENCY",
+          "MARKET_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK, ACCUMULATION, DISTRIBUTION AND RETAIL FALLACIES",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4221",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "The Order Block"
+        ],
+        "narrative_roles": [
+          "INTEREST_POINT",
+          "SMART_MONEY_POSITIONING",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidates",
+          "spending time down here",
+          "allowing them to get their orders in",
+          "build a larger position"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_POSITIONING",
+          "PRE_MOVE_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The algorithm is not only doing what I'm showing you",
+          "before the algorithm reprices"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_ENGINE",
+          "SMART_MONEY_FACILITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of this Wick"
+        ],
+        "narrative_roles": [
+          "PRICE_REFINEMENT",
+          "ENTRY_CONFIRMATION",
+          "INTEREST_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK, ACCUMULATION, DISTRIBUTION AND RETAIL FALLACIES",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4222",
+    "concepts": [
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PROPULSION BLOCK"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ELEMENT",
+          "ORDER_BLOCK_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "ACCUMULATION",
+          "accumulate more longs"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_BEHAVIOR",
+          "ORDER_FLOW",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "DISTRIBUTION",
+          "distributing it",
+          "selling it"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_BEHAVIOR",
+          "ORDER_FLOW",
+          "POSITION_UNWINDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_FALLACIES",
+        "confidence": 1,
+        "surface_terms": [
+          "RETAIL FALLACIES",
+          "harmonics",
+          "animal patterns",
+          "Elliott wave",
+          "retail book",
+          "buying and selling pressure",
+          "market profile",
+          "volume bars",
+          "level two data",
+          "gimmick",
+          "red herring"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "CONTRAST_TO_ICT",
+          "MISINFORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "ORDER_FULFILLMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_ACTION_DRIVER",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium to discount",
+          "discounted premium"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "VALUATION_FRAMEWORK",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Price is behaving in a way in which it's been coded",
+          "it's behaving as it's told",
+          "It's not being pushed around because of buyers and sellers"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "CORE_ICT_TENET",
+          "PRICE_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK, ACCUMULATION, DISTRIBUTION AND RETAIL FALLACIES",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4223",
+    "concepts": [
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accumulate more longs",
+          "accumulated long positions"
+        ],
+        "narrative_roles": [
+          "POSITION_BUILDING",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "dumping portions of their position",
+          "offset distribution",
+          "Sell to this buy side",
+          "sell offset",
+          "distribute",
+          "offset, they're long positions and distribute them to willing buyers"
+        ],
+        "narrative_roles": [
+          "POSITION_UNWINDING",
+          "SMART_MONEY_ACTIVITY",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term highs",
+          "above that high is going to be buy side",
+          "willing buyers",
+          "Above market price",
+          "buy stop"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_SMART_MONEY_DISTRIBUTION",
+          "RETAIL_STOP_LOSSES"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run above it",
+          "short-term high, run above it",
+          "runs above it again"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DISTRIBUTION_TRIGGER",
+          "INDIVIDUAL_LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "RETAIL_TRADER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "some joker",
+          "some clown that believes that Elliott Waves and animal patterns move the market around",
+          "they're in there trying to trade their little gimmicks",
+          "trying to go short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "COUNTERPARTY_FOR_SMART_MONEY",
+          "VICTIM_OF_LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "smart trade smart money",
+          "long high frequency trading algorithms",
+          "these entities",
+          "I'm in there doing the same thing that these entities are told to do"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATOR",
+          "INSTITUTIONAL_PLAYER",
+          "LIQUIDITY_PROVIDER_TO_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "displace into the upside"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "IMBALANCE_CREATION",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ONE-MINUTE CHART",
+          "one minute"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADING_STRATEGY_APPLICATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI"
+        ],
+        "narrative_roles": [
+          "NEWS_EVENT_CONTEXT",
+          "VOLATILITY_EVENT"
+        ],
+        "temporal_tags": [
+          "CPI_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "midnight in New York"
+        ],
+        "narrative_roles": [
+          "DAILY_REFERENCE_POINT",
+          "MARKET_RESET_TIME"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4224",
+    "concepts": [
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high impact or medium impact drivers",
+          "high impact news driver",
+          "non-farm payroll",
+          "NFP event"
+        ],
+        "narrative_roles": [
+          "MARKET_MOVER",
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "MORNING_SESSION",
+          "AFTERNOON_SESSION"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANUAL_INTERVENTION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "manual intervention",
+          "intervention",
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "BROKER_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Fair Value",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "REACTION_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAWS",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "OPPORTUNITY_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAWS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAWS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LACK_OF_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "removal of liquidity",
+          "absence of liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_DISTORTION",
+          "BROKER_BEHAVIOR",
+          "TRADE_PREVENTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ONE-MINUTE CHART",
+          "15-second chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4225",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "took the sell side out",
+          "took the buy side out",
+          "takes out a high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side",
+          "liquidity above it",
+          "take the buy side here?",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_LIQUIDITY",
+          "DISTRIBUTION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side",
+          "liquidity below it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent encroachment right in the middle",
+          "Pulls back to consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REBALANCE_LEVEL",
+          "REACTION_LEVEL",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "Offset distribution",
+          "Algorithm starts selling and offsetting their long position",
+          "doing that distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_ENGINEERING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "that's your range",
+          "pulled back into the range",
+          "specific range",
+          "Range low",
+          "range high"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "CONTEXTUAL_BOUNDARY",
+          "LIQUIDITY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The bias I gave you is going higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_EXPECTATION",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reach for the first draw here"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSEQUENT ENCROACHMENT, DISTRIBUTION AND TIME & PRICE THEORY",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4226",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSEQUENT ENCROACHMENT",
+          "this Wick here, I went inside the range between that high and that close",
+          "measurement of consequent encroachment on this Wick here"
+        ],
+        "narrative_roles": [
+          "PRICE_REJECTION",
+          "REBALANCING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_PRICE_THEORY",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME & PRICE THEORY",
+          "Time and Price Theory",
+          "element of time as the most influential factor in price delivery",
+          "everything around price delivery is first controlled and delivered by a schedule",
+          "I know the time when the algorithm is going to behave"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_PRINCIPLE",
+          "MARKET_MECHANISM",
+          "ALGORITHMIC_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "driven 100% controlled",
+          "there's an algorithm",
+          "algorithm is going to behave",
+          "price delivery is first controlled and delivered by a schedule"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "FUNDAMENTAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one minute chart",
+          "15-second chart",
+          "lower time frame",
+          "very, very small time frames",
+          "precision with 15-second charts"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "PRECISION_TRADING",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.6,
+        "surface_terms": [
+          "DISTRIBUTION"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSEQUENT ENCROACHMENT, DISTRIBUTION AND TIME & PRICE THEORY",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4227",
+    "concepts": [
+      {
+        "canonical": "STOP_HUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP HUNTS",
+          "stop hunts",
+          "getting stopped out",
+          "victimizing traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "PSYCHOLOGICAL_IMPACT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity",
+          "where liquidity is",
+          "you're the liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "TARGET_ZONE",
+          "RETAIL_VULNERABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ACCUMULATION",
+          "accumulating a long position"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION, STOP HUNTS, AND ICT'S JOURNEY",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4228",
+    "concepts": [
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DISTRIBUTION",
+          "Smart money distributed real time"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTION",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "quarterly pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "QUARTERLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHM'S_AUTHOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ALGORITHM'S AUTHOR",
+          "the logic is real, the authorship is genuine, and it repeats"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PREDICTABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTENTMENT, DISTRIBUTION AND THE ALGORITHM'S AUTHOR",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4229",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency there"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side here",
+          "short-term highs",
+          "this high here",
+          "weekly or daily chart high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaching into those short-term highs",
+          "went above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a smart money offset distributes their position when they're long"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTENTMENT, DISTRIBUTION AND THE ALGORITHM'S AUTHOR",
+      "source_file": "Tuesday June 13, 2023 ⧹ CPI & Price Action Lecture_Handbook.chunks.json"
+    }
+  }
+]

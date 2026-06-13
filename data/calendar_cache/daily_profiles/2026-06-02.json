@@ -1,0 +1,375 @@
+{
+  "profile_date_utc": "2026-06-02T06:03:28.416Z",
+  "market_date": "2026-06-02",
+  "market_weekday": "Tuesday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-01",
+  "source_week_profile_id": "2026-06-01",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": -1,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.4
+      },
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.2
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.3
+  },
+  "daily_bias": {
+    "daily_bias": "bearish",
+    "confidence": 0.15,
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": 0,
+      "GROWTH": -1,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.2
+      },
+      {
+        "currency": "AUD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": -1,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "source": "calendar"
+  },
+  "day_type": "Bearish",
+  "day_confidence": 0.15,
+  "day_role_in_week": "Potential Weekly High / Premium Entry",
+  "weekly_alignment_state": "Aligned (Bearish)",
+  "dominant_weekly_theme": "Bearish Weekly Profile with Wednesday High and NFP Liquidity Run",
+  "dominant_weekly_narrative": "The week is anticipated to unfold with an initial move higher, possibly into Tuesday or Wednesday, establishing the weekly high. This move is expected to draw in institutional selling, aligning with the overall bearish outlook, primarily driven by strong inflation concerns for the Eurozone and softening labor market indicators for the US. The calendar presents several high-impact events throughout the week, notably Eurozone CPI on Tuesday and a battery of US labor data culminating in Non-Farm Payrolls on Friday. Following the formation of the weekly high, likely around Wednesday, price is expected to expand lower, culminating in a 'seek and destroy' liquidity run into Friday's NFP report, potentially establishing the weekly low. Traders will prioritize short entries at premium levels early in the week, exercising caution around the significant volatility expected from the NFP release.",
+  "weekly_delivery_model": "Initial retracement higher to form weekly high, followed by downward expansion into weekly low, concluding with a liquidity run on NFP Friday.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": "Friday",
+  "expected_expansion_day": "Friday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [
+    {
+      "event_id": "Italian Bank Holiday",
+      "title": "Italian Bank Holiday",
+      "scheduled_time_utc": "2026-06-02T06:03:00.000Z",
+      "expected_effect": "ACCUMULATION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "02:03",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:11508a18ac8a",
+      "title": "Core CPI Flash Estimate y/y",
+      "category": "CPI",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-02T09:00:00.000Z",
+      "expected_effect": "REPRICING",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:3e9234f9365b",
+      "title": "CPI Flash Estimate y/y",
+      "category": "CPI",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-02T09:00:00.000Z",
+      "expected_effect": "REPRICING",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "05:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:728272a6ef7f",
+      "title": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-02T14:00:00.000Z",
+      "expected_effect": "EXPANSION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:886538124785",
+      "title": "JOLTS Job Openings",
+      "category": "OTHER",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-02T14:00:00.000Z",
+      "expected_effect": "REPRICING",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:70d83de91221",
+      "title": "GDP q/q",
+      "category": "GDP",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-03T01:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-02",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "21:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Potential Weekly High / Premium Entry",
+      "confidence": 0.6
+    }
+  ],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "event-driven repricing",
+      "liquidity sensitivity around scheduled releases"
+    ],
+    "expected_liquidity_sequence": [
+      "02:03 Italian Bank Holiday",
+      "05:00 Core CPI Flash Estimate y/y",
+      "05:00 CPI Flash Estimate y/y",
+      "10:00 BOE Gov Bailey Speaks",
+      "10:00 JOLTS Job Openings",
+      "21:30 GDP q/q"
+    ],
+    "high_attention_windows": [
+      "london_killzone",
+      "london_close_window",
+      "ny_1000_macro"
+    ],
+    "expected_displacement_windows": [
+      "london_killzone",
+      "ny_1000_macro"
+    ],
+    "expected_reversal_windows": [
+      "02:03",
+      "05:00",
+      "10:00",
+      "21:30"
+    ]
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:Potential Weekly High / Premium Entry",
+      "weekly_model:Initial retracement higher to form weekly high, followed by downward expansion into weekly low, concluding with a liquidity run on NFP Friday.",
+      "dominant_theme:Bearish Weekly Profile with Wednesday High and NFP Liquidity Run",
+      "catalyst:Italian Bank Holiday",
+      "time:02:03",
+      "killzone:london_killzone",
+      "catalyst:Core CPI Flash Estimate y/y",
+      "time:05:00",
+      "catalyst:CPI Flash Estimate y/y"
+    ],
+    "queries": [
+      "Tuesday daily profile intraday ICT",
+      "Tuesday Potential Weekly High / Premium Entry ICT weekly delivery model",
+      "BOE Gov Bailey Speaks HIGH 10:00 New York ICT profile",
+      "Core CPI Flash Estimate y/y MEDIUM 05:00 New York ICT profile",
+      "CPI Flash Estimate y/y MEDIUM 05:00 New York ICT profile",
+      "Initial retracement higher to form weekly high, followed by downward expansion into weekly low, concluding with a liquidity run on NFP Friday. BOE Gov Bailey Speaks HIGH Tuesday",
+      "Initial retracement higher to form weekly high, followed by downward expansion into weekly low, concluding with a liquidity run on NFP Friday. Core CPI Flash Estimate y/y MEDIUM Tuesday",
+      "Initial retracement higher to form weekly high, followed by downward expansion into weekly low, concluding with a liquidity run on NFP Friday. CPI Flash Estimate y/y MEDIUM Tuesday",
+      "BOE Gov Bailey Speaks HIGH london close window New York",
+      "BOE Gov Bailey Speaks HIGH ny 1000 macro New York"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_2915",
+      "chunk_4024",
+      "chunk_4017",
+      "chunk_3660",
+      "chunk_516",
+      "chunk_4205",
+      "chunk_599",
+      "chunk_1299",
+      "chunk_946",
+      "chunk_1927",
+      "chunk_281",
+      "chunk_2111",
+      "chunk_1602",
+      "chunk_3820",
+      "chunk_1607",
+      "chunk_3556",
+      "chunk_797",
+      "chunk_3674",
+      "chunk_863",
+      "chunk_1016",
+      "chunk_1318",
+      "chunk_1031",
+      "chunk_602",
+      "chunk_578"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Classic Tuesday High of the Week",
+        "chunk_id": "chunk_2915",
+        "relevance": null
+      },
+      {
+        "concept": "CPI Day Significance",
+        "chunk_id": "chunk_4024",
+        "relevance": null
+      },
+      {
+        "concept": "Buy Side Liquidity on CPI Day",
+        "chunk_id": "chunk_3660",
+        "relevance": null
+      },
+      {
+        "concept": "Caution on CPI Trading",
+        "chunk_id": "chunk_4205",
+        "relevance": null
+      },
+      {
+        "concept": "Post-CPI Volatility",
+        "chunk_id": "chunk_599",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Profile Early-Week Turning Points",
+        "chunk_id": "chunk_946",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Profile as a Roadmap",
+        "chunk_id": "chunk_1927",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Today, Tuesday, is anticipated to serve as a potential day for the formation of the weekly high, aligning with the dominant bearish weekly profile. Price is expected to make an initial move higher, likely fueled by Eurozone CPI data in the London session, presenting premium entry opportunities for short positions. This move aims to draw in institutional selling before a subsequent downward expansion later in the week. US labor data (JOLTS) and a BOE Governor's speech in the New York session may also induce significant repricing and expansion.",
+    "key_if_then_paths": [
+      {
+        "if": "Price rallies into the London or New York session, potentially driven by Eurozone CPI data.",
+        "then": "It may establish the weekly high, presenting premium entry opportunities for short positions, aligning with the overall bearish weekly outlook."
+      },
+      {
+        "if": "Eurozone CPI data released today indicates persistent or higher-than-expected inflation.",
+        "then": "This could reinforce the bearish outlook for the Euro, contributing to the broader market's bearish sentiment as outlined in the weekly narrative."
+      },
+      {
+        "if": "US JOLTS Job Openings data shows a significant weakening in labor market conditions.",
+        "then": "This could contribute to the market's 'softening labor market' concerns, although its immediate impact on the overall bearish delivery model will need to be observed for confirmation."
+      },
+      {
+        "if": "Price fails to form a clear high and instead pushes significantly lower early in the day.",
+        "then": "This would challenge the expected 'initial retracement higher' model for the early week, potentially shifting the intraday thesis, but the overall weekly bearish bias would remain."
+      }
+    ],
+    "invalidation_conditions": "The primary daily and weekly bearish thesis would be invalidated if price sustains a significant push above the expected premium arrays for the week, fails to establish a clear weekly high by Wednesday, or if economic data (particularly from the Eurozone or US) triggers a strong and sustained bullish repricing that contradicts the underlying inflation and labor market concerns."
+  },
+  "intraday_awareness": {
+    "session_focus": {
+      "london_session": "Focus on the Eurozone CPI Flash Estimates (Core and Headline). These are high-impact events with the potential for immediate repricing or to facilitate the initial move higher to establish the weekly high. Accumulation phases around the Italian Bank Holiday prior to London Open should be noted.",
+      "new_york_session": "Attention on BOE Governor Bailey's speech and US JOLTS Job Openings. These are high/medium impact events scheduled for the New York morning (10:00 AM NYT) and have the potential to drive expansion or significant repricing, especially in the context of the anticipated weekly high formation."
+    },
+    "catalyst_priorities": [
+      "Italian Bank Holiday",
+      "Core CPI Flash Estimate y/y",
+      "CPI Flash Estimate y/y",
+      "BOE Gov Bailey Speaks",
+      "JOLTS Job Openings",
+      "GDP q/q"
+    ],
+    "caution_flags": [
+      "The low confidence (0.4) for today being *the* weekly high suggests potential for the high to form tomorrow (Wednesday) instead.",
+      "Today is a significant CPI day for the Eurozone, which is highlighted as a 'big event' that can lead to a 'tsunami of price action' and requires caution against pre-emptive trading positions (chunk_4024, chunk_4205, chunk_599).",
+      "High-impact events in both London (Eurozone CPI) and New York (BOE Gov Bailey, JOLTS) increase the potential for volatility and unpredictable price movements."
+    ],
+    "execution_risk_context": "Trading on Tuesday carries elevated execution risk due to the confluence of high-impact economic data from the Eurozone and US, coupled with the expectation of price making a 'potential weekly high'. This implies that initial price action might be counter-trend (upward) before potentially reversing to confirm the bearish weekly profile. Volatility is expected to be high around CPI and NY open events, making precise entry and exit critical. The market might engage in 'buy side liquidity wrestling' (chunk_3660) around CPI, requiring careful observation for confirmation before taking directional positions."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-02T06:04:24.060Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-02T06:04:49.554Z",
+  "version": 1
+}

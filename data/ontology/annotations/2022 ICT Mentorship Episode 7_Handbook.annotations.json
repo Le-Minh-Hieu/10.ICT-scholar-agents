@@ -1,0 +1,482 @@
+[
+  {
+    "chunk_id": "chunk_373",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "BUY-SIDE LIQUIDITY",
+          "buy-side liquidity",
+          "relative equal highs",
+          "these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run on price taking out buy-side liquidity",
+          "Price ran above these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_TRIGGER",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broke below a swing low"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "STRUCTURAL_CHANGE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DRAW",
+        "confidence": 0.98,
+        "surface_terms": [
+          "PRICE DRAW",
+          "where is it going to trade to next?",
+          "Price ran out to these targets"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midpoint"
+        ],
+        "narrative_roles": [
+          "REBALANCE_POINT",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE_POINT",
+          "POTENTIAL_TARGET",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BUY-SIDE LIQUIDITY AND PRICE DRAW",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_374",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "traded below a low, taking sell liquidity out of the marketplace",
+          "Once the sell side was taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "PRECURSOR_TO_RETRACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retrace back up into the range",
+          "retrace back inside the range"
+        ],
+        "narrative_roles": [
+          "PRICE_CORRECTION",
+          "EXPECTED_MOVE_AFTER_LIQUIDITY_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the range, defined by a specific high to that low",
+          "the range of this high and this low"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_CONTEXT",
+          "PRICE_BOUNDARY",
+          "REFERENCE_FOR_PREMIUM_DISCOUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium market (above equilibrium)",
+          "discount"
+        ],
+        "narrative_roles": [
+          "VALUE_ASSESSMENT",
+          "PRICE_CONTEXT_RELATIVE_TO_EQUILIBRIUM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium",
+          "above equilibrium",
+          "around equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_CONTEXT",
+          "ZONE_OF_UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidated around equilibrium",
+          "EQUILIBRIUM CONSOLIDATION"
+        ],
+        "narrative_roles": [
+          "UNCERTAINTY",
+          "RANGE_BOUND",
+          "BIAS_OBSCURATION",
+          "PRICE_INDETERMINACY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET RETRACEMENT AND EQUILIBRIUM CONSOLIDATION",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_375",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market's bias",
+          "anticipated something bearish",
+          "expectation for Tuesday's trading"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "DIRECTIONAL_PREFERENCE",
+          "DECISION_MAKING"
+        ],
+        "temporal_tags": [
+          "Tuesday's trading",
+          "February 8, 2022"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "sweep that area",
+          "take it down and sweep that area"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "TRAP_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "what the market is going to do right after the open"
+        ],
+        "narrative_roles": [
+          "INTEL_GATHERING",
+          "ENTRY_CONFIRMATION",
+          "INITIAL_DIRECTION_GUESS"
+        ],
+        "temporal_tags": [
+          "right after the open",
+          "9:30 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "moving to lower time frame charts"
+        ],
+        "narrative_roles": [
+          "REFINEMENT",
+          "TRADE_PLANNING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE NEED FOR MORE INTEL",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_376",
+    "concepts": [
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "From a high down to a low",
+          "sell scenario",
+          "bearish bias"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "TRADING_STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [
+          "each day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic delivery",
+          "'spooling'",
+          "price is expanding directionally"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_ACTION_EXPLANATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC DELIVERY AND EMBRACING IMPERFECTION IN TRADING",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_377",
+    "concepts": [
+      {
+        "canonical": "NARRATIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "'narrative'",
+          "logical reason and greater context"
+        ],
+        "narrative_roles": [
+          "GUIDING_PRINCIPLE",
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_GRAB",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a low taken out",
+          "a high taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MISCONCEPTION_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEFT_SIDE_OF_CHART",
+        "confidence": 1,
+        "surface_terms": [
+          "'left side of the chart'",
+          "past price action"
+        ],
+        "narrative_roles": [
+          "HINDSIGHT_BIAS",
+          "EDUCATION_CRITIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HARD_RIGHT_EDGE",
+        "confidence": 1,
+        "surface_terms": [
+          "'hard right edge'",
+          "live market action"
+        ],
+        "narrative_roles": [
+          "REAL_TIME_EXECUTION",
+          "SKILL_DEVELOPMENT_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "unrealistic picture",
+          "false sense of security",
+          "false confidence",
+          "analysis paralysis",
+          "realistic trading expectations"
+        ],
+        "narrative_roles": [
+          "EXPECTATION_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "SELF_MASTERY",
+          "COGNITIVE_BIAS_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF NARRATIVE AND REALISTIC TRADING EXPECTATIONS",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_378",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trades below the old low",
+          "goes down once more, below the old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "10:04"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "that candle's low",
+          "old low",
+          "lowest low of the previous dip"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "STOP_LOSS_REFERENCE"
+        ],
+        "temporal_tags": [
+          "10:04"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "stop placement",
+          "just below that low, maybe one tick"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "10:04"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE ENTRY AND STOP PLACEMENT DETAIL",
+      "source_file": "2022 ICT Mentorship Episode 7_Handbook.chunks.json"
+    }
+  }
+]

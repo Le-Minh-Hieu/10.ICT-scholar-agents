@@ -1,0 +1,226 @@
+[
+  {
+    "chunk_id": "chunk_1114",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commitment of Traders reports",
+          "COT data"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS_TOOL",
+          "INSTITUTIONAL_FOOTPRINT_ANALYSIS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INTEREST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "largest open interest contract",
+          "open interest"
+        ],
+        "narrative_roles": [
+          "DATA_SELECTION_CRITERIA",
+          "RELEVANT_CONTRACT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOCATING AND SETTING UP COT DATA ON BARCHART.COM",
+      "source_file": "ICT Forex - COT Insights For Effective Price Action Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1115",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COT ANALYSIS",
+          "Commitment of Traders"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "INSTITUTIONAL_POSITIONING_ANALYSIS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME",
+          "THREE_YEARS_DATA"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIGURING THE CHART FOR COT ANALYSIS",
+      "source_file": "ICT Forex - COT Insights For Effective Price Action Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1116",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_REPORT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Commercials (red line)",
+          "willingness to be a buyer or seller",
+          "major key turning points"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "REVERSAL_PREDICTION",
+          "TRADE_CONFIDENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEVERAGING COMMERCIAL DATA FOR TRADE CONFIDENCE",
+      "source_file": "ICT Forex - COT Insights For Effective Price Action Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1117",
+    "concepts": [
+      {
+        "canonical": "COMMERCIAL_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "commercial holdings",
+          "Commercials are in a net long position",
+          "accumulation"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_TRACKING",
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_ENGINEERING_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price drops below equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "DISCOUNT_ENTRY_AREA"
+        ],
+        "temporal_tags": [
+          "weekly timeframe"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price gets above equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TAKING_AREA",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT_BULLISH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price drops below equal lows on a weekly timeframe, and Commercials are in a net long position, This accumulation precedes a move where price gets above equal highs"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [
+          "weekly timeframe"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL ACCUMULATION AND PRICE ACTION",
+      "source_file": "ICT Forex - COT Insights For Effective Price Action Analysis_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1118",
+    "concepts": [
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Commercials swing below the zero line",
+          "If they are bullish (net long) and then swing down below the zero line",
+          "moving from a heavy long position to a heavy net short position",
+          "net short position by the Commercials"
+        ],
+        "narrative_roles": [
+          "MACRO_SENTIMENT_ANALYSIS",
+          "DIRECTIONAL_BIAS_GENERATION",
+          "SIGNAL_TIMING_CLARIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional order flow dictates"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM_EXPLANATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "orders need to be 'tagged' first",
+          "some measure of liquidity ran out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL",
+          "SIGNAL_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DIRECTIONAL CHANGE",
+      "source_file": "ICT Forex - COT Insights For Effective Price Action Analysis_Handbook.chunks.json"
+    }
+  }
+]

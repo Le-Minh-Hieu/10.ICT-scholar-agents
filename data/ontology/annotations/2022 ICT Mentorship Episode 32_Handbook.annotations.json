@@ -1,0 +1,419 @@
+[
+  {
+    "chunk_id": "chunk_243",
+    "concepts": [
+      {
+        "canonical": "OUTSIDE_DAY_CANDLESTICK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'Outside Day'",
+          "Outside Day",
+          "down close",
+          "A high that is higher than the previous day's high. This means the entire day's range extends beyond the previous day's range."
+        ],
+        "narrative_roles": [
+          "DAILY_BIAS_INDICATOR",
+          "CONTEXTUAL_PATTERN"
+        ],
+        "temporal_tags": [
+          "DAILY_REFERENCE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_LIQUIDITY_INDUCEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'double bottom' idea"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET_INDICATOR",
+          "MISDIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "run through that old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_NON_ENGAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market trades down to an old low but falls short of it",
+          "market stops short of the old low"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PREDICTION",
+          "RANGE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND_MARKET_CONDITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "choppy trading day"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING THE OUTSIDE DAY DOWN CLOSE",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_244",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HOURLY AND 5-MINUTE CHARTS",
+          "On the hourly chart",
+          "zoom into the 5"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific fractal"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Old highs near 3933 and a quarter",
+          "This level was repeatedly mentioned as a target for price to trade up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_ATTRACTION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "false moves"
+        ],
+        "narrative_roles": [
+          "TRADER_TRAP",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY AND 5-MINUTE CHARTS",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_245",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_HUNT",
+          "ORDER_FLOW_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_UTILIZATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pairing with that liquidity"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_FACILITATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pulling back to the middle of the range"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_INDICATION",
+          "MARKET_REBALANCE",
+          "EQUILIBRIUM_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADDRESSING CRITICS AND THE VALUE OF DETAILED GUIDANCE",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_246",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run on stops",
+          "raid",
+          "stop hunt",
+          "liquidity grab"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.85,
+        "surface_terms": [
+          "return to the middle of the range"
+        ],
+        "narrative_roles": [
+          "PRICE_REVERSION",
+          "REBALANCE",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREDICTIVE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "analysis was shared",
+          "predicted before the market even moved to that level",
+          "accurately call the market"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWITTER ENGAGEMENT AND SON'S TRADING PROGRESS",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_247",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROOF, TRANSPARENCY, AND DISPELLING INDICATOR DEPENDENCE",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_248",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "trades above previous highs",
+          "protective buy stops from short positions transform into a 'rushing liquidity wave'",
+          "'rushing liquidity wave'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [
+          "3:00 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.92,
+        "surface_terms": [
+          "middle of the daily range",
+          "middle of today's range",
+          "gravitate back to the middle of the daily range"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "MEAN_REVERSION",
+          "POST_MANIPULATION_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMART MONEY UTILIZATION OF BUY-SIDE LIQUIDITY"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY UTILIZATION OF BUY-SIDE LIQUIDITY",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_249",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Move outside the bounds of the daily range",
+          "trap both longs (who are 'raped across the coals')",
+          "shorts (who are stopped out)",
+          "'raped across the coals'",
+          "'stopped out'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP_LIQUIDITY",
+          "MARKET_MANIPULATION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "3:00 PM",
+          "4:00 PM",
+          "3-4 PM WINDOW"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "outlined short entry at 3:00 PM"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "COUNTER_TREND_ENTRY"
+        ],
+        "temporal_tags": [
+          "3:00 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "partial profit taken",
+          "two contracts still floating",
+          "Another partial was taken"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGY FOR CHOPPY DAYS AND 3-4 PM WINDOW",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_250",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FUTURE PLANS AND SON'S CONTINUED SUCCESS",
+      "source_file": "2022 ICT Mentorship Episode 32_Handbook.chunks.json"
+    }
+  }
+]

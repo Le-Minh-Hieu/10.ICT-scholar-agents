@@ -1,0 +1,1000 @@
+[
+  {
+    "chunk_id": "chunk_3114",
+    "concepts": [
+      {
+        "canonical": "PREVIOUS_DAY_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "PREVIOUS DAY'S HIGH AND LOW",
+          "previous day's high and low",
+          "previous day's highs and lows",
+          "last three days' high and low",
+          "one of these levels (previous day's high or low)",
+          "previous day highs and lows",
+          "reference points",
+          "swing points based on a daily chart"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY",
+          "DAILY",
+          "MULTI_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREVIOUS DAY'S HIGH AND LOW AS REFERENCE POINTS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3115",
+    "concepts": [
+      {
+        "canonical": "TRADITIONAL_PIVOT_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Floor Traders pivot numbers",
+          "Central Pivot Point",
+          "0 GMT pivots",
+          "M3",
+          "M4",
+          "M5",
+          "R1",
+          "R2 Pivot Point",
+          "R3"
+        ],
+        "narrative_roles": [
+          "OBSERVATIONAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0_GMT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING FLOOR TRADERS PIVOT NUMBERS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3116",
+    "concepts": [
+      {
+        "canonical": "FLOOR_TRADERS_PIVOTS",
+        "confidence": 1,
+        "surface_terms": [
+          "FLOOR TRADERS PIVOT NUMBERS",
+          "Pivot Points"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_PIVOT",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Pivot"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_PIVOTS",
+        "confidence": 1,
+        "surface_terms": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MID_PIVOTS",
+        "confidence": 1,
+        "surface_terms": [
+          "M2",
+          "M1",
+          "M0"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FLOOR TRADERS PIVOT NUMBERS BELOW CENTRAL PIVOT",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3117",
+    "concepts": [
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pivot points",
+          "these levels"
+        ],
+        "narrative_roles": [
+          "REINTERPRETATION_OF_RETAIL_TOOL",
+          "PRICE_REFERENCE_LEVELS",
+          "SMART_MONEY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the retail crowd",
+          "how to trade pivot points like the retail crowd"
+        ],
+        "narrative_roles": [
+          "AVOID_RETAIL_STRATEGY",
+          "SMART_MONEY_CONTRAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_OBJECTIVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "filling the numbers"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "MARKET_EFFICIENCY",
+          "OBJECTIVE_COMPLETION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PIVOT POINT INDICATOR AND INTERPRETATION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3118",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CENTRAL BANK DEALERS RANGE",
+          "CBDR",
+          "Central Bank"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "RANGE_DEFINITION",
+          "LEVEL_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order flow direction"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CBDR_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the CBDR itself as a level",
+          "lowest figure",
+          "first of four levels",
+          "four Central Bank Dealers Range lows"
+        ],
+        "narrative_roles": [
+          "ENTRY_GUIDANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING THE CENTRAL BANK DEALERS RANGE (CBDR)",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3119",
+    "concepts": [
+      {
+        "canonical": "CBDR",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR low",
+          "CBDR",
+          "CBDR high",
+          "CBDR projections or standard deviations"
+        ],
+        "narrative_roles": [
+          "REFERENCE_RANGE",
+          "PRICE_TARGET_GENERATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGETS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Level 1",
+          "Level 2",
+          "Level 3",
+          "Level 4",
+          "standard deviations lower",
+          "new range projection",
+          "standard deviation",
+          "four of these to fill",
+          "CBDR highs",
+          "Level 4 count",
+          "numbers being filled",
+          "four pivots intraday",
+          "four CBDR projections or standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "TARGET_IDENTIFICATION",
+          "MEASURING_PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "intraday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "IPA",
+          "This is an example of IPA",
+          "This phenomenon is similar to pivots but unique to my methodology."
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_EXPLANATION",
+          "PREDICTIVE_FRAMEWORK",
+          "PRICE_DELIVERY_ALGORITHM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOTS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "pivots",
+          "four pivots intraday"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_TARGET_GENERATION"
+        ],
+        "temporal_tags": [
+          "intraday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORTING AND BUYING",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3120",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range",
+          "Asian Range High"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "STRUCTURAL_REFERENCE",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [
+          "after midnight"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ANALYSIS_TOOL",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "count the high of the Asian range as Level 1",
+          "Expect the market to trade up four Asian range highs",
+          "Level Number 1",
+          "Level Number 2",
+          "Level Number 3",
+          "Level Number 4",
+          "four is just the general rule of thumb"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "PROFIT_TAKING",
+          "EXPANSION_MODEL",
+          "STRATEGY_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "order flow direction"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING THE ASIAN RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3121",
+    "concepts": [
+      {
+        "canonical": "PRICE_DELIVERY_OBJECTIVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "COMPREHENSIVE STRATEGY FOR FILLING THE NUMBERS",
+          "Filling The Numbers"
+        ],
+        "narrative_roles": [
+          "TRADE_OBJECTIVE",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Matrix"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "PRICE_TARGETING",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily and 4-hour charts",
+          "daily or 4-hour"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York's midnight candle"
+        ],
+        "narrative_roles": [
+          "SETUP_TIMING",
+          "DAILY_RANGE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "REVERSAL_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "standard deviation",
+          "standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "RANGE_PROJECTION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PIVOT_POINTS",
+        "confidence": 1,
+        "surface_terms": [
+          "Pivots",
+          "four levels on the pivots"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CBDR",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "LIQUIDITY_REFERENCE",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "LIQUIDITY_REFERENCE",
+          "SWING_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "overlap and converge"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_SETUP",
+          "ENTRY_CONFIRMATION",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "looking to go short"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time of day"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SETUP_TIMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_TOOL_GENERIC",
+        "confidence": 0.7,
+        "surface_terms": [
+          "Flout"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_SESSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London"
+        ],
+        "narrative_roles": [
+          "SESSION_VOLATILITY",
+          "RANGE_EXPANSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_RANGE_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "80 percent of the range"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "VOLATILITY_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMPREHENSIVE STRATEGY FOR FILLING THE NUMBERS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3122",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS_PROJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "REFINING DAILY HIGH/LOW",
+          "narrow down exactly where price is most likely going to go"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "morning"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "POSITION MANAGEMENT",
+          "leave a small piece of your position on"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_OUT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price going further than you thought; this is why you leave a small piece of your position on"
+        ],
+        "narrative_roles": [
+          "PROFIT_OPTIMIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "some measure of standard deviation"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "PRICE_PROJECTION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "IPA will fill the numbers"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_BEHAVIOR",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CURRENCY_PAIRS",
+        "confidence": 1,
+        "surface_terms": [
+          "Cable and Fiber",
+          "Kiwi and Aussie"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_SELECTION",
+          "SPECIALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING DAILY HIGH/LOW AND POSITION MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3123",
+    "concepts": [
+      {
+        "canonical": "DAILY_RANGE_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily highs and lows",
+          "how far that daily range is going to go",
+          "daily range knowledge",
+          "trading range"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "ENTRY_CONFIRMATION",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Average Daily Range (ADR)"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "CONFLUENCE",
+          "overlap with these concepts",
+          "Blending several of these concepts together"
+        ],
+        "narrative_roles": [
+          "TRADE_CONFIRMATION",
+          "PRECISION_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF DAILY RANGE KNOWLEDGE AND CONFLUENCE",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3124",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "traded down below sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LOW_FORMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "8:30_NEWS",
+          "WEEK"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE",
+          "LOW_FORMATION",
+          "PRICE_ANCHOR",
+          "PD_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range",
+          "Asian range low",
+          "Asian range standard deviations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_DEFINITION",
+          "SUPPORT_RESISTANCE",
+          "RANGE_PROJECTION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "AFTER_MIDNIGHT",
+          "4_GMT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "VALUE_AREA",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "PRICE_MAGNET",
+          "TARGET_JUSTIFICATION",
+          "IMBALANCE",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "PIVOT_POINT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Pivots"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "LIQUIDITY_REFERENCE",
+          "TECHNICAL_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CBDR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CBDR standard deviations"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.75,
+        "surface_terms": [
+          "50 percent range"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE",
+          "RANGE_REFERENCE",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL-TIME EXAMPLE AND FINAL THOUGHTS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Filling The Numbers_Handbook.chunks.json"
+    }
+  }
+]

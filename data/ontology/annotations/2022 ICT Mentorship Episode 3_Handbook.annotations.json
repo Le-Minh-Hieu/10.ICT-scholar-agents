@@ -1,0 +1,532 @@
+[
+  {
+    "chunk_id": "chunk_311",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shift"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOMEWORK AND PREPARATORY STUDY",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_312",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trades down into the sell-side liquidity, running through it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clearing the equal highs where buy stops have been taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shift"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET INTERACTION WITH LIQUIDITY ZONES",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_313",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shifts",
+          "intraday market structure shifts",
+          "intraday bearish market structure shift",
+          "Market Structure Shift"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_SIGNAL",
+          "INTRADAY_BIAS"
+        ],
+        "temporal_tags": [
+          "intraday",
+          "later the same day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_BREAK",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure breaks",
+          "break",
+          "Market Structure Break"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "MACRO_BIAS_SHIFT"
+        ],
+        "temporal_tags": [
+          "multi-day movement",
+          "prolonged movement"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE SHIFT VS. BREAK: INTRADAY CONTEXT",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_314",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block discussion",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING THE 2-MINUTE CHART AND ELIMINATING BIAS",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_315",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "traded into sell stops below an old low",
+          "double bottom",
+          "single low",
+          "under what retail would view as 'support'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high break",
+          "taken out by a subsequent candle"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SIGNIFICANCE OF A SHORT-TERM HIGH BREAK",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_316",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "UNDERSTANDING LIQUIDITY",
+          "buy stops",
+          "old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LOCATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "when price trades above old highs",
+          "expect buy stops there"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The notion that buying/selling strength or pressure dictates price movement is flawed from an algorithmic perspective",
+          "Algorithms don't care about these conventional theories or market chatter"
+        ],
+        "narrative_roles": [
+          "ICT_CORE_BELIEF",
+          "COUNTER_TRADITIONAL_THEORIES",
+          "FRAMEWORK_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_MINDSET_DEVELOPMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DISPELLING MISCONCEPTIONS",
+          "Dismiss all opinions adopted from others, and examine the charts for yourself."
+        ],
+        "narrative_roles": [
+          "LEARNING_METHODOLOGY",
+          "CRITICAL_THINKING",
+          "SELF_RELIANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING LIQUIDITY AND DISPELLING MISCONCEPTIONS",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_317",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "market structure shift",
+          "the shift"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY SWEEP",
+          "run above relative equal highs",
+          "liquidity has been taken from the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high",
+          "a candle with a higher high than the candles immediately before and after it"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_POINT",
+          "ENTRY_CONFIRMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOPS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION OF MARKET STRUCTURE SHIFT AFTER LIQUIDITY SWEEP",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_318",
+    "concepts": [
+      {
+        "canonical": "ICT_CHARTING_METHODOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CLEAN CHARTS",
+          "a very clean chart",
+          "only add a few annotations",
+          "as extensive as our charting gets"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "BEST_PRACTICE",
+          "SIMPLICITY_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "price action"
+        ],
+        "narrative_roles": [
+          "FOCUS_OF_ANALYSIS",
+          "CORE_DATA_STREAM",
+          "PRIMARY_INFORMATION_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_MARKET_DRIVERS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Algorithms"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM_UNDERSTANDING",
+          "DISCREDITING_TRADITIONAL_INDICATORS",
+          "INSTITUTIONAL_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLEAN CHARTS VS. OVER-ANNOTATED CHARTS",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_319",
+    "concepts": [
+      {
+        "canonical": "SELL_STOP_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops",
+          "this liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "dives into this liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGETED",
+          "REVERSAL_SETUP_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "shift in market structure",
+          "rallies above the previous short term high",
+          "The high is taken",
+          "trade above it",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL STOPS, MARKET STRUCTURE SHIFT, AND FAIR VALUE GAP",
+      "source_file": "2022 ICT Mentorship Episode 3_Handbook.chunks.json"
+    }
+  }
+]

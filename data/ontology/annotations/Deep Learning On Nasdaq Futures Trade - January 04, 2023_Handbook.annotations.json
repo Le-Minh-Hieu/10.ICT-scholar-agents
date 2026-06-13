@@ -1,0 +1,2583 @@
+[
+  {
+    "chunk_id": "chunk_477",
+    "concepts": [
+      {
+        "canonical": "NON_FARM_PAYROLL",
+        "confidence": 1,
+        "surface_terms": [
+          "NON-FARM PAYROLL WEEKS",
+          "New York Non-Farm Payroll",
+          "employment numbers"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT",
+          "MARKET_TURBULENCE_CATALYST"
+        ],
+        "temporal_tags": [
+          "first week of every month",
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREFERRED_TRADING_DAYS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "only focusing on Monday, Tuesday, and Wednesday"
+        ],
+        "narrative_roles": [
+          "TRADING_GUIDELINE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CHARACTERISTICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tends to be a little choppy, a little less likely to be as precise"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Thursday and Friday of that week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "square positions"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADING_GUIDELINE"
+        ],
+        "temporal_tags": [
+          "overnight from Tuesday into Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "SESSION_TIMING"
+        ],
+        "temporal_tags": [
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_478",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "FOMC today at two o'clock"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [
+          "TWO_O_CLOCK_ET",
+          "TODAY"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGET",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame PD array"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_ZONE",
+          "REACTION_LEVEL",
+          "CONTEXTUAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs",
+          "take out relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_SWEEP_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "BEHAVIORAL_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATION AND PRECISION IN PRICE DELIVERY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_479",
+    "concepts": [
+      {
+        "canonical": "FRACTAL_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTAL LOWS",
+          "this low here",
+          "that fractal",
+          "that low inside this price action"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION",
+          "ENTRY_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTAL LOWS AND FUTURES CONTRACT SYMBOLS",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_480",
+    "concepts": [
+      {
+        "canonical": "FUTURES_CONTRACT_MECHANICS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FUTURES CONTRACT SYMBOLS",
+          "ESH2023",
+          "front month",
+          "March delivery",
+          "H in the name of the symbol",
+          "delivery contract",
+          "When that expires",
+          "we'll be going to June"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_IDENTIFICATION",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [
+          "March",
+          "June"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTRUMENT_EQUIVALENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "US 100, it's equivalent",
+          "ES in the US markets",
+          "US 500",
+          "equivalent would be US 500",
+          "Nasdaq Futures Trade",
+          "S&P",
+          "US markets"
+        ],
+        "narrative_roles": [
+          "BROKER_PLATFORM_SETUP",
+          "INSTRUMENT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRACTAL LOWS AND FUTURES CONTRACT SYMBOLS",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_481",
+    "concepts": [
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal highs",
+          "The equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_TIME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "an imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCING"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_TIME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOWER TIME FRAME ANALYSIS AND CHART SETTINGS",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_482",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY SIDE IMBALANCE, SELL SIDE INEFFICIENCY (BISI)",
+          "Buy Side Imbalance, Sell Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "PRICE_ACTION_CONTEXT",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "January 3rd",
+          "Tuesday, January 3rd"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_CANDLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down-closed candle"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONTEXT",
+          "PATTERN_COMPONENT"
+        ],
+        "temporal_tags": [
+          "January 3rd",
+          "Tuesday, January 3rd"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "FIVE-MINUTE CHART",
+          "one-minute chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FIVE-MINUTE CHART AND BUY SIDE IMBALANCE, SELL SIDE INEFFICIENCY (BISI)",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_483",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergences",
+          "relative strength analysis"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance",
+          "daily volume imbalance",
+          "shaded area"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "potential draw",
+          "attack number one, the buy side here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DISCOUNT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "deep discount"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY_CONDITION",
+          "REVERSAL_SETUP",
+          "LOW_RISK_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "one-minute Fair Value Gap",
+          "Buy Side Imbalance, Sell Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "REVERSAL_SETUP",
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "one-minute"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EQUIVALENTS FOR NON-US TRADERS AND MARKET ANTICIPATION",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_484",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "BISI",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "MARKER_OF_IMBALANCE",
+          "SUPPORT_ZONE",
+          "PROTECTIVE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AND MARKET STRUCTURE SHIFT",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_485",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "RELATIVE STRENGTH ANALYSIS (SMT DIVERGENCE)",
+          "SMT divergences",
+          "compare and contrast for SMT divergences"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_CONFIRMATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RELATIVE STRENGTH ANALYSIS (SMT DIVERGENCE)",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_486",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_STRENGTH_WEAKNESS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IDENTIFYING THE RELATIVE STRENGTH LEADER",
+          "ES is not showing the strength to the upside that NASDAQ is here",
+          "NASDAQ is lower, but ES is higher",
+          "stronger higher punch through by NQ"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "BIAS_FORMATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term high that's been taken out",
+          "short-term high was taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "a Fair Value Gap was left",
+          "Buy Side Imbalance, Sell Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "POTENTIAL_REACTION_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE RELATIVE STRENGTH LEADER",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_487",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_STRENGTH_WEAKNESS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative strength analysis",
+          "relative strength leader"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "ASSET_SELECTION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "prominent of a break",
+          "break out higher, faster, stronger"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "STRENGTH_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE RELATIVE STRENGTH LEADER",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_488",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Buy Side Imbalance, Sell Side Inefficiency (BISI)",
+          "B-I-S-I"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Sell Side Imbalance, Buy Side Inefficiency (SIBI)",
+          "S-I-B-I"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BISI AND SIBI DEFINITIONS AND USAGE",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_489",
+    "concepts": [
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "BALANCED PRICE RANGE",
+          "balanced price range",
+          "One single pass, one single pass"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ACCEPTANCE",
+          "ACCUMULATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "this Fair Value Gap",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_ENTRY_DRILL",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL ORDER ENTRY DRILL",
+          "institutional order flow entry drill",
+          "small little movement into a Fair Value Gap that doesn't completely close it in, and you can buy"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRICE_DELIVERY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The algorithm will not be priced back below that",
+          "High frequency trading algorithms use that as an entry model"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "MARKET_MECHANISM",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "not going to go back below that",
+          "will not be priced back below that",
+          "form support"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REACTION",
+          "ACCUMULATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "Non-Farm Payroll weeks"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY_DRIVER",
+          "PRICE_IMPACT",
+          "PRECISION_SKEW_FACTOR"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "NFP_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BALANCED PRICE RANGE AND INSTITUTIONAL ORDER ENTRY DRILL",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_490",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKAWAY GAPS",
+          "a breakaway gap"
+        ],
+        "narrative_roles": [
+          "TREND_INDICATION",
+          "CONTINUATION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "MEASURING GAPS",
+          "a measuring gap"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "CONTINUATION_CONFIRMATION",
+          "TREND_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down-closed candle, it's open price",
+          "anticipate an order block forming"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_ACTION_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side up here",
+          "target the bulk of our exits just above this high"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "LIQUIDITY_POOL",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "isn't getting filled in",
+          "when they're going to stay open",
+          "when they're likely going to be filled"
+        ],
+        "narrative_roles": [
+          "VALIDATION",
+          "INVALIDATION",
+          "STRENGTH_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKAWAY GAPS, MEASURING GAPS, AND SMART MONEY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_491",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "gaps or inefficiencies in price",
+          "inefficiencies in price",
+          "real liquidity void",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "ALGORITHMIC_PRICE_DELIVERY",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BISI (Buy Side Imbalance, Sell Side Inefficiency)",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance, Sell Side Inefficiency",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "ALGORITHMIC_PRICE_DELIVERY",
+          "MOMENTUM_INDICATOR",
+          "CONTINUATION",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKAWAY GAPS, MEASURING GAPS, AND SMART MONEY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_492",
+    "concepts": [
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BREAKAWAY GAPS"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURING_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MEASURING GAPS"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY",
+          "smart money",
+          "People like me and you"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "TARGET_AUDIENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "OPPORTUNITY_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "specific times of the day"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "all the signatures that you look for",
+          "signatures",
+          "justify your trade"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_ANTICIPATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "anticipate",
+          "know exactly what the market's likely to do more times than not"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "TRADING_EDGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKAWAY GAPS, MEASURING GAPS, AND SMART MONEY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_493",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "market maker buy model"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "PATTERN_RECOGNITION",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIVE SESSION EXPECTATIONS AND TRADE MAGNITUDE",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_494",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_REJECTION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "daily volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_TARGET",
+          "MAGNET_FOR_PRICE"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "almost stopped me out",
+          "let it take my stop",
+          "stop me out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_HIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC noise",
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "AVOID_TRADING",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "non-farm payroll event"
+        ],
+        "narrative_roles": [
+          "AVOID_TRADING",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "one good setup per week",
+          "lot of probabilities and statistical edge behind it and the logic"
+        ],
+        "narrative_roles": [
+          "TRADING_PHILOSOPHY",
+          "STRATEGY_GUIDANCE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "per week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT AND FOMC WARNINGS",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_495",
+    "concepts": [
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "these markets are absolutely controlled to the smallest degree"
+        ],
+        "narrative_roles": [
+          "CORE_TENET",
+          "INSTITUTIONAL_PERSPECTIVE",
+          "EXPLANATORY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FOMC WARNINGS"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT",
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "FOMC_ANNOUNCEMENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "TRADE MANAGEMENT",
+          "management of the trade"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_SIZING",
+          "POST_ENTRY_PROTOCOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT AND FOMC WARNINGS",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_496",
+    "concepts": [
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "PYRAMIDING",
+          "pyramid more of this position"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_SCALING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "BALANCED PRICE RANGE",
+          "area of a balanced price range",
+          "protected area"
+        ],
+        "narrative_roles": [
+          "PRICE_REJECTION_ZONE",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "PROTECTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "a Fair Value Gap to form",
+          "a gap there",
+          "that gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "IMBALANCE_MITIGATION",
+          "CONTINUATION_SIGNAL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily volume imbalance"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "CONFLUENCE",
+          "PRICE_SIGNAL"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "attacking the liquidity",
+          "aggressively going to attack"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "MARKET_MANIPULATION",
+          "TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stop",
+          "buy side liquidity pool",
+          "buy stops above those equal highs"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MARKET_OBJECTIVE",
+          "FORECASTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PYRAMIDING AND BALANCED PRICE RANGE",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_497",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "gap",
+          "top of that Fair Value Gap",
+          "blue shade",
+          "Fair Value Gaps"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "ALGORITHMIC_REFERENCE",
+          "LIQUIDITY_REBALANCING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "naked charts are superior to indicator dribble",
+          "coded these things in price action"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_PREFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "time-based chart",
+          "without a time-based chart"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_PREREQUISITE",
+          "DATA_INTEGRITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC DELIVERY",
+          "The algorithms have no respect of any of that stuff",
+          "the algorithm actually refers to"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PREDICTABILITY_SOURCE",
+          "BEHAVIORAL_COGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalances"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_REFERENCE",
+          "ORDER_FLOW_ANALYSIS",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalances"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_REFERENCE",
+          "ORDER_FLOW_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BISI",
+        "confidence": 1,
+        "surface_terms": [
+          "BISI"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_REFERENCE",
+          "ORDER_FLOW_ANALYSIS",
+          "IMBALANCE_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_REFERENCE",
+          "ORDER_FLOW_ANALYSIS",
+          "IMBALANCE_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RETRACEMENT_OR_RETEST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "comes down into this little area in here",
+          "dug down into it two times",
+          "We went down into that blue shade ... twice",
+          "price to return back to them"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "VALIDATION",
+          "LIQUIDITY_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_CONSISTENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "repeating phenomenon",
+          "perform as they're coded",
+          "certain setups that are going to be very easy for you to trust"
+        ],
+        "narrative_roles": [
+          "PREDICTABILITY_SOURCE",
+          "TRUST_BUILDING",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC DELIVERY AND CHART TYPES",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_498",
+    "concepts": [
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "REJECTION BLOCK",
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side",
+          "buy sell liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "logical levels"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TOOL",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_IN_POSITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BUILDING POSITION",
+          "final partial entry",
+          "position's at 10 contracts"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "large ranges to just now come in",
+          "price to begin to start moving higher",
+          "Big candles",
+          "next series of big candles should be in what direction? Up"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MOVE",
+          "PRICE_ACTION_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUILDING POSITION AND REJECTION BLOCK TARGET",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_499",
+    "concepts": [
+      {
+        "canonical": "BULL_FLAG_MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "BULL FLAG MANIPULATION",
+          "classic bull flag, and retail traders may in fact want to try to go long in here. That right there would cause them to go long because it's a breakout",
+          "Watch what the algorithm does here. It's designed to do this very thing here. When bull flags are correct and it's anticipating a higher run in price, they will always likely do this very thing right there."
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RETAIL_PSYCHOLOGY_MANIPULATION",
+          "PRE_ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "put their stop loss right below the swing low",
+          "Boom! Stops are engaged",
+          "got stopped out",
+          "dip down just a little bit below that bottom of that highest blue rectangle",
+          "shallow little dip below that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION_TRIGGER",
+          "RETAIL_LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 1,
+        "surface_terms": [
+          "IOFED",
+          "institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_SETUP",
+          "ORDER_FLOW_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE_AREA",
+          "DRAW_ON_LIQUIDITY_TARGET",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULL FLAG MANIPULATION AND IOFED",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_500",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "IOFED",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_BIAS",
+          "LIQUIDITY_DRIVE",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BULL FLAG MANIPULATION",
+          "getting stopped out here",
+          "stopped out",
+          "touches just below that line there"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "RETAIL_LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_PATTERN_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BULL FLAG MANIPULATION",
+          "bull flags"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "MARKET_MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_OPTIMIZATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "post New York session on Wednesday",
+          "not as precise",
+          "real muddy during this particular time of the month"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADITIONAL_TECHNICAL_ANALYSIS_CRITIQUE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "classic support resistance",
+          "John Murphy's book, 'Technical Analysis of the Financial Markets,' it's not there folks"
+        ],
+        "narrative_roles": [
+          "ICT_PHILOSOPHY",
+          "METHODOLOGY_DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "go in with another partial and pyramid more"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_PSYCHOLOGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "When a retail trader gets stopped out, it's not likely that they will re-enter",
+          "retail trader"
+        ],
+        "narrative_roles": [
+          "MARKET_PSYCHOLOGY",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULL FLAG MANIPULATION AND IOFED",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_501",
+    "concepts": [
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "drops below that little trend line",
+          "dips down below that",
+          "one last little attempt to trick traders going short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down-closed candle",
+          "order block",
+          "bullish order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_POINT",
+          "LIQUIDITY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily volume imbalance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "PRICE_MAGNET",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "10987 level",
+          "run up above that 10987 level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONITORING AND MANAGING IN LIVE SESSION",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_502",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "RESISTANCE_LEVEL",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reach up into that rejection block",
+          "spike up in there",
+          "above the rejection block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PROFIT_TAKING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "FIRST PARTIAL PROFIT TAKING",
+          "two contracts will come off",
+          "selling two contracts",
+          "sell two of the 10 contracts"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PARTIAL_CLOSURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MARKET EXPANSION",
+          "spike up in there"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "IMPULSIVE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FIRST PARTIAL PROFIT TAKING AND MARKET EXPANSION",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_503",
+    "concepts": [
+      {
+        "canonical": "PARTIAL_PROFIT",
+        "confidence": 1,
+        "surface_terms": [
+          "SECOND PARTIAL PROFIT",
+          "take two contracts off"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "watch price action"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "LEARNING_METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AUDIO CHALLENGES AND SECOND PARTIAL PROFIT",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_504",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "measuring gap",
+          "shaded area in blue, that little thin one"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ORDER_FLOW_INDICATOR",
+          "PRICE_TARGET_PROJECTION",
+          "RE_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_DIRECTION_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "go up to 11050, 11060"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_LEVEL",
+          "MARKET_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "SECOND PARTIAL PROFIT",
+          "two contracts have been taken off as a partial"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "Stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expand more to the upside"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "MARKET_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AUDIO CHALLENGES AND SECOND PARTIAL PROFIT",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_505",
+    "concepts": [
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "expand through this",
+          "expand further on the outside",
+          "expand and make a big candle or a series of big candles going up",
+          "I want to see the expansion",
+          "candlesticks are forming and expanding more and more and more"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "gravitate towards that 11048 level, and then there's buy side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_POOL",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "THIRD PARTIAL PROFIT",
+          "trim it down to one contract at a time",
+          "take three of them off",
+          "taking one off",
+          "another one coming off",
+          "here's the third one",
+          "three I just peeled off",
+          "take three contracts above this level",
+          "peeling them off",
+          "not just dumping all of them",
+          "take three off"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PROFIT_REALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "moving that stop loss up"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURING_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "measuring gap"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_PATTERN",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOLS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pools of liquidity",
+          "dig into the pools of liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PRICE_ATTRACTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RUNNING_DOWN_EQUITY",
+        "confidence": 1,
+        "surface_terms": [
+          "running down equity"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_MAXIMIZATION",
+          "PARTIAL_PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THIRD PARTIAL PROFIT AND RUNNING DOWN EQUITY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_506",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "actual buy stops resting above"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targeted by the algorithm"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "went above 11018 and a quarter",
+          "expand above the high",
+          "make a big bold move above the candle time right there",
+          "make a new high",
+          "run up into this area here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CAPTURE",
+          "LIQUIDITY_TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "peeled off",
+          "taking off one, two contracts, one more contract",
+          "running down equity every time we make a new high, I'm peeling one off",
+          "taken the lion's portion of the move"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance",
+          "daily volume imbalance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes my stop loss",
+          "I don't care. I don't care because I've taken the lion's portion of the move."
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money would engage because this is where the liquidity is"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FLOW",
+          "LIQUIDITY_ENGAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRECISION_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "very precise about where I've entered with logic"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINAL CONTRACTS AND DAILY VOLUME IMBALANCE TARGET",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_507",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "daily volume imbalance",
+          "trade terminus",
+          "final target"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRAILING STOP LOSS AND MARKET DIFFERENCES",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_508",
+    "concepts": [
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs",
+          "relative equal high, that line drawn across them"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rebalance this range",
+          "this down-closed candle, if we come back up"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "POTENTIAL_REVERSAL_AREA",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAILING_STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trailed stop loss",
+          "trailing stop losses",
+          "how to trail stop losses",
+          "open the stop up wider while the trade's on"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROTECT_PROFIT",
+          "POSITION_MANAGEMENT",
+          "DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "take one of them off",
+          "I took one contract off here to reduce the likelihood of this thing if I got stopped out on the full two remaining contracts"
+        ],
+        "narrative_roles": [
+          "RISK_REDUCTION",
+          "PROTECT_PROFIT",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_EVENT_IMPACT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "Non-Farm Payroll week"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY",
+          "TRADING_CAUTION"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "NFP_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRAILING STOP LOSS AND MARKET DIFFERENCES",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_509",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs just above that relative equal high",
+          "runs above that and relative equal high to the left and fails"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal high",
+          "relative equal high to the left"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIALS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "peel that last one off",
+          "take partials along the way",
+          "peeling it off"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move your stop",
+          "being stopped out",
+          "take my stop",
+          "trailing stop loss",
+          "knowing where to place your stop loss",
+          "mine, stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time going into noon",
+          "that lunch hour is usually when we have a retracement"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "EXPECTATIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "NOON",
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-TRADE REVIEW AND ICT'S CHALLENGE TO THE COMMUNITY",
+      "source_file": "Deep Learning On Nasdaq Futures Trade - January 04, 2023_Handbook.chunks.json"
+    }
+  }
+]

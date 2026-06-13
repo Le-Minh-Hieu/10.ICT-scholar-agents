@@ -1,0 +1,1489 @@
+[
+  {
+    "chunk_id": "chunk_3079",
+    "concepts": [
+      {
+        "canonical": "BUY_PROGRAM",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY PROGRAMS",
+          "buy programs"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OFFSET_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Accumulate Sell Side Liquidity (Offset Accumulation)",
+          "Offset Accumulation"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "repricing under an old low",
+          "triggering sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell Side Liquidity",
+          "sell stops",
+          "short-term sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "SMART_MONEY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Re-accumulate Fair Value (Reaccumulation)",
+          "Reaccumulation"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION_MODEL",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "LIQUIDITY_POOL",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEAK_HANDS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Weak long holders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWO PRICE ENGINE MODELS FOR BUY PROGRAMS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3080",
+    "concepts": [
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Reaccumulation",
+          "UNDERSTANDING REACCUMULATION",
+          "Reaccumulation models"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION",
+          "DISCOUNT_PRICING_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "banks",
+          "IFTA",
+          "smart money",
+          "institutional perspective",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_ACTOR",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value price array",
+          "discount pricing",
+          "key discount arrays intraday"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "VALUE_IDENTIFICATION",
+          "OPTIMAL_TRADE_LOCATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "recent sell stop raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reprice the market lower",
+          "offering smart money discount pricing for long entries",
+          "places pain on current long holders",
+          "tending to induce selling",
+          "provides sell-side liquidity for smart money long entries",
+          "induce more sellers at discount pricing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GENERATION",
+          "MANIPULATION",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market will be bullish from an institutional perspective",
+          "bullish market conditions",
+          "higher time frame institutional order flow suggests higher prices"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING REACCUMULATION",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3081",
+    "concepts": [
+      {
+        "canonical": "SCALPING",
+        "confidence": 1,
+        "surface_terms": [
+          "REALISTIC SCALPING OBJECTIVES",
+          "Scalping",
+          "Trade Duration",
+          "Pips per Trade",
+          "Per Session"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "TRADE_MANAGEMENT_GUIDELINES",
+          "PROFIT_TARGETING_GUIDELINES",
+          "FREQUENCY_GUIDELINES",
+          "ASSET_SELECTION_GUIDELINES"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NEW_YORK",
+          "LONDON_CLOSE",
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REALISTIC SCALPING OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3082",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "KILL ZONE TIMING",
+          "Kill Zone",
+          "specific start and end times for each Kill Zone"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "major sessions"
+        ]
+      },
+      {
+        "canonical": "BULLISH_DAILY_RANGE_EXPECTATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BULLISH DAILY RANGE EXPECTATIONS",
+          "'up close days'",
+          "bullish days",
+          "daily range for completeness"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "DAILY_PROFILE_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame institutional order flow",
+          "market is poised to trade higher based on higher time frame institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_PRICE_DAILY_LOW_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the expectation is for the open to be at or near the low of the daily range"
+        ],
+        "narrative_roles": [
+          "DAILY_PROFILE_ANTICIPATION",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "A small decline below the opening price can occur."
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE_REFERENCES",
+        "confidence": 1,
+        "surface_terms": [
+          "0 GMT (Asia open)",
+          "midnight New York time",
+          "The opening prices referred to"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "MARKET_REFERENCE"
+        ],
+        "temporal_tags": [
+          "0 GMT",
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "Asia open"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KILL ZONE TIMING AND BULLISH DAILY RANGE EXPECTATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3083",
+    "concepts": [
+      {
+        "canonical": "DAILY_FLOW_TEMPLATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TYPICAL BULLISH DAILY PRICE ACTION FLOW",
+          "typical flow for a bullish day"
+        ],
+        "narrative_roles": [
+          "MARKET_EXPECTATION",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_OPEN_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London Open posts the initial leg higher intraday, often volatile and aggressive"
+        ],
+        "narrative_roles": [
+          "INITIAL_EXPANSION",
+          "LIQUIDITY_GRAB_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "London Open",
+          "before 5 AM New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SESSION_MID_PHASE_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London lunch (5 AM to 7 AM New York time), which usually sees retracement or consolidation"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_PHASE",
+          "CONSOLIDATION_PHASE"
+        ],
+        "temporal_tags": [
+          "London lunch",
+          "5 AM New York time",
+          "7 AM New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SESSION_OPEN_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The New York open then sees a continuation higher, expanding up to 10 AM New York time"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "EXPANSION_PHASE"
+        ],
+        "temporal_tags": [
+          "New York open",
+          "10 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_BASED_REVERSAL_ZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Around 10 AM, price may consolidate, form the high of the day and retrace, or even reverse entirely"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_POINT",
+          "HIGH_OF_DAY_FORMATION",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [
+          "Around 10 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish environments",
+          "strong higher time frame institutional order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_PROJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "40-60 percent of the daily range",
+          "a big range day is expected"
+        ],
+        "narrative_roles": [
+          "TARGET_SETTING",
+          "VOLATILITY_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TYPICAL BULLISH DAILY PRICE ACTION FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3084",
+    "concepts": [
+      {
+        "canonical": "LONDON_JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "London Judas swing lower",
+          "Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_SETUP",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [
+          "midnight candle in New York"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_LUNCH",
+        "confidence": 1,
+        "surface_terms": [
+          "London lunch",
+          "5 AM and 7 AM New York time"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "ENTRY_SETUP_PERIOD"
+        ],
+        "temporal_tags": [
+          "5 AM and 7 AM New York time",
+          "before the New York open"
+        ],
+        "session_tags": [
+          "LONDON_LUNCH",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Kill Zone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "MARKET_SESSION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON_KILL_ZONE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON JUDAS SWING & LONDON LUNCH OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3085",
+    "concepts": [
+      {
+        "canonical": "LONDON_LUNCH_CAUTION_PERIOD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LONDON LUNCH TRADING CAUTION",
+          "early entries during London lunch",
+          "better not to trade between 5 AM and 7 AM New York time",
+          "treating it as a quiet period"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "MARKET_CONTEXT",
+          "SESSIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "LONDON_LUNCH",
+          "NY_5AM_7AM"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas entry point"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DECEPTION",
+          "ENTRY_MODEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "scalping techniques",
+          "Scalping"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_MODEL_ADAPTATION",
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "five-minute chart",
+          "one-minute charts",
+          "higher time frames"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "ENTRY_CONFIRMATION_TIMEFRAME",
+          "STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON LUNCH TRADING CAUTION & 5-MINUTE CHART FOR SCALPING",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3086",
+    "concepts": [
+      {
+        "canonical": "LONDON_SESSION_SCALP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London session scalp"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SCALPING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "fill a fair value gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "PRICE_ATTRACTION",
+          "ENTRY_CONFIRMATION",
+          "SUPPORT",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 0.7,
+        "surface_terms": [
+          "reaccumulation"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONTEXT",
+          "MARKET_BEHAVIOR",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London open"
+        ],
+        "narrative_roles": [
+          "SESSION_EVENT",
+          "BIAS_INITIATION",
+          "LIQUIDITY_EVENT",
+          "CONFIRMATION_POINT"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ADR"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "RESISTANCE",
+          "RANGE_LIMIT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_SESSION_SCALPING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scalping the New York session"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SCALPING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SMART_MONEY_FOOTPRINT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "PRICE_FLOOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open"
+        ],
+        "narrative_roles": [
+          "SESSION_EVENT",
+          "CONTINUATION_PHASE",
+          "LIQUIDITY_EVENT",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET",
+          "REVERSAL_POINT",
+          "DIRECTIONAL_BIAS_INVALIDATION",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount range arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT",
+          "RETRACEMENT_TARGET",
+          "BUY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT",
+          "LIQUIDITY_POOL",
+          "RETRACEMENT_TARGET",
+          "SMART_MONEY_FOOTPRINT",
+          "ACCUMULATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "IMBALANCE",
+          "SWIFT_MOVEMENT_AREA",
+          "RETRACEMENT_TARGET",
+          "FILLING_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Kill Zone"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TRADING_WINDOW",
+          "ENTRY_TIMING",
+          "TRADING_SESSION_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry long"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_ENTRY",
+          "RISK_MANAGEMENT",
+          "CONFLUENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON SESSION SCALP EXAMPLE & NEW YORK SESSION SCALPING",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3087",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK JUDAS SWING",
+          "New York Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [
+          "8:20 AM New York time",
+          "CME open"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "5-day Average Daily Range (ADR) High",
+          "ADR high",
+          "ADR"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PROFIT_TAKING_LEVEL",
+          "RANGE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "next higher time frame premium array"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PROFIT_TAKING_LEVEL",
+          "REVERSAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PROFIT TAKING STRATEGY",
+          "take 80 percent off your position",
+          "leave a small portion on to capture any potential range expansion"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "prior to 10 AM"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK JUDAS SWING & PROFIT TAKING STRATEGY",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3088",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "JUDAS SWING EXAMPLES ACROSS SESSIONS",
+          "Judas swing for the New York session",
+          "Judas swing dropping down after"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "New York open",
+          "CME open",
+          "8:20 AM"
+        ],
+        "session_tags": [
+          "NEW_YORK",
+          "NEW_YORK_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "PRICE_REVERSAL",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK_AM"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price trading lower after that to be a buyer"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "New York midnight candle"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "price to trade down right after 0 GMT",
+          "This constitutes the Judas swing at 0 GMT or Asia open",
+          "Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "0 GMT"
+        ],
+        "session_tags": [
+          "ASIA",
+          "ASIA_OPEN"
+        ]
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous late session swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUDAS SWING EXAMPLES ACROSS SESSIONS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3089",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE_TRADING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LONDON CLOSE SCALPING (BEARISH ON BULLISH DAYS)",
+          "London Close",
+          "opposite of a typical buy setup"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SCALPING_STRATEGY",
+          "COUNTER_TREND_TRADING"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE_TIME"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "protraction stage"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "POST_10_AM_NY_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGH_OF_DAY_FORMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "creates the high of the day",
+          "offering a selling opportunity"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "PRICE_EXTREMUM_FORMATION"
+        ],
+        "temporal_tags": [
+          "POST_10_AM_NY_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "morning trend",
+          "lunch period of consolidation/retracement",
+          "PM trend into the close",
+          "consolidation",
+          "retracement",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "BEHAVIORAL_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON CLOSE SCALPING (BEARISH ON BULLISH DAYS)",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3090",
+    "concepts": [
+      {
+        "canonical": "ADR_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "5-day Average Daily Range High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_CONDITION_INDICATOR",
+          "PRICE_EXTREMITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "exceed the 5-day ADR High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "five-minute failure swing at the high",
+          "price to create a high, back off, then rally one more time"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "10:30 AM",
+          "1 PM New York time"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "last up-candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "10:30 AM",
+          "1 PM New York time"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON CLOSE ENTRY CONDITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3091",
+    "concepts": [
+      {
+        "canonical": "ASIAN_SESSION_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SCALPING THE ASIAN OPEN",
+          "scalping the Asian open",
+          "enter long at or just under the 0 GMT opening price",
+          "expecting an expansion of 15 to 20 Pips",
+          "Always aim for 15 to 20 Pips in this session"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_GUIDANCE",
+          "PROFIT_TARGET_GUIDANCE",
+          "STRATEGY_LIMITATION"
+        ],
+        "temporal_tags": [
+          "0 GMT"
+        ],
+        "session_tags": [
+          "ASIAN"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION_CHARACTERISTICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Asian sessions are traditionally narrow",
+          "lowest volatile periods",
+          "limited range",
+          "not enough reward for the risk",
+          "more significant price movement"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "VOLATILITY_ANALYSIS",
+          "TRADING_LIMITATION",
+          "RISK_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN",
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "RANGE_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range is established",
+          "daily range formation",
+          "IFTA's engineering of ranges through time of day"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "INSTITUTIONAL_PERSPECTIVE",
+          "PRICE_ACTION_UNDERSTANDING"
+        ],
+        "temporal_tags": [
+          "time of day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADING_SESSIONS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Focus on New York and London sessions for more significant price movement."
+        ],
+        "narrative_roles": [
+          "TRADING_RECOMMENDATION",
+          "LIQUIDITY_PREFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY",
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SCALPING THE ASIAN OPEN & ITS LIMITATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3092",
+    "concepts": [
+      {
+        "canonical": "ASIAN_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian session"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "RANGE_FORMATION_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Take full exits on scalps",
+          "do not leave portions on",
+          "not optimal to expect a second leg in price",
+          "avoid greed",
+          "be content with 20 Pips",
+          "Holding an Asian session trade, even if it initially yields 27 Pips, is risky"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "TRADER_PSYCHOLOGY",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "forms the initial high and low of the day"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "REFERENCE_POINT_FOR_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "TRAP_SETUP",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "after midnight"
+        ],
+        "session_tags": [
+          "LONDON_OPEN"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gets stopped out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "after midnight"
+        ],
+        "session_tags": [
+          "LONDON_AM",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION EXITS & RISK OF HOLDING TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 09 - Bread & Butter Buy Setups_Handbook.chunks.json"
+    }
+  }
+]

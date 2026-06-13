@@ -1,0 +1,103 @@
+[
+  {
+    "chunk_id": "chunk_4141",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running the previous day's high or low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_FOR_CONTINUATION",
+          "RETAIL_TRAP"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH",
+          "PREVIOUS_DAY_LOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PICKING_TOPS_AND_BOTTOMS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'picking tops and bottoms'",
+          "misconception about 'picking tops and bottoms'"
+        ],
+        "narrative_roles": [
+          "RETAIL_TRADER_PITFALLS",
+          "FLAWED_STRATEGY",
+          "RETAIL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING MARKET BEHAVIOR AND RETAIL TRADER PITFALLS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 20_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4142",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY PATTERN",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "TRADE_SETUP",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PATTERN_RECURRENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pattern forms every single day",
+          "pattern occurs daily"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WATCHLIST_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "watchlist",
+          "robust watchlist",
+          "building a watchlist"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY PATTERN STUDY GUIDANCE",
+      "source_file": "OTE Pattern Recognition Series - Vol. 20_Handbook.chunks.json"
+    }
+  }
+]

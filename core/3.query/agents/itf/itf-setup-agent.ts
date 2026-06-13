@@ -63,6 +63,16 @@ export async function itfSetupAgent(input: ITFSetupInput, minimal_context: any):
       pushImage(parts, input.eurusd.m5!, "ITF-EURUSD-M5", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT setup readiness and execution alignment on the execution timeframes (H1, M15, M5).
+
+Focus strictly on evaluating the readiness and consequence of the setup, synthesizing the current market state rather than rediscovering raw building blocks (Do NOT focus on identifying isolated FVGs, MSS, or OTEs):
+1. **Setup Alignment**: Evaluate if the intermediate structure and high timeframe bias are fully aligned. (SETUP)
+2. **Liquidity Objective**: Observe if key liquidity pools (identified by the Liquidity agent) have been swept or if price has reached a clear liquidity objective (e.g. swept session high/low or HTF range liquidity). (SETUP)
+3. **Structure Shift Confirmation**: Confirm if a market structure shift has actually occurred as a consequence of liquidity sweep, showing displacement. (SETUP)
+4. **PD Zone Favorable Location**: Check if price is reacting from a high-value/favorable Premium/Discount array (e.g., deep discount for long, deep premium for short) to justify a trade. (SETUP)
+5. **Execution Pattern Validation**: Verify if there is a valid execution pattern confirming the entry trigger (e.g. reaction/displacement off key zone). (SETUP)
+
+Output your observations as objective synthesis points assessing setup readiness and alignment. Do NOT make trade recommendations.`,
     schema: itfSetupOutputSchema,
     mapOutput: (result) => {
       return {

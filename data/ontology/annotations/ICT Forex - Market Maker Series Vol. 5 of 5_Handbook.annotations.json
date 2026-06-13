@@ -1,0 +1,1016 @@
+[
+  {
+    "chunk_id": "chunk_1205",
+    "concepts": [
+      {
+        "canonical": "LOWER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "five-minute charts",
+          "lower timeframes"
+        ],
+        "narrative_roles": [
+          "DETAILED_ANALYSIS",
+          "ENTRY_CONFIRMATION",
+          "AMPLIFICATION_OF_CONCEPTS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BRITISH POUND VS. US DOLLAR (GBPUSD) ANALYSIS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1206",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taking out a short-term low",
+          "takes out another short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "an area for a buyer"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION",
+          "REVERSAL_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session"
+        ],
+        "narrative_roles": [
+          "TIMING_CONSTRAINT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Monday, July 26, 2021",
+          "midnight"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TIMING_CONSTRAINT"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "MIDNIGHT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONDAY'S PRICE ACTION (JULY 26, 2021)",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1207",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "OTE",
+          "previous low to high",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_LEVEL",
+          "REVERSAL_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drops back down below a short-term low",
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_HIGH_FORMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DAILY HIGH FORMATION",
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "DISTRIBUTION_PEAK",
+          "DAILY_RANGE_EXTREMUM"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "NOON"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONDAY'S POST-OTE PRICE ACTION AND DAILY HIGH FORMATION",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1208",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SMT (Smart Money Tool/Technique)"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "low sell side liquidity pool"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "TRADE_TARGET",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price is clearly aiming for buy stops",
+          "until those buy stops are reached"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_DIRECTION",
+          "TRADE_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "willingness to be bullish",
+          "continuously look for buying opportunities"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "daily chart",
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BULLISH MARKET WILLINGNESS VIA SMT AND BUY STOPS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1209",
+    "concepts": [
+      {
+        "canonical": "FOMC_MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC MANIPULATION"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHM_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHM'S LIQUIDITY SWEEP",
+          "the algorithm takes out the low of the day",
+          "The algorithm runs down, cleans out that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY",
+          "NY_PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out a short-term low",
+          "taking out short-term highs and lows",
+          "cleans out that low",
+          "liquidity sweep (blowout)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY",
+          "NY_PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SEEK_AND_DESTROY_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'seek and destroy' market profile"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_CHARACTERISTIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "manipulation enters"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "NY_PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOMC MANIPULATION AND ALGORITHM'S LIQUIDITY SWEEP",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1210",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEK-SPECIFIC BIAS",
+          "weekly bias",
+          "Bullish weeks",
+          "Bearish weeks",
+          "main weekly objective"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_PLANNING",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "late in the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening price",
+          "opening price strategies"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursdays",
+          "Fridays"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_ECONOMIC_EVENT_IMPACT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FOMC announcement",
+          "previous day's FOMC announcement"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "VOLATILITY_DRIVER",
+          "MARKET_REACTION_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY",
+          "previous day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THURSDAY'S PRICE ACTION AND WEEK-SPECIFIC BIAS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1211",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "last up-close candle, forming a bearish order block",
+          "BEARISH ORDER BLOCK"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "ENTRY_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market breaks down below that low",
+          "MARKET STRUCTURE BREAK"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low prior to the rally"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "highest high of the week"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY_RANGE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous daily highs have been taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "DAILY_RANGE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "retracement back into the daily range"
+        ],
+        "narrative_roles": [
+          "EXPECTED_PRICE_ACTION",
+          "CONSOLIDATION_PHASE"
+        ],
+        "temporal_tags": [
+          "DAILY_RANGE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRIDAY'S BEARISH ORDER BLOCK AND MARKET STRUCTURE BREAK",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1212",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY REVERSAL",
+          "Smart Money Reversal (SMR)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "LIQUIDITY_ENGINEERING_RESULT"
+        ],
+        "temporal_tags": [
+          "Thursday's high",
+          "high of the day",
+          "high of the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clearing Thursday's high",
+          "occurring above Thursday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "Thursday's high",
+          "high of the day",
+          "high of the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Thursday's high",
+          "high of the day",
+          "high of the week",
+          "buy-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING_ZONE"
+        ],
+        "temporal_tags": [
+          "Thursday's high",
+          "high of the day",
+          "high of the week",
+          "earlier in the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the market breaks down",
+          "Breakdown taking out the low"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "accumulation",
+          "re-accumulation"
+        ],
+        "narrative_roles": [
+          "PRICE_MANIPULATION_PHASE",
+          "BULLISH_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "DISTRIBUTION PATTERN SUMMARY",
+          "Distribution",
+          "re-distribution"
+        ],
+        "narrative_roles": [
+          "PRICE_MANIPULATION_PHASE",
+          "BEARISH_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targets the old objective",
+          "buy-side liquidity pool identified earlier in the week"
+        ],
+        "narrative_roles": [
+          "PROFIT_OBJECTIVE",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "earlier in the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY REVERSAL AND DISTRIBUTION PATTERN SUMMARY",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1213",
+    "concepts": [
+      {
+        "canonical": "THE_ALGORITHM",
+        "confidence": 1,
+        "surface_terms": [
+          "THE ALGORITHM",
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_UNDERSTANDING",
+          "CONCEPT_INTEGRATION",
+          "MARKET_ANALYSIS_CLARITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ALGORITHM AS A COHESIVE MACHINE",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1214",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_TIMES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Specific times and days to look for certain market behaviors"
+        ],
+        "narrative_roles": [
+          "TRADE_TIMING",
+          "HIGH_PROBABILITY_SETUP_IDENTIFICATION",
+          "STRATEGY_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF FURTHER STUDY AND INCOME POTENTIAL",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1215",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INCOME GENERATION AND INDEPENDENT STUDENT SUCCESS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1216",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VALIDATION OF FREE CONTENT AND FUNDED TRADERS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1217",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACKNOWLEDGING STUDENT SUCCESS AND FINAL ENCOURAGEMENT",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1218",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_MODEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "MARKET MAKER CONCEPTS"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_KNOWLEDGE",
+          "EDUCATIONAL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICAL, CORE MARKET MAKER CONCEPTS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1219",
+    "concepts": [
+      {
+        "canonical": "MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "macro",
+          "small program that unfolds within the algorithm",
+          "price run from one level to another"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY (OTE)",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "bullish Optimal Trade Entry (OTE)"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "7:00 a.m. New York time",
+          "10:00 a.m. New York time",
+          "10:30 a.m."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING MARKET MACROS AND KEY EXAMPLES",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1220",
+    "concepts": [
+      {
+        "canonical": "HIGH_PROBABILITY_CONTEXT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "HIGH PROBABILITY DAYS",
+          "high-probability scenarios"
+        ],
+        "narrative_roles": [
+          "TRADE_FILTERING",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "most probable market direction",
+          "bullish or bearish"
+        ],
+        "narrative_roles": [
+          "PRE_TRADE_ANALYSIS",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "identifiable patterns of entry",
+          "ENTRY PATTERNS"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY DAYS, DIRECTION, AND ENTRY PATTERNS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1221",
+    "concepts": [
+      {
+        "canonical": "MONEY_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "MONEY MANAGEMENT"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADER_DISCIPLINE",
+          "CORE_TRADING_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADING PSYCHOLOGY"
+        ],
+        "narrative_roles": [
+          "MENTAL_DISCIPLINE",
+          "TRADER_DEVELOPMENT",
+          "CORE_TRADING_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAWDOWN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drawdown",
+          "inevitable part of trading"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADING_REALITY",
+          "MENTAL_PREPARATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONEY MANAGEMENT AND TRADING PSYCHOLOGY",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1222",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICE, STUDY, AND TIME",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1223",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOID EXTERNAL DOUBTS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1224",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUSTENANCE AND SELF-SUFFICIENCY",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1225",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUPPORT AND ENCOURAGEMENT",
+      "source_file": "ICT Forex - Market Maker Series Vol. 5 of 5_Handbook.chunks.json"
+    }
+  }
+]

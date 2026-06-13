@@ -1,0 +1,334 @@
+[
+  {
+    "chunk_id": "chunk_230",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance area",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "PRICE_REACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP",
+          "PRICE_DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market initially rallies as if to go higher"
+        ],
+        "narrative_roles": [
+          "INDUCEMENT",
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEEPER DIVE INTO IMBALANCE AND MANIPULATION",
+      "source_file": "2022 ICT Mentorship Episode 30_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_231",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "PURPOSE OF LIQUIDITY SWEEPS",
+          "takes out these long holders",
+          "clearing the New York lunch lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "'REAL MOVE' TARGET",
+          "true draw on liquidity",
+          "this target"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "DIRECTIONAL_BIAS",
+          "PROFIT_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REAL_MOVE",
+        "confidence": 1,
+        "surface_terms": [
+          "'real move'",
+          "The real move was hinted at"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "POST_MANIPULATION_MOVEMENT",
+          "TREND_RESUMPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York lunch lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "STOP_AREA"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PURPOSE OF LIQUIDITY SWEEPS AND THE 'REAL MOVE' TARGET",
+      "source_file": "2022 ICT Mentorship Episode 30_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_232",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance/fair value gap",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "PRICE_DELIVERY_TARGET",
+          "LIQUIDITY_VOID_FILL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "RE_ENTRY_POINT",
+          "SUPPORT_ZONE",
+          "CONTINUATION_LAUNCHPAD",
+          "RE_TEST_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVISITING ORDER BLOCKS AND FAIR VALUE GAPS FOR DELIVERY",
+      "source_file": "2022 ICT Mentorship Episode 30_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_233",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_POINT",
+          "LIQUIDITY_DRAW",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "5-minute chart",
+          "one-minute chart",
+          "15-minute time frame",
+          "transition to 15-minute"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traded down into the imbalance and rallied from there"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "VALIDATION_OF_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION ON 5-MINUTE CHART AND TRANSITION TO 15-MINUTE",
+      "source_file": "2022 ICT Mentorship Episode 30_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_234",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "DAILY BIAS",
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONVICTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'the hunt.'",
+          "run towards the 12553.25 level",
+          "find the lunch lows",
+          "Price will then resume in the intended direction"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_TRIGGER",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [
+          "LUNCH"
+        ],
+        "session_tags": [
+          "NY_LUNCH",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "price consolidates during lunch"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [
+          "LUNCH"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "SESSION_BASED_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "PM (afternoon) session trading"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "PM_SESSION"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY BIAS, THE HUNT, AND PM SESSION TRADING FACTORS",
+      "source_file": "2022 ICT Mentorship Episode 30_Handbook.chunks.json"
+    }
+  }
+]

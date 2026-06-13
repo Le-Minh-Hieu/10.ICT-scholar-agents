@@ -1,0 +1,769 @@
+[
+  {
+    "chunk_id": "chunk_2394",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bare shorter block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_REVERSAL_ZONE",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_REVERSAL_ZONE",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFERENCE_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish resistance level",
+          "old high",
+          "old low"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_ZONE",
+          "LIQUIDITY_TARGET",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CONFIRMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "confirmation",
+          "indicate a confirmation that there are willing sellers up there",
+          "market does show repricing",
+          "rallies one more time up to it",
+          "willingness to want to break down"
+        ],
+        "narrative_roles": [
+          "VALIDATION",
+          "ENTRY_TRIGGER",
+          "PRICE_ACTION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING BEARISH RESISTANCE AND CONFIRMATION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2395",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Mitigation Block",
+          "the Mitigation Block",
+          "specific institutional reference point known as the Mitigation Block",
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_CAPTURE",
+          "POST_MARKET_STRUCTURE_SHIFT_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "POST-SHIFT"
+        ],
+        "narrative_roles": [
+          "PRICE_REVERSAL_INDICATION",
+          "CONTEXT_SETTER_FOR_MITIGATION_BLOCK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAPPED_TRADERS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buyers are underwater"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REACTION_CATALYST",
+          "TRADER_SENTIMENT_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINTS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "short-term low",
+          "short-term high",
+          "this range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT_IDENTIFICATION",
+          "PRICE_STRUCTURE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE MITIGATION BLOCK POST-SHIFT",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2396",
+    "concepts": [
+      {
+        "canonical": "BEARISH_MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "PINPOINTING THE BEARISH MITIGATION BLOCK ELEMENTS",
+          "bearish level to sell into"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION",
+          "REVERSAL_POINT",
+          "PRICE_RETRACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shift lower"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "PRECURSOR_EVENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK_ELEMENT_CANDLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last down candle"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_TRIGGER",
+          "FAILED_ORDER_BLOCK_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broke below that low",
+          "low is violated",
+          "short-term support level that's"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "VALIDATION_EVENT",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money entities"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PINPOINTING THE BEARISH MITIGATION BLOCK ELEMENTS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2397",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "MITIGATION BLOCK PRICE ACTION",
+          "old short term low we just referenced",
+          "point of a reference",
+          "mitigate their losses",
+          "opportunity to sell"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "The market structure shift is seen here"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "PRECURSOR_TO_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MITIGATION BLOCK PRICE ACTION AND THREE REFERENCE POINTS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2398",
+    "concepts": [
+      {
+        "canonical": "BEARISH_MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price is going to be moving lower longer term",
+          "new selling opportunity"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MACRO_FLOW",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "unrealized lower support level for sell side liquidity that has not been tapped into yet"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Do the longs in here in that short term low, that has short-term high, do they need to be mitigated?"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "LIQUIDITY_REVISIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT_FOR_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this short-term rally in here as an opportunity for a new selling opportunity"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "CONTINUATION_SETUP",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RECOGNIZING NEW SELLING OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2399",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "last down candle",
+          "last down candle in the previous short term low",
+          "that low right there"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.99,
+        "surface_terms": [
+          "run the liquidity out below this short term low"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame support level"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEQUENTIAL MITIGATION BLOCK APPLICATION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2400",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "MITIGATION BLOCKS",
+          "mitigate those losses"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_INTERVENTION",
+          "LOSS_MITIGATION",
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BUYER'S REMORSE",
+          "buyers at the previous short-term low that saw a short-term pop in their favor, then eventually saw the market break below that low they bought that, when price gets back to that level, they're remorseful",
+          "classic support broken turns resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "RETAIL_TRAP",
+          "PSYCHOLOGICAL_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "classic support broken turns resistance",
+          "market break below that low"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "SETUP_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE INSTITUTIONAL LOGIC OF MITIGATION BLOCKS (BUYER'S REMORSE)",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2401",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity avoid"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equilibrium of that liquidity void",
+          "halfway point of this equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broke this high back here"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "shows a breakdown in here"
+        ],
+        "narrative_roles": [
+          "SHORT_TERM_REVERSAL_INDICATION",
+          "SETUP_FORMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "failure swing right there"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_SWEEP_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "this low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIVE EXAMPLE SETUP",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2402",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "FIRST MITIGATION BLOCK",
+          "new Mitigation Block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION",
+          "REVERSAL_POINT_AFTER_FAILURE"
+        ],
+        "temporal_tags": [
+          "LOWER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE_BOS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breaks this low here",
+          "breaks lower"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "SETUP_PREREQUISITE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_DEFINITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The last down candle on this move here is there"
+        ],
+        "narrative_roles": [
+          "BLOCK_DEFINITION_CRITERIA",
+          "BLOCK_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TRIGGER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "once price trades back up, that's a sell right in here"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FIRST MITIGATION BLOCK IN ACTION (LOWER TIME FRAME)",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2403",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "This is a Mitigation Block.",
+          "mitigate those losses"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "LIQUIDITY_ENGINEERING",
+          "BEHAVIORAL_DRIVER",
+          "POINT_OF_INTEREST",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Last down candle great for the up move",
+          "This last down candle here is violated here"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_ELEMENT",
+          "LIQUIDITY_ANCHOR",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.85,
+        "surface_terms": [
+          "mean threshold liquidity void"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_MAGNET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "our stop has to be somewhere above the down candle in here",
+          "above that in the form of a stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell it right there",
+          "Sell short",
+          "We can be a seller"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "It probably trades back up to it here"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEHAVIORAL_COGNITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Everything that was used to drive price higher once it's traded below here it's underwater.",
+          "They're going to want to mitigate those losses at that candle."
+        ],
+        "narrative_roles": [
+          "MARKET_DYNAMICS_EXPLANATION",
+          "LIQUIDITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "30-MINUTE CHART APPLICATION AND STOP LOSS PLACEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2404",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "MITIGATION BLOCK CHARACTERISTICS",
+          "MITIGATION BLOCK",
+          "this down candle",
+          "Last down candle, the low, trades up. Now again, notice the body of the candle is not violated. This is hallmark Price trades up into it. We're expecting prices below this low now",
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "ATTRACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "ATTRACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MITIGATION BLOCK CHARACTERISTICS AND TRADE CONCLUSION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Mitigation Blocks_Handbook.chunks.json"
+    }
+  }
+]

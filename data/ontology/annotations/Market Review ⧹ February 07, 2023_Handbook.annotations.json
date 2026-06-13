@@ -1,0 +1,502 @@
+[
+  {
+    "chunk_id": "chunk_3985",
+    "concepts": [
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Balanced Price Range (BPR)",
+          "BPR"
+        ],
+        "narrative_roles": [
+          "PRICE_REJECTION",
+          "CONSOLIDATION_ZONE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_REJECTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "chairman's remarks"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR ANALYSIS AND BALANCED PRICE RANGE (BPR)",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3986",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "morning session"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "KEY PRICE LEVELS",
+          "4106.50 level",
+          "low of 4106.00",
+          "this level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT/RESISTANCE_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IMBALANCE RECALIBRATION",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "PRICE_RECALIBRATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "five-minute chart",
+          "15-minute chart"
+        ],
+        "narrative_roles": [
+          "CLARITY_IMPROVEMENT",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price dipped for a discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "OPTIMAL_TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York local time",
+          "All timeframes and prompts I provide are calibrated to New York local time"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "TIMING_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "February 1st, 2023",
+          "14:30"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY PRICE LEVELS AND IMBALANCE RECALIBRATION",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3987",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAP (NWOG)",
+          "New Week Opening Gap (NWOG)",
+          "NWOG",
+          "low of the NWOG",
+          "Sunday's opening price"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_REFERENCE",
+          "LIQUIDITY_REFERENCE",
+          "MAGNET_FOR_PRICE",
+          "KEY_LEVEL",
+          "MARKET_INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "Sunday's opening price",
+          "Friday's close",
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSEQUENT ENCROACHMENT (CE)",
+          "Consequent Encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "MAGNET_FOR_PRICE",
+          "KEY_LEVEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_FOR_PRICE",
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reach up into 4130",
+          "further draw at 4134.25"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midpoint between Friday's close and Sunday's opening price"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "MAGNET_FOR_PRICE",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "Friday's close",
+          "Sunday's opening price"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "This imbalance"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_VOID",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidating or non-trending market"
+        ],
+        "narrative_roles": [
+          "CONTEXT_FOR_ANALYSIS",
+          "EXPECTED_PRICE_BEHAVIOR",
+          "PRICE_ACTION_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAP (NWOG) AND CONSEQUENT ENCROACHMENT (CE)",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3988",
+    "concepts": [
+      {
+        "canonical": "SEEK_AND_DESTROY_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "UNDERSTANDING SEEK AND DESTROY MARKET PROFILE",
+          "'Seek and Destroy' market profile"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE",
+          "DECEPTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "begins consolidated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_FORMATION",
+          "DECEPTION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term highs and lows taken out repeatedly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DECEPTION",
+          "VOLATILITY_INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "through the buy-side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIAL_IMPULSE",
+          "SEEK_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDATION_EVENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "'murdering' any long positions from earlier"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "TRAP_LIQUIDITY",
+          "DISTRIBUTION_PHASE",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.75,
+        "surface_terms": [
+          "areas like the one mentioned at 00:20:03"
+        ],
+        "narrative_roles": [
+          "RE_ACCUMULATION",
+          "FINAL_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING SEEK AND DESTROY MARKET PROFILE",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3989",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute FVG",
+          "'City'",
+          "top of the 15-minute FVG",
+          "high of the 15-minute FVG (shaded area)"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_TARGET",
+          "PROFIT_METRICS"
+        ],
+        "temporal_tags": [
+          "15_MIN_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment",
+          "the middle between the candle's high and the next candle's low"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_REFERENCE",
+          "PROFIT_CALCULATION",
+          "ENTRY_METRICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY ENTRIES AND TARGET METRICS",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3990",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional Order Flow Entry Drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "real algorithmic theory in action"
+        ],
+        "narrative_roles": [
+          "EXPLANATORY_FRAMEWORK",
+          "MARKET_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET SIMPLICITY VS. EXECUTION COMPLEXITY",
+      "source_file": "Market Review ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  }
+]

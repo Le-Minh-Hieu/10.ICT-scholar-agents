@@ -1,0 +1,727 @@
+[
+  {
+    "chunk_id": "chunk_838",
+    "concepts": [
+      {
+        "canonical": "MONTHLY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly range"
+        ],
+        "narrative_roles": [
+          "PRIMARY_DRIVER",
+          "RANGE_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stop liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_OBJECTIVE",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs on the daily"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stop liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_OBJECTIVE",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows on the daily"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "objective",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish seasonal tendency",
+          "bearish seasonal tendency"
+        ],
+        "narrative_roles": [
+          "BIAS_FILTER",
+          "DIRECTIONAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_DATA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bullish net long positions by the commercials"
+        ],
+        "narrative_roles": [
+          "BIAS_FILTER",
+          "DIRECTIONAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY RANGE AND LIQUIDITY OBJECTIVES",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_839",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendency",
+          "seasonal tendency you guys saw",
+          "highly highly bullish scenario or seasonal tendency",
+          "that type of seasonal tendency",
+          "the seasonal tendency in the last week or so of April",
+          "the seasonal tendency kicks in a little bit early",
+          "seasonal tendency graph"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "LONG_TERM_OUTLOOK"
+        ],
+        "temporal_tags": [
+          "January 2017",
+          "beginning of March",
+          "mid-March",
+          "May",
+          "April",
+          "June"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "long-term position trading",
+          "position trading",
+          "position trading model"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TIME_HORIZON_DEFINITION"
+        ],
+        "temporal_tags": [
+          "several weeks long",
+          "several months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highly highly bullish scenario"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "beginning of March",
+          "mid-March",
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "primarily the month of May is bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "month of May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "May highs",
+          "June lows"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "May",
+          "June"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BRITISH POUND EXAMPLE",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_840",
+    "concepts": [
+      {
+        "canonical": "COT_DATA_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT HEDGING PROGRAM",
+          "my hedging program"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "DIRECTIONAL_BIAS",
+          "HEDGING_STRATEGY",
+          "POSITION_TRADING"
+        ],
+        "temporal_tags": [
+          "6 months",
+          "November",
+          "May",
+          "April",
+          "June"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendency",
+          "seasonal tendencies",
+          "shift of seasonal impact"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "DIRECTIONAL_BIAS",
+          "PREDICTIVE_ANALYTICS"
+        ],
+        "temporal_tags": [
+          "May",
+          "last week or so of April",
+          "mid-April",
+          "second week of June",
+          "last week of April",
+          "entire month of May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "May is bearish",
+          "bearish scenario",
+          "anticipating lower prices",
+          "expecting lower prices for British Pound"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "MARKET_OUTLOOK"
+        ],
+        "temporal_tags": [
+          "May",
+          "last week or so of April",
+          "last week of April",
+          "entire month of May"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING THE COT HEDGING PROGRAM",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_841",
+    "concepts": [
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 1,
+        "surface_terms": [
+          "heavy net short position by the commercials",
+          "CoT hedging program application",
+          "CoT"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "MACRO_STRUCTURE",
+          "LONG_TERM_CONTEXT"
+        ],
+        "temporal_tags": [
+          "April",
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SYMMETRY",
+        "confidence": 1,
+        "surface_terms": [
+          "COMMERCIAL POSITIONING AND MARKET SYMMETRY",
+          "perfectly symmetrical the market becomes"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "LONG_TERM_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal high the last 6 months",
+          "seasonal low in the last 6 months"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "LONG_TERM_CONTEXT"
+        ],
+        "temporal_tags": [
+          "April",
+          "May",
+          "6 months"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL POSITIONING AND MARKET SYMMETRY",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_842",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seasonal tendency for the Pound Sterling is bearish in the month of May"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CoT hedging program",
+          "excessive net short holding by the commercial traders"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "quarterly shift"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs an old high",
+          "cable runs an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION_TRIGGER"
+        ],
+        "temporal_tags": [
+          "last week of April",
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIOD",
+        "confidence": 0.8,
+        "surface_terms": [
+          "20, 40 or 60-day",
+          "daily range looking back for an old high"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "Dollar Index",
+          "correlated pair like the dollar versus the Euro",
+          "Euro Dollar or Fiber"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "BIAS_DETERMINATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short the open of the last up closed candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MODEL LOGIC AND ENTRY CRITERIA",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_843",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the range of May, the calendar month is typically bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MACRO_ANALYSIS",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MONTHLY RANGE EXPANSION",
+          "monthly range",
+          "four weeks or ranges",
+          "seeking the range inside that monthly range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "STRUCTURAL_ANALYSIS",
+          "PROFIT_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY PROFIT TARGETS",
+          "to profit",
+          "want one or more of the four weeks that construct a monthly range to profit"
+        ],
+        "narrative_roles": [
+          "OBJECTIVE_SETTING",
+          "TRADE_PLANNING",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY RANGE EXPANSION AND WEEKLY PROFIT TARGETS",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_844",
+    "concepts": [
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "January 2018"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "turtle soup type scenario",
+          "run on external range liquidity",
+          "trade through it by one pip"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "last up closed candle's open"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell on a stop"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seasonally"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [
+          "midpoint of April"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OLD HIGHS AND SELL STOP ENTRY",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_845",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "TARGETING LIQUIDITY POOLS",
+          "liquidity based concepts",
+          "old lows",
+          "targeting our first run to that old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET",
+          "INSTITUTIONAL_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount PD Array",
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "ANALYTICAL_TOOL",
+          "FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RISK-REWARD",
+          "130 pips is our stop or risk",
+          "5 to 1"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "monthly"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "expansion range"
+        ],
+        "narrative_roles": [
+          "MACRO_CONTEXT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING LIQUIDITY POOLS AND RISK-REWARD",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_846",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUSION AND STUDY OPPORTUNITIES",
+      "source_file": "ICT Charter Price Action Model #4 Position Trading_Handbook.chunks.json"
+    }
+  }
+]

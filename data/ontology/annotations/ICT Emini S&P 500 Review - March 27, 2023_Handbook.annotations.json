@@ -1,0 +1,1218 @@
+[
+  {
+    "chunk_id": "chunk_1037",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY SIDE LIQUIDITY",
+          "buy side liquidity pool",
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKER",
+          "the breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "discount fair value gap",
+          "small fair value gap",
+          "high of the Fair Value Gap",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "REACTION_POINT",
+          "MITIGATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI (sell side imbalance buy side inefficiency)"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "MITIGATION_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term relative equal highs"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUY SIDE LIQUIDITY AND BREAKER",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1038",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity pool",
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The market traded above that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BEARISH BREAKER"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.7,
+        "surface_terms": [
+          "high, low, higher high"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "discount Wick"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY",
+          "PRICE_ACTION_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "MITIGATION",
+          "PRICE_ACTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "HOURLY_TIMEFRAME",
+          "15_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute time frame",
+          "hourly chart",
+          "15-minute"
+        ],
+        "narrative_roles": [
+          "CHART_ANALYSIS_CONTEXT"
+        ],
+        "temporal_tags": [
+          "15_MINUTE_TIMEFRAME",
+          "HOURLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30 opening"
+        ],
+        "narrative_roles": [
+          "SESSION_START_EVENT"
+        ],
+        "temporal_tags": [
+          "9_30_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY AND BEARISH BREAKER",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1039",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "EARLY SESSION BUY SIDE",
+          "4034 buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "EARLY SESSION"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL SIDE",
+          "4018 sell"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "EARLY SESSION"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance here",
+          "old imbalance we cut through candles",
+          "original imbalance I mentioned here"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "REACTION_POINT",
+          "REBALANCING_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance",
+          "another volume imbalance right here"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "REACTION_POINT",
+          "REBALANCING_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "Algorithmic delivery takes it right into buy side"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_EXPLANATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_MACRO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "macro at 9:50",
+          "high candle here, to 10:10"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_ENGINEERING_WINDOW"
+        ],
+        "temporal_tags": [
+          "9:50",
+          "10:10"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "RESISTANCE_LEVEL",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EARLY SESSION BUY SIDE AND SELL SIDE TARGETS",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1040",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE GAP LOW",
+          "opening range gap low"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "LIQUIDITY_POOL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalance",
+          "gap",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "REBALANCING_AREA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_WICK",
+        "confidence": 1,
+        "surface_terms": [
+          "discount wick",
+          "old discount Wick"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_ACTION_EXPLANATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap High"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_AREA"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_AREA"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY AND OPENING RANGE GAP LOW",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1041",
+    "concepts": [
+      {
+        "canonical": "INVERSION_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "INVERSION LEVELS",
+          "An inversion level",
+          "inversion level, resistance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_FLIP",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "LIQUIDITY_VOID",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUEENT_ENCROACHMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consequent encroachment of that discount wick"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_POINT",
+          "MITIGATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_WICK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "discount wick"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BACKTESTING_METHODOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ICT BACKTESTING METHODOLOGY",
+          "My personal backtesting is all of this annotation",
+          "This is backtesting, my version of it"
+        ],
+        "narrative_roles": [
+          "LEARNING_PROCESS",
+          "SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT BACKTESTING METHODOLOGY AND INVERSION LEVELS",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1042",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-LUNCH MARKET STRUCTURE SHIFT",
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_SIGNAL",
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [
+          "one o'clock"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run for the stops",
+          "takes out buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [
+          "prior to lunch",
+          "during, and prior to lunch"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap high to low discount",
+          "imbalance",
+          "old Fair Value Gap",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "DRAW_ON_LIQUIDITY",
+          "ENTRY_CONFIRMATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP",
+          "PRELUDE_TO_EXPANSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "dig up into a premium"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "MARKET_STATE",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_POINT",
+          "LIQUIDITY_POOL",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [
+          "early in the day"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "4027.75 level",
+          "4034"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PROFIT_TAKING",
+          "CONFLUENCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-LUNCH MARKET STRUCTURE SHIFT AND CONFLUENCE",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1043",
+    "concepts": [
+      {
+        "canonical": "MACRO_TIME_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "macro that starts at 2:52 to 3:10"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_DELIVERY",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "2_52_TO_3_10"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "up in a premium",
+          "seek what? Discount"
+        ],
+        "narrative_roles": [
+          "PRICE_DIRECTION",
+          "VALUE_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "Equilibrium"
+        ],
+        "narrative_roles": [
+          "VALUE_ASSESSMENT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker",
+          "This breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "RESISTANCE_LEVEL",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing lows taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_SHIFT_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ICT_ENTRY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap Low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SETTLEMENT_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "previous settlement price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "last hour of trading for the New York session",
+          "final hour New York PM session"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ALGORITHMIC_DELIVERY"
+        ],
+        "temporal_tags": [
+          "FINAL_HOUR"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINAL HOUR ANALYSIS AND ALGORITHMIC DELIVERY",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1044",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker"
+        ],
+        "narrative_roles": [
+          "REJECTION_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "FINAL_HOUR_OF_SESSION"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [
+          "FINAL_HOUR_OF_SESSION"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "4027.75 level perfectly"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_INTERACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINAL HOUR ANALYSIS AND ALGORITHMIC DELIVERY",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1045",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Volume imbalance"
+        ],
+        "narrative_roles": [
+          "REPRICING_REFERENCE",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount wick that's going to act as an inversion level",
+          "inversion level",
+          "support broken turn resistance"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "sell side imbalance buy side inefficiency",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REPRICING_REFERENCE",
+          "LIQUIDITY_ATTRACTION",
+          "ENTRY_POINT",
+          "TARGET",
+          "INEFFICIENCY_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PARTIAL_FILLING_CONFIRMATION",
+          "REPRICING_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Last up close candle prior this displacement is a bearish order block",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "ENTRY_POINT",
+          "REJECTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap Low"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL",
+          "REPRICING_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_MIDNIGHT_OPENING_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Midnight Opening Price"
+        ],
+        "narrative_roles": [
+          "BIAS_REFERENCE",
+          "REPRICING_REFERENCE",
+          "SUPPORT_RESISTANCE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "displacement"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT_CONFIRMATION",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "2022_ICT_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "2022 model"
+        ],
+        "narrative_roles": [
+          "TRADING_MODEL",
+          "FRAMEWORK",
+          "STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high to low equilibrium"
+        ],
+        "narrative_roles": [
+          "REPRICING_REFERENCE",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW CONCEPTS AND 2022 MODEL APPLICATION",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1046",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW CONCEPTS AND 2022 MODEL APPLICATION",
+      "source_file": "ICT Emini S&P 500 Review - March 27, 2023_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,1238 @@
+[
+  {
+    "chunk_id": "chunk_440",
+    "concepts": [],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SESSION OPENING AND TECHNICAL CHECK",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_441",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY CHART ANALYSIS",
+          "The weekly chart",
+          "'broad brush' discussion"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sweep below it",
+          "previous week's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DRAW_ON_LIQUIDITY",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "previous week's low"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "enter an imbalance"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_MITIGATION",
+          "PRICE_MAGNET",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "target 4180"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "BULLISH STANCE ON ES",
+          "bullish stance is maintained on ES"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "move above the current high",
+          "current high"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_POOL",
+          "ORDER_FLOW_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_MITIGATION",
+          "PRICE_MAGNET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "fill a gap between a candle's high and a candle's low",
+          "fill a gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_MITIGATION",
+          "PRICE_MAGNET",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "yesterday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY CHART ANALYSIS AND BULLISH STANCE ON ES",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_442",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high",
+          "Monday's high",
+          "'bump' above Monday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_EVENT_IMPACT",
+        "confidence": 1,
+        "surface_terms": [
+          "tomorrow's FOMC price action",
+          "more impactful news events later in the week (Wednesday and Thursday)"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITIONING",
+          "RISK_MANAGEMENT_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "tomorrow",
+          "Wednesday",
+          "Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITIONING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "A small range day is anticipated",
+          "Bread and butter setups are favored",
+          "easy entries for 5 handles, then stepping aside"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_ADJUSTMENT",
+          "TRADING_STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P JUNE CONTRACT ANALYSIS",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_443",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "4-hour imbalance",
+          "Fair Value Gap block",
+          "An imbalance (Fair Value Gap Inefficiency)",
+          "imbalance (Fair Value Gap Inefficiency) between a candle's low and a candle's high"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "IDENTIFICATION_OF_VALUE",
+          "PRICE_MAGNET",
+          "TRADE_SETUP_ELEMENT"
+        ],
+        "temporal_tags": [
+          "4-hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "small range",
+          "larger daily range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "UNCERTAINTY_SIGNAL"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_SENTIMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "market's mixed sentiment",
+          "NASDAQ weaker",
+          "S&P relatively strong",
+          "Dow leading",
+          "Weakness in the dollar is expected",
+          "'risk on' for Forex"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "NASDAQ weaker, S&P relatively strong, Dow leading",
+          "Weakness in the dollar is expected, which would typically mean 'risk on' for Forex",
+          "British pound aiming for 1.2445-1.2450, Euro dollar for 1.0930, Dollar Index expected to take out its 6 AM lows"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONTEXTUAL_ANALYSIS",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "British pound aiming for 1.2445-1.2450",
+          "Euro dollar for 1.0930",
+          "Dollar Index expected to take out its 6 AM lows"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "6 AM lows"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMBALANCES AND TRADING RANGE CONTEXT",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_444",
+    "concepts": [
+      {
+        "canonical": "TRADE_FILTERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trade filtering",
+          "identifying and filtering out sub-ideal opportunities"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STRATEGY_DEVELOPMENT",
+          "BEHAVIORAL_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LOW_PROBABILITY_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sub-ideal opportunities",
+          "going into the marketplace unnecessarily"
+        ],
+        "narrative_roles": [
+          "RISK_IDENTIFICATION",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "favorable conditions"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "STRATEGY_DEVELOPMENT",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OVERTRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "constant market activity demands constant trading",
+          "trading purely out of boredom"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_PITFALL",
+          "RISK_MANAGEMENT_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "boredom",
+          "misguided belief"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DISCIPLINE",
+          "SELF_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "November"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING LOW PROBABILITY AND TRADE FILTERING",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_445",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_RETENTION",
+        "confidence": 1,
+        "surface_terms": [
+          "The previous day's low was not taken out",
+          "market's failure to sweep that low",
+          "price did not quite reach it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expected scenario for greater confidence in a long position",
+          "bullish run was outlined"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [
+          "AFTERNOON"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "An imbalance"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_ANALYSIS",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "refined on lower timeframes"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TECHNIQUE",
+          "ENTRY_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MISSED LOW AND BULLISH CONTINUATION",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_446",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance between a candle's high and a candle's low",
+          "Sell-side Imbalance Buy-side Inefficiency"
+        ],
+        "narrative_roles": [
+          "REFINEMENT",
+          "PRECISION_ENTRY",
+          "LIQUIDITY_DRAW",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "large up-close candle followed by a shift Sell-side Imbalance Buy-side Inefficiency",
+          "OB"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_ENTRY",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New week opening gaps"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING IMBALANCES ON LOWER TIMEFRAMES",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_447",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "VOLUME IMBALANCE",
+          "refined imbalance between a candle's low and high",
+          "imbalance",
+          "SIBI (Fair Value Gap)",
+          "Fair Value Gap",
+          "rebalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REACTION_POINT",
+          "REBALANCE_ZONE"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_WEEK_OPEN_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "'old' New Week The current week's NWOG",
+          "NWOG",
+          "current week's NWOG",
+          "reliable NWOGs"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "PRICE_TARGET",
+          "SUPPORT_RESISTANCE",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN",
+          "NORMAL_TRADING_DAY",
+          "HOLIDAY_IMPACT",
+          "FRIDAY_TRADING"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VOLUME IMBALANCE AND CLEAN PRICE ACTION",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_448",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "MARKET_INEFFICIENCY",
+          "TARGET_FOR_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_DOMINANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIMEFRAME DOMINANCE",
+          "higher timeframe (e.g., 5-minute)",
+          "lower timeframes (e.g., 1-minute)",
+          "higher timeframe is the 'parent'",
+          "rules for fulfillment ... take precedence",
+          "Lower timeframes are 'subordinate'",
+          "originating higher timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FILTER",
+          "PRIORITY_SETTING",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rules for fulfillment",
+          "candle body closing completely across its range",
+          "fully closes across the defined range",
+          "imbalance is considered satisfied",
+          "can be removed from the chart"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_RESOLUTION",
+          "MARKET_BALANCE",
+          "CHART_CLEANUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIMEFRAME DOMINANCE IN VOLUME IMBALANCE",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_449",
+    "concepts": [
+      {
+        "canonical": "TEN_HANDLE_FILTER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 handle filter",
+          "10-handle potential",
+          "This filter"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION",
+          "RISK_MANAGEMENT",
+          "ENTRY_CRITERION",
+          "PSYCHOLOGICAL_GUIDELINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNREALISTIC EXPECTATIONS AND THE 10-HANDLE FILTER",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_450",
+    "concepts": [
+      {
+        "canonical": "TRADING_DISCIPLINE_AND_PROTOCOLS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Adhering to trading protocols",
+          "establish rules and discipline",
+          "lack the discipline and self-control",
+          "inability to follow rules",
+          "These rules are designed to foster understanding of price action and provide a reliable framework"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_FOUNDATION",
+          "RISK_MANAGEMENT_BEHAVIOR",
+          "PERFORMANCE_IMPROVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSIVE_TRADING_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "make impulsive decisions out of boredom",
+          "gambling"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_PITFALL",
+          "RISK_AMPLIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF PROTOCOLS AND DISCIPLINE IN TRADING",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_451",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gaps",
+          "NWOGs",
+          "low of the NWOG"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy-side Imbalance Sell-side Inefficiency",
+          "BISI Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION_SETUP",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "significant high",
+          "run above that high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_HUNT",
+          "CONTINUATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "minimum target is 4149",
+          "potential extension to 4180",
+          "4149",
+          "4180"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "EXIT_CRITERIA",
+          "CONTINUATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH CONTINUATION SCENARIO FOR ES",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_452",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy-side Imbalance Sell-side Inefficiency (BISI)",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "PRICE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "balanced price range",
+          "balanced price ranges"
+        ],
+        "narrative_roles": [
+          "PRICE_REJECTION",
+          "PRICE_SUPPORT_RESISTANCE",
+          "MARKET_EQUILIBRIUM",
+          "MARKET_TRANSFORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FICKLE MARKET CONDITIONS AND BALANCED PRICE RANGES",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_453",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "AREA_OF_INTEREST",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "today",
+          "April 11, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FOMO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fear of missing out"
+        ],
+        "narrative_roles": [
+          "TRADER_PSYCHOLOGY",
+          "RISK_MANAGEMENT_FAILURE_CAUSE"
+        ],
+        "temporal_tags": [
+          "April 11, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LOW_PROBABILITY_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Low probability conditions",
+          "50/50 chance"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "AVOIDANCE_CRITERIA",
+          "TRADER_DISCIPLINE"
+        ],
+        "temporal_tags": [
+          "April 11, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POTENTIAL DOWNSIDE TARGETS AND LOW PROBABILITY CONDITIONS",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_454",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fibonacci tool"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_METHOD",
+          "LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "If the low is broken",
+          "breaks its current low"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_PROJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing projection",
+          "forecast a lower target",
+          "negative one standard deviation"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "TARGET_IDENTIFICATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ WEAKNESS AND SWING PROJECTIONS",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_455",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LOW VS. HIGH RESISTANCE LIQUIDITY RUNS",
+          "high resistance liquidity runs",
+          "low resistance liquidity runs",
+          "liquidity runs"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CLASSIFICATION",
+          "PRICE_DELIVERY_EFFICIENCY",
+          "OPTIMAL_TRADING_CONDITIONS",
+          "SUBOPTIMAL_TRADING_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Maturity and Experience",
+          "Experienced traders learn to wait for low-resistance conditions",
+          "New Trader Fallacy",
+          "mistakenly believe every session or asset will provide their specific high-probability setup",
+          "'chasing' trades",
+          "scattered Focus",
+          "limit focus to one or two closely correlated markets"
+        ],
+        "narrative_roles": [
+          "TRADING_DISCIPLINE",
+          "PSYCHOLOGICAL_PITFALL",
+          "BEHAVIORAL_GUIDANCE",
+          "EXPERIENCE_BASED_LEARNING",
+          "RISK_MANAGEMENT",
+          "STRATEGIC_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOW VS. HIGH RESISTANCE LIQUIDITY RUNS",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_456",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET DIVERGENCE",
+          "Ongoing divergence between NASDAQ (lower low) and ES (not matching)",
+          "real-time intermarket insight"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "PARTIAL_PROFITS",
+        "confidence": 1,
+        "surface_terms": [
+          "VALUE OF PARTIAL PROFITS",
+          "partial profits",
+          "taking partial profits",
+          "Rejecting partials",
+          "Taking partials provides a psychological advantage",
+          "ensuring a gain",
+          "mitigating regret",
+          "crucial 'reward'"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT",
+          "PSYCHOLOGICAL_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "cleared sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET DIVERGENCE AND THE VALUE OF PARTIAL PROFITS",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_457",
+    "concepts": [
+      {
+        "canonical": "SYMMETRICAL_MARKET_CONDITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "symmetrical market (ideal conditions)",
+          "symmetrical market conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "INTERMARKET_ANALYSIS",
+          "OPTIMAL_TRADING_ENVIRONMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISJOINTED_MARKET_CONDITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "disjointed market",
+          "disjointed"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "CHOPPY_PRICE_ACTION",
+          "RISK_MANAGEMENT_CAUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_OFF_MACRO_THEME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'risk-off' scenario"
+        ],
+        "narrative_roles": [
+          "MACRO_MARKET_BIAS",
+          "INTERMARKET_CORRELATION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'high resistance liquidity runs'"
+        ],
+        "narrative_roles": [
+          "INEFFICIENT_PRICE_DELIVERY",
+          "LIQUIDITY_TARGETING",
+          "CHALLENGING_TRADING_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NOVICE_TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New Trader Mindset",
+          "New traders often act as if their entire career depends on the outcome of the current trade, driven by a lack of experience and confidence in price consistency. This leads to gambling behavior instead of disciplined, logical trading based on high-probability setups."
+        ],
+        "narrative_roles": [
+          "TRADING_PSYCHOLOGY",
+          "RISK_MANAGEMENT_PITFALL",
+          "BEHAVIORAL_COGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SYMMETRICAL VS. DISJOINTED MARKETS AND TRADER MINDSET",
+      "source_file": "April 11, 2023 Live Tape Reading - Emini S&P AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  }
+]

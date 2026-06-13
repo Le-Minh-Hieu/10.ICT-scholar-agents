@@ -1,0 +1,843 @@
+[
+  {
+    "chunk_id": "chunk_3045",
+    "concepts": [
+      {
+        "canonical": "LARGE_RANGE_DAY_CONDITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LARGE RANGE DAY",
+          "day with a range greater than two times the average five-day range",
+          "previous trading day had such a large range"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_CONDITION",
+          "RISK_MANAGEMENT_RULE",
+          "MARKET_STATE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "period of consolidation",
+          "choppy price action"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MARKET_BEHAVIOR",
+          "RATIONALE_FOR_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDANCE CONDITION 1: LARGE RANGE DAY",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3046",
+    "concepts": [
+      {
+        "canonical": "CONSECUTIVE_DAILY_CLOSES_PATTERN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "three consecutive up closes",
+          "series of three consecutive up closes",
+          "three consecutive down closes",
+          "series of three consecutive down closes"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_CRITERIA",
+          "MARKET_CONDITION_FILTER",
+          "RETRACEMENT_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "daily chart",
+          "fourth trading day"
+        ],
+        "session_tags": [
+          "London session",
+          "London shorts"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement lower",
+          "deep retracement",
+          "down close",
+          "long intraday wick"
+        ],
+        "narrative_roles": [
+          "ANTICIPATED_MARKET_BEHAVIOR",
+          "TREND_PAUSE"
+        ],
+        "temporal_tags": [
+          "intraday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pause",
+          "sideways movement"
+        ],
+        "narrative_roles": [
+          "ANTICIPATED_MARKET_BEHAVIOR",
+          "TREND_PAUSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDANCE CONDITION 2: THREE CONSECUTIVE CLOSES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3047",
+    "concepts": [
+      {
+        "canonical": "CONSECUTIVE_CLOSE_RANGE_FILTER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RELATIONSHIP BETWEEN RANGE AND CONSECUTIVE CLOSES",
+          "three consecutive up/down closes",
+          "serve as filters",
+          "big range day is unlikely to occur on the fourth trading day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "RANGE_PREDICTION",
+          "TRADING_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME",
+          "FOURTH_TRADING_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RELATIONSHIP BETWEEN RANGE AND CONSECUTIVE CLOSES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3048",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_AVOIDANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "AVOIDANCE CONDITION 4",
+          "Do not trade the London session at all",
+          "complete avoidance day for London"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "NEWS_IMPACT_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "NON_FARM_PAYROLL",
+          "FIRST_FRIDAY_OF_MONTH"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDANCE CONDITION 4: AHEAD OF NON-FARM PAYROLL",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3049",
+    "concepts": [
+      {
+        "canonical": "AVOIDANCE_CONDITION",
+        "confidence": 0.99,
+        "surface_terms": [
+          "AVOIDANCE CONDITION 5: DAY BEFORE A LONG WEEKEND OR HOLIDAY",
+          "Avoid trading the London session",
+          "not worth the risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_SELECTION_FILTER",
+          "BEHAVIORAL_GUIDELINE"
+        ],
+        "temporal_tags": [
+          "DAY_BEFORE_LONG_WEEKEND",
+          "DAY_BEFORE_HOLIDAY"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [
+          "DAY_BEFORE_LONG_WEEKEND",
+          "DAY_BEFORE_HOLIDAY"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_PARTICIPATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Market participation tends to decrease"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CAUSAL_FACTOR"
+        ],
+        "temporal_tags": [
+          "DAY_BEFORE_LONG_WEEKEND",
+          "DAY_BEFORE_HOLIDAY"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "QUIET_SESSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "quiet session",
+          "historically quiet nature of such days"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [
+          "DAY_BEFORE_LONG_WEEKEND",
+          "DAY_BEFORE_HOLIDAY"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDANCE CONDITION 5: DAY BEFORE A LONG WEEKEND OR HOLIDAY",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3050",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidated ranges",
+          "small, tight consolidation",
+          "narrow price range",
+          "If the range is not clearly obvious as small and tight"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_SETUP",
+          "ACCUMULATION_PHASE",
+          "MARKET_CONDITION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA",
+          "CBDR"
+        ]
+      },
+      {
+        "canonical": "ACCUMULATION_DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "banks hold the market in a small, tight consolidation to build 'open float,' accumulating orders",
+          "accumulation",
+          "bank operations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MAKING_PROCESS",
+          "PRE_MANIPULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA",
+          "CBDR"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "orders above and below the intraday high/low formed by the Asian range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_MANIPULATION_CYCLE",
+        "confidence": 1,
+        "surface_terms": [
+          "clear manipulation cycle"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "INEFFICIENT_TRADING_ENVIRONMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'ugly' London session",
+          "'London sloppiness'",
+          "A market trending from 8 PM New York (0 GMT) will generally lead to 'London sloppiness'",
+          "move has likely already occurred and will continue",
+          "precluding an ideal London entry"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_CRITERIA",
+          "MARKET_CONDITION",
+          "TRENDING_MARKET_CONDITION"
+        ],
+        "temporal_tags": [
+          "8 PM New York",
+          "0 GMT"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_CLOSE_ASIA_OPEN"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF CONSOLIDATED RANGES FOR BANK OPERATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3051",
+    "concepts": [
+      {
+        "canonical": "ACCUMULATION_MANIPULATION_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "ACCUMULATION, MANIPULATION, DISTRIBUTION",
+          "accumulation, manipulation, and distribution (AMD)"
+        ],
+        "narrative_roles": [
+          "PRICE_CYCLE",
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MAKER_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order accumulation",
+          "Central Bank Dealers Range",
+          "Asian range consolidations"
+        ],
+        "narrative_roles": [
+          "PRE_MANIPULATION_PHASE",
+          "LIQUIDITY_POOL_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "manipulation",
+          "manipulate prices",
+          "knock out participants",
+          "facilitate false sentiment",
+          "manipulation phase",
+          "pushes price lower (for longs) to induce selling or trigger premature stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_NARRATIVE",
+          "ENTRY_INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "distribution",
+          "distributing accumulated long positions"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "PRICE_REVERSAL_TRIGGER",
+          "TRADE_EXIT_CRITERIA"
+        ],
+        "temporal_tags": [
+          "high of the day"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE",
+          "NEW_YORK_LATE"
+        ]
+      },
+      {
+        "canonical": "DAILY_DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily directional bias",
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "PREDICTIVE_TOOL",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "PREDICTIVE_TOOL",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "premium or discount",
+          "where price is likely to draw"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_LOCATION",
+          "TRADE_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "knock out participants",
+          "trigger premature stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "ACCUMULATION_ZONE",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range consolidations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "ACCUMULATION_ZONE",
+          "PRE_MARKET_OPEN_CONTEXT",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LONDON_SESSION_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ideal London entries"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_TIMING",
+          "ENTRY_CRITERIA_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION, MANIPULATION, DISTRIBUTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3052",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "AVOIDANCE_CRITERIA_VIOLATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "turtle soups"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_SETUP",
+          "ENTRY_PATTERN",
+          "AVOIDANCE_CRITERIA_VIOLATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "AVOIDANCE_CRITERIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "avoidance criteria",
+          "avoidance conditions",
+          "ignoring avoidance criteria",
+          "ignoring these conditions",
+          "adhering to these points"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_SELECTION",
+          "DISCIPLINE_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ICT_PRICE_ACTION_METHODOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ICT Price Action (IPTA)"
+        ],
+        "narrative_roles": [
+          "GUIDING_METHODOLOGY",
+          "PRINCIPLE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSEQUENCES OF IGNORING AVOIDANCE CRITERIA",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3053",
+    "concepts": [
+      {
+        "canonical": "UNFAVORABLE_MARKET_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "UNDERSTANDING MARKET BEHAVIOR IN UNFAVORABLE CONDITIONS",
+          "messy market conditions",
+          "If these conditions are not present",
+          "the avoidance conditions are present"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "NON_TRADING_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_BANK_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Central Banks are doing",
+          "their actions",
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "MARKET_INFLUENCE",
+          "SOURCE_OF_UNCERTAINTY",
+          "BACKGROUND_FACTOR_FOR_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Narrow consolidation ranges",
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "PRECURSOR_SIGNAL",
+          "LIQUIDITY_ENGINEERING_INDICATOR",
+          "HIGH_PROBABILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIAN_SESSION"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "discernible daily bias",
+          "knowing whether price is expected to move to a premium or discount"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PRE_TRADE_ANALYSIS",
+          "HIGH_PROBABILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard normal protraction profile",
+          "delayed profile"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "DIRECTIONAL_CONFIRMATION",
+          "HIGH_PROBABILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING MARKET BEHAVIOR IN UNFAVORABLE CONDITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_3054",
+    "concepts": [
+      {
+        "canonical": "WINNER'S_MINDSET",
+        "confidence": 1,
+        "surface_terms": [
+          "THE FOUNDATION OF A WINNER'S MINDSET"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_FRAMEWORK",
+          "BEHAVIORAL_COGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RULES_BASED_DISCIPLINE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Rule-based ideas are essential filters",
+          "You do not trade every single trading day",
+          "These conditions are designed to prevent you from taking positions in London",
+          "Acceptance and subordination to these rules are crucial",
+          "ignoring the rules is detrimental in the long run"
+        ],
+        "narrative_roles": [
+          "STRATEGY_ADHERENCE",
+          "RISK_MITIGATION",
+          "PSYCHOLOGICAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OVERTRADING_AVOIDANCE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "avoid overtrading",
+          "Trading every day leads to choppy equity growth"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_BIAS_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SELECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "essential filters",
+          "filtering out low-probability periods",
+          "significantly slant the odds in your favor"
+        ],
+        "narrative_roles": [
+          "STRATEGY_OPTIMIZATION",
+          "RISK_MANAGEMENT",
+          "ENTRY_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUITY_GROWTH_STRATEGY",
+        "confidence": 0.92,
+        "surface_terms": [
+          "accumulate 'singles, singles, doubles, three-to-one wins'",
+          "capitalize on 'really big huge runners'",
+          "significantly boost monthly equity",
+          "smoother equity growth",
+          "minimizing larger losses",
+          "choppy equity growth"
+        ],
+        "narrative_roles": [
+          "TRADING_GOAL",
+          "RISK_MANAGEMENT",
+          "PERFORMANCE_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE FOUNDATION OF A WINNER'S MINDSET",
+      "source_file": "ICT Mentorship Core Content - Month 08 - When To Avoid The London Session_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  }
+]

@@ -1,0 +1,2204 @@
+[
+  {
+    "chunk_id": "chunk_615",
+    "concepts": [
+      {
+        "canonical": "INITIAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INITIAL BIAS",
+          "early session bias",
+          "bias for ES is favored to the sell-side",
+          "anticipation of a move lower",
+          "sell-side",
+          "short bias"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [
+          "early session"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range",
+          "first 30 minutes of trading"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_OBSERVATION",
+          "MARKET_STRUCTURE_FORMATION",
+          "PRICE_DELIVERY_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "first 30 minutes"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "BEHAVIORAL_OBSERVATION",
+          "UNDERSTANDING_MARKET_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Analyzing the Dollar Index"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL BIAS AND OPENING RANGE OBSERVATION ON ES",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_616",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE",
+          "opening range"
+        ],
+        "narrative_roles": [
+          "OBSERVATION_PHASE",
+          "INITIAL_VOLATILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCK",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_LEVEL",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rally slightly higher before a more significant move lower can materialize",
+          "Market may need to go higher if it's going to go lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP",
+          "INDUCEMENT",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING OPENING RANGE DELIVERY AND ORDER BLOCK INTERACTION",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_617",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CHOPPY AND RANGE-BOUND CONDITIONS",
+          "chopping wood",
+          "marking time",
+          "range-bound",
+          "range-bound without significant sustained movement",
+          "Choppy and range-bound"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP",
+          "STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [
+          "February 2nd"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Dollar Index to 'crush' the 103.70 level to the downside"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ENTRY_PREREQUISITE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHOPPY AND RANGE-BOUND CONDITIONS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_618",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "'gap' in delivery",
+          "Fair Value Gap",
+          "ES below FVG"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "SETUP_FORMATION",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MOMENTUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SELL-SIDE MOMENTUM",
+          "willingness to move",
+          "meaningful run below"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONFIRMATION",
+          "TRADE_IMPETUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING PRICE ACTION BELOW FAIR VALUE GAP FOR SELL-SIDE MOMENTUM",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_619",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "INITIAL_MARKET_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a run to 4136.50"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MAGNET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE REVIEW AND PRICE TARGETS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_620",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "PROBING BUY-SIDE",
+          "moving up to take out buy-side liquidity",
+          "take out buy-side liquidity",
+          "goes above these highs",
+          "liquidity above it will likely be probed",
+          "runs above this"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "INDUCEMENT_FOR_SELLS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "these highs",
+          "current high",
+          "liquidity above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pauses or sharply rejects"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_SWEEP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL-SIDE DELIVERIES",
+          "relatively equal lows",
+          "sell-side liquidity",
+          "seeking 'sell-side liquidity' lower"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_POOL",
+          "REVERSAL_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROBING BUY-SIDE FOR SELL-SIDE DELIVERIES",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_621",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "higher targets (like 41.36.50 41.36.75)"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REFERENCE_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "41.35.75 level"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_LETHARGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'fickle' and 'lethargic,' lacking the impulsive 'pop' expected"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "LACK_OF_DISPLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "US 500 charts (like ES) may not perfectly align tick-for-tick with other instruments, their 'candle formations are pretty close,' allowing for tracking and analysis"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_CONTEXT",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET LETHARGY AND PRICE COMPARISON NOTES",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_622",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "The blue rectangle (FVG) that was expected to hold price has been violated",
+          "FVG",
+          "expected to hold price",
+          "violated",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_INDICATOR",
+          "INVALIDATION",
+          "FAILURE_POINT"
+        ],
+        "temporal_tags": [
+          "February 15, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CHOPPY_CONDITIONS",
+        "confidence": 1,
+        "surface_terms": [
+          "frustrating' Fickle Movement: Small moves in the desired direction, followed by larger retracements, then a return",
+          "'aimless' or 'choppy' conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TRADING_WARNING",
+          "AVOIDANCE_STRATEGY"
+        ],
+        "temporal_tags": [
+          "February 15, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_PITFALLS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Consequences of Fighting the Market",
+          "attempting to 'wrestle' trades",
+          "holding onto positions despite adverse moves",
+          "'grinded up' and losses",
+          "'potential opportunities' to less experienced traders (neophytes)"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_ADVICE",
+          "PSYCHOLOGICAL_TRAP",
+          "BEHAVIORAL_GUIDANCE",
+          "LEARNING_FROM_EXPERIENCE"
+        ],
+        "temporal_tags": [
+          "February 15, 2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING CHOPPY CONDITIONS AND TRADING PITFALLS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_623",
+    "concepts": [
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "divergence",
+          "ES moved to the sell-side without the Dollar Index (DXY) confirming with a 'higher high.'"
+        ],
+        "narrative_roles": [
+          "CONTRARIAN_SIGNAL",
+          "ANTICIPATORY_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'smart money' accumulating longs at the sell-side"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "POSITIONING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side at 4136.50",
+          "buy-side"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_REFERENCE_POINT",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX DIVERGENCE AND ES BUY-SIDE POTENTIAL",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_624",
+    "concepts": [
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'rip right through' the midpoint of a wick with 'animation,' showing 'no respect.'",
+          "aggressive delivery",
+          "confirm a lower move"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "MARKET_STRUCTURE_SHIFT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REFERENCE_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "midpoint of a wick"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The Dollar Index is showing signs of attempting to make a higher high, which would validate further downside for ES.",
+          "DXY movement",
+          "higher high",
+          "further downside for ES"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TRADE_VALIDATION",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE BEHAVIOR AT WICK MIDPOINT AND ANTICIPATED DXY MOVEMENT",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_625",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "'old new week opening gap'",
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "REVERSION_AREA",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breaks its low"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "POTENTIAL_CONTINUATION_TRIGGER"
+        ],
+        "temporal_tags": [
+          "TODAY",
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "becomes 'animated,' expands in range",
+          "'tears through'"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "IMPULSE_LEG"
+        ],
+        "temporal_tags": [
+          "TODAY",
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "104.10"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "CONFIRMATION_THRESHOLD"
+        ],
+        "temporal_tags": [
+          "TODAY",
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "making a higher high"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_POTENTIAL",
+          "LIQUIDITY_TARGETING",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "TODAY",
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute timeframe",
+          "15-MINUTE"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_CONTEXT"
+        ],
+        "temporal_tags": [
+          "FEB_15_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY 15-MINUTE CONFIRMATION AND ES TARGETS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_626",
+    "concepts": [
+      {
+        "canonical": "FOMO",
+        "confidence": 1,
+        "surface_terms": [
+          "fearing missing a move",
+          "FOMO"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_BIAS",
+          "TRADING_PITFALL",
+          "RISK_OF_IMPULSIVE_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STATE_CONTEXT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "choppy market conditions"
+        ],
+        "narrative_roles": [
+          "ENVIRONMENTAL_ASSESSMENT",
+          "TRADE_AVOIDANCE_SIGNAL",
+          "LOW_PROBABILITY_ENVIRONMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEHAVIORAL_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "tread carefully",
+          "willing to forgo the first move of the day"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_STRATEGY",
+          "PSYCHOLOGICAL_CONTROL",
+          "WAITING_FOR_OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [
+          "first move of the day"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDING FOMO",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_627",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money",
+          "smart money strategy"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "STRATEGY_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DXY_DIVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DXY DIVERGENCE",
+          "lack of a 'higher high' on the Dollar Index (DXY) despite ES moving to the sell-side"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "'buying the sell stops'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_MANIPULATION",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Accumulation at Sell-Side",
+          "(accumulating longs)"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "ENTRY_STRATEGY",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Offset at Buy-Side",
+          "use the 'buy side' (e.g., 4136.50 accumulated longs) as price rallies",
+          "completing their morning move"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "EXIT_STRATEGY",
+          "POSITION_CLOSING"
+        ],
+        "temporal_tags": [
+          "MORNING_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Sell-Side",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'higher high'"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TREND_ANALYSIS",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DIVERGENCE AND SMART MONEY STRATEGY",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_628",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "top or midpoint of the FVG",
+          "creating an FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "REACTION_TO_FVG",
+          "ENTRY_CONFIRMATION",
+          "REBALANCING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side objective",
+          "buy-side",
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Order Block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REACTION_TO_ORDER_BLOCK",
+          "REBALANCING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'old new week opening gap'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_ANCHOR",
+          "BREAKOUT_LEVEL"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "driving to a lower low"
+        ],
+        "narrative_roles": [
+          "TREND_INDICATION",
+          "STRUCTURAL_POINT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "8:30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TESTING FVG FOR BUY-SIDE OBJECTIVE AND MORNING MOVE ANALYSIS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_629",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FVG_BREAK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broken through its Fair Value Gap",
+          "FVG BREAK",
+          "potential drop off the FVG on ES"
+        ],
+        "narrative_roles": [
+          "TRIGGER_EVENT",
+          "DIRECTIONAL_BIAS_CHANGE",
+          "INVALIDATION_OF_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Dollar Index",
+          "DXY",
+          "expanding higher",
+          "retracement lower on DXY less likely"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "DIRECTIONAL_BIAS",
+          "MACRO_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'a whole lot of uncertainty back and forth'",
+          "uncertainty"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "TRADING_ENVIRONMENT_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES FVG BREAK AND MARKET UNCERTAINTY",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_630",
+    "concepts": [
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "smart money accumulation scenario"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER_PROFILE",
+          "SMART_MONEY_OPERATIONS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "series of large range up close candles"
+        ],
+        "narrative_roles": [
+          "TREND_INITIATION",
+          "SMART_MONEY_CONFIRMATION",
+          "MARKET_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "no trade and no regrets",
+          "patience",
+          "appreciation for not rushing into unclear markets"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "DISCIPLINE",
+          "BEHAVIORAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADING_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clean environments",
+          "easy to see",
+          "telegraphed"
+        ],
+        "narrative_roles": [
+          "SETUP_IDENTIFICATION",
+          "HIGH_PROBABILITY_SETUP_SELECTION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNCLEAR_MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "unclear markets",
+          "difficult to read conditions"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_CRITERIA",
+          "LEARNING_EXPERIENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY CONFIRMATION AND THE VALUE OF PATIENCE",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_631",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DXY NON-SUPPORT",
+          "The Dollar Index is currently not supporting the move in ES"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "DIVERGENCE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEADING_INDICATOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ES LEADING INDICATIONS",
+          "ES might be 'leading' the Dollar",
+          "'leading'",
+          "breaking to lower lows first"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_SIGNAL",
+          "MARKET_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY NON-SUPPORT AND ES LEADING INDICATIONS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_632",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NWOG",
+          "New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "New Week"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "Fair Value Gap",
+          "consequent encroachment",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "MITIGATION",
+          "REJECTION",
+          "CONTINUATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "5-minute"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DXY_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY DIVERGENCE",
+          "persistent DXY divergence",
+          "critical divergence"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "INTERMARKET_ANALYSIS",
+          "WARNING_SIGN"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DXY",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY",
+          "Dollar Index"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET REACTION TO NWOG, FVG, AND PERSISTENT DXY DIVERGENCE",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_633",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "The Dow (YM H2023) has not supported NASDAQ's recent drop, creating an 'SMT Divergence.'",
+          "Dow vs. NASDAQ: Dow's low is higher (like ES), while NASDAQ made a lower low"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "REVERSAL_INDICATION",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY Failure: The Dollar Index's continued failure to make a higher high, despite these movements, suggests a potential return to the buy-side at 41.28 for ES."
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "REVERSAL_INDICATION",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "NASDAQ has broken its low of the day",
+          "ES has not yet formed a significant lower low that definitively breaks below prior structures",
+          "Dow's low is higher",
+          "NASDAQ made a lower low",
+          "failure to make a higher high"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "41.28"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_TARGET",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "potential return to the buy-side"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ, DOW, AND DXY",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_634",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "DXY divergence",
+          "the Dollar Index (DXY) still has not made a higher high",
+          "ES, NASDAQ, and Dow now making lower lows in agreement (eliminating SMT Divergence between them)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "VALIDATION",
+          "REVERSAL_INDICATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FALSE_BREAKOUT",
+        "confidence": 1,
+        "surface_terms": [
+          "False Break Potential",
+          "false breakout",
+          "FALSE BREAKS"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "STOP_HUNT_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lure traders in",
+          "rip it up there in short fashion",
+          "roll over top of anyone short"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "LIQUIDITY_GENERATION",
+          "PRICE_DRIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side",
+          "4136 level"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PRICE_MAGNET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_MAKER_PERSPECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Perspective",
+          "A Market Maker"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MANIPULATION_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old FVGs"
+        ],
+        "narrative_roles": [
+          "PRICE_IMPULSION",
+          "LIQUIDITY_VOID",
+          "ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "STOP_HUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "roll over top of anyone short",
+          "smash through resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_GENERATION",
+          "PRICE_ACCELERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ENGINEERING_TARGET",
+          "ORDER_FLOW_OBSTACLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ROLE OF DXY IN VALIDATING PRICE ACTION AND FALSE BREAKS",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_635",
+    "concepts": [
+      {
+        "canonical": "MARKET_SYMMETRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Symmetry",
+          "deviation from 'Market Symmetry'",
+          "All related instruments (DXY, Forex, Equities) move in tandem"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "INTERMARKET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET ANALYSIS",
+          "Continuously measuring 'market breadth' across multiple assets"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "RISK_MITIGATION",
+          "DECEPTION_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOLLAR_INDEX",
+        "confidence": 1,
+        "surface_terms": [
+          "Dollar Index (DXY)",
+          "DXY"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_REFERENCE",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_ON_OFF_DYNAMICS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "risk-on",
+          "Risk-Off: DXY higher, Forex and Equities lower"
+        ],
+        "narrative_roles": [
+          "BIAS_DIRECTION",
+          "INTERMARKET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS_DETERMINATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BIAS CONFIRMATION",
+          "determine bias",
+          "understanding bias"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FOUNDATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAKE_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fake runs"
+        ],
+        "narrative_roles": [
+          "DECEPTION_IDENTIFICATION",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money",
+          "Smart Money's intent"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "INSTITUTIONAL_FOOTPRINT",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "teal FVG (4128 CE)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_BREAK",
+          "PRICE_TARGET_CONFIRMATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGETING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "41.36 level is targeted"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SIGNATURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "signature"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_SIGNAL",
+          "PRICE_ACTION_READING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTRUMENT_REFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DXY",
+          "Forex",
+          "Equities",
+          "NQ",
+          "YM",
+          "ES"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_REFERENCE",
+          "MARKET_BREADTH"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SPECIFIC_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "AM Opening Session"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET SYMMETRY, INTERMARKET ANALYSIS, AND BIAS CONFIRMATION",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_636",
+    "concepts": [
+      {
+        "canonical": "MACRO_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MACRO LEVELS",
+          "1010 macro level"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "REFERENCE_POINT",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side liquidity",
+          "engagement of sell-side liquidity",
+          "stop at 4136"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGETED_LIQUIDITY",
+          "STOP_LOSS_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "engagement of sell-side liquidity",
+          "stop at 4136 feel safe?",
+          "market often creates nervousness for short positions",
+          "further testing the confidence of short sellers"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_HUNT",
+          "SHORT_TRAP",
+          "TRADER_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'volume imbalance'"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_INEFFICIENCY",
+          "REACTION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "STRATA_CHOCOLATA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'strata chocolata' (smooth, steady upward movement)"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR_DESCRIPTION",
+          "TREND_CONTINUATION",
+          "SMOOTH_ADVANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MACRO LEVELS, SELL-SIDE ENGAGEMENT, AND SHORT-SELLER VULNERABILITY",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_637",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER ANALYSIS",
+          "bullish Bullish Breaker Characteristics",
+          "the breaker"
+        ],
+        "narrative_roles": [
+          "STRUCTURE_IDENTIFICATION",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY-SIDE LIQUIDITY PURSUIT",
+          "buy-side",
+          "main buy-side target",
+          "Untapped Buy-Side",
+          "a lot more interest' (untapped liquidity) on the buy-side",
+          "buy-side targets"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "multiple lows have been taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running 'sell-side' liquidity",
+          "multiple lows have been taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiencies (FVG, volume imbalance)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ORDER_FLOW_CONTEXT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETAIL_MISCONCEPTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Retail traders might interpret the subsequent drop as a continuation lower"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_BIAS",
+          "EDUCATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_ENVIRONMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "choppy, range bound environment"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER ANALYSIS AND BUY-SIDE LIQUIDITY PURSUIT",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_638",
+    "concepts": [
+      {
+        "canonical": "PRICE_DRAWS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'buy-side'",
+          "buy-side objective"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSION_PLANNING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "remainder of the session",
+          "before lunchtime",
+          "'afternoon objective'"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "TIME_BASED_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "lunchtime"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "No Interest Below: Beyond the buy-side, there is no interest in anything lower"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_CLEANUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "'clean up that area'"
+        ],
+        "narrative_roles": [
+          "PRECURSOR_CONDITION",
+          "MARKET_EFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ICT_METHODOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Logic vs. Retail Logic",
+          "consistent market communication that differs significantly from classical retail trading logic"
+        ],
+        "narrative_roles": [
+          "PHILOSOPHICAL_UNDERPINNING",
+          "CONCEPTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUDING OUTLOOK AND AFTER-SESSION OBJECTIVES",
+      "source_file": "February 15, 2023 ES Live Commentary AM Opening Session_Handbook.chunks.json"
+    }
+  }
+]

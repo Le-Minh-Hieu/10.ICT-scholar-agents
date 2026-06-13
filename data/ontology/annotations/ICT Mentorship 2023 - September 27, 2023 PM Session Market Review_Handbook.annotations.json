@@ -1,0 +1,587 @@
+[
+  {
+    "chunk_id": "chunk_2023",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY DRAW",
+          "draw",
+          "primary draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_LOW_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "initial low",
+          "old low of May 31st, 2023"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "May 31st, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "four-hour chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ANALYTICAL_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidated"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DISPLACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "broke down"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CHANGE",
+          "TREND_CONFIRMATION",
+          "IMBALANCE_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "sell-side imbalance buy-side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_DISPLACEMENT_EVIDENCE",
+          "POTENTIAL_RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR ANALYSIS AND LIQUIDITY DRAW",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2024",
+    "concepts": [
+      {
+        "canonical": "PERFECT_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "perfect delivery",
+          "perfection"
+        ],
+        "narrative_roles": [
+          "PRICE_PRECISION",
+          "MODEL_VALIDATION",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "TREND_ACCELERATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION",
+          "DOWNSIDE_BIAS",
+          "LIQUIDITY_RUN"
+        ],
+        "temporal_tags": [
+          "HOURLY_CHART"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERFECT DELIVERY AND BREAKAWAY GAP",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2025",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_REFILL_ENTRY_DRILL",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL REFILL ENTRY DRILL",
+          "institutional workflow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRICE_ACTION_PATTERN",
+          "INSTITUTIONAL_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_INEFFICIENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "IMBALANCE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "partial entry into an imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "PRICE_ATTRACTION_ZONE",
+          "IMBALANCE_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "halfway (consequent encroachment)",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "MITIGATION_LEVEL",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL REFILL ENTRY DRILL",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2026",
+    "concepts": [
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "ANTICIPATED RETRACEMENT",
+          "some kind of retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_PHASE",
+          "EXPECTATION_MANAGEMENT",
+          "CONTEXTUAL_AWARENESS",
+          "TRADE_AVOIDANCE_RATIONALE"
+        ],
+        "temporal_tags": [
+          "MIDWEEK",
+          "TOMORROW",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGETS_HIT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Having hit targets",
+          "a lot of ground has been covered"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_PHASE",
+          "PROFIT_TAKING_INDICATION",
+          "PRECURSOR_TO_RETRACEMENT"
+        ],
+        "temporal_tags": [
+          "last couple of weeks"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MIDWEEK MARKET STATUS AND ANTICIPATED RETRACEMENT",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2027",
+    "concepts": [
+      {
+        "canonical": "TRADER_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IMPORTANCE OF PAUSING AFTER MARKET DELIVERY",
+          "creating a pause after successful market analysis and delivery",
+          "Sit still and appreciate the successful market outline",
+          "Relax and absorb the 'windfall' analysis",
+          "Avoid rushing into the next trade",
+          "feeling pressured to predict the next market move immediately"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_MANAGEMENT",
+          "OVERTRADING_PREVENTION",
+          "POST_TRADE_PROTOCOL",
+          "RISK_MANAGEMENT_BEHAVIORAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_TIMING_CAPABILITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "timing the market, which many say is impossible, is achievable within the community"
+        ],
+        "narrative_roles": [
+          "ICT_METHODOLOGY_VALIDATION",
+          "EDUCATIONAL_PROMISE",
+          "COMMUNITY_EMPOWERMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPORTANCE OF PAUSING AFTER MARKET DELIVERY",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2028",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEKLY INEFFICIENCY",
+          "inefficiency",
+          "low of this inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_POINT_OF_INTEREST",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "BALANCED PRICE RANGE DYNAMICS",
+          "balanced price range",
+          "efficiently delivered",
+          "multiple candles traded back and forth, with overlapping high and low levels"
+        ],
+        "narrative_roles": [
+          "ZONE_OF_EQUILIBRIUM",
+          "RESISTANCE_SUPPORT_ZONE",
+          "PRICE_ACTION_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side liquidity was already taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRE_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY INEFFICIENCY AND BALANCED PRICE RANGE DYNAMICS",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2029",
+    "concepts": [
+      {
+        "canonical": "SELL_PROGRAM",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL PROGRAM",
+          "'sell program'",
+          "continuous decline"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH ORDER FLOW",
+          "continuous break lower",
+          "order flow remains bearish"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "CONTINUATION",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frames (weekly, monthly, daily)",
+          "Without awareness of higher time frames"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "TREND_IDENTIFICATION",
+          "RISK_MITIGATION",
+          "AVOID_MISTAKES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_MISINTERPRETATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traders might mistakenly identify potential swing lows as reversals, only to see price continue to drop"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "AVOID_MISTAKES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "every up-closed candle should be considered a resistance level"
+        ],
+        "narrative_roles": [
+          "BEARISH_REJECTION",
+          "CONTINUATION_CONFIRMATION",
+          "PRICE_ACTION_READING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Until up-closed candles are broken with price moving above them"
+        ],
+        "narrative_roles": [
+          "BIAS_CHANGE_INDICATION",
+          "TREND_REVERSAL_CRITERIA",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL PROGRAM AND BEARISH ORDER FLOW",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  },
+  {
+    "chunk_id": "chunk_2030",
+    "concepts": [
+      {
+        "canonical": "ICT_METHODOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "THE ICT METHODOLOGY",
+          "ICT methodology",
+          "a 'language' or framework"
+        ],
+        "narrative_roles": [
+          "OVERARCHING_FRAMEWORK",
+          "EDUCATIONAL_RESOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET TIMING",
+          "time the marketplace effectively"
+        ],
+        "narrative_roles": [
+          "PRIMARY_OBJECTIVE",
+          "PREDICTIVE_ANALYTICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RULE_BASED_SYSTEM",
+        "confidence": 1,
+        "surface_terms": [
+          "rule-based language",
+          "rule-based ideas"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_CHARACTERISTIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "anticipating consolidation or slowdowns"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "PREDICTIVE_ANALYTICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "anticipate a slowdown without reversing an existing trend",
+          "slowdowns (not reversals)"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "TREND_CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_PM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ICT METHODOLOGY AS A RULE-BASED LANGUAGE FOR MARKET TIMING",
+      "source_file": "ICT Mentorship 2023 - September 27, 2023 PM Session Market Review_Handbook.chunks.json",
+      "session": "NY_PM"
+    }
+  }
+]

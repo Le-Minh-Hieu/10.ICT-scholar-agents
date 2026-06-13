@@ -1,0 +1,1238 @@
+[
+  {
+    "chunk_id": "chunk_2899",
+    "concepts": [
+      {
+        "canonical": "IPDA_DATA_RANGES",
+        "confidence": 1,
+        "surface_terms": [
+          "IPDA data ranges"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TEMPORAL_CONTEXT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "TIME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_PRICE_CONFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "time",
+          "price",
+          "time and price",
+          "blending the two elements together",
+          "blending time and price theoretically"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "HOLISTIC_ANALYSIS",
+          "FUNDAMENTAL_DIMENSION"
+        ],
+        "temporal_tags": [
+          "TIME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING IPDA DATA RANGES AND PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2900",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAYS",
+          "data array",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM MARKET",
+          "premium Market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXT_SETTING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PD ARRAYS IN A PREMIUM MARKET",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2901",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAYS"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "INTEREST_AREA_IDENTIFICATION",
+          "ENTRY_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT MARKET",
+          "discount Market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_CLASSIFICATION",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PD ARRAYS IN A DISCOUNT MARKET",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2902",
+    "concepts": [
+      {
+        "canonical": "HIERARCHY_OF_PD_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIERARCHY",
+          "order that's listed in the premium data arrays",
+          "order in which the algorithm will seek",
+          "order for the hierarchy"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_BIAS",
+          "PRICE_PREFERENCE",
+          "DECISION_MAKING_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium data arrays",
+          "PD arrays",
+          "price reference points"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_INTERACTION",
+          "PRICE_REFERENCE",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the algorithm",
+          "algorithm will seek"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINE",
+          "INSTITUTIONAL_FLOW",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "void"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_TARGET",
+          "ALGORITHMIC_INTERACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "PRICE_REBALANCE",
+          "ALGORITHMIC_INTERACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ALGORITHMIC_INTERACTION",
+          "PRICE_REBALANCE",
+          "REVERSAL_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "ALGORITHMIC_INTERACTION",
+          "PRICE_ANCHOR",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE",
+          "ALGORITHMIC_INTERACTION",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market's in a discount"
+        ],
+        "narrative_roles": [
+          "TRADE_LOCATION_IDENTIFICATION",
+          "VALUE_AREA",
+          "PRICE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIERARCHY AND SELECTION OF PD ARRAYS BY THE ALGORITHM",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2903",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "bearish or premium arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_ANALYSIS",
+          "SUPPLY_DEMAND_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "20 days",
+          "40 days",
+          "60 days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium Market",
+          "premium arrays",
+          "bearish or premium arrays"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRICE_BIAS_IDENTIFICATION",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [
+          "20 days",
+          "40 days",
+          "60 days"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICAL APPLICATION",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2904",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array",
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "ANALYTICAL_TOOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium Market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "CONTEXT_SETTING",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "ANALYTICAL_TOOL",
+          "REFERENCE_POINT",
+          "BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "LIQUIDITY_POOL_INTERNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXHAUSTED_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "exhausted",
+          "already been used by price action",
+          "has now been exhausted"
+        ],
+        "narrative_roles": [
+          "INVALIDATION_CRITERIA",
+          "REJECTION_CRITERIA",
+          "RE_EVALUATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIOD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last 20 days",
+          "20 days"
+        ],
+        "narrative_roles": [
+          "DATA_RANGE_SPECIFICATION",
+          "CONTEXT_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING ACTIVE VS. EXHAUSTED PD ARRAYS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2905",
+    "concepts": [
+      {
+        "canonical": "BLENDING_TIME_AND_PRICE_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "BLENDING TIME AND PRICE",
+          "time and price",
+          "blending both the components",
+          "combining both time and price"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_METHODOLOGY",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC CONTEXT",
+          "just like the algorithm does",
+          "what the algorithm will seek to do"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "UNDERSTANDING_MARKET_BEHAVIOR",
+          "MARKET_DRIVER_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA",
+        "confidence": 1,
+        "surface_terms": [
+          "the algorithm",
+          "what the algorithm will seek to do"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINE",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA_DATA_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific number of time",
+          "60 trading days",
+          "three trading months"
+        ],
+        "narrative_roles": [
+          "DATA_CONTEXT",
+          "ALGORITHMIC_INPUT"
+        ],
+        "temporal_tags": [
+          "60_TRADING_DAYS",
+          "THREE_TRADING_MONTHS"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next level liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "ALGORITHMIC_DESTINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING TIME AND PRICE FOR ALGORITHMIC CONTEXT",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2906",
+    "concepts": [
+      {
+        "canonical": "BEARISH_MARKET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_AREA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "premium Market"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_AREA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "PD array",
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "ICT_TOOL",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium PD array",
+          "premium PD arrays"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SELL_ZONE",
+          "ENTRY_POINT_CONTEXT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount PD array",
+          "discount PD arrays"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "SUPPORT_LEVEL",
+          "EXIT_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET DIRECTION AND PD ARRAY ROLE",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2907",
+    "concepts": [
+      {
+        "canonical": "TIME_SEGMENTATION",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME SEGMENTATION",
+          "break your market up in reference to time"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUALIZATION",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [
+          "20 trading days",
+          "40 trading days",
+          "60 trading days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE_IDENTIFICATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lowest point with the old low noted",
+          "highest high formed in the last 20 trading days",
+          "total 60-day trading range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "LIQUIDITY_IDENTIFICATION_PREPARATION",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "last 20 trading days",
+          "60-day trading range",
+          "60 trading days"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME SEGMENTATION",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2908",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_PD_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM AND DISCOUNT PD ARRAYS"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TRADE_BIAS_GENERATION",
+          "ZONE_IDENTIFICATION",
+          "FRAMEWORK_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "20_DAY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "20-DAY RANGE",
+          "last 20 trading days",
+          "look back period of 20 trading days"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "MARKET_CONTEXT",
+          "FRAMEWORK_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "20_TRADING_DAYS_LOOKBACK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_LOW_RANGE_DELINEATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "highest high and the lowest low in the last 20 trading days"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "MEASUREMENT_STANDARD",
+          "DATA_POINT_SELECTION"
+        ],
+        "temporal_tags": [
+          "20_TRADING_DAYS_LOOKBACK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_CLOSE_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Friday's close of the week"
+        ],
+        "narrative_roles": [
+          "DATA_REFERENCE_POINT",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "FRIDAY_CLOSE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING PREMIUM AND DISCOUNT PD ARRAYS IN THE 20-DAY RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2909",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD arrays",
+          "premium and discount PD arrays",
+          "premium",
+          "discount area"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "PRICE_LEVEL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "20_DAY_LOOKBACK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "three of candles, the ranges of their bodies, highs high and lowest low in terms of the bodies, not the wicks"
+        ],
+        "narrative_roles": [
+          "SUPPLY_AND_DEMAND_ZONE",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "20_DAY_LOOKBACK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "mean threshold",
+          "Midway point"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "INVALIDATION_REFERENCE",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "20_DAY_LOOKBACK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SPECIFIC PD ARRAYS IDENTIFIED (20-DAY LOOKBACK)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2910",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "price moves from one PD array to the next"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ORDER_FLOW_GUIDANCE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher high"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_TO_DELIVER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "failed to make a higher high and trade higher"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "BIAS_SHIFT_SIGNAL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ADAPTIVE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fail in your analysis",
+          "reverse your analysis and take the trades in the opposite direction"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "BIAS_ADJUSTMENT",
+          "FLEXIBILITY"
+        ],
+        "temporal_tags": [
+          "THIS_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA_DATA_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BOUNDARIES",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING ON A 4-HOUR CHART AND ADAPTING TO FAILED ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2911",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "PRICE_DRAW",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MANIPULATION_TEMPLATE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Market Maker Manipulation template"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "PREDICTIVE_FRAMEWORK",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old monthly, weekly, and or daily High liquidity pool",
+          "Monday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "REVERSAL_POINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traded slightly above Monday's high, rejected it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Once Tuesday broke down"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CHANGE_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "likelihood that we would see lower prices was in effect",
+          "looking for shorts"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_OBJECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "downside objective",
+          "objective of 7605 as our downside objective"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER MANIPULATION TEMPLATE AND SHORT OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2912",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY POOL RAID",
+          "liquidity pool raid on a daily High",
+          "daily high on Monday was violated on Tuesday"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIATION_SIGNAL",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium liquidity pool",
+          "daily high on Monday",
+          "daily High"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount Market PD array",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "PRICE_ATTRACTION_ZONE",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time frame lesser than",
+          "drop down to a four-hour and or a one-hour chart"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "REFINEMENT_OF_ENTRY",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_TYPE",
+          "PRICE_MAGNET",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "7605 was our objective",
+          "LESSER TIMEFRAME TARGETS"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT",
+          "OBJECTIVE_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LESSER TIMEFRAME TARGETS AFTER LIQUIDITY POOL RAID",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2913",
+    "concepts": [
+      {
+        "canonical": "BLENDING_TIME_AND_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "combination of elements of time and price blending",
+          "Blending the two, time and price",
+          "BLENDING TIME AND PRICE FOR ALGORITHMIC PARAMETERS"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "ALIGNMENT_WITH_ALGORITHM_BEHAVIOR",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market maker manipulation templates"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_BEHAVIOR_MODELING",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ADAPTABILITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ADAPTABILITY",
+          "change gears"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "RISK_MANAGEMENT",
+          "TRADING_PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "failure swing"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "MARKET_STRUCTURE_SHIFT_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "algorithm will at the interbank level"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "PRICE_DELIVERY_MECHANISM",
+          "ANALYTICAL_FOCUS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPDA_DATA_RANGES",
+        "confidence": 1,
+        "surface_terms": [
+          "IPDA data ranges"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_ACTION_CONTEXT",
+          "MARKET_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array Matrix"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_ACTION_CONTEXT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACHIEVING MARKET SYMMETRY THROUGH BLENDING AND ADAPTABILITY",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Blending IPDA Data Ranges & PD Arrays_Handbook.chunks.json"
+    }
+  }
+]

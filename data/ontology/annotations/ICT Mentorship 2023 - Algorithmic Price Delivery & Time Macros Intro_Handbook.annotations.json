@@ -1,0 +1,1547 @@
+[
+  {
+    "chunk_id": "chunk_1600",
+    "concepts": [
+      {
+        "canonical": "MACRO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "macro",
+          "specific times of day called a macro",
+          "MACRO APPLICATION"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_TIMING_WINDOW",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "specific times of day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF CONTEXT IN MACRO APPLICATION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1601",
+    "concepts": [
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "propulsion block",
+          "This specific order block"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "PRICE_ACTION_TRIGGER"
+        ],
+        "temporal_tags": [
+          "the next day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "earlier order block"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MID_THRESHOLD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "half of that candle's body"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "ENTRY_CONFIRMATION",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROPULSION BLOCK CHARACTERISTICS AND PRICE ANTICIPATION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1602",
+    "concepts": [
+      {
+        "canonical": "NFP_RELEASE",
+        "confidence": 1,
+        "surface_terms": [
+          "Non-Farm Payroll (NFP) release",
+          "NFP release",
+          "the news"
+        ],
+        "narrative_roles": [
+          "ECONOMIC_EVENT",
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_TRIGGER"
+        ],
+        "temporal_tags": [
+          "8:30_AM"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "Ahead of the Non-Farm Payroll (NFP) release"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MAGNET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NON-FARM PAYROLL (NFP) RELEASE AND MARKET BEHAVIOR",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1603",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "manual intervention often occurs to target both sides of the marketplace",
+          "buy side then sell side",
+          "sell side then buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "8:30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "WHIPSAW_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "whipsaw' type event",
+          "initial 'whipsaw' type event"
+        ],
+        "narrative_roles": [
+          "FALSE_MOVE",
+          "TRAP_MECHANISM",
+          "PRE_TRUE_MOVE_ACTIVITY"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "8:30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NFP MANUAL INTERVENTION AND WHIPSAW EVENTS",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1604",
+    "concepts": [
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "NARRATIVE AS CRUCIAL TO MACRO UNDERSTANDING",
+          "market's narrative"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_FORMATION",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "macro",
+          "a macro"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_FRAMEWORK",
+          "PRICE_DELIVERY_MODEL",
+          "PREDICTIVE_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_PREDICTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "what price is likely to do"
+        ],
+        "narrative_roles": [
+          "OUTCOME_PREDICTION",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "technical aspects of time"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NARRATIVE AS CRUCIAL TO MACRO UNDERSTANDING",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1605",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium inefficiencies",
+          "Buy Side Imbalance Sell Side Inefficiency (BISIE)",
+          "inefficiencies",
+          "inefficiencies below the market"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [
+          "NFP"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY",
+          "buy side liquidity",
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "NFP"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE DELIVERY TO INEFFICIENCIES AND LIQUIDITY",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1606",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays (Premium and Discount)",
+          "Premium and Discount"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "IDENTIFYING_AREAS_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PRICE_ATTRACTION",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous days' highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "session highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "SESSIONAL"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_DAY_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "highs and lows of the last three days"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "MULTI_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_WEEK_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous week's high and low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gravitate",
+          "price will likely gravitate for inefficiencies or liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "MARKET_DYNAMICS",
+          "TARGET_AREA_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING LIQUIDITY AND INEFFICIENCIES",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1607",
+    "concepts": [
+      {
+        "canonical": "NFP_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "NFP PRICE ACTION"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT_RESPONSE",
+          "MARKET_CATALYST"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out recent lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish daily propulsion block",
+          "order block",
+          "consequent encroachment",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "ENTRY_POINT",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NFP PRICE ACTION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1608",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_SUPPORT",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "PRICE_DIRECTION_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stops have been",
+          "stops have been taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "PRECURSOR_TO_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Inversion Fair Value Gap",
+          "an inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "SUPPORT_LEVEL",
+          "ENTRY_ZONE",
+          "LIQUIDITY_ACCUMULATION",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "order flow is bullish"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXTUAL_CLARIFICATION",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY BULLISH ORDER BLOCK AND INVERSION FAIR VALUE GAP",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1609",
+    "concepts": [
+      {
+        "canonical": "ALGORTHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "FOUNDATIONAL_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open Killzone"
+        ],
+        "narrative_roles": [
+          "OBSERVATIONAL_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "7:00 AM to 9:00 AM New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_AM_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York AM Session"
+        ],
+        "narrative_roles": [
+          "OBSERVATIONAL_WINDOW",
+          "TRADING_SESSION"
+        ],
+        "temporal_tags": [
+          "8:30 AM to Noon New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERNALIZING TIME IN PRICE DELIVERY ACROSS ASSET CLASSES",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1610",
+    "concepts": [
+      {
+        "canonical": "NFP_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "During NFP"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "HIGH_IMPACT_NEWS_EVENT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price runs into inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "aggressively drops to take out sell side below relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "SMART_MONEY_ENTRY_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "returns into an hourly Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_MITIGATION",
+          "ENTRY_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "HOURLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "rallies to inefficiency and takes buy side again"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "leaving weak relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_FUTURE",
+          "FUTURE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bullish propulsion block's consequent encroachment"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_POINT",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_POINT",
+          "ENTRY_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE MOVEMENT AND ALGORITHM COMPLEXITY",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1611",
+    "concepts": [
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "NFP event",
+          "non-farm payroll"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_GENERATOR"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial run to buy side, then sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "RETAIL_TRAP"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time becomes a factor"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_TRIGGER",
+          "VOLATILITY_TIMING"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'engineered' many concepts used by the market"
+        ],
+        "narrative_roles": [
+          "UNDERSTANDING_MARKET_MECHANICS",
+          "FRAMEWORK_FOR_ANALYSIS",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MENTORSHIP APPROACH AND CHART ANNOTATION FOR TEACHING",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1612",
+    "concepts": [
+      {
+        "canonical": "TIME_MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "9:50-10:10 AM macro",
+          "20-minute period specializing in market behavior around the first 30 minutes",
+          "this macro"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PREDICTIVE_WINDOW"
+        ],
+        "temporal_tags": [
+          "9:50-10:10_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISCORDANT_CORRELATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Discordant correlation"
+        ],
+        "narrative_roles": [
+          "WARNING_SIGN",
+          "SETUP_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency (premium relative to high and low)",
+          "premium relative to high and low"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_STATE",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "dropped to take out sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DIRECTION_CHANGE",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "NFP profile"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET DYNAMICS AND CORRELATION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1613",
+    "concepts": [
+      {
+        "canonical": "TIME_MACRO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "9:50-10:10 AM macro"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_ALIGNMENT",
+          "POTENTIAL_REVERSAL_POINT",
+          "PRICE_DELIVERY_WINDOW"
+        ],
+        "temporal_tags": [
+          "9:50-10:10 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial liquidity (buy side) has been engaged",
+          "initial buy side run",
+          "take out the other side of the marketplace (sell side)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "PRICE_DELIVERY",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_EVENT_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "NFP profile"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT",
+          "VOLATILITY_DRIVER",
+          "MACRO_EVENT_CONTEXT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows left behind"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SELL_SIDE_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENGINEERED_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "engineered liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ALGORITHMIC_TARGET",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "hourly Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_DRAW",
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "REFINEMENT_AREA"
+        ],
+        "temporal_tags": [
+          "HOURLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily propulsion block"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_CONTEXT",
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR",
+          "REFINEMENT_AREA"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY DELIVERY",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1614",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet window"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TIME_WINDOW"
+        ],
+        "temporal_tags": [
+          "10:00-11:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRECISION_TARGET",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_PROPULSION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily bullish propulsion block"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "RETRACEMENT_LEVEL",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "hourly Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "RETRACEMENT_LEVEL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "10:50-11:10 macro"
+        ],
+        "narrative_roles": [
+          "TIME_WINDOW",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [
+          "10:50-11:10"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LUNCH_MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "New York lunch hour has its own macro"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "New York lunch hour"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running for liquidity",
+          "initial buy side run",
+          "engineered sell side",
+          "drop for sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "NFP_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "NFP profile"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_EVENT_BEHAVIOR",
+          "MACRO_STRUCTURE"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAPPED_TRADERS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trapped traders"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SILVER BULLET, LUNCH MACRO, AND NFP PROFILE INTEGRATION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1615",
+    "concepts": [
+      {
+        "canonical": "MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "MACROS",
+          "Macros",
+          "macros"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION_TOOL",
+          "ENTRY_TIMING",
+          "VALIDATION_CRITERIA",
+          "RISK_MANAGEMENT_SIGNAL"
+        ],
+        "temporal_tags": [
+          "afternoon",
+          "lunch"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TIME_WINDOW",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME WINDOWS",
+          "time aspects",
+          "specific windows",
+          "times"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION_TOOL",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity",
+          "strong liquidity"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MACROS AS TIME WINDOWS FOR ANTICIPATING MARKET ANIMATION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1616",
+    "concepts": [
+      {
+        "canonical": "MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "MACROS",
+          "macro"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "INITIATION_POINT",
+          "ALGORITHMIC_DELIVERY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'spooling event'",
+          "price starts to reach for a target",
+          "delivering the hook and bait far away"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_DELIVERY",
+          "DIRECTIONAL_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "target"
+        ],
+        "narrative_roles": [
+          "OBJECTIVE",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 'SPOOLING EVENT' METAPHOR FOR MACROS",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1617",
+    "concepts": [
+      {
+        "canonical": "MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "MACROS",
+          "macros"
+        ],
+        "narrative_roles": [
+          "TIMING_INDICATOR",
+          "ALGORITHMIC_MOVEMENT_INITIATOR",
+          "LIMITATION_CLARIFICATION"
+        ],
+        "temporal_tags": [
+          "TIMING_OF_MOVEMENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market's algorithmic nature",
+          "operating on time first"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "MARKET_MECHANISM"
+        ],
+        "temporal_tags": [
+          "TIME_DEPENDENCY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MACROS DO NOT PROVIDE DIRECTION",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1618",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC NATURE OF MARKETS",
+          "Markets are algorithmic",
+          "market movements are not random",
+          "driven by artificial intelligence (algorithms) following coded instructions"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM_DESCRIPTION",
+          "UNDERLYING_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME AS A KEY FACTOR",
+          "operate on the basis of time first",
+          "based on time periods"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "KEY_FACTOR_INFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BLACK_SWAN_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "major geopolitical event",
+          "'black swan' event"
+        ],
+        "narrative_roles": [
+          "MARKET_EXCEPTION",
+          "RISK_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC NATURE OF MARKETS AND TIME AS A KEY FACTOR",
+      "source_file": "ICT Mentorship 2023 - Algorithmic Price Delivery & Time Macros Intro_Handbook.chunks.json"
+    }
+  }
+]

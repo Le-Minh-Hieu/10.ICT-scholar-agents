@@ -1,0 +1,460 @@
+[
+  {
+    "chunk_id": "chunk_4048",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "old New Week Opening Gap",
+          "current New Week Opening Gap",
+          "When these are converging or very close"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_INDICATOR",
+          "PREDICTIVE_SIGNAL"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK",
+          "today's session"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "consolidate",
+          "move sideways",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PREDICTED_OUTCOME"
+        ],
+        "temporal_tags": [
+          "today's session"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAPS AND CONSOLIDATION INDICATORS",
+      "source_file": "NQ Futures Review & The ICT Sick Sister Consolidation Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4049",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "buy-side liquidity resting above the high here",
+          "another higher high",
+          "buy side above these specific highs",
+          "TARGET LIQUIDITY"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal trade entry (OTE) levels",
+          "62% and 79% Fibonacci retracement levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_ZONE",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "CONFLUENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "CONFLUENCE",
+          "PRICE_INEFFICIENCY",
+          "REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEEP_DISCOUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount area",
+          "deep discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "CONFLUENCE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OPTIMAL ENTRY AND TARGET LIQUIDITY",
+      "source_file": "NQ Futures Review & The ICT Sick Sister Consolidation Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4050",
+    "concepts": [
+      {
+        "canonical": "SICK_SISTER_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Sick Sister condition",
+          "Sick Sister",
+          "ICT Sick Sister Consolidation Model"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_IDENTIFICATION",
+          "RELATIVE_STRENGTH_WEAKNESS_ANALYSIS",
+          "TRADE_BIAS_GENERATION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "immediate buy-side target",
+          "buy-side",
+          "old high",
+          "high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy-side is cleared",
+          "high was taken out",
+          "Neither high was taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION_OR_INVALIDATION",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidating market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "drop to a discount",
+          "discount"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ENTRY_POINT_IDENTIFICATION",
+          "FAIR_VALUE_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT AND CONFIRMATION OF SICK SISTER",
+      "source_file": "NQ Futures Review & The ICT Sick Sister Consolidation Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4051",
+    "concepts": [
+      {
+        "canonical": "SICK_SISTER_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Sick Sister",
+          "Sick Sister concept",
+          "FOCUS OF THE SICK SISTER",
+          "weakest asset will attempt to make that move later on",
+          "unable to muster enough momentum to climb higher initially",
+          "later ramped all the way back up into the buy side"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_MODEL",
+          "DIVERGENCE_ANALYSIS",
+          "WEAKNESS_IDENTIFICATION",
+          "ANTICIPATORY_MODEL",
+          "POTENTIAL_REVERSAL_INDICATION",
+          "LAGGING_ASSET_CATCHUP",
+          "PRICE_ACTION_DEMONSTRATION"
+        ],
+        "temporal_tags": [
+          "later on",
+          "initially",
+          "later"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TECHNIQUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "typical SMT"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIVERGENCE_ANALYSIS",
+          "MARKET_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_OBSERVATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "failed to make a higher high or lower low"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_CRITERIA",
+          "WEAKNESS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOCUS OF THE SICK SISTER",
+      "source_file": "NQ Futures Review & The ICT Sick Sister Consolidation Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4052",
+    "concepts": [
+      {
+        "canonical": "PM_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "PM SESSION TRADE",
+          "PM session",
+          "afternoon PM session"
+        ],
+        "narrative_roles": [
+          "SESSION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DISCOUNT ACCUMULATION",
+          "deep discount",
+          "cheap discount price"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONDITIONS",
+          "PRICE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side above previous highs",
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bumping the buy side above previous highs",
+          "run out the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening session"
+        ],
+        "narrative_roles": [
+          "SESSION_CONTEXT"
+        ],
+        "temporal_tags": [
+          "OPENING_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_FRAME_RANGE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "30-minute range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "30_MINUTE_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "below equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "ENTRY_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD (Price Delivery) arrays",
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PM SESSION TRADE AND DISCOUNT ACCUMULATION",
+      "source_file": "NQ Futures Review & The ICT Sick Sister Consolidation Model_Handbook.chunks.json"
+    }
+  }
+]

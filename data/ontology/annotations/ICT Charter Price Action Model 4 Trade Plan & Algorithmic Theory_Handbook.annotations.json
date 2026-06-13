@@ -1,0 +1,918 @@
+[
+  {
+    "chunk_id": "chunk_941",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_CALENDAR_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic calendar",
+          "medium and high impact events",
+          "calendar events",
+          "daily economic drivers"
+        ],
+        "narrative_roles": [
+          "PRE_TRADE_ANALYSIS",
+          "MACRO_DRIVERS",
+          "VOLATILITY_INJECTION"
+        ],
+        "temporal_tags": [
+          "coming week",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "PRE_TRADE_ANALYSIS",
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific weekly profile",
+          "that week's range"
+        ],
+        "narrative_roles": [
+          "PRE_TRADE_ANALYSIS",
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "position trading",
+          "monthly chart"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_BIAS",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seasonal tendencies"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_BIAS",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "manipulation",
+          "volatility injections"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MACRO_DRIVERS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "ITA data range",
+          "highest high",
+          "lowest low",
+          "current dealing range",
+          "60-day ITA data range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE",
+          "ENTRY_CONTEXT"
+        ],
+        "temporal_tags": [
+          "last 20, 40, and 60 trading days",
+          "60-day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Matrix"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY_CONTEXT",
+          "RANGE_DEFINITION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ECONOMIC CALENDAR & ITA DATA RANGE",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_942",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD arrays",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "CONFLUENCE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "dealing range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "old high/low",
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "INEFFICIENCY",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_PROFIT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "minimum of 500 Pips",
+          "500 Pips"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIOD",
+        "confidence": 0.8,
+        "surface_terms": [
+          "60-day ITA data range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "ANALYSIS_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONTHLY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly range bias",
+          "monthly bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS",
+        "confidence": 1,
+        "surface_terms": [
+          "key economic event"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "current trading week",
+          "next trading week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REBALANCING",
+        "confidence": 1,
+        "surface_terms": [
+          "rebalancing to inefficient price delivery"
+        ],
+        "narrative_roles": [
+          "PRICE_CORRECTION",
+          "EFFICIENCY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DRAW ON LIQUIDITY & PD ARRAYS",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_943",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendencies",
+          "current seasonal tendencies",
+          "strongest seasonal tendencies",
+          "best seasonal tendencies",
+          "highest probability seasonals",
+          "highest probability seasonal tendencies"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "DIRECTIONAL_BIAS",
+          "TRADE_PLANNING",
+          "EXPECTATIONAL_FRAMING",
+          "HIGH_PROBABILITY_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "Month 5",
+          "throughout the calendar year",
+          "each month",
+          "Christmas break",
+          "first couple of weeks of January"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_SHIFT_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "QUARTERLY SHIFT MODEL",
+          "quarterly shift model and trade plan",
+          "quarterly shifts"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "TRADE_PLANNING",
+          "LONG_TERM_TRADE_MODEL",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "around two months or longer"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly and weekly charts",
+          "60-day ITA data range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMING",
+          "MACRO_BIAS_IDENTIFICATION",
+          "DATA_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "60-day ITA data range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "strong chance of bullishness or bearishness",
+          "anticipating which market might move"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_EXPECTATIONS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "capable of offering 500 Pips or more"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "EXPECTED_RETURN",
+          "HIGH_PROBABILITY_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEASONAL TENDENCIES AND QUARTERLY SHIFT MODEL",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_944",
+    "concepts": [
+      {
+        "canonical": "COT_DATA",
+        "confidence": 1,
+        "surface_terms": [
+          "COT (Commitment of Traders) hedge program"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAYS"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "TRADE_LOCATION_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount arrays",
+          "discount arrays under the ITA data range of 20, 40, and 60 days",
+          "discount arrays inside the 20, 40, and 60-day ITA data range"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "BUY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium arrays",
+          "premium arrays inside the 20, 40, and 60-day ITA data range",
+          "premium arrays above the 20, 40, and 60-day ITA data range"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "SELL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias is bearish",
+          "bias is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly range expansion down"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_PROJECTION",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PRIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "When the market is primed"
+        ],
+        "narrative_roles": [
+          "SETUP_CONDITION",
+          "VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "convergence of both manipulation and price opposite to our trade bias"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_RUN",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic calendar suggests a volatility injection will likely unfold"
+        ],
+        "narrative_roles": [
+          "TIMING_ASSESSMENT",
+          "VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium fair value gaps",
+          "discount fair value gap setups"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "IMBALANCE_FILLING",
+          "REVERSAL_POINT",
+          "TRADE_LOCATION_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COT HEDGE PROGRAM, PD ARRAYS, AND MARKET PRIMING",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_945",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "old daily or weekly low",
+          "daily or weekly lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "discount fair value gap",
+          "premium fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "old daily or weekly high",
+          "old daily or weekly highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "EXIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH AND BULLISH EXIT TARGETS",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_946",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY PROFILE",
+          "weekly profile for the low to form"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "STRUCTURAL_FORMATION",
+          "TIMING_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "New York open"
+        ]
+      },
+      {
+        "canonical": "LOW_OF_THE_WEEK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low to form between Monday and Wednesday's New York open",
+          "low of the week",
+          "Tuesday creates a low of the week"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_FORMATION",
+          "BIAS_CONFIRMATION",
+          "TIMING_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "New York open"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "European open price",
+          "European open price level",
+          "European opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_FILTER",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "EUROPE"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "4-hour discount fair value gap",
+          "4-hour premium fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "CONFLUENCE",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_PRICING",
+          "ENTRY_ZONE",
+          "BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_PRICING",
+          "ENTRY_ZONE",
+          "SELL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INSTITUTIONAL ORDER FLOW ENTRY",
+          "institutional order flow entry drill trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "retracement lower",
+          "retracement higher"
+        ],
+        "narrative_roles": [
+          "PULLBACK",
+          "ENTRY_CONTEXT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London open Kill Zones",
+          "New York open Kill Zones"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "London open",
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stop raid",
+          "standard buy stop raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "PRICE_MANIPULATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "When we are bullish",
+          "when the market is bullish",
+          "When we are bearish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY PROFILE & INSTITUTIONAL ORDER FLOW ENTRY",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_947",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD convergence",
+          "premium array",
+          "PD array convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "standard deviation",
+          "standard deviation convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.75,
+        "surface_terms": [
+          "Place your stop loss above this high plus 25 Pips"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "LIQUIDITY_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY, STOP LOSS, AND PROFIT TAKING PROTOCOLS",
+      "source_file": "ICT Charter Price Action Model 4 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  }
+]

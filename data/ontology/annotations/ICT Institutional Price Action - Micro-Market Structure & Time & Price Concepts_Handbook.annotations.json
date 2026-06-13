@@ -1,0 +1,288 @@
+[
+  {
+    "chunk_id": "chunk_1518",
+    "concepts": [
+      {
+        "canonical": "LOWER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Lower time frames",
+          "operate in them with high technical precision and consistency"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "PRACTICE_METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_CONTEXT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "significant down day",
+          "bearish market"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "yesterday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "up-close candles"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_RESISTANCE",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sensitivity and a subsequent displacement lower"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "VALIDATION_OF_POI"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICING PRICE ACTION WITH LOWER TIME FRAMES & BEARISH CONTEXT",
+      "source_file": "ICT Institutional Price Action - Micro-Market Structure & Time & Price Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1519",
+    "concepts": [
+      {
+        "canonical": "TIME_AND_PRICE_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TIME & PRICE",
+          "time and price"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CORE_PHILOSOPHY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific trading windows",
+          "between 1:00 PM and 4:00 PM Eastern Standard Time"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_PERIOD",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [
+          "1PM_EST",
+          "4PM_EST"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market imbalance",
+          "This break signifies an imbalance"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breaks below it",
+          "downward drop",
+          "micro-market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the last up-close candle prior to that downward drop"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "LIQUIDITY_REFERENCE",
+          "REVERSAL_INDICATION",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME & PRICE",
+      "source_file": "ICT Institutional Price Action - Micro-Market Structure & Time & Price Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1520",
+    "concepts": [
+      {
+        "canonical": "TARGET_PROJECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "projecting targets",
+          "project a target",
+          "projected low",
+          "projected target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT",
+          "ANALYSIS_GOAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "parent price swing",
+          "swing low",
+          "market structure swing"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_ANCHOR",
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci tool"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TOOL",
+          "TARGET_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PERFECT_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "perfect delivery"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "TRADE_VALIDATION",
+          "PROFIT_TAKING_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "overall market structure",
+          "market structure swing projection",
+          "micro-market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_SETUP",
+          "FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER_INDICATION",
+          "SUPPLY_DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous low"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_TARGET",
+          "LIQUIDITY_TARGET",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROJECTING TARGETS WITH PARENT PRICE SWINGS AND PERFECT DELIVERY",
+      "source_file": "ICT Institutional Price Action - Micro-Market Structure & Time & Price Concepts_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,667 @@
+[
+  {
+    "chunk_id": "chunk_1785",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "small gap",
+          "liquidity void",
+          "no actual trading was printed between these two respective candles (this candle's high, next candle's low)",
+          "this little gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "REBALANCING_AREA",
+          "PRICE_MAGNET",
+          "DRAW_ON_LIQUIDITY",
+          "POTENTIAL_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX (DXY) DAILY CHART ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1786",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly volume imbalance",
+          "volume imbalance",
+          "no body, no candlestick body"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR WEEKLY CHART",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1787",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGNET",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FVG",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly inversion gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw to buy side"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR DAILY",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1788",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traded through the buy side",
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly volume imbalance",
+          "low end of that weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "REJECTION_BLOCK",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "premium and/or discount"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TRADE_PLANNING",
+          "ENTRY_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR HOURLY",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1789",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency here",
+          "Fair Value Gap",
+          "weekly Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "SUPPORT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "in the discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P AND NASDAQ WEEKLY",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1790",
+    "concepts": [
+      {
+        "canonical": "DAILY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "S&P DAILY"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS_TIMEFRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY_MIDPOINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midpoint of that lower inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS_TIMEFRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE_FILL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "close this entirely"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment from this wick"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "MARKET_STRUCTURE_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Friday's High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS_INVALIDATION_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "All of that changes if we trade on a closing basis above Friday's High"
+        ],
+        "narrative_roles": [
+          "BIAS_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P DAILY",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1791",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "IMBALANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side or sell side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "ORDERFLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draws on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_DIRECTION_FORECAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lower time frames"
+        ],
+        "narrative_roles": [
+          "SCALING_DOWN_FOR_ENTRY",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "day trade the sessions"
+        ],
+        "narrative_roles": [
+          "STRATEGY_TYPE",
+          "EXECUTION_METHOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEUTRAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "not have a bias intraday"
+        ],
+        "narrative_roles": [
+          "MINDSET_MANAGEMENT",
+          "ADAPTIVE_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GENERAL TRADING MINDSET",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1792",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher inefficiency",
+          "weekly volume imbalance",
+          "buy BISI",
+          "sell side imbalance, buy side",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "PRICE_MAGNET",
+          "LIQUIDITY_DRAW",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [
+          "SUNDAY",
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Balanced Price Range",
+          "Balanced Price Range, extended to the right"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "REVERSAL_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "targeting the sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P 15-MINUTE",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1793",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "closing in this inefficiency",
+          "Fair Value Gap",
+          "little tiny Fair Value Gap",
+          "this Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "RESISTANCE",
+          "REBALANCING",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "getting below this low",
+          "move to that sell side",
+          "sell side below here"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "running above this short-term high and then collapsing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "POTENTIAL_REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "really nice market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term premium"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE_IDENTIFICATION",
+          "REVERSAL_ZONE",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 15-MINUTE",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1794",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gap lower",
+          "fill a gap",
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "PREDICTION_EXPECTATION",
+          "PRICE_MAGNET",
+          "TARGET_IDENTIFICATION",
+          "TRADE_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "No daily bias"
+        ],
+        "narrative_roles": [
+          "BIAS_SETTING",
+          "TRADE_PLANNING",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "intraday only",
+          "trade intraday volatility"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TRADE_PLANNING",
+          "ADAPTATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side or sell side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "TRADE_PLANNING",
+          "PRICE_DRIVERS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bias for the week"
+        ],
+        "narrative_roles": [
+          "BIAS_SETTING",
+          "TRADE_PLANNING",
+          "DATA_GATHERING"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ 15-MINUTE",
+      "source_file": "ICT Mentorship 2023 - July 23, 2023 Market Review_Handbook.chunks.json"
+    }
+  }
+]

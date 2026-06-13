@@ -1,0 +1,640 @@
+[
+  {
+    "chunk_id": "chunk_175",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops",
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops, or sell side liquidity, have already been taken"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "REBALANCING_LEVEL",
+          "ENTRY_POI",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops",
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_THE_DAY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out the buy stops",
+          "buy side liquidity will be taken"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL TRADE SETUP AND RATIONALE FOR GOING LONG",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_176",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY POOLS",
+          "buy side and sell side liquidity pools"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ENTRY LOGIC FRAMEWORK",
+          "entry point",
+          "logic behind the entry point"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING LIQUIDITY POOLS AND ENTRY LOGIC FRAMEWORK",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_177",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL SIDE LIQUIDITY",
+          "relative equal lows",
+          "cell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "dropped below relative equal lows",
+          "cell stops have been bought"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "INITIAL PROFIT TARGET",
+          "target for taking the bulk of the position off",
+          "highest point (e.g., 4051 and high of the day)"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pyramiding",
+          "building the position",
+          "starting with four contracts"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING SELL SIDE LIQUIDITY AND INITIAL PROFIT TARGET",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_178",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "RETRACEMENT_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "take out relative equal lows",
+          "confirming that sell side liquidity has been taken",
+          "sell side liquidity has been taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_SENTIMENT_TRAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Retail traders typically interpret this price action as a bear flag, anticipating lower prices",
+          "bear flag"
+        ],
+        "narrative_roles": [
+          "TRAP_RETAIL",
+          "COUNTER_RETAIL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish narrative"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE ACTION CONFIRMATION AND DIVERGENCE FROM RETAIL SENTIMENT",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_179",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS MANAGEMENT",
+          "how the stop loss is managed",
+          "The stop loss is moved up"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTING_PROFITS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SCALING",
+        "confidence": 1,
+        "surface_terms": [
+          "POSITION SCALING",
+          "Two additional contracts were added to the position",
+          "bringing the total to six contracts long"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out yesterday's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMISE_INVALIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "premise is deemed incorrect"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRUCTURE_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "recent low"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_PLACEMENT",
+          "INVALIDATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS MANAGEMENT AND POSITION SCALING RATIONALE",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_180",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "STOP_LOSS_PLACEMENT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "STOP_LOSS_PLACEMENT"
+        ],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy Buy side liquidity",
+          "buy side liquidity target"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGETING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE AND NEXT LIQUIDITY OBJECTIVE",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_181",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "identified order block"
+        ],
+        "narrative_roles": [
+          "ORIGIN_OF_MOVE",
+          "SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move the stop loss up prematurely",
+          "stop loss",
+          "stop loss will be moved up to break-even",
+          "break-even"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "PROFIT_PROTECTION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT TAKING STRATEGY",
+          "take four contracts off"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "identified high",
+          "price runs above the identified high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PROFIT_TAKING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CONFIRMATION OF PRICE DELIVERY",
+          "price delivery is very good"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION OF PRICE DELIVERY AND PROFIT TAKING STRATEGY",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_182",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops were hit"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "target buy side liquidity level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TRADE_EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE EXECUTION AND FINAL PROFIT OUTCOME",
+      "source_file": "2022 ICT Mentorship Episode 26 - Example Of Tape Reading Practice_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,741 @@
+[
+  {
+    "chunk_id": "chunk_1938",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "MARKET_STRUCTURE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity",
+          "sell side liquidity below"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "small fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "PRICE_RETRACEMENT_AREA",
+          "ORDER_FLOW_INTERACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_ENTRY_DRILL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional order entry drill"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTION",
+          "ORDER_FLOW_INDICATION",
+          "PRICE_REACTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish outlook",
+          "maintaining a bearish outlook"
+        ],
+        "narrative_roles": [
+          "MARKET_SENTIMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market breaking lower",
+          "selling off"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_INDICATION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POUND DOLLAR (CABLE) DAILY CHART ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1939",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "discount fair value gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "buy side imbalance sell side efficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "STRUCTURAL_DEFINITION"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "MITIGATION_LEVEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side imbalance sell side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "PRICE_ATTRACTION",
+          "MITIGATION_TARGET"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P FUTURES (ES) DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1941",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "shaded area between a candle's low and another candle's high",
+          "inefficiency",
+          "buy side imbalance sell side efficiency",
+          "daily inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "SETUP",
+          "ENTRY_CRITERIA",
+          "TARGET_AREA",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ENTRY_DRILL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional entry drill",
+          "ENTRY DRILL"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "MITIGATION_LEVEL",
+          "PRICE_REFERENCE",
+          "REJECTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sweeping below a prior low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "displacement to the downside"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT_INDICATION",
+          "TREND_CONFIRMATION",
+          "IMPULSIVE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "big singular up-closed candle",
+          "low of the inefficiency (buy side imbalance sell side efficiency) on the daily chart, which is denoted by the blue lines for the big singular up-closed candle"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_SOURCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "half the gap",
+          "midpoint"
+        ],
+        "narrative_roles": [
+          "MITIGATION_LEVEL",
+          "PRICE_REFERENCE",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_PARTIAL_MITIGATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "partial entry, falling short of half the gap"
+        ],
+        "narrative_roles": [
+          "FVG_BEHAVIOR",
+          "ENTRY_MODEL",
+          "PRICE_ACTION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND_ENVIRONMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "range-bound environment",
+          "small ranges"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION_DISTRIBUTION",
+          "CONSOLIDATION",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY DRILL",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1942",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily buy side imbalance sell side efficiency",
+          "daily inefficiency",
+          "buy side imbalance sell side efficiency",
+          "the one singular big green candle on the daily chart",
+          "25 percent quadrant of the daily buy side imbalance sell side efficiency",
+          "lower quadrant",
+          "daily buy side imbalance sell side efficiency high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "SUPPORT/RESISTANCE",
+          "REACTION_POINT",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment level (blue line)",
+          "midpoint between the lower and higher levels of that daily inefficiency",
+          "consequent encroachment midpoint"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "SUPPORT/RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "15185.25",
+          "15175",
+          "specific levels were provided",
+          "Price respected these levels",
+          "these points are crucial for anticipating market responses",
+          "Price rallied off these levels"
+        ],
+        "narrative_roles": [
+          "SUPPORT/RESISTANCE",
+          "REACTION_POINT",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "(TWITTER CALL)",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1943",
+    "concepts": [
+      {
+        "canonical": "MA_DEUCE_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT MA DEUCE MODEL",
+          "'Ma Deuce Model'"
+        ],
+        "narrative_roles": [
+          "TRADING_METHODOLOGY",
+          "STRATEGY_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_EFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side imbalance sell side efficiency"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "LIQUIDITY_SEEKING",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_EFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side imbalance buy side efficiency"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "LIQUIDITY_SEEKING",
+          "CONTINUATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "price context"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "DECISION_MAKING_INPUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGETS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "likely next targets",
+          "specific, not random, levels"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term premium",
+          "premium"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT MA DEUCE MODEL",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1944",
+    "concepts": [
+      {
+        "canonical": "MA_DEUCE_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT MA DEUCE MODEL",
+          "Ma Deuce Model"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "PRE_NEWS_ANALYSIS",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "news event",
+          "news",
+          "employment numbers"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "8:30 AM news delivery"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCE",
+          "ENTRY_POINT",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "lower 25 percent quadrant",
+          "lower quadrant",
+          "another discount array"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ENTRY_POINT",
+          "PROFIT_TARGET_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_EFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "daily buy side imbalance sell side efficiency",
+          "hourly buy side imbalance sell side efficiency low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TARGET_LEVEL",
+          "PRICE_FLOOR_REFERENCE",
+          "SUPPORT_LEVEL",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [
+          "daily",
+          "hourly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "PARTIAL_PROFIT_TAKING",
+          "FVG_MITIGATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT MA DEUCE MODEL",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1945",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_MOVEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium to discount movement"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_CONTEXT",
+          "MACRO_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "OPPORTUNITY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACCELERATION",
+          "VOLATILITY_INDUCER",
+          "MARKET_STRUCTURE_BREAK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT_IMPACT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "employment numbers"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "MACRO_INFLUENCE",
+          "PRICE_ACCELERATION_CATALYST"
+        ],
+        "temporal_tags": [
+          "EMPLOYMENT_NUMBERS_RELEASE"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BISI_REFERENCE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "low of the daily buy side imbalance sell side efficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "BOUNDING_LEVEL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ANCHOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "8:30 AM"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "8:30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT MA DEUCE MODEL",
+      "source_file": "ICT Mentorship 2023 - September 08, 2023 Review & ICT Ma Deuce Model_Handbook.chunks.json"
+    }
+  }
+]

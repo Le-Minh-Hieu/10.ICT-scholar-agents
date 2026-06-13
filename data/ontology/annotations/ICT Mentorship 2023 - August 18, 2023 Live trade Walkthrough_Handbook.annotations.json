@@ -1,0 +1,930 @@
+[
+  {
+    "chunk_id": "chunk_1630",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "multiple time frames",
+          "hourly, 15-minute, 5-minute charts",
+          "15-minute, 5"
+        ],
+        "narrative_roles": [
+          "STUDY_METHODOLOGY",
+          "ANALYSIS_TECHNIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REAL_TIME_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "real-time price action",
+          "real-time price delivery",
+          "true real-time delivery",
+          "how long price takes to move",
+          "hard right Edge"
+        ],
+        "narrative_roles": [
+          "OBJECT_OF_STUDY",
+          "MARKET_MECHANICS_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.75,
+        "surface_terms": [
+          "stops",
+          "objectives"
+        ],
+        "narrative_roles": [
+          "MARKET_REFERENCE_POINT",
+          "ATTRACTION_POINT_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF RECORDING REAL-TIME PRICE ACTION AND DILIGENT STUDY",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1631",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "obvious run[s] on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "obvious run[s] to inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_EXPLANATION",
+          "IMBALANCE_MITIGATION_POTENTIAL",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OFFSIDE_POSITION",
+        "confidence": 1,
+        "surface_terms": [
+          "Offside",
+          "on the wrong side of the marketplace"
+        ],
+        "narrative_roles": [
+          "POSITION_EVALUATION",
+          "RISK_MANAGEMENT",
+          "TRADER_PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS_REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "flipping the script",
+          "get in sync"
+        ],
+        "narrative_roles": [
+          "STRATEGY_ADJUSTMENT",
+          "ADAPTIVE_TRADING",
+          "POSITION_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL-TIME EXECUTION CONTEXT AND IDENTIFYING 'OFFSIDE' POSITIONS",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1632",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS_INVALIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish narrative was incorrect",
+          "initial bias is proven wrong",
+          "fundamental shift"
+        ],
+        "narrative_roles": [
+          "NARRATIVE_CHANGE",
+          "DECISION_POINT",
+          "MARKET_REASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CLOSING SHORT, GOING LONG",
+          "close the short trade 'in a loss' and 'went immediately long'",
+          "reversing the position"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TACTICAL_ADJUSTMENT",
+          "TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_OBSERVATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price's behavior at the down-closed candle",
+          "down-closed candle"
+        ],
+        "narrative_roles": [
+          "TRIGGER_EVENT",
+          "OBSERVATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLOSING SHORT, GOING LONG",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1633",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consequent encroachment of a specific wick"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WICK_DEFENSE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "defense of this candle's Wick"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP_BOUNDARY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalances",
+          "top of the imbalances over here in the blue shaded area"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_LEVEL",
+          "LIQUIDITY_POOL_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "primary objective for the long trade",
+          "this area up here",
+          "higher objective"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "TRADE_GOAL",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop losses",
+          "really really tight stop loss, one that's not even realistic or practical",
+          "tight stop",
+          "stopped out"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "EDUCATION_DEMONSTRATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RE_ENTRY_STRATEGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "re-enter a long position",
+          "forming price action"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "ADAPTIVE_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_LEVEL",
+          "PRICE_ACTION_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_GUIDANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "clear structure"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "STOP_LOSS_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITION_CONTEXT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "choppy, range-bound"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_AWARENESS",
+          "TRADE_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ESTABLISHING THE LONG POSITION AND STRATEGIC STOP LOSS PLACEMENT",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1634",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "INVERSION FAIR VALUE GAP",
+          "inversion fair value gap",
+          "not being an inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "INVALIDATION_CRITERIA",
+          "TRADE_ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "shift in Market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "BIAS_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "PRICE_MAGNET",
+          "ORDER_FLOW_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS ERRORS",
+          "raising the stop loss too soon",
+          "chasing it",
+          "stop out the position",
+          "stop loss is kept 'far away'"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT",
+          "ERROR_IDENTIFICATION",
+          "BEST_PRACTICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAIL_STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "trail stop loss",
+          "run a trail stop loss too quickly"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT",
+          "ERROR_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WICK_MITIGATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "encroachment of a wick",
+          "price piercing and trading through a specific threshold of that wick"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "VALIDATION_CRITERIA",
+          "INVALIDATION_CRITERIA",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "stop out the position"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT_MECHANISM",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mental capital management issues"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_IMPACT",
+          "PERFORMANCE_IMPACT",
+          "BEHAVIORAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CORRECT IDENTIFICATION OF INVERSION FAIR VALUE GAP AND STOP LOSS ERRORS",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1635",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inversion fair value gap",
+          "Fairbank gap which is an inversion for everybody got right there"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "consequent encroachment of specific candle wicks"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT_ADJUSTMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'allowance for it may trade down to the low of this area and go one one tick or so below it'",
+          "'coloring Outside the Lines'"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STOP_LOSS_PLACEMENT_STRATEGY",
+          "TOLERANCE_FOR_FALSE_BREAK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "ACCUMULATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "displacement leg"
+        ],
+        "narrative_roles": [
+          "IMPULSIVE_MOVE",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR",
+          "ORDER_FLOW_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LIQUIDITY",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_ZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'exactly where you want to accumulate a long position'"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "ORDER_PLACEMENT",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EFFECTIVE STOP LOSS PLACEMENT",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1636",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT ARRAYS",
+          "a discount PDA array",
+          "discount PDA rate"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ACCUMULATING LONG POSITIONS",
+          "accumulating new lungs"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "fair value gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_VOID_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance",
+          "volume and balance"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "LIQUIDITY_VOID_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "little shorter block"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT_RESISTANCE",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "failed to make a lower low"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "RELATIVE_STRENGTH",
+          "BULLISH_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTEXT_DRIVEN_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "on side and you understand the narrative"
+        ],
+        "narrative_roles": [
+          "TRADING_MINDSET",
+          "TRADE_VALIDATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATING LONG POSITIONS IN DISCOUNT ARRAYS",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1637",
+    "concepts": [
+      {
+        "canonical": "TRADE_MANAGEMENT_STYLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "full pull trade",
+          "one entry, no pyramiding, holding to the objective"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "METHODOLOGY_DIFFERENTIATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "not supplying demand folks",
+          "this is not a freaking flip Zone",
+          "not supplying demand",
+          "flip Zone"
+        ],
+        "narrative_roles": [
+          "BRAND_POSITIONING",
+          "EDUCATIONAL_DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FULL PULL POTENTIAL AND UNIQUE ICT CONCEPTS",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1638",
+    "concepts": [
+      {
+        "canonical": "RETRACEMENT_FOR_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "got to go down before you can go up",
+          "market 'going down picking up more opportunity to put a foothold on the surface of this mountain'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "RETEST_OF_POI",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broader context of the chart",
+          "Traders who are 'zoomed in' to only 'six candles on the screen' are 'missing so much detail'",
+          "missing so much detail inside of the fractal itself"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "TRADE_PLANNING",
+          "HIGHER_TIMEFRAME_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_MARKET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "detail inside of the fractal itself"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_PRICE_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "footholds",
+          "price levels"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "POI_IDENTIFICATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BROADER MARKET CONTEXT",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1639",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DRIVER",
+          "MARKET_STRUCTURE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_SIGNATURE",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic signature"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "MARKET_STRUCTURE_INDICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Balanced Price Ranges",
+          "balanced price range"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_STATE",
+          "MARKET_STRUCTURE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_INDICATION",
+          "ORDER_BLOCK_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Bullish Order Block",
+          "valid bullish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "CONTINUATION_POINT",
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Volume Imbalance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NARRATIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "narrative",
+          "the narrative is bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONCEPT_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SOURCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "MARKET SOURCE",
+          "source code",
+          "scripted"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_BELIEF",
+          "MARKET_PARADIGM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC SIGNATURES, BALANCED PRICE RANGES, AND MARKET SOURCE",
+      "source_file": "ICT Mentorship 2023 - August 18, 2023 Live trade Walkthrough_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,543 @@
+[
+  {
+    "chunk_id": "chunk_2555",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL SIDE LIQUIDITY POOLS",
+          "sell side of liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_FLOAT",
+        "confidence": 1,
+        "surface_terms": [
+          "OPEN FLOAT",
+          "the open float"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROTECTIVE_SELL_STOPS",
+        "confidence": 1,
+        "surface_terms": [
+          "Protective sell stops",
+          "Sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_MARKET_STRUCTURE_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "last bullish shift"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LOWS_LIQUIDITY_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term lows",
+          "weekly or monthly lows",
+          "lowest low recorded in the last three months"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_TARGET_ZONE"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY",
+          "3_MONTH"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPEN FLOAT AND SELL SIDE LIQUIDITY POOLS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2556",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STOP RUNS",
+          "briefly punch above an old high",
+          "old low has been violated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST",
+          "PRE_ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high",
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reverse",
+          "stop just above an old high or below an old low and then reverse",
+          "without significant continuation"
+        ],
+        "narrative_roles": [
+          "MARKET_TURN",
+          "POST_LIQUIDITY_RESPONSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "continue its movement",
+          "significant continuation"
+        ],
+        "narrative_roles": [
+          "TREND_FOLLOWING",
+          "POST_LIQUIDITY_RESPONSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CONFIRMATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "identifying the signs for buying"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING REVERSALS VS. CONTINUATIONS AFTER STOP RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2557",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH MARKET STRUCTURE SHIFT",
+          "break in market structure",
+          "market shift",
+          "bearish shift",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "DAILY LIQUIDITY POOLS",
+          "high",
+          "significant liquidity pool of buy stops",
+          "liquidity pool",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH MARKET STRUCTURE SHIFT AND DAILY LIQUIDITY POOLS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2558",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "clear the buy-side liquidity",
+          "buy-side liquidity (buy stop raid)",
+          "taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "LIQUIDITY_GRAB_BEFORE_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the market broke down, violating a short-term low"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "This short-term low had trailing sell stops resting below it, which were then violated and canceled, thus knocking out any long positions.",
+          "This run on sell stops below the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MOMENTUM_ACCELERATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first crucial clue that the market is likely to target the sell side of"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "LIQUIDITY_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "When a short-term high is briefly violated, assess if it creates new higher ground. If it fails to challenge the previous significant high and is met with a strong rejection, it signals weakness."
+        ],
+        "narrative_roles": [
+          "WEAKNESS_INDICATION",
+          "REVERSAL_INDICATION",
+          "FAILURE_TO_CONTINUE_TREND"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_MARKET_STRUCTURE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "if the market consistently creates new lower lows by violating short-term lows, while struggling to make new highs, it indicates a drive towards sell-side liquidity."
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TREND_CONTINUATION",
+          "LIQUIDITY_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING DIRECTIONAL BIAS",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2559",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term lows",
+          "higher high",
+          "intermediate-term high",
+          "short-term high to its left and right",
+          "intermediate-term low",
+          "short-term low to its left and right",
+          "lower intermediate-term high",
+          "long-term high",
+          "market structure"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS",
+          "DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS_CONFIRMATION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "CONFIRMING DAILY BIAS AND MARKET STRUCTURE",
+          "daily chart timeframe",
+          "preference to move lower",
+          "ease in breaking below short-term lows",
+          "every rally fails to make new ground or a higher high",
+          "bearish bias",
+          "immediately punished",
+          "solidifies an intermediate-term high that is lower than the previous one",
+          "multiple intermediate and long term highs signal the market's intention to move lower"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "DIRECTIONAL_CONVICTION",
+          "TRADE_PLANNING",
+          "MARKET_STRUCTURE_INTERPRETATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMING DAILY BIAS AND MARKET STRUCTURE",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2560",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void",
+          "filled this void"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "short-term low at 105.34",
+          "1.07 big figure low",
+          "below old lows",
+          "sell orders below the current market price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "take out sell-side liquidity",
+          "liquidity was run on one side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_HUNT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market was drawn for three to six months",
+          "market seeks out buy and sell orders"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TREND_DIRECTION"
+        ],
+        "temporal_tags": [
+          "three to six months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_REFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "December 2015 low",
+          "high made in May 2016",
+          "high in spring 2016",
+          "traded down to a low",
+          "old highs",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "December 2015",
+          "May 2016",
+          "spring 2016",
+          "six months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_SHIFTS",
+        "confidence": 1,
+        "surface_terms": [
+          "quarterly shifts"
+        ],
+        "narrative_roles": [
+          "MACRO_STRUCTURAL_SHIFT",
+          "MARKET_CYCLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_FLOAT",
+        "confidence": 1,
+        "surface_terms": [
+          "open float"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ANALYSIS_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "above old highs",
+          "buy orders above the current market price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money",
+          "market makers",
+          "SMART MONEY PERSPECTIVE"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_TERM_CYCLES",
+        "confidence": 1,
+        "surface_terms": [
+          "LONG-TERM CYCLES",
+          "three to six months",
+          "December 2015 low to the high made in May 2016"
+        ],
+        "narrative_roles": [
+          "MACRO_STRUCTURAL_ANALYSIS",
+          "MARKET_CYCLE"
+        ],
+        "temporal_tags": [
+          "December 2015",
+          "May 2016",
+          "spring 2016",
+          "six months"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY VOIDS, LONG-TERM CYCLES, AND SMART MONEY PERSPECTIVE",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Open Float_Handbook.chunks.json"
+    }
+  }
+]

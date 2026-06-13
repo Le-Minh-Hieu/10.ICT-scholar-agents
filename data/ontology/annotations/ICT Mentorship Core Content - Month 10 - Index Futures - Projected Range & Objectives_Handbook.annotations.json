@@ -1,0 +1,501 @@
+[
+  {
+    "chunk_id": "chunk_3390",
+    "concepts": [
+      {
+        "canonical": "PROJECTED_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "projected range",
+          "projecting the range",
+          "forecast",
+          "forecast it",
+          "daily range"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "PRICE_TARGETING"
+        ],
+        "temporal_tags": [
+          "DAILY_RANGE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "measured move type event",
+          "first leg up",
+          "second leg of equal distance"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "FORECASTING",
+          "PATTERN_RECOGNITION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM_SESSION",
+          "PM_SESSION"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consolidation",
+          "consolidate",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "RANGE_BOUND"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LUNCH_HOUR"
+        ]
+      },
+      {
+        "canonical": "MACROECONOMIC_CATALYST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "catalyst",
+          "strong or surprise economic news"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCEMENT",
+          "LIQUIDITY_INDUCEMENT"
+        ],
+        "temporal_tags": [
+          "NEWS_RELEASE_TIME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWO SESSION UP CLOSE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Projected Range & Objectives_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3391",
+    "concepts": [
+      {
+        "canonical": "TWO_SESSION_DOWN_CLOSE_PATTERN",
+        "confidence": 0.98,
+        "surface_terms": [
+          "TWO SESSION DOWN CLOSE",
+          "Two Session Down Close projected range",
+          "down close"
+        ],
+        "narrative_roles": [
+          "MARKET_PATTERN",
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROJECTED_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "projected range"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "ANTICIPATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily and four-hour charts are bearish",
+          "institutionally bullish",
+          "strong up days",
+          "trending days",
+          "up close"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART",
+          "FOUR_HOUR_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lunch hour may not see the entire lunch hour consolidate",
+          "lunch hour consolidate"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "TEMPORAL_WINDOW_BEHAVIOR"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "FUNDAMENTAL_CATALYST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stimulus that set the day off",
+          "strong economic news that disappointed"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_GENERATOR",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWO SESSION DOWN CLOSE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Projected Range & Objectives_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3392",
+    "concepts": [
+      {
+        "canonical": "REVERSAL_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "AM DECLINE PM REVERSAL",
+          "price rallies in the PM session",
+          "reverse and trade higher"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM",
+          "PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "lunch hour lows can be violated or traded down (running sell stops)",
+          "run out the low formed in the New York AM session"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [
+          "lunch hour"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "PM"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM ARRAY RECAPITALIZATION",
+          "AM session premium array",
+          "higher time frame premium",
+          "four-hour, daily, weekly, or monthly premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "DRAW_ON_LIQUIDITY",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM",
+          "PM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ALIGNMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame premium",
+          "higher time frame (four-hour, daily, weekly, or monthly) premium array"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONFIRMATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RECAPITALIZATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RECAPITALIZATION",
+          "return to it in the PM session to recapitalize that"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_CONFIRMATION",
+          "RE-DISTRIBUTION",
+          "RE-ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AM DECLINE PM REVERSAL",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Projected Range & Objectives_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3393",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "POI",
+          "RETRACEMENT_TARGET",
+          "SELL_ZONE"
+        ],
+        "temporal_tags": [
+          "AM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "LIQUIDITY_POOL_FORMATION"
+        ],
+        "temporal_tags": [
+          "OPENING_RANGE_TIME",
+          "FIRST_HOUR_TRADING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "run London sell stops",
+          "run the lunchtime lows",
+          "reach for the day's buy stops",
+          "runs the intraday low",
+          "reaches for intraday or London buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "TARGET_ACQUISITION"
+        ],
+        "temporal_tags": [
+          "AM",
+          "LUNCH_HOUR",
+          "PM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "London sell stops",
+          "lunchtime lows",
+          "intraday low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "the day's buy stops",
+          "intraday or London buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [
+          "AM",
+          "LUNCH_HOUR"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROJECTED RANGE TYPE 6: CONSOLIDATION AM DECLINE PM RALLY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Projected Range & Objectives_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3394",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATION DAYS",
+          "consolidation",
+          "When the market is not predisposed to trade higher or lower with a trend",
+          "lack of trend",
+          "lack of news",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_BEHAVIOR",
+          "LOW_VOLATILITY",
+          "LACK_OF_DIRECTIONAL_BIAS",
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "strong directional bias",
+          "underlying market suggests higher or lower prices",
+          "lack of trend"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "TRADE_OPPORTUNITY_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEEK_AND_DESTROY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'seek and destroy' condition",
+          "'seek and destroy' conditions"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "HIGH_VOLATILITY",
+          "TREND_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "A non-farm payroll day"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION DAYS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Index Futures - Projected Range & Objectives_Handbook.chunks.json"
+    }
+  }
+]

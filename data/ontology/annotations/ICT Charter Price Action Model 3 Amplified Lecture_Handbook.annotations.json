@@ -1,0 +1,563 @@
+[
+  {
+    "chunk_id": "chunk_933",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "THE COT HEDGING PROGRAM",
+          "Commitment of Traders (COT) report data",
+          "commercial",
+          "highest high",
+          "lowest low",
+          "net position",
+          "midpoint",
+          "'bullish commercial buy program'",
+          "'commercial sell model'"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "FUNDAMENTAL_ANALYSIS",
+          "LONG_TERM_DIRECTIONAL_BIAS",
+          "PROGRAMMATIC_BIAS"
+        ],
+        "temporal_tags": [
+          "LAST_12_MONTHS_ANALYSIS"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'daily liquidity'",
+          "liquidity pools"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "ORDER_FLOW_TARGET",
+          "MARKET_ENGINE_DRIVER"
+        ],
+        "temporal_tags": [
+          "DAILY_LIQUIDITY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing trading model",
+          "one-sided price movement (higher or lower)"
+        ],
+        "narrative_roles": [
+          "TRADING_METHODOLOGY",
+          "TRADE_PLANNING_FRAMEWORK",
+          "DIRECTIONAL_BIAS_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE COT HEDGING PROGRAM",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_934",
+    "concepts": [
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COT Hedging Program 'stage'"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MODEL SETUP, ENTRY PATTERN, AND CONCEPTUAL GRAPHIC",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_935",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH CONTEXT"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSE_RELATIONSHIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inverse relationship with the Futures Contract",
+          "everything observed must be reversed"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_CONTEXT",
+          "ANALYTICAL_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_NET_POSITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "below the midpoint",
+          "commercials are in a 'net short position'",
+          "12-month range"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CANADIAN DOLLAR FUTURES (BEARISH CONTEXT)",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_936",
+    "concepts": [
+      {
+        "canonical": "MULTIPLE_TIMEFRAME_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CAPTURING WEEKLY MOVES WITHIN THE MONTHLY RANGE",
+          "capitalize on the impulsive moves within a monthly range",
+          "monthly range",
+          "four weekly",
+          "seek profit from 'one or more of the four weeks' that construct the monthly range",
+          "waiting for the entire monthly candle to complete",
+          "model focuses on sufficient, smaller moves within the monthly candle",
+          "weekly and daily charts"
+        ],
+        "narrative_roles": [
+          "STRATEGY_GUIDANCE",
+          "TIMEFRAME_ALIGNMENT",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CAPTURING WEEKLY MOVES WITHIN THE MONTHLY RANGE",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_937",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE CONTEXT AND MODEL CONSISTENCY",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_938",
+    "concepts": [
+      {
+        "canonical": "EPOD_DATA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "EPOD DATA",
+          "EPOD data range"
+        ],
+        "narrative_roles": [
+          "DATA_ANALYSIS_TOOL",
+          "FORECASTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY TARGETS"
+        ],
+        "narrative_roles": [
+          "TARGETING_LIQUIDITY",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INITIAL OPTIMAL TRADE ENTRY",
+          "optimal trade entry",
+          "deeper entry point",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stop liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "continuation"
+        ],
+        "narrative_roles": [
+          "MARKET_MOVEMENT",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "wipe out a little bit more that liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_RUN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EPOD DATA, LIQUIDITY TARGETS, AND INITIAL OPTIMAL TRADE ENTRY",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_939",
+    "concepts": [
+      {
+        "canonical": "PSEUDO_JUDAH_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pseudo Judah swing"
+        ],
+        "narrative_roles": [
+          "MARKET_PATTERN",
+          "REVERSAL_PATTERN",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "March 1st",
+          "first trading day of the month",
+          "midnight"
+        ],
+        "session_tags": [
+          "Asian session"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "optimal trade entry",
+          "OT level",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "70.5 Fibonacci level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TOOL_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "initial swing low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_SIGNAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy signal"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY PSEUDO JUDAH SWING AND OPENING PRICE DEFINITION",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_940",
+    "concepts": [
+      {
+        "canonical": "DAY_OF_WEEK_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "'day of week' considerations",
+          "For bullish swing trades (buying), aim for entries on Monday, Tuesday, or Wednesday",
+          "For bearish swing trades (selling short), also aim for entries on Monday, Tuesday, or Wednesday"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_PLANNING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "expanding a Fibonacci from the 'afternoon low on that Monday' up to the 'initial high of the day on Tuesday' (just before a significant rally)",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRECISION_ENTRY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "afternoon low on that Monday",
+          "initial high of the day on Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Key 'kill zones' for entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TIMING_PRECISION"
+        ],
+        "temporal_tags": [
+          "London open",
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "tighter stop loss",
+          "Place a stop loss just below the afternoon low on Monday of that particular week",
+          "reduce the amount of risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [
+          "afternoon low on Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.9,
+        "surface_terms": [
+          "potentially larger R",
+          "larger R"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "PROFIT_TARGETING",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINE-TUNING ENTRY FOR REDUCED RISK AND DAY-OF-WEEK BIAS",
+      "source_file": "ICT Charter Price Action Model 3 Amplified Lecture_Handbook.chunks.json"
+    }
+  }
+]

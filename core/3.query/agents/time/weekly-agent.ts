@@ -109,6 +109,16 @@ export async function weeklyAgent(
       pushImage(parts, input.eurusd.tf2!, "Time-TF2", callId);
       pushImage(parts, input.eurusd.tf3!, "Time-TF3", callId);
     },
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT weekly time-based observations.
+
+Focus on weekly profiles and day-of-week timing:
+1. **Weekly Open Range Timing**: Identify the high/low range established during the first 24 hours of the week starting Monday. (TIME)
+2. **New Week Opening Gap (NWOG) Status**: State if the NWOG is open, partially filled, or completely filled. (TIME)
+3. **Intra-Week Volatility Windows**: Note the timing of daily range expansions (Monday/Tuesday manipulation vs Wednesday/Thursday expansion). (TIME)
+4. **Weekly Range Boundaries**: Reference the boundaries of the weekly range and equilibrium levels. (PRICE)
+5. **Daily FVG Reference**: Note daily FVGs price is currently interacting with as secondary draw. (PRICE)
+
+Output observations as bullet points. Do NOT use the phrases 'Weekly Bias', 'Weekly Buy Day Bias', 'Weekly Sell Day Bias', or 'Weekend Effect' in observations.`,
     useGroundingVerification: false,
     mapOutput: (result) => {
       return {

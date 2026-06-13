@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-06-13T11:49:23.699Z",
+  "agentType": "HTF-PDArray-Agent",
+  "currentCallId": "HTF-PDArray-Agent-HTF-PDArray-Agent-1781351251966-19",
+  "prompt": "## ROLE\nYou are an ICT PD Array (Premium/Discount) analysis system.\n\n## TASK\nDetect premium / discount zones using STRICT grounded reasoning. Identify HTF range, equilibrium, and current price position.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere's an analysis of the provided charts for LIVE ICT Premium/Discount (PD) Array observations:\n\n**HTF Dealing Range Analysis (Monthly/Weekly Perspective):**\n\n*   **HTF Dealing Range Boundaries**:\n    *   The swing high (BS+) defining the current higher timeframe dealing range is observed at **1.20831**.\n    *   The swing low (SS-) defining the current higher timeframe dealing range is observed at **1.01779**.\n*   **Equilibrium Level**: The equilibrium (50%) of this HTF dealing range is identified at **1.12142** (as labeled on the chart).\n*   **Current Price Position**: The current price (C: 1.15669) is trading **above** the equilibrium level of 1.12142.\n*   **PD Array Hierarchy**: The current price is located in the **Premium Zone** of the HTF (Monthly/Weekly) dealing range.\n\n**Supporting Reference (Daily Perspective within the HTF Premium):**\n\n*   **Premium / Discount PD Arrays**:\n    *   Within the broader HTF Premium zone, a more immediate Daily dealing range can be observed:\n        *   The Daily swing high is 1.18492.\n        *   The Daily swing low is 1.14110.\n        *   The equilibrium for this Daily dealing range is approximately 1.16301.\n    *   The current price (1.15669) is trading in the **Discount Zone** of this immediate Daily dealing range.\n    *   Price has recently retraced from a Higher Time Frame Premium PD Array, specifically a potential Bearish Order Block/resistance level identified around 1.17208 (black line) and 1.16593 (red line) on the weekly/daily charts, which are within the HTF Premium.\n    *   The current price action is trading above the Daily Swing Low at 1.14110, which acts as a potential support.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_1539]\nTRADING INTO THE GAP AND DAILY ORDER BLOCK\nBut we have the gap which we traded up into later in the morning. And this level here is the order block from the daily chart, so let me go back and show you what that is.\n\n[CHUNK_ID:chunk_2850]\nTHE PD ARRAY MATRIX AND CONTEXTUAL FRAMING\nI like to use order blocks in these teachings because to make the videos with every possible scenario it would be ridiculous in terms of length. But you're looking for, in terms of the PD Array Matrix, everything above you. You go in the order that that Matrix shows you. And again, there may not be a void, it may not be a fair value gap, but as you progress through that list from the bottom up for premium PD arrays, and from that list top down for the discount PD arrays, that's the order in which you hunt the current range you're trading in. By using those levels or those arrays on the monthly and weekly charts, it will give you the context of what you're going to be trading off of.\n\n[CHUNK_ID:chunk_2909]\nSPECIFIC PD ARRAYS IDENTIFIED (20-DAY LOOKBACK)\nWith that in mind, what I've noted is in the last 20 trading days, these are the respective premium and discount PD arrays. Working our way from the top down, we have an: bearish order block mean threshold (that's the three of candles, the ranges of their bodies, highs high and lowest low in terms of the bodies, not the wicks; that's the mean threshold or Midway point) And then we trade down into the discount area, we see a:\n\n[CHUNK_ID:chunk_3531]\nPD ARRAY MATRIX AND KEY PRICE LEVELS\nThe next is I break down the PD array Matrix on a weekly, and I'll do the same thing I saw on the monthly charts on the weekly as well. So everything that I would break down in terms of the range that's defined by now the weekly chart, so any PD array that didn't exist in the monthly may now materialize in the weekly chart because you're going to get much more definition because you're going into a lower time frame. And after that, by having the weekly PD array Matrix defined, both premium and discount arrays, then I can start working towards calibrating my key price levels for support and resistance or buy and sell areas.\n\n[CHUNK_ID:chunk_2777]\nALGORITHMIC THINKING AND PD ARRAY MATRIX BASICS\nAs a reminder, when we're looking at price, we have to think algorithmically. We have to refer to the PD Array Matrix. For study purposes only, I'm including this slide, so be mindful that we're looking for these arrays in difference to the premium or discount spectrum.\n\n[CHUNK_ID:chunk_524]\nDAILY CHART PRICE ACTION\nI want you to look at how we have had this high here get traded above it, created a swing high (which is a candle with a high with a lower high to the left of it and a lower high to the right of it). Then, when we see that, we anticipate price to try to drop going lower. It does; it goes below this swing low (which is a low that has a higher low to the left and a higher low to the right). It goes down below that into this inefficiency here, which is a buy side imbalance, sell side inefficiency (which is a classification for a specific fair value gap).\n\n## INPUT CONTEXT\nEURUSD (M → W → D) PD Array Context\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Extract Principles, 2. Apply to Chart, 3. Derive Signals, 4. Self-Validation\n- Extract at least 2 unique principles from grounded knowledge\n- MUST include EXACTLY ONE CHUNK_ID per principle\n- If structure unclear → output 'unknown'\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"pd_array_status\": \"premium\" | \"discount\" | \"equilibrium\" | \"unknown\",\n      \"equilibrium\": number,\n      \"range_high\": number,\n      \"range_low\": number,\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning following the mandatory order\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 11:48:46 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n      \"principles\": [\n            {\n                  \"rule\": \"Higher Time Frame (HTF) charts, such as monthly and weekly, provide the essential context for defining dealing ranges and identifying relevant Premium/Discount (PD) arrays.\",\n                  \"chunk_id\": \"chunk_2850\"\n            },\n            {\n                  \"rule\": \"Price action should be analyzed algorithmically using the PD Array Matrix to identify whether current price resides within the premium or discount spectrum of a given dealing range.\",\n                  \"chunk_id\": \"chunk_2777\"\n            }\n      ],\n      \"pd_array_status\": \"premium\",\n      \"equilibrium\": 1.12142,\n      \"range_high\": 1.20831,\n      \"range_low\": 1.01779,\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:chunk_2850\", \"CHUNK_ID:chunk_2777\"],\n      \"notes\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles**: We established two core principles from the grounded knowledge. First, that HTF charts (Monthly/Weekly) provide crucial context for defining dealing ranges and PD Arrays (referenced from CHUNK_ID:chunk_2850). Second, that price analysis should be algorithmic, referring to the PD Array Matrix to determine if price is in the premium or discount spectrum (referenced from CHUNK_ID:chunk_2777).\\n\\n2.  **Apply to Chart**: Based on the 'LIVE MARKET OBSERVATIONS', the Higher Time Frame (HTF) dealing range (Monthly/Weekly) is defined by a swing high (BS+) at 1.20831 and a swing low (SS-) at 1.01779. The equilibrium (50%) of this HTF range is calculated at 1.12142. The current price is observed at 1.15669.\\n\\n3.  **Derive Signals**: Applying the principles:\\n    *   Using the HTF context (CHUNK_ID:chunk_2850), the primary dealing range is established from 1.01779 to 1.20831 with an equilibrium of 1.12142.\\n    *   Evaluating the current price (1.15669) against this HTF equilibrium (1.12142), we observe that 1.15669 is greater than 1.12142. This places the current price in the Premium Zone of the HTF dealing range, aligning with the PD Array Matrix concept (CHUNK_ID:chunk_2777).\\n    *   While a nested Daily dealing range shows the current price in its Discount Zone (1.15669 < 1.16301 Daily equilibrium), the primary context for the overall `pd_array_status` is derived from the Higher Time Frame, as explicitly stated in the 'LIVE MARKET OBSERVATIONS'.\\n\\n4.  **Self-Validation**: The analysis is consistent. The HTF range is clearly defined, equilibrium calculated, and current price position relative to this equilibrium is established. The primary status is derived from the HTF range as per ICT methodology and explicit 'LIVE MARKET OBSERVATIONS' guidance, even when a nested lower timeframe shows a different immediate status. The confidence is set at 0.9 because although the data is clear, market dynamics can shift quickly, and this is a snapshot.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.5836589702030854
+        }
+      ],
+      "createTime": "2026-06-13T11:48:27.551199Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "i0Mtap_SIeTGkNAPhOHumQg",
+      "usageMetadata": {
+        "promptTokenCount": 2286,
+        "candidatesTokenCount": 789,
+        "totalTokenCount": 4179,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1512
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 789
+          }
+        ],
+        "thoughtsTokenCount": 1104
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Higher Time Frame (HTF) charts, such as monthly and weekly, provide the essential context for defining dealing ranges and identifying relevant Premium/Discount (PD) arrays.",
+          "chunk_id": "chunk_2850"
+        },
+        {
+          "rule": "Price action should be analyzed algorithmically using the PD Array Matrix to identify whether current price resides within the premium or discount spectrum of a given dealing range.",
+          "chunk_id": "chunk_2777"
+        }
+      ],
+      "pd_array_status": "premium",
+      "equilibrium": 1.12142,
+      "range_high": 1.20831,
+      "range_low": 1.01779,
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_2850",
+        "CHUNK_ID:chunk_2777"
+      ],
+      "notes": "Step-by-step reasoning following the mandatory order:\n\n1.  **Extract Principles**: We established two core principles from the grounded knowledge. First, that HTF charts (Monthly/Weekly) provide crucial context for defining dealing ranges and PD Arrays (referenced from CHUNK_ID:chunk_2850). Second, that price analysis should be algorithmic, referring to the PD Array Matrix to determine if price is in the premium or discount spectrum (referenced from CHUNK_ID:chunk_2777).\n\n2.  **Apply to Chart**: Based on the 'LIVE MARKET OBSERVATIONS', the Higher Time Frame (HTF) dealing range (Monthly/Weekly) is defined by a swing high (BS+) at 1.20831 and a swing low (SS-) at 1.01779. The equilibrium (50%) of this HTF range is calculated at 1.12142. The current price is observed at 1.15669.\n\n3.  **Derive Signals**: Applying the principles:\n    *   Using the HTF context (CHUNK_ID:chunk_2850), the primary dealing range is established from 1.01779 to 1.20831 with an equilibrium of 1.12142.\n    *   Evaluating the current price (1.15669) against this HTF equilibrium (1.12142), we observe that 1.15669 is greater than 1.12142. This places the current price in the Premium Zone of the HTF dealing range, aligning with the PD Array Matrix concept (CHUNK_ID:chunk_2777).\n    *   While a nested Daily dealing range shows the current price in its Discount Zone (1.15669 < 1.16301 Daily equilibrium), the primary context for the overall `pd_array_status` is derived from the Higher Time Frame, as explicitly stated in the 'LIVE MARKET OBSERVATIONS'.\n\n4.  **Self-Validation**: The analysis is consistent. The HTF range is clearly defined, equilibrium calculated, and current price position relative to this equilibrium is established. The primary status is derived from the HTF range as per ICT methodology and explicit 'LIVE MARKET OBSERVATIONS' guidance, even when a nested lower timeframe shows a different immediate status. The confidence is set at 0.9 because although the data is clear, market dynamics can shift quickly, and this is a snapshot."
+    },
+    "latency": 60806.73730000015,
+    "telemetry": {
+      "promptTokens": 2286,
+      "completionTokens": 789,
+      "totalTokens": 4179
+    }
+  },
+  "openrouter": {
+    "modelUsed": "qwen/qwen3-235b-a22b-2507",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "The PD Array Matrix provides a hierarchical framework for identifying key price levels, where levels above the current price are analyzed from the bottom up for premium arrays, and levels below from the top down for discount arrays, based on higher time frame (e.g., monthly/weekly) context.",
+          "chunk_id": "chunk_2850"
+        },
+        {
+          "rule": "Order blocks and swing points on higher time frames (e.g., daily, weekly) define significant support and resistance levels that structure the current trading range and inform the location of fair value gaps or imbalances within the PD Array Matrix.",
+          "chunk_id": "chunk_1539"
+        }
+      ],
+      "pd_array_status": "premium",
+      "equilibrium": 1.12142,
+      "range_high": 1.20831,
+      "range_low": 1.01779,
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_2850",
+        "CHUNK_ID:chunk_1539"
+      ],
+      "notes": "Step 1: Extracted two principles from grounded knowledge. First, the hierarchical use of the PD Array Matrix for scanning key levels is derived from CHUNK_ID:chunk_2850. Second, the significance of order blocks and swing points in defining structure comes from CHUNK_ID:chunk_1539. Step 2: Applied these principles to the chart data — the HTF dealing range (1.01779 to 1.20831) defines the broader context, with equilibrium at 1.12142, consistent with the Matrix framework. Step 3: Derived signal — current price at 1.15669 is above equilibrium, placing it in the Premium Zone of the HTF range, despite being in daily discount. This aligns with the algorithmic thinking required by the PD Array Matrix. Step 4: Self-validated — output is consistent with both visual observations and referenced principles, with high confidence due to clear HTF structure and explicit labeling of equilibrium."
+    },
+    "latency": 28940.102300000377,
+    "telemetry": {
+      "promptTokens": 1754,
+      "completionTokens": 439,
+      "totalTokens": 2193
+    },
+    "estimatedCost": 0.002632
+  }
+}

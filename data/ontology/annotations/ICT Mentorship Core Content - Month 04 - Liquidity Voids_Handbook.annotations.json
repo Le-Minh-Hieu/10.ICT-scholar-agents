@@ -1,0 +1,505 @@
+[
+  {
+    "chunk_id": "chunk_2386",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void",
+          "void",
+          "range with only two or three candles",
+          "range"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "PRICE_MAGNET",
+          "PRICE_TARGET_ANTICIPATION",
+          "FUTURE_PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "unspecified duration",
+          "months",
+          "intraday session"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING RANGE FILLS AND VOID DURATION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2387",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_ENGINEERING_AGENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pushing price higher to run above the consolidation",
+          "selling into buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SMART_MONEY_ENTRY",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "shaded consolidation area",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRE_MANIPULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY SIDE LIQUIDITY VOID",
+          "liquidity void",
+          "void of buy side liquidity",
+          "repricing lower almost entirely on sell side liquidity",
+          "Very little buying occurs during such a rundown"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "INEFFICIENCY",
+          "SMART_MONEY_TRACKING_SIGNAL",
+          "FAST_PRICE_MOVEMENT",
+          "PRICE_REPRICING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY TACTICS AND BUY SIDE LIQUIDITY VOID",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2388",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "large, thin down candle, identified as a liquidity void",
+          "liquidity void",
+          "voided area",
+          "entire range of that large, thin down candle"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_BALANCING",
+        "confidence": 1,
+        "surface_terms": [
+          "anticipating void closure and price balancing",
+          "entire range of that large, thin down candle... to be covered",
+          "range will be filled with bullish price action",
+          "covers the entire voided area",
+          "price action has been balanced out",
+          "balancing signifies a complete and uniform delivery of price action",
+          "close the liquidity void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_CORRECTION",
+          "PRICE_DELIVERY",
+          "VOID_CLOSURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell stops below those initial lows are often triggered"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING VOID CLOSURE AND PRICE BALANCING",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2390",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-CLOSURE PRICE GAPS",
+          "price gap",
+          "gaps down at its opening",
+          "small space where the bodies do not close",
+          "price gap down",
+          "FVG",
+          "imbalance",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "BEARISH_SIGNAL",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity void closed"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "104.80 institutional level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_DRAW",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "second run into 104.76",
+          "price having run to 104.76 multiple times",
+          "subsequent attempts to revisit 104.75 two times"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RESISTANCE_TESTING",
+          "BEARISH_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_SIGNAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BEARISH SIGNALS",
+          "bearish candle",
+          "higher probability of price moving lower"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-CLOSURE PRICE GAPS AND BEARISH SIGNALS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2391",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "smart money pricing in more selling to build a natural short position"
+        ],
+        "narrative_roles": [
+          "POSITION_ACCUMULATION",
+          "DIRECTIONAL_BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "December 16th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trades up one more time to the 104.75/104.76 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FULFILLMENT"
+        ],
+        "temporal_tags": [
+          "December 19th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "one gapping down",
+          "aggressive gap down"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_OPPORTUNITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "offering a golden opportunity"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL PRICING AND EXPLOITING PRICE GAPS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2392",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Liquidity voids"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gaps during price trading",
+          "distinct range",
+          "gap where price has closed from one candle and then gaps to the opening of another",
+          "separation where price doesn't have a full closure",
+          "common gap",
+          "closing this gap"
+        ],
+        "narrative_roles": [
+          "SETUP_IDENTIFICATION",
+          "PRICE_REBALANCING_AREA",
+          "ENTRY_POINT_VALIDATION",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inclination for price to move lower",
+          "selling opportunity"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "limit order can be placed to sell at a specific price level within that gap"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAWDOWN_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "minimal drawdown"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REPRICING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price immediately trades lower and reprices"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "PROFIT_TARGET_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMON GAPS AS SELLING OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2393",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gap is closed",
+          "common gap effectively"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CATALYST",
+          "PREREQUISITE_CONDITION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run for the 104.04 sell stops",
+          "sell stops serve as points where short positions can be covered",
+          "sell stops are used to pair up with short-covering buys",
+          "pairing up sell stop orders with buys to cover shorts",
+          "running down to 103.65, again pairing up sell stop orders with buys to cover shorts"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LEVEL",
+          "PRICE_DRIVE",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last week of December"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_TIMING"
+        ],
+        "temporal_tags": [
+          "DECEMBER_LAST_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMMEDIATE REACTION AND TARGET LEVELS AFTER GAP FILL",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Voids_Handbook.chunks.json"
+    }
+  }
+]

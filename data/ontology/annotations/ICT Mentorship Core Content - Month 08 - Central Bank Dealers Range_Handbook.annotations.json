@@ -1,0 +1,519 @@
+[
+  {
+    "chunk_id": "chunk_2994",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "REFERENCE_POINT",
+          "BIAS_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CBDR_STANDARD_DEVIATION_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "standard deviations",
+          "CBDR standard deviations",
+          "one standard deviation",
+          "two standard deviations",
+          "four standard deviation move"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "PROBABILISTIC_ANALYSIS",
+          "RANGE_EXTENSION_MODEL",
+          "REVERSAL_ZONE",
+          "VOLATILITY_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "high of the day (HOD)",
+          "HOD"
+        ],
+        "narrative_roles": [
+          "KEY_PRICE_LEVEL",
+          "PRICE_TARGET",
+          "REVERSAL_POINT",
+          "DAILY_EXTREME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_OF_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "low of the day (LOD)",
+          "LOD"
+        ],
+        "narrative_roles": [
+          "KEY_PRICE_LEVEL",
+          "PRICE_TARGET",
+          "REVERSAL_POINT",
+          "DAILY_EXTREME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_DAILY_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Most sell days",
+          "sell days"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "DAILY_PROFILE_CLASSIFICATION",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_DAILY_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Most buy days",
+          "buy days"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "DAILY_PROFILE_CLASSIFICATION",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "very high-impact news event"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "VOLATILITY_DRIVER",
+          "DEVIATION_EXPLANATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REVERSAL_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Reversal Profile"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "SETUP_IDENTIFICATION",
+          "PRICE_ACTION_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "SESSION_SPECIFIC_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London session",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TIME_BASED_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "LONDON_SESSION_OPEN",
+          "NY_SESSION_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDEAL PRICE MOVEMENT WITHIN STANDARD DEVIATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2995",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "PRICE_CONTEXT"
+        ],
+        "temporal_tags": [
+          "2 PM",
+          "8 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY PARAMETERS FOR CENTRAL BANK DEALERS RANGE",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2996",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "CBDR projections",
+          "range"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "PREDICTIVE_MODELING",
+          "TRADING_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_CALIBRATION_METHOD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Using the wicks (from the highest wick to the lowest wick)",
+          "using the highest body and the lowest body (the highest closing or open price and the lowest close or open price)"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "CALIBRATION_METHOD",
+          "MEASUREMENT_TECHNIQUE",
+          "TRADING_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "2 PM New York time",
+          "8 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "RANGE_SIZE_CRITERION",
+        "confidence": 0.97,
+        "surface_terms": [
+          "larger than 30 Pips"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "EFFECTIVENESS_FILTER",
+          "RANGE_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE SIZE AND CALIBRATION METHODS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2997",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR",
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "RANGE_PROJECTION",
+          "DAILY_BIAS_TOOL",
+          "LIQUIDITY_IDENTIFICATION",
+          "HIGH_PROBABILITY_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "HOD_LOD_PREDICTION",
+        "confidence": 1,
+        "surface_terms": [
+          "low of the day (LOD)",
+          "high of the",
+          "HOD",
+          "LOD",
+          "highest probable HOD or LOD"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "SWING_POINT_IDENTIFICATION",
+          "REVERSAL_POINT_PREDICTION",
+          "DAILY_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clear directional bias",
+          "bullish or bearish market conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "PRE_TRADE_ASSESSMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ONE_SHOT_ONE_KILL_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one-shot one-kill weekly setups"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "HIGH_CONVICTION_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PRIMARY PURPOSE OF THE CBDR",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2998",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "PRICE_RANGE_DELINEATION",
+          "INSTITUTIONAL_FOOTPRINT_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_WICK",
+        "confidence": 1,
+        "surface_terms": [
+          "wicks",
+          "Wicks"
+        ],
+        "narrative_roles": [
+          "MISLEADING_PRICE_INDICATION",
+          "RETAIL_ACTIVITY_INDICATION",
+          "LIQUIDITY_ZONE_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_BODY",
+        "confidence": 1,
+        "surface_terms": [
+          "candle bodies",
+          "bodies",
+          "bodies of the candles"
+        ],
+        "narrative_roles": [
+          "TRUE_VALUE_REPRESENTATION",
+          "INSTITUTIONAL_FOOTPRINT_IDENTIFIER",
+          "PRICE_RANGE_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_ACTIVITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retail activity"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR_ANALYSIS",
+          "LIQUIDITY_GENERATION_IMPLICIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ACCUMULATION_DISTRIBUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional accumulation and distribution ranges"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FOOTPRINT",
+          "MARKET_PHASE_IDENTIFIER",
+          "TRUE_MARKET_INTENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WICKS VERSUS BODIES IN CBDR MEASUREMENT",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2999",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR",
+          "the CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_DELINEATION",
+          "PRICE_DEFINITION",
+          "PROJECTION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_OF_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "low of the day",
+          "LOD",
+          "the LOD",
+          "London LOD"
+        ],
+        "narrative_roles": [
+          "DAILY_EXTREMES",
+          "PRICE_TARGET",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first standard deviation below the range",
+          "two standard deviations below the range"
+        ],
+        "narrative_roles": [
+          "RANGE_EXTENSION",
+          "PRICE_TARGET_PROJECTION",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AGGRESSIVE_RALLY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "aggressive rally"
+        ],
+        "narrative_roles": [
+          "REVERSAL",
+          "EXPANSION",
+          "MARKET_REACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTEXTUAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "larger contextual bias"
+        ],
+        "narrative_roles": [
+          "TRADING_FRAMEWORK",
+          "DECISION_MAKING",
+          "SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_PRECISION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "precisely define",
+          "off by only one pip",
+          "precision possible"
+        ],
+        "narrative_roles": [
+          "VALIDATION",
+          "ACCURACY_DEMONSTRATION",
+          "EXPECTED_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CBDR APPLICATION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Central Bank Dealers Range_Handbook.chunks.json"
+    }
+  }
+]

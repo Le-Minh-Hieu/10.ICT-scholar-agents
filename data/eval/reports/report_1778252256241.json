@@ -1,0 +1,276 @@
+{
+  "timestamp": "2026-05-08T14:57:36.240Z",
+  "summary": {
+    "precision_at_5": 0.17333333333333334,
+    "ndcg_at_5": 0.18151510484299677,
+    "concept_alignment_rate": 0.7333333333333333,
+    "session_accuracy": 0,
+    "rerank_delta": 0.04
+  },
+  "details": [
+    {
+      "query_id": "ICT_EVAL_001",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.21398626473452756,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP",
+          "BUY_SIDE_LIQUIDITY"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_002",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.16958010263680806,
+        "concepts_matched": [
+          "DISPLACEMENT",
+          "LIQUIDITY_SWEEP"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_003",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP"
+        ],
+        "concepts_missing": [
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "forbidden_found": [],
+        "failure_tags": [
+          "ALIAS_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_004",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": [
+          "SESSION_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_005",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "FAIR_VALUE_GAP",
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": [
+          "SESSION_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_006",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "ACCUMULATION",
+          "EXPANSION"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": [
+          "SESSION_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_007",
+      "passed": true,
+      "metrics": {
+        "p5": 1,
+        "ndcg5": 1,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_008",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [],
+        "concepts_missing": [
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "forbidden_found": [],
+        "failure_tags": [
+          "ALIAS_MISS",
+          "SESSION_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_009",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "DISPLACEMENT"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": [
+          "SESSION_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_010",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.3391602052736161,
+        "concepts_matched": [
+          "FAIR_VALUE_GAP",
+          "MARKET_STRUCTURE_SHIFT",
+          "RETRACEMENT"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_011",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [
+          "DISPLACEMENT"
+        ],
+        "concepts_missing": [
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "forbidden_found": [],
+        "failure_tags": [
+          "ALIAS_MISS"
+        ]
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_012",
+      "passed": true,
+      "metrics": {
+        "p5": 0.6,
+        "ndcg5": 0.5296347172140421,
+        "concepts_matched": [
+          "REJECTION_BLOCK"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_013",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.13120507751234178,
+        "concepts_matched": [
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_014",
+      "passed": false,
+      "metrics": {
+        "p5": 0,
+        "ndcg5": 0,
+        "concepts_matched": [],
+        "concepts_missing": [
+          "REBALANCE",
+          "CONTINUATION"
+        ],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    },
+    {
+      "query_id": "ICT_EVAL_015",
+      "passed": false,
+      "metrics": {
+        "p5": 0.2,
+        "ndcg5": 0.3391602052736161,
+        "concepts_matched": [
+          "LIQUIDITY_SWEEP",
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "concepts_missing": [],
+        "forbidden_found": [],
+        "failure_tags": []
+      }
+    }
+  ],
+  "drift_flags": [
+    {
+      "concept": "DIRECTIONAL_BIAS",
+      "issue": "low_utility",
+      "frequency": 0
+    },
+    {
+      "concept": "LIQUIDITY_ENGINEERING",
+      "issue": "low_utility",
+      "frequency": 0
+    },
+    {
+      "concept": "CONSOLIDATION",
+      "issue": "low_utility",
+      "frequency": 0
+    },
+    {
+      "concept": "ORDER_BLOCK",
+      "issue": "low_utility",
+      "frequency": 0
+    },
+    {
+      "concept": "DISCOUNT_ARRAY",
+      "issue": "low_utility",
+      "frequency": 0
+    }
+  ]
+}

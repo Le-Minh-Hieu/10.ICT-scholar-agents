@@ -1,0 +1,196 @@
+{
+  "profile_date_utc": "2026-06-13T10:10:21.788Z",
+  "market_date": "2026-06-13",
+  "market_weekday": "Saturday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-08",
+  "source_week_profile_id": "2026-06-08",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": -1,
+      "GROWTH": -1,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.5
+      },
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.3
+      },
+      {
+        "currency": "GBP",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": -1,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.45
+  },
+  "daily_bias": {
+    "daily_bias": "neutral",
+    "confidence": 0,
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [],
+    "source": "calendar"
+  },
+  "day_type": "Weekend Review/Planning Day",
+  "day_confidence": 0.9,
+  "day_role_in_week": "INSUFFICIENT_EVIDENCE",
+  "weekly_alignment_state": "Pre-Alignment with established bearish weekly narrative. Focus is on reviewing the anticipated weekly profile and planning for the upcoming market open.",
+  "dominant_weekly_theme": "CPI-Driven Weekly High & Bearish Expansion",
+  "dominant_weekly_narrative": "The week is anticipated to unfold with an initial setup into the high-impact CPI data on Wednesday, which is expected to act as the primary catalyst for the weekly high. This aligns with the 'Wednesday High of the Week' profile, where price may hover or even move higher on preceding days before reversing into a premium array during Wednesday's London or New York session. Following this CPI-driven reversal, the market is expected to experience bearish expansion, potentially reinforced by ECB decisions, US PPI, and UK GDP data, particularly given concerns over labor and growth reflected in the bias. The week could see subsequent consolidation or a continued push to target lower liquidity levels, though Thursday and Friday may exhibit choppiness.",
+  "weekly_delivery_model": "Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": null,
+  "expected_expansion_day": "Wednesday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "routine liquidity conditions"
+    ],
+    "expected_liquidity_sequence": [],
+    "high_attention_windows": [],
+    "expected_displacement_windows": [],
+    "expected_reversal_windows": []
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "weekly_model:Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.",
+      "dominant_theme:CPI-Driven Weekly High & Bearish Expansion"
+    ],
+    "queries": [
+      "Saturday daily profile intraday ICT",
+      "Saturday daily profile ICT weekly delivery model"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_1927",
+      "chunk_1944",
+      "chunk_1945",
+      "chunk_1085",
+      "chunk_291",
+      "chunk_1036",
+      "chunk_263",
+      "chunk_42",
+      "chunk_863",
+      "chunk_139",
+      "chunk_283",
+      "chunk_2298",
+      "chunk_3523",
+      "chunk_797",
+      "chunk_308",
+      "chunk_293",
+      "chunk_2323",
+      "chunk_264",
+      "chunk_29",
+      "chunk_1724",
+      "chunk_1031",
+      "chunk_1081",
+      "chunk_3674",
+      "chunk_827",
+      "chunk_3303",
+      "chunk_128",
+      "chunk_3257",
+      "chunk_285",
+      "chunk_3871",
+      "chunk_3338",
+      "chunk_391",
+      "chunk_1419",
+      "chunk_3621"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Weekly Profile Analysis",
+        "chunk_id": "chunk_1927",
+        "relevance": null
+      },
+      {
+        "concept": "Weekend Pre-Market Analysis",
+        "chunk_id": "chunk_1036",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Range Expansion",
+        "chunk_id": "chunk_863",
+        "relevance": null
+      },
+      {
+        "concept": "Trading Weekly Ranges",
+        "chunk_id": "chunk_2298",
+        "relevance": null
+      },
+      {
+        "concept": "Personalized Setups and Market Conditions",
+        "chunk_id": "chunk_139",
+        "relevance": null
+      },
+      {
+        "concept": "Focus on Preferred Setups and Specific Levels",
+        "chunk_id": "chunk_263",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Today, as markets are closed for the weekend, the primary focus is on a comprehensive review of the dominant weekly narrative, which anticipates a CPI-driven weekly high on Wednesday followed by bearish expansion. This involves aligning the macro calendar bias with the expected weekly delivery model to identify potential zones of interest and prepare for the upcoming trading week. The goal is to solidify understanding of the 'weekly profile' and potential 'Weekly Range Expansion' based on the high-impact news events scheduled.",
+    "key_if_then_paths": {
+      "If CPI confirms bearish outlook": "The market is likely to follow the 'Wednesday High of the Week' profile, leading to bearish expansion in the latter half of the week, targeting lower liquidity levels as per the dominant narrative and weekly delivery model.",
+      "If CPI deviates from bearish outlook": "The established weekly narrative of a Wednesday high and subsequent bearish expansion would be invalidated or significantly altered, requiring a re-evaluation of the weekly profile and potential directional shifts. This would impact the expectation of a 'Weekly Range Expansion' to the downside."
+    },
+    "invalidation_conditions": [
+      "Any significant, unforeseen geopolitical or economic event over the weekend that contradicts the established calendar bias and dominant narrative.",
+      "CPI data on Wednesday significantly outperforming/underperforming expectations in a way that shifts market sentiment away from the anticipated 'Wednesday High of the Week' profile and bearish expansion."
+    ]
+  },
+  "intraday_awareness": {
+    "session_focus": "Analysis and Planning. No trading sessions. Focus is on anticipating 'Weekly Range Expansion' and potential price delivery into premium arrays for the upcoming week.",
+    "catalyst_priorities": [],
+    "caution_flags": [
+      "Reliance on high-impact news (CPI) as the primary catalyst means the entire weekly narrative is highly sensitive to the actual release.",
+      "The confidence for the weekly bias (0.45) is moderate, suggesting that while bearish is the leaning, there is room for deviation.",
+      "The potential for 'choppiness' towards Thursday and Friday as mentioned in the dominant narrative, indicating that the latter part of the week may not be a straightforward continuation of the bearish expansion."
+    ],
+    "execution_risk_context": "No execution risk today as markets are closed. The focus is on strategic planning, which aims to mitigate execution risk for the upcoming week by establishing a clear 'weekly profile' and understanding the 'likely or most probable direction' of price expansion."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-13T10:10:23.898Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-13T10:10:40.372Z",
+  "version": 1
+}

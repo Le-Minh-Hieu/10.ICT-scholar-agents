@@ -1,0 +1,835 @@
+[
+  {
+    "chunk_id": "chunk_1772",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small little imbalances",
+          "inefficiency",
+          "not entirely booked",
+          "this depth",
+          "the other inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "MITIGATION",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell side residing rate full of that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING PRICE DELIVERY AND BALANCE",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1773",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER SELL MODEL",
+          "MMSM"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_MODEL",
+          "TREND_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_MOMENTUM",
+        "confidence": 0.7,
+        "surface_terms": [
+          "accelerate lower"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "original consolidation",
+          "Regional consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STRUCTURAL_REFERENCE",
+          "PRICE_ACTION_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER SELL MODEL (MMSM) STRUCTURE",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1774",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "IDENTIFYING LIQUIDITY",
+          "low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "GAPS",
+          "small little gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "last up close candle",
+          "mean threshold of that last up close candle"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STOP_LOSS_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING LIQUIDITY AND GAPS",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1775",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "buy-side imbalance, sell-side efficiency",
+          "bottom of this old buy-side imbalance, sell-side efficiency",
+          "bottom end of that buy-side imbalance, sell-side efficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_RETRACEMENT_TARGET",
+          "LIQUIDITY_REBALANCING",
+          "CONTINUATION_SETUP",
+          "PRICE_REACTION_POINT",
+          "THEORY_VALIDATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERMISSIBLE RETRACEMENTS AND THEORY VALIDATION",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1776",
+    "concepts": [
+      {
+        "canonical": "ENGINEERED_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ENGINEERED PRICE DELIVERY",
+          "engineered",
+          "coded",
+          "scripted",
+          "authored"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION_INSIGHT",
+          "INSTITUTIONAL_BEHAVIOR",
+          "SMART_MONEY_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop-loss orders",
+          "stop loss",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "INDUCEMENT_TARGET",
+          "FUEL_FOR_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "LIQUIDITY GRABS",
+          "take that liquidity",
+          "in one fell swoop, they could take that liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE_ZONE",
+          "MAGNET_FOR_PRICE",
+          "ORDER_BLOCK_CONFIRMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.99,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT",
+          "SUPPLY_DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENGINEERED PRICE DELIVERY AND LIQUIDITY GRABS",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1777",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "repriced",
+          "buy-side imbalance",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCING",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "efficient delivery",
+          "efficient",
+          "sell-side efficiency",
+          "to efficient"
+        ],
+        "narrative_roles": [
+          "STATE_OF_MARKET",
+          "PRICE_DELIVERY_MODEL",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity targets",
+          "sell-side liquidity",
+          "pair up that sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fractal"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONTEXT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Being Friday"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STRATEGY_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EFFICIENT DELIVERY AND LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1778",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VERIFYING LIVE DATA AND CHART PRESENTATION",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1779",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_HUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY HUNT",
+          "stop loss below that low",
+          "trembling right now too",
+          "not going to get a chance to get off of it now",
+          "stopping out there"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET",
+          "ORDER_INDUCEMENT"
+        ],
+        "temporal_tags": [
+          "THREE_O_CLOCK_PM_EST"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity below 15,289 and a quarter",
+          "stop loss below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "THREE_O_CLOCK_PM_EST"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "An inefficiency",
+          "old buy-side imbalance, sell-side efficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "REBALANCING_AREA",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "THREE_O_CLOCK_PM_EST"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "TRADER'S INTERNAL DIALOGUE",
+          "If I was long and I had my stop loss below that low, would I feel safe right now?",
+          "they should be trembling right now too. They're not going to get a chance to get off of it now."
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_TOOL",
+          "UNDERSTANDING_MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "THREE_O_CLOCK_PM_EST"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADER'S INTERNAL DIALOGUE AND LIQUIDITY HUNT",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1780",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "My stop is sitting right above these really smooth highs"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "really smooth highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Like those out",
+          "and then come down"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "go to my target",
+          "if it goes to your targets"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "taken something off multiple times",
+          "I hammered it pretty good"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS MANAGEMENT AND PROFIT TAKING STRATEGY",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1781",
+    "concepts": [
+      {
+        "canonical": "EMOTIONAL_DISCIPLINE",
+        "confidence": 1,
+        "surface_terms": [
+          "EMOTIONAL DISCIPLINE",
+          "No emotion, no reason for concern, no excitement when you're right",
+          "continuous balancing act that a trader must maintain"
+        ],
+        "narrative_roles": [
+          "TRADER_PSYCHOLOGY",
+          "RISK_MANAGEMENT_PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "these two up-close candles together",
+          "price move away from that"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "small little separation between this candle's low and this candle's high",
+          "We went up in there once, twice"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "PRICE_DRAW",
+          "REBALANCING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPECTED_DELIVERY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "EXPECTED DELIVERY",
+          "should deliver on this candle or the very next candle"
+        ],
+        "narrative_roles": [
+          "TRADE_ANTICIPATION",
+          "OUTCOME_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXPECTED DELIVERY AND EMOTIONAL DISCIPLINE",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1782",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order block",
+          "These two consecutive down-close candles, the high to the opening",
+          "OB"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "LAST_HOUR"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "SENSITIVE_PRICE_POINT",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "LAST_HOUR"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING LAST HOUR ACCELERATION AND TARGETS",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1783",
+    "concepts": [
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MANIPULATION",
+          "Lots of manipulation here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ROLLING STOPS",
+          "roll it down",
+          "stops me there",
+          "stops me out"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "FINAL TARGETS",
+          "final one"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TRADE_MANAGEMENT",
+          "STOP_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "market maker sell model"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PROFIT_TAKING",
+          "MARKET_STRUCTURE_FORMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "PRICE_MAGNET",
+          "TRADE_MANAGEMENT",
+          "STOP_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANIPULATION, ROLLING STOPS, AND FINAL TARGETS",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1784",
+    "concepts": [
+      {
+        "canonical": "TRADE_CONFIRMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "CONFIRMATION OF TRADE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_CONTEXT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the macro"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION OF TRADE AND WEEKEND SUMMARY",
+      "source_file": "ICT Mentorship 2023 - July 07, 2023 Live NQ Futures Trading_Handbook.chunks.json"
+    }
+  }
+]

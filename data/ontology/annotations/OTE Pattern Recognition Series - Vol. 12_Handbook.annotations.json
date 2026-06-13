@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": "chunk_4126",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run above previous day's high",
+          "below previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "yesterday's high",
+          "Thursday's daily high",
+          "previous day's high",
+          "previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_REFERENCE",
+          "SWING_POINT"
+        ],
+        "temporal_tags": [
+          "YESTERDAY",
+          "THURSDAY",
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) ANALYSIS FOR MEXICAN PESO",
+      "source_file": "OTE Pattern Recognition Series - Vol. 12_Handbook.chunks.json"
+    }
+  }
+]

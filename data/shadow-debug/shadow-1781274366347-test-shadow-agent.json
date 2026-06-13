@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-06-12T14:26:06.347Z",
+  "agentType": "test-shadow-agent",
+  "currentCallId": "test-shadow-agent-call-1-1",
+  "prompt": "What is the capital of France? Return JSON output with direction = 'BUY'.",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Fri, 12 Jun 2026 14:26:03 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"capital\": \"Paris\",\n  \"direction\": \"BUY\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.5348200003306071
+        }
+      ],
+      "createTime": "2026-06-12T14:26:02.499315Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "-hYsavO8HuyLmecPxZvWuA4",
+      "usageMetadata": {
+        "promptTokenCount": 16,
+        "candidatesTokenCount": 24,
+        "totalTokenCount": 150,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 16
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 24
+          }
+        ],
+        "thoughtsTokenCount": 110
+      }
+    },
+    "parsed": {
+      "capital": "Paris",
+      "direction": "BUY"
+    },
+    "latency": 6378.478400000001,
+    "telemetry": {
+      "promptTokens": 16,
+      "completionTokens": 24,
+      "totalTokens": 150
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": {
+      "capital": "France",
+      "direction": "bullish"
+    },
+    "latency": 2271.0873999999985,
+    "telemetry": {
+      "promptTokens": 31,
+      "completionTokens": 5,
+      "totalTokens": 36
+    },
+    "estimatedCost": 0.000041
+  }
+}

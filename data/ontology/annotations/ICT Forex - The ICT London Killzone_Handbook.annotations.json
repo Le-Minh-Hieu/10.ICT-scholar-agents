@@ -1,0 +1,408 @@
+[
+  {
+    "chunk_id": "chunk_1275",
+    "concepts": [
+      {
+        "canonical": "SESSION_FOCUS",
+        "confidence": 1,
+        "surface_terms": [
+          "The London Open",
+          "London Open"
+        ],
+        "narrative_roles": [
+          "TRADING_OPPORTUNITY",
+          "SESSION_FOCUS"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe dynamics"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal trade entry pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP",
+          "PROFIT_TARGETING",
+          "SCALPING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LONDON_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "2:00 a.m. to 5:00 a.m. New York Time"
+        ],
+        "narrative_roles": [
+          "TIMING_IDENTIFICATION",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "LONDON_KILLZONE"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON OPEN TRADING OPPORTUNITIES AND TIMEFRAME",
+      "source_file": "ICT Forex - The ICT London Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1276",
+    "concepts": [
+      {
+        "canonical": "LONDON_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "LONDON KILLZONE",
+          "ICT London Kill Zone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "OPTIMAL_TRADING_PERIOD"
+        ],
+        "temporal_tags": [
+          "2:00 a.m. New York Time",
+          "2 a.m. to 5 a.m. New York Time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TIME_ZONE_CALIBRATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TIME ZONE CALIBRATION",
+          "avoid confusion with time zones",
+          "overcome the time zone barrier",
+          "calibrate it with your broker and local time"
+        ],
+        "narrative_roles": [
+          "LOGISTICAL_PREPARATION",
+          "SYNCHRONIZATION_METHODOLOGY"
+        ],
+        "temporal_tags": [
+          "New York Time",
+          "2:00 a.m. New York Time"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME ZONE CALIBRATION FOR THE LONDON KILLZONE",
+      "source_file": "ICT Forex - The ICT London Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1277",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "micro Power of 3"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_MODEL",
+          "MARKET_STRUCTURE_FORMATION",
+          "MANIPULATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "If price trades down into a support level and consolidates, and then drops initially right after the 2 o'clock New York Time period, we look for price to run during the London session",
+          "If price doesn't run during London, we can reasonably expect the real move to occur in the subsequent New York trading session",
+          "The move often ensues after the crossover from the London session into the beginning of the New York session",
+          "The London session technically extends up to 10-11 a.m. New York Time, overlapping significantly with New York trading",
+          "we can study the profile of price action between the beginning and ending of the overnight session",
+          "If it's trending aggressively in London, the New York session might be quieter, or we could see a reversal scenario",
+          "If London shows a spike low but no clear trend, the dynamic imbalance and range expansion for the daily upside might occur in the New York session during its overlap with London"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION_MODEL",
+          "TIMING_CONFIRMATION",
+          "MARKET_STRUCTURE_FORMATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "2 o'clock New York Time period",
+          "10-11 a.m. New York Time",
+          "overnight session"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "ASIA",
+          "LONDON_NY_OVERLAP"
+        ]
+      },
+      {
+        "canonical": "HIGH_OF_DAY_LOW_OF_DAY_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high or low of the day"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT_GENERATION",
+          "LIQUIDITY_REFERENCE",
+          "REVERSAL_POINT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "spike low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "dynamic imbalance"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_INDICATION",
+          "MARKET_INEFFICIENCY_INDICATION",
+          "PRICE_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "LONDON_NY_OVERLAP"
+        ]
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "range expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONTINUATION",
+          "VOLATILITY_ANTICIPATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "LONDON_NY_OVERLAP"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING MOVES AND NEW YORK SESSION INFLUENCE",
+      "source_file": "ICT Forex - The ICT London Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1278",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market is primarily bullish",
+          "market is primarily bearish",
+          "daily timeframe is poised to trade higher",
+          "daily is poised to trade lower"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_EXTREME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low of the day",
+          "high of the day",
+          "low of the trading day",
+          "high of the trading day"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RANGE_DEFINITION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SESSION_BEHAVIOR_PROFILE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "London session characteristics",
+          "the London session typically creates the low of the day when the market is primarily bullish.",
+          "It creates the high of the day when the market is primarily bearish.",
+          "If the daily timeframe is poised to trade higher, we focus on the London session to post the low of the trading day.",
+          "If the daily is poised to trade lower, we focus on the London session to post the high of the trading day."
+        ],
+        "narrative_roles": [
+          "SESSION_PROFILING",
+          "PREDICTIVE_ANALOG",
+          "STRATEGY_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON SESSION CHARACTERISTICS SUMMARY",
+      "source_file": "ICT Forex - The ICT London Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1279",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIMEFRAME ANALYSIS",
+          "higher timeframe analysis",
+          "daily timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY",
+          "70.5 level",
+          "79 level",
+          "optimal trade entry area for a sell",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish candle indicates a willingness to reverse",
+          "potentially leading to a breakdown",
+          "optimal trade entry area for a sell"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "MARKET_STRUCTURE_SHIFT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_3",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Power of 3 formation",
+          "down close relative to the daily chart"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER_MODEL",
+          "PRICE_DELIVERY_MODEL",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIMEFRAME ANALYSIS AND OPTIMAL TRADE ENTRY",
+      "source_file": "ICT Forex - The ICT London Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  }
+]

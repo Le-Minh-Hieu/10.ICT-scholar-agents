@@ -1,0 +1,2057 @@
+[
+  {
+    "chunk_id": "chunk_3277",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_DATA",
+        "confidence": 1,
+        "surface_terms": [
+          "COMMITMENT OF TRADERS (COT) DATA USAGE",
+          "Commitment of Traders",
+          "the raw data"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "INSTITUTIONAL_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMITMENT OF TRADERS (COT) DATA USAGE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3278",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_REPORT",
+        "confidence": 1,
+        "surface_terms": [
+          "raw Commitment of Traders report data",
+          "Commitment of Traders report",
+          "short format Commitment of Traders report"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BIAS",
+          "MACRO_ANALYSIS",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_REPORT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUTURES_CONTRACT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Futures Contract",
+          "Japanese Yen Futures Contract"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_TYPE",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CFTC_REGULATORY_BODY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CFTC",
+          "www.cftc.gov"
+        ],
+        "narrative_roles": [
+          "DATA_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CME_EXCHANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CME (Chicago Mercantile Exchange)"
+        ],
+        "narrative_roles": [
+          "DATA_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING RAW COT DATA AND CFTC WEBSITE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3279",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_DATA",
+        "confidence": 0.98,
+        "surface_terms": [
+          "COMMERCIAL NET POSITIONS",
+          "CFTC website",
+          "Futures positions"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_ANALYSIS",
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commercial",
+          "commercial area",
+          "commercial long positions"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FOOTPRINT",
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_SHORT_POSITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Long",
+          "Short",
+          "143,450 contracts",
+          "76,426 contracts short"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL NET POSITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3280",
+    "concepts": [
+      {
+        "canonical": "COT_NET_POSITION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "net position",
+          "net long",
+          "net short",
+          "long positions",
+          "short positions",
+          "contracts long",
+          "difference between the long positions and the short positions",
+          "hedging program"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "MARKET_BIAS_IDENTIFICATION",
+          "SENTIMENT_ANALYSIS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CALCULATING NET POSITION AND ITS LIMITATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3281",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_DATA",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data",
+          "commercial information"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "INSTITUTIONAL_BIAS_DETECTION",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_POSITIONING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "commercial information",
+          "commercials are net long",
+          "commercials are net short"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BIAS_DETECTION",
+          "MARKET_DIRECTION_BIAS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S EVOLUTION WITH COT DATA",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3282",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Hershey's is going to have a trained, accredited staff to track all those things",
+          "keep a closer eye on whether the price is really cheap or it's expensive",
+          "much more aggressive about buying it because they want to lock in lower prices because they know at a later time prices will go higher",
+          "The same thing occurs with currencies"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "STRATEGIC_POSITIONING",
+          "MARKET_FORESIGHT",
+          "EDUCATIONAL_ANALOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "much more aggressive about buying it",
+          "lock in lower prices",
+          "prices will go higher"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "STRATEGIC_POSITIONING",
+          "DEMAND_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price is really cheap or it's expensive",
+          "lock in lower prices",
+          "prices will go higher"
+        ],
+        "narrative_roles": [
+          "PRICE_ASSESSMENT",
+          "INSTITUTIONAL_BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HERSHEY AND COCOA",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3283",
+    "concepts": [
+      {
+        "canonical": "COT_REPORT_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Net Trader's Position Line Chart",
+          "overall net basis",
+          "numbers above the zero line or below the zero line"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "MARKET_BIAS_IDENTIFICATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_TRADER_POSITIONING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "hedger",
+          "commercial hedging",
+          "what they're doing as a hedger"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_TRACKING",
+          "MARKET_BIAS_IDENTIFICATION",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERPRETING NET TRADER'S POSITION LINE CHART",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3284",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_PERSPECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "true perspective on what price is doing from a commercial or institutional perspective",
+          "commercial or institutional perspective"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "FOUNDATIONAL_PRINCIPLE",
+          "SMART_MONEY_MINDSET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retail sees",
+          "retail isn't going to have the true perspective"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_PITFALL",
+          "CONTRASTING_FRAMEWORK",
+          "MARKET_MANIPULATION_TARGET_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COGNITIVE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "SHIFTING PERSPECTIVE",
+          "look at it differently",
+          "change your perspective on how we look at it"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_GUIDANCE",
+          "MINDSET_DEVELOPMENT",
+          "ANALYTICAL_TRANSFORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHIFTING PERSPECTIVE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3285",
+    "concepts": [
+      {
+        "canonical": "RED_LINE_COT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "THE RED LINE",
+          "the red line",
+          "that red line",
+          "Commodity Commercials",
+          "large speculators (in terms of like a commercial user or producer of a commodity, in this case, if it's a bank or a lending institution)"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_IDENTIFICATION",
+          "SMART_MONEY_TRACKING",
+          "COMMITMENT_OF_TRADERS_ANALYSIS",
+          "DIRECTIONAL_BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LARGE_SPECULATORS_COT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "green line",
+          "Large Speculators",
+          "big large funds or big private traders that have a lot of position size"
+        ],
+        "narrative_roles": [
+          "COMMITMENT_OF_TRADERS_ANALYSIS",
+          "MARKET_PARTICIPANT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMALL_SPECULATORS_COT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "blue line",
+          "Small Speculators",
+          "the public, they have no idea what's going on"
+        ],
+        "narrative_roles": [
+          "COMMITMENT_OF_TRADERS_ANALYSIS",
+          "MARKET_PARTICIPANT_IDENTIFICATION",
+          "RETAIL_SENTIMENT_GAUGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE RED LINE",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3286",
+    "concepts": [
+      {
+        "canonical": "RETAIL_TRADERS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "blue line",
+          "street money, less informed crowd"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "FOLLY_AVOIDANCE",
+          "MARKET_BIAS_CLARIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ANALYTICAL_SIMPLIFICATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "IGNORING OTHER TRADER CATEGORIES",
+          "GRAPHICAL SIMPLIFICATION",
+          "We don't care what the green line is",
+          "we could care less about",
+          "removed (by way of paint)",
+          "removing the lines with paint",
+          "without having to do all this acrobatics"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_DISCIPLINE",
+          "SIGNAL_TO_NOISE_IMPROVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IGNORING OTHER TRADER CATEGORIES AND GRAPHICAL SIMPLIFICATION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3287",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COLLECTING AND PLOTTING COMMERCIAL COT DATA",
+          "COT data"
+        ],
+        "narrative_roles": [
+          "DATA_COLLECTION",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commercials",
+          "Commercials' net long positions and net short positions"
+        ],
+        "narrative_roles": [
+          "DATA_ANALYSIS_COMPONENT",
+          "MARKET_PARTICIPANT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NET_POSITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "net trade assessment",
+          "net long positions",
+          "net short positions"
+        ],
+        "narrative_roles": [
+          "DATA_ANALYSIS_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COLLECTING AND PLOTTING COMMERCIAL COT DATA",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3288",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Net Trader's position for the Commercials only"
+        ],
+        "narrative_roles": [
+          "MACRO_SENTIMENT_ANALYSIS",
+          "REVERSAL_INDICATOR_LONG_TERM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_DEALING_RANGE",
+        "confidence": 0.88,
+        "surface_terms": [
+          "highest high and the lowest low is in the last six months",
+          "in the last 12 months",
+          "get that range to define that"
+        ],
+        "narrative_roles": [
+          "MACRO_CONTEXT_DEFINITION",
+          "LIQUIDITY_IDENTIFICATION_LONG_TERM",
+          "PREMIUM_DISCOUNT_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "six months",
+          "12 months"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INDICATOR DEVELOPMENT AND RANGE DEFINITION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3289",
+    "concepts": [
+      {
+        "canonical": "COT_DATA",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data"
+        ],
+        "narrative_roles": [
+          "MACRO_CONTEXT_SOURCE",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_COMMERCIAL_POSITIONING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "commercial activity",
+          "net short position",
+          "net long",
+          "swung from a net short position below the zero basis line to net long"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FOOTPRINT",
+          "MACRO_TREND_IDENTIFICATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "last week of November",
+          "November 2016",
+          "December"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_ZERO_BASIS_LINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "zero basis line",
+          "zero line"
+        ],
+        "narrative_roles": [
+          "COT_INTERPRETATION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_PREDICTIVE_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "prognostication about what price is going to do",
+          "dispel that disbelief"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "MACRO_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "A DEEPER LOOK",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3290",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "GUIDING_BIAS",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [
+          "JANUARY_2016",
+          "JANUARY_2017",
+          "BEGINNING_OF_YEAR_2016",
+          "FIRST_HALF_OF_2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks",
+          "up close candles",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REACTION_POINT",
+          "TREND_CONTINUATION",
+          "TREND_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "JANUARY_2016",
+          "JANUARY_2017",
+          "BEGINNING_OF_YEAR_2016",
+          "FIRST_HALF_OF_2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount arrays"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "OPTIMAL_TRADE_ENTRY_ZONE",
+          "FAIR_VALUE_AREA"
+        ],
+        "temporal_tags": [
+          "JANUARY_2016",
+          "JANUARY_2017",
+          "BEGINNING_OF_YEAR_2016",
+          "FIRST_HALF_OF_2016"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING PRICE ACTION AND INSTITUTIONAL ORDER FLOW (JAN 2016",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3291",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow was bullish",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "TREND_DIRECTION",
+          "MARKET_BIAS",
+          "OVERARCHING_CONTEXT"
+        ],
+        "temporal_tags": [
+          "January 2016",
+          "February 2016",
+          "mid-July",
+          "summer months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broke a short-term low",
+          "short-term low was taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down closed candle, it was supported as a bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "REACCUMULATION_ZONE",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD arrays",
+          "premium effect"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "CONFLUENCE_INDICATOR",
+          "TREND_STRENGTH_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data",
+          "Commitment of Traders"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "SENTIMENT_ANALYSIS",
+          "FUNDAMENTAL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIALS_NET_POSITION",
+        "confidence": 1,
+        "surface_terms": [
+          "the commercials (the red line) that was below the zero line"
+        ],
+        "narrative_roles": [
+          "SENTIMENT_ANALYSIS",
+          "CONTRARIAN_INDICATOR",
+          "SMART_MONEY_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADITIONAL_COT_PERSPECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "traditional perspective of Commitment of Traders"
+        ],
+        "narrative_roles": [
+          "REFERENCE_FRAMEWORK",
+          "CONTRASTING_VIEWPOINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "issues with getting above the 1.00 level",
+          "struggled with that level"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_INTERACTION",
+          "POTENTIAL_TURNING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH IOF VS. COMMERCIAL NET SHORT",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3292",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data",
+          "interpret COT data"
+        ],
+        "narrative_roles": [
+          "DATA_SOURCE",
+          "HIGH_TIMEFRAME_BIAS",
+          "MACRO_ANALYSIS",
+          "INSTITUTIONAL_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_HEDGING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "hedging programs",
+          "track what their hedging programs are",
+          "sell program",
+          "bearish or sell program",
+          "keeping a sell program active",
+          "selling heavily as the market was rallying"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_POSITIONING",
+          "SMART_MONEY_BEHAVIOR",
+          "RISK_MANAGEMENT",
+          "DECEPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_DATA_INTERPRETATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "below the zero line",
+          "zero line basis was bearish",
+          "below the zero line from January-February 2016 all the way to the last or middle week of November 2016",
+          "red line going above the zero"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "INSTITUTIONAL_POSITIONING_INDICATOR"
+        ],
+        "temporal_tags": [
+          "January-February 2016",
+          "November 2016"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow being bullish"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_BIAS",
+          "SMART_MONEY_INTENT",
+          "HIGH_TIMEFRAME_BIAS",
+          "COUNTER_TREND_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HEDGING WITHIN PROGRAMS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3293",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_INDICATION",
+          "SMART_MONEY_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price action"
+        ],
+        "narrative_roles": [
+          "DATA_SOURCE",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT standpoint",
+          "COT data",
+          "commercials step in",
+          "aggressive hedging and buying",
+          "sell program",
+          "below the zero line"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_TRACKING",
+          "MACRO_ANALYSIS",
+          "MARKET_DIRECTION_FILTER"
+        ],
+        "temporal_tags": [
+          "many months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_HEDGING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COMMERCIAL HEDGING",
+          "aggressive hedging and buying"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_TRACKING",
+          "MACRO_ANALYSIS",
+          "PRICE_MANIPULATION_OR_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_PROGRAMS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MACRO PROGRAMS"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "LONG_TERM_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING COMMERCIAL HEDGING DURING MACRO PROGRAMS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3294",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY",
+          "providing liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_PROVISION",
+          "SMART_MONEY_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commitment of Traders report"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "SENTIMENT_ANALYSIS",
+          "SMART_MONEY_BEHAVIOR_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIALS_POSITIONING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "net short position by the commercials",
+          "commercials",
+          "anything above the zero line",
+          "anything below the zero line"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_BEHAVIOR_TRACKING",
+          "SENTIMENT_ANALYSIS",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE_COT_PRICE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Japanese Yen is rallying, rallying, rallying, but they're holding a net short position by the commercials. How can that be? Why is that happening?"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "PREDICTIVE_ANALYSIS",
+          "SMART_MONEY_BEHAVIOR_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "commercials, again, they could be banks, they could be selling currency, you know, providing liquidity"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "LIQUIDITY_PROVISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BANKS AND LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3295",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "institutional order flow is bullish",
+          "buy programs kick in in a hedging program",
+          "larger sell program is underway",
+          "larger long-term sell program",
+          "bullish hedging buy programs"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS",
+          "MARKET_BEHAVIOR_ANALYSIS",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish order blocks"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "PRICE_ANCHOR",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lows that are being taken out",
+          "stop run on sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CONFIRMATION",
+          "FALSE_BREAKOUT_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "MARKET_STRUCTURE_BREACH",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING INSTITUTIONAL ORDER FLOW AND COT DATA",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3296",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out short-term lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_POINT_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "TREND_DIRECTION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "middle of August",
+          "September"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_COMMERCIALS",
+        "confidence": 1,
+        "surface_terms": [
+          "Net Trader's Position Line Chart on the Commercials",
+          "Commercials",
+          "net short position by the commercials",
+          "zero line"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTRARIAN_SIGNAL",
+          "FUNDAMENTAL_ANALYSIS",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_RANGE_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "six month range",
+          "12 month range",
+          "highest and the lowest reading on their net position by the commercials"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "CONTRARIAN_SIGNAL_CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIX AND TWELVE MONTH RANGES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3297",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data",
+          "red line",
+          "hedging program",
+          "six month hedging program",
+          "12-month hedging program",
+          "commercial net position",
+          "six month range of the highest high and lowest low the commercial net position has been"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "SEASONAL_TENDENCIES"
+        ],
+        "temporal_tags": [
+          "six months",
+          "12-month",
+          "current time"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_EFFECTS",
+        "confidence": 1,
+        "surface_terms": [
+          "QUARTERLY EFFECTS",
+          "quarterly effect trades",
+          "quarterly effects",
+          "every three or four months",
+          "every quarter or so of the year"
+        ],
+        "narrative_roles": [
+          "SEASONAL_TENDENCIES",
+          "MACRO_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "every three or four months",
+          "every quarter or so of the year"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "shift in market structure",
+          "shift in market structuring",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING COMMERCIAL HEDGING RANGE AND QUARTERLY EFFECTS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3298",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "filling in a void"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taken out a short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "long-term resistance at that 1.00 level"
+        ],
+        "narrative_roles": [
+          "PRICE_REJECTION",
+          "PRICE_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "breaking market structure to a downside"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_CONFIRMATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COMMERCIAL BUYING AND PRICE MOVEMENTS",
+          "Commercials",
+          "building up a larger net long position",
+          "zero line basis is now bullish",
+          "buy program"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "SMART_MONEY_POSITIONING"
+        ],
+        "temporal_tags": [
+          "JAN-JULY_2016",
+          "LAST_WEEK_OF_APRIL",
+          "LAST_WEEK_OF_JUNE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Commercials",
+          "hedging early",
+          "make the highs and the lows in the markets"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_ENGINEERING",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL BUYING AND PRICE MOVEMENTS (JAN-JULY 2016)",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3299",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "down candles supporting price when it trades back down to it"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "RETRACEMENT_ENTRY",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "up close candles being broken as PD arrays"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_TURNED_SUPPORT",
+          "CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old highs being taken out"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array",
+          "support by price moving down into what would be otherwise a discount array"
+        ],
+        "narrative_roles": [
+          "ENTRY_OPTIMIZATION",
+          "SUPPORT",
+          "RETRACEMENT_ENTRY",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_DATA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "COT data",
+          "Net Trader's Position Line Chart",
+          "Commitment of Traders reports",
+          "net long"
+        ],
+        "narrative_roles": [
+          "LONG_TERM_BIAS_INDICATOR",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "NOV_2016",
+          "DEC_2016",
+          "JAN_2017",
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL NET LONG PROGRAM (NOV 2016",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3300",
+    "concepts": [
+      {
+        "canonical": "COT_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commercials have really moved to a net long position",
+          "they're in a buy program",
+          "commercial activity",
+          "removed the Small Specs line and the Large Speculators"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "INSTITUTIONAL_FLOW_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "last six months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ACCUMULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IDENTIFYING BUYING NODULES",
+          "buying kicks in",
+          "nodules kicking in",
+          "greatest advances in price going higher",
+          "market was bullish",
+          "currently bullish"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_IDENTIFICATION",
+          "INSTITUTIONAL_FLOW_IDENTIFICATION",
+          "ACCUMULATION_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "January",
+          "mid-March",
+          "last week of May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_DATA_RANGE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "range the last six months of the commercial activity",
+          "determine the highest high and the lowest low in the range",
+          "defining that basis line",
+          "creating its own new basis line"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MACRO_BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "last six months"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BUYING NODULES",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3301",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIAL_HEDGING_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "hedging program",
+          "commercial hedging",
+          "net long and net short",
+          "buy or sell program"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_BIAS",
+          "PRICE_PREDICTION_BASIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICAL APPLICATION FOR PRICE PREDICTION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3302",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_PRICE_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount or friendly levels",
+          "keeps cost low",
+          "better return on your investment",
+          "allocate a lot more money now to buy up stock"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACUMULATION",
+          "COST_MANAGEMENT",
+          "STRATEGIC_POSITIONING",
+          "OPTIMAL_PURCHASE"
+        ],
+        "temporal_tags": [
+          "now",
+          "six months from now",
+          "a year from now"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HEDGING",
+        "confidence": 1,
+        "surface_terms": [
+          "hedging"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "INSTITUTIONAL_STRATEGY",
+          "COST_MANAGEMENT",
+          "STRATEGIC_POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUNDAMENTAL_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fundamentals are suggesting it's going to be higher",
+          "supplying demand factors",
+          "assessment on"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_DECISION_MAKING",
+          "BIAS_FORMATION",
+          "MACRO_DRIVERS"
+        ],
+        "temporal_tags": [
+          "six months from now",
+          "a year from now"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COST EFFICIENCY FOR BANKS AND PRODUCERS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3303",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "what they are",
+          "what they're doing graphically",
+          "they can't hide it from me",
+          "they can't hide it from you",
+          "you now know how to do it",
+          "It's just the data",
+          "ICT'S UNIQUE TRANSPARENCY"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR_IDENTIFICATION",
+          "MARKET_READING_SKILL",
+          "EDUCATIONAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S UNIQUE TRANSPARENCY",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3304",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "Commitment of Traders report",
+          "Commitment of Traders"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "SENTIMENT_ANALYSIS",
+          "INSTITUTIONAL_FLOW_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMERCIALS_COT_CATEGORY",
+        "confidence": 1,
+        "surface_terms": [
+          "commercials",
+          "net long or net short on the commercials"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY",
+          "INSTITUTIONAL_FLOW_INSIGHT",
+          "COT_PARTICIPANT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTREME_COT_POSITIONING",
+        "confidence": 1,
+        "surface_terms": [
+          "four-year extreme",
+          "two-year extreme",
+          "12-month extreme",
+          "one year extreme",
+          "extremes",
+          "highest high and the lowest low of their net positions"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "TREND_IDENTIFICATION",
+          "REVERSAL_SIGNAL",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "FOUR_YEAR_LOOKBACK",
+          "TWO_YEAR_LOOKBACK",
+          "12_MONTH_LOOKBACK",
+          "ONE_YEAR_LOOKBACK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_TERM_TREND_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "long-term trend reversal"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "MARKET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONG-TERM EXTREMES VS. SHORT-TERM HEDGING",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3305",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "key price points as a PD array"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_OF_SIGNIFICANT_LEVELS",
+          "FUTURE_PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "long-term buy and sell programs",
+          "hedge",
+          "hedging program",
+          "they're moving back and forth in the marketplace",
+          "create these nodules in the hedging program"
+        ],
+        "narrative_roles": [
+          "MARKET_ACTIVITY_GENERATION",
+          "RISK_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "COT hedging program technique"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "INSTITUTIONAL_POSITIONING_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROGRAMS AND HEDGING",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3306",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_IDENTIFICATION",
+          "MARKET_TRUTH_DISCOVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_COMMERCIALS_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "commercial hedging programs",
+          "Commercials",
+          "Commercials' net position"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS_GENERATION",
+          "SENTIMENT_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_NET_POSITION_INDICATOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "net sum zero line"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS_GENERATION",
+          "EXTREME_POSITION_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BLENDING FOR DIRECTIONAL ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3307",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS",
+        "confidence": 1,
+        "surface_terms": [
+          "long-term commercial activity",
+          "net sum zero line",
+          "net buying and/or net selling",
+          "Net Trader's Association chart",
+          "Commercials are net long",
+          "net short",
+          "commercial net position"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "SMART_MONEY_FLOW",
+          "SENTIMENT_ANALYSIS",
+          "POSITION_ACCUMULATION_DISTRIBUTION"
+        ],
+        "temporal_tags": [
+          "long-term",
+          "12 month range",
+          "six month range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY VS. RETAIL INTERPRETATION",
+          "smart money",
+          "Commercials",
+          "long-term commercial activity"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "SMART_MONEY_FLOW",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "long-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY VS. RETAIL INTERPRETATION",
+          "retail traders",
+          "Retail interpretation"
+        ],
+        "narrative_roles": [
+          "MARKET_FOLLY",
+          "COUNTER_SMART_MONEY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY VS. RETAIL INTERPRETATION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Commitment Of Traders_Handbook.chunks.json"
+    }
+  }
+]

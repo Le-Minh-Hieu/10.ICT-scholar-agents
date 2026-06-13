@@ -1,0 +1,236 @@
+[
+  {
+    "chunk_id": "chunk_4127",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry pattern recognition series",
+          "most recent optimal trade entry",
+          "Optimal Trade Entry on a daily chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PATTERN_RECOGNITION",
+          "MARKET_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seek liquidity",
+          "expand and seek that liquid above or below the marketplace"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "EQUAL_HIGHS_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows",
+          "Candyland"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "ripe for the taking sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OTE PATTERN RECOGNITION SERIES AND DAILY CHART ANALYSIS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4128",
+    "concepts": [
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "SWING HIGH FOR OTE",
+          "this swing high here",
+          "this high",
+          "this one's slightly higher than this one"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "MEASUREMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_DESCRIPTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "direct displacement from this high starting going lower",
+          "drop down, then consolidation, and then run more one more time rally up"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_CLUE",
+          "MARKET_STRUCTURE_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_OBSERVATION",
+          "CONTEXTUAL_CLUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "all the volume is"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELECTING THE CORRECT SWING HIGH FOR OTE",
+      "source_file": "OTE Pattern Recognition Series - Vol. 13_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4129",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent retracing level",
+          "energy pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_OPTIMIZATION",
+          "RETRACEMENT_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop would have to be above the short-term high",
+          "risk appetite percent"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PROTECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_PRICE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term low trades to 38.11 and a half",
+          "20 pips"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_ANALYSIS",
+        "confidence": 0.75,
+        "surface_terms": [
+          "One and a half standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "VOLATILITY_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_EXTREME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The low of the day"
+        ],
+        "narrative_roles": [
+          "MARKET_REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RETRACEMENT, STOP LOSS, AND TARGETS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 13_Handbook.chunks.json"
+    }
+  }
+]

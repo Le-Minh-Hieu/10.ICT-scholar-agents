@@ -1,0 +1,1098 @@
+[
+  {
+    "chunk_id": "chunk_3018",
+    "concepts": [
+      {
+        "canonical": "PREVIOUS_DAY_NY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "The previous days New York session range from high to low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVELS",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LONDON_SESSION_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "the sessions highest high",
+          "The highest high and the lowest low during the London session",
+          "London high",
+          "London low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVELS",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE",
+          "SWING_HIGH_LOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON_SESSION"
+        ]
+      },
+      {
+        "canonical": "LONDON_PRE_NY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London high or low to the low or high contrary to it",
+          "total range from the London session extreme, whether it be high or low, to the lower high prior to the New York session beginning",
+          "range for that day in London, is it high or low relative to the beginning of New York session"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "MARKET_CONTEXT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "PRE_NY_SESSION"
+        ],
+        "session_tags": [
+          "LONDON_SESSION",
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY SWINGS AND PRICE RANGES FOR DAY TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3019",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame charts",
+          "lower time frame",
+          "Nothing that you see in the lower time frame is going to be any different from what we've outlined from what we've seen in the daily",
+          "from the higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRE_ANALYSIS",
+          "CONSISTENCY_CHECK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "most probable Direction on a higher time frame chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DECISION_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FRAMING HIGH PROBABILITY SETUPS",
+          "high probability setup"
+        ],
+        "narrative_roles": [
+          "TRADE_IDENTIFICATION",
+          "STRATEGY_GOAL"
+        ],
+        "temporal_tags": [
+          "each trading day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRAMING HIGH PROBABILITY SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3020",
+    "concepts": [
+      {
+        "canonical": "SESSION_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "range from London's extreme high or low to that which the opposite extreme higher low would be prior to New York",
+          "London session range from London going into the beginning of New York",
+          "New York session range high and low"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS_IDENTIFICATION",
+          "RANGE_BOUND_TRADING_CONTEXT"
+        ],
+        "temporal_tags": [
+          "prior to New York",
+          "right before New York opening",
+          "beginning of New York"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "next trading day retracement up",
+          "move up is going to be a retracement inside that London session range",
+          "retracement inside that range"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LIQUIDITY_SEEKING",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [
+          "next trading day",
+          "next day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAYS_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous days high and low",
+          "an old High",
+          "a previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "MARKET_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "previous days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop raids",
+          "trade above an old High",
+          "buy stock run",
+          "trade down below a previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_CONTEXT",
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "end to a most recent move",
+          "short-term premium arrays violating"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "MARKET_STRUCTURE_SHIFT",
+          "REVERSAL_PATTERN_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bull shoulder blocks"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "DIRECTIONAL_BIAS_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gaps below us",
+          "filling in gaps below us"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_READING",
+          "ENTRY_MODEL_CONTEXT",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily and four hour"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEASURING RANGES AND CONFIRMING DIRECTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3021",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "VOLATILITY_MEASUREMENT",
+          "ENTRY_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "VOLATILITY_MEASUREMENT",
+          "PRECURSOR_TO_EXPANSION"
+        ],
+        "temporal_tags": [
+          "Frankfurt opening"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "one to two standard deviations of the Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_ACTION_CONTEXT",
+          "STATISTICAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_OF_THE_DAY_TARGETING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seeking the low of the day"
+        ],
+        "narrative_roles": [
+          "ENTRY_TARGET",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "2 a.m. and 4 a.m. New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TRADING_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15 and or a five minute chart"
+        ],
+        "narrative_roles": [
+          "EXECUTION_STRATEGY",
+          "CHART_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SPECIFIC CONDITIONS FOR BUYING DAY TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3022",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "DISCOUNT_AREA",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops to be triggered",
+          "trades lower than that into a bullish order block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "CONFLUENCE_FACTOR",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London open Killzone",
+          "London Kill Zone"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TIMING_WINDOW",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "SUPPORT_ZONE",
+          "DISCOUNT_AREA",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY",
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one standard deviation below the Central Bank Dealers Range",
+          "one standard deviation below the ... Asian range"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "DISCOUNT_AREA",
+          "HIGH_PROBABILITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "CONFLUENCE_FACTOR",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SHORT_TERM_LOW_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term low",
+          "short-term little intraday low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REFERENCE_POINT",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY",
+          "INTRADAY",
+          "ZERO_GMT"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREFERRED BUY ENTRY SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3023",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "protraction lower",
+          "trading down",
+          "Judah swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE",
+          "ENTRY_SETUP_PRECURSOR"
+        ],
+        "temporal_tags": [
+          "12_AM_TO_2_AM"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY",
+          "PRICE_DELIVERY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "IPTA"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_DELIVERY",
+          "MARKET_BEHAVIOR_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREFERRED BUY ENTRY SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3024",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void",
+          "larger gap which would be basically a liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_ATTRACTION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term low",
+          "below a short-term low",
+          "below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_ATTRACTION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_STOP_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stop liquidity",
+          "accumulate sell stop liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDNIGHT_NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "12 a.m. New York time",
+          "Rally post 12 a.m. New York time",
+          "rallied right after midnight"
+        ],
+        "narrative_roles": [
+          "SESSIONAL_CONTEXT",
+          "PRE_NY_OPEN_BIAS"
+        ],
+        "temporal_tags": [
+          "12 a.m. New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "15 and or five minute bullish order block",
+          "bullish order block on a 5 or 15 minute basis"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_ZONE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount",
+          "put us into a discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Kill Zone",
+          "two o'clock to four o'clock time period"
+        ],
+        "narrative_roles": [
+          "SESSIONAL_CONTEXT",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "two o'clock to four o'clock time period"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range",
+          "Asian range total range"
+        ],
+        "narrative_roles": [
+          "SESSIONAL_CONTEXT",
+          "LIQUIDITY_REFERENCE",
+          "MEASUREMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount PD array",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "ENTRY_CRITERIA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE_STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "One or two standard deviations in the Asian range",
+          "two for one standard deviation drops of the Asian range total range"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "LIQUIDITY_TARGET",
+          "ENTRY_CRITERIA",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ENTRY_SIGNAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first retracement",
+          "first rejection down"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED BUY ENTRY SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3025",
+    "concepts": [
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short term low is taken out twice",
+          "go down for a low and then one more time blow out that low",
+          "I'll buy that as a turtle soup"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED BUY ENTRY SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3026",
+    "concepts": [
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily range"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_MANAGEMENT",
+          "TARGET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "STOP_LOSS_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "STOP_LOSS_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range",
+          "Asian range low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "STOP_LOSS_PLACEMENT_CONTEXT",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run under the Asian range",
+          "trade down below the Asian range",
+          "below an Asian range low",
+          "sell stop raid",
+          "second return for sell stops",
+          "takes out the sell stops",
+          "blows at the low that's formed initially"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER_CONTEXT",
+          "STOP_LOSS_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [
+          "after midnight"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bull shoulder block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONTEXT",
+          "RETRACEMENT_TARGET",
+          "STOP_LOSS_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONTEXT",
+          "STOP_LOSS_PLACEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AVERAGE_DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "average daily range",
+          "average daily range of the last five days",
+          "100 pip average daily range for the last five days"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_PLACEMENT_CALCULATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "last five days"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PLACING STOP LOSSES FOR BUY DAY TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3027",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "Taking profits",
+          "take something off",
+          "scale something off",
+          "take the next level profit"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIXED_PIP_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "20 to 30 Pips",
+          "first 20 to 30 Pips"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "VOLATILITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "RANGE_IDENTIFICATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "VOLATILITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "every two standard deviations",
+          "two standard deviations"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXIT_CRITERIA",
+          "VOLATILITY_BASED_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's High",
+          "previous day's High plus 5 to 15 Pips"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ZONE",
+          "REFERENCE_POINT",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP_AVOIDANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "end up in a turtle"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "EXIT_CRITERIA",
+          "REVERSAL_PATTERN_AWARENESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "50 of the price range",
+          "equilibrium",
+          "impactful level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TAKING PROFITS IN BUY DAY TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - High Probability Daytrade Setups_Handbook.chunks.json"
+    }
+  }
+]

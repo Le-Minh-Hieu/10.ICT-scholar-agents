@@ -1,0 +1,1116 @@
+[
+  {
+    "chunk_id": "chunk_4172",
+    "concepts": [
+      {
+        "canonical": "DXY",
+        "confidence": 1,
+        "surface_terms": [
+          "Dollar Index",
+          "DXY",
+          "lower dollar"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "INTERMARKET_ANALYSIS",
+          "RISK_SENTIMENT_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tagged"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_ZONE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "buy-side imbalance sell-side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "POTENTIAL_REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRAMING MARKET LOGIC WITH DXY",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4173",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "buy-side imbalance sell-side inefficiency",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "PRICE_MAGNET",
+          "REBALANCING_AREA",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_BOUNDARY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "actual high",
+          "preceding candle's low",
+          "low of the gap",
+          "high of the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_LEVEL",
+          "PRICE_OBJECTIVE",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "SUPPORT_RESISTANCE_LEVEL",
+          "ENTRY_CONFIRMATION",
+          "PRICE_OBJECTIVE",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING BISI AND FVG LEVELS",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4174",
+    "concepts": [
+      {
+        "canonical": "CONSEQ_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REACTION_LEVEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID_FILL",
+          "REACTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_SENTIMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "risk-off scenario",
+          "dollar going higher",
+          "foreign currencies are likely to go lower",
+          "equities will likely see temporary weakness"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "framing of shorts"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "MARKET_STRUCTURE_BIAS"
+        ],
+        "temporal_tags": [
+          "last week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY'S REACTION AND CURRENT RISK SCENARIO",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4175",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_STRUCTURE",
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ALGORITHMIC_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side imbalance buy-side inefficiency (SIBI) fair value gap",
+          "fair value gap",
+          "buy-side imbalance sell-side efficiency (BISI) fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "PRICE_MAGNET",
+          "REBALANCE_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell-side imbalance buy-side inefficiency (SIBI)",
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_TYPE",
+          "REACTION_ZONE",
+          "BEARISH_FVG_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_REBALANCING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market algorithmically rebalancing and re-pricing the range",
+          "rebalancing and re-pricing the range"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "ALGORITHMIC_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "displaced lower"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_INDICATOR",
+          "IMPULSIVE_MOVE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out a short-term swing low"
+        ],
+        "narrative_roles": [
+          "BEARISH_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ALGORITHMIC_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BISI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy-side imbalance sell-side efficiency (BISI)",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_TYPE",
+          "REACTION_ZONE",
+          "BULLISH_FVG_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO ANALYSIS",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4176",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalances"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CABLE ANALYSIS",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4177",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES CHART LAYOUT AND COMPARATIVE INDEX ANALYSIS",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4178",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "compare indices like NASDAQ (NQ) or Dow (YM) to ES",
+          "comparative study"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_ESTABLISHMENT",
+          "CONFLUENCE_GENERATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BREADTH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market breadth"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "TREND_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOW_THEORY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Dow Theory"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "TREND_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "confirm if price moves are likely to continue"
+        ],
+        "narrative_roles": [
+          "ENTRY_VALIDATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADINGVIEW COMPARISON TOOLS AND MARKET BREADTH",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4179",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPEN_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ES MORNING BIAS",
+          "goes lower this morning (which is likely)"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [
+          "morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "manipulation is obvious or expected"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price trading to liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TRADE_OPPORTUNITY_IDENTIFICATION",
+          "SETUP_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CHARACTERISTIC",
+        "confidence": 0.8,
+        "surface_terms": [
+          "markets like stock indices as 'synthetic,' lacking the fundamental supply and demand factors of commodities"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "STRATEGY_JUSTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES MORNING BIAS AND MARKET MANIPULATION",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4180",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "CORE_CONCEPT",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "above a swing high",
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "ENTRY_POINT",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "below a swing low",
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "ENTRY_POINT",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity being taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIATION_OF_REVERSAL",
+          "SETUP_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "displacement lower"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_CONFIRMATION",
+          "IMPULSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "breaking a short-term swing low",
+          "bearish market structure shift",
+          "MSS",
+          "BMS",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "TREND_CHANGE_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S MARKET APPROACH",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4181",
+    "concepts": [
+      {
+        "canonical": "2022_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "2022 MODEL"
+        ],
+        "narrative_roles": [
+          "STRATEGY_TYPE",
+          "FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure shift"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "displacement lower",
+          "displacement"
+        ],
+        "narrative_roles": [
+          "IMPULSE_MOVE_INDICATION",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEG",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price leg",
+          "this leg"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "ANCHOR_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "fair value gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_MAGNET",
+          "LIQUIDITY_VOID",
+          "OPTIMAL_TRADE_ENTRY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium",
+          "50% level"
+        ],
+        "narrative_roles": [
+          "REFINEMENT",
+          "OPTIMAL_TRADE_ENTRY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fibonacci"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "entry point",
+          "enter during 'up candles'"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION_MECHANISM",
+          "SHORT_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Overcoming the desire to be 'right'",
+          "embracing uncertainty",
+          "One losing trade does not define your career"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_GUIDANCE",
+          "MINDSET_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "risk management",
+          "profitability"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "2022 MODEL",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4182",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM/DISCOUNT RANGES",
+          "premium market",
+          "discount"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "ENTRY_CRITERIA",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "50% level",
+          "equilibrium",
+          "midpoint of the discount level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RANGE_DEFINITION",
+          "ENTRY_CRITERIA_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market shift"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION_TRIGGER",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "PYRAMIDING STRATEGY",
+          "pyramiding entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_SCALING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking partials",
+          "trailing stops",
+          "not adding new positions"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "POSITION_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREMIUM/DISCOUNT RANGES AND PYRAMIDING STRATEGY",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4183",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.99,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PREDICTIVE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_TRADING_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "2022 model"
+        ],
+        "narrative_roles": [
+          "MODEL_VALIDATION",
+          "FRAMEWORK_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-handle run",
+          "5-handle move",
+          "5-handle objective"
+        ],
+        "narrative_roles": [
+          "CONSISTENCY_BUILDING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEMO_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "paper trading"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "CONFIDENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMPOUND_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "compound interest"
+        ],
+        "narrative_roles": [
+          "GROWTH_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONEY_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "disciplined money management"
+        ],
+        "narrative_roles": [
+          "TRADE_DISCIPLINE",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "macro analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_INDICATOR",
+          "CONTEXT_SETTING",
+          "INTERMARKET_CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower timeframe charts"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES DELIVERY AND THE 5-HANDLE OBJECTIVE",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4184",
+    "concepts": [
+      {
+        "canonical": "RISK_ON_RISK_OFF",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK-ON/RISK-OFF",
+          "Dollar lower (risk-on)",
+          "Dollar higher (risk-off)"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Dollar lower (risk-on) -> S&P, Index Futures, and Forex likely to go higher",
+          "Dollar higher (risk-off) -> S&P, Index Futures, and Forex likely to go lower",
+          "Euro (softer, but tradable)",
+          "Cable (weak, stopped out in an example)",
+          "Gold (drop due to DXY strength)"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DXY_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "Dollar lower",
+          "Dollar higher",
+          "DXY strength"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_DETERMINATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "consistency in trading",
+          "consistent approach",
+          "give yourself a chance to do well",
+          "jumping between methods or markets after a losing trade"
+        ],
+        "narrative_roles": [
+          "DISCIPLINE",
+          "TRADER_DEVELOPMENT",
+          "PSYCHOLOGICAL_ENDURANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RISK-ON/RISK-OFF EXPLAINED AND CONSISTENCY IN TRADING",
+      "source_file": "Price Action Chronicles ⧹ February 07, 2023_Handbook.chunks.json"
+    }
+  }
+]

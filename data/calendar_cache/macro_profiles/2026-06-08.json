@@ -1,0 +1,1499 @@
+{
+  "week_start": "2026-06-08",
+  "week_type": "MULTI_THEME",
+  "primary_drivers": [
+    "OTHER",
+    "CPI",
+    "RATES",
+    "LABOR",
+    "GDP"
+  ],
+  "volatility_expectation": "HIGH",
+  "delivery_model": "mixed",
+  "macro_bias": "bearish",
+  "narrative_confidence": 0.6232000000000001,
+  "active_events": [],
+  "upcoming_events": [
+    {
+      "id": "forexfactory:ec7897e7c75a",
+      "title": "Core CPI m/m",
+      "scheduled_time": "2026-06-10T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:20e43806b98e",
+      "title": "Core CPI y/y",
+      "scheduled_time": "2026-06-10T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:5275e8ae06d1",
+      "title": "CPI m/m",
+      "scheduled_time": "2026-06-10T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:f5d35e2df42c",
+      "title": "CPI y/y",
+      "scheduled_time": "2026-06-10T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:0cbef99b3d47",
+      "title": "Main Refinancing Rate",
+      "scheduled_time": "2026-06-11T12:15:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:6a596f58c67b",
+      "title": "Monetary Policy Statement",
+      "scheduled_time": "2026-06-11T12:15:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:d176d7fa95eb",
+      "title": "Core PPI m/m",
+      "scheduled_time": "2026-06-11T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:b7103477c631",
+      "title": "PPI m/m",
+      "scheduled_time": "2026-06-11T12:30:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:d0773e9be938",
+      "title": "ECB Press Conference",
+      "scheduled_time": "2026-06-11T12:45:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:45",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:d5c5350d65d0",
+      "title": "GDP m/m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "HIGH",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:c44e93352039",
+      "title": "Unemployment Claims",
+      "scheduled_time": "2026-06-11T12:30:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:7e078d9978d5",
+      "title": "Prelim UoM Consumer Sentiment",
+      "scheduled_time": "2026-06-12T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:a9b107bebdbd",
+      "title": "Prelim UoM Inflation Expectations",
+      "scheduled_time": "2026-06-12T14:00:00.000Z",
+      "impact": "MEDIUM",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:8647f7c16a5e",
+      "title": "German Factory Orders m/m",
+      "scheduled_time": "2026-06-08T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-08",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:606399410464",
+      "title": "Sentix Investor Confidence",
+      "scheduled_time": "2026-06-08T08:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-08",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "04:30",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:900dd2814c75",
+      "title": "BRC Retail Sales Monitor y/y",
+      "scheduled_time": "2026-06-08T23:01:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-08",
+      "market_weekday": "Monday",
+      "market_time_hhmm": "19:01",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:9360660ed128",
+      "title": "German Industrial Production m/m",
+      "scheduled_time": "2026-06-09T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:ba2c1985ce4c",
+      "title": "German Trade Balance",
+      "scheduled_time": "2026-06-09T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:0781c08bcf4c",
+      "title": "NFIB Small Business Index",
+      "scheduled_time": "2026-06-09T10:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "06:00",
+      "session_tags": [
+        "pre_new_york"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:3581f6a5f2d1",
+      "title": "ADP Weekly Employment Change",
+      "scheduled_time": "2026-06-09T12:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:3c65aae3278b",
+      "title": "Trade Balance",
+      "scheduled_time": "2026-06-09T12:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:66a66ac0e586",
+      "title": "Existing Home Sales",
+      "scheduled_time": "2026-06-09T14:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:393f721f8136",
+      "title": "Final Wholesale Inventories m/m",
+      "scheduled_time": "2026-06-09T14:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "id": "forexfactory:31d43396bf49",
+      "title": "API Weekly Statistical Bulletin",
+      "scheduled_time": "2026-06-09T20:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-09",
+      "market_weekday": "Tuesday",
+      "market_time_hhmm": "16:30",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:a1b67a6e5b9d",
+      "title": "Italian Industrial Production m/m",
+      "scheduled_time": "2026-06-10T08:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "04:00",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:6da66b4a0425",
+      "title": "German 10-y Bond Auction",
+      "scheduled_time": "2026-06-10T09:35:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "05:35",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:c83aa87dbc21",
+      "title": "German 10-y Bond Auction",
+      "scheduled_time": "2026-06-10T09:42:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "05:42",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:729cc3e1e89d",
+      "title": "Crude Oil Inventories",
+      "scheduled_time": "2026-06-10T14:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "10:30",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    },
+    {
+      "id": "forexfactory:99dfb93eb153",
+      "title": "10-y Bond Auction",
+      "scheduled_time": "2026-06-10T17:01:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "13:01",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:e84f5d8fa476",
+      "title": "Federal Budget Balance",
+      "scheduled_time": "2026-06-10T17:59:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "13:59",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:a19e0ae682e0",
+      "title": "Federal Budget Balance",
+      "scheduled_time": "2026-06-10T18:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "14:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:7918d39a9b01",
+      "title": "RICS House Price Balance",
+      "scheduled_time": "2026-06-10T23:01:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "19:01",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:ba66f71cb702",
+      "title": "Eurogroup Meetings",
+      "scheduled_time": "2026-06-11T09:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "05:15",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:52004d5cd010",
+      "title": "Natural Gas Storage",
+      "scheduled_time": "2026-06-11T14:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "10:30",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    },
+    {
+      "id": "forexfactory:860dd02d56c6",
+      "title": "30-y Bond Auction",
+      "scheduled_time": "2026-06-11T17:01:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "13:01",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:fce65d923e2f",
+      "title": "German Final CPI m/m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:383487554b1f",
+      "title": "Construction Output m/m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:a25b06b7f991",
+      "title": "Goods Trade Balance",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:80c473a4af02",
+      "title": "Index of Services 3m/3m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:29323afef968",
+      "title": "Industrial Production m/m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:43ea2e805127",
+      "title": "Manufacturing Production m/m",
+      "scheduled_time": "2026-06-12T06:00:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:d9cd761a3f84",
+      "title": "French Final CPI m/m",
+      "scheduled_time": "2026-06-12T06:45:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:45",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:3c693c628051",
+      "title": "Consumer Inflation Expectations",
+      "scheduled_time": "2026-06-12T08:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "04:30",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:854e22dc6d2b",
+      "title": "Italian Quarterly Unemployment Rate",
+      "scheduled_time": "2026-06-12T08:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "04:30",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:7a8f28e6572a",
+      "title": "ECOFIN Meetings",
+      "scheduled_time": "2026-06-12T09:15:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "05:15",
+      "session_tags": [
+        "london_open"
+      ],
+      "killzone_tags": []
+    },
+    {
+      "id": "forexfactory:975c3ac0a01e",
+      "title": "CB Leading Index m/m",
+      "scheduled_time": "2026-06-12T13:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "09:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "id": "forexfactory:94a3659a6bae",
+      "title": "German Buba President Nagel Speaks",
+      "scheduled_time": "2026-06-12T14:30:00.000Z",
+      "impact": "LOW",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:30",
+      "session_tags": [
+        "new_york_morning"
+      ],
+      "killzone_tags": [
+        "london_close_window"
+      ]
+    }
+  ],
+  "retrieval_context": {
+    "expandedQueries": [
+      "weekly profile\n\nMonday:\n\nTuesday:\n\nWednesday:\nCore CPI m/m - High Impact\nCore CPI y/y - High Impact\nCPI m/m - High Impact\nCPI y/y - High Impact\n\nThursday:\nMain Refinancing Rate - High Impact\nMonetary Policy Statement - High Impact\nCore PPI m/m - High Impact\nPPI m/m - High Impact\nUnemployment Claims - Medium Impact\nECB Press Conference - High Impact\n\nFriday:\nGDP m/m - High Impact\nPrelim UoM Consumer Sentiment - Medium Impact\nPrelim UoM Inflation Expectations - Medium Impact"
+    ],
+    "top_chunks": [
+      "chunk_976",
+      "chunk_917",
+      "chunk_3799",
+      "chunk_2917",
+      "chunk_512",
+      "chunk_704",
+      "chunk_4230",
+      "chunk_3528",
+      "chunk_946",
+      "chunk_4207",
+      "chunk_477",
+      "chunk_4017",
+      "chunk_1887",
+      "chunk_3540",
+      "chunk_2968",
+      "chunk_3665",
+      "chunk_4023",
+      "chunk_4026",
+      "chunk_552",
+      "chunk_602"
+    ]
+  },
+  "narrative_state": "Week 2026-06-08: MULTI_THEME — bias=bearish; expect high volatility.",
+  "narrative_scope": "weekly_dominant",
+  "narrative_as_of": "2026-06-08",
+  "narrative_event_category": "MULTI_THEME",
+  "macro_themes": [
+    {
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "confidence": 0.8,
+      "supporting_events": [
+        "WEEKLY_PROFILE"
+      ],
+      "supporting_evidence": [
+        "- chunk_976: STAGE 1: PREPARATION For Preparation, we're going to note all medium and high impact events for the markets that you're following. We're going to study the events on the week to co",
+        "- chunk_917: ECONOMIC CALENDAR AND WEEKLY PROFILE In the preparation stage, we always refer to the economic calendar for the coming week. We note all medium and high-impact news events for the ",
+        "- chunk_3799: DEVELOPING YOUR WEEKLY PROFILE Once you have that determined, then you can focus on a weekly profile. Now if it's bullish, then you're expecting to have a weekly profile that's bul"
+      ]
+    }
+  ],
+  "macro_timeline": [
+    {
+      "catalyst": "Core CPI m/m",
+      "date": "2026-06-10T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "REVERSAL",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4026",
+          "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "Core CPI y/y",
+      "date": "2026-06-10T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "REVERSAL",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4026",
+          "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "CPI m/m",
+      "date": "2026-06-10T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "REVERSAL",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4026",
+          "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "CPI y/y",
+      "date": "2026-06-10T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "REVERSAL",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2917",
+          "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+        },
+        {
+          "chunk_id": "chunk_4207",
+          "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+        },
+        {
+          "chunk_id": "chunk_4026",
+          "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-10",
+      "market_weekday": "Wednesday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "Main Refinancing Rate",
+      "date": "2026-06-11T12:15:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_1887",
+          "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "catalyst": "Monetary Policy Statement",
+      "date": "2026-06-11T12:15:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_1887",
+          "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:15",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "catalyst": "Core PPI m/m",
+      "date": "2026-06-11T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "PPI m/m",
+      "date": "2026-06-11T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "Unemployment Claims",
+      "date": "2026-06-11T12:30:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ]
+    },
+    {
+      "catalyst": "ECB Press Conference",
+      "date": "2026-06-11T12:45:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "chunk_id": "chunk_1887",
+          "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-11",
+      "market_weekday": "Thursday",
+      "market_time_hhmm": "08:45",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window"
+      ],
+      "killzone_tags": [
+        "new_york_killzone"
+      ]
+    },
+    {
+      "catalyst": "GDP m/m",
+      "date": "2026-06-12T06:00:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "EXPANSION",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "02:00",
+      "session_tags": [
+        "asia_close"
+      ],
+      "killzone_tags": [
+        "london_killzone"
+      ]
+    },
+    {
+      "catalyst": "Prelim UoM Consumer Sentiment",
+      "date": "2026-06-12T14:00:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    },
+    {
+      "catalyst": "Prelim UoM Inflation Expectations",
+      "date": "2026-06-12T14:00:00.000Z",
+      "theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "chunk_id": "chunk_2968",
+          "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+        },
+        {
+          "chunk_id": "chunk_477",
+          "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-12",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ]
+    }
+  ],
+  "weekly_delivery_model": {
+    "model": "Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.",
+    "expected_weekly_high_day": "Wednesday",
+    "expected_weekly_low_day": null,
+    "expected_expansion_day": "Wednesday",
+    "weekly_path": {
+      "Wednesday": "PENDING_MODEL",
+      "Thursday": "PENDING_MODEL",
+      "Friday": "PENDING_MODEL"
+    },
+    "confidence": 0.75
+  },
+  "daily_delivery_model": {
+    "expected_day_type": "UNCLASSIFIED",
+    "expected_liquidity_sequence": [],
+    "confidence": 0.1
+  },
+  "intraday_expectations": {
+    "expected_displacement_window": [],
+    "expected_reversal_window": [],
+    "execution_risk": "HIGH",
+    "confidence_modifier": -0.6
+  },
+  "retrieval_queries": [
+    "weekly profile\n\nMonday:\n\nTuesday:\n\nWednesday:\nCore CPI m/m - High Impact\nCore CPI y/y - High Impact\nCPI m/m - High Impact\nCPI y/y - High Impact\n\nThursday:\nMain Refinancing Rate - High Impact\nMonetary Policy Statement - High Impact\nCore PPI m/m - High Impact\nPPI m/m - High Impact\nUnemployment Claims - Medium Impact\nECB Press Conference - High Impact\n\nFriday:\nGDP m/m - High Impact\nPrelim UoM Consumer Sentiment - Medium Impact\nPrelim UoM Inflation Expectations - Medium Impact"
+  ],
+  "regime": {
+    "volatility": "HIGH",
+    "liquidity": "STABLE",
+    "macro_alignment": "BEARISH"
+  },
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": -1,
+      "GROWTH": -1,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.5
+      },
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.3
+      },
+      {
+        "currency": "GBP",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": -1,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.45
+  },
+  "narrative_history": [
+    {
+      "ts": "2026-06-13T10:10:21.774Z",
+      "narrative": "Week 2026-06-08: MULTI_THEME — bias=bearish; expect high volatility.",
+      "confidence": 0.76
+    }
+  ],
+  "weekly_story_arc": [
+    {
+      "day": "Wednesday",
+      "role": "CPI Catalyst & Weekly High Formation",
+      "supporting_event_ids": [
+        "forexfactory:ec7897e7c75a",
+        "forexfactory:20e43806b98e",
+        "forexfactory:5275e8ae06d1",
+        "forexfactory:f5d35e2df42c"
+      ],
+      "supporting_events": [
+        {
+          "id": "forexfactory:ec7897e7c75a",
+          "day": "Wednesday",
+          "market_date": "2026-06-10",
+          "market_timezone": "America/New_York",
+          "title": "Core CPI m/m",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-10T12:30:00.000Z"
+        },
+        {
+          "id": "forexfactory:20e43806b98e",
+          "day": "Wednesday",
+          "market_date": "2026-06-10",
+          "market_timezone": "America/New_York",
+          "title": "Core CPI y/y",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-10T12:30:00.000Z"
+        },
+        {
+          "id": "forexfactory:5275e8ae06d1",
+          "day": "Wednesday",
+          "market_date": "2026-06-10",
+          "market_timezone": "America/New_York",
+          "title": "CPI m/m",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-10T12:30:00.000Z"
+        },
+        {
+          "id": "forexfactory:f5d35e2df42c",
+          "day": "Wednesday",
+          "market_date": "2026-06-10",
+          "market_timezone": "America/New_York",
+          "title": "CPI y/y",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-10T12:30:00.000Z"
+        }
+      ],
+      "supporting_chunks": [
+        "chunk_2917",
+        "chunk_4207",
+        "chunk_4017",
+        "chunk_4023",
+        "chunk_4026",
+        "chunk_602"
+      ],
+      "confidence": 0.8,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Thursday",
+      "role": "Bearish Continuation & Data Confirmation",
+      "supporting_event_ids": [
+        "forexfactory:0cbef99b3d47",
+        "forexfactory:6a596f58c67b",
+        "forexfactory:d176d7fa95eb",
+        "forexfactory:b7103477c631",
+        "forexfactory:d0773e9be938",
+        "forexfactory:c44e93352039"
+      ],
+      "supporting_events": [
+        {
+          "id": "forexfactory:0cbef99b3d47",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "Main Refinancing Rate",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-11T12:15:00.000Z"
+        },
+        {
+          "id": "forexfactory:6a596f58c67b",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "Monetary Policy Statement",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-11T12:15:00.000Z"
+        },
+        {
+          "id": "forexfactory:d176d7fa95eb",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "Core PPI m/m",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-11T12:30:00.000Z"
+        },
+        {
+          "id": "forexfactory:b7103477c631",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "PPI m/m",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-11T12:30:00.000Z"
+        },
+        {
+          "id": "forexfactory:d0773e9be938",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "ECB Press Conference",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-11T12:45:00:000Z"
+        },
+        {
+          "id": "forexfactory:c44e93352039",
+          "day": "Thursday",
+          "market_date": "2026-06-11",
+          "market_timezone": "America/New_York",
+          "title": "Unemployment Claims",
+          "impact": "MEDIUM",
+          "scheduled_time": "2026-06-11T12:30:00:000Z"
+        }
+      ],
+      "supporting_chunks": [
+        "chunk_477",
+        "chunk_1887"
+      ],
+      "confidence": 0.6,
+      "market_timezone": "America/New_York"
+    },
+    {
+      "day": "Friday",
+      "role": "Liquidity Seeking & Weakness Targeting",
+      "supporting_event_ids": [
+        "forexfactory:d5c5350d65d0",
+        "forexfactory:7e078d9978d5",
+        "forexfactory:a9b107bebdbd"
+      ],
+      "supporting_events": [
+        {
+          "id": "forexfactory:d5c5350d65d0",
+          "day": "Friday",
+          "market_date": "2026-06-12",
+          "market_timezone": "America/New_York",
+          "title": "GDP m/m",
+          "impact": "HIGH",
+          "scheduled_time": "2026-06-12T06:00:00.000Z"
+        },
+        {
+          "id": "forexfactory:7e078d9978d5",
+          "day": "Friday",
+          "market_date": "2026-06-12",
+          "market_timezone": "America/New_York",
+          "title": "Prelim UoM Consumer Sentiment",
+          "impact": "MEDIUM",
+          "scheduled_time": "2026-06-12T14:00:00.000Z"
+        },
+        {
+          "id": "forexfactory:a9b107bebdbd",
+          "day": "Friday",
+          "market_date": "2026-06-12",
+          "market_timezone": "America/New_York",
+          "title": "Prelim UoM Inflation Expectations",
+          "impact": "MEDIUM",
+          "scheduled_time": "2026-06-12T14:00:00.000Z"
+        }
+      ],
+      "supporting_chunks": [
+        "chunk_2968",
+        "chunk_477"
+      ],
+      "confidence": 0.5,
+      "market_timezone": "America/New_York"
+    }
+  ],
+  "dominant_theme": "CPI-Driven Weekly High & Bearish Expansion",
+  "dominant_narrative": "The week is anticipated to unfold with an initial setup into the high-impact CPI data on Wednesday, which is expected to act as the primary catalyst for the weekly high. This aligns with the 'Wednesday High of the Week' profile, where price may hover or even move higher on preceding days before reversing into a premium array during Wednesday's London or New York session. Following this CPI-driven reversal, the market is expected to experience bearish expansion, potentially reinforced by ECB decisions, US PPI, and UK GDP data, particularly given concerns over labor and growth reflected in the bias. The week could see subsequent consolidation or a continued push to target lower liquidity levels, though Thursday and Friday may exhibit choppiness.",
+  "macro_ire": {
+    "avg_uncertainty": 0.6,
+    "avg_volatility": 0.9,
+    "execution_risk": "HIGH",
+    "liquidity_condition": "UNSTABLE",
+    "confidence_modifier": -0.6
+  },
+  "adaptation_history": [
+    {
+      "ts": "2026-06-13T10:10:21.776Z",
+      "alignmentScore": 1,
+      "deviation": 0,
+      "adaptationPressure": 0.3,
+      "note": "avgUncertainty=0.600,avgVol=0.900"
+    }
+  ],
+  "confidence_evolution": [
+    {
+      "ts": "2026-06-13T10:10:21.776Z",
+      "confidence": 0.6232000000000001,
+      "source": "adaptation"
+    }
+  ],
+  "updated_at": "2026-06-13T10:10:21.780Z",
+  "version": 1
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "chunk_id": "chunk_1691",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Discount Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "POTENTIAL_SUPPORT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "The market is consolidating"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly imbalance"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fed Chair Powell is scheduled to speak",
+          "his remarks"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "10 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "WAITING_FOR_NEWS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market's current cautious posture, waiting for his remarks"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'smoke screen' to move price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCOUNT FAIR VALUE GAP AND MARKET DRIVERS",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1692",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance a Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "weekly volume imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "LIQUIDITY_DRAW",
+          "PRICE_MAGNET",
+          "TRADE_SETUP_REFERENCE"
+        ],
+        "temporal_tags": [
+          "earlier this week",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Premium Fair Value Gap (FVG)",
+          "Premium Fair Value Gap",
+          "daily premium FVG"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "LIQUIDITY_DRAW",
+          "INEFFICIENCY",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily discount FVG",
+          "weekly discount FVG"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "LIQUIDITY_DRAW",
+          "INEFFICIENCY",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "daily",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy Side Imbalance",
+          "buy side liquidity pool",
+          "buy side liquidity",
+          "current high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "this week",
+          "before the week closes"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "Relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "ENGINEERED_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "in the past",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "KEY LEVELS",
+          "The purplish-blue and pink levels are crucial"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_ZONE",
+          "RESISTANCE_ZONE",
+          "TRADE_SETUP_REFERENCE"
+        ],
+        "temporal_tags": [
+          "lower timeframes"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY IMBALANCES, LIQUIDITY DRAWS, AND KEY LEVELS",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1693",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY SIDE LIQUIDITY",
+          "buy side",
+          "various highs",
+          "liquidity",
+          "stacked liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_ACCUMULATION",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OFFSET_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "OFFSET DISTRIBUTION",
+          "means of offset distribution",
+          "offsets the longs"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_EXECUTION",
+          "PROFIT_TAKING",
+          "LIQUIDITY_UTILIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUY SIDE LIQUIDITY AND OFFSET DISTRIBUTION",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1694",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "daily Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "PRICE_ACTION_PATTERN",
+          "CONTEXTUAL_INFORMATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment midpoint"
+        ],
+        "narrative_roles": [
+          "LEVEL_OF_INTEREST",
+          "PRECISION_REFERENCE",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GRADIENT_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gradient levels",
+          "high and the low of that daily Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "PRICE_ALIGNMENT",
+          "CONTEXTUAL_INFORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "METHODOLOGY_CONTRAST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MISCONCEPTIONS",
+          "not 'Quarters Theory'",
+          "not a reinvention of supply and demand, which is not the trading methodology employed"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_DEFINITION",
+          "DIFFERENTIATION",
+          "ANTI_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY FAIR VALUE GAP GRADIENT LEVELS AND MISCONCEPTIONS",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1695",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "the low of one candle to the high of another",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "TARGET_FOR_REPRICING",
+          "INEFFICIENCY_IDENTIFIER"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "FRIDAY",
+          "FED_SPEECH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell Side Imbalance"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_TYPE",
+          "DRIVING_FORCE_FOR_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EFFICIENT_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "Efficient price delivery",
+          "efficiently 'rebook and balance'",
+          "reprice it",
+          "upside delivery",
+          "'pass above and below or below and above'",
+          "'up, down, up, down' movement"
+        ],
+        "narrative_roles": [
+          "PRICE_CORRECTION_MECHANISM",
+          "EQUILIBRIUM_SEEKING",
+          "MARKET_PROCESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "MARKET_FLAW",
+          "TARGET_FOR_REPRICING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM OUTLOOK AND EFFICIENT PRICE DELIVERY",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1696",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance, Sell Side Inefficiency (BISI)",
+          "another gap",
+          "Fair Value",
+          "Fair Value Gap",
+          "gap"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "PRICE_BEHAVIOR_ANALYSIS",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LOWER TIMEFRAME ANALYSIS",
+          "Dropping to a 15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_APPROACH",
+          "CONTEXT_SWITCH"
+        ],
+        "temporal_tags": [
+          "15-minute timeframe"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_TOOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fib tool",
+          "50 percent, 25 percent, and 75 percent levels"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "LEVEL_IDENTIFICATION",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOWER TIMEFRAME ANALYSIS AND FVG GRADIENT LEVELS SETUP",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1697",
+    "concepts": [
+      {
+        "canonical": "BACKTESTING_METHODOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DETAILED BACKTESTING",
+          "Annotate charts",
+          "reviewing annotations"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "PRACTICE_AND_REFINEMENT",
+          "LEARNING_PROCESS"
+        ],
+        "temporal_tags": [
+          "HISTORICAL_DATA"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY_TRAINING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "positive self-reinforcement",
+          "'cheerleading' comments",
+          "subconscious processes it as real experience",
+          "Never add negative remarks or complaints",
+          "Always cheerlead your insights",
+          "trains the mind to reduce fear",
+          "builds confidence"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_PREPARATION",
+          "EMOTIONAL_REGULATION",
+          "CONFIDENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PATTERN_RECOGNITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "recognize historical patterns",
+          "pattern recognition from past observations"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_SKILL",
+          "SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [
+          "HISTORICAL_DATA"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PSYCHOLOGICAL BENEFITS OF DETAILED BACKTESTING AND POSITIVE",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1698",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running stops",
+          "stop losses are taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_HUNT",
+          "SMART_MONEY_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SMART MONEY ACCUMULATION",
+          "smart money accumulates new long positions"
+        ],
+        "narrative_roles": [
+          "POSITION_BUILDING",
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "Fair Value Gap",
+          "daily discount Fair Value Gap",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET",
+          "ENTRY_POINT_REFERENCE",
+          "DISCOUNT_ARRAY"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trades back down into",
+          "FVG RETRACEMENT",
+          "upper quadrant (the 75 percent level of that range)"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "OPTIMAL_TRADE_ENTRY_SETUP",
+          "PRECISION_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY ACCUMULATION AND FVG RETRACEMENT",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1699",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "'liquidity void'",
+          "inefficiency",
+          "micro imbalance",
+          "trades up into an imbalance",
+          "FVG",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "TARGET_FOR_REBALANCING",
+          "ORDER_DELIVERY_GAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'balanced price range'",
+          "balanced"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING_RESULT",
+          "MITIGATION_AREA",
+          "CONSOLIDATION_ZONE",
+          "TRADING_RANGE"
+        ],
+        "temporal_tags": [
+          "TIMEFRAME_3_MINUTE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'rebooked and repriced to inefficiency'",
+          "trades down to the low of that same imbalance again, fails to go lower, respects that level, and then leaves the range"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING_MECHANISM",
+          "LEVEL_CONFIRMATION",
+          "SUPPORT_TEST",
+          "RESPECT_OF_LEVEL"
+        ],
+        "temporal_tags": [
+          "TIMEFRAME_3_MINUTE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING BALANCED PRICE RANGES AND INEFFICIENCIES",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1700",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap (ORG)",
+          "ORG",
+          "Bullish Gap Higher",
+          "gap higher",
+          "Bearish Gap Lower",
+          "gap lower",
+          "the gap",
+          "entire gap",
+          "fill the gap",
+          "reprice it"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "RANGE_BOUND_BEHAVIOR"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Consolidation",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "CONTEXTUAL_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_OBJECTIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe weekly objective has been met"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_CHANGE",
+          "CONTEXTUAL_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.75,
+        "surface_terms": [
+          "potential false run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERPRETING AND TRADING THE OPENING RANGE GAP (ORG)",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1701",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_MODEL",
+          "DAILY_BIAS_FRAMEWORK",
+          "PRICE_ACTION_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily range",
+          "low of the day",
+          "opening price"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "BIAS_DETERMINATION",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "price trades down"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "DAILY_LOW_FORMATION_INDICATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Retail traders often chase this move lower"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_CONCEPT_CONTRAST",
+          "LIQUIDITY_ENGINEERING_VICTIM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "inefficiency",
+          "Regular Trading Hours (RTH)",
+          "Electronic Trading Hours (ETH)",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "MARKET_ANOMALY",
+          "SMART_MONEY_CONCEPT_CONTRAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "9:30 AM opening bell"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_INJECTION",
+          "SESSION_START"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium Fair Value Gap (FVG)",
+          "premium specifically, the premium Fair Value Gap (FVG) shaded in pink"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "INEFFICIENCY",
+          "PRICE_MAGNET",
+          "ORDER_BLOCK_CONFIRMATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframes down"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "BIAS_DETERMINATION",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POWER OF THREE AND DAILY RANGE ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1702",
+    "concepts": [
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONFLUENCES CONFIRMING THE LOW OF THE DAY",
+          "confluence",
+          "combination of confluences"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_SETUP",
+          "BIAS_CONFIRMATION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "The Power of Three concept"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "PRICE_DELIVERY_MODEL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Manipulation (Judas Swing)",
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION",
+          "ENTRY_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Distribution into a Premium",
+          "daily premium FVG high"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_ZONE",
+          "REVERSAL_ZONE",
+          "OVERVALUED_AREA",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Daily Fair Value Gap (FVG)",
+          "FVG",
+          "daily premium FVG high",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "SUPPORT_RESISTANCE",
+          "TARGET",
+          "REBALANCING_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encroachment (midpoint)"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "New Day Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "DAILY_BIAS_INDICATOR",
+          "LIQUIDITY_DRAW",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_DELIVERY_ENGINE",
+          "LIQUIDITY_SEEKER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seeks new liquidity"
+        ],
+        "narrative_roles": [
+          "ALGORITHM_DRIVER",
+          "TARGET",
+          "ORDER_FLOW",
+          "PRICE_MOMENTUM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seeks inefficiency"
+        ],
+        "narrative_roles": [
+          "ALGORITHM_DRIVER",
+          "PRICE_DELIVERY_MOTIVATION",
+          "TARGET_AREA",
+          "REBALANCING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "takes out stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT",
+          "ALGORITHM_DRIVER",
+          "TRADER_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidates"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_BUILDUP",
+          "TRADER_FRUSTRATION",
+          "PRE_EXPANSION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFLUENCES CONFIRMING THE LOW OF THE DAY",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1703",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INEFFICIENCY",
+          "an inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "ORDER_FLOW_REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY",
+          "take out buy stops",
+          "take out sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "ORDER_FLOW_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidate in a range-bound manner",
+          "range-bound manner"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "TRADER_FRUSTRATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INEFFICIENCY OR LIQUIDITY",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1704",
+    "concepts": [
+      {
+        "canonical": "HINDSIGHT_STUDY",
+        "confidence": 1,
+        "surface_terms": [
+          "detailed study of old price moves",
+          "hindsight price action reading",
+          "studying hindsight price action with annotations"
+        ],
+        "narrative_roles": [
+          "LEARNING_METHODOLOGY",
+          "SKILL_DEVELOPMENT",
+          "RISK_FREE_PRACTICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONVICTION",
+          "ANALYTICAL_FRAMEWORK",
+          "PREDICTIVE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HINDSIGHT STUDY AND BIAS",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1705",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MAXIMIZING HINDSIGHT STUDY AND BROAD APPLICABILITY",
+      "source_file": "ICT Mentorship 2023 - ES Market Review May 17, 2023_Handbook.chunks.json"
+    }
+  }
+]

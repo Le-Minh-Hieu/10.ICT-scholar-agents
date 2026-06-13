@@ -25,6 +25,22 @@ import type { MacroReleaseEvent } from "../../types/macro";
 import getLatestMacroHydration, { getLatestDailyHydration } from "../news/cognition/macro-context-hydrator.js";
 
 export async function runSystem(input: any, options?: { debug?: boolean; capturePath?: string }): Promise<SystemResult> {
+  // Pin a stable captureId for the entire run so all rag-debug dumps go into ONE folder.
+  // If runAnalysis already set it from metadata.json, keep that value; otherwise mint one now.
+  const _previousCaptureId = (global as any).currentCaptureId;
+  if (!(global as any).currentCaptureId) {
+    (global as any).currentCaptureId = `run-${Date.now()}`;
+  }
+
+  try {
+    return await _runSystemInner(input, options);
+  } finally {
+    // Restore previous value (or clear) so a long-lived server doesn't leak IDs across runs.
+    (global as any).currentCaptureId = _previousCaptureId;
+  }
+}
+
+async function _runSystemInner(input: any, options?: { debug?: boolean; capturePath?: string }): Promise<SystemResult> {
   // Do not invalidate retrieval cache on every run; preserves historical retrievals
   // invalidateRetrievalCache();
 

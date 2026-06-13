@@ -1,0 +1,51 @@
+[
+  {
+    "chunk_id": "chunk_4105",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY DRIVEN MOVEMENT",
+          "liquidity resting below the previous day's low",
+          "resting liquidity",
+          "target liquidity",
+          "low of May 12th"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRIVER",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "previous day",
+          "May 12th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market's intention to seek that resting liquidity",
+          "price moves down is the market's intention to seek that resting liquidity",
+          "take several passes to get down to the target liquidity",
+          "might return to grab the 'tape' back to the low of May 12th"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_EXPLANATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY DRIVEN MOVEMENT",
+      "source_file": "OTE Pattern Recognition Series - Vol. 05_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "chunk_id": "chunk_655",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "buyside imbalance",
+          "sell-side inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_ZONE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint of the gap"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT_BULLISH",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure shifted bullish"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK_BULLISH",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "higher order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REACCUMULATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX HISTORICAL MOVEMENT AND CURRENT EXPECTATIONS",
+      "source_file": "February 25, 2023 Market Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_656",
+    "concepts": [
+      {
+        "canonical": "RANGE_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "RANGE ANALYSIS",
+          "Considering the range from the high to the low"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "the halfway point"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_DISCOUNT_PREMIUM_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium",
+          "Above equilibrium, in the premium"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOUNT_PREMIUM_DELINEATION",
+          "LIQUIDITY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium fair value gap",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_INDICATION",
+          "DRAW_ON_LIQUIDITY_TARGET",
+          "PRICE_REBALANCING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBISI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBISI",
+          "sell-side imbalance, buyside inefficiency"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_INDICATION",
+          "PRICE_REBALANCING_TARGET",
+          "BEARISH_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "the draw on liquidity",
+          "next near-term objective"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "near-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_OFF",
+        "confidence": 1,
+        "surface_terms": [
+          "'risk off' sentiment",
+          "'risk off' environment"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_BIAS",
+          "MARKET_SENTIMENT_INDICATOR",
+          "MACRO_ECONOMIC_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PROGRAM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell programs",
+          "buy program"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE ANALYSIS AND PREMIUM FAIR VALUE GAP",
+      "source_file": "February 25, 2023 Market Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_657",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart as my higher timeframe",
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "weekend routine",
+          "Saturday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "determine the range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "MARKET_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "likely expansion",
+          "the expansion I've referred to",
+          "this expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [
+          "sometime this week",
+          "Sunday open"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "key levels that price should draw to",
+          "this target"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance (no bodies touching between candles)"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_IDENTIFICATION",
+          "REASON_FOR_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY AND WEEKLY CHART APPLICATION FOR BIAS",
+      "source_file": "February 25, 2023 Market Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_658",
+    "concepts": [
+      {
+        "canonical": "EXTERNAL_BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "two relatively equal highs",
+          "equal highs",
+          "prime target for liquidity, specifically buy stops",
+          "buy stops",
+          "above old highs",
+          "areas of large fund liquidity",
+          "'ceiling' or resistance level",
+          "triple top"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_CREATION",
+          "MARKET_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this area is a prime target for liquidity",
+          "likely to be targeted",
+          "view these levels as targets",
+          "I aim to frame trades that draw into these levels"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "LIQUIDITY_EXPLOITATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Large fund positions",
+          "large institutional orders",
+          "Algorithms tend to gravitate towards areas of large fund liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "LIQUIDITY_ENGINEERING",
+          "SMART_MONEY_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_VS_INSTITUTIONAL_PERSPECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RETAIL VS. INSTITUTIONAL PERSPECTIVES",
+          "retail traders using traditional support and resistance concepts",
+          "However, for ICT concepts",
+          "In my early trading days, I would have seen these equal highs as a triple top and gone short. Now, I view these levels as targets."
+        ],
+        "narrative_roles": [
+          "CONCEPTUAL_CONTRAST",
+          "EDUCATIONAL_FRAMEWORK",
+          "MARKET_MISCONCEPTION_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RETAIL VS. INSTITUTIONAL PERSPECTIVES",
+      "source_file": "February 25, 2023 Market Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_659",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "overall market bias",
+          "Should I be a buyer or seller of foreign currencies?",
+          "market's likely direction",
+          "likely direction"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "I use the dollar as a barometer",
+          "starting my analysis with the dollar index",
+          "If the dollar is rallying, other currencies will likely drop",
+          "When I discuss the dollar index, Euro-dollar, or Pound-dollar"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_PERSPECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "gain a macro perspective",
+          "risk on/risk off",
+          "Incorporating this macro perspective"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "RISK_MANAGEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The daily chart provides the likely direction",
+          "the weekly chart",
+          "determine the magnitude and distance of the expected weekly candle expansion"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "weekends"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_ON_RISK_OFF",
+        "confidence": 1,
+        "surface_terms": [
+          "risk on/risk off"
+        ],
+        "narrative_roles": [
+          "MARKET_SENTIMENT",
+          "MACRO_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE DOLLAR INDEX AS A MACRO BAROMETER",
+      "source_file": "February 25, 2023 Market Commentary_Handbook.chunks.json"
+    }
+  }
+]

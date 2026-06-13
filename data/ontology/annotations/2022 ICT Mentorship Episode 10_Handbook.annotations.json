@@ -1,0 +1,583 @@
+
+[
+  {
+    "chunk_id": "chunk_16",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ECONOMIC CALENDAR",
+          "news embargo timing",
+          "news events",
+          "reports, speeches, or data points"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER",
+          "TRADING_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_AM_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "8:30 in the morning (New York time)",
+          "8:30 AM"
+        ],
+        "narrative_roles": [
+          "SESSION_START",
+          "HIGH_VOLATILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "8:30_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEWS_LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "create a buildup or drop in price right before the report, with the real move ensuing afterward"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "FALSE_MOVE_BEFORE_NEWS"
+        ],
+        "temporal_tags": [
+          "PRE_NEWS_RELEASE"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ECONOMIC CALENDAR AND NEWS EMBARGO TIMING",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_17",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "'Power of Three'",
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DAILY_RANGE_FORECASTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias",
+          "understanding daily bias",
+          "Determining daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADING_STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily range",
+          "the daily range"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "VOLATILITY_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing highs",
+          "swing lows",
+          "recent high",
+          "recent low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "premium",
+          "discount arrays",
+          "50 percent (equilibrium)",
+          "premium market",
+          "Above 50 percent (equilibrium) is a premium market"
+        ],
+        "narrative_roles": [
+          "RANGE_ANALYSIS",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "ENTRY_BIAS_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING DAILY BIAS AND POWER OF THREE (INITIAL CONCEPTS)",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_18",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance",
+          "fair value gap",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "RETRACEMENT_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "overall bias is to go lower",
+          "long-term bias is bearish"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_GUIDANCE",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "dealing range",
+          "between a low and a high"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_GUIDANCE",
+          "PREMIUM_DISCOUNT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "top end of a dealing range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_GUIDANCE",
+          "ENTRY_ZONE_FOR_SELLS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "go back up to rebalance the imbalance",
+          "retracements",
+          "rebalancing moves"
+        ],
+        "narrative_roles": [
+          "PULLBACK_MOVE",
+          "LIQUIDITY_ENGINEERING",
+          "SHORT_TERM_OPPORTUNITY",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING DISCOUNT MARKETS AND IMBALANCES",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_19",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEARNING PROCESS AND PATIENCE IN ICT MENTORSHIP",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_20",
+    "concepts": [
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing lows",
+          "A swing low is formed by three candles",
+          "lowest low of the swing"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "PATTERN_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "SHORT_TERM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing highs",
+          "A swing high is the inverse"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "PATTERN_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "SHORT_TERM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "THREE_CANDLE_RULE",
+        "confidence": 1,
+        "surface_terms": [
+          "THREE-CANDLE RULE",
+          "three candles are needed for a valid swing low or high"
+        ],
+        "narrative_roles": [
+          "DEFINITION",
+          "PATTERN_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Daily bias",
+          "short-term bias",
+          "bullish bias",
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "SHORT_TERM"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BIAS WITH SWING LOWS AND HIGHS (THREE-CANDLE RULE)",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_21",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias",
+          "bullish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_EXPECTATION",
+          "STRATEGY_ANCHOR",
+          "CONSISTENCY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three",
+          "open near the low, a move down (accumulation of longs), and then a rally to close near the high"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MODEL",
+          "DAILY_RANGE_PREDICTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clears significant opposing highs",
+          "clears significant opposing lows",
+          "clear shift in market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_INVALIDATION",
+          "TREND_REVERSAL_SIGNAL",
+          "NEW_BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity targets"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "TREND_CONTINUATION_DRIVE",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "STOP_LOSS_CLUSTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "STOP_LOSS_CLUSTER",
+          "BIAS_INVALIDATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSISTENT BIAS APPLICATION AND MARKET FLUCTUATIONS",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_22",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps",
+          "fair value gaps represent areas where price moved rapidly in one direction",
+          "'porous places' or areas where buyers weren't efficiently offered a chance to participate"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "RETRACEMENT_TARGET",
+          "TRADING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA",
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "MARKET_EFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET EFFICIENCY",
+          "An efficient market"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ALGORITHM",
+          "RETRACEMENT_EXPLANATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rebalance",
+          "return to these areas to 'rebalance' them",
+          "overlap the range of the prior rapid move",
+          "ensuring an 'even distribution' of price"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ALGORITHM",
+          "RETRACEMENT_EXPLANATION",
+          "FVG_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAPS AND MARKET EFFICIENCY (HOURLY CHART PERSPECTIVE)",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_23",
+    "concepts": [
+      {
+        "canonical": "CAPITAL_ADEQUACY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "10,000 paper trading account",
+          "'discount broker' margins",
+          "requirements of reputable brokers (like TD Ameritrade, requiring 20,000 per contract for NASDAQ)",
+          "critical importance of sufficient capital",
+          "low-margin accounts",
+          "avoid account blow-ups in real trading"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PREREQUISITE",
+          "RISK_MITIGATION",
+          "EDUCATIONAL_WARNING",
+          "BEHAVIORAL_CONSTRAINT_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "manage volatility",
+          "avoid account blow-ups"
+        ],
+        "narrative_roles": [
+          "ACCOUNT_PRESERVATION",
+          "TRADING_DISCIPLINE",
+          "LONGEVITY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_MODEL_DEVELOPMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "developed model",
+          "robust model",
+          "years of development"
+        ],
+        "narrative_roles": [
+          "SKILL_ACQUISITION",
+          "CONSISTENCY_PREREQUISITE",
+          "PATIENCE_EMPHASIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HYPOTHETICAL DISCOUNT BROKER CHALLENGE AND ACCOUNT PERFORMANCE",
+      "source_file": "2022 ICT Mentorship Episode 10_Handbook.chunks.json"
+    }
+  }
+]

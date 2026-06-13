@@ -1,0 +1,542 @@
+[
+  {
+    "chunk_id": "chunk_1183",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS_DETERMINATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "WEEKLY CHART ANALYSIS",
+          "determine the likely movement of the weekly chart"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "PRE_MARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_DETERMINATION",
+          "SMART_MONEY_PERSPECTIVE"
+        ],
+        "temporal_tags": [
+          "WEEKEND"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY CHART ANALYSIS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1184",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "likely to be swept",
+          "swept"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Relative equal highs or lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_MANIPULATION",
+          "TRAP_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'obvious' areas",
+          "'too clean' or 'too straight edge' level",
+          "A candle low where the body stops cleanly, without any jagged end or bottom",
+          "obvious price levels",
+          "clean structures"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "TARGET_FOR_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OBVIOUS PRICE LEVELS AND CLEAN STRUCTURES",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1185",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY-SIDE LIQUIDITY",
+          "liquidity which rests in the form of buy stops",
+          "closest draw on liquidity that is opposing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "RELATIVE EQUAL HIGHS",
+          "these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LOCATION",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "closest draw on liquidity",
+          "Price gravitates towards this level, acting like a magnet"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Any movement above these highs would trigger buy stops on shorts",
+          "attack and absorb the liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_ACTIVATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops",
+          "resting above relative equal highs are buy stops",
+          "trigger buy stops on shorts",
+          "liquidity which rests in the form of buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TRIGGER_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUY-SIDE LIQUIDITY ABOVE RELATIVE EQUAL HIGHS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1186",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEKLY INSTITUTIONAL ORDER FLOW BIAS",
+          "Institutional order flow for the week should ideally be bullish",
+          "institutional order flow, bias, trend, or momentum is to the upside"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "EXPECTED_MOVEMENT",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "area of buy stops",
+          "buy-side liquidity pool for buy stops",
+          "target area (buy stops)"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reassessment is needed for continuation, reversal, or consolidation",
+          "inability for price to make a significant lower run"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_OF_STRUCTURE",
+          "POTENTIAL_SHIFT",
+          "DECISION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the open and decline from the opening price (or anywhere close to the opening price or below it) is ideal for going long, as this is likely the cheapest price available",
+          "The closer one can buy around that opening price, the better."
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "DISCOUNT_PRICE_AREA",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the idea of probability or low risk starts to dissipate due to the likelihood of retracement"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY INSTITUTIONAL ORDER FLOW BIAS AND ENTRY STRATEGY",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1187",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.98,
+        "surface_terms": [
+          "reach up into the buy stops",
+          "attack the liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops",
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TRADING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "The bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "Wednesday",
+          "Tuesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL-TIME APPLICATION AND ANTICIPATION",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1188",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bullish order block level",
+          "bullish order block level"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_INTERACTION_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops",
+          "area where the buy stops reside",
+          "drawing price upwards"
+        ],
+        "narrative_roles": [
+          "BUY_SIDE_LIQUIDITY",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "clean levels",
+          "singular candle lows and highs",
+          "swing point highs and lows",
+          "swing lows",
+          "swing highs",
+          "stops above and below them"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "SWING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY CHART",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1189",
+    "concepts": [
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term swing low",
+          "swing lows",
+          "short-term lows",
+          "single candle with a higher low to its right and a higher low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "accumulation of sell stops",
+          "Sell stops",
+          "stop losses",
+          "pool of liquidity from sellers",
+          "sell orders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "drops down to take these participants out",
+          "take these participants out",
+          "price hits this level and then rallies",
+          "When the market drops down to take these participants out and then rallies"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional traders",
+          "'smart money'"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PAIRING_OF_ORDERS",
+        "confidence": 1,
+        "surface_terms": [
+          "pairing of orders"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_MECHANISM",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM SWING LOWS AND ACCUMULATION OF SELL STOPS",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1190",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGH PROBABILITY BULLISH ORDER BLOCK DEFINITION",
+          "high probability bullish order block",
+          "order block itself",
+          "consecutive down-closed candles"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "REVERSAL_AREA",
+          "ENTRY_POINT_CONTEXT",
+          "QUALIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term low with stops",
+          "trades down below that level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS_CONFIRMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market is already predisposed to go higher",
+          "has shown a willingness to move away from an area"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sensitive price points for entry",
+          "high and the opening price of the order block"
+        ],
+        "narrative_roles": [
+          "EXECUTION_POINT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH PROBABILITY BULLISH ORDER BLOCK DEFINITION",
+      "source_file": "ICT Forex - Market Maker Series Vol. 2 of 5_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,362 @@
+{
+  "timestamp": "2026-06-13T08:58:20.505Z",
+  "agentType": "HTF-Macro-Agent",
+  "currentCallId": "HTF-Macro-Agent-HTF-Macro-Agent-1781340841480-22",
+  "prompt": "## ROLE\nYou are an ICT macro FACT EXTRACTION system. Do NOT infer directional bias.\n\n## TASK\nIdentify ALL macro intermarket facts (DXY moves, Yield shifts, Correlated asset behaviour). Analyze charts and output objective observations.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the macro observations from the provided charts:\n\n*   **DXY Displacement Direction**:\n    *   **Monthly**: The current DXY monthly candle (June 2026) is bullish, showing a strong upward displacement, building on previous bullish momentum since March 2026.\n    *   **Weekly**: The DXY weekly candle is bullish, continuing the upward displacement and breaking out of a recent consolidation phase.\n    *   **Daily**: The DXY daily candle is a small bearish inside bar, indicating consolidation after recent bullish daily displacement that has seen price break above 99.00.\n\n*   **Yield Displacement Direction**:\n    *   **US10Y Monthly**: The current US10Y monthly candle (June 2026) is bullish, showing a clear upward displacement and sustained rise in yields since late 2025.\n    *   **US10Y Weekly**: The current US10Y weekly candle is bearish, showing a slight retracement after a period of strong bullish displacement that broke above previous resistance.\n    *   **US10Y Daily**: The current US10Y daily candle is bearish, indicating a short-term retracement following a recent bullish surge to new local highs.\n    *   **US20Y Monthly**: The current US20Y monthly candle (June 2026) is bullish, reflecting a clear upward displacement and sustained rise in yields since late 2025.\n    *   **US20Y Weekly**: The current US20Y weekly candle is bullish, following a prior bearish candle, indicating continued upward pressure and yields making new highs above 5.00%.\n    *   **US20Y Daily**: The current US20Y daily candle is bearish, showing a short-term retracement after a recent bullish move to new local highs.\n\n*   **Correlated Asset Timing Divergence**:\n    *   **Monthly**: DXY (bullish) and both US10Y (bullish) and US20Y (bullish) show alignment in their current monthly displacement.\n    *   **Weekly**: DXY (bullish) shows a divergence with US10Y (bearish) for the current week. However, DXY (bullish) shows alignment with US20Y (bullish) for the current week. Considering the overall trend, DXY and yields have shown a generally aligned bullish displacement over the past few weeks/months.\n    *   **Daily**: DXY (small bearish/consolidating) aligns with US10Y (bearish) and US20Y (bearish) in the current daily candle movement.\n\n*   **Macro OB/FVG Context**:\n    *   **DXY Monthly (Image 4)**: Price is currently trading within the upper portion of a large bearish Order Block/Price Range from Jan 2022 to Jun 2022.\n    *   **DXY Weekly (Image 5)**: Price has recently broken above significant weekly resistance levels (around 100.00-100.50) and is moving into the range of a previous weekly bearish displacement.\n    *   **US10Y Monthly (Image 7)**: Price is consolidating near multi-year highs (around 4.40% - 4.50%) and pushing towards the 2023 highs.\n    *   **US10Y Weekly (Image 8)**: Price is currently trading above a previous weekly bullish Order Block/Price Range (blue shaded area from Feb 2026 to Mar 2026) and has moved above the highs of a previous consolidation (red shaded area from Oct 2025 to Feb 2026).\n    *   **US20Y Monthly (Image 10)**: Price is showing strong bullish momentum, trading near multi-year highs and approaching the 2023 highs.\n    *   **US20Y Weekly (Image 11)**: Price has made new multi-year highs above 5.00% and is maintaining a strong weekly uptrend.\n    *   **EURUSD Monthly (Image 1)**: Price is trading into a previous monthly Buy-Side Imbalance (BSI) / Fair Value Gap (FVG) and is approaching a monthly Sell-Side Liquidity (SSL) level around 1.11410.\n    *   **EURUSD Weekly (Image 2)**: Price has shown bearish displacement and is trading into a weekly Order Block/FVG around the 1.1400 area, with the next significant weekly SSL level at 1.11410.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_2496]\nMAXIMIZING SEASONAL TENDENCIES\nAs a closing thought, consider how these ideas provide a roadmap for the general direction of price and, more importantly, when significant price moves usually occur. Unlike indicators that might show divergence but not specify when it will happen, seasonal tendencies provide a specific time element, which most Now, with this detailed exposure, you can blend time and price with quarterly shifts and seasonal tendencies. A strong tendency for the market to react emerges when several factors come into confluence: The market is already predisposed to go higher (in a bullish market). It's during a time of day when the market should be bullish. When all these elements dovetail, they create a beautiful tapestry leading to a profitable outcome in your analysis. Sticking to these types of trades leads to success. You don't need many trades throughout the year. Notice there isn't a lot of overlapping between these opportunities. Specific currency pairs have their own seasonal tendencies, though they will ultimately yield to the Dollar Index. A future lesson (4.3) will explore the Dollar Index's seasonal tendency and its application. Be encouraged by this powerful knowledge, but avoid overexcitement. These seasonal tendencies, when used in the right context, offer an analytical perspective most traders cannot attain.\n\n[CHUNK_ID:chunk_4172]\nFRAMING MARKET LOGIC WITH DXY\nAll my analysis, across Forex, bond markets, equities, and index futures, starts with the Dollar Index. It frames the logic for whether I should assume risk (e.g., buying foreign currencies or stocks), which correlates with a lower dollar (risk-on). At the beginning of the year, we were indeed looking for a lower dollar, as documented in my YouTube analysis and Twitter commentary. Our prior analysis for DXY looked for lower prices and sell-side liquidity, which was absolutely tagged. If price went below that, we identified an order block and a fair value gap. This fair value gap is a buy-side imbalance sell-side inefficiency, occurring between a candle's high and a subsequent candle's low.\n\n[CHUNK_ID:chunk_1348]\nDXY 15-MINUTE ANALYSIS\nOn the 15-minute time frame, buy-side liquidity here and sell-side liquidity here during the London session. The midnight opening candle had its opening price extended through. If bearish, looking for lower prices, meaning it is a risk-on scenario. If the dollar rallies, it will take out buy-side or trade into an inefficiency in the form of SIBI or fair value gap.\n\n[CHUNK_ID:chunk_2570]\n10-YEAR NOTE SEASONAL TENDENCY AND JUNE 2015 EXAMPLE\nOkay, the previous teaching 2.1 we had looked at the 10-year note seasonal tenancy where it has a strong tendency to rally in June. And we're looking at the 10-year note for September 2015 here. You can see how during the month of June of 2015, the 10-year note did in fact make a low in June.\n\n[CHUNK_ID:chunk_1350]\nDXY ALGORITHM REACTION\nSupport and resistance failed, which is why it is not preferred. However, if using SIBI (sell-side imbalance, buy-side inefficiency), it trades up to consequent encroachment, which is the midpoint of that gap. It trades up into that, failing to make a return to old daily lows and old equal lows. This is where the algorithm was expected to kick in. It did, selling off and trading into the daily fair value gap on the dollar Index. It closed the session making the low of the day, turning at noon in the London Close Killzone.\n\n[CHUNK_ID:chunk_2622]\nSEASONAL TENDENCIES OF 10-YEAR TREASURY NOTES\nOkay, 10-year notes in higher time frame analysis. You can see here on the right-hand side we have a I want to take a look at the seasonal tendency chart for a minute and try to see where the most significant Don't worry, we'll be able to zoom in in a moment, but you can see primarily there is a January-February high. It trades down to a June low, and then a June low trading up into December's highs.\n\n[CHUNK_ID:chunk_1854]\nFAIR VALUE GAP ANALYSIS\nGood afternoon, folks. Happy Saturday to you. We're going to do a little bit of a review today. Here's the Dollar Index on our weekly chart. There is a Fair Value Gap (FVG) that has been left in place from last week's trading, which is this weekly candle. I want to see if we can keep this level in the form of resistance. In other words, price can go up here, hit it, and how we trade after we go into it is going to be If we were to go above the FVG, come back down, I would expect it to act as support. Maybe reach up into the rejection block, which is this highest up-close price here. Eventually target the high and the consequent encroachment of that wick.\n\n[CHUNK_ID:chunk_2626]\nYIELD INVERSION AND DOLLAR INDEX CORRELATION\nNow, if we have this seasonal tendency on the underlying futures contract price, in other words, on the treasury prices, this is not the yield; the yield would be inverted. So in other words, if we're watching the June-July low and prices on the 10-year are rallying, that means interest rates are actually dropping. So it's going to be an adverse effect or inverted effect on the yield. If we see this occurring in the 10-year treasury, we should be seeing what in the Dollar Index if we could show a seasonal tendency, which we happen to have one in the next slide by the way.\n\n## INPUT CONTEXT\nCross-asset Macro Fact Extraction (EURUSD, DXY, US10Y, US20Y)\n\n## CONSTRAINTS\n- MANDATORY OUTPUT: An array of VisionFact objects for each detected macro element.\n- Report DXY movement as a fact (e.g. 'DXY_displacement_bearish').\n- Report Yield movement as a fact (e.g. 'Yield_rising').\n- Report Correlated asset divergence if visible.\n- Assign confidence (0.0-1.0) to each macro observation.\n- DO NOT decide if this makes EURUSD bullish or bearish. Just report the macro facts.\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"facts\": [\n        {\"type\": \"dxy_bearish_displacement\", \"confidence\": 0.85, \"anchor\": \"DXY Daily High\", \"timeframe\": \"DAILY\"},\n        {\"type\": \"yields_rising\", \"confidence\": 0.7, \"anchor\": \"US10Y Weekly Low\", \"timeframe\": \"WEEKLY\"}\n      ],\n      \"references\": [\"CHUNK_ID:...\"],\n      \"confidence\": 0.8,\n      \"notes\": \"Step-by-step reasoning for macro fact extraction\"\n    }\n\nIMPORTANT: Your previous response was not valid JSON. Please return only valid JSON. You MUST call the 'output' function with args matching the schema exactly.",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:56:08 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Identify DXY movement (displacement) direction on different timeframes.\",\n      \"chunk_id\": \"chunk_4172\"\n    },\n    {\n      \"rule\": \"Identify Yield movement (displacement) direction on different timeframes.\",\n      \"chunk_id\": \"chunk_2626\"\n    },\n    {\n      \"rule\": \"Identify correlated asset behavior, specifically timing divergence/alignment between DXY and yields.\",\n      \"chunk_id\": \"chunk_4172\"\n    },\n    {\n      \"rule\": \"Identify macro Order Block (OB) / Fair Value Gap (FVG) context for DXY, Yields, and EURUSD.\",\n      \"chunk_id\": \"chunk_4172\"\n    },\n    {\n      \"rule\": \"Report price interaction with specific liquidity levels (Buy-Side Liquidity - BSL, Sell-Side Liquidity - SSL) or Imbalance/FVG zones.\",\n      \"chunk_id\": \"chunk_1348\"\n    },\n    {\n      \"rule\": \"Do not infer directional bias beyond observed displacement, adhering to objective fact extraction.\",\n      \"chunk_id\": \"chunk_4172\"\n    }\n  ],\n  \"facts\": [\n    {\n      \"type\": \"dxy_displacement_bullish\",\n      \"confidence\": 0.95,\n      \"anchor\": \"DXY Monthly Current Candle\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"dxy_displacement_bullish\",\n      \"confidence\": 0.95,\n      \"anchor\": \"DXY Weekly Current Candle\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"dxy_displacement_consolidating\",\n      \"confidence\": 0.9,\n      \"anchor\": \"DXY Daily Current Candle\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"yields_rising_10y\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US10Y Monthly Current Candle\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"yields_falling_10y\",\n      \"confidence\": 0.9,\n      \"anchor\": \"US10Y Weekly Current Candle\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"yields_falling_10y\",\n      \"confidence\": 0.9,\n      \"anchor\": \"US10Y Daily Current Candle\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"yields_rising_20y\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US20Y Monthly Current Candle\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"yields_rising_20y\",\n      \"confidence\": 0.9,\n      \"anchor\": \"US20Y Weekly Current Candle\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"yields_falling_20y\",\n      \"confidence\": 0.9,\n      \"anchor\": \"US20Y Daily Current Candle\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"intermarket_correlation_aligned\",\n      \"confidence\": 0.9,\n      \"anchor\": \"DXY/US10Y/US20Y Monthly Displacement\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"intermarket_correlation_divergent\",\n      \"confidence\": 0.85,\n      \"anchor\": \"DXY/US10Y Weekly Displacement\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"intermarket_correlation_aligned\",\n      \"confidence\": 0.85,\n      \"anchor\": \"DXY/US20Y Weekly Displacement\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"intermarket_correlation_aligned\",\n      \"confidence\": 0.9,\n      \"anchor\": \"DXY/US10Y/US20Y Daily Displacement\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"price_trading_within_ob_fvg\",\n      \"confidence\": 0.95,\n      \"anchor\": \"DXY Monthly Bearish OB/Price Range\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"price_breaking_resistance\",\n      \"confidence\": 0.95,\n      \"anchor\": \"DXY Weekly Resistance Levels (100.00-100.50)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"price_trading_near_highs\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US10Y Monthly Multi-Year Highs\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"price_trading_above_ob\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US10Y Weekly Bullish OB\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"price_trading_near_highs\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US20Y Monthly Multi-Year Highs\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"price_making_new_highs\",\n      \"confidence\": 0.95,\n      \"anchor\": \"US20Y Weekly New Multi-Year Highs (above 5.00%)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"price_trading_into_bisi_fvg\",\n      \"confidence\": 0.95,\n      \"anchor\": \"EURUSD Monthly Buy-Side Imbalance/FVG\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"price_approaching_liquidity\",\n      \"confidence\": 0.9,\n      \"anchor\": \"EURUSD Monthly Sell-Side Liquidity (1.11410)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"price_trading_into_ob_fvg\",\n      \"confidence\": 0.95,\n      \"anchor\": \"EURUSD Weekly Order Block/FVG (1.1400 area)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"price_approaching_liquidity\",\n      \"confidence\": 0.9,\n      \"anchor\": \"EURUSD Weekly Sell-Side Liquidity (1.11410)\",\n      \"timeframe\": \"WEEKLY\"\n    }\n  ],\n  \"references\": [\n    \"chunk_4172\",\n    \"chunk_2626\",\n    \"chunk_1348\",\n    \"chunk_1854\",\n    \"chunk_2622\",\n    \"chunk_2570\",\n    \"chunk_1350\",\n    \"chunk_2496\"\n  ],\n  \"confidence\": 0.95,\n  \"notes\": \"Extracted macro intermarket facts as observed from the provided charts and text. \\n\\n**DXY Displacement:**\\n- Monthly DXY is bullish, indicating strong upward momentum (Vision Primary).\\n- Weekly DXY is bullish, confirming upward displacement and breakout from consolidation (Vision Primary).\\n- Daily DXY is a small bearish inside bar, suggesting short-term consolidation after bullish movement (Vision Primary).\\n\\n**Yield Displacement:**\\n- Monthly US10Y is bullish, showing sustained rise since late 2025 (Vision Primary).\\n- Weekly US10Y is bearish, indicating a retracement after a strong bullish period (Vision Primary).\\n- Daily US10Y is bearish, suggesting a short-term retracement after a recent surge (Vision Primary).\\n- Monthly US20Y is bullish, showing sustained rise since late 2025 (Vision Primary).\\n- Weekly US20Y is bullish, indicating continued upward pressure and new highs above 5.00% (Vision Primary).\\n- Daily US20Y is bearish, indicating a short-term retracement after a recent bullish move (Vision Primary).\\n\\n**Correlated Asset Timing:**\\n- Monthly: DXY, US10Y, and US20Y all show aligned bullish displacement (Vision Primary). This aligns with the principle that DXY frames market logic across asset classes (chunk_4172).\\n- Weekly: DXY is bullish while US10Y is bearish, showing divergence. DXY aligns with US20Y (bullish) (Vision Primary).\\n- Daily: DXY is consolidating/slightly bearish, aligning with bearish movements in both US10Y and US20Y (Vision Primary).\\n\\n**Macro OB/FVG Context:**\\n- DXY Monthly is trading within a large bearish OB/Price Range from Jan-Jun 2022 (Vision Primary).\\n- DXY Weekly has broken above significant resistance (100.00-100.50) and is moving into a previous bearish displacement range (Vision Primary).\\n- US10Y Monthly is consolidating near multi-year highs and approaching 2023 highs (Vision Primary).\\n- US10Y Weekly is trading above a previous bullish OB/Price Range (Feb-Mar 2026) and moved above prior consolidation highs (Vision Primary).\\n- US20Y Monthly shows strong bullish momentum near multi-year highs, approaching 2023 highs (Vision Primary).\\n- US20Y Weekly made new multi-year highs above 5.00% (Vision Primary).\\n- EURUSD Monthly is trading into a previous Buy-Side Imbalance/FVG and approaching a Monthly Sell-Side Liquidity (SSL) level at 1.11410 (Vision Primary, also relates to FVG analysis in chunk_1854).\\n- EURUSD Weekly shows bearish displacement, trading into a weekly OB/FVG around 1.1400, with SSL at 1.11410 (Vision Primary). The concept of trading into inefficiencies like FVGs is core to the provided knowledge (chunk_4172, chunk_1350, chunk_1854).\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.17806652647454152
+        }
+      ],
+      "createTime": "2026-06-13T08:55:53.333802Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "GRstauqvFLuSqMgPjY_C6As",
+      "usageMetadata": {
+        "promptTokenCount": 5794,
+        "candidatesTokenCount": 2447,
+        "totalTokenCount": 9054,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 3096
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2698
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2447
+          }
+        ],
+        "thoughtsTokenCount": 813
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Identify DXY movement (displacement) direction on different timeframes.",
+          "chunk_id": "chunk_4172"
+        },
+        {
+          "rule": "Identify Yield movement (displacement) direction on different timeframes.",
+          "chunk_id": "chunk_2626"
+        },
+        {
+          "rule": "Identify correlated asset behavior, specifically timing divergence/alignment between DXY and yields.",
+          "chunk_id": "chunk_4172"
+        },
+        {
+          "rule": "Identify macro Order Block (OB) / Fair Value Gap (FVG) context for DXY, Yields, and EURUSD.",
+          "chunk_id": "chunk_4172"
+        },
+        {
+          "rule": "Report price interaction with specific liquidity levels (Buy-Side Liquidity - BSL, Sell-Side Liquidity - SSL) or Imbalance/FVG zones.",
+          "chunk_id": "chunk_1348"
+        },
+        {
+          "rule": "Do not infer directional bias beyond observed displacement, adhering to objective fact extraction.",
+          "chunk_id": "chunk_4172"
+        }
+      ],
+      "facts": [
+        {
+          "type": "dxy_displacement_bullish",
+          "confidence": 0.95,
+          "anchor": "DXY Monthly Current Candle",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "dxy_displacement_bullish",
+          "confidence": 0.95,
+          "anchor": "DXY Weekly Current Candle",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "dxy_displacement_consolidating",
+          "confidence": 0.9,
+          "anchor": "DXY Daily Current Candle",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "yields_rising_10y",
+          "confidence": 0.95,
+          "anchor": "US10Y Monthly Current Candle",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "yields_falling_10y",
+          "confidence": 0.9,
+          "anchor": "US10Y Weekly Current Candle",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "yields_falling_10y",
+          "confidence": 0.9,
+          "anchor": "US10Y Daily Current Candle",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "yields_rising_20y",
+          "confidence": 0.95,
+          "anchor": "US20Y Monthly Current Candle",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "yields_rising_20y",
+          "confidence": 0.9,
+          "anchor": "US20Y Weekly Current Candle",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "yields_falling_20y",
+          "confidence": 0.9,
+          "anchor": "US20Y Daily Current Candle",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "intermarket_correlation_aligned",
+          "confidence": 0.9,
+          "anchor": "DXY/US10Y/US20Y Monthly Displacement",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "intermarket_correlation_divergent",
+          "confidence": 0.85,
+          "anchor": "DXY/US10Y Weekly Displacement",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "intermarket_correlation_aligned",
+          "confidence": 0.85,
+          "anchor": "DXY/US20Y Weekly Displacement",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "intermarket_correlation_aligned",
+          "confidence": 0.9,
+          "anchor": "DXY/US10Y/US20Y Daily Displacement",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "price_trading_within_ob_fvg",
+          "confidence": 0.95,
+          "anchor": "DXY Monthly Bearish OB/Price Range",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "price_breaking_resistance",
+          "confidence": 0.95,
+          "anchor": "DXY Weekly Resistance Levels (100.00-100.50)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "price_trading_near_highs",
+          "confidence": 0.95,
+          "anchor": "US10Y Monthly Multi-Year Highs",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "price_trading_above_ob",
+          "confidence": 0.95,
+          "anchor": "US10Y Weekly Bullish OB",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "price_trading_near_highs",
+          "confidence": 0.95,
+          "anchor": "US20Y Monthly Multi-Year Highs",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "price_making_new_highs",
+          "confidence": 0.95,
+          "anchor": "US20Y Weekly New Multi-Year Highs (above 5.00%)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "price_trading_into_bisi_fvg",
+          "confidence": 0.95,
+          "anchor": "EURUSD Monthly Buy-Side Imbalance/FVG",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "price_approaching_liquidity",
+          "confidence": 0.9,
+          "anchor": "EURUSD Monthly Sell-Side Liquidity (1.11410)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "price_trading_into_ob_fvg",
+          "confidence": 0.95,
+          "anchor": "EURUSD Weekly Order Block/FVG (1.1400 area)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "price_approaching_liquidity",
+          "confidence": 0.9,
+          "anchor": "EURUSD Weekly Sell-Side Liquidity (1.11410)",
+          "timeframe": "WEEKLY"
+        }
+      ],
+      "references": [
+        "chunk_4172",
+        "chunk_2626",
+        "chunk_1348",
+        "chunk_1854",
+        "chunk_2622",
+        "chunk_2570",
+        "chunk_1350",
+        "chunk_2496"
+      ],
+      "confidence": 0.95,
+      "notes": "Extracted macro intermarket facts as observed from the provided charts and text. \n\n**DXY Displacement:**\n- Monthly DXY is bullish, indicating strong upward momentum (Vision Primary).\n- Weekly DXY is bullish, confirming upward displacement and breakout from consolidation (Vision Primary).\n- Daily DXY is a small bearish inside bar, suggesting short-term consolidation after bullish movement (Vision Primary).\n\n**Yield Displacement:**\n- Monthly US10Y is bullish, showing sustained rise since late 2025 (Vision Primary).\n- Weekly US10Y is bearish, indicating a retracement after a strong bullish period (Vision Primary).\n- Daily US10Y is bearish, suggesting a short-term retracement after a recent surge (Vision Primary).\n- Monthly US20Y is bullish, showing sustained rise since late 2025 (Vision Primary).\n- Weekly US20Y is bullish, indicating continued upward pressure and new highs above 5.00% (Vision Primary).\n- Daily US20Y is bearish, indicating a short-term retracement after a recent bullish move (Vision Primary).\n\n**Correlated Asset Timing:**\n- Monthly: DXY, US10Y, and US20Y all show aligned bullish displacement (Vision Primary). This aligns with the principle that DXY frames market logic across asset classes (chunk_4172).\n- Weekly: DXY is bullish while US10Y is bearish, showing divergence. DXY aligns with US20Y (bullish) (Vision Primary).\n- Daily: DXY is consolidating/slightly bearish, aligning with bearish movements in both US10Y and US20Y (Vision Primary).\n\n**Macro OB/FVG Context:**\n- DXY Monthly is trading within a large bearish OB/Price Range from Jan-Jun 2022 (Vision Primary).\n- DXY Weekly has broken above significant resistance (100.00-100.50) and is moving into a previous bearish displacement range (Vision Primary).\n- US10Y Monthly is consolidating near multi-year highs and approaching 2023 highs (Vision Primary).\n- US10Y Weekly is trading above a previous bullish OB/Price Range (Feb-Mar 2026) and moved above prior consolidation highs (Vision Primary).\n- US20Y Monthly shows strong bullish momentum near multi-year highs, approaching 2023 highs (Vision Primary).\n- US20Y Weekly made new multi-year highs above 5.00% (Vision Primary).\n- EURUSD Monthly is trading into a previous Buy-Side Imbalance/FVG and approaching a Monthly Sell-Side Liquidity (SSL) level at 1.11410 (Vision Primary, also relates to FVG analysis in chunk_1854).\n- EURUSD Weekly shows bearish displacement, trading into a weekly OB/FVG around 1.1400, with SSL at 1.11410 (Vision Primary). The concept of trading into inefficiencies like FVGs is core to the provided knowledge (chunk_4172, chunk_1350, chunk_1854)."
+    },
+    "latency": 156687.0279000001,
+    "telemetry": {
+      "promptTokens": 5794,
+      "completionTokens": 2447,
+      "totalTokens": 9054
+    }
+  },
+  "openrouter": {
+    "modelUsed": "poolside/laguna-xs.2:free",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "DXY displacement direction determines overall market risk-on/risk-off bias",
+          "chunk_id": "chunk_4172"
+        },
+        {
+          "rule": "Yield displacement indicates monetary policy trajectory and economic sentiment",
+          "chunk_id": "chunk_2622"
+        },
+        {
+          "rule": "Correlated asset timing divergence signals potential macro inflection points",
+          "chunk_id": "chunk_2570"
+        }
+      ],
+      "facts": [
+        {
+          "type": "dxy_monthly_bullish_displacement",
+          "confidence": 0.95,
+          "anchor": "June 2026 monthly candle",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "dxy_weekly_bullish_displacement",
+          "confidence": 0.9,
+          "anchor": "Weekly breakout above 100.00-100.50 resistance",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "dxy_daily_bearish_consolidation",
+          "confidence": 0.7,
+          "anchor": "Small bearish inside bar below 99.00",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "us10y_monthly_bullish_displacement",
+          "confidence": 0.9,
+          "anchor": "Sustained rise since late 2025 to multi-year highs",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "us10y_weekly_bearish_retracement",
+          "confidence": 0.75,
+          "anchor": "Slight pullback from recent highs",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "us10y_daily_bearish_retracement",
+          "confidence": 0.7,
+          "anchor": "Short-term pullback from new local highs",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "us20y_monthly_bullish_displacement",
+          "confidence": 0.9,
+          "anchor": "Strong upward displacement approaching 2023 highs",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "us20y_weekly_bullish_displacement",
+          "confidence": 0.85,
+          "anchor": "New multi-year highs above 5.00%",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "us20y_daily_bearish_retracement",
+          "confidence": 0.7,
+          "anchor": "Short-term pullback from new local highs",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "weekly_divergence_dxy_us10y",
+          "confidence": 0.65,
+          "anchor": "DXY bullish vs US10Y bearish weekly displacement",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "monthly_alignment_dxy_yields",
+          "confidence": 0.9,
+          "anchor": "All assets showing bullish monthly displacement",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "daily_alignment_dxy_us10y_us20y",
+          "confidence": 0.75,
+          "anchor": "All assets showing bearish daily displacement",
+          "timeframe": "DAILY"
+        }
+      ],
+      "references": [
+        "CHUNK_ID:chunk_2496",
+        "CHUNK_ID:chunk_4172",
+        "CHUNK_ID:chunk_1348",
+        "CHUNK_ID:chunk_2570",
+        "CHUNK_ID:chunk_1350",
+        "CHUNK_ID:chunk_2622",
+        "CHUNK_ID:chunk_1854"
+      ],
+      "confidence": 0.82,
+      "notes": "Step-by-step reasoning: 1) DXY shows strong monthly bullish displacement building since March 2026, with weekly continuation and daily consolidation. 2) US10Y shows monthly bullish trend but weekly/daily bearish retracement. 3) US20Y shows consistent monthly/weekly bullish momentum with daily pullback. 4) Weekly divergence detected between DXY bullish and US10Y bearish, while DXY aligns with US20Y weekly bullish. 5) Daily timeframe shows alignment across all three (DXY consolidating/bearish, US10Y/US20Y bearish). 6) Multiple FVG/OB contexts identified across timeframes per CHUNK_ID:chunk_1854 and CHUNK_ID:chunk_1350."
+    },
+    "latency": 9586.318100000732,
+    "telemetry": {
+      "promptTokens": 3028,
+      "completionTokens": 1556,
+      "totalTokens": 4584
+    },
+    "estimatedCost": 0.00614
+  }
+}

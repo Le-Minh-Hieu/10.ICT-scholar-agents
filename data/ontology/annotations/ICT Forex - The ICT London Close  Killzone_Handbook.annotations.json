@@ -1,0 +1,632 @@
+[
+  {
+    "chunk_id": "chunk_1267",
+    "concepts": [
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian market consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ACCUMULATION",
+          "RANGE_BOUND_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING_BASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "DAILY_RANGE_EXTREMES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low of the day is created",
+          "daily high is formed"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETS",
+          "TURNING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDNIGHT_NY_OPEN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "After midnight New York time"
+        ],
+        "narrative_roles": [
+          "DAILY_BIAS_START",
+          "MARKET_OPENING_REFERENCE"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close Killzone"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TRADING_WINDOW",
+          "REVERSAL_WINDOW"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE",
+          "10_AM_NY"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 1: USD/CAD",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1268",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "LONDON CLOSE KILLZONE",
+          "London Close"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "HIGH_PROBABILITY_SETUP_AREA"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE) setup",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SETUP_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_ANTICIPATION",
+          "SETUP_PREREQUISITE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_TRADING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "very short-term in nature",
+          "Trades typically yield 10, 15, maybe even 20 pips",
+          "Anything more than 20 pips is a rarity"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_TARGET_EXPECTATION",
+          "STRATEGY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TIMEFRAME_ANALYSIS_SPECIFICITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "five-minute"
+        ],
+        "narrative_roles": [
+          "CHART_ANALYSIS_GUIDANCE",
+          "ENTRY_CONFIRMATION_TIMEFRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON CLOSE KILLZONE PRICE ACTION AND OTE",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1269",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT London Close Killzone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "TIMING_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON_CLOSE"
+        ]
+      },
+      {
+        "canonical": "DAILY_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the day"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUNDARY",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry long"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily range"
+        ],
+        "narrative_roles": [
+          "RANGE_ANALYSIS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_AM_HIGH_LOW_FORMATION_WINDOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highs or lows generally form between 10 o'clock and noon New York time"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_TIMING",
+          "RANGE_BOUNDARY_FORMATION"
+        ],
+        "temporal_tags": [
+          "10_OCLOCK_NY",
+          "NOON_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 3: AUD/USD",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1270",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish",
+          "daily close is going to be high relative to its opening",
+          "an up-close day"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "BIAS_DETERMINATION",
+          "EXPECTED_DAILY_PROFILE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_CLOSE_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW",
+          "HIGH_PROBABILITY_SETUP_WINDOW",
+          "PROFIT_TAKING_WINDOW"
+        ],
+        "temporal_tags": [
+          "10 o'clock and noon"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_HIGH_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high of the day is formed"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "DAILY_PROFILE_CHARACTERISTIC"
+        ],
+        "temporal_tags": [
+          "10 o'clock and noon"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RULE OF THUMB FOR BULLISH DAYS",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1271",
+    "concepts": [
+      {
+        "canonical": "CONTINUATION_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "continuation points",
+          "continuation pattern"
+        ],
+        "narrative_roles": [
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "REVERSAL_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "REVERSALS"
+        ],
+        "narrative_roles": [
+          "REVERSAL"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish overall on the day",
+          "bullish markets",
+          "bullish days"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAY_REFERENCE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "DAY_REFERENCE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON CLOSE CONTINUATION POINTS AND REVERSALS",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1272",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE)",
+          "OTE",
+          "OTE long",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_CLOSE_KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "London Close"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "SESSION_SPECIFIC_SETUP"
+        ],
+        "temporal_tags": [
+          "London Close"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "5-minute basis",
+          "5-minute perspective"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXAMPLE 4: USD/JPY",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1273",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close",
+          "NEW YORK AND LONDON CLOSE OVERLAP CHARACTERISTICS"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT_POTENTIAL",
+          "PRICE_EXTREMUM_FORMATION",
+          "SESSION_OVERLAP_DYNAMICS"
+        ],
+        "temporal_tags": [
+          "10_AM_NY",
+          "NOON_NY"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSIONAL_BIAS_CONTINUATION",
+        "confidence": 1,
+        "surface_terms": [
+          "continuation of what's seen in London overnight",
+          "New York to continue moving bullishly",
+          "If London is bullish, we expect New York to continue moving bullishly",
+          "If London is bearish, we've seen London bearish, then New York bearish"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DAILY_PRICE_EXTREMUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the day"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION_AREA",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "DAY",
+          "10_AM_NY",
+          "NOON_NY"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_DIRECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "direction of the day or week",
+          "London is bullish",
+          "London is bearish",
+          "New York bearish"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAY",
+          "WEEK"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK AND LONDON CLOSE OVERLAP CHARACTERISTICS",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  },
+  {
+    "chunk_id": "chunk_1274",
+    "concepts": [
+      {
+        "canonical": "UNFAVORABLE_MARKET_CONDITIONS",
+        "confidence": 1,
+        "surface_terms": [
+          "UNFAVORABLE MARKET CONDITIONS",
+          "unfruitful using this information"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITIONS",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "Z_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'Z day,' where price goes up and down in quiet consolidation",
+          "quiet consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITIONS",
+          "SIDEWAYS_PRICE_ACTION",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEEK_AND_DESTROY_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'seek and destroy day,' which is a really wild, choppy up-and-down day where price doesn't really go anywhere until the last portion of the day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITIONS",
+          "CHOPPY_PRICE_ACTION",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs out the stops unexpectedly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "LONDON"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNFAVORABLE MARKET CONDITIONS",
+      "source_file": "ICT Forex - The ICT London Close  Killzone_Handbook.chunks.json",
+      "session": "LONDON"
+    }
+  }
+]

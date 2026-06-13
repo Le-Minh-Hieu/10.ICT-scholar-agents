@@ -1,0 +1,234 @@
+[
+  {
+    "chunk_id": "chunk_1676",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pierced today",
+          "deeper run below these lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [
+          "today"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Inversion Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "SUPPORT_RESISTANCE",
+          "CONTINUATION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher high on the Dollar Index, consequently leading to another lower low for Euro/Dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX AND EURO OUTLOOK",
+      "source_file": "ICT Mentorship 2023 - August 22, 2023 Forex & Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1677",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows were just pierced"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND",
+        "confidence": 0.9,
+        "surface_terms": [
+          "unable to break out of its current range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "TRADING_STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "FOREX MARKET CONDITIONS AND SEASONAL ADVICE",
+          "difficult conditions have been prevalent throughout the entire month of August",
+          "Avoid trading in the summer months",
+          "wait until the fall"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "RISK_MANAGEMENT",
+          "TRADING_STRATEGY_ADAPTATION",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [
+          "August",
+          "summer months",
+          "fall"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOREX MARKET CONDITIONS AND SEASONAL ADVICE",
+      "source_file": "ICT Mentorship 2023 - August 22, 2023 Forex & Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1678",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific gap",
+          "particular gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "very short-term bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity pool"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P AND NASDAQ DAILY CHART ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - August 22, 2023 Forex & Index Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1679",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "BEARISH_POI",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "LOWER_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "lower low"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ CLOSING ACTION AND FINAL REMARKS",
+      "source_file": "ICT Mentorship 2023 - August 22, 2023 Forex & Index Futures Review_Handbook.chunks.json"
+    }
+  }
+]

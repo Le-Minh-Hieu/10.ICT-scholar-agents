@@ -67,6 +67,15 @@ export async function htfStructureAgent(
       }
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT market structure observations.
+
+Focus on identifying structural shifts, block formations, and intermarket divergence:
+1. **SMT Divergence Detection**: Compare EURUSD and GBPUSD swing highs/lows. Identify if there is a bullish SMT (EURUSD Lower Low vs GBPUSD Higher Low) or bearish SMT (EURUSD Higher High vs GBPUSD Lower High) at key turning points. (STRUCTURE)
+2. **Market Structure Shifts (MSS / BOS)**: Look for clean breaks of swing highs/lows confirming displacement and trend shifts. (STRUCTURE)
+3. **Structural Blocks**: Identify prominent Breaker Blocks (BB), Mitigation Blocks (MB), or high-confidence Order Blocks (OB) on Monthly, Weekly, or Daily charts. (STRUCTURE)
+4. **Swing Highs & Lows**: Note key structural swing points currently acting as major support/resistance levels. (PRICE)
+
+Output your observations as objective bullet points. Do NOT infer directional bias or make trading recommendations.`,
     schema: htfStructureOutputSchema,
     mapOutput: (result) => {
       return {

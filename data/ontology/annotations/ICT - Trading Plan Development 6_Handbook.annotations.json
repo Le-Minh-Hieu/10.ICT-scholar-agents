@@ -1,0 +1,1209 @@
+[
+  {
+    "chunk_id": "chunk_783",
+    "concepts": [
+      {
+        "canonical": "SHORT_TERM_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SHORT-TERM TRADING DURATION",
+          "duration for this style of trading ranges from intraday (entry and exit on the same day) to as little as a few days",
+          "intraday (entry and exit on the same day)",
+          "as little as a few days",
+          "five days or less"
+        ],
+        "narrative_roles": [
+          "TRADE_CLASSIFICATION",
+          "STRATEGY_DEFINITION"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing trade",
+          "Any trade held for greater than five days is considered a swing trade",
+          "greater than five days"
+        ],
+        "narrative_roles": [
+          "TRADE_CLASSIFICATION",
+          "STRATEGY_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "average profit target",
+          "fifty to one hundred fifty pips per trade"
+        ],
+        "narrative_roles": [
+          "EXIT_CRITERIA",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT-TERM TRADING DURATION AND PROFIT TARGETS",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_784",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "PRUDENT RISK MANAGEMENT",
+          "Risk per trade is maximized at no greater than two percent.",
+          "one percent is recommended.",
+          "risking half of one percent is advised.",
+          "what is risked",
+          "how quickly risk can be removed (moving to break-even)",
+          "locking in profit.",
+          "protecting assets",
+          "controlling drawdown."
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABILITY",
+          "PROFESSIONAL_CONDUCT",
+          "LOSS_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY_AND_LEARNING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LEARNING FROM LOSSES",
+          "Learning from losses effectively means losing money slowly.",
+          "Rapid, significant losses (...) lead to emotional overwhelm, hindering objective analysis.",
+          "Objective learning occurs when losses are slow, allowing for clear identification of mistakes.",
+          "The mindset should be focused on consistently harvesting money from the market"
+        ],
+        "narrative_roles": [
+          "EMOTIONAL_CONTROL",
+          "SKILL_DEVELOPMENT",
+          "LONG_TERM_GROWTH",
+          "PERFORMANCE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRUDENT RISK MANAGEMENT AND LEARNING FROM LOSSES",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_785",
+    "concepts": [
+      {
+        "canonical": "BULLISH_MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING AND ANTICIPATING BULLISH MARKET STRUCTURE",
+          "the market structure is bullish",
+          "overall market structure remains bullish",
+          "market structure is more significant",
+          "In a bullish market environment",
+          "if the overall market structure is bullish"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "an intermediate-term high takes out a previous intermediate-term high"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "STRUCTURAL_BREAK",
+          "DIRECTIONAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market flow",
+          "bearish 'market flow'",
+          "Market flow is transient"
+        ],
+        "narrative_roles": [
+          "SECONDARY_INDICATOR",
+          "CONTEXTUAL_DIFFERENTIATION",
+          "MISINTERPRETATION_WARNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_ENTRY",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Market Maker Profile"
+        ],
+        "narrative_roles": [
+          "MARKET_FRAMEWORK",
+          "BEHAVIORAL_MODELING",
+          "TRADE_PLANNING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING AND ANTICIPATING BULLISH MARKET STRUCTURE",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_786",
+    "concepts": [
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 1,
+        "surface_terms": [
+          "break resistance and then find support on a retest",
+          "resistance levels are expected to give way to the upside but then offer support if price trades back to them",
+          "support levels are expected to break down and then become influential as resistance when price retests them"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "ENTRY_CONFIRMATION",
+          "STRUCTURAL_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The higher timeframe premise carries more weight",
+          "higher timeframe key resistance level"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "RELIABILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "higher timeframe key resistance level",
+          "monthly, weekly, daily high",
+          "big figure",
+          "confluence of factors"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "a reversal is anticipated",
+          "Following the reversal"
+        ],
+        "narrative_roles": [
+          "CHANGE_IN_DIRECTION",
+          "TRADE_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUPPORT AND RESISTANCE DYNAMICS",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_787",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish market",
+          "strength",
+          "strong bounces off of support indicate strength"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "resistance levels",
+          "resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "break through these levels",
+          "likely breakthrough"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "S/R_FLIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "After breaking, these levels are anticipated to provide support on a retest",
+          "provide support on a retest"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "MARKET_STRUCTURE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lower timeframes",
+          "higher timeframe levels",
+          "between the higher timeframe levels"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_SETUP_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRENGTH_INDICATION",
+        "confidence": 0.88,
+        "surface_terms": [
+          "Small, weak bounces off of what should be resistance indicates strength and a likely breakthrough",
+          "Very little bounce to the upside at a resistance level is a clue that the level will break down as support"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_CONFIRMATION",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DYNAMIC SUPPORT AND RESISTANCE IN A BULLISH MARKET",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_788",
+    "concepts": [
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 1,
+        "surface_terms": [
+          "Key support levels are expected to be broken. If price trades back to these broken support levels, they should then act as resistance.",
+          "resistance levels should be broken, allowing price to come back and find support.",
+          "resistance is expected to provide support more than resistance"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "LIQUIDITY_REPURPOSE",
+          "STRUCTURAL_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_KEY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe key support level"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Buy Model"
+        ],
+        "narrative_roles": [
+          "REVERSAL_STRATEGY",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_CONFIRMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "confirmation sought through price action"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_VALIDATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_TREND_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish market",
+          "overall profile is bullish"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DYNAMIC SUPPORT AND RESISTANCE IN A BEARISH MARKET",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_789",
+    "concepts": [
+      {
+        "canonical": "PSYCHOLOGICAL_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "101.50 level",
+          "mid-figure point (fifty level)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 0.8,
+        "surface_terms": [
+          "significant support"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "POTENTIAL_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Profile"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_BIAS_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AREA_OF_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "small segment of price action around this level",
+          "small box on the daily chart"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_ZONE",
+          "DETAILED_ANALYSIS_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "DAILY CHART ANALYSIS"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_OPPORTUNITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "key opportunity to get long (a 'buy')",
+          "buying scenarios",
+          "selling opportunities"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CHART ANALYSIS (101.50 LEVEL)",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_790",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money",
+          "central banks",
+          "big dealers",
+          "market movers",
+          "huge entity",
+          "dinosaur",
+          "institutions"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "MARKET_MANIPULATOR",
+          "LIQUIDITY_PROVIDER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gray box",
+          "smaller range",
+          "consolidations",
+          "accumulation range"
+        ],
+        "narrative_roles": [
+          "PHASE_IDENTIFICATION",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "accumulates positions",
+          "buys in stages",
+          "staged accumulation",
+          "allow price to return to a more favorable point (equilibrium)",
+          "optimal average price",
+          "price trading down to a higher timeframe support level",
+          "accumulating"
+        ],
+        "narrative_roles": [
+          "PHASE_IDENTIFICATION",
+          "ORDER_PLACEMENT_STRATEGY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe support level",
+          "101.50 AUD level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "absence of institutional buying",
+          "institutions sell",
+          "causes capitulation"
+        ],
+        "narrative_roles": [
+          "PHASE_IDENTIFICATION",
+          "ORDER_PLACEMENT_STRATEGY",
+          "MARKET_REACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breaks up out of this accumulation range",
+          "first indication that smart money has entered the market"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_INITIATION",
+          "PHASE_TRANSITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Profile"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE TYRANNOSAURUS REX ANALOGY",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_791",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER BUY AND SELL MODELS",
+          "buy model",
+          "Hint for the Buy Model: A consolidation, followed by a move up (but no retest of broken resistance as support due to weakness), then a move down into a higher timeframe support (101.50). This sets the tone for the market to begin its accumulation phase, and then move up."
+        ],
+        "narrative_roles": [
+          "MODEL_IDENTIFICATION",
+          "TRADE_SETUP",
+          "MARKET_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER BUY AND SELL MODELS",
+          "sell model",
+          "Hint for the Sell Model: A consolidation, followed by a move up, a pause, reaching a zenith, then breaking down with an Optimal Trade Entry, and finally sliding lower to take out the previous consolidation's low."
+        ],
+        "narrative_roles": [
+          "MODEL_IDENTIFICATION",
+          "TRADE_SETUP",
+          "MARKET_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "101.50 key support level",
+          "higher timeframe support (101.50)"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_LEVEL",
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "smart money entering the market"
+        ],
+        "narrative_roles": [
+          "FLOW_DIRECTION_INDICATION",
+          "MARKET_SENTIMENT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out the previous consolidation's low",
+          "hunt stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_MANIPULATION",
+          "CONFIRMATION_OF_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accumulation phase",
+          "re-accumulate"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_PHASE",
+          "PRE_RALLY_PHASE",
+          "CONTINUATION_PREPARATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_TO_MAKE_NEW_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "failing to go above a high"
+        ],
+        "narrative_roles": [
+          "WEAKNESS_INDICATION",
+          "REVERSAL_SIGNAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "profit taking areas"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "sixty-two percent Fibonacci level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PREDICTIVE_TOOL",
+          "TRADE_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING MARKET MAKER BUY AND SELL MODELS IN THE AUD DAILY CHART",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_792",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL MODEL",
+          "Market Maker Sell Model",
+          "bearish sell model",
+          "sell model"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_MODEL",
+          "COUNTER_TREND_TRADING_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER PROFILE",
+          "BULLISH MARKET MAKER PROFILE",
+          "larger, higher timeframe bullish Market Maker Profile",
+          "bullish Market Maker Profiles"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_BIAS",
+          "CONTEXTUAL_FRAMEWORK",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "buying at an Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "larger bullish fractal pattern",
+          "trading fractals"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PRINCIPLE",
+          "INTER_TIMEFRAME_ANALYSIS",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish market structure"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "previous consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_STATE",
+          "LIQUIDITY_POOL_FORMATION",
+          "MODEL_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL MODEL WITHIN A LARGER BULLISH MARKET MAKER PROFILE",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_793",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE BREAK",
+          "breaking market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BUY MODEL",
+          "larger profile"
+        ],
+        "narrative_roles": [
+          "ENTRY_FRAMEWORK",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "support level",
+          "higher timeframe support",
+          "new support/resistance levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'double-oh fifty' levels",
+          "big figures and mid-figures",
+          "Fibonacci pullbacks",
+          "Retracements"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "sell model"
+        ],
+        "narrative_roles": [
+          "EXIT_FRAMEWORK",
+          "RETRACEMENT_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "larger profile",
+          "higher timeframe support",
+          "higher timeframe bullish scenario",
+          "higher timeframe retracement",
+          "overall swing"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market maker profile"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE BREAK AND BUY MODEL CONTINUATION",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_794",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy model"
+        ],
+        "narrative_roles": [
+          "TRADE_SET_UP",
+          "MARKET_CYCLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Profile"
+        ],
+        "narrative_roles": [
+          "MARKET_DYNAMICS",
+          "INSTITUTIONAL_FLOW"
+        ],
+        "temporal_tags": [
+          "DAILY_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "101.50 level reacting as anticipated",
+          "reversals at support and resistance levels",
+          "initial support"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ENTRY_POINT",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [
+          "HOURLY_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "took out the previous consolidation area"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TREND_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The 'Tyrannosaurus Rex' jumped in"
+        ],
+        "narrative_roles": [
+          "MARKET_DYNAMICS",
+          "MOMENTUM_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "old accumulation range"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "ENTRY_POINT",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old accumulation range",
+          "previous consolidation area",
+          "price consolidated, stabilized"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_ZONE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AUSTRALIAN DOLLAR RECAP AND THE ROLE OF LAGGING INDICATORS",
+      "source_file": "ICT - Trading Plan Development 6_Handbook.chunks.json"
+    }
+  }
+]

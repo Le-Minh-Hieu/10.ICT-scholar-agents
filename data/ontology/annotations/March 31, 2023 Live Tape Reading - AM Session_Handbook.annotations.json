@@ -1,0 +1,797 @@
+[
+  {
+    "chunk_id": "chunk_3965",
+    "concepts": [],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MORNING GREETINGS & AUDIO CHECK",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3966",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "4104 level",
+          "4104.75",
+          "upside draw"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new day opening Gap",
+          "This gap",
+          "opening range Gap law",
+          "new week opening Gap",
+          "opening range Gap High"
+        ],
+        "narrative_roles": [
+          "PRICE_VOID",
+          "REBALANCE_POINT",
+          "SUPPORT_RESISTANCE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "5 o'clock",
+          "6 o'clock",
+          "4 o'clock New York time",
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_PRE_MARKET",
+          "NY_AM",
+          "NY_OPEN",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midpoint",
+          "consequent encouragement",
+          "consequent correction"
+        ],
+        "narrative_roles": [
+          "REBALANCE_POINT",
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "took out buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_SHIFT",
+          "PRICE_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY PRICE LEVELS AND GAPS",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3967",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "10_AM",
+          "11_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "4104.75 level",
+          "4115 to 4119.5"
+        ],
+        "narrative_roles": [
+          "FORECASTING",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.7,
+        "surface_terms": [
+          "one-sided all this week since Tuesday"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "THIS_WEEK",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY OUTLOOK & SILVER BULLET SETUP",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3968",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CURRENT MARKET STRUCTURE",
+          "swing high",
+          "another high above that one"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_IDENTIFICATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL SIDE TARGETS",
+          "attacking some measure of sell side",
+          "Near-term sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "POTENTIAL_CORRECTION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "9:30 opening price",
+          "opening range Gap High"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "KEY_LEVEL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high",
+          "another high above that one"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_COMPONENT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pressed up overnight",
+          "created another swing high above that one",
+          "another high above that one"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_FOR_REVERSAL",
+          "BUY_SIDE_LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "overnight"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Friday",
+          "one-sided"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "RISK_MANAGEMENT",
+          "PREDICTIVE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CURRENT MARKET STRUCTURE & SELL SIDE TARGETS",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3969",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side resting below that",
+          "Sell side is resting right around 102.25"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_CORRELATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gives allowance for further upside on ES, indicating a short-term risk-on scenario",
+          "problematic for continuation on the upside for ES this morning"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "big five-minute down close candle at 8:30 AM",
+          "re-entered at the 9:05 and 9:10 candles"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "9:05",
+          "9:10"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "goes below it and then rejects it"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "wash out the 102.25 level and trend towards the 102.15 to 102.10 level"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "between 10 o'clock and 11 o'clock"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "10 o'clock",
+          "11 o'clock"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY ANALYSIS & ES PRICE ACTION",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3970",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "102.25 sell side",
+          "sell side resting below 102.10"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY REASSESSMENT FOR ES DIRECTION",
+          "if we animate on the downside for the Dollar Index, that could be a little bit of an injection of strength to the upside for ES"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "ES to get to the 4104.75 level"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_IDENTIFICATION",
+          "PROFIT_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_ACTION_OBSERVATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "How we trade to it and how we trade once we trade it"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "ENTRY_CONFIRMATION",
+          "REACTION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY REASSESSMENT FOR ES DIRECTION",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3971",
+    "concepts": [
+      {
+        "canonical": "KEY_PRICE_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "KEY LEVELS",
+          "levels",
+          "All the levels that I am interested in",
+          "all the ones noted on this chart here",
+          "numerical format",
+          "order of importance",
+          "hierarchy of all these price levels"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "REFERENCE_POINTS",
+          "FRAMEWORK_DEVELOPMENT",
+          "PRE_MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINTS",
+          "MARKET_CONTEXT",
+          "DAILY_BIAS_REFERENCE",
+          "PRE_MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_BASED_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TIME",
+          "understand time",
+          "trade just off of that"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "MARKET_CONTEXT",
+          "DECISION_CRITERIA",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRE_MARKET_PLANNING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "When I start the day, I write down the opening price in relationship to the hierarchy of all these price levels.",
+          "All the levels that I am interested in, all the ones noted on this chart here, I have them in numerical format, just in the order of importance."
+        ],
+        "narrative_roles": [
+          "PLANNING",
+          "MARKET_CONTEXT_BUILDING",
+          "DISCIPLINE",
+          "ROUTINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING WITH KEY LEVELS & TIME",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3972",
+    "concepts": [
+      {
+        "canonical": "NY_PM_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "afternoon session",
+          "2:30 PM to 4:00 PM",
+          "very busy",
+          "nice price swings"
+        ],
+        "narrative_roles": [
+          "SESSION_CONTEXT",
+          "EXPECTED_VOLATILITY",
+          "TRADING_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "today",
+          "2:30 PM",
+          "4:00 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AFTERNOON SESSION OUTLOOK & PERSONAL COMMITMENTS",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3973",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "VALID_PRICE_ACTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run-on stops"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "VALID_PRICE_ACTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHALLENGING PRICE DELIVERY & PATIENCE",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3974",
+    "concepts": [],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHALLENGING PRICE DELIVERY & PATIENCE",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3975",
+    "concepts": [
+      {
+        "canonical": "MARKET_DIRECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY LOWER LOWS",
+          "the dollar is going to need to make its lower lows here; it's going to do it."
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "FORECAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "imaginary trend line, diagonal support",
+          "diagonal support"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "ENGINEERED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "I don't like that at all. When my lines look real clean like that, I don't like that.",
+          "which I don't have any faith in."
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_COGNITION",
+          "MARKET_MANIPULATION_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "spike down here and upset that smoothness that would be considered diagonal support"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_BEHAVIOR_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY LOWER LOWS & DIAGONAL SUPPORT",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3976",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET_HOUR",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet Hour",
+          "10 o'clock to 11 o'clock hour"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "TIME_WINDOW_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "10 o'clock",
+          "11 o'clock"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SILVER_BULLET_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_SETUP",
+          "PATTERN_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "10 o'clock",
+          "11 o'clock"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING THE SILVER BULLET HOUR",
+      "source_file": "March 31, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  }
+]

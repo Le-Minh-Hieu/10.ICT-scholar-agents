@@ -1,0 +1,1126 @@
+[
+  {
+    "chunk_id": "chunk_1280",
+    "concepts": [
+      {
+        "canonical": "NY_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open",
+          "7 a.m. and 9 a.m. New York time"
+        ],
+        "narrative_roles": [
+          "PREFERRED_TRADING_WINDOW",
+          "ENTRY_OPPORTUNITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "7 a.m. and 9 a.m. New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_NY_OVERLAP",
+        "confidence": 1,
+        "surface_terms": [
+          "London overlap",
+          "London overlap and New York"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_CONDITION",
+          "VOLUME_INCREASE",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SCALPING",
+        "confidence": 1,
+        "surface_terms": [
+          "small little scalps",
+          "scalps",
+          "get 20 to 30 pips",
+          "50 to 75 pips"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly objectives still coming to fruition",
+          "weekly objectives"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRIME_TRADING_WINDOW_WEEKLY",
+        "confidence": 1,
+        "surface_terms": [
+          "beginning of the week",
+          "Monday, Tuesday, and Wednesday"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TIME_FILTER",
+          "OPTIMAL_TRADING_WINDOW_WEEKLY"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIDENCE IN NEW YORK OPEN SCALPS AND LONDON OVERLAP",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1281",
+    "concepts": [
+      {
+        "canonical": "KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York Open here",
+          "between 7 o'clock and 9 o'clock in the morning"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW",
+          "HIGH_PROBABILITY_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "New York Open",
+          "7 o'clock and 9 o'clock in the morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KEY_REFERENCE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London low",
+          "initial daily high",
+          "high of the day"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "the retracement",
+          "Wait for the retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DYNAMICS",
+          "SETUP_FORMATION",
+          "LIQUIDITY_ENGINEERING_TO_ENTRY"
+        ],
+        "temporal_tags": [
+          "7 o'clock and 9 o'clock in the morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "subsequent expansion",
+          "rally"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DYNAMICS",
+          "TREND_CONTINUATION",
+          "PROFIT_TAKING_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1282",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_OPEN_KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "7 o'clock and 9 o'clock in the morning",
+          "this particular time of day",
+          "New York Open"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "HIGH_PROBABILITY_TIME",
+          "MARKET_OBSERVATION_FOCUS"
+        ],
+        "temporal_tags": [
+          "7 o'clock and 9 o'clock in the morning",
+          "Monday through Friday",
+          "every single trading day"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NEW_YORK_OPEN"
+        ]
+      },
+      {
+        "canonical": "SETUP_IDENTIFICATION",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING NEW YORK OPEN SETUPS",
+          "identifying",
+          "many examples that repeat themselves",
+          "has a setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY_FOUNDATION",
+          "PATTERN_RECOGNITION",
+          "MARKET_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "NEW_YORK_OPEN"
+        ]
+      },
+      {
+        "canonical": "DOLLAR_CROSSES",
+        "confidence": 1,
+        "surface_terms": [
+          "the dollar crosses",
+          "every pair that's crossed with the dollar",
+          "majors that are crossed with the dollar"
+        ],
+        "narrative_roles": [
+          "ASSET_SELECTION",
+          "FOCUS_PAIRS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING NEW YORK OPEN SETUPS AND THE DOLLAR CROSSES",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1283",
+    "concepts": [
+      {
+        "canonical": "REVERSAL_SCENARIO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "REVERSAL SCENARIOS"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "TRADE_OPPORTUNITY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTRUMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Eurodollar"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian session"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_INDICATION",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_MARKER",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "POTENTIAL_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BEARISH_PRICE_ACTION_SETUP",
+        "confidence": 0.88,
+        "surface_terms": [
+          "creating a high to sell short from",
+          "creating a high and it expands and goes lower"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_ACTION_CONFIRMATION",
+          "REVERSAL_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_MARKER",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "POTENTIAL_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "PULLBACK_FOR_CONTINUATION_OR_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "between 7 o'clock in the morning and 9 o'clock in the morning New York time"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "OPTIMAL_TRADE_WINDOW"
+        ],
+        "temporal_tags": [
+          "7AM_NY",
+          "9AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "setup that forms"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "offers 20 to 30 pips"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXPECTED_GAIN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVERSAL SCENARIOS AND EURODOLLAR EXAMPLE",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1284",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "The New York session",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "SESSION_ANALYSIS_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT_IMPACT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic news releases",
+          "news releases",
+          "stimulate price action"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_TRIGGER",
+          "MARKET_DRIVER",
+          "PRICE_ACTION_MODIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reversals in the marketplace"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OUTCOME",
+          "OPPORTUNITY_IDENTIFICATION",
+          "SENTIMENT_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "TREND_CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "add fuel to the fire and/or momentum"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OUTCOME",
+          "BIAS_CONFIRMATION",
+          "MOMENTUM_ACCELERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "existing daily bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONVICTION",
+          "TRADE_ALIGNMENT",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK SESSION CHARACTERISTICS AND NEWS IMPACT",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1285",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three",
+          "Power Three",
+          "open, a small little decline creating the low of the range, expansion high of the range, and comes off the high and closes",
+          "open, it trades down creating the low of the range, expands up, creates the high of the range, and comes off the high and closes"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "MARKET_STRUCTURE_MODEL",
+          "SESSIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "9 o'clock hour",
+          "2:00 p.m. in New York time",
+          "New York Open",
+          "daily candle or bar"
+        ],
+        "session_tags": [
+          "New York trading session",
+          "New York session",
+          "individual trading sessions",
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FRACTAL_NATURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "everything is fractal",
+          "fractal pattern"
+        ],
+        "narrative_roles": [
+          "MARKET_PRINCIPLE",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "NEW YORK SESSION EXTENSION",
+          "New York trading session actually extends beyond the 9 o'clock hour and it goes to 2:00 p.m. in New York time"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW_IDENTIFICATION",
+          "SESSION_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "9 o'clock hour",
+          "2:00 p.m. in New York time",
+          "New York Open"
+        ],
+        "session_tags": [
+          "New York trading session",
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK SESSION EXTENSION AND FRACTAL POWER OF THREE",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1286",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous low",
+          "previous day's lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSION_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "session low for New York"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retracement",
+          "trades back down into a retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MOVEMENT",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Sessions",
+          "New York"
+        ],
+        "narrative_roles": [
+          "TRADING_SESSION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OPTIMAL TRADE ENTRY IN NEW YORK SESSIONS",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1287",
+    "concepts": [
+      {
+        "canonical": "MARKET_SESSION_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK SESSION SCENARIOS",
+          "The New York session characteristics",
+          "The New York session"
+        ],
+        "narrative_roles": [
+          "ENVIRONMENTAL_CONTEXT",
+          "MACRO_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market reversals"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK SESSION SCENARIOS",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1288",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart is in a clear one-sided momentum",
+          "daily chart being bullish",
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_GUIDANCE",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_SESSION_BIAS_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "look with confirmation of that direction in the London price action",
+          "London agrees with the daily chart being bullish",
+          "low form in London"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONTINUATION_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PRIORITIZING CONTINUATION OF LONDON'S MOVE",
+          "continuation of the London move",
+          "continuation setup"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "MARKET_STRUCTURE_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "a retracement lower"
+        ],
+        "narrative_roles": [
+          "ENTRY_PREPARATION",
+          "PULLBACK"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry by"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_KILLZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "into New York Open",
+          "New York low"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRIORITIZING CONTINUATION OF LONDON'S MOVE",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1289",
+    "concepts": [
+      {
+        "canonical": "REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "Reversals",
+          "reversals",
+          "look for reversals"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CHANGE",
+          "ADVANCED_TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADING DAILY BIAS"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_FORECASTING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe",
+          "higher timeframe direction"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "MARKET_STRUCTURE_DETERMINATION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COUNTER_TREND_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "go contrary to the higher timeframe direction"
+        ],
+        "narrative_roles": [
+          "ADVANCED_TRADING_STRATEGY",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE COMPLEXITY OF REVERSALS AND TRADING DAILY BIAS",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1290",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias",
+          "trading in agreement with the daily bias",
+          "see the daily bias on the daily chart where that momentum is",
+          "trade in that direction",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_FILTER",
+          "TREND_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADING CONTINUATIONS WITH DAILY BIAS",
+          "trading continuations",
+          "trading continuations and trading in agreement with the daily bias"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "ENTRY_MODEL",
+          "TREND_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "retracements",
+          "deep retracements",
+          "declines or rallies to retrace"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_STATE",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "ONE_DAY",
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry sell"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "most likely expansion",
+          "most likely side of the marketplace to be on where the big moves are going to occur"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_STATE",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE ADVANTAGE OF TRADING CONTINUATIONS WITH DAILY BIAS",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1291",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias",
+          "daily is bullish",
+          "agreement with the daily",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_OPEN_KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York Open",
+          "in the New York Open"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "SESSION_START",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "7_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_SESSION_MANIPULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London to create a low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ACCUMULATION_PHASE",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRECISION_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily ranges to expand",
+          "anticipate expansion on the upside on the daily range",
+          "range expansion"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TREND_CONFIRMATION",
+          "DISTRIBUTION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Power Three",
+          "Power Three for the daily bar or daily candle"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "TREND_FORMATION",
+          "RANGE_EXPANSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING NEW YORK OPEN EXPANSION WITH DAILY BIAS",
+      "source_file": "ICT Forex - The ICT New York Killzone_Handbook.chunks.json"
+    }
+  }
+]

@@ -118,6 +118,16 @@ export async function dailyAgent(
         pushImage(parts, input.eurusd.tf2!, "Time-TF2", callId);
         pushImage(parts, input.eurusd.tf3!, "Time-TF3", callId);
       },
+      visionPrompt: `Analyze ALL attached chart images for LIVE ICT daily time-based observations.
+
+Focus on daily timing cycles and session setups:
+1. **Daily Opening Range & NDOG Timing**: Note the 00:00 NY opening range and whether the NDOG is filled or acting as magnet. (TIME)
+2. **Daily Economic Catalyst Times**: Reference high-impact news times (e.g., 8:30 AM or 10:00 AM NY) and price displacement timing. (TIME)
+3. **AM/PM Session Boundary**: Identify timing transitions between AM session expansion, lunch hour consolidation, and PM session trend. (TIME)
+4. **Daily Range Reference**: Note if current price is in premium or discount relative to the daily range. (PRICE)
+5. **H4 OB/FVG Reference**: Identify H4 order blocks or FVGs currently acting as boundaries for daily expansion. (PRICE)
+
+Output observations as bullet points. Do NOT use the phrases 'Daily Bias', 'intraday bias', or 'Daily Buy Day Bias' in observations.`,
       useGroundingVerification: false,
       mapOutput: (result) => {
         return {

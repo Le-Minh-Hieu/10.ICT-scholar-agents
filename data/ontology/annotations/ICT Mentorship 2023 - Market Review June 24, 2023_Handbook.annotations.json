@@ -1,0 +1,719 @@
+[
+  {
+    "chunk_id": "chunk_1854",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "SUPPORT",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "LAST_WEEK",
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.8,
+        "surface_terms": [
+          "rejection block",
+          "highest up-close price here"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the high"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of that wick"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1855",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE GAPS",
+          "Opening Range Gap",
+          "actual gap",
+          "where we settle at on the New York session",
+          "where we open up the following day at 9:30"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "9:30_AM_EST"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY VOIDS",
+          "Liquidity Void",
+          "a real one where there's no trading at all",
+          "Heavy Volume Imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old SIBI",
+          "SIBI",
+          "shaded area"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side we've worked all up to the upside"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_SESSION_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "9:30",
+          "ring the bell",
+          "open up the following day at 9:30"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW",
+          "MARKET_OPEN_REFERENCE"
+        ],
+        "temporal_tags": [
+          "9:30_AM_EST",
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE GAPS AND LIQUIDITY VOIDS",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1856",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE GAP (ORG)",
+          "Opening Gap",
+          "Opening Range Gap",
+          "Opening Range Gaps"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SUPPORT_LEVEL",
+          "PRICE_ACTION_REFERENCE",
+          "IMBALANCE",
+          "REVERSION_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [
+          "five days",
+          "Thursday's trading",
+          "Friday morning",
+          "9:30 opening"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "New Week Opening Gaps"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "RESISTANCE_LEVEL",
+          "LONG_TERM_REFERENCE",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [
+          "months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "New Day Opening Gaps"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "SHORT_TERM_REFERENCE",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [
+          "five days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term imbalances"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "REVERSION_POINT_CANDIDATE",
+          "MARKET_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE GAP (ORG) CHARACTERISTICS AND EXPIRATION",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1857",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG TARGET",
+          "half of the gap from the Opening Range",
+          "Opening Range Gap",
+          "All this Opening Range Gap",
+          "daily Fair Value Gap",
+          "discount Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "REBALANCING_AREA",
+          "BIAS_INDICATOR",
+          "LIQUIDITY_POOL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Opening Range",
+          "Opening Range Gap",
+          "low of the Opening Range Gap"
+        ],
+        "narrative_roles": [
+          "MARKET_OPEN_REFERENCE",
+          "LIQUIDITY_POOL_FORMATION",
+          "INITIAL_RANGE_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "traded above the short-term high",
+          "ran buy side",
+          "reach for the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "LIQUIDITY_GRAB",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "NY_MIDDAY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term high",
+          "buy side here",
+          "ran buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REPRICING",
+        "confidence": 1,
+        "surface_terms": [
+          "reprice into"
+        ],
+        "narrative_roles": [
+          "PRICE_ADJUSTMENT",
+          "EQUILIBRIUM_SEEKING",
+          "MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "target or bias that I mentioned I liked for Friday"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "MARKET_SENTIMENT"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.85,
+        "surface_terms": [
+          "half of the gap from the Opening Range",
+          "50% of that Opening Range Gap"
+        ],
+        "narrative_roles": [
+          "MITIGATION_LEVEL",
+          "TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price",
+          "where we opened",
+          "9:30 New York local time regular trading hours"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRIDAY'S PRICE ACTION AND FVG TARGET",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1858",
+    "concepts": [
+      {
+        "canonical": "NY_LUNCH_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "LUNCH SESSION (12 PM to 1:30 PM New York lunch)",
+          "12 P.M. to 1:30 P.M. New York lunch",
+          "throughout lunch"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "12_PM",
+          "13_30_PM"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame key level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "lower Fair Value Gap",
+          "FVG (Fair Value Gap)"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET",
+          "SUPPORT_RESISTANCE_REVERSAL",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "FRIDAY_MORNING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SETTLEMENT_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Opening Range Gap"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY",
+          "09_30_AM",
+          "FRIDAY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "Mean Threshold"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "shorter block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "OLD"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Inversion Application"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_REVERSAL",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "displacement array"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LUNCH SESSION (12 PM",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1859",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Order Flow"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rolls back on anyone that was short in this big gap down"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy side here",
+          "buy side above some other highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap",
+          "Opening Range Gap low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REFERENCE_POINT",
+          "REBALANCING_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REBALANCING_AREA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term premium"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_AREA",
+          "RESISTANCE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT VS. CLASSIC SUPPORT/RESISTANCE AND FINITE LEVELS",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1860",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "ES DAILY FAIR VALUE GAP"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "delivery",
+          "ES DAILY FAIR VALUE GAP DELIVERY",
+          "printed level today"
+        ],
+        "narrative_roles": [
+          "TARGET_REACHED",
+          "MITIGATION"
+        ],
+        "temporal_tags": [
+          "today"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drove down in one tick below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES DAILY FAIR VALUE GAP DELIVERY",
+      "source_file": "ICT Mentorship 2023 - Market Review June 24, 2023_Handbook.chunks.json"
+    }
+  }
+]

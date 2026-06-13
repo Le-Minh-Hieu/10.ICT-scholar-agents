@@ -1,0 +1,214 @@
+[
+  {
+    "chunk_id": "chunk_4137",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "SECONDARY OTE ENTRY OPPORTUNITY",
+          "OTE",
+          "Using this price leg's low to the price leg's high, with the retracement down, your fill would be on this",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_ENTRY",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LEVEL",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "shows expansion",
+          "The subsequent run above the relative equal highs shows expansion"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "PRICE_MOVEMENT_PHASE",
+          "POST_ENTRY_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "one-half of a standard deviation",
+          "offering more than 25 pips"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "RISK_MANAGEMENT",
+          "PRICE_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SECONDARY OTE ENTRY OPPORTUNITY",
+      "source_file": "OTE Pattern Recognition Series - Vol. 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4138",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PROFIT VS. TARGET: THE IMPORTANCE OF PAYING YOURSELF",
+          "your target being hit or profiting?",
+          "open paper profit",
+          "potential profit completely turn around",
+          "'If I just would have took something off when it was giving me X amount of pips or dollars of return?'",
+          "you always pay yourself"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "TRADER_PSYCHOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT VS. TARGET: THE IMPORTANCE OF PAYING YOURSELF",
+      "source_file": "OTE Pattern Recognition Series - Vol. 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4139",
+    "concepts": [
+      {
+        "canonical": "PARTIAL_PROFITS",
+        "confidence": 1,
+        "surface_terms": [
+          "NEGLECTING PARTIALS",
+          "take something",
+          "execute those partials at logical levels",
+          "partials"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_EXTENSION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Fibonacci, which provides logical levels"
+        ],
+        "narrative_roles": [
+          "LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE WORKWEEK ANALOGY AND CONSEQUENCES OF NEGLECTING PARTIALS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4140",
+    "concepts": [
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "strategic partial exits",
+          "take partial profits",
+          "exit some of the position"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_CONTROL",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "target",
+          "undelivered target",
+          "best-case scenario targets"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reduce exposure or risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fear and greed",
+          "tug of war"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_CONTROL",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACHIEVING PROFITABILITY THROUGH STRATEGIC PARTIAL EXITS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 15_Handbook.chunks.json"
+    }
+  }
+]

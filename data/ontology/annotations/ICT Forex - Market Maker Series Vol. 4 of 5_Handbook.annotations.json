@@ -1,0 +1,497 @@
+[
+  {
+    "chunk_id": "chunk_1201",
+    "concepts": [
+      {
+        "canonical": "ICT_CHART_TIME_STANDARD",
+        "confidence": 1,
+        "surface_terms": [
+          "set your chart to New York local time",
+          "Daily dividers are placed at midnight New York time"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONSISTENT_VIEW"
+        ],
+        "temporal_tags": [
+          "New York local time",
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "WEEKLY_RANGE_PROFILING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Each day represents approximately one-fifth of the weekly range",
+          "For a bullish weekly range, there is a 70% chance that the low of the week is going to form on Monday"
+        ],
+        "narrative_roles": [
+          "WEEKLY_BIAS_CONFIRMATION",
+          "LOW_OF_WEEK_PREDICTION",
+          "MARKET_PROFILING"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "opposing stop losses are typically taken out",
+          "swing lows to get traded below",
+          "Short term low trades below it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART SETUP AND WEEKLY RANGE EXPECTATION",
+      "source_file": "ICT Forex - Market Maker Series Vol. 4 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1202",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Each day of this week was predominantly bullish until we get to Friday",
+          "open high low close perspective of the week",
+          "low of the week on Monday",
+          "short-term high of the week",
+          "opposite end of the weekly range",
+          "weekly range expectation"
+        ],
+        "narrative_roles": [
+          "BIAS_TRADING",
+          "MACRO_CONTEXT",
+          "TRADING_PLANNING",
+          "EXPECTATIONAL_MODEL"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "opening price each day at midnight (New York time)",
+          "opening price",
+          "below the opening price",
+          "below the open"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ANCHOR_POINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "midnight (New York time)",
+          "each day"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buying opportunity on Tuesday",
+          "buying opportunity on Wednesday",
+          "buying on Monday, Tuesday",
+          "buy on Wednesday in the New York session",
+          "Price trades below the opening price and rallies up",
+          "Price opens and trades down through London, then rallies higher on the day",
+          "trades down below the open, followed by a whipsaw below the low, then trades higher"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "LIQUIDITY_SEEKING",
+          "BIAS_CONFIRMATION",
+          "RETRACEMENT_ENTRY"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "whipsaw below the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY",
+          "MACRO_CONTEXT",
+          "LIQUIDITY_GENERATOR"
+        ],
+        "temporal_tags": [
+          "FOMC"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Do not incorporate the opening price on Thursday and Friday for buying influence",
+          "These days tend to create the opposite end of the weekly range",
+          "Try not to be looking to be a buyer on Thursday or Friday",
+          "protects you by avoiding buying into a market move that has already been moving"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_STRATEGY",
+          "TRADING_PLANNING",
+          "PROFIT_TAKING_PHASE",
+          "DISTRIBUTION_PHASE"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY CHARACTERISTICS AND TRADING THE OPEN",
+      "source_file": "ICT Forex - Market Maker Series Vol. 4 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1203",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweeping below a short term low",
+          "market whips down, knocking out traders who would have already trailed their stop loss right below that low",
+          "It gets tagged"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "FOMC Wednesday",
+          "2:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "original consolidation for the buy stops",
+          "buy stops",
+          "short term low",
+          "stop loss right below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY ACCUMULATION",
+          "offered a buying opportunity",
+          "smart money accumulates longs on Monday",
+          "smart money accumulates longs on Tuesday",
+          "smart money accumulates longs on Wednesday"
+        ],
+        "narrative_roles": [
+          "ACCUMULATION",
+          "ENTRY_PHASE",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SMART_MONEY_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "profit taking model kicked in",
+          "distribute their longs on Thursday and Friday"
+        ],
+        "narrative_roles": [
+          "DISTRIBUTION",
+          "EXIT_PHASE",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price at midnight in New York time"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "REFERENCE_POINT",
+          "DAILY_OPEN"
+        ],
+        "temporal_tags": [
+          "midnight in New York time"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC Wednesday"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "FUNDAMENTAL_CATALYST",
+          "NEWS_EVENT"
+        ],
+        "temporal_tags": [
+          "FOMC Wednesday",
+          "2:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "IMPULSIVE_MOVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rallying",
+          "runs aggressively higher"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "TREND_CONFIRMATION",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "target for the weekly range",
+          "trading above the original consolidation"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "MARKET_BIAS",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [
+          "weekly range"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY CHART BREAKDOWN AND SMART MONEY ACCUMULATION",
+      "source_file": "ICT Forex - Market Maker Series Vol. 4 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1204",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "kill zones",
+          "kill zone windows"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "HIGH_PROBABILITY_SETUP_WINDOW",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "a short term low is traded below, and then price takes off"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_IS_CRUCIAL",
+        "confidence": 1,
+        "surface_terms": [
+          "THE CRUCIAL ROLE OF TIME",
+          "The element of time",
+          "The element of time and price is crucial",
+          "The element of time is the first crucial factor to reading price"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "PRIMARY_FILTER",
+          "BIAS_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_OF_WEEK_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "day of the week",
+          "Monday creates the low of the week",
+          "Tuesday creates a buying opportunity",
+          "New York on Wednesday offers a nice buying"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "ENTRY_OPPORTUNITY_IDENTIFICATION",
+          "WEEKLY_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "low of the week"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "DEAD_TIME",
+        "confidence": 1,
+        "surface_terms": [
+          "'dead time'",
+          "quiet little period, often consolidation"
+        ],
+        "narrative_roles": [
+          "AVOID_TRADING",
+          "CONTEXTUAL_ANALYSIS",
+          "LOW_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "if we're bullish",
+          "buying opportunity",
+          "nice buying"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_ALIGNMENT",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "AVOID_TRADING",
+          "RISK_MANAGEMENT",
+          "VOLATILITY_WARNING",
+          "STUDY_FROM_SIDELINES"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CRUCIAL ROLE OF TIME AND KILL ZONES",
+      "source_file": "ICT Forex - Market Maker Series Vol. 4 of 5_Handbook.chunks.json"
+    }
+  }
+]

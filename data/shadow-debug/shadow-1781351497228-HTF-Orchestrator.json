@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-06-13T11:51:37.228Z",
+  "agentType": "HTF-Orchestrator",
+  "currentCallId": "HTF-Orchestrator-1781351453158-23",
+  "prompt": "## ROLE\nYou are an HTF Orchestrator.\n\n## TASK\nDetermine:\n1. HTF bias (bullish or bearish)\n2. Next candle bias (bullish or bearish)\n\n## GROUNDED KNOWLEDGE\nNo grounded knowledge provided.\n\n## INPUT CONTEXT\n{\n  \"structure\": {\n    \"agent\": \"HTF-Structure-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.95,\n    \"continuation_confidence\": 0.95,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"aligned\",\n    \"internal_conflict\": false,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [\n      \"EURUSD LL at 1.1410 (early June 2024) vs GBPUSD HL at ~1.3200 (early June 2024)\",\n      \"EURUSD Monthly BOS above 1.1214 EQC and 1.1849 BS2 (late 2022)\",\n      \"EURUSD Weekly MSS below 1.1708 BS3 and 1.1655 (after 1.2083 BS1 high)\",\n      \"EURUSD Daily BOS below 1.1620 EQC, leading to 1.1410 SS1\",\n      \"GBPUSD Monthly BOS above multi-year swing highs (late 2022)\",\n      \"GBPUSD Weekly BOS above 1.3100 and 1.3400 swing highs\",\n      \"GBPUSD Daily BOS below ~1.3400 swing lows\",\n      \"EURUSD Monthly OB at 1.0000-1.0500 range (late 2022)\"\n    ],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_2444\",\n      \"chunk_4234\",\n      \"chunk_2815\",\n      \"chunk_2106\",\n      \"chunk_4206\",\n      \"chunk_4019\",\n      \"chunk_1580\",\n      \"chunk_2441\"\n    ],\n    \"reasoning_summary\": \"Extracted all SMT Divergence, Market Structure Shifts (BOS/MSS), Structural Blocks (Order Blocks), Swing Highs/Lows, Equilibrium Prices, Fair Value Gaps, and Liquidity Sweeps directly from the 'LIVE MARKET OBSERVATIONS' and visual confirmation on the provided charts. Breaker Blocks were not clearly identifiable on the visible HTF charts and were not explicitly detailed in the 'LIVE MARKET OBSERVATIONS' for these time...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"facts\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T11:50:53.092Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"macro\": {\n    \"agent\": \"HTF-Macro-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.9,\n    \"continuation_confidence\": 0.9,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"aligned\",\n    \"internal_conflict\": false,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [\n      \"current monthly candle\",\n      \"current weekly candle\",\n      \"recent daily candles\",\n      \"US10Y current monthly candle\",\n      \"US10Y current weekly candle\",\n      \"US10Y recent daily candles\",\n      \"US20Y current monthly candle\",\n      \"US20Y current weekly candle\"\n    ],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_1854\",\n      \"chunk_1048\",\n      \"chunk_429\",\n      \"chunk_3870\",\n      \"chunk_734\",\n      \"chunk_215\",\n      \"chunk_2496\",\n      \"chunk_3447\"\n    ],\n    \"reasoning_summary\": \"Step-by-step reasoning for macro fact extraction:\\n1.  Analyzed DXY charts across Monthly, Weekly, and Daily timeframes to observe displacement. All showed clear bullish displacement as described in the 'LIVE MARKET OBSERVATIONS'.\\n2.  Analyzed US10Y and US20Y charts across Monthly, Weekly, and Daily timeframes to observe displacement. All showed clear bullish displacement in yields as described in the 'LIVE MARKET OBS...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"facts\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T11:48:41.228Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"liquidity\": {\n    \"agent\": \"HTF-Liquidity-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"unknown\",\n    \"confidence\": 0.9,\n    \"continuation_confidence\": 0.9,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"aligned\",\n    \"internal_conflict\": false,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": true,\n      \"below\": true,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": null,\n      \"equilibrium\": null,\n      \"range_high\": null,\n      \"range_low\": null\n    },\n    \"key_anchors\": [],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_4194\",\n      \"chunk_1741\",\n      \"chunk_215\",\n      \"chunk_4260\",\n      \"chunk_3153\",\n      \"chunk_2001\",\n      \"chunk_1823\",\n      \"chunk_345\"\n    ],\n    \"reasoning_summary\": \"1. **Extract Principles**: \\n   - Principle 1: Liquidity rests above old highs (BSL) and below old lows (SSL) (CHUNK_ID:chunk_4194).\\n   - Principle 2: The market algorithm prioritizes inefficiencies (FVG/Liquidity Voids) before seeking liquidity (CHUNK_ID:chunk_4194, CHUNK_ID:chunk_3153).\\n\\n2. **Apply to Chart**: \\n   - Current price is approximately 1.15786 (based on the Daily chart's last displayed high).\\n   - **HTF B...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"liquidity\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T11:49:31.285Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"pd_array\": {\n    \"agent\": \"HTF-PDArray-Agent\",\n    \"directional_bias\": \"unknown\",\n    \"probabilistic_state\": \"premium\",\n    \"confidence\": 0.9,\n    \"continuation_confidence\": 0.9,\n    \"retracement_risk\": \"moderate\",\n    \"execution_risk\": \"normal\",\n    \"macro_alignment\": \"partial\",\n    \"internal_conflict\": true,\n    \"ambiguity_level\": \"low\",\n    \"setup_type\": null,\n    \"trigger_state\": null,\n    \"liquidity_context\": {\n      \"above\": null,\n      \"below\": null,\n      \"target_count\": 0,\n      \"sweep_count\": 0\n    },\n    \"pd_context\": {\n      \"zone\": \"premium\",\n      \"equilibrium\": 1.12142,\n      \"range_high\": 1.20831,\n      \"range_low\": 1.01779\n    },\n    \"key_anchors\": [],\n    \"dominant_factors\": [],\n    \"evidence_refs\": [\n      \"chunk_1539\",\n      \"chunk_2850\",\n      \"chunk_2909\",\n      \"chunk_3531\",\n      \"chunk_2777\",\n      \"chunk_524\",\n      \"chunk_2904\",\n      \"chunk_3177\"\n    ],\n    \"reasoning_summary\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles**: We established two core principles from the grounded knowledge. First, that HTF charts (Monthly/Weekly) provide crucial context for defining dealing ranges and PD Arrays (referenced from CHUNK_ID:chunk_2850). Second, that price analysis should be algorithmic, referring to the PD Array Matrix to determine if price is in the premium or d...\",\n    \"derived_from\": [\n      \"confidence\",\n      \"reasoning\",\n      \"pd_array_status\",\n      \"equilibrium\",\n      \"range_high\",\n      \"range_low\"\n    ],\n    \"metadata\": {\n      \"timestamp\": \"2026-06-13T11:48:44.435Z\",\n      \"freshness\": \"CURRENT\"\n    }\n  },\n  \"weekly_profile\": {\n    \"week_type\": \"MULTI_THEME\",\n    \"macro_bias\": \"bearish\",\n    \"narrative_confidence\": 0.6232000000000001,\n    \"regime\": {\n      \"volatility\": \"HIGH\",\n      \"liquidity\": \"STABLE\",\n      \"macro_alignment\": \"BEARISH\"\n    },\n    \"macro_ire\": {\n      \"avg_uncertainty\": 0.6,\n      \"avg_volatility\": 0.9,\n      \"execution_risk\": \"HIGH\",\n      \"liquidity_condition\": \"UNSTABLE\",\n      \"confidence_modifier\": -0.6\n    },\n    \"active_events\": []\n  }\n}\n\n## CONSTRAINTS\n- You MUST ONLY use the provided input\n- You MUST NOT introduce new concepts or external knowledge\n- You MUST NOT assume anything outside the input\n- You MUST resolve conflicts explicitly\n- Every conclusion MUST be supported by evidence from input\n- The following fields are required: htf_bias, next_candle_bias, confidence, dominant_factors, reasoning\n- You are NOT a rule executor.\n- You must follow this reasoning framework:\n1. **Form Primary Bias:** Use a combined reading of the `structure` and `macro` agent outputs to establish a primary directional bias. `structure` provides the foundational market direction, while `macro` provides the broader economic context.\n2. **Confirm with Liquidity:** Use the `liquidity` agent's output to confirm or question the primary bias. If the identified liquidity targets (the draw on liquidity) align with the primary bias, confidence increases. If they oppose the primary bias, this is a significant conflict that must be explained in the `reasoning` and should lower the `confidence` score.\n3. **Use PD Array for Context:** Use the `pd_array` agent's output to understand the current price location. Is price in a premium or discount zone? This provides context for the potential moves identified in the other steps.\n- Respond by calling the \"generateHTFOutput\" tool with the exact JSON structure required.\n\n## OUTPUT FORMAT",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 11:51:19 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"htf_bias\": \"bearish\",\n  \"next_candle_bias\": \"bearish\",\n  \"confidence\": 0.8,\n  \"dominant_factors\": [\n    \"Macro agent indicates clear bullish displacement in DXY and US yields, implying bearish for EURUSD/GBPUSD.\",\n    \"Weekly Profile explicitly states a 'bearish' macro bias and 'BEARISH' macro alignment.\",\n    \"Structure agent shows recent bearish shifts on Weekly (MSS) and Daily (BOS below) timeframes for EURUSD/GBPUSD, and EURUSD made a Lower Low.\",\n    \"Price is currently in a 'premium' zone according to the PD Array, making a move lower towards equilibrium or discount logical under a bearish bias.\"\n  ],\n  \"reasoning\": \"1. **Form Primary Bias (HTF Bias):** The `macro` agent's reasoning identifies clear bullish displacement in DXY, US10Y, and US20Y, which strongly implies a bearish bias for USD-denominated pairs like EURUSD and GBPUSD. This is further corroborated by the `weekly_profile` explicitly stating a 'bearish' macro bias and 'BEARISH' macro alignment. The `structure` agent, while presenting conflicting higher timeframe (Monthly BOS bullish) and lower timeframe (Weekly MSS and Daily BOS below for EURUSD/GBPUSD) signals, shows recent bearish shifts that align with the broader macro outlook (e.g., EURUSD LL at 1.1410, Weekly MSS below 1.1708, Daily BOS below 1.1620). Combining these factors, the primary HTF bias is determined to be **bearish**.\\n\\n2. **Confirm with Liquidity:** The `liquidity` agent identifies HTF Sell Side Liquidity (SSL) targets below the current approximate price of 1.15786, specifically mentioning 1.1410 (EURUSD LL) and 1.1214 (EURUSD Monthly EQC). These existing SSL targets are consistent with a bearish HTF bias, suggesting potential draws on liquidity to the downside. The `liquidity` agent's output does not present conflicting information with the established bearish primary bias.\\n\\n3. **Use PD Array for Context:** The `pd_array` agent places the current price in a 'premium' zone (current price ~1.15786, equilibrium 1.12142, range high 1.20831). For a bearish HTF bias, price moving lower from a premium zone to seek equilibrium or a discount is a logical and expected price action. Although the `pd_array` agent notes an 'internal_conflict: true' and 'macro_alignment: partial', the current location in premium still supports the expectation for a move lower in line with the bearish bias.\\n\\n**Conclusion for Next Candle Bias:** Given the strongly established bearish HTF bias, the presence of Sell Side Liquidity targets below the current price, and the current positioning of price within a premium zone, the most probable direction for the next HTF candle is **bearish**. This is in line with the overall bearish market flow seeking lower prices to discount or equilibrium. However, the 'moderate' retracement risk across agents, coupled with the 'HIGH' execution risk and 'UNSTABLE' liquidity conditions noted in the `weekly_profile`, suggests that while the directional bias is bearish, the price action may be volatile or include temporary retracements.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -2.243346356331034
+        }
+      ],
+      "createTime": "2026-06-13T11:50:55.757184Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "H0QtasCbLs2MqMgPm9GquQk",
+      "usageMetadata": {
+        "promptTokenCount": 2991,
+        "candidatesTokenCount": 752,
+        "totalTokenCount": 8099,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2991
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 752
+          }
+        ],
+        "thoughtsTokenCount": 4356
+      }
+    },
+    "parsed": {
+      "htf_bias": "bearish",
+      "next_candle_bias": "bearish",
+      "confidence": 0.8,
+      "dominant_factors": [
+        "Macro agent indicates clear bullish displacement in DXY and US yields, implying bearish for EURUSD/GBPUSD.",
+        "Weekly Profile explicitly states a 'bearish' macro bias and 'BEARISH' macro alignment.",
+        "Structure agent shows recent bearish shifts on Weekly (MSS) and Daily (BOS below) timeframes for EURUSD/GBPUSD, and EURUSD made a Lower Low.",
+        "Price is currently in a 'premium' zone according to the PD Array, making a move lower towards equilibrium or discount logical under a bearish bias."
+      ],
+      "reasoning": "1. **Form Primary Bias (HTF Bias):** The `macro` agent's reasoning identifies clear bullish displacement in DXY, US10Y, and US20Y, which strongly implies a bearish bias for USD-denominated pairs like EURUSD and GBPUSD. This is further corroborated by the `weekly_profile` explicitly stating a 'bearish' macro bias and 'BEARISH' macro alignment. The `structure` agent, while presenting conflicting higher timeframe (Monthly BOS bullish) and lower timeframe (Weekly MSS and Daily BOS below for EURUSD/GBPUSD) signals, shows recent bearish shifts that align with the broader macro outlook (e.g., EURUSD LL at 1.1410, Weekly MSS below 1.1708, Daily BOS below 1.1620). Combining these factors, the primary HTF bias is determined to be **bearish**.\n\n2. **Confirm with Liquidity:** The `liquidity` agent identifies HTF Sell Side Liquidity (SSL) targets below the current approximate price of 1.15786, specifically mentioning 1.1410 (EURUSD LL) and 1.1214 (EURUSD Monthly EQC). These existing SSL targets are consistent with a bearish HTF bias, suggesting potential draws on liquidity to the downside. The `liquidity` agent's output does not present conflicting information with the established bearish primary bias.\n\n3. **Use PD Array for Context:** The `pd_array` agent places the current price in a 'premium' zone (current price ~1.15786, equilibrium 1.12142, range high 1.20831). For a bearish HTF bias, price moving lower from a premium zone to seek equilibrium or a discount is a logical and expected price action. Although the `pd_array` agent notes an 'internal_conflict: true' and 'macro_alignment: partial', the current location in premium still supports the expectation for a move lower in line with the bearish bias.\n\n**Conclusion for Next Candle Bias:** Given the strongly established bearish HTF bias, the presence of Sell Side Liquidity targets below the current price, and the current positioning of price within a premium zone, the most probable direction for the next HTF candle is **bearish**. This is in line with the overall bearish market flow seeking lower prices to discount or equilibrium. However, the 'moderate' retracement risk across agents, coupled with the 'HIGH' execution risk and 'UNSTABLE' liquidity conditions noted in the `weekly_profile`, suggests that while the directional bias is bearish, the price action may be volatile or include temporary retracements."
+    },
+    "latency": 44068.24220000021,
+    "telemetry": {
+      "promptTokens": 2991,
+      "completionTokens": 752,
+      "totalTokens": 8099
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openai/gpt-oss-120b",
+    "success": true,
+    "parsed": {
+      "htf_bias": "bullish",
+      "next_candle_bias": "bearish",
+      "confidence": 0.7,
+      "dominant_factors": [
+        "Macro agent indicates bullish displacement in DXY and US10Y/US20Y yields",
+        "Structure agent extracted multiple BOS/MSS and swing points, though directional bias unknown, confidence high (0.95)",
+        "PD Array places price in premium zone (above equilibrium 1.12142)",
+        "Liquidity agent shows liquidity targets both above and below current price"
+      ],
+      "reasoning": "1. **Form Primary Bias:** The Structure agent, while not labeling a directional bias, provides high confidence (0.95) evidence of recent market structure shifts (BOS, swing lows) that align with the Macro agent's clear bullish displacement observed in DXY and US10Y/US20Y yields. Combining these, the primary high‑timeframe bias is interpreted as bullish. 2. **Confirm with Liquidity:** The Liquidity agent reports liquidity present both above and below the price (above:true, below:true). This does not reinforce the bullish bias; instead it signals that both supply and demand pools are available, introducing uncertainty and slightly lowering confidence. 3. **Use PD Array for Context:** The PD‑Array agent places price in a premium zone (price ~1.15786 above the equilibrium of 1.12142). Premium positioning typically suggests upward pressure has been exhausted and a short‑term pull‑back is plausible. 4. **Resolve Conflicts:** The weekly_profile indicates a bearish macro bias, but the framework prioritises the Macro and Structure agents for primary bias. The conflict is noted but does not overturn the bullish HTF bias; it contributes to a moderate confidence level (0.7). 5. **Next Candle Bias:** Given the premium price location and balanced liquidity, the most likely short‑term move is a corrective bearish candle, even though the overall HTF trend remains bullish. This yields a bearish next‑candle bias.",
+      "structure_state": null,
+      "macro_state": null,
+      "liquidity_state": null,
+      "pd_array_state": null,
+      "_debug": null,
+      "_raw": null
+    },
+    "latency": 11682.870899999514,
+    "telemetry": {
+      "promptTokens": 2707,
+      "completionTokens": 1110,
+      "totalTokens": 3817
+    },
+    "estimatedCost": 0.004926999999999999
+  }
+}

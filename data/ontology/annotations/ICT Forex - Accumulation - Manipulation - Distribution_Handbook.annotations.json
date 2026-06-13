@@ -1,0 +1,640 @@
+[
+  {
+    "chunk_id": "chunk_1095",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Power of Three"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE ICT POWER OF THREE AND CHARTING PREFERENCES",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1096",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 1,
+        "surface_terms": [
+          "ENGINEERING SHORT LIQUIDITY",
+          "engineer short liquidity",
+          "This engineering forces liquidity into the market",
+          "engineers willing parties to sell short",
+          "flooding the market with counterparties to smart money"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GENERATION",
+          "PRE_TREND_SETUP",
+          "MANIPULATION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaks quickly below an old low",
+          "initial drop down below the opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT",
+          "ENTRY_TRIGGER_FOR_SMART_MONEY",
+          "SELL_SIDE_LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "immediately after the opening price"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION_CYCLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "manipulation cycle"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING_PHASE"
+        ],
+        "temporal_tags": [
+          "immediately after the opening price"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "traders view this as a breakout entry and sell short on a stop",
+          "sideline traders, causing them to sell short",
+          "willing parties to sell short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "OPPONENT_TO_SMART_MONEY_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "smart money, who want to buy at a deep discount",
+          "counterparties to smart money"
+        ],
+        "narrative_roles": [
+          "TRADE_INITIATION",
+          "LIQUIDITY_CONSUMPTION",
+          "OPPORTUNISTIC_BUYING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stops on a dime, reverses, and goes north"
+        ],
+        "narrative_roles": [
+          "POST_LIQUIDITY_GRAB_ACTION",
+          "TREND_START",
+          "DIRECTIONAL_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "opening price",
+          "below the opening price",
+          "drop down below the opening price"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "MANIPULATION_ANCHOR"
+        ],
+        "temporal_tags": [
+          "opening price"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENGINEERING SHORT LIQUIDITY",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1097",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEUTRALIZING LONG LIQUIDITY",
+          "individuals who are already long or recently bought near the opening price have their positions upset by the drop below the opening price",
+          "Their stop-losses are run",
+          "knock them out",
+          "running short-term lows",
+          "takes out long holders with their sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "DECEPTION",
+          "TRAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEUTRALIZING LONG LIQUIDITY",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1098",
+    "concepts": [
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Manipulation",
+          "manipulation cycle"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_CYCLE_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pair orders",
+          "pairing these sell stops",
+          "A run below the opening"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "EXPLOITATION_OF_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops (from long holders and breakout shorts)"
+        ],
+        "narrative_roles": [
+          "TARGET_FOR_MANIPULATION",
+          "FUEL_FOR_SMART_MONEY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accumulate long positions"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "SMART_MONEY_ENTRY_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market makers"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_ENGINEER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "smart money buying interest"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "BENEFICIARY_OF_MANIPULATION",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER ORDER PAIRING (BULLISH SUMMARY)",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1099",
+    "concepts": [
+      {
+        "canonical": "OPEN_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening price"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_ELEMENT",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CLOSE_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "Closing price"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_ELEMENT",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "daily range",
+          "that time interval"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Range expansion cycle",
+          "dynamic price imbalance between the opening and closing price"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "MARKET_MOVEMENT_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_PRICE_ACTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "bearish context",
+          "down close",
+          "bearish closed candle"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CORE REFERENCE POINTS",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1100",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 1,
+        "surface_terms": [
+          "ENGINEERING LONG LIQUIDITY",
+          "engineering long liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "TRAP_LIQUIDITY",
+          "LIQUIDITY_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "manipulation",
+          "form of manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DECEPTION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "quick, sudden movement higher",
+          "entice breakout artists who want to buy",
+          "placed on the wrong side of the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP",
+          "TRAP_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENGINEERING LONG LIQUIDITY",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1101",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "neutralizing short liquidity",
+          "buy stops tripped",
+          "buy stop is triggered",
+          "selling to those willing buy stops",
+          "buy stops are being paired with short interest from smart money"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart money",
+          "smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER",
+          "INSTITUTIONAL_PARTICIPANT",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "manipulation",
+          "Another form of manipulation",
+          "Manipulation, in its true sense"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER PAIRING",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1102",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ACCUMULATION"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_BUILDUP",
+          "ORDER_GATHERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "decline"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_MOVE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ACCUMULATION",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1103",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BEARISH ACCUMULATION",
+          "accumulation",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MANIPULATION",
+          "manipulation phase",
+          "The market is driving higher"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "double top",
+          "buy stops would reside there",
+          "levels for buy stops",
+          "equal high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "TARGET_FOR_SMART_MONEY",
+          "POI_FOR_LIQUIDITY_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "market will want to probe through those levels for buy stops",
+          "Once those buy stops trigger"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION_FOR_SMART_MONEY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_MENTALITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Lesser-informed traders",
+          "Breakout artists",
+          "buying that on a break",
+          "trying to buy strength",
+          "Both are incorrect",
+          "individuals who want to buy at a high price"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "LIQUIDITY_SUPPLY",
+          "FOLLY_OF_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "smart money short sellers",
+          "making a profit as the market eventually moves lower"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "LIQUIDITY_DEMAND",
+          "PROFIT_TAKING",
+          "CONTRARIAN_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pair traders to buy at a high price",
+          "smart money short sellers sell short to those individuals who want to buy at a high price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_PAIRING",
+          "SMART_MONEY_EXECUTION",
+          "MARKET_MANIPULATION_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ACCUMULATION AND MANIPULATION",
+      "source_file": "ICT Forex - Accumulation - Manipulation - Distribution_Handbook.chunks.json"
+    }
+  }
+]

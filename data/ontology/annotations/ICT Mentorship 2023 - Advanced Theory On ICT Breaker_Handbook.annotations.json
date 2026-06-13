@@ -1,0 +1,2943 @@
+[
+  {
+    "chunk_id": "chunk_1564",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency is observed between a specific candle's low and another candle's high",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "RETRACEMENT_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIME_FRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX WEEKLY CHART ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1565",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rejection block",
+          "the close of a particular candle"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "DIRECTIONAL_BIAS_CONFIRMATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "trades above that",
+          "resume going higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TREND_FOLLOWING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "a specific low",
+          "liquidity below that low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out a specific low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "in the middle of a range",
+          "indecision",
+          "not a clear one-sided bias"
+        ],
+        "narrative_roles": [
+          "WAIT_AND_SEE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX WEEKLY CHART",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1566",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly inefficiency",
+          "gap by the algorithm",
+          "sell-side inefficiency",
+          "seven-balance sell-side inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_ANOMALY",
+          "PRICE_ATTRACTION",
+          "REBALANCE_POINT",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "consequent encroachment of a specific wick",
+          "consequent encroachment of its premium"
+        ],
+        "narrative_roles": [
+          "PRICE_INTERACTION_POINT",
+          "FILL_LEVEL",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium",
+          "discount"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CONTEXT",
+          "PRICE_MANIPULATION_ZONE",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opposite of the Dollar Index"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR WEEKLY CHART ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1567",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "EURO DOLLAR 15-MINUTE BREAKER",
+          "high-low-higher-high breaker",
+          "high down to the low, then up to the higher high"
+        ],
+        "narrative_roles": [
+          "PRICE_PATTERN_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_PATTERN",
+          "PATTERN_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_DISTORTION",
+        "confidence": 1,
+        "surface_terms": [
+          "'time distortion'"
+        ],
+        "narrative_roles": [
+          "VALIDITY_CRITERIA",
+          "PATTERN_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down-closed candle",
+          "'sweet spot'"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "POTENTIAL_ENTRY_ZONE",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_INTERVAL",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute chart",
+          "15-MINUTE"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 15-MINUTE BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1568",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small inefficiency",
+          "this inefficiency"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "MITIGATION_POINT",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_WEEK",
+          "CURRENT_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "taking out the short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FUEL_FOR_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_PRICE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "drawing into the This area",
+          "remain a factor"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "CURRENT_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P WEEKLY CHART",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1569",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiencies",
+          "inefficiencies of the marketplace"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PRICE_MAGNET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_RETRACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "buy-side liquidity",
+          "resting above highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PROFIT_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1570",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "take out the current high",
+          "discovery of buy-side liquidity",
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Weekly Volume Imbalance"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_PERCENTAGE_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "This range would be graded with 25%, 50%, and 75% levels",
+          "treating each as a target"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL",
+          "TARGET",
+          "RANGE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency becomes an Inversion Fair Value Gap (IFVG)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "CONTINUATION_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gravitate towards the Weekly Volume Imbalance",
+          "treating each as a target",
+          "Price only reached as far as the buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "PRICE_LEVEL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1571",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "lower fair value gap",
+          "fair value gap",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "REVERSAL_POINT",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expands higher",
+          "displacement to the upside"
+        ],
+        "narrative_roles": [
+          "IMPULSIVE_MOVE",
+          "MARKET_STRUCTURE_SHIFT_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "takes out a short-term high"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_CHANGE",
+          "ENTRY_CONFIRMATION_PRECURSOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "bullish breaker",
+          "preferred high for a bullish breaker",
+          "high for a bullish breaker",
+          "high between a specific low and another low",
+          "last up-close candle within a low-high-lower-low sequence",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "MARKET_REVERSAL_POINT",
+          "PRICE_ACTION_REFERENCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P LOWER TIMEFRAME",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1572",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "E-MINI S&P INVERSION FVG",
+          "specific fair value gap",
+          "the high of a specific fair value gap",
+          "this level"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "CONTINUATION_POINT",
+          "STEPPING_STONE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_FOR_PRICE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "an old high",
+          "that old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaches for buy-side liquidity above an old high",
+          "further injection of higher prices"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P INVERSION FVG AS A STEPPING STONE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1573",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "cluster of order flow",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCE",
+          "RETRACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sixth sister concept",
+          "ES is drawn higher in sympathy",
+          "upside leadership delivered by NASDAQ"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P EXECUTION AND SYMPATHY TRADING",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1574",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "ES makes a low and a lower low, while NASDAQ shows a divergence by not making a lower low"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accumulation"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_MARKET_CONDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIXTH_SISTER_APPROACH",
+        "confidence": 1,
+        "surface_terms": [
+          "'sixth sister approach'",
+          "If NASDAQ hadn't already established its dominance, one might trade NASDAQ. However, given NASDAQ's prolonged upside, the 'sixth sister approach' suggests ES will trade higher, perhaps with a more reliable strength, as NASDAQ has already delivered its upside."
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "TRADE_STRATEGY",
+          "RELATIVE_STRENGTH_WEAKNESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1575",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE"
+        ],
+        "narrative_roles": [
+          "DIVERGENCE_SIGNAL",
+          "INTERMARKET_ANALYSIS",
+          "TRADE_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low in ES being taken out",
+          "stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "'turtle soup' entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "COUNTER_TREND_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sympathy play on ES"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION",
+          "CONFLUENCE_FACTOR",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "high end of the FVG (red level)",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "REBALANCING_AREA",
+          "SUPPORT_RESISTANCE",
+          "PRICE_MAGNET",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount entry area"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "OPTIMAL_TRADE_ENTRY",
+          "VALUE_AREA_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1576",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "SMT (cracking correlation)"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low-lower low in ES (a stop run below those lows)",
+          "running out highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "turtle soup entries",
+          "buying sell stops"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1577",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "Relative strength then shows up in ES, with a higher low while NASDAQ forms a lower low"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "turtle soup patterns",
+          "false breakouts",
+          "a run on sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows for sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1578",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "June 16, 2023 high",
+          "reaching high up into the June 16, 2023 high",
+          "reaching into buy"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "June 16, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly volume imbalance",
+          "blue shaded area",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ATTRACTION",
+          "ALGORITHMIC_DELIVERY_TARGET",
+          "MACRO_DRIVERS"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion FVG"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_FLIP",
+          "PRICE_REACTION_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gravitating towards",
+          "large magnet for the algorithm"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVERS",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET FINALE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1579",
+    "concepts": [
+      {
+        "canonical": "BIAS_CONFIRMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Confirming bias",
+          "confirms its direction"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "lower timeframe order flow trades",
+          "institutional order flow entry drills"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [
+          "10-11 AM",
+          "2-3"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buying sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LIQUIDITY_SEEKING",
+          "LIQUIDITY_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion FVG"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "POINT_OF_INTEREST",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "entry model",
+          "entry drills"
+        ],
+        "narrative_roles": [
+          "ENTRY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY AND CONFIRMATION POINTS",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1580",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "divergences",
+          "SMT",
+          "discrepancy"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "ORDER_FLOW_READING",
+          "QUALIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "desire to go higher",
+          "market anticipated to be bullish",
+          "bullish bias",
+          "bullish bias on ES long-standing"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "weeks/months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "target area",
+          "draw into it"
+        ],
+        "narrative_roles": [
+          "PRICE_OBJECTIVE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "weeks/months",
+          "upcoming week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1581",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop run on sell-side liquidity",
+          "price drops into it, and then goes higher"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATOR",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET",
+          "ORDER_BLOCK_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side",
+          "4487.50 is identified as buy-side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_PRICE_RUN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_MACRO_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "11:50-12:10 macro"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_ACTION_WINDOW",
+          "LIQUIDITY_ENGINEERING_TIME",
+          "HIGH_PROBABILITY_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "11:50",
+          "12:10"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_LUNCH_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lunch hours"
+        ],
+        "narrative_roles": [
+          "PERIOD_OF_CONSOLIDATION",
+          "RETRACEMENT_PERIOD"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "1-minute chart",
+          "5-minute"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT",
+          "RESOLUTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES 1-MINUTE MACRO",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1582",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "June 16, 2023 high",
+          "reaching for the June 16th high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "June 16, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy model"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "ENTRY_PATTERN"
+        ],
+        "temporal_tags": [
+          "11:50-12:10"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "TARGET",
+          "REPRICING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 1,
+        "surface_terms": [
+          "lunch run on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_HUNT",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe bullish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES 1-MINUTE MACRO",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1583",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side",
+          "buy-side liquidity",
+          "liquidity (buy stops)",
+          "large fund liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_LIQUIDITY",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "June 16, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out buy-side",
+          "rip up, take out buy-side, and work lower",
+          "reprice against buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe bullish buy program"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "shaded blue weekly volume imbalance",
+          "higher timeframe inefficiency"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_MAGNET",
+          "TARGET"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The algorithm runs against these positions",
+          "the algorithm to reprice"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "EXECUTION_MECHANISM",
+          "LIQUIDITY_ENGINEERING_AGENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES 1-MINUTE MACRO",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1584",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PROFIT_TAKING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES TRADE EXECUTION STRATEGY",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1585",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH BREAKER"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "LIQUIDITY_EXPLOITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REPRICING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "subsequent repricing lower"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL_IDENTIFICATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "where is liquidity"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market predisposed to go lower",
+          "bear market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SCALING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "additional entries",
+          "pyramiding new short positions"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD (Premium/Discount) arrays"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUAL_INDICATOR",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1586",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH BREAKER",
+          "breaker PD array",
+          "This pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "LIQUIDITY_ENGINEERING",
+          "EXPLOITATION_OF_RETAIL_TRADERS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trader's stop loss is hit",
+          "price runs in their favor after the stop out",
+          "attacking the ill-informed or retail trader",
+          "buying a breakout above a short-term high, only for price to go to a higher timeframe buy-side liquidity where the actual reversal occurs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_MANIPULATION",
+          "TRADER_TRAP",
+          "REVERSAL_INITIATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SMART_MONEY_DISTRIBUTION_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_TRAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ill-informed or retail trader",
+          "looks for continuations",
+          "uses trend-following models",
+          "get trapped buying a breakout above a short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "VICTIM_OF_MANIPULATION",
+          "INCORRECT_MARKET_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "understanding liquidity and market narrative"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1587",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH BREAKER",
+          "the breaker"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term buy-side liquidity",
+          "higher timeframe buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POINT",
+          "STRUCTURAL_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Price will then want to reach into a higher timeframe buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRIVE",
+          "ANTICIPATORY_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs away from that level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market 'for traction'",
+          "manipulation",
+          "price leg from A to B"
+        ],
+        "narrative_roles": [
+          "INDUCEMENT",
+          "LIQUIDITY_CREATION",
+          "TRAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1588",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ADVANCED BEARISH BREAKER",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SEEKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "get liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish bias",
+          "expecting lower prices"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_CONFIRMATION",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramiding"
+        ],
+        "narrative_roles": [
+          "POSITION_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "SCALING_IN",
+          "TRADE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_DISTORTION_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "time distortion"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_PERSPECTIVE",
+          "NOISE_REDUCTION",
+          "MACRO_VIEW_FILTERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED BEARISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1589",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker pattern",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_PATTERN",
+          "ENTRY_CONFIRMATION",
+          "RE_ENTRY",
+          "PYRAMIDING_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEG",
+        "confidence": 0.85,
+        "surface_terms": [
+          "A to B price leg",
+          "price leg running lower"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_REFERENCE",
+          "CONTEXTUAL_FRAMEWORK",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASUREMENT_TOOL_FIBONACCI_SD",
+        "confidence": 0.9,
+        "surface_terms": [
+          "measure the high down to the low with Fibonacci",
+          "one standard deviation lower"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "TARGET_PROJECTION",
+          "ENTRY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_MODEL_2022",
+        "confidence": 0.95,
+        "surface_terms": [
+          "2022 model"
+        ],
+        "narrative_roles": [
+          "TRADING_FRAMEWORK",
+          "STRATEGY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramid"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "POSITION_SCALING",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_BIAS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "selling short throughout the entire range",
+          "if one is on side (bearish)"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION",
+          "STRATEGY_APPLICATION",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AMPLIFICATION OF BREAKER PATTERN",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1590",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER",
+          "A bullish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "CONTINUATION_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY",
+          "ANY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "two levels of sell-side liquidity",
+          "much more significant or higher timeframe sell-side liquidity",
+          "two pools of liquidity engaged",
+          "lower drawn liquidity",
+          "more liquidity below",
+          "'juicier' pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOLS",
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "HIGHER_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "anticipating lower drawn liquidity",
+          "price goes close to it and starts to rally"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_BEHAVIOR",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "subsequent rally engineers more liquidity below"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_BEHAVIOR",
+          "LIQUIDITY_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1591",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH BREAKER",
+          "breaker pattern",
+          "low-high-lower-low sequence forms a breaker",
+          "run from the low to high for standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PATTERN",
+          "ENTRY_PATTERN",
+          "SUPPORT_RESISTANCE",
+          "CONTINUATION",
+          "PATTERN_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "JULY_2ND_2023"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ALIGNMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe market direction",
+          "higher timeframe buy model",
+          "larger higher timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ALIGNMENT",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard deviations"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "ALIGNMENT_CONFIRMATION",
+          "MEASUREMENT_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_SELECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "5-minute chart"
+        ],
+        "narrative_roles": [
+          "CHART_CONTEXT",
+          "OBSERVATION_TIMEFRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1592",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CURRENT WEEK'S ES BREAKER APPLICATION",
+          "breaker entry",
+          "classic breaker entry",
+          "buying inside the price leg before the high is broken and price retraces to support"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "run on liquidity",
+          "traders get stopped out",
+          "stops out those traders",
+          "stop run has already occurred below that low",
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low-high-lower-low (A to B leg)",
+          "market's likely direction is understood"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "an imbalance is created"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CURRENT WEEK'S ES BREAKER APPLICATION (5-MINUTE)",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1593",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ES BREAKER APPLICATION",
+          "breaker",
+          "return back into the breaker",
+          "A specific down-closed candle disrupting the price run (within that range) would be used for buying, as a return back into the breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ICT's Fibonacci tool",
+          "standard deviations",
+          "standard deviation of negative one",
+          "projecting one standard"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "RANGE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "measured move",
+          "the range from low to high is projected higher, making it a measured move"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "RANGE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES BREAKER APPLICATION",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1594",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "LIQUIDITY_POOL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "When price goes above it",
+          "reaching up to go lower"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "BREAKER_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "BIAS_CONFIRMATION",
+          "ENTRY_QUALIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "retrace lower",
+          "Friday retracement logic"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT LANGUAGE",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1595",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ES BREAKER",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_IDENTIFICATION",
+          "TARGETING_CRITERIA",
+          "REVERSAL_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TGIF_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "'TGIF trade'",
+          "Thank God It's Friday",
+          "TGIF trader"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "PULLBACK_TRADING",
+          "RANGE_TRADING",
+          "END_OF_WEEK_STRATEGY"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BOUNDARY",
+          "TARGETING_CRITERIA",
+          "RANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PULLBACK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pullback"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "REVERSAL_CRITERIA",
+          "RANGE_RETURN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "its liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGETING_CRITERIA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_ORIGIN_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "high that doesn't break above 4496.50 but trades exactly to it",
+          "high of candle at 4496.50"
+        ],
+        "narrative_roles": [
+          "BREAKER_FORMATION_IDENTIFIER",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1596",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BREAKER FINE-TUNING",
+          "the breaker",
+          "upper portion of the breaker",
+          "last down-closed candle within the breaker"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "ENTRY_MODEL",
+          "PRICE_REACTION_ZONE",
+          "LIQUIDITY_REPURPOSE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "This candle acts as an order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PRICE_ACTION_ORIGIN_MARKER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last up-close candle prior to the lower run"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SELL_ENTRY",
+          "FINE_TUNING_ENTRY_POINT",
+          "BREAKER_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK_CONTEXT_FROM_CONTRADICTORY_CANDLE",
+        "confidence": 0.5,
+        "surface_terms": [
+          "last up-close candle",
+          "a trader can be a buyer anywhere within that area"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "POTENTIAL_BUY_ENTRY",
+          "DISCREPANT_CANDLE_TYPE_INSTRUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FINE_TUNING",
+        "confidence": 1,
+        "surface_terms": [
+          "FINE-TUNING",
+          "fine-tuning entry"
+        ],
+        "narrative_roles": [
+          "PRECISION_ENTRY_OPTIMIZATION",
+          "REFINEMENT_OF_POI"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "change in the state of delivery"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ORDER_FLOW_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "one-minute chart"
+        ],
+        "narrative_roles": [
+          "SCALPING_CONTEXT",
+          "LOWER_TIME_FRAME_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER FINE-TUNING",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1597",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT BREAKER",
+          "Breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "SETUP_PATTERN",
+          "ENTRY_ZONE",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "50% (mean threshold)",
+          "midpoint or mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_LEVEL",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL",
+          "ACCUMULATION_DISTRIBUTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CRITERIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "long entry",
+          "allow price to be utilized here for a long entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADING_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SPREAD_CONSIDERATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "to account for spread",
+          "perfectly allowing for the spread"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ENTRY_CRITERIA_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "smart money to go long"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly volume imbalance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "HIGHER_TIMEFRAME_BIAS",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT BREAKER",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1598",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "old high of 4493.75 (June 16, 2023 high)",
+          "that liquidity",
+          "liquidity above the 4493.75 high"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "June 16, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "standard deviations (3, 4, 5, 6, 7.5)",
+          "confirm price targets",
+          "negative 6.5 standard deviation"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET_CONFIRMATION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFLUENCE OF STANDARD DEVIATIONS AND LIQUIDITY RANGES",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1599",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_PRICING",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC PRICING",
+          "algorithms price commodities, index futures, and forex",
+          "The algorithm reprices"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_DELIVERY",
+          "TEMPORAL_ALIGNMENT_DEPENDENT"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "existing liquidity",
+          "dynamic levels pull price to them"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_MAGNET",
+          "ALGORITHMIC_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "roll back on the stops resting above relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "STOP_HUNT",
+          "PRICE_CORRECTION"
+        ],
+        "temporal_tags": [
+          "NY_LUNCH"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC PRICING",
+      "source_file": "ICT Mentorship 2023 - Advanced Theory On ICT Breaker_Handbook.chunks.json"
+    }
+  }
+]

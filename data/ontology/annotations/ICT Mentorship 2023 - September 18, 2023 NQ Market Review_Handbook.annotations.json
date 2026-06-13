@@ -1,0 +1,515 @@
+[
+  {
+    "chunk_id": "chunk_1979",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation day"
+        ],
+        "narrative_roles": [
+          "RANGE_BOUND_MARKET_STATE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking both sides of the range",
+          "returning to the middle"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "UNCERTAIN_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY MARKET REVIEW AND TRADING RESULTS",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1980",
+    "concepts": [
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "30-minute chart",
+          "one-minute chart"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TECHNIQUE",
+          "CONTEXT_SETTING",
+          "DETAIL_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "important announcement",
+          "scheduled for Wednesday afternoon at 2 p.m."
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY_DRIVER",
+          "TRADING_PLAN_ADJUSTMENT",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "Wednesday afternoon",
+          "2 p.m."
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "MARKET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "movements between ES and NASDAQ",
+          "typically move in concert",
+          "Not as precise or symmetrical movements",
+          "lack of symmetry",
+          "Symmetrical market conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_HEALTH_INDICATOR",
+          "TRADING_CONDITIONS_ASSESSMENT",
+          "RISK_MANAGEMENT_CONSIDERATION",
+          "TRADING_PLAN_ADJUSTMENT"
+        ],
+        "temporal_tags": [
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRANSITION TO ONE-MINUTE CHART AND UPCOMING MARKET VOLATILITY",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1981",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RISK MANAGEMENT AND FICKLE MARKET CONDITIONS",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1982",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_REVERSAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STOP-LOSS AS ENTRY FOR LONG POSITION",
+          "reversal strategy was implemented",
+          "The initial stop-loss level, where an exit would normally occur, was used as an entry point to go long",
+          "'buying momentum' in the opposite direction",
+          "this specific maneuver",
+          "expects either a significant run-over or a pronounced move in the opposite direction",
+          "An initial loss of 1,700 was immediately mitigated by this reversal"
+        ],
+        "narrative_roles": [
+          "LOSS_MITIGATION",
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT_ACTION",
+          "COUNTER_TREND_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "aggressive move against the initial short position",
+          "absolutely offside",
+          "significant run-over"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_CONTEXT",
+          "PRICE_DELIVERY_ALGORITHM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP-LOSS AS ENTRY FOR LONG POSITION",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1983",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side imbalance/sell side efficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCEMENT",
+          "REACTION_LEVEL",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REACTION_LEVEL",
+          "OPTIMAL_ENTRY_ZONE",
+          "REFINEMENT_LEVEL",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "'discount'"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "VALUE_AREA_FOR_BUYING",
+          "TRADE_OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY PROFIT AND SUBSEQUENT TRADING OPPORTUNITIES",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1984",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "significant shift in Market structure",
+          "shift in Market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs",
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "taking buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_RUN",
+          "PRE_REVERSAL_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCE_POINT",
+          "ENTRY_POINT",
+          "MAGNET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "2022 TRADING MODEL",
+          "2022 Trading Model"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FRAMEWORK",
+          "SETUP_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE SHIFT AND 2022 TRADING MODEL APPLICATION",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1985",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in Market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SETUP_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SETUP",
+          "RE_ENTRY_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "profit-taking",
+          "partial profit"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "POTENTIAL_REVERSAL_POINT",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT POSITION MANAGEMENT AND PROFIT TAKING",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1986",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "30-minute fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE"
+        ],
+        "temporal_tags": [
+          "into the close",
+          "4 p.m."
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-TRADE OBSERVATIONS AND AFTERNOON MARKET ACTIVITY",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1987",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "RISK_ADVISORY",
+          "UNCERTAINTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNCERTAIN_PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'fickle' price action",
+          "uncertainty"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_DESCRIPTION",
+          "RISK_ADVISORY",
+          "AVOID_TRADING_ADVICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rate announcement"
+        ],
+        "narrative_roles": [
+          "MARKET_DISRUPTION_SOURCE",
+          "RISK_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAVORABLE_MARKET_CONDITIONS",
+        "confidence": 0.75,
+        "surface_terms": [
+          "Cleaner price action"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MARKET_BEHAVIOR",
+          "TRADE_OPPORTUNITY_INDICATION"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_SYMMETRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "symmetry"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MARKET_BEHAVIOR",
+          "TRADE_OPPORTUNITY_INDICATION"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FUTURE MARKET OUTLOOK AND RISK ADVISORY",
+      "source_file": "ICT Mentorship 2023 - September 18, 2023 NQ Market Review_Handbook.chunks.json"
+    }
+  }
+]

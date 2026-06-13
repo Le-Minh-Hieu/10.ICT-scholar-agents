@@ -1,0 +1,1563 @@
+[
+  {
+    "chunk_id": "chunk_1946",
+    "concepts": [
+      {
+        "canonical": "BELLWETHER_TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "15-minute timeframe serves as the 'Bellwether chart'",
+          "'Bellwether chart'",
+          "15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "PRIMARY_ANALYSIS_TIMEFRAME",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "buy side liquidity above short-term highs or relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "STOP_LOSS_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFIER",
+          "ENGINEERED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity",
+          "sell side liquidity below single lows or relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "STOP_LOSS_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SINGLE_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "single lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFIER",
+          "ENGINEERED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 15-MINUTE BELLWETHER CHART AND INITIAL OBSERVATIONS",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1947",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "single up-close candle"
+        ],
+        "narrative_roles": [
+          "IDENTIFYING_PD_ARRAY",
+          "PREMIUM_ARRAY",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new day opening gap",
+          "NDOG"
+        ],
+        "narrative_roles": [
+          "IDENTIFYING_PD_ARRAY",
+          "PRICE_REFERENCE_POINT",
+          "REBALANCING_POINT",
+          "PRECISION_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING KEY PD ARRAYS ON THE 15-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1948",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price goes above a short-term high",
+          "buy side liquidity would be targeted"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "mean threshold",
+          "mean threshold of an up-close candle",
+          "half of the inefficiency"
+        ],
+        "narrative_roles": [
+          "REACTION_LEVEL",
+          "RETRACEMENT_LEVEL",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON SESSION EXPECTATIONS AND MEAN THRESHOLD DEFINITION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1949",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "five-minute fair value gap",
+          "15-minute inefficiency",
+          "half of a gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "TARGET_LEVEL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "five-minute",
+          "15-minute"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "in a premium",
+          "discount inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "inside a breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ORDER_BLOCK_DERIVATIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEEPER DIVE INTO DISCOUNT INEFFICIENCIES AND PRICE EXPECTATIONS",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1950",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "THE 5-MINUTE BREAKER"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ALGORITHMIC PRICE DELIVERY FUNDAMENTALS",
+          "algorithmically delivered",
+          "100% controlled",
+          "patterns repeat daily",
+          "not driven by buying and selling pressure"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM_EXPLANATION",
+          "PREDICTIVE_FRAMEWORK",
+          "CORE_BELIEF"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_INFLUENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Manual intervention by large entities",
+          "influence price",
+          "underlying risk in trading",
+          "unexpected and cannot be predicted"
+        ],
+        "narrative_roles": [
+          "RISK_FACTOR",
+          "MODEL_EXCEPTION",
+          "UNPREDICTABLE_EVENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 5-MINUTE BREAKER AND ALGORITHMIC PRICE DELIVERY FUNDAMENTALS",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1951",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "SILVER BULLET"
+        ],
+        "narrative_roles": [
+          "TRADING_MODEL",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "INEFFICIENCY IDENTIFICATION"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session"
+        ],
+        "narrative_roles": [
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "3 AM price run"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "INITIATION_EVENT"
+        ],
+        "temporal_tags": [
+          "3 AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side resting liquidity below"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "REVERSAL_PATTERN",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_POINTS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high",
+          "low",
+          "higher high"
+        ],
+        "narrative_roles": [
+          "PATTERN_DEFINITION",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "BISI",
+          "buy side imbalance, sell side inefficiency"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION",
+          "PRICE_ACTION_ANALYSIS",
+          "LIQUIDITY_VOID",
+          "PRICE_REVERSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "sell side imbalance, buy side inefficiency"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION",
+          "PRICE_ACTION_ANALYSIS",
+          "LIQUIDITY_VOID",
+          "PRICE_REVERSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REVERSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "anticipating price to move back through that inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "INEFFICIENCY_FILLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SILVER BULLET TARGETS AND INEFFICIENCY IDENTIFICATION (BISI/SIBI)",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1952",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PREDETERMINED MARKET BEHAVIOR",
+          "Market behavior is predetermined",
+          "price action is algorithmically controlled"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_MARKET_MECHANISM",
+          "PREDICTABILITY_FRAMEWORK",
+          "PRICE_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANUAL_INTERVENTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MANUAL INTERVENTION",
+          "unpredictable events",
+          "true underlying risk"
+        ],
+        "narrative_roles": [
+          "RISK_FACTOR",
+          "DISRUPTION_EVENT",
+          "EXCEPTION_TO_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "highest origination of price",
+          "Traditional 'market makers' at banks are actually 'dealers' working within aggregate price feeds, not creating price"
+        ],
+        "narrative_roles": [
+          "PRICE_ORIGINATION",
+          "INSTITUTIONAL_PERSPECTIVE",
+          "MARKET_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREDETERMINED MARKET BEHAVIOR VS. MANUAL INTERVENTION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1953",
+    "concepts": [
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PERSONAL RESPONSIBILITY",
+          "MENTAL FRAMEWORK",
+          "wrestling with one's own algorithm"
+        ],
+        "narrative_roles": [
+          "TRADER_DEVELOPMENT",
+          "BEHAVIORAL_CONTROL",
+          "PERFORMANCE_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "avoid prematurely predicting price action",
+          "forecasting before setups are present",
+          "maintained without constant tinkering"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION_DISCIPLINE",
+          "RISK_MITIGATION_BEHAVIORAL",
+          "CONSISTENCY_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFITABILITY_GOAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "profitability",
+          "consistent profitability"
+        ],
+        "narrative_roles": [
+          "TRADER_OBJECTIVE",
+          "PERFORMANCE_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "setups are present"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONDITION",
+          "WAIT_FOR_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONAL RESPONSIBILITY, MENTAL FRAMEWORK, AND PROFITABILITY",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1954",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "upper portion of a fair value gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_IDENTIFICATION",
+          "BIAS_CONFIRMATION_CRITERIA",
+          "BIAS_INVALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "balanced price range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_QUALIFIER",
+          "SIGNIFICANCE_AMPLIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Arrays",
+          "multiple PD Arrays"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "CONFLUENCE_BUILDING",
+          "NARRATIVE_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS_VALIDATION_INVALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INEFFICIENCY VALIDATION",
+          "should remain open",
+          "If price trades up into the upper portions and fills it, it negates the strong bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "BIAS_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INEFFICIENCY VALIDATION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1955",
+    "concepts": [
+      {
+        "canonical": "PRICE_SPOOLING",
+        "confidence": 1,
+        "surface_terms": [
+          "'Price spooling'",
+          "directional movement where price runs consistently in one direction",
+          "Upward spooling",
+          "Downward spooling"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity",
+          "buy side liquidity",
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_POOL",
+          "ATTRACTION_POINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "FAIR_VALUE_GAP_FILL",
+          "ORDER_BLOCK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side delivery",
+          "sell side delivery"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MODEL",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "consolidation",
+          "back-and-forth price action",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILD_UP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE SPOOLING",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1956",
+    "concepts": [
+      {
+        "canonical": "PREMISE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premise",
+          "bullish premise",
+          "PREMISE VALIDATION"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "DIRECTIONAL_BIAS",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "key level"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "SUPPORT_RESISTANCE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "reject it",
+          "reject it, rather than moving lower"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "SUPPORT_RESISTANCE_TEST",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BALANCED_PRICE_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "balanced price range",
+          "Messy, back-and-forth price action",
+          "prolonged consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "CONSOLIDATION_PHASE",
+          "INEFFICIENT_PRICE_DELIVERY",
+          "PRE_EXPANSION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AGGRESSIVE_RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Sharp, aggressive retracements",
+          "single run"
+        ],
+        "narrative_roles": [
+          "EFFICIENT_PRICE_DELIVERY",
+          "PULLBACK_FOR_CONTINUATION",
+          "MARKET_CONDITION_ASSESSMENT",
+          "IDEAL_PRICE_ACTION_CHARACTERISTIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREMISE VALIDATION AND PRICE ACTION CLARITY",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1957",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW DAY OPENING GAP",
+          "NDOG",
+          "'new day opening gap'"
+        ],
+        "narrative_roles": [
+          "DEFINITION",
+          "INITIAL_PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [
+          "new day",
+          "5 PM New York close",
+          "6 PM session reopen"
+        ],
+        "session_tags": [
+          "New York"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW DAY OPENING GAP (NDOG) AND INITIAL 1-MINUTE PRICE ACTION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1958",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK_MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute bearish order block mean threshold"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "POTENTIAL_REVERSAL_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [
+          "3 AM"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "algorithmic precision",
+          "algorithmic delivery",
+          "algorithmic control",
+          "'how price books'"
+        ],
+        "narrative_roles": [
+          "MARKET_UNDERSTANDING",
+          "EDGE_IDENTIFICATION",
+          "PREDICTABILITY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC PRECISION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1959",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side delivery",
+          "declining market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "up-close candle that forms acts as a bearish order block",
+          "bearish order block",
+          "up-close candles"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "ENTRY_AREA",
+          "SMART_MONEY_ACTION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount fair value gaps"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side liquidity below lows"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IFVG"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "ENTRY_AREA",
+          "SMART_MONEY_ACTION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UP-CLOSE CANDLES AS BEARISH ORDER BLOCKS IN SELL-SIDE DELIVERY",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1960",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new day opening gap",
+          "NDOG"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_ANCHOR",
+          "CONTEXTUAL_RANGE"
+        ],
+        "temporal_tags": [
+          "DAILY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium side"
+        ],
+        "narrative_roles": [
+          "REJECTION_ZONE",
+          "BEARISH_ORDER_FLOW_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midpoint",
+          "halfway point"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_LEVEL",
+          "PRICE_THRESHOLD",
+          "EQUILIBRIUM_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PREMIUM REJECTION",
+          "rejected",
+          "premium side of the NDOG should be rejected"
+        ],
+        "narrative_roles": [
+          "BEARISH_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "ORDER_FLOW_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "the algorithm is intent on moving price lower",
+          "algorithmic behaviors"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_BIAS",
+          "INSTITUTIONAL_ORDER_FLOW",
+          "PRICE_PROGRAMMING_EVIDENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFIRMATION_TRIGGER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price breaks below the NDOG's halfway point"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION_CONFIRMATION",
+          "BIAS_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NDOG AND PREMIUM REJECTION FOR BEARISH CONFIRMATION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1961",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS PLACEMENT",
+          "stop loss should be placed above the highest candle's high"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RESPONSIBLE LEVERAGE",
+          "risk is too high",
+          "use less leverage",
+          "least amount of leverage",
+          "Risk management and respecting risk are critical"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "DISCIPLINE",
+          "POSITION_SIZING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS PLACEMENT AND RESPONSIBLE LEVERAGE IN VOLATILE MARKETS",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1962",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "MULTI-TIMEFRAME VIEW",
+          "lower timeframes (e.g., 30-second)",
+          "higher timeframes (1-minute, 5 minute)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "UNDERSTANDING_MACRO_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "overall order flow"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_DYNAMICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "up-close candles should act as resistance"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "CONFIRMATION_OF_BIAS",
+          "LIQUIDITY_INTERACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "the algorithm uses to accumulate new shorts"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_OF_RETAIL_CONCEPTS",
+        "confidence": 1,
+        "surface_terms": [
+          "Other trading concepts (supply/demand, trend lines, chart patterns) are dismissed as irrelevant to how price actually moves."
+        ],
+        "narrative_roles": [
+          "ICT_METHODOLOGY_VALIDATION",
+          "DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GEOPOLITICAL CONTEXT, MULTI-TIMEFRAME VIEW, AND DISPELLING TRADING",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1963",
+    "concepts": [
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "sell side imbalance, buy side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_FORMATION",
+          "PRICE_DELIVERY_MECHANISM",
+          "DIRECTIONAL_BIAS_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPEN_INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "upper portion to remain open",
+          "not fully repriced/overlapped by upward movement",
+          "inefficiencies stay open"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "measuring gaps"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "PRICE_PROJECTION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeting sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIBI, OPEN INEFFICIENCIES, AND MEASURING GAPS FOR CONTINUATION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1964",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CHALLENGE OF EXITS AND STRIVING FOR PERFECTION",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1965",
+    "concepts": [
+      {
+        "canonical": "INEFFICIENCY_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "INEFFICIENCY MANAGEMENT"
+        ],
+        "narrative_roles": [
+          "STRATEGY_OVERVIEW",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish inefficiency",
+          "upper end of a bearish inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_POINT",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "target sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "immediately and aggressively reject that level and move lower",
+          "aggressive rejection"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "ORDER_FLOW_CONFIRMATION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidates or meanders in that area"
+        ],
+        "narrative_roles": [
+          "WARNING_SIGN",
+          "TRADE_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trade should be collapsed (exited)",
+          "proactive management",
+          "maintaining control"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INEFFICIENCY MANAGEMENT",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1966",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish inefficiency",
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "PRICE_MAGNET",
+          "CONTINUATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_INTERNAL_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "upper half",
+          "25% or 50% level of the SIBI",
+          "higher portions (e.g., above 50%)"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_VALIDATION",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSONAL RESPONSIBILITY AND INEFFICIENCY QUADRANT LEVELS",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1967",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "algorithmic mechanics"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "THEORETICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "3-4 AM London Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "3-4 AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PARADIGM SHIFT, TRADE MANAGEMENT, AND THE IMPORTANCE OF CHART WORK",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1968",
+    "concepts": [
+      {
+        "canonical": "IMPLIED_DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "IMPLIED DEALING RANGE",
+          "implied dealing range",
+          "high (premium)",
+          "low (discount)",
+          "equilibrium (50%) level"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_DEFINITION",
+          "PRICE_TARGET_IDENTIFICATION",
+          "TRADE_SETUP_IDENTIFICATION",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPLIED DEALING RANGE",
+      "source_file": "ICT Mentorship 2023 - September 12, 2023 NQ Algorithmic Price Delivery_Handbook.chunks.json"
+    }
+  }
+]

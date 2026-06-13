@@ -1,0 +1,544 @@
+[
+  {
+    "chunk_id": "chunk_1004",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell-Side Market Maker Profile",
+          "Market Maker Profiles",
+          "Buy Model",
+          "Sell Model",
+          "Market Maker Sell Model"
+        ],
+        "narrative_roles": [
+          "MODEL_DEFINITION",
+          "SETUP_IDENTIFICATION",
+          "CLASSIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "seeking liquidity",
+          "level of liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PATTERN_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side delivery",
+          "portion of the model or profile that goes lower",
+          "sell-side expansion",
+          "bearish condition",
+          "move lower"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "MODEL_COMPONENT",
+          "MARKET_STATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MODEL STAGE, SETUP, AND PATTERN DEFINITION",
+      "source_file": "ICT Charter Price Action Model 7 - Universal Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1005",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_DISTRIBUTION_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Weekly Liquidity Distribution Profile",
+          "liquidity distribution profile"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "MARKET_MODEL",
+          "ORDER_FLOW_MATCHING"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money Reversal",
+          "SMR"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION_AREA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "last point of reaccumulation of Longs",
+          "second reaccumulation on the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_ANCHOR",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Sell Model",
+          "Market Maker Sell Profile"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "BIAS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side",
+          "buy-side delivery"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell side",
+          "sell-side delivery"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY LIQUIDITY DISTRIBUTION PROFILE AND SMART MONEY REVERSAL",
+      "source_file": "ICT Charter Price Action Model 7 - Universal Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1006",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Market Maker Sell Profile",
+          "Sell-Side Model",
+          "expecting price to go up to eventually go down"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "second reaccumulation of the buy side",
+          "new reaccumulation",
+          "price accumulate",
+          "first initial reaccumulation of Longs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTEXTUAL_FRAMEWORK",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BREAKING THE SECOND REACCUMULATION",
+          "second reaccumulation of the buy side... is broken on the right side of the curve",
+          "breaks down and trades below the second reaccumulation of the buy side of the curve on a Sell-Side Model"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL",
+          "LIQUIDITY_EXHAUSTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "fair value"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATOR",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "old sell stops below that swing low",
+          "Those sell stops will get run out",
+          "Once those sell stops are run out",
+          "knock out the Longs that were rallying up and trying to make profit; they are stopped out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "return back up into this level of liquidity in the form of the down-closed candles",
+          "form of mitigation there",
+          "down-close candles that make up the swing low"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_POOL",
+          "REBALANCE",
+          "MITIGATION",
+          "SUPPLY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKING THE SECOND REACCUMULATION",
+      "source_file": "ICT Charter Price Action Model 7 - Universal Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1007",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional Delivery of Liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Structure Break",
+          "higher of the two swing lows prior to the reversal breaks",
+          "break in market structure",
+          "break in market structure of the highest of the reaccumulation of Longs",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reaccumulations",
+          "original consolidation",
+          "reaccumulation of Longs",
+          "price accumulated sideways"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "seeks the liquidity below that",
+          "runs the sell stop below that",
+          "sell stops are taken",
+          "run the stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value",
+          "fair value to be traded back to"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "IMBALANCE_MITIGATION",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bodies of the down-close candles of the swing low that's formed here"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "MITIGATION",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT_OF_INTEREST",
+        "confidence": 1,
+        "surface_terms": [
+          "point of liquidity being taken out above an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "premium array"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING MARKET STRUCTURE BREAK AND INSTITUTIONAL DELIVERY OF LIQUIDITY",
+      "source_file": "ICT Charter Price Action Model 7 - Universal Trading Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1008",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "STRUCTURE BREAK",
+          "market structure break",
+          "true break in market structure",
+          "break in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "ENTRY_CONFIRMATION",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity distribution"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "MARKET_DRIVER_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price was controlled and manipulated",
+          "markets were too big to manipulate"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "ANALYTICAL_ASSUMPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price delivery"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "NY_SESSION"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRUCTURE BREAK",
+      "source_file": "ICT Charter Price Action Model 7 - Universal Trading Model_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "chunk_id": "chunk_1988",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance Sell Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_OF_PRICE_INEFFICIENCY",
+          "POTENTIAL_PRICE_TARGET",
+          "CONTEXTUAL_INDICATOR_FOR_PRICE_DELIVERY"
+        ],
+        "temporal_tags": [
+          "week of May 30, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_OF_PRICE_INEFFICIENCY",
+          "POTENTIAL_PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "week of May 30, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "POTENTIAL_TARGET",
+          "MARKET_BEHAVIOR_OBSERVATION_FOR_FUTURE_PROJECTION",
+          "PRICE_DELIVERY_SIGNIFICANCE"
+        ],
+        "temporal_tags": [
+          "this morning",
+          "January or March",
+          "next six months"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "S&P WEEKLY ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - September 21, 2023 Commentary Livestream_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1989",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side liquidity",
+          "the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trades above the high of the week of March 6, 2023",
+          "taking the buy side above the high of November 21, 2022"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "EVENT_TRIGGER",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "March 6, 2023",
+          "November 21, 2022"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the high of the week of March 6, 2023",
+          "the high of November 21, 2022"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_REFERENCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "March 6, 2023",
+          "November 21, 2022"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Sell Side Imbalance Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCING_AREA",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "November 7, 2022"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "115",
+          "120-122"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "LONG-TERM BIAS",
+          "longer-term anticipation"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX (DXY) LONG-TERM BIAS AND TARGETS",
+      "source_file": "ICT Mentorship 2023 - September 21, 2023 Commentary Livestream_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1990",
+    "concepts": [
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly directional bias",
+          "higher time frame bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "CONTEXT_SETTING",
+          "GUIDING_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly chart",
+          "weekly directional bias",
+          "higher time frame bias",
+          "The weekly chart is the primary focus"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_ESTABLISHMENT",
+          "STRATEGY_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish Dollar Index, filter for bearish setups in: Any foreign currency paired with the dollar as the secondary currency. Conversely, any pair with the dollar first in its name would be expected to go higher.",
+          "correlated currency pairs"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TRADE_SELECTION_FILTER",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "APPLYING WEEKLY BIAS TO INTRADAY"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FRAMEWORK",
+          "CONTEXT_SETTING",
+          "PLANNING_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING WEEKLY BIAS TO INTRADAY AND CORRELATED CURRENCY PAIRS",
+      "source_file": "ICT Mentorship 2023 - September 21, 2023 Commentary Livestream_Handbook.chunks.json"
+    }
+  }
+]

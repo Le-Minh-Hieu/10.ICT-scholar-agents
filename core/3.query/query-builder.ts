@@ -1,11 +1,8 @@
-
-import { KnowledgeMapEntry } from "../../core/3.query/type/knowledge";
 import { ontologyLoader } from "./ontology/loader";
 import { classifyIntent, QueryIntent } from "./ontology/intent-classifier";
 import { RelationalContext } from "../../shared/knowledge/relational-types";
 import { ScenarioMemory } from "../../shared/knowledge/scenario-types";
 import fs from "fs";
-
 
 export interface WeightedQuery {
   query: string;
@@ -37,15 +34,19 @@ export function isValidQuery(q: string): boolean {
 
 export function buildQueries(
   concepts: string[],
-  knowledgeMap: KnowledgeMapEntry[],
+  knowledgeMap?: any[],
   relational?: RelationalContext,
-  scenarios?: ScenarioMemory
+  scenarios?: ScenarioMemory,
+  options?: { skipFinalize?: boolean }
 ): WeightedQuery[] {
   const expanded: WeightedQuery[] = [];
   const mainConcept = concepts[0];
 
   const debugEnabled = process.env.RAG_DEBUG_DUMP === "true";
-  const captureId = (global as any).currentCaptureId || Date.now().toString();
+  if (!(global as any).currentCaptureId) {
+    (global as any).currentCaptureId = Date.now().toString();
+  }
+  const captureId = (global as any).currentCaptureId;
   const debugBaseDir = "data/rag-debug";
   const agentName = (process.env.RAG_DEBUG_AGENT_NAME || "RAG").toString();
 
@@ -57,8 +58,6 @@ export function buildQueries(
     if (!debugEnabled) return;
     try {
       if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
-
-
     } catch {
       // ignore
     }
@@ -67,8 +66,6 @@ export function buildQueries(
   ensureDir(dumpDir);
 
   const conceptsBefore = [...concepts];
-
-  const knowledgeMapTemplatesUsed: any[] = [];
   const ontologyExpansions: any[] = [];
   const scenarioExpansions: any[] = [];
   const relationalExpansions: any[] = [];
@@ -82,8 +79,6 @@ export function buildQueries(
     : null;
 
   for (const concept of concepts) {
-
-
     if (!isValidQuery(concept)) continue;
 
     const intent = classifyIntent(concept);
@@ -96,7 +91,7 @@ export function buildQueries(
       type: "anchor"
     });
 
-    // 2. Ontology Expansion (Canonical & Aliases)
+    // 2. Ontology Expansion (Canonical)
     const canonical = ontologyLoader.getCanonical(concept);
     if (canonical) {
       if (canonical.toLowerCase() !== concept.toLowerCase()) {
@@ -112,66 +107,6 @@ export function buildQueries(
           generated_query: canonical,
           kind: "canonical",
           weight: 0.7,
-        });
-      }
-
-      const registryEntry = ontologyLoader.getRegistryEntry(canonical);
-      if (registryEntry) {
-      for (const term of registryEntry.surface_terms) {
-          if (term.toLowerCase() !== concept.toLowerCase() && term.toLowerCase() !== canonical.toLowerCase()) {
-            expanded.push({
-              query: term,
-              weight: 0.4,
-              type: "alias"
-            });
-
-            ontologyExpansions.push({
-              source_concept: concept,
-              canonical,
-              alias: term,
-              generated_query: term,
-              kind: "alias",
-              weight: 0.4,
-            });
-          }
-        }
-      }
-    }
-
-    // 3. Knowledge Map Templates (Contextual)
-    const normalizedConcept = concept.toLowerCase().trim();
-    const kmEntry = knowledgeMap.find(e => {
-      const eConcept = e.concept.toLowerCase().trim();
-      return (
-        eConcept === normalizedConcept ||
-        eConcept.includes(normalizedConcept) ||
-        normalizedConcept.includes(eConcept)
-      );
-    });
-
-    if (kmEntry) {
-      const templates = kmEntry.agent.query_templates
-        .filter(isValidQuery)
-        .filter(t => {
-          const lower = t.toLowerCase();
-          return (
-            !lower.includes("when") &&
-            !lower.includes("explain") &&
-            !lower.includes("retrieve")
-          );
-        });
-
-      for (const t of templates) {
-        expanded.push({
-          query: t,
-          weight: 0.5,
-          type: "context"
-        });
-
-        knowledgeMapTemplatesUsed.push({
-          concept,
-          template: t,
-          generated_query: t,
         });
       }
     }
@@ -200,7 +135,7 @@ export function buildQueries(
         const asset = mainConcept.split(" ")[0] || ""; // Extract asset from main concept
 
         expanded.push({
-          query: `Evidence of ${asset} ${opposingType.toLowerCase()} to challenge the current ${scenario.type.toLowerCase()} scenario`,
+          query: `${asset} ${opposingType.toLowerCase()} divergence ${scenario.type.toLowerCase()}`,
           weight: 0.45,
           type: "context"
         });
@@ -208,12 +143,12 @@ export function buildQueries(
         scenarioExpansions.push({
           scenario_type: scenario.type,
           confidence: scenario.confidence,
-          generated_query: `Evidence of ${asset} ${opposingType.toLowerCase()} to challenge the current ${scenario.type.toLowerCase()} scenario`,
+          generated_query: `${asset} ${opposingType.toLowerCase()} divergence ${scenario.type.toLowerCase()}`,
         });
 
         if (scenario.contradicting_anchors.length > 0) {
           expanded.push({
-            query: `contradictory ICT levels: ${scenario.contradicting_anchors.join(", ")}`,
+            query: `contradictory ${scenario.contradicting_anchors.join(" ")}`,
             weight: 0.4,
             type: "context"
           });
@@ -233,7 +168,7 @@ export function buildQueries(
       for (const influence of relational.external_influences) {
         if (influence.confidence > 0.7) {
           expanded.push({
-            query: `${influence.source_asset} ${influence.direction} ICT concepts`,
+            query: `${influence.source_asset} ${influence.direction}`,
             weight: 0.3,
             type: "context"
           });
@@ -241,7 +176,7 @@ export function buildQueries(
           relationalExpansions.push({
             relationship_type: "external_influence",
             confidence: influence.confidence,
-            generated_query: `${influence.source_asset} ${influence.direction} ICT concepts`,
+            generated_query: `${influence.source_asset} ${influence.direction}`,
           });
         }
       }
@@ -249,13 +184,31 @@ export function buildQueries(
       for (const smt of relational.smt_hints) {
         if (smt.confidence > 0.8) {
           expanded.push({
-            query: `ICT SMT divergence ${smt.type} ${smt.assets.join(" ")}`,
+            query: `SMT divergence ${smt.type} ${smt.assets.join(" ")}`,
             weight: 0.35,
             type: "context"
           });
         }
       }
     }
+  }
+
+  // Skip finalization if requested (used when queries will be merged with vision lanes)
+  if (options?.skipFinalize) {
+    if (debugEnabled && fs && dumpDir) {
+      const payload = {
+        concepts_before_processing: conceptsBefore,
+        concepts_after_processing: [...new Set(concepts)].filter(Boolean),
+        anchor_query: anchorQuery,
+        ontologyExpansions,
+        scenarioExpansions,
+        relationalExpansions,
+        pre_final_queries_count: expanded.length,
+        note: "Finalization skipped - queries will be merged with vision lanes",
+      };
+      fs.writeFileSync(`${dumpDir}/02_QUERY_BUILD.json`, JSON.stringify(payload, null, 2), "utf8");
+    }
+    return expanded; // Return unsliced queries for fair lane competition
   }
 
   const finalQueries = finalizeWeightedQueries(expanded, mainConcept);
@@ -265,7 +218,6 @@ export function buildQueries(
       concepts_before_processing: conceptsBefore,
       concepts_after_processing: [...new Set(concepts)].filter(Boolean),
       anchor_query: anchorQuery,
-      knowledgeMapTemplatesUsed,
       ontologyExpansions,
       scenarioExpansions,
       relationalExpansions,
@@ -273,9 +225,6 @@ export function buildQueries(
       final_query_count: finalQueries.length,
       final_weighted_queries: finalQueries,
     };
-
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    // fs already imported via ESM; keep debug-only directory creation safe
 
     if (fs && dumpDir) {
       fs.writeFileSync(`${dumpDir}/02_QUERY_BUILD.json`, JSON.stringify(payload, null, 2), "utf8");
@@ -289,21 +238,21 @@ export function buildQueries(
 // POST PROCESS
 // =======================
 
-function finalizeWeightedQueries(queries: WeightedQuery[], mainConcept: string): WeightedQuery[] {
+export function finalizeWeightedQueries(queries: WeightedQuery[], mainConcept: string): WeightedQuery[] {
   const MAX_QUERY = 15;
 
   const uniqueMap = new Map<string, WeightedQuery>();
   for (const q of queries) {
     if (!isValidQuery(q.query)) continue;
     
-    const lower = q.query.toLowerCase();
+    const lower = q.query.toLowerCase().trim();
     if (lower.includes("when") || lower.includes("explain") || lower.includes("retrieve") || q.query.length > 80) {
       continue;
     }
 
-    const existing = uniqueMap.get(q.query);
+    const existing = uniqueMap.get(lower);
     if (!existing || q.weight > existing.weight) {
-      uniqueMap.set(q.query, q);
+      uniqueMap.set(lower, q);
     }
   }
 

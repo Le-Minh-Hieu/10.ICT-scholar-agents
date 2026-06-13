@@ -1,0 +1,521 @@
+[
+  {
+    "chunk_id": "chunk_3813",
+    "concepts": [
+      {
+        "canonical": "INTERMEDIATE_TERM_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IDENTIFYING INTERMEDIATE TERM LOW (ITL) STRUCTURE",
+          "An Intermediate Term Low (ITL)",
+          "ITL",
+          "the validity of the ITL",
+          "a low has a higher low to its left and a higher low to its right, and the current low is also lower than a previous short-term low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "PATTERN_RECOGNITION",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING INTERMEDIATE TERM LOW (ITL) STRUCTURE",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3814",
+    "concepts": [
+      {
+        "canonical": "INTERMEDIATE_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "ITL",
+          "low that has a higher low to its left and a higher low to its right"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Short Term Low (STL)",
+          "STL"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_TERM_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Long Term Low (LTL)",
+          "LTL"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeted and run above the current price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT, INTERMEDIATE, AND LONG TERM",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3815",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci tool",
+          "Fibonacci"
+        ],
+        "narrative_roles": [
+          "TOOL_CONFIGURATION",
+          "PROJECTION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY SIDE LIQUIDITY",
+          "buy side liquidity",
+          "buy side liquidity targets"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific swing",
+          "anchoring the Fibonacci from a relevant low to a relevant high",
+          "relevant low",
+          "relevant high"
+        ],
+        "narrative_roles": [
+          "TOOL_APPLICATION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE) levels",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "TOOL_EXCLUSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "Equilibrium levels"
+        ],
+        "narrative_roles": [
+          "TOOL_EXCLUSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIGURING THE FIBONACCI TOOL FOR BUY SIDE LIQUIDITY",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3816",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity levels",
+          "specific high in the market"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "INITIAL BUY SIDE TARGETS",
+          "first buy side target",
+          "first target",
+          "target"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PROFIT_TAKING",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "STANDARD DEVIATIONS",
+          "negative 1 standard deviation level"
+        ],
+        "narrative_roles": [
+          "TOOL_FOR_ANALYSIS",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci"
+        ],
+        "narrative_roles": [
+          "TOOL_FOR_ANALYSIS",
+          "ANCHORING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low",
+          "swing high",
+          "specific high"
+        ],
+        "narrative_roles": [
+          "ANCHOR_POINT",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "1.0 extension of the swing"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "TOOL_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PINPOINTING INITIAL BUY SIDE TARGETS USING STANDARD DEVIATIONS",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3817",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side targets",
+          "next expected buy side liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATIONS",
+        "confidence": 1,
+        "surface_terms": [
+          "subsequent standard deviations",
+          "negative 1 level (first standard deviation)",
+          "subsequent standard deviation level",
+          "negative 1.5 level (1.5 standard deviations)"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "TOOL_FOR_ANALYSIS",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_PROJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fibonacci anchor points",
+          "negative 1 level",
+          "negative 1.5 level"
+        ],
+        "narrative_roles": [
+          "TOOL_FOR_ANALYSIS",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING BUY SIDE TARGETS WITH SUBSEQUENT STANDARD DEVIATIONS",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3818",
+    "concepts": [
+      {
+        "canonical": "BUMPED_SHALLOW_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'BUMPED SHALLOW' LIQUIDITY",
+          "'bumped shallow'",
+          "partially or fully reached",
+          "framing has shifted"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_STATUS_UPDATE",
+          "ANALYTICAL_ADJUSTMENT_TRIGGER",
+          "REASSESSMENT_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previously identified buy side target",
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ATTRACTION",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_EVOLUTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market structure evolves",
+          "new higher high"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_CHANGE",
+          "ANALYTICAL_UPDATE_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial standard deviation from the prior swing",
+          "next standard deviation level",
+          "negative 1.5 standard deviation",
+          "4104.25"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "LIQUIDITY_IDENTIFICATION",
+          "ANALYTICAL_PROJECTION_TOOL",
+          "RISK_MANAGEMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXTENSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'dig beyond that'"
+        ],
+        "narrative_roles": [
+          "PRICE_DIRECTION_FORECAST",
+          "MOMENTUM_EXPECTATION",
+          "LIQUIDITY_HUNT_IMPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_AFTERNOON_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "afternoon session"
+        ],
+        "narrative_roles": [
+          "SESSIONAL_BIAS",
+          "TIME_BASED_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "'BUMPED SHALLOW' LIQUIDITY",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3819",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_LIQUIDITY_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC LIQUIDITY ACCUMULATION"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ALGORITHMIC_BEHAVIOR",
+          "INSTITUTIONAL_FLOW"
+        ],
+        "temporal_tags": [
+          "final hour of trading",
+          "3:00 PM",
+          "4:00 PM",
+          "final hour macro",
+          "3:45 PM"
+        ],
+        "session_tags": [
+          "NY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "MARKET_ON_CLOSE_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "market on close run"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_BEHAVIOR",
+          "LIQUIDITY_SEEKING",
+          "SESSION_MACRO"
+        ],
+        "temporal_tags": [
+          "3:00 PM",
+          "3:45 PM",
+          "final hour macro"
+        ],
+        "session_tags": [
+          "NY_CLOSE"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "point of liquidity",
+          "obvious remaining buy side objective",
+          "anticipated buy side levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "ORDER_FLOW_MAGNET"
+        ],
+        "temporal_tags": [
+          "final hour of trading",
+          "3:00 PM",
+          "4:00 PM",
+          "final hour macro",
+          "3:45 PM"
+        ],
+        "session_tags": [
+          "NY_CLOSE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC LIQUIDITY ACCUMULATION",
+      "source_file": "Institutional Market Structure & Standard Deviations With Buyside Liquidity_Handbook.chunks.json"
+    }
+  }
+]

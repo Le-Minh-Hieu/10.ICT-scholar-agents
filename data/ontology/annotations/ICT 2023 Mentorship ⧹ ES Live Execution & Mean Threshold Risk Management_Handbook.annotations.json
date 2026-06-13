@@ -1,0 +1,767 @@
+[
+  {
+    "chunk_id": "chunk_827",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "ENTRY_MODEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT TWITTER ALERTS AND LIVE EXECUTION",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_828",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down close that I entered on, that's an order block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "9:43 candle"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance",
+          "absence of any bodies overlapping one another between two candles",
+          "gap between the present candle's open and the previous candle's close"
+        ],
+        "narrative_roles": [
+          "INEFFICIENT_PRICE_DELIVERY",
+          "LIQUIDITY_VOID",
+          "POTENTIAL_REVERSAL_CONTINUATION_POINT"
+        ],
+        "temporal_tags": [
+          "9:43 candle"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING ORDER BLOCKS AND VOLUME IMBALANCE",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_829",
+    "concepts": [
+      {
+        "canonical": "ICT_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "advanced model"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "SETUP_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "SETUP_COMPONENT",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expecting expansion",
+          "expansion up"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "MARKET_PHASE_ANTICIPATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_OBJECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4030 OBJECTIVE",
+          "4030 level",
+          "4030"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TRADE_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFERENCE_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "December 14th closing price"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "TARGET_VALIDATION"
+        ],
+        "temporal_tags": [
+          "December 14th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trending day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "EXPECTED_ABSENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED MODEL AND 4030 OBJECTIVE",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_830",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "IMBALANCE_IDENTIFICATION",
+          "INEFFICIENT_PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "4030 TARGET",
+          "4030",
+          "bulk of whatever I accumulate in longs off at 4030 or higher"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_LEVEL",
+          "EXIT_STRATEGY",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_PERCENTAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "risk on this trade is 1.2 percent",
+          "1.2 percent"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "POSITION_SIZING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_DIRECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "longs",
+          "eight contracts long"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "DIRECTIONAL_BIAS",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "VOLUME IMBALANCE AND 4030 TARGET",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_831",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_MAGNET",
+          "REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RETEST",
+          "returning back to that volume imbalance"
+        ],
+        "narrative_roles": [
+          "VALIDATION_OF_LEVEL",
+          "PRICE_ACTION_DYNAMICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_INCREMENT_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "PRICE ACTION INCREMENTS",
+          "five handles",
+          "every increment move in five handles"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION_SKILL",
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE ACTION INCREMENTS AND VOLUME IMBALANCE RETEST",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_832",
+    "concepts": [
+      {
+        "canonical": "MARKET_EFFICIENCY_PARADIGM",
+        "confidence": 1,
+        "surface_terms": [
+          "SPEED, DISTANCE, AND MARKET EFFICIENCY PARADIGM",
+          "Market Efficiency Paradigm"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "ENTRY_STRATEGY",
+          "EXIT_STRATEGY",
+          "CONTRARIAN_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "have speed and distance through the high that's already formed"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bring that stop up a little bit"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the midpoint"
+        ],
+        "narrative_roles": [
+          "PRECISION_ENTRY",
+          "DISCOUNT_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SPEED, DISTANCE, AND MARKET EFFICIENCY PARADIGM",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_833",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_ADJUSTMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "raise the stop up"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "risk has been elevated to 1.3 percent"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramiding entry"
+        ],
+        "narrative_roles": [
+          "POSITION_SCALING",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSIONAL_HIGH_LIQUIDITY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "high formed around the 9:30",
+          "that high",
+          "4023 and a half level",
+          "morning session high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "BIAS_CONFIRMATION",
+          "CONTINUATION_INDICATION"
+        ],
+        "temporal_tags": [
+          "9:30_AM"
+        ],
+        "session_tags": [
+          "NY_MORNING_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS ADJUSTMENT AND MORNING SESSION HIGH",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_834",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Fair Value Gap's high",
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PRICE_SUPPORT_RESISTANCE",
+          "INVALIDATION_LEVEL",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PRICE_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "dealing range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "PRICE_ACTION_CONSTRAINT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "9:30",
+          "9:43"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high",
+          "this high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_BREAK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "traded through the bodies of the swing high",
+          "move aggressively through this high",
+          "speed"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "STOP_LOSS_PLACEMENT_LOGIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AND DEALING RANGE CONFIDENCE",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_835",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ORDER BLOCK RE-ENTRY STRATEGY",
+          "down closed candle is a bullish order block",
+          "the order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "POSITION_SCALING",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "we've pierced that 9:30 high"
+        ],
+        "narrative_roles": [
+          "INDICATION_OF_REVERSAL_OR_RETRACEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "9:30_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ORDER BLOCK RE-ENTRY STRATEGY",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_836",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down closed candle",
+          "my bullish order block",
+          "inside that candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ACCUMULATION_ZONE",
+          "PRICE_REJECTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stops have already been cleared"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRE_ENTRY_CONDITION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [
+          "9:20 low",
+          "9:40"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Fair Value Gap",
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "DISMISSAL",
+          "POTENTIAL_RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "unrealized objective",
+          "premium array at 4030",
+          "viable target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "before the market opened and started trading this week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION AND VIABLE TARGET CONFIRMATION",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_837",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint or mean threshold of that down closed candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_LEVEL",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PROTECTIVE_LEVEL",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_HUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "get smoked if you had your stop loss like this",
+          "Your broker is going to cannibalize you",
+          "they will snatch you"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RISK_MANAGEMENT_CAVEAT",
+          "BROKER_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASSET_CLASS_SELECTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Futures",
+          "Forex",
+          "much cleaner and more professionally managed asset class"
+        ],
+        "narrative_roles": [
+          "TRADING_ENVIRONMENT_CONSIDERATION",
+          "RISK_MANAGEMENT_CONSIDERATION",
+          "OPTIMAL_TRADING_CONDITIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEAN THRESHOLD ENTRY AND FUTURES VS. FOREX",
+      "source_file": "ICT 2023 Mentorship ⧹ ES Live Execution & Mean Threshold Risk Management_Handbook.chunks.json"
+    }
+  }
+]

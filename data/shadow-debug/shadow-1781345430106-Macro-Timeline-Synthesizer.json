@@ -1,0 +1,543 @@
+{
+  "timestamp": "2026-06-13T10:10:30.106Z",
+  "agentType": "Macro-Timeline-Synthesizer",
+  "currentCallId": "Macro-Timeline-Synthesizer-forexfactory:ec7897e7c75a-2",
+  "prompt": "\nYou are an ICT Weekly Timeline Analyst.\n\nINPUT\n\n- events\n- reasoningResults\n- themes\n\nThe themes already represent the current weekly profile context.\n\nYour task is to map each calendar catalyst into the evolving weekly timeline.\n\n==================================================\nOBJECTIVE\n==================================================\n\nFor every event:\n\n1. Determine the most relevant weekly profile context.\n2. Determine the event's role inside the weekly narrative.\n3. Determine the most likely market effect.\n4. Produce a timeline node.\n\nTimeline nodes should describe how events contribute to the unfolding weekly profile.\n\n==================================================\nEXPECTED EFFECT RULES\n==================================================\n\nAllowed values:\n\n- ACCUMULATION\n- MANIPULATION\n- EXPANSION\n- REVERSAL\n- DISTRIBUTION\n- REPRICING\n- LIQUIDITY_EVENT\n\nExpected effects should be inferred from:\n\n1. event importance\n2. event pressures\n3. supporting evidence\n4. weekly profile context\n\nDo not use fixed mappings.\n\nDo not assume:\n\nInflation -> REPRICING\n\nGrowth -> EXPANSION\n\nRisk-Off -> REVERSAL\n\nEach event must be evaluated independently.\n\n==================================================\nTHEME MAPPING RULES\n==================================================\n\nUse supporting_events from themes as the primary mapping source.\n\nOnly assign a theme when evidence supports the relationship.\n\nDifferent events may map to different themes.\n\nDo not force all events into the same theme.\n\n==================================================\nEVIDENCE RULES\n==================================================\n\nUse evidence_summaries when available.\n\nEvidence should explain why the event belongs to the assigned theme.\n\nIf evidence is weak:\n\nreduce confidence.\n\nDo not fabricate evidence.\n\nDo not fabricate relationships.\n\n==================================================\nVALIDATION RULES\n==================================================\n\nUse ONLY supplied events.\n\ncatalyst must exactly match an event title or event id.\n\ndate must exactly match the supplied scheduled_time.\n\nNever invent:\n\n- events\n- dates\n- catalysts\n- themes\n\nEvery output node must correspond to one supplied event.\n\n==================================================\nCONFIDENCE RULES\n==================================================\n\nConfidence should reflect:\n\n- strength of evidence\n- event impact\n- consistency with weekly profile context\n\n0.0 = extremely weak evidence\n\n1.0 = very strong evidence\n\n==================================================\nOUTPUT\n==================================================\n\nReturn JSON only.\n\n[\n  {\n    \"catalyst\": \"\",\n    \"date\": \"\",\n    \"theme\": \"\",\n    \"expected_effect\": \"\",\n    \"confidence\": 0.0,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"\",\n        \"summary\": \"\"\n      }\n    ]\n  }\n]\n\n\nINPUT_DATA\n{\"valid_events\":[{\"id\":\"forexfactory:ec7897e7c75a\",\"title\":\"Core CPI m/m\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:20e43806b98e\",\"title\":\"Core CPI y/y\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:5275e8ae06d1\",\"title\":\"CPI m/m\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:f5d35e2df42c\",\"title\":\"CPI y/y\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:0cbef99b3d47\",\"title\":\"Main Refinancing Rate\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},{\"id\":\"forexfactory:6a596f58c67b\",\"title\":\"Monetary Policy Statement\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},{\"id\":\"forexfactory:d176d7fa95eb\",\"title\":\"Core PPI m/m\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},{\"id\":\"forexfactory:b7103477c631\",\"title\":\"PPI m/m\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},{\"id\":\"forexfactory:d0773e9be938\",\"title\":\"ECB Press Conference\",\"scheduled_time\":\"2026-06-11T12:45:00.000Z\"},{\"id\":\"forexfactory:d5c5350d65d0\",\"title\":\"GDP m/m\",\"scheduled_time\":\"2026-06-12T06:00:00.000Z\"},{\"id\":\"forexfactory:c44e93352039\",\"title\":\"Unemployment Claims\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},{\"id\":\"forexfactory:7e078d9978d5\",\"title\":\"Prelim UoM Consumer Sentiment\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"},{\"id\":\"forexfactory:a9b107bebdbd\",\"title\":\"Prelim UoM Inflation Expectations\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"}],\"events\":[{\"id\":\"forexfactory:ec7897e7c75a\",\"title\":\"Core CPI m/m\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:20e43806b98e\",\"title\":\"Core CPI y/y\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:5275e8ae06d1\",\"title\":\"CPI m/m\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:f5d35e2df42c\",\"title\":\"CPI y/y\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:0cbef99b3d47\",\"title\":\"Main Refinancing Rate\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:6a596f58c67b\",\"title\":\"Monetary Policy Statement\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:d176d7fa95eb\",\"title\":\"Core PPI m/m\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:b7103477c631\",\"title\":\"PPI m/m\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:d0773e9be938\",\"title\":\"ECB Press Conference\",\"scheduled_time\":\"2026-06-11T12:45:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:d5c5350d65d0\",\"title\":\"GDP m/m\",\"scheduled_time\":\"2026-06-12T06:00:00.000Z\",\"impact\":\"HIGH\"},{\"id\":\"forexfactory:c44e93352039\",\"title\":\"Unemployment Claims\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\",\"impact\":\"MEDIUM\"},{\"id\":\"forexfactory:7e078d9978d5\",\"title\":\"Prelim UoM Consumer Sentiment\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\",\"impact\":\"MEDIUM\"},{\"id\":\"forexfactory:a9b107bebdbd\",\"title\":\"Prelim UoM Inflation Expectations\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\",\"impact\":\"MEDIUM\"}],\"reasoningResults\":[{\"event_id\":\"WEEKLY_PROFILE\",\"weekly_story_arc\":[{\"day\":\"Wednesday\",\"role\":\"CPI Catalyst & Weekly High Formation\",\"supporting_event_ids\":[\"forexfactory:ec7897e7c75a\",\"forexfactory:20e43806b98e\",\"forexfactory:5275e8ae06d1\",\"forexfactory:f5d35e2df42c\"],\"supporting_events\":[{\"id\":\"forexfactory:ec7897e7c75a\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:20e43806b98e\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:5275e8ae06d1\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},{\"id\":\"forexfactory:f5d35e2df42c\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}],\"supporting_chunks\":[\"chunk_2917\",\"chunk_4207\",\"chunk_4017\",\"chunk_4023\",\"chunk_4026\",\"chunk_602\"],\"confidence\":0.8},{\"day\":\"Thursday\",\"role\":\"Bearish Continuation & Data Confirmation\",\"supporting_event_ids\":[\"forexfactory:0cbef99b3d47\",\"forexfactory:6a596f58c67b\",\"forexfactory:d176d7fa95eb\",\"forexfactory:b7103477c631\",\"forexfactory:d0773e9be938\",\"forexfactory:c44e93352039\"],\"supporting_events\":[{\"id\":\"forexfactory:0cbef99b3d47\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Main Refinancing Rate\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},{\"id\":\"forexfactory:6a596f58c67b\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Monetary Policy Statement\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},{\"id\":\"forexfactory:d176d7fa95eb\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Core PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},{\"id\":\"forexfactory:b7103477c631\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},{\"id\":\"forexfactory:d0773e9be938\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"ECB Press Conference\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:45:00:000Z\"},{\"id\":\"forexfactory:c44e93352039\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Unemployment Claims\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-11T12:30:00:000Z\"}],\"supporting_chunks\":[\"chunk_477\",\"chunk_1887\"],\"confidence\":0.6},{\"day\":\"Friday\",\"role\":\"Liquidity Seeking & Weakness Targeting\",\"supporting_event_ids\":[\"forexfactory:d5c5350d65d0\",\"forexfactory:7e078d9978d5\",\"forexfactory:a9b107bebdbd\"],\"supporting_events\":[{\"id\":\"forexfactory:d5c5350d65d0\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"GDP m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-12T06:00:00.000Z\"},{\"id\":\"forexfactory:7e078d9978d5\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Consumer Sentiment\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"},{\"id\":\"forexfactory:a9b107bebdbd\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Inflation Expectations\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"}],\"supporting_chunks\":[\"chunk_2968\",\"chunk_477\"],\"confidence\":0.5}],\"dominant_theme\":\"CPI-Driven Weekly High & Bearish Expansion\",\"dominant_narrative\":\"The week is anticipated to unfold with an initial setup into the high-impact CPI data on Wednesday, which is expected to act as the primary catalyst for the weekly high. This aligns with the 'Wednesday High of the Week' profile, where price may hover or even move higher on preceding days before reversing into a premium array during Wednesday's London or New York session. Following this CPI-driven reversal, the market is expected to experience bearish expansion, potentially reinforced by ECB decisions, US PPI, and UK GDP data, particularly given concerns over labor and growth reflected in the bias. The week could see subsequent consolidation or a continued push to target lower liquidity levels, though Thursday and Friday may exhibit choppiness.\",\"weekly_delivery_model\":\"Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.\",\"expected_weekly_high_day\":\"Wednesday\",\"expected_weekly_low_day\":null,\"expected_expansion_day\":\"Wednesday\",\"event_title\":\"CPI-Driven Weekly High & Bearish Expansion\",\"impact\":\"HIGH\",\"evidence_summaries\":[{\"chunk_id\":\"chunk_976\",\"summary\":\"STAGE 1: PREPARATION For Preparation, we're going to note all medium and high impact events for the markets that you're following. We're going to study the events on the week to co\"},{\"chunk_id\":\"chunk_917\",\"summary\":\"ECONOMIC CALENDAR AND WEEKLY PROFILE In the preparation stage, we always refer to the economic calendar for the coming week. We note all medium and high-impact news events for the \"},{\"chunk_id\":\"chunk_3799\",\"summary\":\"DEVELOPING YOUR WEEKLY PROFILE Once you have that determined, then you can focus on a weekly profile. Now if it's bullish, then you're expecting to have a weekly profile that's bul\"},{\"chunk_id\":\"chunk_2917\",\"summary\":\"WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday\"},{\"chunk_id\":\"chunk_512\",\"summary\":\"CPI OUTLOOK AND 4180 OBJECTIVE MISS The personal objective for the week was 4180, specifically between the candle's open and the high midpoint of its Wick. This level was mentioned\"},{\"chunk_id\":\"chunk_704\",\"summary\":\"US DOLLAR ECONOMIC RELEASES Alright, the US Dollar, we're going to the North American market: Non-farm payroll (I avoid that, I do not touch it) You want to note these as well beca\"},{\"chunk_id\":\"chunk_4230\",\"summary\":\"DISCLAIMER AND ECONOMIC CALENDAR OVERVIEW Take a look at this disclaimer, it's probably been showing for a few moments for you. Very important, this thing has given me a fit tonigh\"},{\"chunk_id\":\"chunk_3528\",\"summary\":\"MARKET PROFILE Market Profile is the next thing I can look at, and I start breaking down what the weekly looks like in terms of Market Profiling: is it in consolidation? Is it in a\"},{\"chunk_id\":\"chunk_946\",\"summary\":\"WEEKLY PROFILE & INSTITUTIONAL ORDER FLOW ENTRY When we are bullish, we will note the European open price on Tuesday (which could also be Monday or Wednesday, focusing on the weekl\"},{\"chunk_id\":\"chunk_4207\",\"summary\":\"CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo\"},{\"chunk_id\":\"chunk_477\",\"summary\":\"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"},{\"chunk_id\":\"chunk_4017\",\"summary\":\"MARKET OPENING UNCERTAINTY AND CPI IMPACT I do not know where the market opens on Sunday; no one does. That's a complete mystery, so we all have to wait and see how the market itse\"},{\"chunk_id\":\"chunk_1887\",\"summary\":\"EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp\"},{\"chunk_id\":\"chunk_3540\",\"summary\":\"COMPREHENSIVE WEEKLY BIAS SUMMARY And we end with a weekly bias. So after I refer to Relative Strength for leaders and laggards, I go into Commitment of Traders. I look for the buy\"},{\"chunk_id\":\"chunk_2968\",\"summary\":\"CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr\"},{\"chunk_id\":\"chunk_3665\",\"summary\":\"WEEKLY OUTLOOK AND TRADING STRATEGY That's what we're looking at going ahead for the week. I'm continuously looking for reasons to allow bullishness on my buy side for index Future\"},{\"chunk_id\":\"chunk_4023\",\"summary\":\"SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED Because I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to s\"},{\"chunk_id\":\"chunk_4026\",\"summary\":\"OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore\"},{\"chunk_id\":\"chunk_552\",\"summary\":\"NEWS EVENT IMPACT AND TECHNICAL LEVELS The market trades up in that volume imbalance, consolidates, hits the order block (remember the 15 minute time frame), and then drops. Rallie\"},{\"chunk_id\":\"chunk_602\",\"summary\":\"POST-CPI MICRO ANALYSIS Efficiency, meaning that this is as far as you would want to see it, really, really deep retracement inside up. And again for the yahoos that are here liste\"}],\"chunk_citations\":[\"chunk_976\",\"chunk_917\",\"chunk_3799\",\"chunk_2917\",\"chunk_512\",\"chunk_704\",\"chunk_4230\",\"chunk_3528\",\"chunk_946\",\"chunk_4207\",\"chunk_477\",\"chunk_4017\",\"chunk_1887\",\"chunk_3540\",\"chunk_2968\",\"chunk_3665\",\"chunk_4023\",\"chunk_4026\",\"chunk_552\",\"chunk_602\"],\"uncertainty_pressure\":0.6,\"volatility_pressure\":0.9,\"manipulation_probability\":0.5,\"expansion_probability\":0.9,\"repricing_severity\":0.8,\"directional_pressure\":0.8}],\"themes\":[{\"theme\":\"CPI-Driven Weekly High & Bearish Expansion\",\"confidence\":0.8,\"supporting_events\":[\"WEEKLY_PROFILE\"],\"supporting_evidence\":[\"- chunk_976: STAGE 1: PREPARATION For Preparation, we're going to note all medium and high impact events for the markets that you're following. We're going to study the events on the week to co\",\"- chunk_917: ECONOMIC CALENDAR AND WEEKLY PROFILE In the preparation stage, we always refer to the economic calendar for the coming week. We note all medium and high-impact news events for the \",\"- chunk_3799: DEVELOPING YOUR WEEKLY PROFILE Once you have that determined, then you can focus on a weekly profile. Now if it's bullish, then you're expecting to have a weekly profile that's bul\"]}]}\n",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 10:10:23 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n[\n  {\n    \"catalyst\": \"Core CPI m/m\",\n    \"date\": \"2026-06-10T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"REVERSAL\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2917\",\n        \"summary\": \"WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday\"\n      },\n      {\n        \"chunk_id\": \"chunk_4207\",\n        \"summary\": \"CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo\"\n      },\n      {\n        \"chunk_id\": \"chunk_4026\",\n        \"summary\": \"OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Core CPI y/y\",\n    \"date\": \"2026-06-10T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"REVERSAL\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2917\",\n        \"summary\": \"WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday\"\n      },\n      {\n        \"chunk_id\": \"chunk_4207\",\n        \"summary\": \"CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo\"\n      },\n      {\n        \"chunk_id\": \"chunk_4026\",\n        \"summary\": \"OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"CPI m/m\",\n    \"date\": \"2026-06-10T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"REVERSAL\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2917\",\n        \"summary\": \"WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday\"\n      },\n      {\n        \"chunk_id\": \"chunk_4207\",\n        \"summary\": \"CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo\"\n      },\n      {\n        \"chunk_id\": \"chunk_4026\",\n        \"summary\": \"OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"CPI y/y\",\n    \"date\": \"2026-06-10T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"REVERSAL\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2917\",\n        \"summary\": \"WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday\"\n      },\n      {\n        \"chunk_id\": \"chunk_4207\",\n        \"summary\": \"CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo\"\n      },\n      {\n        \"chunk_id\": \"chunk_4026\",\n        \"summary\": \"OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Main Refinancing Rate\",\n    \"date\": \"2026-06-11T12:15:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_1887\",\n        \"summary\": \"EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Monetary Policy Statement\",\n    \"date\": \"2026-06-11T12:15:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_1887\",\n        \"summary\": \"EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Core PPI m/m\",\n    \"date\": \"2026-06-11T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"PPI m/m\",\n    \"date\": \"2026-06-11T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"ECB Press Conference\",\n    \"date\": \"2026-06-11T12:45:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_1887\",\n        \"summary\": \"EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"GDP m/m\",\n    \"date\": \"2026-06-12T06:00:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.5,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2968\",\n        \"summary\": \"CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Unemployment Claims\",\n    \"date\": \"2026-06-11T12:30:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"EXPANSION\",\n    \"confidence\": 0.6,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Prelim UoM Consumer Sentiment\",\n    \"date\": \"2026-06-12T14:00:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"LIQUIDITY_EVENT\",\n    \"confidence\": 0.5,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2968\",\n        \"summary\": \"CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  },\n  {\n    \"catalyst\": \"Prelim UoM Inflation Expectations\",\n    \"date\": \"2026-06-12T14:00:00.000Z\",\n    \"theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n    \"expected_effect\": \"LIQUIDITY_EVENT\",\n    \"confidence\": 0.5,\n    \"evidence\": [\n      {\n        \"chunk_id\": \"chunk_2968\",\n        \"summary\": \"CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr\"\n      },\n      {\n        \"chunk_id\": \"chunk_477\",\n        \"summary\": \"NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k\"\n      }\n    ]\n  }\n]\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2718390599012604
+        }
+      ],
+      "createTime": "2026-06-13T10:09:59.747764Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "dywtavTRLa_XqMgPhoPu4As",
+      "usageMetadata": {
+        "promptTokenCount": 5341,
+        "candidatesTokenCount": 3119,
+        "totalTokenCount": 11725,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5341
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3119
+          }
+        ],
+        "thoughtsTokenCount": 3265
+      }
+    },
+    "parsed": [
+      {
+        "catalyst": "Core CPI m/m",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REVERSAL",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "Core CPI y/y",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REVERSAL",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "CPI m/m",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REVERSAL",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "CPI y/y",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REVERSAL",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "Main Refinancing Rate",
+        "date": "2026-06-11T12:15:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Monetary Policy Statement",
+        "date": "2026-06-11T12:15:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Core PPI m/m",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "PPI m/m",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "ECB Press Conference",
+        "date": "2026-06-11T12:45:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "GDP m/m",
+        "date": "2026-06-12T06:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Unemployment Claims",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Prelim UoM Consumer Sentiment",
+        "date": "2026-06-12T14:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "LIQUIDITY_EVENT",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Prelim UoM Inflation Expectations",
+        "date": "2026-06-12T14:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "LIQUIDITY_EVENT",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      }
+    ],
+    "latency": 32885.3579,
+    "telemetry": {
+      "promptTokens": 5341,
+      "completionTokens": 3119,
+      "totalTokens": 11725
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": [
+      {
+        "catalyst": "Core CPI m/m",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "Core CPI y/y",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "CPI m/m",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "CPI y/y",
+        "date": "2026-06-10T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2917",
+            "summary": "WEDNESDAY HIGH OF THE WEEK This profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday"
+          },
+          {
+            "chunk_id": "chunk_4207",
+            "summary": "CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION This week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Mo"
+          },
+          {
+            "chunk_id": "chunk_4026",
+            "summary": "OVERALL MARKET BIAS AND UNPREDICTABILITY I do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Fore"
+          }
+        ]
+      },
+      {
+        "catalyst": "Main Refinancing Rate",
+        "date": "2026-06-11T12:15:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "Monetary Policy Statement",
+        "date": "2026-06-11T12:15:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "Core PPI m/m",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "PPI m/m",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "ECB Press Conference",
+        "date": "2026-06-11T12:45:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "GDP m/m",
+        "date": "2026-06-12T06:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "EXPANSION",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Unemployment Claims",
+        "date": "2026-06-11T12:30:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          },
+          {
+            "chunk_id": "chunk_1887",
+            "summary": "EURO WEEKLY So everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm exp"
+          }
+        ]
+      },
+      {
+        "catalyst": "Prelim UoM Consumer Sentiment",
+        "date": "2026-06-12T14:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      },
+      {
+        "catalyst": "Prelim UoM Inflation Expectations",
+        "date": "2026-06-12T14:00:00.000Z",
+        "theme": "CPI-Driven Weekly High & Bearish Expansion",
+        "expected_effect": "REPRICING",
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "chunk_id": "chunk_2968",
+            "summary": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY) Again, this is a neutral, low probability profile and market manipulation template, for observation rather than The market cr"
+          },
+          {
+            "chunk_id": "chunk_477",
+            "summary": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES Because of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I k"
+          }
+        ]
+      }
+    ],
+    "latency": 8408.800799999997,
+    "telemetry": {
+      "promptTokens": 5340,
+      "completionTokens": 3320,
+      "totalTokens": 8660
+    },
+    "estimatedCost": 0.011980000000000001
+  }
+}

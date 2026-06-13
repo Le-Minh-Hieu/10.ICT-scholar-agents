@@ -1,0 +1,199 @@
+[
+  {
+    "chunk_id": "chunk_4094",
+    "concepts": [
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous day's high",
+          "106.657 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PRICE_TARGET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expecting a run above the previous day's high",
+          "looking for a reason to get long to target this high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET_ANTICIPATION",
+          "ENTRY_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous day's range",
+          "this low up to this high"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session time",
+          "8:30 a.m. New York time",
+          "11:00 a.m. New York time"
+        ],
+        "narrative_roles": [
+          "SESSION_CONTEXT",
+          "TRADING_WINDOW"
+        ],
+        "temporal_tags": [
+          "8:30 a.m.",
+          "11:00 a.m."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CHART ANALYSIS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 02_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4095",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent adjacent level",
+          "range of a Fib",
+          "next level at the Fib",
+          "10 level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT SCALING",
+          "take profits",
+          "first scaling",
+          "Second scaling",
+          "third scaling",
+          "15 pips",
+          "25 pips",
+          "40 pips"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAILY_HIGH_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous day's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) SETUP AND PROFIT SCALING",
+      "source_file": "OTE Pattern Recognition Series - Vol. 02_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4096",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "another optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [
+          "10:55",
+          "NY_CLOSE"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run this over high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SECOND OTE OPPORTUNITY AND CONCLUSION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 02_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,380 @@
+{
+  "profile_date_utc": "2026-06-01T03:54:47.230Z",
+  "market_date": "2026-05-31",
+  "market_weekday": "Sunday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-05-25",
+  "source_week_profile_id": "2026-05-25",
+  "day_type": "Preparation Day",
+  "day_confidence": null,
+  "day_role_in_week": "INSUFFICIENT_EVIDENCE",
+  "weekly_alignment_state": "Cautionary, Front-Loaded Trading Week due to NFP",
+  "dominant_weekly_theme": "Non-Farm Payroll Week Trading Strategy",
+  "dominant_weekly_narrative": "The week, marked by the Non-Farm Payroll release and a transition between months, is expected to exhibit heightened volatility and uncertainty. ICT principles suggest approaching such a week with caution, potentially aiming to complete trading early in the week before the full impact of major economic releases, especially Non-Farm Payroll, materializes, and advises avoiding NFP releases directly.",
+  "weekly_delivery_model": "Early Week Positioning and Setup, followed by Mid-Week Delivery, and concluding with Friday NFP Volatility and Caution.",
+  "expected_weekly_high_day": "INSUFFICIENT_EVIDENCE",
+  "expected_weekly_low_day": "INSUFFICIENT_EVIDENCE",
+  "expected_expansion_day": "INSUFFICIENT_EVIDENCE",
+  "expected_distribution_day": null,
+  "todays_catalysts": [
+    {
+      "event_id": "forexfactory:aa584cc9938b",
+      "title": "MPC Member Greene Speaks",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-05-31T12:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:63d1e4ab8611",
+      "title": "FOMC Member Waller Speaks",
+      "category": "RATES",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-05-31T12:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:2eeefdd7bd30",
+      "title": "Bank Holiday",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-05-31T20:00:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "16:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:1f3002d86086",
+      "title": "Capital Spending q/y",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-05-31T23:50:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "19:50",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:175c1ee2c96f",
+      "title": "Final Manufacturing PMI",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-06-01T00:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "20:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "FOMC Member Powell Speaks",
+      "title": "FOMC Member Powell Speaks",
+      "scheduled_time_utc": "2026-06-01T00:30:00.000Z",
+      "expected_effect": "ACCUMULATION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "20:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:dff9cfa07f64",
+      "title": "MI Inflation Gauge m/m",
+      "category": "CPI",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-06-01T01:00:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "21:00",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:68b74218d713",
+      "title": "ANZ Job Advertisements m/m",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-06-01T01:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "21:30",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:38ea0192c6d8",
+      "title": "RatingDog Manufacturing PMI",
+      "category": "OTHER",
+      "impact": "LOW",
+      "scheduled_time_utc": "2026-06-01T01:45:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-05-31",
+      "market_weekday": "Sunday",
+      "market_time_hhmm": "21:45",
+      "session_tags": [
+        "after_hours"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "Catalyst Context",
+      "confidence": 0.6
+    }
+  ],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "event-driven repricing",
+      "liquidity sensitivity around scheduled releases"
+    ],
+    "expected_liquidity_sequence": [
+      "08:30 MPC Member Greene Speaks",
+      "08:30 FOMC Member Waller Speaks",
+      "16:00 Bank Holiday",
+      "19:50 Capital Spending q/y",
+      "20:30 Final Manufacturing PMI",
+      "20:30 FOMC Member Powell Speaks",
+      "21:00 MI Inflation Gauge m/m",
+      "21:30 ANZ Job Advertisements m/m",
+      "21:45 RatingDog Manufacturing PMI"
+    ],
+    "high_attention_windows": [
+      "new_york_killzone",
+      "ny_0830_macro"
+    ],
+    "expected_displacement_windows": [
+      "new_york_killzone",
+      "ny_0830_macro"
+    ],
+    "expected_reversal_windows": [
+      "10:00"
+    ]
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "weekly_model:Early Week Positioning and Setup, followed by Mid-Week Delivery, and concluding with Friday NFP Volatility and Caution.",
+      "dominant_theme:Non-Farm Payroll Week Trading Strategy",
+      "catalyst:MPC Member Greene Speaks",
+      "time:08:30",
+      "killzone:new_york_killzone",
+      "killzone:ny_0830_macro",
+      "catalyst:FOMC Member Waller Speaks",
+      "catalyst:Bank Holiday",
+      "time:16:00"
+    ],
+    "queries": [
+      "Sunday daily profile ICT weekly delivery model",
+      "Sunday Non-Farm Payroll Week Trading Strategy profile",
+      "Bank Holiday 16:00 New York ICT profile",
+      "FOMC Member Waller Speaks 08:30 New York ICT profile",
+      "MPC Member Greene Speaks 08:30 New York ICT profile",
+      "Bank Holiday LOW liquidity behavior",
+      "FOMC Member Waller Speaks LOW liquidity behavior",
+      "MPC Member Greene Speaks LOW liquidity behavior",
+      "FOMC Member Waller Speaks new york killzone New York",
+      "FOMC Member Waller Speaks ny 0830 macro New York"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_1927",
+      "chunk_3799",
+      "chunk_946",
+      "chunk_2917",
+      "chunk_917",
+      "chunk_3006",
+      "chunk_3048",
+      "chunk_279",
+      "chunk_3891",
+      "chunk_1865",
+      "chunk_1078",
+      "chunk_3246",
+      "chunk_3049",
+      "chunk_1",
+      "chunk_1609",
+      "chunk_4088",
+      "chunk_1043",
+      "chunk_1209",
+      "chunk_3863",
+      "chunk_1944",
+      "chunk_1945",
+      "chunk_899",
+      "chunk_260",
+      "chunk_477",
+      "chunk_1602",
+      "chunk_537",
+      "chunk_3822",
+      "chunk_4071",
+      "chunk_3820",
+      "chunk_469",
+      "chunk_281",
+      "chunk_473",
+      "chunk_704",
+      "chunk_4214",
+      "chunk_3001",
+      "chunk_1082",
+      "chunk_494",
+      "chunk_138",
+      "chunk_3929",
+      "chunk_3254",
+      "chunk_888",
+      "chunk_1419",
+      "chunk_1351",
+      "chunk_1349",
+      "chunk_2921",
+      "chunk_3560",
+      "chunk_394",
+      "chunk_3674",
+      "chunk_174",
+      "chunk_3523"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "NFP week strategy and aim to complete trading by Wednesday.",
+        "chunk_id": "chunk_279",
+        "relevance": null
+      },
+      {
+        "concept": "Avoidance of trading on days with significant news events like Non-Farm Payroll (NFP).",
+        "chunk_id": "chunk_3006",
+        "relevance": null
+      },
+      {
+        "concept": "Specific instruction to avoid trading London session on NFP Friday.",
+        "chunk_id": "chunk_3048",
+        "relevance": null
+      },
+      {
+        "concept": "Reduced precision and increased risk during NFP week.",
+        "chunk_id": "chunk_3891",
+        "relevance": null
+      },
+      {
+        "concept": "Necessity to refer to the economic calendar during the preparation stage for the coming week.",
+        "chunk_id": "chunk_917",
+        "relevance": null
+      },
+      {
+        "concept": "Bank holidays impact markets and can cause consolidation days.",
+        "chunk_id": "chunk_3246",
+        "relevance": null
+      },
+      {
+        "concept": "General guidance on developing a weekly profile.",
+        "chunk_id": "chunk_3799",
+        "relevance": null
+      },
+      {
+        "concept": "General trading restrictions around high-impact events.",
+        "chunk_id": "chunk_1078",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Sunday serves as a critical preparation and analysis day for the upcoming Non-Farm Payroll week, which is characterized by heightened volatility, uncertainty, and a transition between months. The primary daily objective is to meticulously review the economic calendar for the week ahead and to formulate a cautious weekly trading plan that emphasizes early-week positioning and avoids direct engagement with the NFP release.",
+    "key_if_then_paths": [
+      "IF today is Sunday, THEN focus on comprehensive economic calendar review and strategic planning for the week ahead, rather than active trading.",
+      "IF it is early in the NFP week (Monday-Wednesday), THEN prioritize identifying potential setups and positioning opportunities, aiming to complete trading before the full impact of major economic releases.",
+      "IF it is late in the NFP week (Thursday-Friday, especially NFP Friday), THEN significantly reduce or completely avoid active trading due to increased risk, reduced precision, and heightened volatility."
+    ],
+    "invalidation_conditions": [
+      "No active trading invalidation conditions for Sunday as markets are generally closed or illiquid.",
+      "For the weekly NFP strategy: Any early-week market directional conviction that strongly contradicts the anticipated cautious, NFP-driven model (e.g., unexpected low volatility or clear directional trends that negate the NFP uncertainty)."
+    ]
+  },
+  "intraday_awareness": {
+    "session_focus": [
+      "Pre-market analysis and comprehensive economic calendar review for the upcoming NFP week.",
+      "Observation of initial Asian session activity for Monday's open, but without active trading."
+    ],
+    "catalyst_priorities": [
+      "MPC Member Greene Speaks",
+      "FOMC Member Waller Speaks",
+      "Bank Holiday",
+      "Capital Spending q/y",
+      "Final Manufacturing PMI",
+      "FOMC Member Powell Speaks",
+      "MI Inflation Gauge m/m",
+      "ANZ Job Advertisements m/m",
+      "RatingDog Manufacturing PMI"
+    ],
+    "caution_flags": [
+      "Upcoming Non-Farm Payroll (NFP) release later in the week.",
+      "Month transition (end of May to beginning of June).",
+      "Bank Holiday listed for today (Sunday), potentially impacting early week liquidity.",
+      "General expectation of heightened volatility and uncertainty for the entire NFP week.",
+      "Reduced precision and increased execution risk during NFP week, particularly around the NFP event itself."
+    ],
+    "execution_risk_context": "No execution risk for Sunday as active trading is not recommended due to market closure and illiquidity. For the upcoming NFP week, anticipate significantly increased execution risk, heightened volatility, and reduced precision, especially from Thursday onwards. This context reinforces the strategic imperative to complete trading activity early in the week."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-01T03:55:47.306Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-01T03:56:09.768Z",
+  "version": 1
+}

@@ -1,0 +1,1191 @@
+[
+  {
+    "chunk_id": "chunk_3055",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidations",
+          "a consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retail traders",
+          "looking for breakouts",
+          "cause and effect: 'if it does this then I'll understand that'"
+        ],
+        "narrative_roles": [
+          "AVOIDANCE_STRATEGY",
+          "LIQUIDITY_SOURCE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKOUT_FAILURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fade breakouts",
+          "fades that very thing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_PRICE_ACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "IPA trades to a specific key level"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_MARKET_MECHANICS",
+          "PRICE_DELIVERY_ALGORITHM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_CONFIRMATION",
+          "VALIDATION_OF_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "specific key level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FUNDAMENTAL DIFFERENCES",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3056",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "open float",
+          "buildup of orders above and below",
+          "buy stops",
+          "sell stops",
+          "more orders they're allowing to build up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_POOLS",
+          "TARGETING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_BEHAVIOR_LIQUIDITY_GENERATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Retail traders buy the previous low and sell the previous high",
+          "traditions of technical analysis",
+          "classical support resistance",
+          "Buy under an old low and selling above an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_CONTEXT",
+          "SOURCE_OF_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "sideways consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_PHASE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPEN FLOAT",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3057",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "long phase of consolidation",
+          "inside that consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ORDER BUILDUP AND LIQUIDITY BRACKETING",
+          "Orders are being allowed to stack up",
+          "breakout orders",
+          "trailed stop-loss orders",
+          "Stop orders that would key up an entry",
+          "near-term open float",
+          "open interest above the marketplace starts to concentrate",
+          "open interest below the marketplace will begin to concentrate",
+          "liquidity basically bracketing the market price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_ZONE",
+          "ORDER_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER BUILDUP AND LIQUIDITY BRACKETING",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3058",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ALIGNMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "SUBORDINATION OF LOWER TIME FRAMES TO HIGHER TIME FRAME ORDER FLOW",
+          "subordination to that in terms of price action",
+          "Whatever the direction of Daily or Four Hour is, that's going to be the direction of the move"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING",
+          "FRAMEWORK_PRINCIPLE"
+        ],
+        "temporal_tags": [
+          "Daily",
+          "Four Hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Daily and/or Four Hour order flow",
+          "direction of Daily or Four Hour",
+          "Daily and/or Four Hour is bearish",
+          "Daily and Four Hour order flow is bullish",
+          "Daily or Four-Hour order flow is bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "Daily",
+          "Four Hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price moves above the consolidation (take out an old high)",
+          "moves below the consolidation",
+          "accumulating the sell stops",
+          "move above the consolidation above an old high",
+          "knocking out buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money accumulating the sell stops",
+          "smart money knocking out buy stops and accumulating short positions"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACTION",
+          "LIQUIDITY_ENGINEERING",
+          "ACCUMULATION",
+          "DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "trading in the consolidation",
+          "moves below the consolidation",
+          "move above the consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_POOL_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retail crowd",
+          "chasing price"
+        ],
+        "narrative_roles": [
+          "CONTRA_INDICATOR",
+          "LIQUIDITY_GENERATOR_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUBORDINATION OF LOWER TIME FRAMES TO HIGHER TIME FRAME ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3059",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "EQUILIBRIUM",
+          "equilibrium price point",
+          "At the equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXTUALIZATION",
+          "MARKET_STATE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "PREMIUM",
+          "DISCOUNT",
+          "premium and discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXTUALIZATION",
+          "VALUE_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATIONS",
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity is going to be just below that high",
+          "liquidity resting above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDERFLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPLY_ZONE",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOPS",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "ORDERFLOW_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EQUILIBRIUM, PREMIUM, AND DISCOUNT IN CONSOLIDATIONS",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3060",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH ORDER FLOW"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clearly definable consolidation",
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_FORMATION",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rally above a clearly definable consolidation",
+          "bullish breakout",
+          "rally outside of that consolidation",
+          "selling that breakout"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP_FOR_RETAIL",
+          "ENTRY_OPPORTUNITY_FOR_SMART_MONEY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money (mimicked by us)",
+          "We"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "LIQUIDITY_ENGINEERING_ACTOR",
+          "COUNTERPARTY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ALIGNMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame (Daily or Four Hour) order flow will cause the lower time frames to be subordinate"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "MULTI_TIME_FRAME_ANALYSIS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3061",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily or Four Hour order flow is bullish",
+          "bullish order flow",
+          "Daily and/or Four Hour is in a bullish order flow"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "range or the consolidation",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low",
+          "same equal low",
+          "previous short-term low",
+          "stop loss just below that previous short-term low",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "RETAIL_TRAP_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "price trades down below the previous low outside of the consolidation",
+          "buying up those sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money (mimicked by us)",
+          "We anticipate this",
+          "looking to be a buyer"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Retail Traders",
+          "Anticipate traders seeing an old low",
+          "They're treating the old low as classic support and resistance"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_BEHAVIOR",
+          "LIQUIDITY_PROVIDER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low-risk, high-probability entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ORDER FLOW & SMART MONEY ACCUMULATION",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3062",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "middle of what we deem as fair value",
+          "equilibrium price point",
+          "middle of the range"
+        ],
+        "narrative_roles": [
+          "REVERSION_TO_MEAN",
+          "FAIR_VALUE_REFERENCE",
+          "CONSOLIDATION_CENTER",
+          "ENTRY_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RETURN TO EQUILIBRIUM",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3063",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Daily or Four Hour order flow is bearish",
+          "bearish order flow",
+          "institutional order flow from a Daily and/or Four Hour chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium price point",
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "breaks a short-term high",
+          "short-term high broken",
+          "rally above that",
+          "accumulation on buy stops",
+          "run the buy stops",
+          "run on buy stops from a short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "DECEPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_MISCONCEPTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'breaking structure'"
+        ],
+        "narrative_roles": [
+          "DECEPTION",
+          "LIQUIDITY_PROVISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smart Money (mimicked by us)",
+          "institutional order flow",
+          "pairing orders just like the smart money does at the bank level"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "BIAS_DETERMINATION",
+          "INTERBANK_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity resting below the previous low",
+          "sell stops resting below an old low"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_CONSUMPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_EXECUTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ideal entry point for shorts",
+          "look to go short",
+          "We're pairing orders",
+          "cover our short"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELLING EXPANSIONS ABOVE EQUILIBRIUM",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3064",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "expansion lower that breaks below an old short-term low",
+          "move that breaks that short-term low",
+          "run on sell stops",
+          "run on that short-term low",
+          "snaps up short-term sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pool for sell stops",
+          "sell side liquidity",
+          "buy stops that are resting above the old consolidation high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "STOP_LOSS_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "EQUILIBRIUM",
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "DISCOUNT_PREMIUM_DELINEATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Daily or Four Hour is bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONTEXT",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money (mimicked by us)",
+          "bank traders"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "MODEL_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BUYING EXPANSIONS BELOW EQUILIBRIUM",
+          "fade that whole move",
+          "buy the market long"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY",
+          "COUNTER_TREND_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_VALUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_MARKET_STRUCTURE_PERCEPTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breaking support",
+          "a 'break in market structure'",
+          "selling short on weakness"
+        ],
+        "narrative_roles": [
+          "FALSE_SIGNAL",
+          "LIQUIDITY_GENERATOR",
+          "MISINTERPRETATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "inside of a consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "LIQUIDITY_BUILDUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion lower",
+          "move outside of the consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "TREND_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUYING EXPANSIONS BELOW EQUILIBRIUM",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3065",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIME FRAME BIAS",
+          "Daily or Four Hour order flow (bullish or bearish)",
+          "bullish/bearish bias",
+          "Daily and Four Hour direction bias",
+          "directional bias",
+          "daily bias"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_BIAS",
+          "FILTERING_TRADES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order flow (bullish or bearish)",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_INDICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "TARGET_AREA",
+          "BIAS_DETERMINATION",
+          "PRICE_LEVEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidations",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "SETUP_FORMATION",
+          "TRADING_ENVIRONMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term low",
+          "Asian session low",
+          "previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ENTRY_REFERENCE",
+          "MARKET_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "previous day's low"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PD_MATRIX",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD Matrix"
+        ],
+        "narrative_roles": [
+          "PRICE_ANALYSIS_TOOL",
+          "BIAS_DETERMINATION",
+          "MARKET_CONDITION_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount or premium market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "CONTEXT_SETTING",
+          "TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAY TRADING CONSOLIDATIONS WITH HIGHER TIME FRAME BIAS",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3066",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "directional bias arrived at from a Daily chart or a Four Hour chart",
+          "Daily and Four Hour for day trades to give us the high probability directional play"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING",
+          "TRADE_FILTER"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "FOUR_HOUR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Any consolidation",
+          "trading in consolidations",
+          "old lows of the consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "TRADE_ENVIRONMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Any short-term low that's violated below the equilibrium",
+          "Any move below the old lows of the consolidation, we anticipate that as a run on sell side liquidity",
+          "run the sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_PAIRING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pair those up with their buying"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_MECHANISM",
+          "INSTITUTIONAL_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seeking that liquidity like the banks do"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_HUNTING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seeking that liquidity like the banks do"
+        ],
+        "narrative_roles": [
+          "STRATEGY",
+          "LIQUIDITY_ENGINEERING",
+          "INSTITUTIONAL_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAY TRADING CONSOLIDATIONS WITH HIGHER TIME FRAME BIAS",
+      "source_file": "ICT Mentorship Core Content - Month 09 -  Trading In Consolidations_Handbook.chunks.json"
+    }
+  }
+]

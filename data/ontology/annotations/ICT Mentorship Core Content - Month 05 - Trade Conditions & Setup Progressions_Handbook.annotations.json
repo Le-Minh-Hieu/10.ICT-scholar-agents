@@ -1,0 +1,630 @@
+[
+  {
+    "chunk_id": "chunk_2614",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT ENTRY OBJECTIVES",
+          "buying at a discount",
+          "down at discount",
+          "premium objectives",
+          "premium arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_OPTIMIZATION",
+          "TARGET_IDENTIFICATION",
+          "PRICE_CONTEXT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH PD ARRAYS",
+          "bullish PD Arrays",
+          "list of arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE_IDENTIFICATION",
+          "PRICE_CONTEXT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_POSITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "long positions"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCOUNT ENTRY OBJECTIVES (BULLISH PD ARRAYS)",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2615",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "any range to be filled in for a liquidity void",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE",
+          "IMBALANCE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "premium range"
+        ],
+        "narrative_roles": [
+          "ZONE_OF_INTEREST",
+          "TARGET_AREA",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order blocks"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "rejection blocks"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old highs",
+          "old historic lows"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish PD arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly premium arrays"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "OBJECTIVE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROGRESSION OF TARGETING PREMIUM OBJECTIVES FROM DISCOUNT",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2616",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish PD arrays"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "SUPPORT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_LOGIC",
+        "confidence": 1,
+        "surface_terms": [
+          "selling at a premium",
+          "buying back at a discount"
+        ],
+        "narrative_roles": [
+          "TRADE_PRINCIPLE",
+          "OPTIMAL_ENTRY_CRITERIA",
+          "OPTIMAL_EXIT_CRITERIA",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH SCENARIO (BRIEF OVERVIEW)",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2617",
+    "concepts": [
+      {
+        "canonical": "PRICE_PREMIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "TRADING_CONTEXT",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium",
+          "at equilibrium"
+        ],
+        "narrative_roles": [
+          "TRADING_CONTEXT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly PD arrays",
+          "PD arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly discount",
+          "discount"
+        ],
+        "narrative_roles": [
+          "TRADING_CONTEXT",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion to the upside or downside",
+          "expansion"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure on the monthly chart",
+          "market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADING_CONTEXT"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXPANSION OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2618",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.75,
+        "surface_terms": [
+          "JAPANESE YEN CASH PRICE VS. USD/JPY",
+          "Dollar Index is the front currency and the Japanese Yen is the second",
+          "if we're bearish or expecting lower prices on Japanese Yen cash prices, the USD/ JPY pair will actually be inverted; it's going to go up",
+          "If Japanese Yen cash price is dropping, that means Dollar prices are rallying, and if the Dollar is first in the pair name (USD/JPY), then you're watching the advancement of the Dollar versus the decline of the Japanese Yen"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JAPANESE YEN CASH PRICE VS. USD/JPY",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2619",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal lows where sell stops would be expected"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_POINT",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equilibrium price point"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "FAIR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium high end",
+          "discount low end",
+          "discount level"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "ENTRY_CRITERIA_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "leaving a gap where price was only delivered on the upside, with no down movement to counteract"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIG_FIGURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "big figure 99"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_LEVEL",
+          "SUPPORT_RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY CHART ANALYSIS:",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2620",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "down candle that acts as a breaker",
+          "old high",
+          "short sellers would place buy stops",
+          "down candle is violated",
+          "valid breaker",
+          "middle body",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY_LEVEL"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rallied above",
+          "cleared out those buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gap where price was only delivered on the downside between a candle's low and a subsequent candle's high",
+          "gap",
+          "gap would be a reasonable objective"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY BREAKER AND GAP IDENTIFICATION (USD/JPY)",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2621",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAP",
+          "gap here",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ORDER BLOCK",
+          "down candle right before that move",
+          "bullish order block",
+          "old weekly bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "SUPPORT_LEVEL",
+          "REACCUMULATION_ZONE",
+          "RE-ENTRY_POINT",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "deep in a discount on the range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POINT_OF_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "November low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [
+          "HISTORICAL_REFERENCE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AND BULLISH ORDER BLOCK (USD/JPY)",
+      "source_file": "ICT Mentorship Core Content - Month 05 - Trade Conditions & Setup Progressions_Handbook.chunks.json"
+    }
+  }
+]

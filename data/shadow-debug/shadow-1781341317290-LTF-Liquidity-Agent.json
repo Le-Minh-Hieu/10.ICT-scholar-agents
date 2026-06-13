@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-06-13T09:01:57.290Z",
+  "agentType": "LTF-Liquidity-Agent",
+  "currentCallId": "LTF-Liquidity-Agent-LTF-Liquidity-Agent-1781341241987-41",
+  "prompt": "## ROLE\nYou are an ICT LTF liquidity analysis system.\n\n## TASK\nIdentify micro liquidity: sweeps (stop hunts) and inducement (liquidity traps).\n\n## PROBABILISTIC CONTEXT ANCHOR (FROM H4)\n- Suggested Bias: suggests_bearish (Confidence: 0.85)\n- Summary: The H4 timeframe currently suggests a bearish pullback, characterized by recent market structure shifts and price trading within the premium zone of its intermediate dealing range. This bearish movement is interpreted as a correction against the overarching daily bullish retracement, aiming to sweep deeper sell-side liquidity targets (e.g., 1.15000-1.14900) before a potential reversal to align with the daily's expected move higher towards 1.16399-1.16551.\n- Key Anchors: H4/H1/M15 Bearish Market Structure Shifts, ITF Dealing Range Premium Zone (current price around 1.1569 relative to 1.1558 equilibrium), H4 Bullish Order Block / Discount Zone (1.1470-1.1490), Sell-Side Liquidity (SSL) targets around 1.15242 and 1.15000-1.14900, Daily Buy-Side Liquidity (BSL) targets at 1.16399 (EQH) and 1.16551 (SS) (ultimate targets after pullback)\n- Shift Conditions: This bearish H4 pullback thesis would be invalidated if price exhibits a clear bullish Market Structure Shift on the M15/M5 timeframes *before* reaching the anticipated sell-side liquidity targets around 1.15000-1.14900. Conversely, the overarching HTF bullish retracement thesis would be invalidated if price decisively breaks below the March 2024 EURUSD Daily Swing Low of 1.13880 without first exhibiting a strong bullish reversal pattern.\n\nIMPORTANT: This is a contextual anchor, NOT an absolute truth. Look for evidence that aligns with this anchor, but also actively seek signals that might indicate a local reversal or retracement against it.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the LIVE ICT liquidity observations based on the provided charts (EURUSD M15, M5, M1):\n\n1.  **Micro Buy-side Liquidity (BSL) Pools**:\n    *   **M15:** Significant resting BSL exists above the swing highs around 1.15900 (formed on 13th 16:00 and 14th 03:45).\n    *   **M15/M5:** Equal Highs (EQH) around 1.15780 (13th 15:30 & 14th 00:30) represent a clear BSL pool.\n    *   **M5:** Resting BSL is present above the recent swing high at 1.15750 (14th 14:00).\n    *   **M1:** Immediate resting BSL lies above the recent swing high at 1.15690 (14th 16:50).\n\n2.  **Micro Sell-side Liquidity (SSL) Pools**:\n    *   **M15:** A significant resting SSL pool lies below the swing low at 1.15180 (from 12th).\n    *   **M15/M5:** Equal Lows (EQL) around 1.15600 (formed by lows on 14th 05:00 and 08:00) represent a key SSL target below current price.\n    *   **M5:** Resting SSL is found below the recent swing low at 1.15660 (14th 16:40).\n    *   **M1:** Immediate resting SSL is below the low at 1.15640 (around 14th 17:00 current candles).\n\n3.  **Liquidity Sweeps & Stop Hunts**:\n    *   **M15/M5:** A major SSL sweep occurred below the low at 1.15480 (13th 08:30) around 13th 09:45, leading to a strong bullish reversal (Sell-Side Liquidity Sweep, Turtle Soup).\n    *   **M15/M5:** A BSL sweep occurred above the high at 1.15900 (13th 16:00) around 14th 03:45, followed by a strong bearish reversal (Turtle Soup).\n    *   **M1:** BSL above 1.15770 (14th 14:40 high) was swept around 14:45-14:50, resulting in a sharp downward move.\n    *   **M1:** BSL above 1.15700 (14th 16:25 high) was swept around 16:30, followed by continued bearish movement.\n    *   **M1:** SSL below 1.15660 (14th 16:40 low) was swept around 16:55; however, price continued downwards without a significant reversal, suggesting continuation to lower SSL targets.\n\n4.  **Inducements**:\n    *   **M5:** The minor swing low around 1.15700 (14th 09:00) likely acted as an inducement for early buyers before price headed lower towards the 1.15600 EQL.\n    *   **M1:** The minor swing high at 1.15710 (14th 15:55) served as an inducement before price swept higher BSL at 1.15700 (16:25) and then continued lower.\n    *   **M1:** The minor swing low at 1.15670 (14th 16:40) could be an inducement for early sellers, potentially trapping them before price sweeps deeper SSL (e.g., the 1.15600 EQL).\n\n5.  **Liquidity Voids & Delivery Gaps**:\n    *   **M15/M5:** A significant liquidity void exists from approximately 1.15100 up to 1.15400 following the sharp bullish move on 13th 10:00-11:00, which price has not yet fully re-traced into.\n    *   **M1:** A recent liquidity void is present from 1.15750 down to 1.15700 (14th 14:50-14:55).\n    *   **M1:** A fresh liquidity void is currently forming from 1.15670 down to 1.15650 (14th 16:50-17:00), which could act as a magnet for future retrace.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_209]\nIDENTIFYING LIQUIDITY LEVELS\nSo we're going to drop down into a 15-minute time frame. So that same old low level down here and that high I just mentioned on the hourly chart and the low on the hourly chart has now been defined with a small little line segment. So we have a trend line here and a trend line here. That's the extent of a trend line, that's it. I only use them to highlight to my students these levels; these are not on my chart, I'm While you're developing, you should have these levels drawn out in your chart because it helps you build and ingrain the idea that this is where liquidity is. It keeps you focused on that, because it's easy to look at all these candles forming if you have the luxury of watching it in live, and you can lose sight of where you are. And once you lose your bearings, it's really confusing, and this helps you keep those bearings in mind.\n\n[CHUNK_ID:chunk_1185]\nBUY-SIDE LIQUIDITY ABOVE RELATIVE EQUAL HIGHS\nJust the opposite of what is observed at lows, resting above relative equal highs are buy stops. Anyone who went short would protect their bearish position with a buy stop. Any movement above these highs would trigger buy stops on shorts. Some traders also see these levels as resistance; if it breaks, they would perceive it as bullish. This constitutes the closest draw on liquidity that is opposing. Price gravitates towards this level, acting like a magnet, to attack and absorb the liquidity which rests in the form of buy stops.\n\n[CHUNK_ID:chunk_4105]\nLIQUIDITY DRIVEN MOVEMENT\nThe entire setup and observed price action is fundamentally based on the liquidity resting below the previous day's low. It is crucial to understand that the Fibonacci tool itself is not the 'magic' or the reason why price is moving to these levels. Fibonacci has absolutely nothing to do with the underlying reasons for The core reason price moves down is the market's intention to seek that resting liquidity. It is important to note that the market does not always achieve this in a single, direct run. It can take several passes to get down to the target liquidity, as demonstrated in this example. After reaching the target, a retracement was observed, and it is anticipated that price might return to grab the 'tape' back to the low of May 12th.\n\n[CHUNK_ID:chunk_204]\nIDENTIFYING LIQUIDITY POOLS\nSo the only thing you're looking for is a likely movement higher or lower based on the weekly candle. That's all you're doing; that sets your initial bias for the week. On the daily chart, you're looking for swing highs and swing lows to get your liquidity, and the majority of your trading and the draw on liquidity (what makes the market go higher or lower) is predominantly found on this time frame. So, the majority of your analysis should really be linked to this time frame right here. You have to have an assumption whether you're going to be expecting that weekly candle to expand higher or lower that's your weekly bias. But then you have to go into the daily chart and figure out basically where you are in the grand scheme of things on that weekly range expanding higher or lower. Because we're looking for lower prices and we're looking for weakness, the expectation is we want to see every short-term low, like this would be a short-term low, this would be a short-term low, and underneath those lows, there's going to be sell stops. That's liquidity.\n\n[CHUNK_ID:chunk_256]\nDISPLACEMENT LEG AND LOWER TIMEFRAME PREMIUM\nIf you look at this displacement leg, you might measure it and say it didn't go to a premium. I don't expect it to go to a premium here because the market is in a hurry to get down below the 3855 level for the week. Let's go one more time into the lower timeframe, actually the first time going into the lower timeframe, scrubbing back to here. Here is that return into the Fair Value Gap. When it does this, I'm looking for it to move quickly away and start gravitating towards the other pool of liquidity down here.\n\n[CHUNK_ID:chunk_1038]\nLIQUIDITY AND BEARISH BREAKER\nIn the 15-minute time frame, we had a buy side liquidity pool here, as I mentioned, relative equal highs. The market traded above that and then once more here. We talked about that live on Twitter. Inside of that run, from the high, low, higher high, down closed candle here We will roll it back into the morning session right after the 9:30 opening. Note this discount Wick consequent encroachment beautiful delivery there. The Fair Value Gap that was on the hourly chart doesn't look so much like an imbalance on the 15-minute We can see how we touched that bullish breaker here again. Go back through the video, screenshot your charts from the video playback and transpose that to your own charts, and then you will see what it is that I'm showing you here. It'll be much more meaningful should you do it on your charts, not just looking at mine, especially by watching tomorrow's live price action.\n\n## INPUT CONTEXT\nLTF Liquidity Analysis (M15 -> M5 -> M1)\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Apply HTF + ITF context to grounded knowledge, 2. Analyze chart (identify sweeps and inducement), 3. Classify, 4. Validate with HTF\n- HTF CONTEXT (HARD BIAS): {\"htf_bias\":\"bullish\",\"next_candle_bias\":\"bullish\",\"confidence\":0.75,\"dominant_factors\":[\"Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)\",\"Price located in a discount zone according to the PD Array agent\",\"DXY daily candle observed as a small bearish inside bar, suggesting a short-term pause in DXY's bullish momentum\",\"Underlying DXY Monthly and Weekly bullish trend, suggesting an overall bearish macro context for EUR/GBP, making the current bullish move a retracement\",\"Weekly Profile's macro bias is bearish\"],\"reasoning\":\"The HTF bias is determined by synthesizing insights from structure, macro, liquidity, and PD array agents.\\n\\n1.  **Primary Bias Formation:** The `structure` agent, despite having conflicting bullish (Monthly BOS) and bearish (Weekly/Daily BOS) anchors, explicitly highlights a 'Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)'. This divergence is a strong technical signal for a potential upward movement. However, the `macro` agent indicates strong bullish momentum for DXY on both Monthly and Weekly timeframes, and the `weekly_profile` explicitly states a 'macro_bias: bearish' for EUR/GBP. This establishes an overarching bearish macro trend for EUR/GBP. Given the bullish SMT divergence, the primary bias for the immediate HTF is a bullish retracement against this stronger bearish macro trend.\\n\\n2.  **Confirm with Liquidity:** The `liquidity` agent reports `liquidity_context: {above: true, below: true}`, indicating the presence of liquidity targets in both directions. While it doesn't definitively confirm the direction, it ensures that there are liquidity pools available for a bullish retracement to target, which is consistent with the primary bias of an upward move. The `internal_conflict: true` in the liquidity agent suggests balanced liquidity, not opposing a short-term retracement.\\n\\n3.  **Use PD Array for Context:** The `pd_array` agent states that price is currently in a `discount` zone. For an asset within an overall bearish trend, a price in a discount zone, especially when coupled with a bullish divergence like an SMT, is a highly probable area for smart money to initiate buying for a retracement back towards equilibrium or premium levels.\\n\\n**Conclusion:** The combination of a 'Bullish SMT divergence' (structure) signaling a potential reversal or strong retracement, price being in a 'discount' zone (PD Array) making it attractive for buyers, and the DXY's 'Daily small bearish inside bar' (macro) suggesting a temporary pause in USD strength, collectively points to a bullish expectation for the HTF and the next candle. This bullish movement is interpreted as a retracement within the broader bearish macro context for EUR/GBP.\"}\n- ITF CONTEXT (NARRATIVE): {\"itf_bias\":\"bullish\",\"entry_bias\":\"none\",\"setup_type\":\"pullback\",\"confidence\":0.7,\"dominant_factors\":[\"HTF bias for EURUSD is a bullish retracement, supported by PCA (Confidence: 0.7) and the HTF agent (Confidence: 0.75), driven by a daily discount zone, liquidity void, consolidating DXY, and bullish SMT divergence.\",\"ITF Liquidity agent indicates recent Sell-Side Liquidity (SSL) sweeps initiated a strong bullish reversal and identifies significant Buy-Side Liquidity (BSL) targets above, aligning with the HTF bullish retracement.\",\"ITF PD Array agent determines current price is in a 'premium' zone for the H4/H1 dealing range, suggesting a potential short-term pullback within the broader bullish retracement.\",\"ITF Setup agent identifies the current market condition as a 'pullback' (setup_type: pullback, probabilistic_state: pullback) but provides no clear 'directional_bias' for an immediate entry (directional_bias: none), along with high retracement risk and internal conflict.\",\"ITF Structure agent shows internal conflict and, despite a bearish directional bias, explicitly acknowledges the HTF bullish retracement context from the PCA.\"],\"reasoning\":\"1.  **HTF Context & Overall Direction:** The Probabilistic Context Anchor (PCA) clearly suggests a `bullish retracement` for EURUSD (Confidence: 0.7), citing a discount zone, liquidity void, consolidating DXY, and a bullish SMT divergence. The dedicated HTF agent strongly reaffirms this `bullish` bias (Confidence: 0.75) for the Higher Time Frame.\\n2.  **ITF Liquidity Alignment:** The Liquidity agent's analysis aligns with the HTF bullish view, reporting recent sweeps of Sell-Side Liquidity (SSL) that initiated a 'strong bullish reversal' and identifying multiple Buy-Side Liquidity (BSL) targets above the current price. This indicates potential upward movement to fill these targets.\\n3.  **ITF PD Array Conflict & Context:** The PD Array agent states that, based on its calculated H4/H1 dealing range, the current price is in a `premium` zone. This contradicts the PCA's assessment of a daily `discount` zone, indicating a difference in the active dealing ranges being observed. For an Intermediate Time Frame, being in a premium zone often precedes a short-term pullback (downwards) to find better discounted entry points within a larger bullish trend.\\n4.  **ITF Structure Agent Interpretation:** The Structure agent reports a `bearish` directional bias but explicitly mentions in its reasoning the 'HTF Bias Context (from PCA): The HTF bias for EURUSD is `bullish`'. It also notes `internal_conflict: true`. This indicates the Structure agent recognizes the overarching bullish retracement narrative despite its immediate bearish structural observations, diminishing the strength of its local bearish bias.\\n5.  **Setup Agent Dominance & Entry Decision:** The Setup agent, which is prioritized for execution, identifies the current market condition as a `pullback` (setup_type: pullback) with a `probabilistic_state: pullback`. Crucially, it provides a `directional_bias: none` and reports `internal_conflict: true` and `retracement_risk: high`. According to the constraints ('If setup exists → trust setup' and 'If no setup → entry_bias = none'), if the setup itself does not provide a clear directional bias, then the `entry_bias` must be `none`.\\n6.  **Final Resolution:** The overall `itf_bias` is `bullish` in line with the strong HTF retracement thesis. However, the presence of an ITF `premium` zone and the `setup` agent explicitly identifying a `pullback` with `no directional bias` means that while the broader expectation is bullish, an immediate directional entry is not advisable. The market is currently undergoing a pullback phase, possibly to alleviate the premium or to find better discount before continuing the higher timeframe bullish retracement. Therefore, the `entry_bias` is `none`, indicating a waiting stance or a non-directional opportunity within the pullback.\"}\n- MUST reference HTF + ITF alignment in reasoning\n- MUST include price levels from the charts\n- If conflict with HTF → reduce confidence\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"sweeps\": [\"...\"],\n      \"inducement\": [\"...\"],\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning with HTF + ITF alignment\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 09:01:41 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Identify micro liquidity pools by observing swing highs (Buy-Side Liquidity) and swing lows (Sell-Side Liquidity) on lower timeframes, as these are magnets for price action.\",\n      \"chunk_id\": \"chunk_204\"\n    },\n    {\n      \"rule\": \"Recognize Buy-Side Liquidity (BSL) above relative equal highs or swing highs, where buy stops rest, attracting price to attack and absorb this liquidity, potentially leading to reversals or continuations.\",\n      \"chunk_id\": \"chunk_1185\"\n    },\n    {\n      \"rule\": \"Recognize Sell-Side Liquidity (SSL) below relative equal lows or swing lows, where sell stops rest, attracting price to attack and absorb this liquidity, potentially leading to reversals or continuations.\",\n      \"chunk_id\": \"chunk_204\"\n    },\n    {\n      \"rule\": \"Interpret liquidity-driven movements, understanding that price gravitates towards resting liquidity, and these movements may not always be direct, often involving multiple passes.\",\n      \"chunk_id\": \"chunk_4105\"\n    }\n  ],\n  \"sweeps\": [\n    \"**M15/M5 BSL Sweep (14th 03:45)**: Price swept Buy-Side Liquidity above the 1.15900 swing high (from 13th 16:00 and 14th 03:45), immediately followed by a strong bearish reversal, initiating the current H4 bearish pullback.\",\n    \"**M1 BSL Sweep (14th 14:45-14:50)**: Buy-Side Liquidity above the 1.15770 high (14th 14:40) was swept, leading to a sharp downward price movement, consistent with the ongoing bearish pullback.\",\n    \"**M1 BSL Sweep (14th 16:30)**: Buy-Side Liquidity above the 1.15700 high (14th 16:25) was swept, followed by continued bearish price action.\",\n    \"**M1 SSL Sweep (14th 16:55)**: Sell-Side Liquidity below the 1.15660 low (14th 16:40) was swept; however, instead of a reversal, price continued downwards, indicating strong bearish momentum and a drive towards deeper Sell-Side Liquidity targets.\"\n  ],\n  \"inducement\": [\n    \"**M5 Inducement (14th 09:00)**: The minor swing low around 1.15700 likely acted as an inducement, trapping early buyers before price continued its downward trajectory towards lower Sell-Side Liquidity targets (e.g., 1.15600 EQL).\",\n    \"**M1 Inducement (14th 15:55)**: The minor swing high at 1.15710 served as an inducement, potentially trapping early sellers, before price made a final sweep of Buy-Side Liquidity above 1.15700 (16:25 high) and then resumed its bearish move.\",\n    \"**M1 Potential Inducement (14th 16:40)**: The minor swing low at 1.15670, just prior to the 1.15660 SSL sweep, could be a current inducement for early buyers, trapping them as price continues to push lower towards the identified EQL at 1.15600.\"\n  ],\n  \"confidence\": 0.9,\n  \"references\": [\n    \"CHUNK_ID:chunk_209\",\n    \"CHUNK_ID:chunk_1185\",\n    \"CHUNK_ID:chunk_4105\",\n    \"CHUNK_ID:chunk_204\",\n    \"CHUNK_ID:chunk_256\",\n    \"CHUNK_ID:chunk_1038\"\n  ],\n  \"notes\": \"The analysis of micro liquidity fully aligns with the probabilistic context. The HTF CONTEXT indicates an overall `bullish retracement` for EURUSD (Confidence: 0.75). The H4 Probabilistic Context Anchor (PCA) suggests a `bearish pullback` (Confidence: 0.85) within this retracement, aiming for deeper SSL targets (1.15000-1.14900) as price is in a premium zone (1.1569 relative to 1.1558 equilibrium). The ITF CONTEXT further reinforces this, identifying a `pullback` as the current `setup_type` with `entry_bias: none` and `retracement_risk: high` due to price being in an ITF premium zone. \\n\\nConsistent with this short-term bearish pullback, recent market action shows several Buy-Side Liquidity (BSL) sweeps (e.g., above 1.15900, 1.15770, 1.15700) immediately preceding strong bearish moves. These sweeps effectively cleared overhead liquidity, allowing price to drive lower without immediate resistance, validating the bearish leg of the pullback. Furthermore, the recent Sell-Side Liquidity (SSL) sweep below 1.15660 (M1) did not result in a reversal but instead led to a continuation of the downward movement. This indicates that the market is currently committed to seeking lower liquidity, likely targeting the 1.15600 Equal Lows and eventually the H4 SSL targets mentioned in the PCA. The identified inducements (1.15700 M5, 1.15710 M1, 1.15670 M1) further support the bearish pullback thesis by trapping participants expecting reversals or continuations at minor levels, allowing Smart Money to move price towards larger liquidity pools. This observation aligns with the idea that 'the core reason price moves down is the market's intention to seek that resting liquidity' (CHUNK_ID:chunk_4105). All observed micro liquidity events support the current ITF pullback within the broader HTF bullish retracement.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.8328173581696107
+        }
+      ],
+      "createTime": "2026-06-13T09:01:20.103889Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "YBwtatGrBoK7wLUPh-jWwQU",
+      "usageMetadata": {
+        "promptTokenCount": 5262,
+        "candidatesTokenCount": 1387,
+        "totalTokenCount": 9147,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4488
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1387
+          }
+        ],
+        "thoughtsTokenCount": 2498
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Identify micro liquidity pools by observing swing highs (Buy-Side Liquidity) and swing lows (Sell-Side Liquidity) on lower timeframes, as these are magnets for price action.",
+          "chunk_id": "chunk_204"
+        },
+        {
+          "rule": "Recognize Buy-Side Liquidity (BSL) above relative equal highs or swing highs, where buy stops rest, attracting price to attack and absorb this liquidity, potentially leading to reversals or continuations.",
+          "chunk_id": "chunk_1185"
+        },
+        {
+          "rule": "Recognize Sell-Side Liquidity (SSL) below relative equal lows or swing lows, where sell stops rest, attracting price to attack and absorb this liquidity, potentially leading to reversals or continuations.",
+          "chunk_id": "chunk_204"
+        },
+        {
+          "rule": "Interpret liquidity-driven movements, understanding that price gravitates towards resting liquidity, and these movements may not always be direct, often involving multiple passes.",
+          "chunk_id": "chunk_4105"
+        }
+      ],
+      "sweeps": [
+        "**M15/M5 BSL Sweep (14th 03:45)**: Price swept Buy-Side Liquidity above the 1.15900 swing high (from 13th 16:00 and 14th 03:45), immediately followed by a strong bearish reversal, initiating the current H4 bearish pullback.",
+        "**M1 BSL Sweep (14th 14:45-14:50)**: Buy-Side Liquidity above the 1.15770 high (14th 14:40) was swept, leading to a sharp downward price movement, consistent with the ongoing bearish pullback.",
+        "**M1 BSL Sweep (14th 16:30)**: Buy-Side Liquidity above the 1.15700 high (14th 16:25) was swept, followed by continued bearish price action.",
+        "**M1 SSL Sweep (14th 16:55)**: Sell-Side Liquidity below the 1.15660 low (14th 16:40) was swept; however, instead of a reversal, price continued downwards, indicating strong bearish momentum and a drive towards deeper Sell-Side Liquidity targets."
+      ],
+      "inducement": [
+        "**M5 Inducement (14th 09:00)**: The minor swing low around 1.15700 likely acted as an inducement, trapping early buyers before price continued its downward trajectory towards lower Sell-Side Liquidity targets (e.g., 1.15600 EQL).",
+        "**M1 Inducement (14th 15:55)**: The minor swing high at 1.15710 served as an inducement, potentially trapping early sellers, before price made a final sweep of Buy-Side Liquidity above 1.15700 (16:25 high) and then resumed its bearish move.",
+        "**M1 Potential Inducement (14th 16:40)**: The minor swing low at 1.15670, just prior to the 1.15660 SSL sweep, could be a current inducement for early buyers, trapping them as price continues to push lower towards the identified EQL at 1.15600."
+      ],
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_209",
+        "CHUNK_ID:chunk_1185",
+        "CHUNK_ID:chunk_4105",
+        "CHUNK_ID:chunk_204",
+        "CHUNK_ID:chunk_256",
+        "CHUNK_ID:chunk_1038"
+      ],
+      "notes": "The analysis of micro liquidity fully aligns with the probabilistic context. The HTF CONTEXT indicates an overall `bullish retracement` for EURUSD (Confidence: 0.75). The H4 Probabilistic Context Anchor (PCA) suggests a `bearish pullback` (Confidence: 0.85) within this retracement, aiming for deeper SSL targets (1.15000-1.14900) as price is in a premium zone (1.1569 relative to 1.1558 equilibrium). The ITF CONTEXT further reinforces this, identifying a `pullback` as the current `setup_type` with `entry_bias: none` and `retracement_risk: high` due to price being in an ITF premium zone. \n\nConsistent with this short-term bearish pullback, recent market action shows several Buy-Side Liquidity (BSL) sweeps (e.g., above 1.15900, 1.15770, 1.15700) immediately preceding strong bearish moves. These sweeps effectively cleared overhead liquidity, allowing price to drive lower without immediate resistance, validating the bearish leg of the pullback. Furthermore, the recent Sell-Side Liquidity (SSL) sweep below 1.15660 (M1) did not result in a reversal but instead led to a continuation of the downward movement. This indicates that the market is currently committed to seeking lower liquidity, likely targeting the 1.15600 Equal Lows and eventually the H4 SSL targets mentioned in the PCA. The identified inducements (1.15700 M5, 1.15710 M1, 1.15670 M1) further support the bearish pullback thesis by trapping participants expecting reversals or continuations at minor levels, allowing Smart Money to move price towards larger liquidity pools. This observation aligns with the idea that 'the core reason price moves down is the market's intention to seek that resting liquidity' (CHUNK_ID:chunk_4105). All observed micro liquidity events support the current ITF pullback within the broader HTF bullish retracement."
+    },
+    "latency": 41284.02909999993,
+    "telemetry": {
+      "promptTokens": 5262,
+      "completionTokens": 1387,
+      "totalTokens": 9147
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openai/gpt-oss-20b:free",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Identify sweeps where price breaches a liquidity pool and reverses",
+          "chunk_id": "CHUNK_ID:1185"
+        },
+        {
+          "rule": "Inducement occurs when a small swing lures traders into a pool before a sweep",
+          "chunk_id": "CHUNK_ID:4105"
+        }
+      ],
+      "sweeps": [
+        "M15/M5 SSL sweep at 1.15480 (13th 09:45)",
+        "M15/M5 BSL sweep at 1.15900 (14th 03:45)",
+        "M1 BSL sweep at 1.15770 (14:45-14:50)",
+        "M1 BSL sweep at 1.15700 (16:30)",
+        "M1 SSL sweep at 1.15660 (16:55)"
+      ],
+      "inducement": [
+        "M5 minor swing low 1.15700 inducement before 1.15600 EQL",
+        "M1 minor swing high 1.15710 inducement before BSL 1.15700 sweep",
+        "M1 minor swing low 1.15670 inducement before deeper SSL 1.15600"
+      ],
+      "confidence": 0.88,
+      "references": [
+        "CHUNK_ID:209",
+        "CHUNK_ID:1185",
+        "CHUNK_ID:4105",
+        "CHUNK_ID:256"
+      ],
+      "notes": "Step-by-step reasoning with HTF + ITF alignment"
+    },
+    "latency": 12455.639900000766,
+    "telemetry": {
+      "promptTokens": 4286,
+      "completionTokens": 321,
+      "totalTokens": 4607
+    },
+    "estimatedCost": 0.004928
+  }
+}

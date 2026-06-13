@@ -177,6 +177,25 @@ IMPORTANT: Be critical. If evidence is conflicting, reflect that in lower plausi
           )
         );
 
+        let conditional_invalidation_windows: {start: string, end: string}[] = [];
+        let fundamental_invalidation_triggers: string[] = [];
+        try {
+          const upcomingEvents = (newsModifier as any)?.event_windows?.upcoming || [];
+          const activeEvents = (newsModifier as any)?.event_windows?.active || [];
+          const allEvents = [...upcomingEvents, ...activeEvents];
+          
+          allEvents.forEach((ev: any) => {
+            if (ev.impact === 'HIGH' || ev.volatility_risk >= 0.8) {
+              if (ev.window_boundaries?.pre_start && ev.window_boundaries?.cooldown_end) {
+                conditional_invalidation_windows.push({
+                  start: ev.window_boundaries.pre_start,
+                  end: ev.window_boundaries.cooldown_end
+                });
+              }
+              fundamental_invalidation_triggers.push(`If ${ev.name || ev.id} Actual strongly deviates from Forecast`);
+            }
+          });
+        } catch (err) {}
 
         log({
           stage: "SCENARIO_NEWS_DEFORMATION",
@@ -184,7 +203,8 @@ IMPORTANT: Be critical. If evidence is conflicting, reflect that in lower plausi
           data: {
             original: s.plausibility,
             adjusted: adjustedPlausibility,
-            uncertainty_penalty: uncertaintyPenalty
+            uncertainty_penalty: uncertaintyPenalty,
+            windows_added: conditional_invalidation_windows.length
           }
         });
 
@@ -196,6 +216,8 @@ IMPORTANT: Be critical. If evidence is conflicting, reflect that in lower plausi
           plausibility: adjustedPlausibility,
 
           temporal_decay: 1.0,
+          conditional_invalidation_windows,
+          fundamental_invalidation_triggers,
 
           metadata: {
             created_at_capture: captureId,

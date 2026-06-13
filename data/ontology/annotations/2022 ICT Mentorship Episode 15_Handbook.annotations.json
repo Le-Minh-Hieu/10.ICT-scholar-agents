@@ -1,0 +1,408 @@
+[
+  {
+    "chunk_id": "chunk_64",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "POTENTIAL_TARGET",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing High"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "break that swing high",
+          "bullish Market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION",
+          "MARKET_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_CONTEXT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE SETUP AND ACCOUNT PURPOSE",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_65",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "whip below that low",
+          "go below that short-term low",
+          "their stop loss is going to be below that swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_TIMING_CONSIDERATION",
+          "RISK_MANAGEMENT_FACTOR",
+          "SMART_MONEY_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_REFERENCE",
+          "CONCEPT_VALIDATION",
+          "POTENTIAL_REVERSAL_ZONE",
+          "CONTINUATION_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "that low",
+          "short-term low",
+          "swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "STOP_PLACEMENT_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30 equities opening",
+          "opening volatility"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_EVENT",
+          "VOLATILITY_PERIOD",
+          "SESSION_START",
+          "TRADING_SESSION"
+        ],
+        "temporal_tags": [
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "narrative"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "SMART_MONEY_PERSPECTIVE",
+          "LIQUIDITY_FORECASTING",
+          "RETAIL_PSYCHOLOGY_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING OPENING VOLATILITY AND STOP LOSS CONSIDERATIONS",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_66",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SELL STOP LIQUIDITY GRAB",
+          "Sell stops are resting at 13,612; they just took those now."
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "ENTRY_REFINEMENT",
+          "PRICE_REACTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily bias is bullish",
+          "looking for higher prices",
+          "I do believe it's going to go higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "ENTRY_CONFIRMATION",
+          "TARGET_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high-risk entry long",
+          "long entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_INITIATION",
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELL STOP LIQUIDITY GRAB AND HIGH-RISK ENTRY",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_67",
+    "concepts": [
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expand up",
+          "energetic run",
+          "expand aggressively",
+          "spread its wings and take off and start moving"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "DIRECTIONAL_MOVEMENT",
+          "MOMENTUM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "energetic run above the swing high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_EXPANSION",
+          "DIRECTIONAL_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "PRICE_MAGNET",
+          "PREMIUM_DISCOUNT_ARRAY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "above equilibrium",
+          "premium market"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "PROFIT_TARGET_RATIONALE",
+          "PREMIUM_DISCOUNT_ARRAY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targeting the 80 level",
+          "PROFIT TARGET RATIONALE"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE EXPANSION AND PROFIT TARGET RATIONALE",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_68",
+    "concepts": [
+      {
+        "canonical": "MOVING_STOP_LOSS_TO_BREAKEVEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MOVING STOP LOSS TO ENTRY",
+          "put the stop loss on at my entry"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTION_OF_CAPITAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT_TRADING_GUIDANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FOMC TRADING RULE",
+          "FOMC",
+          "move to the sidelines",
+          "wouldn't take any more trades today",
+          "got to be done early"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PLANNING",
+          "EVENT_AWARENESS",
+          "AVOIDANCE_OF_VOLATILITY"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "today",
+          "morning",
+          "early"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MOVING STOP LOSS TO ENTRY AND FOMC TRADING RULE",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_69",
+    "concepts": [
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TRADER PSYCHOLOGY",
+          "naive traders or newbies get nervous"
+        ],
+        "narrative_roles": [
+          "MENTAL_DISCIPLINE",
+          "BEHAVIORAL_COGNITION",
+          "RISK_MANAGEMENT_IMPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADER PSYCHOLOGY AND PLATFORM NAVIGATION NOTES",
+      "source_file": "2022 ICT Mentorship Episode 15_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "chunk_id": "chunk_855",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "high time frame institutional order flow",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "FOUNDATIONAL_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "LIQUIDITY_POOL",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_SCHEDULE_AND_STYLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scalping",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursdays"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "TEMPORAL_BIAS",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT_LEADER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Leaving a 'leader'",
+          "some portion of positions",
+          "capture larger ranges"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_MAXIMIZATION",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_REPORT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "COOT data"
+        ],
+        "narrative_roles": [
+          "EXTERNAL_DATA",
+          "NON_ESSENTIAL_FOR_SIMPLIFIED_PLAN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SIMPLIFIED TRADING PLAN AND ICT'S APPROACH",
+      "source_file": "ICT Charter Price Action Model 1 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_856",
+    "concepts": [
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "swing points",
+          "swing point"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "DIRECTIONAL_BIAS",
+          "ANTICIPATION_SIGNAL",
+          "OPTIMAL_TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "long-term institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PDRA (Premium to Discount Array) Matrix"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_LOCATION",
+          "MARKET_CONTEXT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "TOP_DOWN_ANALYSIS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REVISITING MODEL 1: FROM SWING POINTS TO ANTICIPATION",
+      "source_file": "ICT Charter Price Action Model 1 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_857",
+    "concepts": [
+      {
+        "canonical": "HIGH_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGH TIME FRAME ANALYSIS",
+          "higher time frame (e.g., daily chart)"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "Premium or Discount range",
+          "PDRA Matrix (low to high)",
+          "traded down to a discount",
+          "reaches a measure of Premium"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side imbalance",
+          "sell-side inefficiency",
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "RETRACEMENT_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market structure is essentially bullish",
+          "price rallies back through a swing high"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "subsequent price drop",
+          "demands a retracement",
+          "trades softer into a retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_OPPORTUNITY",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Institutional order flow remains bullish"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Bearish order blocks"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RECAPITALIZATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "get recapitalized"
+        ],
+        "narrative_roles": [
+          "RETEST",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH TIME FRAME ANALYSIS AND MARKET STRUCTURE (BULLISH EXAMPLE)",
+      "source_file": "ICT Charter Price Action Model 1 Amplified Lecture_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_858",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "THE BREAKER PATTERN (BULLISH SCENARIO)",
+          "Breaker",
+          "the original swing low level",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN",
+          "RETEST_OF_SUPPORT",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low that is 'violated'",
+          "sell-side liquidity run",
+          "engineered breakouts",
+          "sell stops triggered"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_INDUCEMENT",
+          "PRELUDE_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaking a high",
+          "market structure becomes bullish"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "VALIDATION_OF_LIQUIDITY_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame",
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_COMPONENTS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "daily open, high, low, close"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOOKBACK_PERIODS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "last 20, 40, and 60 trading days"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "20_DAYS",
+          "40_DAYS",
+          "60_DAYS"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE BREAKER PATTERN (BULLISH SCENARIO)",
+      "source_file": "ICT Charter Price Action Model 1 Amplified Lecture_Handbook.chunks.json"
+    }
+  }
+]

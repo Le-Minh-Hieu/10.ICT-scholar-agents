@@ -1,0 +1,2316 @@
+[
+  {
+    "chunk_id": "chunk_3938",
+    "concepts": [
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of a discount"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_VALIDATION",
+          "SUPPORT_RESISTANCE_IDENTIFICATION",
+          "LIQUIDITY_RETEST"
+        ],
+        "temporal_tags": [
+          "March 6th, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCRIMINATION",
+          "POTENTIAL_BUY_ZONE"
+        ],
+        "temporal_tags": [
+          "March 6th, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "intraday focus",
+          "trading intraday volatility"
+        ],
+        "narrative_roles": [
+          "TRADING_FRAMEWORK",
+          "TIME_FRAME_DEFINITION"
+        ],
+        "temporal_tags": [
+          "today"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "ORDER_FLOW_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tape reading"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_APPROACH",
+          "MARKET_READING_TECHNIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 o'clock hour"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TIME_WINDOW",
+          "SETUP_IDENTIFICATION_WINDOW"
+        ],
+        "temporal_tags": [
+          "10 o'clock hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX OBSERVATION AND INTRADAY FOCUS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3939",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "buy-side imbalance",
+          "sell-side inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "DIRECTIONAL_BIAS",
+          "PRICE_REACTION_ZONE",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block opening price"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_ZONE",
+          "SUPPORT_RESISTANCE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_ZONE",
+          "PRICE_ATTRACTION",
+          "GAP_FILL_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "upside targets",
+          "4104 is considered a target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_LEVEL",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 o'clock hour"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "HIGH_PROBABILITY_SETUP_TIME",
+          "VOLATILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "10_AM_NY_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "opening range",
+          "first 30 minutes of trading in the opening range"
+        ],
+        "narrative_roles": [
+          "INITIAL_DIRECTION_GUAGE",
+          "VOLATILITY_MEASUREMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "INITIAL_30_MINUTES_OF_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AND UPSIDE TARGETS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3940",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity",
+          "morning's potential lows at 4072"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Old New Week Opening Gap High"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_LEVEL",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "opening range gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "POTENTIAL_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MAPPING MORNING RANGE",
+          "morning's potential lows"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [
+          "AM_SESSION"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MAPPING MORNING RANGE AND LIQUIDITY",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3941",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "INVERSION FAIR VALUE GAP",
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_TO_RESISTANCE_FLIP",
+          "KEY_LEVEL",
+          "LIQUIDITY_REPURPOSING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH ORDER BLOCK",
+          "bearish order block",
+          "March 6th bearish order block opening price"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "PRICE_REACTION",
+          "KEY_LEVEL"
+        ],
+        "temporal_tags": [
+          "March 6th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "current fair value gap"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SUPPORT_TO_RESISTANCE_FLIP",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_TO_RESISTANCE_FLIP",
+          "CONTINUATION",
+          "MARKET_STRUCTURE_SHIFT_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "optimal opening gap low",
+          "morning's opening price"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "SENSITIVITY_LEVEL",
+          "KEY_LEVEL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "morning"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "support",
+          "resistance"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "PRICE_CONSTRAINT",
+          "LIQUIDITY_POOL_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INVERSION FAIR VALUE GAP AND BEARISH ORDER BLOCK REACTION",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3942",
+    "concepts": [
+      {
+        "canonical": "MARKET_CONTEXT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DIFFICULT MARKET CONDITIONS",
+          "current market as very difficult"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "RISK_MANAGEMENT",
+          "ADAPTATION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TRADER PSYCHOLOGY",
+          "impulse control",
+          "sitting on hands"
+        ],
+        "narrative_roles": [
+          "SELF_MASTERY",
+          "DISCIPLINE",
+          "RISK_MITIGATION",
+          "AVOIDING_OVERTRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe direction"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_DIRECTION_FILTER",
+          "STRATEGIC_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MACRO_ECONOMIC_FACTORS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "External factors like bank issues, geopolitical events, and dedollarization"
+        ],
+        "narrative_roles": [
+          "MARKET_INFLUENCE",
+          "VOLATILITY_DRIVER",
+          "UNCERTAINTY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONTEXT_CHARTS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "referring to other charts"
+        ],
+        "narrative_roles": [
+          "CONTEXT_GATHERING",
+          "MARKET_INTERPRETATION",
+          "CONFIRMATION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DIFFICULT MARKET CONDITIONS AND TRADER PSYCHOLOGY",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3943",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Preferring to see the Dollar Index go lower, which would allow ES to reach..."
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap High",
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "MARKET_OBJECTIVE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reach the New Week Opening Gap High at 4089.25",
+          "4089.25"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MARKET_OBJECTIVE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CORRECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ES can still correct here"
+        ],
+        "narrative_roles": [
+          "CONSOLIDATION",
+          "PULLBACK",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX AND ES PREFERENCE",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3944",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "ES, DOW, NASDAQ DIVERGENCE",
+          "This SMT (Smart Money Technique) divergence",
+          "NASDAQ shows continuous higher highs. Dow has blunt-ended highs, failing to make higher highs. ES shows more jagged upper-side movement, also reaching for buy-side liquidity with multiple higher highs."
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_STRUCTURE_ASSESSMENT",
+          "POTENTIAL_REVERSAL_INDICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "day-of-week characteristics"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reaching for buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The market has been algorithmically delivered one-sided (straight up) since Tuesday with minimal pullbacks."
+        ],
+        "narrative_roles": [
+          "MACRO_FLOW_IDENTIFICATION",
+          "TREND_IDENTIFICATION",
+          "CONTEXTUAL_BIAS"
+        ],
+        "temporal_tags": [
+          "since Tuesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES, DOW, NASDAQ DIVERGENCE",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3945",
+    "concepts": [
+      {
+        "canonical": "DAILY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Thursday's range",
+          "the range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "create the opposite end of the range"
+        ],
+        "narrative_roles": [
+          "EXPECTED_BEHAVIOR",
+          "REVERSAL_EXPECTATION",
+          "SESSION_ALGORITHMIC_DELIVERY_MODEL"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_OBJECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "logical levels",
+          "buy-side objectives"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "FULFILLMENT_OF_OBJECTIVE",
+          "DIRECTIONAL_BIAS_ASSESSMENT"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Picking tops",
+          "not calling a top"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADER_PSYCHOLOGY",
+          "CONTRARIAN_TRADING_CHALLENGE",
+          "MARKET_BEHAVIOR_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING THURSDAY'S RANGE AND AVOIDING TOP PICKING",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3946",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance",
+          "SIBI Inefficiency",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON",
+          "RETRACEMENT_TARGET",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "Thursday 8:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON",
+          "TARGET",
+          "POTENTIAL_BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "10 o'clock hour"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION_WINDOW",
+          "PRICE_ACTION_WINDOW"
+        ],
+        "temporal_tags": [
+          "10 o'clock hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX IMBALANCE AND ES DISCOUNT",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3947",
+    "concepts": [
+      {
+        "canonical": "COGNITIVE_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "candlestick misinterpretation",
+          "project their own biases onto the chart",
+          "emotional stimulation",
+          "desperation",
+          "gambler's mindset",
+          "reluctance to follow rules",
+          "ignoring proven methods"
+        ],
+        "narrative_roles": [
+          "PERFORMANCE_DEGRADER",
+          "DECISION_IMPEDIMENT",
+          "RISK_FACTOR",
+          "SELF_SABOTAGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "shorting when the market is poised to go higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_ASSESSMENT",
+          "ENTRY_FILTER",
+          "RISK_MITIGATION_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PSYCHOLOGIST'S INKBLOT TEST AND CANDLESTICK MISINTERPRETATION",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3948",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "forecasting market direction",
+          "accurate market outlines"
+        ],
+        "narrative_roles": [
+          "GUIDANCE",
+          "PREDICTION",
+          "CORE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "do the opposite",
+          "complain about lack of success",
+          "blame the concepts",
+          "borderline insanity",
+          "consistently going against proven methods"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_CONTROL",
+          "EXECUTION_FAILURE_MODE",
+          "LEARNING_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSISTENCY AND ACCURACY VS. CONTRARY ACTIONS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3949",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_OPENING_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "LIQUIDITY_REFERENCE",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPENING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening range Gap High",
+          "9:30 AM opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVELS",
+          "MARKET_OPEN_VOLATILITY"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "Following rules is paramount",
+          "Missing a trade due to rule adherence",
+          "abandoning rules",
+          "creates bad habits",
+          "undoes positive trading habits",
+          "Impulsivity and impatience are explicitly warned against"
+        ],
+        "narrative_roles": [
+          "RULE_ADHERENCE",
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_CONTROL",
+          "HABIT_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMO_CHASING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "not interested in chasing price higher",
+          "miss that move"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_PITFALL",
+          "RISK_MANAGEMENT",
+          "ENTRY_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MISSING MOVES VS. BREAKING RULES",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3950",
+    "concepts": [
+      {
+        "canonical": "UNFAVORABLE_MARKET_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "whipsawing",
+          "difficult market times",
+          "demanding context",
+          "clean, precise entry points less obvious",
+          "harder for price to speak in 'kind whispers'"
+        ],
+        "narrative_roles": [
+          "RISK_AVOIDANCE",
+          "CONTEXTUAL_ANALYSIS",
+          "ORDER_FLOW_UNCLEAR",
+          "SETUP_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACROECONOMIC_FUNDAMENTAL_CONTEXT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Global events",
+          "potential war",
+          "bank collapses",
+          "new monetary system restructuring (CBDCs)",
+          "general economic strain",
+          "tense environment"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_INFLUENCE",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WHIPSAWS AND GLOBAL FACTORS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3951",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAP FORMATION",
+          "fair value gap to form"
+        ],
+        "narrative_roles": [
+          "SETUP_ELEMENT",
+          "REBALANCING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_MITIGATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "come back up into it"
+        ],
+        "narrative_roles": [
+          "REBALANCING_ACTION",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING PRICE MOVEMENT AND FAIR VALUE GAP FORMATION",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3952",
+    "concepts": [
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "DEFINING THE DEALING RANGE",
+          "dealing range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_IDENTIFICATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "Equilibrium"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_IDENTIFICATION",
+          "PRICE_LEVEL_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium",
+          "in a premium"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_IDENTIFICATION",
+          "PRICE_LEVEL_ASSESSMENT",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "discount arrays"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT_IDENTIFICATION",
+          "POTENTIAL_ENTRY_ZONE",
+          "PRICE_LEVEL_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "POTENTIAL_REVERSAL_POINT",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "ORDER_IMBALANCE",
+          "POTENTIAL_REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "anticipating a move below the current low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_PREDICTION",
+          "TRADE_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "AM Session"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE DEALING RANGE AND DISCOUNT ARRAYS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3953",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REACTION_POINT",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial short expectation",
+          "market did move down as anticipated"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "TRADE_PLANNING",
+          "EXPECTED_PRICE_DELIVERY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BIAS_VALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "confirming the initial short expectation"
+        ],
+        "narrative_roles": [
+          "TRADE_VALIDATION",
+          "MARKET_FEEDBACK"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MISSED_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "missed entry"
+        ],
+        "narrative_roles": [
+          "TRADER_PERFORMANCE_ANALYSIS",
+          "TRADING_PSYCHOLOGY",
+          "EXECUTION_ERROR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REAL_TIME_EXECUTION_CHALLENGES",
+        "confidence": 0.8,
+        "surface_terms": [
+          "challenge of multitasking during live sessions"
+        ],
+        "narrative_roles": [
+          "TRADER_PERFORMANCE_ANALYSIS",
+          "TRADING_PSYCHOLOGY",
+          "LIVE_TRADING_CHALLENGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MISSED ENTRY AND REAL-TIME ANALYSIS CHALLENGES",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3954",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "RANGE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pools",
+          "sell-side liquidity",
+          "below the current low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "STOP_LOSS_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "one-minute imbalance",
+          "imbalance",
+          "inefficiency",
+          "FVG",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "RETRACEMENT_TARGET",
+          "ORDER_FLOW_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING DISCOUNT ARRAY AND LIQUIDITY POOLS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3955",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet",
+          "time-specific setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "HIGH_PROBABILITY_SETUP",
+          "RULE_BASED_TRADING"
+        ],
+        "temporal_tags": [
+          "10:00 AM",
+          "11:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "displacement occurs"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "IMBALANCE_CREATION",
+          "MARKET_STRUCTURE_SHIFT_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "IMBALANCE",
+          "PRICE_RETRACEMENT_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "pool of opposing"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "five handles"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "TRADING_PLAN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "10 AM",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3956",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet",
+          "10-11 AM Silver Bullet",
+          "Silver Bullet moves"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_SETUP",
+          "LIQUIDITY_TARGETING_MODEL"
+        ],
+        "temporal_tags": [
+          "10-11 AM",
+          "AM session's final portion"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETING",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY TARGETING",
+          "obvious, untapped pool of liquidity"
+        ],
+        "narrative_roles": [
+          "TRADE_OBJECTIVE",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_WINDOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MACROS",
+          "8:30 AM Macros",
+          "specific 20-minute macros"
+        ],
+        "narrative_roles": [
+          "MARKET_OPEN_PRECURSOR",
+          "TRADE_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "8:30 AM",
+          "20-minute macros"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "AM session"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "capturing five handles"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "DISCIPLINE_GUIDELINE",
+          "SCALPING_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCIPLINE_GUIDELINE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Discipline: Do not demand the full daily range or exact technical targets.",
+          "Focus solely on capturing five handles."
+        ],
+        "narrative_roles": [
+          "TRADING_PSYCHOLOGY",
+          "RISK_MANAGEMENT",
+          "EXPECTATION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SILVER BULLET MACROS AND LIQUIDITY TARGETING",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3957",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet setup",
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "MODEL_COMPLETENESS",
+          "ENTRY_CONFIRMATION",
+          "CONSISTENCY"
+        ],
+        "temporal_tags": [
+          "TIME_OF_DAY_SPECIFIC",
+          "SPECIFIC_TIMEFRAME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF STICKING TO RULES AND MANAGING EXPECTATIONS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3958",
+    "concepts": [
+      {
+        "canonical": "DISCIPLINE_AND_OBJECTIVITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONFIDENCE, OBJECTIVITY, AND AVOIDING EMOTIONAL TRADING",
+          "state of 'boredom'",
+          "objective mindset",
+          "Rules Over Rightness",
+          "Focus on following rules, not being 'right' about market direction",
+          "Do not impose your will on the market",
+          "chase feel-good movements"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "TRADE_EXECUTION_FRAMEWORK",
+          "RISK_MANAGEMENT_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Displacement lower",
+          "Displacement higher"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_INDICATION",
+          "TREND_CONFIRMATION",
+          "ENTRY_SETUP_PREREQUISITE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_POINT",
+          "CONTINUATION_MODEL",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_DRAW",
+          "MARKET_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_DRAW",
+          "MARKET_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MINIMUM_RANGE_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Range Requirement",
+          "better than five handles range from entry to liquidity target",
+          "ensures sufficient room for the target"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERIA",
+          "RISK_MANAGEMENT_FRAMEWORK",
+          "PROFIT_TARGETING_GUIDELINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIDENCE, OBJECTIVITY, AND AVOIDING EMOTIONAL TRADING",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3959",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SEEKING_BEHAVIOR",
+        "confidence": 1,
+        "surface_terms": [
+          "market seeks liquidity",
+          "continue to seek higher liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "DIRECTIONAL_BIAS_DRIVER",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy model"
+        ],
+        "narrative_roles": [
+          "SETUP_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETAIL_TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inherent tendency to be contrary",
+          "fade",
+          "go against predictions",
+          "market has moved 'too far'",
+          "'can't be' expected to hit the next level",
+          "overbought/ oversold"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_BIAS_WARNING",
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "TRADER_PSYCHOLOGY_LESSON"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CONTRARIAN TENDENCY AND MARKET DYNAMICS",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3960",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "no real retracements"
+        ],
+        "narrative_roles": [
+          "LACK_OF_MITIGATION",
+          "NON_TRADABLE_CONDITION",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "no real retracements"
+        ],
+        "narrative_roles": [
+          "LACK_OF_MITIGATION",
+          "NON_TRADABLE_CONDITION",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "not controlled by simple buying/selling pressure",
+          "markets can still go up even during hyperinflation or national downturns"
+        ],
+        "narrative_roles": [
+          "MARKET_UNDERSTANDING",
+          "ANALYTICAL_FRAMEWORK",
+          "RETAIL_NARRATIVE_DISMISSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CURRENT MARKET DIFFICULTIES AND PERSONAL DISCRETION",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3961",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAPS",
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_TARGET",
+          "POINT_OF_INTEREST",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fair Value Deficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_TARGET",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ORDER FLOW",
+          "Old Order Flow",
+          "old order flow",
+          "old, significant order flow areas"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "POINT_OF_INTEREST",
+          "INSTITUTIONAL_FOOTPRINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "individual order blocks"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "INSTITUTIONAL_FOOTPRINT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAPS AND ORDER FLOW",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3962",
+    "concepts": [
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "one-way delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "TREND_ANALYSIS",
+          "MOMENTUM_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "multiple premium arrays"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "SELL_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT_IDENTIFICATION",
+          "PRICE_REJECTION",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of wick"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "TARGET_IDENTIFICATION",
+          "PRICE_REACTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old high",
+          "old high's range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SIBI_CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI consequent encroachment"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_MITIGATION",
+          "PRICE_REACTION_LEVEL",
+          "TARGET_IDENTIFICATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block low",
+          "order block opening price"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "MARKET_DIRECTION",
+          "SUPPORT_RESISTANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPENING"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_STRATEGY_MISTAKE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "pick tops"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADER_PSYCHOLOGY",
+          "AVOID_COMMON_MISTAKES"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_TREND",
+        "confidence": 1,
+        "surface_terms": [
+          "bull runs"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET BEHAVIOR AND AVOIDING TOP-PICKING",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3963",
+    "concepts": [
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'very, very difficult'",
+          "sloppy periods",
+          "difficult periods",
+          "fast, obvious markets"
+        ],
+        "narrative_roles": [
+          "ENVIRONMENTAL_ASSESSMENT",
+          "STRATEGY_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "'dial back' risk",
+          "leverage",
+          "frequency",
+          "Mitigating Drawdown",
+          "fix losing trades"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "STRATEGY_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 1,
+        "surface_terms": [
+          "PATIENCE",
+          "Discipline",
+          "Do less. Less is more.",
+          "Beginner Vulnerability",
+          "floundering",
+          "recklessness",
+          "overtrading",
+          "impatience",
+          "desire for quick returns",
+          "waiting for clarity",
+          "self-control",
+          "ushered out the door"
+        ],
+        "narrative_roles": [
+          "EXECUTION_FRAMEWORK",
+          "BEHAVIORAL_CONTROL",
+          "PREVENTING_LOSSES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PATIENCE AND RISK MANAGEMENT",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  },
+  {
+    "chunk_id": "chunk_3964",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "March 6th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITIONS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "choppy",
+          "consolidating",
+          "not making obvious runs",
+          "difficult market"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "ENTRY_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Risk Management",
+          "stop loss",
+          "reduces risk",
+          "expand risk",
+          "close the trade"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "TRADE_MANAGEMENT",
+          "BEHAVIORAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PRACTICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Demo Trading"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "PSYCHOLOGICAL_TRAINING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEHAVIORAL_COGNITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "AVOIDING UNREALISTIC EXPECTATIONS",
+          "motivated by success stories",
+          "thinking the market is easy",
+          "not emotionally tied to",
+          "Imposing your will on a difficult market",
+          "Anticipating Difficulties"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_TRAINING",
+          "SELF_AWARENESS",
+          "DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [
+      "NY_AM"
+    ],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AVOIDING UNREALISTIC EXPECTATIONS AND SINCERE ADVICE",
+      "source_file": "March 30, 2023 Live Tape Reading - AM Session_Handbook.chunks.json",
+      "session": "NY_AM"
+    }
+  }
+]

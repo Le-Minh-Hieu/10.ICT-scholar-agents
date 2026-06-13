@@ -1,0 +1,1818 @@
+[
+  {
+    "chunk_id": "chunk_1869",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance",
+          "inefficiency",
+          "gap",
+          "FVG",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "went past it slightly",
+          "overshot this gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_BEHAVIOR_AROUND_FVG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY WEEKLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1870",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "previous week's consequent encroachment",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [
+          "previous week's",
+          "high of the week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CLOSE_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily close confirmation",
+          "close on a daily chart",
+          "daily candle close above that"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "CONTINUATION_TRIGGER"
+        ],
+        "temporal_tags": [
+          "daily chart",
+          "daily candle"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trade above this high"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "VACUUM_FILL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY WEEKLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1871",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DXY RANGING",
+          "market ranging between these two levels",
+          "work inside that range"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this week's high",
+          "the low of that week"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_BOUNDARY"
+        ],
+        "temporal_tags": [
+          "this week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKOUT_CONFIRMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "definitive close on a daily basis"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "MARKET_STRUCTURE_SHIFT_TRIGGER"
+        ],
+        "temporal_tags": [
+          "daily basis"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this is where I believe we're drawing to"
+        ],
+        "narrative_roles": [
+          "PRICE_PREDICTION",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY RANGING",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1872",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY RANGING",
+          "trading range environment"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "CONSOLIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "definitive close above the upper quadrant"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT_CONDITION",
+          "RANGE_EXPANSION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SENTIMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sentiment ideas",
+          "fear and greed will start coming into the marketplace"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "BEHAVIORAL_INFLUENCE",
+          "VOLATILITY_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GEOPOLITICAL_EVENTS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "terrorist action or war response"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_ACTION_DISRUPTION",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NORMAL_MARKET_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "normal market delivery"
+        ],
+        "narrative_roles": [
+          "REFERENCE_BEHAVIOR",
+          "EXPECTED_PRICE_ACTION_BASELINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY RANGING",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1873",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY RANGING",
+          "Why the range here?",
+          "create a need for consolidation",
+          "soften up"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "MARKET_EXPLANATION",
+          "LACK_OF_DIRECTION"
+        ],
+        "temporal_tags": [
+          "Q4_PERIOD",
+          "DECEMBER_MONTH",
+          "MID_DECEMBER",
+          "CURRENT_DAY",
+          "CURRENT_WEEK",
+          "SUNDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint of this longest wick",
+          "consequent encroachment of the week prior"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "REJECTION_SIGNAL",
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "FAILURE_TO_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "PAST_WEEKS"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this weekly high",
+          "this high here",
+          "two weeks ago's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "REJECTION_SIGNAL",
+          "FAILURE_TO_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "PAST_WEEKS"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY RANGING",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1874",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drives us above the upper quadrant of this wick",
+          "has to close on the daily chart",
+          "likely to continue higher"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe imbalances",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MAGNET_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "weekly chart"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY WEEKLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1875",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "took out that sell side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "breakaway gap",
+          "buy side-sell side inefficiency",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "PRICE_LEVEL_OF_INTEREST",
+          "SUPPORT_RESISTANCE_AREA",
+          "UNFILLED_GAP_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY CHART",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1876",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "come back down and touch just below this candle's low",
+          "below the 106.78 level",
+          "below the 106.29, which is the low of Friday",
+          "and then go higher?"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "Sunday",
+          "Monday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1877",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MITIGATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "hammer around inside this range",
+          "range"
+        ],
+        "narrative_roles": [
+          "PRICE_COMPRESSION",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1878",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalance",
+          "buy side imbalance efficiency",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "closes below this buy side imbalance efficiency",
+          "lower run here"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME",
+          "daily chart",
+          "daily close"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "small little movement and then snap back higher"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "upper quadrant of last week's range",
+          "upper quadrant of that wick",
+          "this price level"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ENTRY_CRITERIA",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME",
+          "last week's range",
+          "daily close"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1879",
+    "concepts": [
+      {
+        "canonical": "MARKET_DIRECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sells off and goes a lot lower",
+          "going to go higher on the dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_RELATIONSHIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gold and dollar move together",
+          "not historically what you would expect. One goes higher, one goes lower; they're usually diametrically opposed"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUAL_UNDERSTANDING",
+          "DEVIATION_FROM_NORM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_CAUTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "I am very, very careful right now",
+          "I don't trust that something wild and unexpected going off somewhere won't occur",
+          "I'm being very cautious about what I'm anticipating"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADER_PSYCHOLOGY",
+          "DECISION_MAKING_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_OBSERVATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Thursday and Friday"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUAL_UNDERSTANDING"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1880",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD AND DOLLAR",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1881",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GLOBAL POWER SHIFTS AND PERSONAL PREPAREDNESS",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1882",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "POTENTIAL_REACTION_POINT",
+          "DECISION_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run for the buy side here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "GOLD AS A CATALYST FOR DOLLAR MOVEMENT",
+          "gold's going to be the catalyst behind the follow-through higher on dollar",
+          "weigh out what gold is doing at the same time that the Dollar Index is dropping",
+          "teeter totter effect",
+          "balancing out two markets that are closely correlated",
+          "inversely correlated",
+          "moving in tandem",
+          "not a normal function or symmetrical market"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_AWARENESS",
+          "MARKET_BIAS_VALIDATION",
+          "CORRELATION_DYNAMICS",
+          "ANOMALY_DETECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND_PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "stay in that range I outlined"
+        ],
+        "narrative_roles": [
+          "CONSOLIDATION_PHASE",
+          "UNCERTAINTY_PHASE",
+          "MARKET_STATE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GOLD AS A CATALYST FOR DOLLAR MOVEMENT",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1883",
+    "concepts": [
+      {
+        "canonical": "SYMMETRICAL_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "symmetrical market",
+          "where they're doing the opposite of one another",
+          "everything is on the level"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_CONFIRMATION",
+          "CONFLUENCE",
+          "RISK_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INTERMARKET QUALIFIERS",
+          "gold is the qualifier of dollar",
+          "factoring in the effects of gold"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_CONFIRMATION",
+          "VALIDATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "REJECTION_POINT",
+          "PRICE_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "go up above a short-term high then reject it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SYMMETRICAL MARKET AND INTERMARKET QUALIFIERS",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1884",
+    "concepts": [
+      {
+        "canonical": "INSTRUMENT_VOLATILITY_PREFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "exaggerated moves",
+          "Pound is like the NASDAQ of Forex",
+          "accelerated pace",
+          "unruly",
+          "buck back",
+          "over-deliver and be exaggerated to the downside",
+          "elected more times to trade the Pound Dollar than the Euro",
+          "too slow for my liking",
+          "trade NASDAQ more so than I trade the ES",
+          "moves can be exaggerated in my favor"
+        ],
+        "narrative_roles": [
+          "INSTRUMENT_SELECTION",
+          "PROFIT_MAXIMIZATION",
+          "BEHAVIORAL_OBSERVATION",
+          "VOLATILITY_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_CORRELATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mark-to-market",
+          "the dollar is heavily weighted with the Euro",
+          "relative to the Dollar Index going higher or lower",
+          "Euro is tending to move mark-to-market with what the Dollar Index does",
+          "move in tandem with my overall macro analysis"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS_ASSESSMENT",
+          "RELATIVE_STRENGTH_WEAKNESS_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOREX PAIRS AND EXAGGERATED MOVES",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1885",
+    "concepts": [
+      {
+        "canonical": "MARKET_CHARACTERISTICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "slower market",
+          "inherent risks and their own characteristics",
+          "market that's going to be the exaggeration",
+          "the one that does more than you would expect"
+        ],
+        "narrative_roles": [
+          "MARKET_SELECTION",
+          "RISK_ASSESSMENT",
+          "UNDERSTANDING_VOLATILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASSET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "used gold in the analysis of dollar",
+          "go back to dollar",
+          "go into Euro"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "CONTEXTUAL_BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sit through a little bit more drawdown",
+          "have a larger loss",
+          "inherent risks"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "IMPACT_OF_MARKET_CHOICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NASDAQ VS. ES AND MARKET CHARACTERISTICS",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1886",
+    "concepts": [
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "POTENTIAL_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_TAKEN",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FULFILLMENT",
+          "LIQUIDITY_SWEEP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO WEEKLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1887",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "expecting higher dollar",
+          "not expecting lower dollar",
+          "not calling a top in the Dollar Index",
+          "reverse it in terms of the direction"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "MACRO_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO WEEKLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1888",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INEFFICIENCY",
+          "small old gap",
+          "little inefficiency",
+          "this inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "LIQUIDITY_REFERENCE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [
+          "END_OF_YEAR_SEASONALITY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "INVERSION FAIR VALUE GAP (IFVG)"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE_FLIP",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "END_OF_YEAR_SEASONALITY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "END_OF_YEAR_SEASONALITY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "END_OF_YEAR_SEASONALITY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DAILY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1889",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "EURO DAILY IFVG"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_ELEMENT",
+          "ANALYTICAL_TOOL"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_RISK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "extreme gap opening",
+          "gap risk",
+          "we gap a lot against me",
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "AVOIDANCE_CRITERIA",
+          "CONDITIONAL_TRADING"
+        ],
+        "temporal_tags": [
+          "Sunday",
+          "new week"
+        ],
+        "session_tags": [
+          "NEW_WEEK_OPEN"
+        ]
+      },
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the models",
+          "a model"
+        ],
+        "narrative_roles": [
+          "STRATEGY_DEVELOPMENT",
+          "TRADE_EXECUTION_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_CONDITIONS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "high probability conditions"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION",
+          "OPTIMAL_ENVIRONMENT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DAILY IFVG",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1890",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gap",
+          "this inefficiency",
+          "low of this inefficiency",
+          "new fair value gap"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_TRIGGER",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [
+          "Sunday or Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_MIDPOINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midpoint of it"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REJECTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The level here at 1.04969",
+          "104.97"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish on dollar, and therefore I would look at every rally in NASDAQ as a suspect rally to fade that"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "TRADE_STRATEGY",
+          "RISK_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP_ANALOGY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONCEPTUAL_ANALOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "I've literally outlined everything that I would like for this week",
+          "high probability scenario",
+          "not random, it's very specific things",
+          "unless it does these types of things, I would not take any action on it",
+          "comfortable and not have any FOMO",
+          "incurring risk around it is an acceptable thing for me"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGY",
+          "RISK_MANAGEMENT",
+          "TRADE_PREPARATION",
+          "PATIENCE"
+        ],
+        "temporal_tags": [
+          "this week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING DISCIPLINE AND RISK ACCEPTANCE",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1891",
+    "concepts": [
+      {
+        "canonical": "TRADING_MINDSET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TRADING WITH LOGIC AND ACCEPTING LOSSES",
+          "disarming everyone. There's nothing to hold on to to be right or wrong right now",
+          "I want to trade because I want to make money. I want to sleep at night knowing that what I'm about to do and take a trade on, it's reasonable"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_CONTROL",
+          "EMOTIONAL_REGULATION",
+          "LONG_TERM_SUSTAINABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PLANNING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "what I just outlined here",
+          "laid down the foundations about what it is I want to do to trade anything this week",
+          "co-signing all this before it happens"
+        ],
+        "narrative_roles": [
+          "PRE_MARKET_STRATEGY_DEVELOPMENT",
+          "RISK_MITIGATION",
+          "DISCIPLINE_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "Sunday before the market opened up",
+          "this week"
+        ],
+        "session_tags": [
+          "PRE_MARKET"
+        ]
+      },
+      {
+        "canonical": "DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Are you willing to go through an entire week without taking a trade?",
+          "I've taken no trades",
+          "you're all hopped up on goofballs, like you're gambling"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_CONTROL",
+          "AVOIDING_OVERTRADING",
+          "ENTRY_SELECTION_CRITERIA"
+        ],
+        "temporal_tags": [
+          "entire week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "risk is reasonable",
+          "that risk is reasonable"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "PSYCHOLOGICAL_WELLBEING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING WITH LOGIC AND ACCEPTING LOSSES",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1892",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "risking $6,000",
+          "$12,000 risk",
+          "My stop loss could be $12,000",
+          "comfortable taking on that risk",
+          "double portion of that same trade",
+          "scale it for what you're comfortable with",
+          "smallest of the profit and loss potential",
+          "risk and leverage",
+          "permit yourself to assume as risk"
+        ],
+        "narrative_roles": [
+          "ACCOUNT_MANAGEMENT",
+          "POSITION_SIZING",
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "ADAPTABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "I'm comfortable taking on that risk",
+          "comfortable taking on that risk",
+          "I'm willing to accept",
+          "feel confident",
+          "everything's relative",
+          "everything is a matter of what fits you",
+          "likelihood of a lot of excitement",
+          "a lot of fever around fear",
+          "not just going to sit down and wait for something that just feels right",
+          "chase price",
+          "jump around from one model to the next",
+          "chase somebody else's opinion",
+          "You're not going to know what you're doing"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "SELF_MASTERY",
+          "AVOIDING_PITFALLS",
+          "EMOTIONAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "I need to know that I'm using the higher timeframes"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "referring to and conferring with other markets",
+          "Gold and dollar moved together"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_OPEN_CLOSE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Sunday's opening",
+          "Monday's trading",
+          "how we close on Monday"
+        ],
+        "narrative_roles": [
+          "WEEKLY_FORECAST",
+          "MARKET_REVIEW"
+        ],
+        "temporal_tags": [
+          "Sunday's opening",
+          "Monday's trading",
+          "close on Monday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF LOSSES",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1893",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF LOSSES",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1894",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET RELATIONSHIPS FOR HIGH PROBABILITY TRADING",
+          "intermarket relationships",
+          "intermarket analysis",
+          "using other markets to support an idea",
+          "using other markets to support or what would negate the idea",
+          "using other markets to support"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "VALIDATION",
+          "TRADE_NEGATION",
+          "PRE-TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HIGH PROBABILITY TRADING",
+          "high probability",
+          "high probability short"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERIA",
+          "RISK_MANAGEMENT",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "INVALIDATION_CRITERIA",
+          "TRADE_CONFIRMATION",
+          "ENTRY_POINT_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERMARKET RELATIONSHIPS FOR HIGH PROBABILITY TRADING",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1895",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "little gap in between",
+          "gap that's created by this candle's high and that candle's low"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "REVERSION_TARGET",
+          "REFERENCE_POINT",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficient in sell side because it's buy side imbalance",
+          "buy side imbalance"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITIONS",
+          "ORIGIN_OF_FVG"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "consequent encroachment of the fair value gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "REVERSION_TARGET",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Mohawk",
+          "pokes itself above it",
+          "punches just above that",
+          "outside the fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "take a short higher up",
+          "add a partial and pyramid",
+          "superior entry",
+          "get the fill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP UTILIZATION AND EXPECTATION",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1896",
+    "concepts": [
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gaps",
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "ENTRY_CONFIRMATION",
+          "COMPONENT_OF_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP_DYNAMICS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gap to fill",
+          "expect it to fail",
+          "see things remain open"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_ANALYSIS",
+          "TRADE_MANAGEMENT",
+          "TRADE_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_EDGE",
+        "confidence": 1,
+        "surface_terms": [
+          "an edge"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "a model"
+        ],
+        "narrative_roles": [
+          "STRATEGY_FOUNDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STATISTICAL_VALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "statistics and probabilities"
+        ],
+        "narrative_roles": [
+          "STRATEGY_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high probability"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CABLE HOURLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1897",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CY breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "fair value gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "PRICE_REACTION_POINT",
+          "ENTRY_CONFIRMATION",
+          "REJECTION_BLOCK"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN",
+          "MONDAY_LONDON_TRANSITION"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take the buy side that I would be treating as my stop"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_LIQUIDITY",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "broke lower",
+          "Everything reversed"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CABLE HOURLY",
+      "source_file": "ICT Mentorship 2023 - October 15, 2023 Market Review_Handbook.chunks.json"
+    }
+  }
+]

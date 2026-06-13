@@ -1,0 +1,564 @@
+[
+  {
+    "chunk_id": "chunk_1298",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "THE WEEKLY BIAS",
+          "weekly bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONVICTION",
+          "TRADE_PLANNING",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly lows"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION",
+          "KEY_LEVELS",
+          "PRICE_TARGETS",
+          "MARKET_STRUCTURE_FORMATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly highs"
+        ],
+        "narrative_roles": [
+          "ANTICIPATION",
+          "KEY_LEVELS",
+          "PRICE_TARGETS",
+          "MARKET_STRUCTURE_FORMATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish conditions",
+          "bullish weekly profiles"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "MARKET_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish conditions",
+          "bearish weekly profiles"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "MARKET_ANALYSIS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE WEEKLY BIAS IN SHORT-TERM TRADING",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1299",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS_ANTICIPATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ANTICIPATING THE LOW",
+          "The weekly low is anticipated to form"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "MARKET_TIMING_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_LOW_FORMATION_TIMING_WINDOW",
+        "confidence": 0.98,
+        "surface_terms": [
+          "between Sunday's opening and Wednesday's New York open",
+          "between Tuesday and Wednesday",
+          "specifically focusing on Tuesday's London session to Wednesday's New York open"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW_IDENTIFICATION",
+          "OPTIMAL_ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "Sunday's opening",
+          "Wednesday's New York open",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "New York open",
+          "London session"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING THE LOW",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1300",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "initial drop below the opening price",
+          "'oversold' condition",
+          "This drop is often a 'Judas Swing'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE",
+          "ENTRY_SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEEKLY RANGE AND OVERSOLD CONDITIONS (BULLISH)",
+          "bullish week",
+          "overall bullish higher time frame context"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING",
+          "TRADE_DIRECTION_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly candle",
+          "weekly range",
+          "entire week's data"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUNDAY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday's open"
+        ],
+        "narrative_roles": [
+          "TIMING_REFERENCE",
+          "MARKET_OPEN_REFERENCE"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY RANGE AND OVERSOLD CONDITIONS (BULLISH)",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1301",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "engineered move designed to stop out existing longs or entice shorts"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_LOW_TIMING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal low timing",
+          "low of the week",
+          "High odds for the low to form"
+        ],
+        "narrative_roles": [
+          "TIMING_MODEL",
+          "ENTRY_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "Sunday's opening",
+          "Tuesday's London setup",
+          "Wednesday's New York setup",
+          "Sunday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE JUDAS SWING AND OPTIMAL LOW TIMING (BULLISH)",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1302",
+    "concepts": [
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a bullish premise is in place"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREMISE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVALIDATION_CRITERIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "NIXING A BULLISH TRADE",
+          "the low does not form on Tuesday",
+          "price drops lower than Wednesday's New York open",
+          "the trade should be nixed"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "It's important to accept being wrong and go to the sidelines",
+          "This acceptance of imperfection is a hard but necessary lesson for consistent trading."
+        ],
+        "narrative_roles": [
+          "DISCIPLINE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the low does not form on Tuesday"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREMISE",
+          "TIMING_CONSTRAINT"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NIXING A BULLISH TRADE",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1303",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "short-term high prior to this new low forming",
+          "trigger point",
+          "breaks above this short-term high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "ENTRY_TRIGGER",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday",
+          "new weekly low"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci tool",
+          "lowest close or open in that swing low",
+          "current high"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TOOL",
+          "ENTRY_POINT_IDENTIFICATION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING TRIGGER POINTS AND FIBONACCI LEVELS",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1304",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish OTE entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price",
+          "the opening"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "PIVOT_LEVEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "THE LINE IN THE SAND FOR BULLISH EXPANSION",
+          "price should expand above the opening price",
+          "If the low forms on Monday and price trades above the opening, it's advisable to take some profits and set",
+          "If price trades above the opening on Tuesday, a retest of the opening price on Wednesday is permissible",
+          "after Wednesday, price should not return to the opening price if truly bullish"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TRADE_MANAGEMENT",
+          "INVALIDATION_CRITERIA",
+          "CONTINUATION_MODEL"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE LINE IN THE SAND FOR BULLISH EXPANSION",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1305",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "bearish 'Judas Swing'",
+          "Movements above the opening price are anticipated, pushing price into a 'technically overbought'",
+          "'overbought' condition is identified not by indicators, but by price trading above the opening price within a longer-term bearish market environment"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE",
+          "REVERSAL_SETUP",
+          "TRAP_MECHANISM"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OPEN",
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish premise",
+          "bearish premise for the week",
+          "longer-term bearish market environment"
+        ],
+        "narrative_roles": [
+          "OVERALL_BIAS",
+          "DIRECTIONAL_CONSTRAINT",
+          "BEARISH"
+        ],
+        "temporal_tags": [
+          "WEEKLY_BIAS"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH PREMISE AND OVERBOUGHT CONDITIONS (WITHOUT INDICATORS)",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1306",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "prior highs",
+          "Friday's or Monday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ENTRY_POINT_REFERENCE"
+        ],
+        "temporal_tags": [
+          "Friday's high",
+          "Monday's high"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sell limit orders above prior highs"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "LIQUIDITY_EXPLOITATION"
+        ],
+        "temporal_tags": [
+          "Tuesday's open",
+          "Wednesday's open"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REFINING BEARISH ENTRY AND CONCLUSION",
+      "source_file": "ICT Forex - The Weekly Bias - Excellence In Short Term Trading_Handbook.chunks.json"
+    }
+  }
+]

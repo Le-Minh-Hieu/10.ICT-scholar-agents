@@ -1,0 +1,5380 @@
+{
+  "week_start": "2026-05-25",
+  "week_end": "2026-05-31T00:00:00.000Z",
+  "last_updated": "2026-05-31T10:23:15.368Z",
+  "source": "forexfactory",
+  "refresh_hours": 12,
+  "events": [
+    {
+      "id": "forexfactory:a3487ce6dc27",
+      "native_id": null,
+      "name": "Corporate Profits q/q",
+      "category": "RATES",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-25T12:30:00.000Z",
+      "forecast": null,
+      "previous": -1.6,
+      "actual": -2,
+      "window_boundaries": {
+        "pre_start": "2026-05-25T08:15:00-04:00",
+        "pre_end": "2026-05-25T08:30:00-04:00",
+        "post_start": "2026-05-25T08:30:00-04:00",
+        "post_end": "2026-05-25T08:45:00-04:00",
+        "cooldown_end": "2026-05-25T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:24b557c62f05",
+      "native_id": null,
+      "name": "BRC Shop Price Index y/y",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-25T23:01:00.000Z",
+      "forecast": 1.1,
+      "previous": 1,
+      "actual": 1.2,
+      "window_boundaries": {
+        "pre_start": "2026-05-25T18:46:00-04:00",
+        "pre_end": "2026-05-25T19:01:00-04:00",
+        "post_start": "2026-05-25T19:01:00-04:00",
+        "post_end": "2026-05-25T19:16:00-04:00",
+        "cooldown_end": "2026-05-25T20:01:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:746aec910b8a",
+      "native_id": null,
+      "name": "BOJ Core CPI y/y",
+      "category": "CPI",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T05:00:00.000Z",
+      "forecast": 1.7,
+      "previous": 1.7,
+      "actual": 1.4,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T00:45:00-04:00",
+        "pre_end": "2026-05-26T01:00:00-04:00",
+        "post_start": "2026-05-26T01:00:00-04:00",
+        "post_end": "2026-05-26T01:15:00-04:00",
+        "cooldown_end": "2026-05-26T02:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:6839c33fa5cd",
+      "native_id": null,
+      "name": "CBI Realized Sales",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T10:00:00.000Z",
+      "forecast": -52,
+      "previous": -68,
+      "actual": -46,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T05:45:00-04:00",
+        "pre_end": "2026-05-26T06:00:00-04:00",
+        "post_start": "2026-05-26T06:00:00-04:00",
+        "post_end": "2026-05-26T06:15:00-04:00",
+        "cooldown_end": "2026-05-26T07:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:94b6b3702190",
+      "native_id": null,
+      "name": "Gov Council Member Vincent Speaks",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T12:20:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T08:05:00-04:00",
+        "pre_end": "2026-05-26T08:20:00-04:00",
+        "post_start": "2026-05-26T08:20:00-04:00",
+        "post_end": "2026-05-26T08:35:00-04:00",
+        "cooldown_end": "2026-05-26T09:20:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:8f0cc9bba7a1",
+      "native_id": null,
+      "name": "HPI m/m",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T13:00:00.000Z",
+      "forecast": 0.1,
+      "previous": -0.1,
+      "actual": 0.1,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T08:45:00-04:00",
+        "pre_end": "2026-05-26T09:00:00-04:00",
+        "post_start": "2026-05-26T09:00:00-04:00",
+        "post_end": "2026-05-26T09:15:00-04:00",
+        "cooldown_end": "2026-05-26T10:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:ffc2dc195459",
+      "native_id": null,
+      "name": "CB Consumer Confidence",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T14:00:00.000Z",
+      "forecast": 91.9,
+      "previous": 93.8,
+      "actual": 93.1,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T09:30:00-04:00",
+        "pre_end": "2026-05-26T10:00:00-04:00",
+        "post_start": "2026-05-26T10:00:00-04:00",
+        "post_end": "2026-05-26T10:30:00-04:00",
+        "cooldown_end": "2026-05-26T11:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2d3ae2692913",
+      "native_id": null,
+      "name": "SPPI y/y",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-26T23:50:00.000Z",
+      "forecast": 3.3,
+      "previous": 3.3,
+      "actual": 3,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T19:35:00-04:00",
+        "pre_end": "2026-05-26T19:50:00-04:00",
+        "post_start": "2026-05-26T19:50:00-04:00",
+        "post_end": "2026-05-26T20:05:00-04:00",
+        "cooldown_end": "2026-05-26T20:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:dec8cb677b61",
+      "native_id": null,
+      "name": "BOJ Gov Ueda Speaks",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T00:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T19:30:00-04:00",
+        "pre_end": "2026-05-26T20:00:00-04:00",
+        "post_start": "2026-05-26T20:00:00-04:00",
+        "post_end": "2026-05-26T20:30:00-04:00",
+        "cooldown_end": "2026-05-26T21:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:033cf77e2937",
+      "native_id": null,
+      "name": "MI Leading Index m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T00:30:00.000Z",
+      "forecast": null,
+      "previous": -0.1,
+      "actual": 0,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T20:15:00-04:00",
+        "pre_end": "2026-05-26T20:30:00-04:00",
+        "post_start": "2026-05-26T20:30:00-04:00",
+        "post_end": "2026-05-26T20:45:00-04:00",
+        "cooldown_end": "2026-05-26T21:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:78a89284aa10",
+      "native_id": null,
+      "name": "CPI m/m",
+      "category": "CPI",
+      "currency": "AUD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T01:30:00.000Z",
+      "forecast": 0.6,
+      "previous": 1.1,
+      "actual": 0.4,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T20:30:00-04:00",
+        "pre_end": "2026-05-26T21:30:00-04:00",
+        "post_start": "2026-05-26T21:30:00-04:00",
+        "post_end": "2026-05-26T22:30:00-04:00",
+        "cooldown_end": "2026-05-27T00:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:450934e3c99d",
+      "native_id": null,
+      "name": "Official Cash Rate",
+      "category": "RATES",
+      "currency": "NZD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T02:00:00.000Z",
+      "forecast": 2.25,
+      "previous": 2.25,
+      "actual": 2.25,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T21:00:00-04:00",
+        "pre_end": "2026-05-26T22:00:00-04:00",
+        "post_start": "2026-05-26T22:00:00-04:00",
+        "post_end": "2026-05-26T23:00:00-04:00",
+        "cooldown_end": "2026-05-27T01:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:af9d11236a6b",
+      "native_id": null,
+      "name": "RBNZ Press Conference",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T03:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-26T22:00:00-04:00",
+        "pre_end": "2026-05-26T23:00:00-04:00",
+        "post_start": "2026-05-26T23:00:00-04:00",
+        "post_end": "2026-05-27T00:00:00-04:00",
+        "cooldown_end": "2026-05-27T02:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7330111c7e5b",
+      "native_id": null,
+      "name": "RBA Deputy Gov Hauser Speaks",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T08:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T03:45:00-04:00",
+        "pre_end": "2026-05-27T04:00:00-04:00",
+        "post_start": "2026-05-27T04:00:00-04:00",
+        "post_end": "2026-05-27T04:15:00-04:00",
+        "cooldown_end": "2026-05-27T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:d2a8171747ef",
+      "native_id": null,
+      "name": "ADP Weekly Employment Change",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T12:15:00.000Z",
+      "forecast": null,
+      "previous": 42.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T08:00:00-04:00",
+        "pre_end": "2026-05-27T08:15:00-04:00",
+        "post_start": "2026-05-27T08:15:00-04:00",
+        "post_end": "2026-05-27T08:30:00-04:00",
+        "cooldown_end": "2026-05-27T09:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:9ec80d7360af",
+      "native_id": null,
+      "name": "CB Leading Index m/m",
+      "category": "OTHER",
+      "currency": "CNY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T13:00:00.000Z",
+      "forecast": null,
+      "previous": -0.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T08:45:00-04:00",
+        "pre_end": "2026-05-27T09:00:00-04:00",
+        "post_start": "2026-05-27T09:00:00-04:00",
+        "post_end": "2026-05-27T09:15:00-04:00",
+        "cooldown_end": "2026-05-27T10:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CNY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f610c110404d",
+      "native_id": null,
+      "name": "Richmond Manufacturing Index",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T14:00:00.000Z",
+      "forecast": 4,
+      "previous": 3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T09:45:00-04:00",
+        "pre_end": "2026-05-27T10:00:00-04:00",
+        "post_start": "2026-05-27T10:00:00-04:00",
+        "post_end": "2026-05-27T10:15:00-04:00",
+        "cooldown_end": "2026-05-27T11:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:1af2b59a53d2",
+      "native_id": null,
+      "name": "FOMC Member Cook Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T19:55:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T15:40:00-04:00",
+        "pre_end": "2026-05-27T15:55:00-04:00",
+        "post_start": "2026-05-27T15:55:00-04:00",
+        "post_end": "2026-05-27T16:10:00-04:00",
+        "cooldown_end": "2026-05-27T16:55:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:49b21ea67003",
+      "native_id": null,
+      "name": "RBNZ Gov Breman Speaks",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T20:10:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T15:40:00-04:00",
+        "pre_end": "2026-05-27T16:10:00-04:00",
+        "post_start": "2026-05-27T16:10:00-04:00",
+        "post_end": "2026-05-27T16:40:00-04:00",
+        "cooldown_end": "2026-05-27T17:40:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:c48bf258fa0a",
+      "native_id": null,
+      "name": "API Weekly Statistical Bulletin",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-27T20:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T16:15:00-04:00",
+        "pre_end": "2026-05-27T16:30:00-04:00",
+        "post_start": "2026-05-27T16:30:00-04:00",
+        "post_end": "2026-05-27T16:45:00-04:00",
+        "cooldown_end": "2026-05-27T17:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2b5139485a9b",
+      "native_id": null,
+      "name": "FOMC Member Jefferson Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T00:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T19:45:00-04:00",
+        "pre_end": "2026-05-27T20:00:00-04:00",
+        "post_start": "2026-05-27T20:00:00-04:00",
+        "post_end": "2026-05-27T20:15:00-04:00",
+        "cooldown_end": "2026-05-27T21:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:72a5ed4f41b3",
+      "native_id": null,
+      "name": "Household Spending m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T01:30:00.000Z",
+      "forecast": -0.5,
+      "previous": 1.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T21:15:00-04:00",
+        "pre_end": "2026-05-27T21:30:00-04:00",
+        "post_start": "2026-05-27T21:30:00-04:00",
+        "post_end": "2026-05-27T21:45:00-04:00",
+        "cooldown_end": "2026-05-27T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:98fd6079ae8c",
+      "native_id": null,
+      "name": "Annual Budget Release",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T02:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T21:30:00-04:00",
+        "pre_end": "2026-05-27T22:00:00-04:00",
+        "post_start": "2026-05-27T22:00:00-04:00",
+        "post_end": "2026-05-27T22:30:00-04:00",
+        "cooldown_end": "2026-05-27T23:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a92a51a2ff4e",
+      "native_id": null,
+      "name": "MPC Member Lombardelli Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T02:25:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-27T22:10:00-04:00",
+        "pre_end": "2026-05-27T22:25:00-04:00",
+        "post_start": "2026-05-27T22:25:00-04:00",
+        "post_end": "2026-05-27T22:40:00-04:00",
+        "cooldown_end": "2026-05-27T23:25:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:78a498033f1c",
+      "native_id": null,
+      "name": "ECB President Lagarde Speaks",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T06:10:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T01:40:00-04:00",
+        "pre_end": "2026-05-28T02:10:00-04:00",
+        "post_start": "2026-05-28T02:10:00-04:00",
+        "post_end": "2026-05-28T02:40:00-04:00",
+        "cooldown_end": "2026-05-28T03:40:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:67ad46922ceb",
+      "native_id": null,
+      "name": "MPC Member Breeden Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T08:05:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T03:50:00-04:00",
+        "pre_end": "2026-05-28T04:05:00-04:00",
+        "post_start": "2026-05-28T04:05:00-04:00",
+        "post_end": "2026-05-28T04:20:00-04:00",
+        "cooldown_end": "2026-05-28T05:05:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:984435d926f8",
+      "native_id": null,
+      "name": "SNB Chairman Schlegel Speaks",
+      "category": "OTHER",
+      "currency": "CHF",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T11:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T06:30:00-04:00",
+        "pre_end": "2026-05-28T07:00:00-04:00",
+        "post_start": "2026-05-28T07:00:00-04:00",
+        "post_end": "2026-05-28T07:30:00-04:00",
+        "cooldown_end": "2026-05-28T08:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:dabcaf867986",
+      "native_id": null,
+      "name": "ECB Monetary Policy Meeting Accounts",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T11:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T07:15:00-04:00",
+        "pre_end": "2026-05-28T07:30:00-04:00",
+        "post_start": "2026-05-28T07:30:00-04:00",
+        "post_end": "2026-05-28T07:45:00-04:00",
+        "cooldown_end": "2026-05-28T08:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f03db4d5751e",
+      "native_id": null,
+      "name": "Current Account",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T12:30:00.000Z",
+      "forecast": -3.9,
+      "previous": -0.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T08:15:00-04:00",
+        "pre_end": "2026-05-28T08:30:00-04:00",
+        "post_start": "2026-05-28T08:30:00-04:00",
+        "post_end": "2026-05-28T08:45:00-04:00",
+        "cooldown_end": "2026-05-28T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:23c0eabb6191",
+      "native_id": null,
+      "name": "FOMC Member Williams Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T12:55:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T08:40:00-04:00",
+        "pre_end": "2026-05-28T08:55:00-04:00",
+        "post_start": "2026-05-28T08:55:00-04:00",
+        "post_end": "2026-05-28T09:10:00-04:00",
+        "cooldown_end": "2026-05-28T09:55:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7120249e08db",
+      "native_id": null,
+      "name": "BOC Financial System Review",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T14:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T09:45:00-04:00",
+        "pre_end": "2026-05-28T10:00:00-04:00",
+        "post_start": "2026-05-28T10:00:00-04:00",
+        "post_end": "2026-05-28T10:15:00-04:00",
+        "cooldown_end": "2026-05-28T11:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:ff61873e676f",
+      "native_id": null,
+      "name": "FOMC Member Musalem Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T14:15:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T10:00:00-04:00",
+        "pre_end": "2026-05-28T10:15:00-04:00",
+        "post_start": "2026-05-28T10:15:00-04:00",
+        "post_end": "2026-05-28T10:30:00-04:00",
+        "cooldown_end": "2026-05-28T11:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:c602fe6a18d3",
+      "native_id": null,
+      "name": "Natural Gas Storage",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T14:30:00.000Z",
+      "forecast": null,
+      "previous": 101,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T10:15:00-04:00",
+        "pre_end": "2026-05-28T10:30:00-04:00",
+        "post_start": "2026-05-28T10:30:00-04:00",
+        "post_end": "2026-05-28T10:45:00-04:00",
+        "cooldown_end": "2026-05-28T11:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:44d9633e3f5c",
+      "native_id": null,
+      "name": "BOC Press Conference",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T15:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T10:30:00-04:00",
+        "pre_end": "2026-05-28T11:00:00-04:00",
+        "post_start": "2026-05-28T11:00:00-04:00",
+        "post_end": "2026-05-28T11:30:00-04:00",
+        "cooldown_end": "2026-05-28T12:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:99a6be29162f",
+      "native_id": null,
+      "name": "Crude Oil Inventories",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T16:00:00.000Z",
+      "forecast": null,
+      "previous": -7.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T11:45:00-04:00",
+        "pre_end": "2026-05-28T12:00:00-04:00",
+        "post_start": "2026-05-28T12:00:00-04:00",
+        "post_end": "2026-05-28T12:15:00-04:00",
+        "cooldown_end": "2026-05-28T13:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2dd341be8702",
+      "native_id": null,
+      "name": "FOMC Member Barkin Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T19:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T14:45:00-04:00",
+        "pre_end": "2026-05-28T15:00:00-04:00",
+        "post_start": "2026-05-28T15:00:00-04:00",
+        "post_end": "2026-05-28T15:15:00-04:00",
+        "cooldown_end": "2026-05-28T16:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:726f1eca8ce6",
+      "native_id": null,
+      "name": "Tokyo Core CPI y/y",
+      "category": "CPI",
+      "currency": "JPY",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T23:30:00.000Z",
+      "forecast": 1.5,
+      "previous": 1.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T19:00:00-04:00",
+        "pre_end": "2026-05-28T19:30:00-04:00",
+        "post_start": "2026-05-28T19:30:00-04:00",
+        "post_end": "2026-05-28T20:00:00-04:00",
+        "cooldown_end": "2026-05-28T21:00:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:b8b93b934edb",
+      "native_id": null,
+      "name": "Prelim Industrial Production m/m",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-28T23:50:00.000Z",
+      "forecast": -0.4,
+      "previous": -0.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T19:35:00-04:00",
+        "pre_end": "2026-05-28T19:50:00-04:00",
+        "post_start": "2026-05-28T19:50:00-04:00",
+        "post_end": "2026-05-28T20:05:00-04:00",
+        "cooldown_end": "2026-05-28T20:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7d42164ea352",
+      "native_id": null,
+      "name": "ANZ Business Confidence",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T01:00:00.000Z",
+      "forecast": null,
+      "previous": -10.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T20:45:00-04:00",
+        "pre_end": "2026-05-28T21:00:00-04:00",
+        "post_start": "2026-05-28T21:00:00-04:00",
+        "post_end": "2026-05-28T21:15:00-04:00",
+        "cooldown_end": "2026-05-28T22:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:ff7533519387",
+      "native_id": null,
+      "name": "Private Sector Credit m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T01:30:00.000Z",
+      "forecast": 0.6,
+      "previous": 0.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-28T21:15:00-04:00",
+        "pre_end": "2026-05-28T21:30:00-04:00",
+        "post_start": "2026-05-28T21:30:00-04:00",
+        "post_end": "2026-05-28T21:45:00-04:00",
+        "cooldown_end": "2026-05-28T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2df048620481",
+      "native_id": null,
+      "name": "Consumer Confidence",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T05:00:00.000Z",
+      "forecast": 32.3,
+      "previous": 32.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T00:45:00-04:00",
+        "pre_end": "2026-05-29T01:00:00-04:00",
+        "post_start": "2026-05-29T01:00:00-04:00",
+        "post_end": "2026-05-29T01:15:00-04:00",
+        "cooldown_end": "2026-05-29T02:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:ca19a2feaba0",
+      "native_id": null,
+      "name": "German Import Prices m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T06:00:00.000Z",
+      "forecast": 1.2,
+      "previous": 3.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T01:45:00-04:00",
+        "pre_end": "2026-05-29T02:00:00-04:00",
+        "post_start": "2026-05-29T02:00:00-04:00",
+        "post_end": "2026-05-29T02:15:00-04:00",
+        "cooldown_end": "2026-05-29T03:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:b7069dfaddbb",
+      "native_id": null,
+      "name": "French Consumer Spending m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T06:45:00.000Z",
+      "forecast": -0.1,
+      "previous": 0.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T02:30:00-04:00",
+        "pre_end": "2026-05-29T02:45:00-04:00",
+        "post_start": "2026-05-29T02:45:00-04:00",
+        "post_end": "2026-05-29T03:00:00-04:00",
+        "cooldown_end": "2026-05-29T03:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:0cfa4c7fe015",
+      "native_id": null,
+      "name": "KOF Economic Barometer",
+      "category": "OTHER",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T07:00:00.000Z",
+      "forecast": 98,
+      "previous": 97.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T02:45:00-04:00",
+        "pre_end": "2026-05-29T03:00:00-04:00",
+        "post_start": "2026-05-29T03:00:00-04:00",
+        "post_end": "2026-05-29T03:15:00-04:00",
+        "cooldown_end": "2026-05-29T04:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:b8b254a30b99",
+      "native_id": null,
+      "name": "German Unemployment Change",
+      "category": "LABOR",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T07:55:00.000Z",
+      "forecast": 11,
+      "previous": 20,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T03:40:00-04:00",
+        "pre_end": "2026-05-29T03:55:00-04:00",
+        "post_start": "2026-05-29T03:55:00-04:00",
+        "post_end": "2026-05-29T04:10:00-04:00",
+        "cooldown_end": "2026-05-29T04:55:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:0d07aef6ae28",
+      "native_id": null,
+      "name": "Italian Monthly Unemployment Rate",
+      "category": "LABOR",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T08:00:00.000Z",
+      "forecast": 5.3,
+      "previous": 5.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T03:45:00-04:00",
+        "pre_end": "2026-05-29T04:00:00-04:00",
+        "post_start": "2026-05-29T04:00:00-04:00",
+        "post_end": "2026-05-29T04:15:00-04:00",
+        "cooldown_end": "2026-05-29T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:4056a08ef4eb",
+      "native_id": null,
+      "name": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T08:20:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T03:20:00-04:00",
+        "pre_end": "2026-05-29T04:20:00-04:00",
+        "post_start": "2026-05-29T04:20:00-04:00",
+        "post_end": "2026-05-29T05:20:00-04:00",
+        "cooldown_end": "2026-05-29T07:20:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:afd837725f7d",
+      "native_id": null,
+      "name": "Italian Prelim CPI m/m",
+      "category": "CPI",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T09:00:00.000Z",
+      "forecast": 0.1,
+      "previous": 1.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T04:45:00-04:00",
+        "pre_end": "2026-05-29T05:00:00-04:00",
+        "post_start": "2026-05-29T05:00:00-04:00",
+        "post_end": "2026-05-29T05:15:00-04:00",
+        "cooldown_end": "2026-05-29T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a2126a2ed232",
+      "native_id": null,
+      "name": "FOMC Member Schmid Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T10:50:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T06:35:00-04:00",
+        "pre_end": "2026-05-29T06:50:00-04:00",
+        "post_start": "2026-05-29T06:50:00-04:00",
+        "post_end": "2026-05-29T07:05:00-04:00",
+        "cooldown_end": "2026-05-29T07:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7e935ecadb2c",
+      "native_id": null,
+      "name": "GDP m/m",
+      "category": "GDP",
+      "currency": "CAD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T12:30:00.000Z",
+      "forecast": 0.1,
+      "previous": 0.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T07:30:00-04:00",
+        "pre_end": "2026-05-29T08:30:00-04:00",
+        "post_start": "2026-05-29T08:30:00-04:00",
+        "post_end": "2026-05-29T09:30:00-04:00",
+        "cooldown_end": "2026-05-29T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:26c7881e23e9",
+      "native_id": null,
+      "name": "FOMC Member Bowman Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T13:10:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T08:55:00-04:00",
+        "pre_end": "2026-05-29T09:10:00-04:00",
+        "post_start": "2026-05-29T09:10:00-04:00",
+        "post_end": "2026-05-29T09:25:00-04:00",
+        "cooldown_end": "2026-05-29T10:10:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:60d3fc1b1ba6",
+      "native_id": null,
+      "name": "FOMC Member Paulson Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T13:15:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T09:00:00-04:00",
+        "pre_end": "2026-05-29T09:15:00-04:00",
+        "post_start": "2026-05-29T09:15:00-04:00",
+        "post_end": "2026-05-29T09:30:00-04:00",
+        "cooldown_end": "2026-05-29T10:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:52070a56d999",
+      "native_id": null,
+      "name": "Chicago PMI",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T13:45:00.000Z",
+      "forecast": 50.6,
+      "previous": 49.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T09:30:00-04:00",
+        "pre_end": "2026-05-29T09:45:00-04:00",
+        "post_start": "2026-05-29T09:45:00-04:00",
+        "post_end": "2026-05-29T10:00:00-04:00",
+        "cooldown_end": "2026-05-29T10:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:304a53a3084c",
+      "native_id": null,
+      "name": "FOMC Member Daly Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-29T16:40:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-29T12:25:00-04:00",
+        "pre_end": "2026-05-29T12:40:00-04:00",
+        "post_start": "2026-05-29T12:40:00-04:00",
+        "post_end": "2026-05-29T12:55:00-04:00",
+        "cooldown_end": "2026-05-29T13:40:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e83c05fc17df",
+      "native_id": null,
+      "name": "MPC Member Mann Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-30T09:40:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-30T05:25:00-04:00",
+        "pre_end": "2026-05-30T05:40:00-04:00",
+        "post_start": "2026-05-30T05:40:00-04:00",
+        "post_end": "2026-05-30T05:55:00-04:00",
+        "cooldown_end": "2026-05-30T06:40:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:29a7be120bd4",
+      "native_id": null,
+      "name": "Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "CNY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-31T01:30:00.000Z",
+      "forecast": 50.2,
+      "previous": 50.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-30T21:15:00-04:00",
+        "pre_end": "2026-05-30T21:30:00-04:00",
+        "post_start": "2026-05-30T21:30:00-04:00",
+        "post_end": "2026-05-30T21:45:00-04:00",
+        "cooldown_end": "2026-05-30T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CNY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:aa584cc9938b",
+      "native_id": null,
+      "name": "MPC Member Greene Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-31T12:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T08:15:00-04:00",
+        "pre_end": "2026-05-31T08:30:00-04:00",
+        "post_start": "2026-05-31T08:30:00-04:00",
+        "post_end": "2026-05-31T08:45:00-04:00",
+        "cooldown_end": "2026-05-31T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:63d1e4ab8611",
+      "native_id": null,
+      "name": "FOMC Member Waller Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-31T12:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T08:15:00-04:00",
+        "pre_end": "2026-05-31T08:30:00-04:00",
+        "post_start": "2026-05-31T08:30:00-04:00",
+        "post_end": "2026-05-31T08:45:00-04:00",
+        "cooldown_end": "2026-05-31T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2eeefdd7bd30",
+      "native_id": null,
+      "name": "Bank Holiday",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-31T20:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T15:45:00-04:00",
+        "pre_end": "2026-05-31T16:00:00-04:00",
+        "post_start": "2026-05-31T16:00:00-04:00",
+        "post_end": "2026-05-31T16:15:00-04:00",
+        "cooldown_end": "2026-05-31T17:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:1f3002d86086",
+      "native_id": null,
+      "name": "Capital Spending q/y",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-05-31T23:50:00.000Z",
+      "forecast": 4.1,
+      "previous": 6.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T19:35:00-04:00",
+        "pre_end": "2026-05-31T19:50:00-04:00",
+        "post_start": "2026-05-31T19:50:00-04:00",
+        "post_end": "2026-05-31T20:05:00-04:00",
+        "cooldown_end": "2026-05-31T20:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:175c1ee2c96f",
+      "native_id": null,
+      "name": "Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T00:30:00.000Z",
+      "forecast": 54.5,
+      "previous": 54.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T20:15:00-04:00",
+        "pre_end": "2026-05-31T20:30:00-04:00",
+        "post_start": "2026-05-31T20:30:00-04:00",
+        "post_end": "2026-05-31T20:45:00-04:00",
+        "cooldown_end": "2026-05-31T21:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:26f8754c93fd",
+      "native_id": null,
+      "name": "FOMC Member Powell Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T00:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T20:00:00-04:00",
+        "pre_end": "2026-05-31T20:30:00-04:00",
+        "post_start": "2026-05-31T20:30:00-04:00",
+        "post_end": "2026-05-31T21:00:00-04:00",
+        "cooldown_end": "2026-05-31T22:00:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:dff9cfa07f64",
+      "native_id": null,
+      "name": "MI Inflation Gauge m/m",
+      "category": "CPI",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T01:00:00.000Z",
+      "forecast": null,
+      "previous": 0.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T20:45:00-04:00",
+        "pre_end": "2026-05-31T21:00:00-04:00",
+        "post_start": "2026-05-31T21:00:00-04:00",
+        "post_end": "2026-05-31T21:15:00-04:00",
+        "cooldown_end": "2026-05-31T22:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:68b74218d713",
+      "native_id": null,
+      "name": "ANZ Job Advertisements m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T01:30:00.000Z",
+      "forecast": null,
+      "previous": -0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T21:15:00-04:00",
+        "pre_end": "2026-05-31T21:30:00-04:00",
+        "post_start": "2026-05-31T21:30:00-04:00",
+        "post_end": "2026-05-31T21:45:00-04:00",
+        "cooldown_end": "2026-05-31T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:38ea0192c6d8",
+      "native_id": null,
+      "name": "RatingDog Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "CNY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T01:45:00.000Z",
+      "forecast": 51.4,
+      "previous": 52.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-05-31T21:30:00-04:00",
+        "pre_end": "2026-05-31T21:45:00-04:00",
+        "post_start": "2026-05-31T21:45:00-04:00",
+        "post_end": "2026-05-31T22:00:00-04:00",
+        "cooldown_end": "2026-05-31T22:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CNY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:59798a3eae8c",
+      "native_id": null,
+      "name": "German Retail Sales m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T06:00:00.000Z",
+      "forecast": -0.4,
+      "previous": -2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T01:45:00-04:00",
+        "pre_end": "2026-06-01T02:00:00-04:00",
+        "post_start": "2026-06-01T02:00:00-04:00",
+        "post_end": "2026-06-01T02:15:00-04:00",
+        "cooldown_end": "2026-06-01T03:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:60685cd85af4",
+      "native_id": null,
+      "name": "Nationwide HPI m/m",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T06:00:00.000Z",
+      "forecast": -0.1,
+      "previous": 0.4,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T01:45:00-04:00",
+        "pre_end": "2026-06-01T02:00:00-04:00",
+        "post_start": "2026-06-01T02:00:00-04:00",
+        "post_end": "2026-06-01T02:15:00-04:00",
+        "cooldown_end": "2026-06-01T03:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:62e42d5c84f1",
+      "native_id": null,
+      "name": "Commodity Prices y/y",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T06:30:00.000Z",
+      "forecast": null,
+      "previous": 15.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T02:15:00-04:00",
+        "pre_end": "2026-06-01T02:30:00-04:00",
+        "post_start": "2026-06-01T02:30:00-04:00",
+        "post_end": "2026-06-01T02:45:00-04:00",
+        "cooldown_end": "2026-06-01T03:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a204cc01bb4d",
+      "native_id": null,
+      "name": "Retail Sales y/y",
+      "category": "OTHER",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T06:30:00.000Z",
+      "forecast": 0.2,
+      "previous": 0.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T02:15:00-04:00",
+        "pre_end": "2026-06-01T02:30:00-04:00",
+        "post_start": "2026-06-01T02:30:00-04:00",
+        "post_end": "2026-06-01T02:45:00-04:00",
+        "cooldown_end": "2026-06-01T03:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:4bb4ecc78ed0",
+      "native_id": null,
+      "name": "GDP q/q",
+      "category": "GDP",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:00:00.000Z",
+      "forecast": 0.6,
+      "previous": 0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T02:45:00-04:00",
+        "pre_end": "2026-06-01T03:00:00-04:00",
+        "post_start": "2026-06-01T03:00:00-04:00",
+        "post_end": "2026-06-01T03:15:00-04:00",
+        "cooldown_end": "2026-06-01T04:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:de9b99b395c7",
+      "native_id": null,
+      "name": "Spanish Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:15:00.000Z",
+      "forecast": 53.7,
+      "previous": 51.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:00:00-04:00",
+        "pre_end": "2026-06-01T03:15:00-04:00",
+        "post_start": "2026-06-01T03:15:00-04:00",
+        "post_end": "2026-06-01T03:30:00-04:00",
+        "cooldown_end": "2026-06-01T04:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e91981f511e4",
+      "native_id": null,
+      "name": "Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:30:00.000Z",
+      "forecast": 54,
+      "previous": 54.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:15:00-04:00",
+        "pre_end": "2026-06-01T03:30:00-04:00",
+        "post_start": "2026-06-01T03:30:00-04:00",
+        "post_end": "2026-06-01T03:45:00-04:00",
+        "cooldown_end": "2026-06-01T04:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:770939451492",
+      "native_id": null,
+      "name": "Italian Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:45:00.000Z",
+      "forecast": 52,
+      "previous": 52.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:30:00-04:00",
+        "pre_end": "2026-06-01T03:45:00-04:00",
+        "post_start": "2026-06-01T03:45:00-04:00",
+        "post_end": "2026-06-01T04:00:00-04:00",
+        "cooldown_end": "2026-06-01T04:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:24fe285f6e20",
+      "native_id": null,
+      "name": "French Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:50:00.000Z",
+      "forecast": 48.9,
+      "previous": 48.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:35:00-04:00",
+        "pre_end": "2026-06-01T03:50:00-04:00",
+        "post_start": "2026-06-01T03:50:00-04:00",
+        "post_end": "2026-06-01T04:05:00-04:00",
+        "cooldown_end": "2026-06-01T04:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e3430e4a6ec8",
+      "native_id": null,
+      "name": "German Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T07:55:00.000Z",
+      "forecast": 49.9,
+      "previous": 49.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:40:00-04:00",
+        "pre_end": "2026-06-01T03:55:00-04:00",
+        "post_start": "2026-06-01T03:55:00-04:00",
+        "post_end": "2026-06-01T04:10:00-04:00",
+        "cooldown_end": "2026-06-01T04:55:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:df7ebc2166ca",
+      "native_id": null,
+      "name": "Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T08:00:00.000Z",
+      "forecast": 51.4,
+      "previous": 51.4,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:45:00-04:00",
+        "pre_end": "2026-06-01T04:00:00-04:00",
+        "post_start": "2026-06-01T04:00:00-04:00",
+        "post_end": "2026-06-01T04:15:00-04:00",
+        "cooldown_end": "2026-06-01T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:23c77e743c62",
+      "native_id": null,
+      "name": "M3 Money Supply y/y",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T08:00:00.000Z",
+      "forecast": 3.1,
+      "previous": 3.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:45:00-04:00",
+        "pre_end": "2026-06-01T04:00:00-04:00",
+        "post_start": "2026-06-01T04:00:00-04:00",
+        "post_end": "2026-06-01T04:15:00-04:00",
+        "cooldown_end": "2026-06-01T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f195bd7b79f1",
+      "native_id": null,
+      "name": "Private Loans y/y",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T08:00:00.000Z",
+      "forecast": 3,
+      "previous": 3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T03:45:00-04:00",
+        "pre_end": "2026-06-01T04:00:00-04:00",
+        "post_start": "2026-06-01T04:00:00-04:00",
+        "post_end": "2026-06-01T04:15:00-04:00",
+        "cooldown_end": "2026-06-01T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:4933b5b3f455",
+      "native_id": null,
+      "name": "Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T08:30:00.000Z",
+      "forecast": 53.7,
+      "previous": 53.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T04:15:00-04:00",
+        "pre_end": "2026-06-01T04:30:00-04:00",
+        "post_start": "2026-06-01T04:30:00-04:00",
+        "post_end": "2026-06-01T04:45:00-04:00",
+        "cooldown_end": "2026-06-01T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:71c51e14bb0d",
+      "native_id": null,
+      "name": "Unemployment Rate",
+      "category": "LABOR",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T09:00:00.000Z",
+      "forecast": 6.2,
+      "previous": 6.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T04:45:00-04:00",
+        "pre_end": "2026-06-01T05:00:00-04:00",
+        "post_start": "2026-06-01T05:00:00-04:00",
+        "post_end": "2026-06-01T05:15:00-04:00",
+        "cooldown_end": "2026-06-01T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:9311aa3e2523",
+      "native_id": null,
+      "name": "Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T13:30:00.000Z",
+      "forecast": null,
+      "previous": 53.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T09:15:00-04:00",
+        "pre_end": "2026-06-01T09:30:00-04:00",
+        "post_start": "2026-06-01T09:30:00-04:00",
+        "post_end": "2026-06-01T09:45:00-04:00",
+        "cooldown_end": "2026-06-01T10:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:88c5e80ac461",
+      "native_id": null,
+      "name": "Final Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T13:45:00.000Z",
+      "forecast": 55.3,
+      "previous": 55.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T09:30:00-04:00",
+        "pre_end": "2026-06-01T09:45:00-04:00",
+        "post_start": "2026-06-01T09:45:00-04:00",
+        "post_end": "2026-06-01T10:00:00-04:00",
+        "cooldown_end": "2026-06-01T10:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:eb74e5da8bff",
+      "native_id": null,
+      "name": "ISM Manufacturing PMI",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T14:00:00.000Z",
+      "forecast": 53.3,
+      "previous": 52.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T09:00:00-04:00",
+        "pre_end": "2026-06-01T10:00:00-04:00",
+        "post_start": "2026-06-01T10:00:00-04:00",
+        "post_end": "2026-06-01T11:00:00-04:00",
+        "cooldown_end": "2026-06-01T13:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:9bdca4669224",
+      "native_id": null,
+      "name": "ISM Manufacturing Prices",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T14:00:00.000Z",
+      "forecast": 85.3,
+      "previous": 84.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T09:30:00-04:00",
+        "pre_end": "2026-06-01T10:00:00-04:00",
+        "post_start": "2026-06-01T10:00:00-04:00",
+        "post_end": "2026-06-01T10:30:00-04:00",
+        "cooldown_end": "2026-06-01T11:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:dd113a0c72a9",
+      "native_id": null,
+      "name": "Construction Spending m/m",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T14:00:00.000Z",
+      "forecast": 0.3,
+      "previous": 0.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T09:45:00-04:00",
+        "pre_end": "2026-06-01T10:00:00-04:00",
+        "post_start": "2026-06-01T10:00:00-04:00",
+        "post_end": "2026-06-01T10:15:00-04:00",
+        "cooldown_end": "2026-06-01T11:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:76369f9be2d0",
+      "native_id": null,
+      "name": "Gov Council Member Rogers Speaks",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T16:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T11:45:00-04:00",
+        "pre_end": "2026-06-01T12:00:00-04:00",
+        "post_start": "2026-06-01T12:00:00-04:00",
+        "post_end": "2026-06-01T12:15:00-04:00",
+        "cooldown_end": "2026-06-01T13:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:5beee901855d",
+      "native_id": null,
+      "name": "Monetary Base y/y",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-01T23:50:00.000Z",
+      "forecast": -9.5,
+      "previous": -11.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T19:35:00-04:00",
+        "pre_end": "2026-06-01T19:50:00-04:00",
+        "post_start": "2026-06-01T19:50:00-04:00",
+        "post_end": "2026-06-01T20:05:00-04:00",
+        "cooldown_end": "2026-06-01T20:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:05742f71029a",
+      "native_id": null,
+      "name": "Building Approvals m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T01:30:00.000Z",
+      "forecast": -1.5,
+      "previous": -10.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T21:15:00-04:00",
+        "pre_end": "2026-06-01T21:30:00-04:00",
+        "post_start": "2026-06-01T21:30:00-04:00",
+        "post_end": "2026-06-01T21:45:00-04:00",
+        "cooldown_end": "2026-06-01T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:d969f9c5bffb",
+      "native_id": null,
+      "name": "Company Operating Profits q/q",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T01:30:00.000Z",
+      "forecast": 0.5,
+      "previous": 5.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T21:15:00-04:00",
+        "pre_end": "2026-06-01T21:30:00-04:00",
+        "post_start": "2026-06-01T21:30:00-04:00",
+        "post_end": "2026-06-01T21:45:00-04:00",
+        "cooldown_end": "2026-06-01T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:3c10a0313620",
+      "native_id": null,
+      "name": "Current Account",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T01:30:00.000Z",
+      "forecast": -22.8,
+      "previous": -21.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T21:15:00-04:00",
+        "pre_end": "2026-06-01T21:30:00-04:00",
+        "post_start": "2026-06-01T21:30:00-04:00",
+        "post_end": "2026-06-01T21:45:00-04:00",
+        "cooldown_end": "2026-06-01T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e9d323da6292",
+      "native_id": null,
+      "name": "Private Sector Credit m/m",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T01:30:00.000Z",
+      "forecast": 0.6,
+      "previous": 0.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T21:15:00-04:00",
+        "pre_end": "2026-06-01T21:30:00-04:00",
+        "post_start": "2026-06-01T21:30:00-04:00",
+        "post_end": "2026-06-01T21:45:00-04:00",
+        "cooldown_end": "2026-06-01T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2363d4c24f34",
+      "native_id": null,
+      "name": "10-y Bond Auction",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T03:35:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-01T23:20:00-04:00",
+        "pre_end": "2026-06-01T23:35:00-04:00",
+        "post_start": "2026-06-01T23:35:00-04:00",
+        "post_end": "2026-06-01T23:50:00-04:00",
+        "cooldown_end": "2026-06-02T00:35:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:b6d5bad87f3c",
+      "native_id": null,
+      "name": "FOMC Member Kashkari Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T05:50:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T01:35:00-04:00",
+        "pre_end": "2026-06-02T01:50:00-04:00",
+        "post_start": "2026-06-02T01:50:00-04:00",
+        "post_end": "2026-06-02T02:05:00-04:00",
+        "cooldown_end": "2026-06-02T02:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:833271bdd2e2",
+      "native_id": null,
+      "name": "Italian Bank Holiday",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T06:03:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T01:48:00-04:00",
+        "pre_end": "2026-06-02T02:03:00-04:00",
+        "post_start": "2026-06-02T02:03:00-04:00",
+        "post_end": "2026-06-02T02:18:00-04:00",
+        "cooldown_end": "2026-06-02T03:03:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:c41356505418",
+      "native_id": null,
+      "name": "French Gov Budget Balance",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T06:45:00.000Z",
+      "forecast": null,
+      "previous": -42.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T02:30:00-04:00",
+        "pre_end": "2026-06-02T02:45:00-04:00",
+        "post_start": "2026-06-02T02:45:00-04:00",
+        "post_end": "2026-06-02T03:00:00-04:00",
+        "cooldown_end": "2026-06-02T03:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:68239dd8c4da",
+      "native_id": null,
+      "name": "Spanish Unemployment Change",
+      "category": "LABOR",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T07:00:00.000Z",
+      "forecast": null,
+      "previous": -62.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T02:45:00-04:00",
+        "pre_end": "2026-06-02T03:00:00-04:00",
+        "post_start": "2026-06-02T03:00:00-04:00",
+        "post_end": "2026-06-02T03:15:00-04:00",
+        "cooldown_end": "2026-06-02T04:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:8e41423c1cc9",
+      "native_id": null,
+      "name": "M4 Money Supply m/m",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T08:30:00.000Z",
+      "forecast": 0.6,
+      "previous": 0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T04:15:00-04:00",
+        "pre_end": "2026-06-02T04:30:00-04:00",
+        "post_start": "2026-06-02T04:30:00-04:00",
+        "post_end": "2026-06-02T04:45:00-04:00",
+        "cooldown_end": "2026-06-02T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:5be9144ce2fb",
+      "native_id": null,
+      "name": "Mortgage Approvals",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T08:30:00.000Z",
+      "forecast": 62,
+      "previous": 64,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T04:15:00-04:00",
+        "pre_end": "2026-06-02T04:30:00-04:00",
+        "post_start": "2026-06-02T04:30:00-04:00",
+        "post_end": "2026-06-02T04:45:00-04:00",
+        "cooldown_end": "2026-06-02T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:c9629720a6ca",
+      "native_id": null,
+      "name": "Net Lending to Individuals m/m",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T08:30:00.000Z",
+      "forecast": 7.1,
+      "previous": 8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T04:15:00-04:00",
+        "pre_end": "2026-06-02T04:30:00-04:00",
+        "post_start": "2026-06-02T04:30:00-04:00",
+        "post_end": "2026-06-02T04:45:00-04:00",
+        "cooldown_end": "2026-06-02T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:11508a18ac8a",
+      "native_id": null,
+      "name": "Core CPI Flash Estimate y/y",
+      "category": "CPI",
+      "currency": "EUR",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T09:00:00.000Z",
+      "forecast": 2.4,
+      "previous": 2.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T04:30:00-04:00",
+        "pre_end": "2026-06-02T05:00:00-04:00",
+        "post_start": "2026-06-02T05:00:00-04:00",
+        "post_end": "2026-06-02T05:30:00-04:00",
+        "cooldown_end": "2026-06-02T06:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:3e9234f9365b",
+      "native_id": null,
+      "name": "CPI Flash Estimate y/y",
+      "category": "CPI",
+      "currency": "EUR",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T09:00:00.000Z",
+      "forecast": 3.3,
+      "previous": 3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T04:30:00-04:00",
+        "pre_end": "2026-06-02T05:00:00-04:00",
+        "post_start": "2026-06-02T05:00:00-04:00",
+        "post_end": "2026-06-02T05:30:00-04:00",
+        "cooldown_end": "2026-06-02T06:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a49a80018989",
+      "native_id": null,
+      "name": "10-y Bond Auction",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T09:33:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T05:18:00-04:00",
+        "pre_end": "2026-06-02T05:33:00-04:00",
+        "post_start": "2026-06-02T05:33:00-04:00",
+        "post_end": "2026-06-02T05:48:00-04:00",
+        "cooldown_end": "2026-06-02T06:33:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f2aff3944e94",
+      "native_id": null,
+      "name": "FOMC Member Hammack Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T12:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T08:15:00-04:00",
+        "pre_end": "2026-06-02T08:30:00-04:00",
+        "post_start": "2026-06-02T08:30:00-04:00",
+        "post_end": "2026-06-02T08:45:00-04:00",
+        "cooldown_end": "2026-06-02T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:728272a6ef7f",
+      "native_id": null,
+      "name": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T14:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T09:00:00-04:00",
+        "pre_end": "2026-06-02T10:00:00-04:00",
+        "post_start": "2026-06-02T10:00:00-04:00",
+        "post_end": "2026-06-02T11:00:00-04:00",
+        "cooldown_end": "2026-06-02T13:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:886538124785",
+      "native_id": null,
+      "name": "JOLTS Job Openings",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T14:00:00.000Z",
+      "forecast": 6.87,
+      "previous": 6.87,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T09:30:00-04:00",
+        "pre_end": "2026-06-02T10:00:00-04:00",
+        "post_start": "2026-06-02T10:00:00-04:00",
+        "post_end": "2026-06-02T10:30:00-04:00",
+        "cooldown_end": "2026-06-02T11:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:003d5d2d1426",
+      "native_id": null,
+      "name": "RCM/TIPP Economic Optimism",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T14:10:00.000Z",
+      "forecast": null,
+      "previous": 42.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T09:55:00-04:00",
+        "pre_end": "2026-06-02T10:10:00-04:00",
+        "post_start": "2026-06-02T10:10:00-04:00",
+        "post_end": "2026-06-02T10:25:00-04:00",
+        "cooldown_end": "2026-06-02T11:10:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:3191a30951e6",
+      "native_id": null,
+      "name": "Wards Total Vehicle Sales",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T14:15:00.000Z",
+      "forecast": 16,
+      "previous": 15.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T10:00:00-04:00",
+        "pre_end": "2026-06-02T10:15:00-04:00",
+        "post_start": "2026-06-02T10:15:00-04:00",
+        "post_end": "2026-06-02T10:30:00-04:00",
+        "cooldown_end": "2026-06-02T11:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:20576be36b99",
+      "native_id": null,
+      "name": "GDT Price Index",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T14:50:00.000Z",
+      "forecast": null,
+      "previous": 0.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T10:35:00-04:00",
+        "pre_end": "2026-06-02T10:50:00-04:00",
+        "post_start": "2026-06-02T10:50:00-04:00",
+        "post_end": "2026-06-02T11:05:00-04:00",
+        "cooldown_end": "2026-06-02T11:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:566d5b75c128",
+      "native_id": null,
+      "name": "MPC Member Greene Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T15:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T10:45:00-04:00",
+        "pre_end": "2026-06-02T11:00:00-04:00",
+        "post_start": "2026-06-02T11:00:00-04:00",
+        "post_end": "2026-06-02T11:15:00-04:00",
+        "cooldown_end": "2026-06-02T12:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f224344dd2bb",
+      "native_id": null,
+      "name": "API Weekly Statistical Bulletin",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T20:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T16:15:00-04:00",
+        "pre_end": "2026-06-02T16:30:00-04:00",
+        "post_start": "2026-06-02T16:30:00-04:00",
+        "post_end": "2026-06-02T16:45:00-04:00",
+        "cooldown_end": "2026-06-02T17:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:d26595633c3f",
+      "native_id": null,
+      "name": "Building Consents m/m",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T22:45:00.000Z",
+      "forecast": null,
+      "previous": -1.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T18:30:00-04:00",
+        "pre_end": "2026-06-02T18:45:00-04:00",
+        "post_start": "2026-06-02T18:45:00-04:00",
+        "post_end": "2026-06-02T19:00:00-04:00",
+        "cooldown_end": "2026-06-02T19:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:44a381b08ae5",
+      "native_id": null,
+      "name": "Overseas Trade Index q/q",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-02T22:45:00.000Z",
+      "forecast": -1.2,
+      "previous": 3.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T18:30:00-04:00",
+        "pre_end": "2026-06-02T18:45:00-04:00",
+        "post_start": "2026-06-02T18:45:00-04:00",
+        "post_end": "2026-06-02T19:00:00-04:00",
+        "cooldown_end": "2026-06-02T19:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:70d83de91221",
+      "native_id": null,
+      "name": "GDP q/q",
+      "category": "GDP",
+      "currency": "AUD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T01:30:00.000Z",
+      "forecast": 0.5,
+      "previous": 0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T20:30:00-04:00",
+        "pre_end": "2026-06-02T21:30:00-04:00",
+        "post_start": "2026-06-02T21:30:00-04:00",
+        "post_end": "2026-06-02T22:30:00-04:00",
+        "cooldown_end": "2026-06-03T00:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:68129f188a06",
+      "native_id": null,
+      "name": "RatingDog Services PMI",
+      "category": "OTHER",
+      "currency": "CNY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T01:45:00.000Z",
+      "forecast": 52.3,
+      "previous": 52.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-02T21:30:00-04:00",
+        "pre_end": "2026-06-02T21:45:00-04:00",
+        "post_start": "2026-06-02T21:45:00-04:00",
+        "post_end": "2026-06-02T22:00:00-04:00",
+        "cooldown_end": "2026-06-02T22:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CNY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:6c4a8aff4ec0",
+      "native_id": null,
+      "name": "Spanish Services PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T07:15:00.000Z",
+      "forecast": 48.3,
+      "previous": 47.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:00:00-04:00",
+        "pre_end": "2026-06-03T03:15:00-04:00",
+        "post_start": "2026-06-03T03:15:00-04:00",
+        "post_end": "2026-06-03T03:30:00-04:00",
+        "cooldown_end": "2026-06-03T04:15:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:cfe6d3e749c0",
+      "native_id": null,
+      "name": "Italian Services PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T07:45:00.000Z",
+      "forecast": 49.3,
+      "previous": 49.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:30:00-04:00",
+        "pre_end": "2026-06-03T03:45:00-04:00",
+        "post_start": "2026-06-03T03:45:00-04:00",
+        "post_end": "2026-06-03T04:00:00-04:00",
+        "cooldown_end": "2026-06-03T04:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:b5b67c73e48e",
+      "native_id": null,
+      "name": "French Final Services PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T07:50:00.000Z",
+      "forecast": 42.9,
+      "previous": 42.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:35:00-04:00",
+        "pre_end": "2026-06-03T03:50:00-04:00",
+        "post_start": "2026-06-03T03:50:00-04:00",
+        "post_end": "2026-06-03T04:05:00-04:00",
+        "cooldown_end": "2026-06-03T04:50:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:da1970506099",
+      "native_id": null,
+      "name": "German Final Services PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T07:55:00.000Z",
+      "forecast": 47.8,
+      "previous": 47.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:40:00-04:00",
+        "pre_end": "2026-06-03T03:55:00-04:00",
+        "post_start": "2026-06-03T03:55:00-04:00",
+        "post_end": "2026-06-03T04:10:00-04:00",
+        "cooldown_end": "2026-06-03T04:55:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:43d35efb00d6",
+      "native_id": null,
+      "name": "Final Services PMI",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T08:00:00.000Z",
+      "forecast": 46.4,
+      "previous": 46.4,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:45:00-04:00",
+        "pre_end": "2026-06-03T04:00:00-04:00",
+        "post_start": "2026-06-03T04:00:00-04:00",
+        "post_end": "2026-06-03T04:15:00-04:00",
+        "cooldown_end": "2026-06-03T05:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a9e1b8db72fb",
+      "native_id": null,
+      "name": "Final Services PMI",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T08:30:00.000Z",
+      "forecast": 47.9,
+      "previous": 47.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T04:15:00-04:00",
+        "pre_end": "2026-06-03T04:30:00-04:00",
+        "post_start": "2026-06-03T04:30:00-04:00",
+        "post_end": "2026-06-03T04:45:00-04:00",
+        "cooldown_end": "2026-06-03T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:4467fefe8762",
+      "native_id": null,
+      "name": "BOJ Gov Ueda Speaks",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T08:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T03:30:00-04:00",
+        "pre_end": "2026-06-03T04:30:00-04:00",
+        "post_start": "2026-06-03T04:30:00-04:00",
+        "post_end": "2026-06-03T05:30:00-04:00",
+        "cooldown_end": "2026-06-03T07:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:ac40effd0670",
+      "native_id": null,
+      "name": "PPI m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T09:00:00.000Z",
+      "forecast": 0.5,
+      "previous": 3.4,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T04:45:00-04:00",
+        "pre_end": "2026-06-03T05:00:00-04:00",
+        "post_start": "2026-06-03T05:00:00-04:00",
+        "post_end": "2026-06-03T05:15:00-04:00",
+        "cooldown_end": "2026-06-03T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:dfbf7c3f547f",
+      "native_id": null,
+      "name": "ADP Non-Farm Employment Change",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T12:15:00.000Z",
+      "forecast": 116,
+      "previous": 109,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T07:15:00-04:00",
+        "pre_end": "2026-06-03T08:15:00-04:00",
+        "post_start": "2026-06-03T08:15:00-04:00",
+        "post_end": "2026-06-03T09:15:00-04:00",
+        "cooldown_end": "2026-06-03T11:15:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:952aee6236fa",
+      "native_id": null,
+      "name": "Labor Productivity q/q",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T12:30:00.000Z",
+      "forecast": 0.7,
+      "previous": -0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T08:15:00-04:00",
+        "pre_end": "2026-06-03T08:30:00-04:00",
+        "post_start": "2026-06-03T08:30:00-04:00",
+        "post_end": "2026-06-03T08:45:00-04:00",
+        "cooldown_end": "2026-06-03T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e5ef2ca0ae31",
+      "native_id": null,
+      "name": "FOMC Member Barr Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T13:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T08:45:00-04:00",
+        "pre_end": "2026-06-03T09:00:00-04:00",
+        "post_start": "2026-06-03T09:00:00-04:00",
+        "post_end": "2026-06-03T09:15:00-04:00",
+        "cooldown_end": "2026-06-03T10:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2752a305b9a2",
+      "native_id": null,
+      "name": "Final Services PMI",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T13:45:00.000Z",
+      "forecast": 50.9,
+      "previous": 50.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T09:30:00-04:00",
+        "pre_end": "2026-06-03T09:45:00-04:00",
+        "post_start": "2026-06-03T09:45:00-04:00",
+        "post_end": "2026-06-03T10:00:00-04:00",
+        "cooldown_end": "2026-06-03T10:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:6dc2e43ffca3",
+      "native_id": null,
+      "name": "ISM Services PMI",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T14:00:00.000Z",
+      "forecast": 53.8,
+      "previous": 53.6,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T09:00:00-04:00",
+        "pre_end": "2026-06-03T10:00:00-04:00",
+        "post_start": "2026-06-03T10:00:00-04:00",
+        "post_end": "2026-06-03T11:00:00-04:00",
+        "cooldown_end": "2026-06-03T13:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:354365cec913",
+      "native_id": null,
+      "name": "Treasury Sec Bessent Speaks",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T14:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T09:30:00-04:00",
+        "pre_end": "2026-06-03T10:00:00-04:00",
+        "post_start": "2026-06-03T10:00:00-04:00",
+        "post_end": "2026-06-03T10:30:00-04:00",
+        "cooldown_end": "2026-06-03T11:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:8e35ef1bb8e8",
+      "native_id": null,
+      "name": "Factory Orders m/m",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T14:00:00.000Z",
+      "forecast": null,
+      "previous": 1.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T09:45:00-04:00",
+        "pre_end": "2026-06-03T10:00:00-04:00",
+        "post_start": "2026-06-03T10:00:00-04:00",
+        "post_end": "2026-06-03T10:15:00-04:00",
+        "cooldown_end": "2026-06-03T11:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:52b4ec83ab91",
+      "native_id": null,
+      "name": "Crude Oil Inventories",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T14:30:00.000Z",
+      "forecast": null,
+      "previous": -3.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T10:15:00-04:00",
+        "pre_end": "2026-06-03T10:30:00-04:00",
+        "post_start": "2026-06-03T10:30:00-04:00",
+        "post_end": "2026-06-03T10:45:00-04:00",
+        "cooldown_end": "2026-06-03T11:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:10bb2323839c",
+      "native_id": null,
+      "name": "Beige Book",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T18:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T13:45:00-04:00",
+        "pre_end": "2026-06-03T14:00:00-04:00",
+        "post_start": "2026-06-03T14:00:00-04:00",
+        "post_end": "2026-06-03T14:15:00-04:00",
+        "cooldown_end": "2026-06-03T15:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:8c60cba59d3f",
+      "native_id": null,
+      "name": "FOMC Member Logan Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-03T19:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T14:45:00-04:00",
+        "pre_end": "2026-06-03T15:00:00-04:00",
+        "post_start": "2026-06-03T15:00:00-04:00",
+        "post_end": "2026-06-03T15:15:00-04:00",
+        "cooldown_end": "2026-06-03T16:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:12fa63f7d1f6",
+      "native_id": null,
+      "name": "ANZ Commodity Prices m/m",
+      "category": "OTHER",
+      "currency": "NZD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T01:00:00.000Z",
+      "forecast": null,
+      "previous": -0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T20:45:00-04:00",
+        "pre_end": "2026-06-03T21:00:00-04:00",
+        "post_start": "2026-06-03T21:00:00-04:00",
+        "post_end": "2026-06-03T21:15:00-04:00",
+        "cooldown_end": "2026-06-03T22:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "NZD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:e6d5c09ebc22",
+      "native_id": null,
+      "name": "Goods Trade Balance",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T01:30:00.000Z",
+      "forecast": -1.61,
+      "previous": -1.84,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-03T21:15:00-04:00",
+        "pre_end": "2026-06-03T21:30:00-04:00",
+        "post_start": "2026-06-03T21:30:00-04:00",
+        "post_end": "2026-06-03T21:45:00-04:00",
+        "cooldown_end": "2026-06-03T22:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:321d51a39351",
+      "native_id": null,
+      "name": "RBA Gov Bullock Speaks",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T05:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T00:00:00-04:00",
+        "pre_end": "2026-06-04T01:00:00-04:00",
+        "post_start": "2026-06-04T01:00:00-04:00",
+        "post_end": "2026-06-04T02:00:00-04:00",
+        "cooldown_end": "2026-06-04T04:00:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:78f610630a77",
+      "native_id": null,
+      "name": "CPI m/m",
+      "category": "CPI",
+      "currency": "CHF",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T06:30:00.000Z",
+      "forecast": 0.3,
+      "previous": 0.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T02:00:00-04:00",
+        "pre_end": "2026-06-04T02:30:00-04:00",
+        "post_start": "2026-06-04T02:30:00-04:00",
+        "post_end": "2026-06-04T03:00:00-04:00",
+        "cooldown_end": "2026-06-04T04:00:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f6b9b9789797",
+      "native_id": null,
+      "name": "Unemployment Rate",
+      "category": "LABOR",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T07:00:00.000Z",
+      "forecast": 3,
+      "previous": 3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T02:45:00-04:00",
+        "pre_end": "2026-06-04T03:00:00-04:00",
+        "post_start": "2026-06-04T03:00:00-04:00",
+        "post_end": "2026-06-04T03:15:00-04:00",
+        "cooldown_end": "2026-06-04T04:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:18ac8b4f44c5",
+      "native_id": null,
+      "name": "ECB President Lagarde Speaks",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T08:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T03:30:00-04:00",
+        "pre_end": "2026-06-04T04:00:00-04:00",
+        "post_start": "2026-06-04T04:00:00-04:00",
+        "post_end": "2026-06-04T04:30:00-04:00",
+        "cooldown_end": "2026-06-04T05:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:cf053a7e4e97",
+      "native_id": null,
+      "name": "Construction PMI",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T08:30:00.000Z",
+      "forecast": 40.1,
+      "previous": 39.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T04:15:00-04:00",
+        "pre_end": "2026-06-04T04:30:00-04:00",
+        "post_start": "2026-06-04T04:30:00-04:00",
+        "post_end": "2026-06-04T04:45:00-04:00",
+        "cooldown_end": "2026-06-04T05:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a2045f3cd981",
+      "native_id": null,
+      "name": "Retail Sales m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T09:00:00.000Z",
+      "forecast": -0.3,
+      "previous": -0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T04:45:00-04:00",
+        "pre_end": "2026-06-04T05:00:00-04:00",
+        "post_start": "2026-06-04T05:00:00-04:00",
+        "post_end": "2026-06-04T05:15:00-04:00",
+        "cooldown_end": "2026-06-04T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:764a35e2eb5a",
+      "native_id": null,
+      "name": "French 10-y Bond Auction",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T09:18:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T05:03:00-04:00",
+        "pre_end": "2026-06-04T05:18:00-04:00",
+        "post_start": "2026-06-04T05:18:00-04:00",
+        "post_end": "2026-06-04T05:33:00-04:00",
+        "cooldown_end": "2026-06-04T06:18:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:00d19aac01ab",
+      "native_id": null,
+      "name": "Challenger Job Cuts y/y",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T09:30:00.000Z",
+      "forecast": null,
+      "previous": -20.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T05:15:00-04:00",
+        "pre_end": "2026-06-04T05:30:00-04:00",
+        "post_start": "2026-06-04T05:30:00-04:00",
+        "post_end": "2026-06-04T05:45:00-04:00",
+        "cooldown_end": "2026-06-04T06:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:3e2f4ce64b2b",
+      "native_id": null,
+      "name": "Unemployment Claims",
+      "category": "LABOR",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T12:30:00.000Z",
+      "forecast": 211,
+      "previous": 215,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T08:00:00-04:00",
+        "pre_end": "2026-06-04T08:30:00-04:00",
+        "post_start": "2026-06-04T08:30:00-04:00",
+        "post_end": "2026-06-04T09:00:00-04:00",
+        "cooldown_end": "2026-06-04T10:00:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2cc58da9fa62",
+      "native_id": null,
+      "name": "FOMC Member Barkin Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T12:30:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T08:15:00-04:00",
+        "pre_end": "2026-06-04T08:30:00-04:00",
+        "post_start": "2026-06-04T08:30:00-04:00",
+        "post_end": "2026-06-04T08:45:00-04:00",
+        "cooldown_end": "2026-06-04T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7981da26648e",
+      "native_id": null,
+      "name": "Revised Nonfarm Productivity q/q",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T12:30:00.000Z",
+      "forecast": 0.7,
+      "previous": 0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T08:15:00-04:00",
+        "pre_end": "2026-06-04T08:30:00-04:00",
+        "post_start": "2026-06-04T08:30:00-04:00",
+        "post_end": "2026-06-04T08:45:00-04:00",
+        "cooldown_end": "2026-06-04T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:cfe1a0298360",
+      "native_id": null,
+      "name": "Revised Unit Labor Costs q/q",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T12:30:00.000Z",
+      "forecast": 2.4,
+      "previous": 2.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T08:15:00-04:00",
+        "pre_end": "2026-06-04T08:30:00-04:00",
+        "post_start": "2026-06-04T08:30:00-04:00",
+        "post_end": "2026-06-04T08:45:00-04:00",
+        "cooldown_end": "2026-06-04T09:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:04fa2319abd9",
+      "native_id": null,
+      "name": "Natural Gas Storage",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T14:30:00.000Z",
+      "forecast": null,
+      "previous": 92,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T10:15:00-04:00",
+        "pre_end": "2026-06-04T10:30:00-04:00",
+        "post_start": "2026-06-04T10:30:00-04:00",
+        "post_end": "2026-06-04T10:45:00-04:00",
+        "cooldown_end": "2026-06-04T11:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2cdc1960efbb",
+      "native_id": null,
+      "name": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T15:40:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T10:40:00-04:00",
+        "pre_end": "2026-06-04T11:40:00-04:00",
+        "post_start": "2026-06-04T11:40:00-04:00",
+        "post_end": "2026-06-04T12:40:00-04:00",
+        "cooldown_end": "2026-06-04T14:40:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:a395fc8fc546",
+      "native_id": null,
+      "name": "FOMC Member Daly Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T17:10:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T12:55:00-04:00",
+        "pre_end": "2026-06-04T13:10:00-04:00",
+        "post_start": "2026-06-04T13:10:00-04:00",
+        "post_end": "2026-06-04T13:25:00-04:00",
+        "cooldown_end": "2026-06-04T14:10:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:f72cc65ae1c5",
+      "native_id": null,
+      "name": "Average Cash Earnings y/y",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T23:30:00.000Z",
+      "forecast": 3.2,
+      "previous": 2.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T19:15:00-04:00",
+        "pre_end": "2026-06-04T19:30:00-04:00",
+        "post_start": "2026-06-04T19:30:00-04:00",
+        "post_end": "2026-06-04T19:45:00-04:00",
+        "cooldown_end": "2026-06-04T20:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:974dc6edd14f",
+      "native_id": null,
+      "name": "Household Spending y/y",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-04T23:30:00.000Z",
+      "forecast": -1.4,
+      "previous": -2.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-04T19:15:00-04:00",
+        "pre_end": "2026-06-04T19:30:00-04:00",
+        "post_start": "2026-06-04T19:30:00-04:00",
+        "post_end": "2026-06-04T19:45:00-04:00",
+        "cooldown_end": "2026-06-04T20:30:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:45e1096ddeee",
+      "native_id": null,
+      "name": "RBA Deputy Gov Hauser Speaks",
+      "category": "OTHER",
+      "currency": "AUD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T04:35:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T00:20:00-04:00",
+        "pre_end": "2026-06-05T00:35:00-04:00",
+        "post_start": "2026-06-05T00:35:00-04:00",
+        "post_end": "2026-06-05T00:50:00-04:00",
+        "cooldown_end": "2026-06-05T01:35:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "AUD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:96cc1b883036",
+      "native_id": null,
+      "name": "Leading Indicators",
+      "category": "OTHER",
+      "currency": "JPY",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T05:00:00.000Z",
+      "forecast": 114.3,
+      "previous": 114.5,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T00:45:00-04:00",
+        "pre_end": "2026-06-05T01:00:00-04:00",
+        "post_start": "2026-06-05T01:00:00-04:00",
+        "post_end": "2026-06-05T01:15:00-04:00",
+        "cooldown_end": "2026-06-05T02:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "JPY"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:578491fc296e",
+      "native_id": null,
+      "name": "Halifax HPI m/m",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T06:00:00.000Z",
+      "forecast": 0.2,
+      "previous": -0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T01:45:00-04:00",
+        "pre_end": "2026-06-05T02:00:00-04:00",
+        "post_start": "2026-06-05T02:00:00-04:00",
+        "post_end": "2026-06-05T02:15:00-04:00",
+        "cooldown_end": "2026-06-05T03:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:c5da4ced5129",
+      "native_id": null,
+      "name": "French Industrial Production m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T06:45:00.000Z",
+      "forecast": -0.2,
+      "previous": 1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T02:30:00-04:00",
+        "pre_end": "2026-06-05T02:45:00-04:00",
+        "post_start": "2026-06-05T02:45:00-04:00",
+        "post_end": "2026-06-05T03:00:00-04:00",
+        "cooldown_end": "2026-06-05T03:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:81bb30c991cc",
+      "native_id": null,
+      "name": "French Trade Balance",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T06:45:00.000Z",
+      "forecast": -6.5,
+      "previous": -6.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T02:30:00-04:00",
+        "pre_end": "2026-06-05T02:45:00-04:00",
+        "post_start": "2026-06-05T02:45:00-04:00",
+        "post_end": "2026-06-05T03:00:00-04:00",
+        "cooldown_end": "2026-06-05T03:45:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:426baf6bbcaf",
+      "native_id": null,
+      "name": "Foreign Currency Reserves",
+      "category": "OTHER",
+      "currency": "CHF",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T07:00:00.000Z",
+      "forecast": null,
+      "previous": 716,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T02:45:00-04:00",
+        "pre_end": "2026-06-05T03:00:00-04:00",
+        "post_start": "2026-06-05T03:00:00-04:00",
+        "post_end": "2026-06-05T03:15:00-04:00",
+        "cooldown_end": "2026-06-05T04:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CHF"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:aed5f527d6b6",
+      "native_id": null,
+      "name": "Final Employment Change q/q",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T09:00:00.000Z",
+      "forecast": 0.1,
+      "previous": 0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T04:45:00-04:00",
+        "pre_end": "2026-06-05T05:00:00-04:00",
+        "post_start": "2026-06-05T05:00:00-04:00",
+        "post_end": "2026-06-05T05:15:00-04:00",
+        "cooldown_end": "2026-06-05T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:373d5eb27cf0",
+      "native_id": null,
+      "name": "Italian Retail Sales m/m",
+      "category": "OTHER",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T09:00:00.000Z",
+      "forecast": 0.2,
+      "previous": 0.8,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T04:45:00-04:00",
+        "pre_end": "2026-06-05T05:00:00-04:00",
+        "post_start": "2026-06-05T05:00:00-04:00",
+        "post_end": "2026-06-05T05:15:00-04:00",
+        "cooldown_end": "2026-06-05T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:226793a3665b",
+      "native_id": null,
+      "name": "Revised GDP q/q",
+      "category": "GDP",
+      "currency": "EUR",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T09:00:00.000Z",
+      "forecast": 0.1,
+      "previous": 0.1,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T04:45:00-04:00",
+        "pre_end": "2026-06-05T05:00:00-04:00",
+        "post_start": "2026-06-05T05:00:00-04:00",
+        "post_end": "2026-06-05T05:15:00-04:00",
+        "cooldown_end": "2026-06-05T06:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "EUR"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:1d9fb6e0e3cc",
+      "native_id": null,
+      "name": "Employment Change",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "forecast": 10.2,
+      "previous": -17.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T07:30:00-04:00",
+        "pre_end": "2026-06-05T08:30:00-04:00",
+        "post_start": "2026-06-05T08:30:00-04:00",
+        "post_end": "2026-06-05T09:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:409c6c8dfa02",
+      "native_id": null,
+      "name": "Unemployment Rate",
+      "category": "LABOR",
+      "currency": "CAD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "forecast": 6.9,
+      "previous": 6.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T07:30:00-04:00",
+        "pre_end": "2026-06-05T08:30:00-04:00",
+        "post_start": "2026-06-05T08:30:00-04:00",
+        "post_end": "2026-06-05T09:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:2cf63b971758",
+      "native_id": null,
+      "name": "Average Hourly Earnings m/m",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "forecast": 0.3,
+      "previous": 0.2,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T07:30:00-04:00",
+        "pre_end": "2026-06-05T08:30:00-04:00",
+        "post_start": "2026-06-05T08:30:00-04:00",
+        "post_end": "2026-06-05T09:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:9d5ff56370fe",
+      "native_id": null,
+      "name": "Non-Farm Employment Change",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "forecast": 95,
+      "previous": 115,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T07:30:00-04:00",
+        "pre_end": "2026-06-05T08:30:00-04:00",
+        "post_start": "2026-06-05T08:30:00-04:00",
+        "post_end": "2026-06-05T09:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:1b1c516a70f3",
+      "native_id": null,
+      "name": "Unemployment Rate",
+      "category": "LABOR",
+      "currency": "USD",
+      "impact": "HIGH",
+      "impact_score": 1,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T12:30:00.000Z",
+      "forecast": 4.3,
+      "previous": 4.3,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T07:30:00-04:00",
+        "pre_end": "2026-06-05T08:30:00-04:00",
+        "post_start": "2026-06-05T08:30:00-04:00",
+        "post_end": "2026-06-05T09:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.9,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:1cb0d48457ec",
+      "native_id": null,
+      "name": "MPC Member Dhingra Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T13:40:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T09:25:00-04:00",
+        "pre_end": "2026-06-05T09:40:00-04:00",
+        "post_start": "2026-06-05T09:40:00-04:00",
+        "post_end": "2026-06-05T09:55:00-04:00",
+        "cooldown_end": "2026-06-05T10:40:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:0f03523005b6",
+      "native_id": null,
+      "name": "Ivey PMI",
+      "category": "OTHER",
+      "currency": "CAD",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T14:00:00.000Z",
+      "forecast": 54.5,
+      "previous": 57.7,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T09:30:00-04:00",
+        "pre_end": "2026-06-05T10:00:00-04:00",
+        "post_start": "2026-06-05T10:00:00-04:00",
+        "post_end": "2026-06-05T10:30:00-04:00",
+        "cooldown_end": "2026-06-05T11:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "CAD"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:055342305ee7",
+      "native_id": null,
+      "name": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "currency": "GBP",
+      "impact": "MEDIUM",
+      "impact_score": 0.6,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T18:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T13:30:00-04:00",
+        "pre_end": "2026-06-05T14:00:00-04:00",
+        "post_start": "2026-06-05T14:00:00-04:00",
+        "post_end": "2026-06-05T14:30:00-04:00",
+        "cooldown_end": "2026-06-05T15:30:00-04:00"
+      },
+      "volatility_risk": 0.6,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "GBP"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:7a0f827cc436",
+      "native_id": null,
+      "name": "Consumer Credit m/m",
+      "category": "OTHER",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-05T19:00:00.000Z",
+      "forecast": 18.1,
+      "previous": 24.9,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-05T14:45:00-04:00",
+        "pre_end": "2026-06-05T15:00:00-04:00",
+        "post_start": "2026-06-05T15:00:00-04:00",
+        "post_end": "2026-06-05T15:15:00-04:00",
+        "cooldown_end": "2026-06-05T16:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    },
+    {
+      "id": "forexfactory:22b060855cf3",
+      "native_id": null,
+      "name": "FOMC Member Barr Speaks",
+      "category": "RATES",
+      "currency": "USD",
+      "impact": "LOW",
+      "impact_score": 0.2,
+      "timezone": "America/New_York",
+      "scheduled_time": "2026-06-06T16:00:00.000Z",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "window_boundaries": {
+        "pre_start": "2026-06-06T11:45:00-04:00",
+        "pre_end": "2026-06-06T12:00:00-04:00",
+        "post_start": "2026-06-06T12:00:00-04:00",
+        "post_end": "2026-06-06T12:15:00-04:00",
+        "cooldown_end": "2026-06-06T13:00:00-04:00"
+      },
+      "volatility_risk": 0.2,
+      "confidence": 1,
+      "provenance": {
+        "source": "forexfactory",
+        "payload_hash": ""
+      },
+      "affected_assets": [
+        "USD",
+        "DXY",
+        "US10Y"
+      ],
+      "execution_confidence": null
+    }
+  ],
+  "version": "0.1.0"
+}

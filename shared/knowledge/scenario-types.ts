@@ -27,11 +27,15 @@ export interface MarketScenario {
   contradicting_anchors: string[];
   
   invalidated_by: string[]; // Conditions that kill this scenario
+  conditional_invalidation_windows?: {start: string, end: string}[]; // Embargo windows where the scenario is suspended
+  fundamental_invalidation_triggers?: string[]; // Fundamental/news conditions that instantly kill the scenario
+
   
   metadata: {
     created_at_capture: string;
     last_updated_capture: string;
     birth_timeframe: Timeframe;
+    archived_reason?: string; // e.g. "INVALIDATED_BY_FUNDAMENTAL"
   };
 }
 

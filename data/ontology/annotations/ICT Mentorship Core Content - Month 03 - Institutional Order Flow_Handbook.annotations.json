@@ -1,0 +1,1850 @@
+[
+  {
+    "chunk_id": "chunk_2205",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL ORDER FLOW",
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "MARKET_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_EFFICIENCY_PARADIGM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MARKET EFFICIENCY PARADIGM",
+          "market efficiency paradigm"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "MARKET_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_PERSPECTIVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market maker"
+        ],
+        "narrative_roles": [
+          "MARKET_PERSPECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity",
+          "maximum level of liquidity",
+          "next level of liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity void",
+          "series of down black candles",
+          "closed in",
+          "close that gap",
+          "black (down) candle",
+          "green (up) candle to balance"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "PRICE_MAGNET",
+          "MARKET_REBALANCING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REBALANCING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rebalanced",
+          "balance"
+        ],
+        "narrative_roles": [
+          "MARKET_PROCESS",
+          "MARKET_EFFICIENCY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL ORDER FLOW AND MARKET EFFICIENCY PARADIGM",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2206",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold",
+          "middle of the up candle"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_EQUILIBRIUM",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'outrun' on price with the wicks",
+          "erroneous price action"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_REJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "area of liquidity",
+          "largest area of liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "resting below previous lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trade up and hits an area of liquidity, the next expectation is for it to trade towards the largest area of liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_DIRECTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEAN THRESHOLD AND THE ROLE OF WICKS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2207",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_VOLUME",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional volume",
+          "true institutional volume"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER_IDENTIFICATION",
+          "ANALYTICAL_FOCUS",
+          "DIFFERENTIATION_FROM_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "retail pricing",
+          "retail stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "DIFFERENTIATION_FROM_INSTITUTIONAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_BODY_IMPORTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "bodies of the candles",
+          "bulk of the candle bodies",
+          "most analysis should be conducted around the bodies of the candles"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FOCUS",
+          "PRICE_ACTION_READING",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WICK_AS_RETAIL_INDICATOR",
+        "confidence": 1,
+        "surface_terms": [
+          "wick",
+          "Wicks",
+          "wick as the low",
+          "Wicks are generally related to retail pricing and retail stops"
+        ],
+        "narrative_roles": [
+          "RETAIL_ACTIVITY_INDICATOR",
+          "LIQUIDITY_ENGINEERING_ZONE",
+          "DIFFERENTIATION_FROM_INSTITUTIONAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_PRICING",
+        "confidence": 1,
+        "surface_terms": [
+          "interbank prices"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER_IDENTIFICATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "PRICE_AUTHENTICITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DIFFERENTIATING WICKS AND CANDLE BODIES",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2208",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "trade just below the bodies of the candle to seek the truest form of institutional volume",
+          "run for liquidity below",
+          "reach for"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ORDER_BLOCK_ACTIVATION_PRELUDE",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bodies of the candles define the 'real low'",
+          "liquidity below"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "ORDER_FLOW_DESTINATION",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "STRATEGIC_PLANNING"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL VOLUME AND PRICE ACTION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2209",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY SEEKING",
+          "actively seeking liquidity below all the bodies of the candles and wicks"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION",
+          "MARKET_MOVEMENT_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_RECAPITALIZATION",
+        "confidence": 1,
+        "surface_terms": [
+          "RECAPITALIZATION",
+          "recapitalizes an order block"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_VALIDATION",
+          "RETRACEMENT_TARGET",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order block",
+          "bullishness of a particular candle",
+          "that defined level",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "INSTITUTIONAL_FOOTPRINT",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RECAPITALIZATION AND LIQUIDITY SEEKING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2210",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "candle bodies are violated by a down candle, clearing out stops",
+          "price needs to reach below the bodies of the candle, not necessarily penetrate the wicks, to access institutional order flow"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "RESISTANCE_ZONE",
+          "POTENTIAL_REVERSAL_ZONE",
+          "ENTRY_POINT_CONTEXT",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "institutional order flow is bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "DIRECTIONAL_BIAS_INDICATOR",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "This pattern of seeking liquidity repeats"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "ALGORITHMIC_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REPEATED PATTERNS OF ORDER FLOW AND CANDLE BODY IMPORTANCE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2211",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly chart setup",
+          "weekly chart",
+          "higher timeframes (monthly/weekly)"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_DETERMINATION",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly institutional order flow levels",
+          "institutional order flow levels"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "KEY_LEVELS_IDENTIFICATION",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "levels",
+          "these levels",
+          "where large funds have their money",
+          "where banks will reprice to"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "LIQUIDITY_ZONE_IDENTIFICATION",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONTHLY TO WEEKLY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2212",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "monthly bearish order block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "REVERSAL_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retracement back into a bearish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_RESPECT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "wick does not violate the up candle",
+          "a bearish order block is respected"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_VALIDATION",
+          "CONTINUATION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price expands lower"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_HUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "seek stops below the bodies of the candles"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stops below the bodies of the candles"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ORDER BLOCKS AND EXPECTED PRICE MOVEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2213",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_HUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional order flow always seeks stops below"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_ACQUISITION",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "a down candle acting as a bullish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_REVERSAL_POINT",
+          "INSTITUTIONAL_FOOTPRINT",
+          "ACCUMULATION_ZONE",
+          "ENTRY_POINT_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNWINDING",
+        "confidence": 1,
+        "surface_terms": [
+          "unwinding",
+          "undoing of a previous bias",
+          "unwinds the long positions",
+          "take off the long orders"
+        ],
+        "narrative_roles": [
+          "POSITION_CLOSURE",
+          "RISK_MANAGEMENT",
+          "MARKET_REBALANCING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HEDGING",
+        "confidence": 1,
+        "surface_terms": [
+          "HEDGING",
+          "hedge"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "POSITION_BALANCING",
+          "INSTITUTIONAL_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Institutional order flow",
+          "bank level",
+          "bookmaking",
+          "Banks may have a net bearish book"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "LIQUIDITY_PROVISION",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Institutional order flow always seeks stops below.",
+          "long orders previously used to push price higher."
+        ],
+        "narrative_roles": [
+          "PRICE_MANIPULATION",
+          "ORDER_BLOCK_FORMATION_CONTEXT",
+          "LIQUIDITY_GENERATION_FOR_ENTRIES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HEDGING AND UNWINDING AT THE BANK LEVEL",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2214",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER SELL PROFILE",
+          "market maker sell profile"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_PATTERN",
+          "LIQUIDITY_ENGINEERING",
+          "DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STOP RUNS",
+          "taking out resting stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "PRECURSOR_EVENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_CONCEPT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "whatever actions were taken to go long will eventually be unwound on the sell side"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_DYNAMICS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER SELL PROFILE AND STOP RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2215",
+    "concepts": [
+      {
+        "canonical": "POST_STOP_RUN_INSTITUTIONAL_ORDER_FLOW_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-STOP RUN INSTITUTIONAL ORDER FLOW SHIFT"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFIER",
+          "ORDER_FLOW_TRANSITION",
+          "STRATEGY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stops are cleared",
+          "run on stops occurs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION",
+          "PRE_REVERSAL_EVENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow",
+          "bullish institutional order flow environment"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_STATE_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SUPPLY_ZONE",
+          "PRICE_MAGNET",
+          "POTENTIAL_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "down candles"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "DEMAND_ZONE",
+          "ENTRY_CONFIRMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "return to a bearish order block",
+          "trade back into down candles"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_FOR_ENTRY",
+          "PRICE_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-STOP RUN INSTITUTIONAL ORDER FLOW SHIFT",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2216",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down candle immediately preceding an up move",
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "REVERSAL_POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price wicking down into this candle",
+          "from its high down to its middle"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "OPTIMAL_TRADE_ENTRY",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "below the previous candle's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT_INDICATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "expansion higher",
+          "expansion"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "MOMENTUM_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price typically retraces"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ORDER BLOCKS AND PRICE EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2217",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation block",
+          "When price returns to the range from the high down to the body of the candle"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "POSITION_MANAGEMENT",
+          "ENTRY_POINT",
+          "PRICE_REVERSAL_SETUP",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run stops",
+          "driven it lower to run stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRE_REVERSAL_SETUP",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "AGGRESSIVE_EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "AGGRESSIVE EXPANSION",
+          "explosive price action",
+          "aggressive price expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_MOVEMENT",
+          "TREND_FORMATION",
+          "ENTRY_CONFIRMATION",
+          "IMBALANCE_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_UNDERWATER_POSITIONS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "finds their short orders underwater"
+        ],
+        "narrative_roles": [
+          "POSITION_MANAGEMENT_DRIVER",
+          "LIQUIDITY_INDUCEMENT",
+          "SMART_MONEY_TRAP_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mitigation block",
+          "range from the high down to the body of the candle"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_REFERENCE_POINT",
+          "LIQUIDITY_POOL",
+          "REVERSAL_POINT",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AGGRESSIVE EXPANSION FROM MITIGATION AND NET LONG POSITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2218",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH ORDER BLOCK",
+          "down candle appears just before an up move",
+          "bullish order block",
+          "bullish order block again"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "CONTINUATION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional order flow is bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "First objective: Price should trade up to the previous up candle",
+          "Second objective",
+          "Third objective"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "clear stops",
+          "runs through previous highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block (the last up candle)",
+          "monthly bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "PRICE_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONTINUATION",
+          "Expansion continues"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "TREND_FOLLOWING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retraces"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweeps into the monthly bearish order block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "break down again"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ORDER BLOCK OBJECTIVES AND CONTINUATION",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2219",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONFIRMING BEARISHNESS",
+          "price breaks the last up candle"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "DIRECTIONAL_BIAS",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retraces back to the bottom of that up candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "MITIGATION",
+          "RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "MITIGATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "DOWNSIDE LIQUIDITY",
+          "liquidity below the bodies of the candles at previous lows"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL",
+          "ACCUMULATION",
+          "MITIGATION",
+          "ULTIMATE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMING BEARISHNESS AND SEEKING DOWNSIDE LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2220",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "ALIGNING DAILY ACTION WITH HIGHER TIMEFRAME BIAS",
+          "HIGHER TIMEFRAME BIAS",
+          "monthly institutional order"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "break above a short-term high",
+          "violation of a short-term high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.98,
+        "surface_terms": [
+          "monthly bullish order block",
+          "bullish order block",
+          "A down candle that rallies away and then returns to trade back into itself"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "ENTRY_POINT",
+          "PRICE_REVERSAL_AREA",
+          "CONTINUATION_POINT"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.92,
+        "surface_terms": [
+          "retrace back down into the monthly bullish order block",
+          "returns to trade back into itself"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "LIQUIDITY_REFILL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALIGNING DAILY ACTION WITH HIGHER TIMEFRAME BIAS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2221",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HIGHER TIMEFRAME ORDER BLOCKS",
+          "monthly and weekly order blocks",
+          "order block identified on the weekly or monthly charts"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "DRIVING_PRICE_ACTION",
+          "SUPPORT_RESISTANCE",
+          "PRICE_REJECTION_ZONE"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish candle (which acts as a bullish order block)"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "CONTINUATION",
+          "ENTRY_POINT",
+          "PRICE_REJECTION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly bearish order block (the last up candle)"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "TARGET_ZONE",
+          "PRICE_REJECTION_ZONE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_VIOLATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "monthly bearish order block is violated"
+        ],
+        "narrative_roles": [
+          "INVALIDATION",
+          "TREND_CHANGE_INDICATION",
+          "SIGNAL_FOR_BEARISHNESS"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIMEFRAME ORDER BLOCKS DRIVING DAILY REACTIONS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2222",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old lows as targets",
+          "price to reach for",
+          "expand down to"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish institutional order flow",
+          "institutional order flow is bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "DIRECTIONAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish environment",
+          "continuously move lower",
+          "lower prices are suggested"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DIRECTIONAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "monthly and weekly charts"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-BREAKDOWN STRATEGIES AND BEARISH INSTITUTIONAL ORDER FLOW",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2223",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCKS",
+          "New Bearish Order Blocks",
+          "the last up candle",
+          "Bearish Order Blocks",
+          "the last up candle before a down move"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "MARKET_REVERSAL",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP RUNS",
+          "Run Above Old Highs",
+          "clearing liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER BLOCKS AND STOP RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2224",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH INSTITUTIONAL ORDER FLOW",
+          "institutional order flow enters a bullish phase"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HIGHER TIMEFRAME SENSITIVITY",
+          "daily chart",
+          "monthly and weekly timeframes",
+          "sensitivity on the daily chart, which is driven by levels found on the monthly and weekly timeframes",
+          "sensitivity and responsiveness, originating from monthly and weekly analysis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "REACTION_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "last down candle (bullish order block)",
+          "bullish order block",
+          "down candle",
+          "down candles"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "ENTRY_POINT",
+          "REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Price trades into this order block",
+          "Multiple buying opportunities occur at these down candles"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe order block"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "SUPPORT_LEVEL",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity above old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW",
+          "EXTERNAL_RANGE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly bearish order blocks"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW",
+          "POTENTIAL_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "MONTHLY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH INSTITUTIONAL ORDER FLOW AND HIGHER TIMEFRAME SENSITIVITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2225",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Institutional order flow",
+          "'fund-level' institutional order flow"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "MARKET_DIRECTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "WHALE LIQUIDITY",
+          "large institutional liquidity",
+          "liquidity",
+          "large orders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "COUNTERPARTY_SOURCE",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "monthly and weekly charts",
+          "daily chart",
+          "monthly and weekly timeframes"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "MACRO_BIAS_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the stops that are found on monthly"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "whales",
+          "large funds controlling billions of dollars",
+          "banks",
+          "Individual retail traders are not large enough to be direct counterparties to banks"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT_IDENTIFICATION",
+          "MOTIVATION_EXPLANATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEEKING WHALE LIQUIDITY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2226",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow",
+          "core nature of institutional order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINE",
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "stops or liquidity",
+          "liquidity above the marketplace",
+          "sell stops below recent",
+          "liquidity",
+          "stops found on the monthly, weekly, and daily charts"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_TARGETING",
+          "PRICE_DRIVER",
+          "MARKET_ENGINE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LEVERAGING HIGHER TIMEFRAME ANALYSIS",
+          "identifying levels on monthly and weekly charts and transposing them to your daily chart",
+          "monthly and weekly charts",
+          "daily chart",
+          "monthly, weekly, and daily charts"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_TOOL",
+          "CONTEXT_SETTING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREDICTIVE_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PREDICTIVE TRADING",
+          "See major price shifts coming before they happen",
+          "Understand, relative to institutional order flow, where stops or liquidity reside."
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "GOAL",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEVERAGING HIGHER TIMEFRAME ANALYSIS FOR PREDICTIVE TRADING",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Order Flow_Handbook.chunks.json"
+    }
+  }
+]

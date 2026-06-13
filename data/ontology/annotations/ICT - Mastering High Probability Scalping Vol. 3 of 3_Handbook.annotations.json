@@ -1,0 +1,939 @@
+[
+  {
+    "chunk_id": "chunk_676",
+    "concepts": [
+      {
+        "canonical": "DAY_BANK_LIQUIDITY_RUNS",
+        "confidence": 1,
+        "surface_terms": [
+          "DAY BANK LIQUIDITY RUNS",
+          "previous day bank liquidity runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power 3",
+          "the three components that make up generic price action"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_MODEL",
+          "PRICE_ACTION_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accumulation phase",
+          "long or short positions are accumulated"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PHASE",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "manipulation stage",
+          "price goes the opposite direction to what the intended future direction"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PHASE",
+          "LIQUIDITY_SWEEP",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "arranged expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PHASE",
+          "TREND_INITIATION",
+          "PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_PHASE",
+          "PROFIT_TAKING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAY BANK LIQUIDITY RUNS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_677",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias is bullish"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "confirming the London session was in fact bullish",
+          "measure of bullishness after an attempt to go lower was rejected and price has seen a rally"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "7:00 a.m. New York time",
+          "Between 7:00 a.m. and 9:00 a.m. New York time",
+          "this key time of day"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW",
+          "ENTRY_TIMING"
+        ],
+        "temporal_tags": [
+          "7:00_AM_NY",
+          "9:00_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "price retracement lower",
+          "retracement of at least 20 pips or lower",
+          "retracement of 10 to 15 pips"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing high intraday",
+          "daily high",
+          "short-term high during the London session"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "enter on the 62 percent retracement fib",
+          "optimal trade entry long"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH SCALPING SETUP",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_678",
+    "concepts": [
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "7 o'clock in the morning New York time",
+          "beginning of the New York session",
+          "after 7:00 a.m.",
+          "POST-7 AM NY"
+        ],
+        "narrative_roles": [
+          "SESSION_START_CATALYST",
+          "MARKET_TIMING"
+        ],
+        "temporal_tags": [
+          "7 o'clock in the morning New York time",
+          "POST-7 AM NY",
+          "after 7:00 a.m."
+        ],
+        "session_tags": [
+          "New York session",
+          "NY",
+          "pre-New York session"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "TRADE_SETUP_CONFIRMATION",
+          "REVERSAL_POINT",
+          "EXPANSION_INITIATION"
+        ],
+        "temporal_tags": [
+          "after 7:00 a.m."
+        ],
+        "session_tags": [
+          "New York session"
+        ]
+      },
+      {
+        "canonical": "BULLISH_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BULLISH SETUP EXAMPLE"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [
+          "POST-7 AM NY"
+        ],
+        "session_tags": [
+          "NY",
+          "New York session"
+        ]
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reversals"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_CHANGE",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH SETUP EXAMPLE POST-7 AM NY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_679",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power 3",
+          "accumulation phase",
+          "accumulation of short positions",
+          "manipulation phase"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "LIQUIDITY_ENGINEERING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price runs up higher during London, knocking out individuals that would already be short",
+          "putting those individuals on the wrong side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_HUNTING",
+          "FALSE_BREAKOUT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily bias is bearish"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "DIRECTIONAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_OPEN_REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price at midnight New York time",
+          "price move above the opening price at midnight New York time",
+          "price rejects that",
+          "attempt to rally and rejecting that"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "continuation idea of bearishness"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "TREND_FOLLOWING",
+          "INTER_SESSION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH SCALPING SETUP",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_680",
+    "concepts": [
+      {
+        "canonical": "NY_SESSION_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "7:00 a.m. New York time",
+          "Between 7:00 a.m. and 9:00 a.m. New York time"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "7_AM_NY",
+          "9_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "waiting for a retracement",
+          "retrace from a swing low",
+          "price to move higher",
+          "retracements of at least 20 pips or more"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing low",
+          "The swing low that was formed in the London decline"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "62 percent retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "retest the low of the day",
+          "previous day's low",
+          "targets one, two"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "symmetrical price swing on the fib"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_INVALIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "If no retracement of 20 pips forms by 9:00 a.m., we're going to be cutting bait or basically walking"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_CANCELLATION",
+          "TIME_BASED_EXIT"
+        ],
+        "temporal_tags": [
+          "9_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH SCALPING SETUP",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_681",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY PRIMER",
+          "optimal trade entry form",
+          "optimal trade entry short",
+          "62 percent recent level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "7 a.m. marker",
+          "7:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "intraday low that was formed to be retested",
+          "previous day's low",
+          "targets one, two",
+          "symmetrical price swing on the fib"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "intraday",
+          "previous day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BEARISH SETUP EXAMPLE",
+          "very bearish",
+          "continuation lower",
+          "bearishness to continue",
+          "weak sell off in overnight trading"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "after 7:00 a.m. New York time",
+          "overnight trading"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH SETUP EXAMPLE AND OPTIMAL TRADE ENTRY PRIMER",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_682",
+    "concepts": [
+      {
+        "canonical": "REVERSAL_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "EXPECTING REVERSALS",
+          "reversals",
+          "reverse price",
+          "reaction that pushes price the opposite direction",
+          "reject and go lower or higher",
+          "cause a reaction",
+          "reversal points"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA_POTENTIAL",
+          "DIRECTIONAL_BIAS_SHIFT",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH_OLD_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "obvious old high",
+          "old low",
+          "old high or low",
+          "generic support resistance levels",
+          "60-minute reversal points or old highs and lows"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "POTENTIAL_LIQUIDITY_LEVEL",
+          "REFERENCE_POINT_FOR_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "HIGHER TIMEFRAMES",
+          "hourly or 60-minute chart",
+          "key timeframes",
+          "higher time frame price points"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PREDICTIVE_ANALYSIS_FRAMEWORK",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "I don't know that",
+          "probably unsettling",
+          "wasted years believing I would find it",
+          "you don't need to know that",
+          "sometimes you're going to mess up",
+          "sometimes it's going to be wrong",
+          "sometimes you get stopped out",
+          "it is what it is",
+          "You cannot escape it",
+          "You're going to lose money",
+          "no reason to worry about"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_PHILOSOPHY",
+          "BEHAVIORAL_COGNITION",
+          "ACCEPTANCE_OF_UNCERTAINTY",
+          "EMOTIONAL_REGULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXPECTING REVERSALS ON HIGHER TIMEFRAMES",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_683",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STRICT RISK CONTROLS AND MONEY MANAGEMENT",
+          "money management",
+          "strict risk controls",
+          "sound money management",
+          "one percent per setup",
+          "one percent of your total account equity",
+          "two percent",
+          "risk tolerance",
+          "Over leverage"
+        ],
+        "narrative_roles": [
+          "PROTECTION",
+          "SUSTAINABILITY",
+          "DISCIPLINE",
+          "FOUNDATIONAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRICT RISK CONTROLS AND MONEY MANAGEMENT",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_684",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry long",
+          "optimal trade entry pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fib"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION_TOOL",
+          "RISK_MANAGEMENT_ASSISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "MONEY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_PERCENTAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "1%"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "MONEY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_PER_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "20 pip range between entry to stop loss",
+          "$10"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "MONEY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 1,
+        "surface_terms": [
+          "5 micro lots",
+          "50 cents per pip"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "MONEY_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London setup",
+          "London"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING_CONTEXT"
+        ],
+        "temporal_tags": [
+          "November 10th, 2017"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York setup"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING_CONTEXT_DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONEY MANAGEMENT EXAMPLE AND PROFIT TAKING STRATEGY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_685",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "MONEY MANAGEMENT EXAMPLE AND PROFIT TAKING STRATEGY",
+          "taking partial profits",
+          "taking something off",
+          "first profit objective",
+          "take a portion of the trade off",
+          "leave a little piece on",
+          "collapse it entirely"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "PSYCHOLOGICAL_MANAGEMENT",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "money management",
+          "move your stop-loss to break-even",
+          "move your stop-loss just below"
+        ],
+        "narrative_roles": [
+          "RISK_REDUCTION",
+          "CAPITAL_PROTECTION",
+          "TRADE_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "remove that number one barrier of being able to hold on to the trade",
+          "remove that insatiable desire to be right",
+          "gave yourself that little cookie, that little pat on the back"
+        ],
+        "narrative_roles": [
+          "EMOTIONAL_CONTROL",
+          "TRADE_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first profit objective",
+          "Target One",
+          "Target Two"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Target One on your fib",
+          "top of your fib"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "PROFIT_TARGETING",
+          "STOP_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONEY MANAGEMENT EXAMPLE AND PROFIT TAKING STRATEGY",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 3 of 3_Handbook.chunks.json"
+    }
+  }
+]

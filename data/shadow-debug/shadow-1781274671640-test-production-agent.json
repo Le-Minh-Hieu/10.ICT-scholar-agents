@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-06-12T14:31:11.639Z",
+  "agentType": "test-production-agent",
+  "currentCallId": "test-production-agent-call-2-1",
+  "prompt": "What is the capital of Japan? Return JSON output with direction = 'bearish'.",
+  "gemini": {
+    "raw": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "functionCall": {
+                  "name": "output",
+                  "args": {
+                    "direction": "bearish",
+                    "capital": "Tokyo"
+                  }
+                }
+              }
+            ]
+          },
+          "finishReason": "TOOL_CALLS"
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 32,
+        "candidatesTokenCount": 6,
+        "totalTokenCount": 38
+      }
+    },
+    "parsed": {
+      "direction": "bearish",
+      "capital": "Tokyo"
+    },
+    "latency": 5166.0152,
+    "telemetry": {
+      "promptTokens": 32,
+      "completionTokens": 6,
+      "totalTokens": 38
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": {
+      "capital": "Tokyo",
+      "direction": "bearish"
+    },
+    "latency": 1946.8950999999997,
+    "telemetry": {
+      "promptTokens": 32,
+      "completionTokens": 6,
+      "totalTokens": 38
+    },
+    "estimatedCost": 0.000044
+  }
+}

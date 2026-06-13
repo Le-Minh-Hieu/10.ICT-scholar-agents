@@ -1,0 +1,1310 @@
+[
+  {
+    "chunk_id": "chunk_392",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW WEEK OPENING GAP",
+          "new week opening gap high and low",
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_CONTEXT",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEKLY FVG",
+          "weekly fair value gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "POTENTIAL_DRAW_ON_LIQUIDITY",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "TARGET_FOR_SWEEP",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ran up to take the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRAP",
+        "confidence": 1,
+        "surface_terms": [
+          "RETAIL TRAPS",
+          "'sucker's play'",
+          "trapping retail traders",
+          "caught off guard and offside"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PSYCHOLOGICAL_MANIPULATION",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REPRICING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "reprice to the SIBI high",
+          "repriced down"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "MARKET_INTENTION",
+          "FULFILLMENT_OF_BIAS",
+          "ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 0.85,
+        "surface_terms": [
+          "SIBI high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "POTENTIAL_DRAW_ON_LIQUIDITY",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "target level that was forecasted last Friday"
+        ],
+        "narrative_roles": [
+          "MARKET_INTENTION",
+          "ANALYTICAL_OUTCOME",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "last Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAP, WEEKLY FVG, AND RETAIL TRAPS",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_393",
+    "concepts": [
+      {
+        "canonical": "ALGORITHMIC_PRICING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ALGORITHMIC PRICING",
+          "the algorithm was projected to price ES"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "MARKET_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "'Judas Swing'",
+          "a false run designed to entice people to chase it, getting them offside"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "TRAP",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_LOGIC",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INSTITUTIONAL LOGIC"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "BEHIND_THE_CURTAIN_REASONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.75,
+        "surface_terms": [
+          "targets a very specific price array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPLY_DEMAND_ZONES",
+        "confidence": 0.85,
+        "surface_terms": [
+          "supply and demand zones"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC PRICING, JUDAS SWING, AND INSTITUTIONAL LOGIC",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_394",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "new week opening gap"
+        ],
+        "narrative_roles": [
+          "REPRICING_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_PROVISION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "London session liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ORDER_FLOW_REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "London session sell-side liquidity",
+          "low of the London session, which represents London session sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_DESTINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW WEEK OPENING GAP AND LONDON SESSION LIQUIDITY",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_395",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "This rally"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "9:30-10:00 AM window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range",
+          "9:30-10:00 AM window"
+        ],
+        "narrative_roles": [
+          "CONTEXT_IDENTIFIER",
+          "VOLATILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "9:30-10:00 AM window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SMART_MONEY_ACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SMART MONEY SHORTING STRATEGY",
+          "smart money utilizes it as an opportunity to initiate short positions",
+          "highest probability shorts are expected to form"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "OPPORTUNITY_IDENTIFICATION",
+          "COUNTER_TREND_TRADING"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "9:30-10:00 AM window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETAIL_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "drawing in retail traders who anticipated higher prices",
+          "retail perceives this as an upward trend"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_CREATION",
+          "MARKET_MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "9:30-10:00 AM window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bearish direction forecasted",
+          "bearish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "CONTEXT_IDENTIFIER"
+        ],
+        "temporal_tags": [
+          "last Friday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_LEVEL_REFERENCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "specific level above the New York midnight opening price",
+          "New York midnight opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_POINT_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE JUDAS SWING AND SMART MONEY SHORTING STRATEGY",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_396",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap",
+          "ORG"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "London session liquidity",
+          "month-end session liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [
+          "MONTH_END"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "closing price of this candle",
+          "first key level",
+          "4388 even"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "DEFINITION_COMPONENT"
+        ],
+        "temporal_tags": [
+          "4:14 PM",
+          "Friday",
+          "June 23rd, 2023"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "one-minute chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING THE OPENING RANGE GAP (ORG)",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_397",
+    "concepts": [
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment",
+          "midpoint of any gap or wick",
+          "Any gap's midpoint"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "Mean Threshold",
+          "midpoint of any order block",
+          "50 percent of that range"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap",
+          "Any gap's"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WICK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "wick"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "LIQUIDITY_AREA",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breaker block",
+          "breaker"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "REVERSAL_PATTERN",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish or bearish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "POTENTIAL_SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish or bearish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "POTENTIAL_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROPULSION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "propulsion block"
+        ],
+        "narrative_roles": [
+          "PRICE_STRUCTURE",
+          "CONTINUATION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSEQUENT ENCROACHMENT VS. MEAN THRESHOLD",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_398",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_SWEEP",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "New York",
+          "London"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "London"
+        ]
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "VALUATION_ZONE",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap in the form of a SIBI",
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "DRAW_ON_LIQUIDITY",
+          "TARGET_ZONE",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap (ORG)"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_MIDNIGHT_OPENING_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York midnight opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "BIAS_INDICATOR"
+        ],
+        "temporal_tags": [
+          "New York midnight"
+        ],
+        "session_tags": [
+          "New York"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUDAS SWING AND PREMIUM SIBI",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_399",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "shift in market structure occurred",
+          "previous lows were taken out",
+          "below a previous low"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "fair value gap SIBI"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price running one more time above the New York midnight opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE SHIFT AND FVG ENTRY CONSIDERATIONS",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_400",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gaps",
+          "Two gaps",
+          "higher gap"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_INFORMATION",
+          "RISK_MANAGEMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint",
+          "50 percent",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "RISK_MANAGEMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "ADVANCED STOP LOSS PLACEMENT",
+          "stop loss was placed",
+          "stop placement",
+          "acceptable drawdown"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_FVG_RULE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "two gaps, the 'two rule' dictates factoring in the higher gap for stop placement"
+        ],
+        "narrative_roles": [
+          "STRATEGY_GUIDANCE",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED STOP LOSS PLACEMENT WITH MULTIPLE GAPS",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_401",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment of the higher fair value gap"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_PLACEMENT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "ORG",
+          "opening range gap"
+        ],
+        "narrative_roles": [
+          "REPRICING_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REPRICING_MACRO",
+        "confidence": 1,
+        "surface_terms": [
+          "repricing macro"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "ALGORITHMIC_PROCESS_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "TRADE ENTRY",
+          "Entry was made"
+        ],
+        "narrative_roles": [
+          "EXECUTION",
+          "SIGNAL_UTILIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROTECTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the algorithm repricing back down"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "EXPECTED_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING ORG REPRICING MACRO AND TRADE ENTRY",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_402",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "SWING_HIGH_LOW_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet rules"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_ANALYSIS",
+          "RANGE_ANALYSIS",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount array below 50 percent",
+          "discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_ANALYSIS",
+          "OPTIMAL_TRADE_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gap exists"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_INEFFICIENCY",
+          "REBALANCING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "new week opening gap low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUDAS SWING AND SILVER BULLET ENTRY STRATEGY",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_403",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "REPRICING"
+        ],
+        "temporal_tags": [
+          "LUNCH_SESSION"
+        ],
+        "session_tags": [
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas Swing",
+          "initial run-up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-ENTRY PRICE ACTION AND NEW WEEK OPENING GAP TARGET",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_404",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "JUDAS SWING"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGETS",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY TARGETS"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REVERSAL_INITIATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "SHORT BIAS",
+          "ideal scenario for shorts"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "STOP_LOSS_CLUSTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price running into specific liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUDAS SWING AND LIQUIDITY TARGETS FOR SHORT BIAS",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_405",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet mentality",
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADING_STRATEGY",
+          "PROFITABILITY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "REPRICE_TARGET",
+          "IMBALANCE_REFERRAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "new week opening gap low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run below the new week opening gap low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_CONFIRMATION",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [
+          "NEW_WEEK_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "dual trades on both ES and NASDAQ"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PROFITABILITY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SILVER BULLET STRATEGY AND DUAL TRADE PROFITABILITY",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_406",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STUDY AND LIVE TRADE EXECUTION (ES & NASDAQ)",
+      "source_file": "2023 ICT Mentorship - Opening Range Gap Repricing Macro_Handbook.chunks.json"
+    }
+  }
+]

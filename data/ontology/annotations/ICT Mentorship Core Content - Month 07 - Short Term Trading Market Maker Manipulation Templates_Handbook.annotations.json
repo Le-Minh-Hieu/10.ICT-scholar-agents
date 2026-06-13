@@ -1,0 +1,2503 @@
+[
+  {
+    "chunk_id": "chunk_2957",
+    "concepts": [
+      {
+        "canonical": "CLASSIC_WEEKLY_PATTERN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CLASSIC TUESDAY LOW OF THE WEEK",
+          "high of the week is generally formed by Thursday's New York session",
+          "highest portion of the weekly range"
+        ],
+        "narrative_roles": [
+          "TRADING_TEMPLATE",
+          "MARKET_BIAS",
+          "STRUCTURAL_PREDICTION"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "session_tags": [
+          "New York session"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_AREA",
+          "PRICE_ANALYSIS",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "old monthly, weekly, or daily low",
+          "liquidity pool",
+          "monthly liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LOCATION",
+          "LIQUIDITY_TARGET",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "run a liquidity pool",
+          "running out sell stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "INDUCEMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "EXIT_TARGET",
+          "PRICE_ANALYSIS",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium Market PD (Price Delivery) array",
+          "weekly or daily premium PD array"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_ZONE",
+          "EXIT_TARGET",
+          "PRICE_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Look for a time frame lesser than the discount liquidity pool used to buy off of",
+          "if buying off a monthly liquidity pool, target a weekly or daily premium PD array"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_METHODOLOGY",
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2958",
+    "concepts": [
+      {
+        "canonical": "TUESDAY_LOW_OF_WEEK",
+        "confidence": 1,
+        "surface_terms": [
+          "CLASSIC TUESDAY LOW OF THE WEEK",
+          "Classic Tuesday Low of the Week"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "LOW_OF_WEEK_FORMATION",
+          "TEMPORAL_BIAS"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish market condition"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKOUT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "broken out above a historical or old high"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "PRECURSOR_EVENT",
+          "MARKET_STRUCTURE_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_TURNED_SUPPORT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old monthly, weekly, or daily high",
+          "retests that area as support",
+          "buying off a weekly high as support",
+          "weekly high as support"
+        ],
+        "narrative_roles": [
+          "SUPPORT_IDENTIFICATION",
+          "RETRACEMENT_LEVEL",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount old high"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT_IDENTIFICATION",
+          "PD_ARRAY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array",
+          "premium Market PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PROFIT_TAKING_ZONE",
+          "RESISTANCE_IDENTIFICATION",
+          "PD_ARRAY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci (Fib) extension combination",
+          "Fib extension"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PRICE_PROJECTION",
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TARGET_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "127 percent or 168 percent extensions"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "100 percent symmetrical price swing",
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "time frame lesser than the discount old high that was retested",
+          "daily or four-hour PD array",
+          "if buying off a weekly high as support, look for a daily or four-hour PD array"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_IDENTIFICATION",
+          "TRADE_CONFIRMATION",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2959",
+    "concepts": [
+      {
+        "canonical": "TUESDAY_LOW_OF_THE_WEEK",
+        "confidence": 1,
+        "surface_terms": [
+          "CLASSIC TUESDAY LOW OF THE WEEK"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "REVERSAL_PATTERN",
+          "TEMPORAL_ALIGNMENT",
+          "CONTEXT"
+        ],
+        "temporal_tags": [
+          "TUESDAY",
+          "LOW_OF_THE_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "primarily bullish",
+          "market has already been trading higher",
+          "overall price move is expected to be significant and higher"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT",
+          "HIGHER_TIME_FRAME_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount Market"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SUPPORT_LEVEL",
+          "REVERSAL_POINT",
+          "POI"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_TIME_FRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly",
+          "weekly",
+          "daily",
+          "combination/overlap of these three time frames"
+        ],
+        "narrative_roles": [
+          "SCALING",
+          "REFINEMENT",
+          "CONFIRMATION",
+          "HIERARCHY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_CONTEXT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "multi-week scenario"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "PLANNING_HORIZON"
+        ],
+        "temporal_tags": [
+          "MULTI_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium price point"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_GRADE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first swing grade",
+          "third swing grade"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_ACTION_ANALYSIS",
+          "STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ULTIMATE_PRICE_OBJECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ultimate price objective"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_RUN_ABSENCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "do not involve a stop run"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION_NEGATION",
+          "BEHAVIORAL_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium Market PD array"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "PROFIT_TAKING",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fib extension (127 percent or 168 percent)"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "PROFIT_TAKING",
+          "PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "PRICE_ACTION_ANALYSIS",
+          "PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_TIME_FRAME_HIERARCHY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "target must be in a time frame lesser than what was used for the bullish order block entry",
+          "weekly order block was used, target a daily or four-hour premium PD array"
+        ],
+        "narrative_roles": [
+          "SCALING",
+          "CONFIRMATION",
+          "RISK_MANAGEMENT",
+          "MULTI_TIME_FRAME_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair value gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REFINEMENT",
+          "IMBALANCE",
+          "LIQUIDITY_VOIDS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REFINEMENT",
+          "IMBALANCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2960",
+    "concepts": [
+      {
+        "canonical": "HIGH_OF_WEEK_PATTERN",
+        "confidence": 1,
+        "surface_terms": [
+          "CLASSIC TUESDAY HIGH OF THE WEEK",
+          "Classic Tuesday High of the Week"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "MARKET_MAKER_MANIPULATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish market condition"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "premium market"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old monthly, weekly, or daily low",
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RESISTANCE_LEVEL",
+          "REVERSAL_POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broken down below a measure of Market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TREND_CONFIRMATION",
+          "PRECURSOR_TO_RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retest that area as resistance",
+          "low retested as resistance"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount Market PD array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fib extension (127 percent or 168 percent",
+          "Fib projections"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TOOL_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "time frame lesser than the premium old low retest",
+          "weekly low",
+          "daily or four-hour"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADE_PLANNING",
+          "PROFIT_TARGET_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_ANCHORING_POINTS",
+        "confidence": 1,
+        "surface_terms": [
+          "price swing to be used for Fib projections",
+          "fulcrum points for Fib anchoring"
+        ],
+        "narrative_roles": [
+          "TOOL_APPLICATION",
+          "PROFIT_TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLASSIC TUESDAY HIGH OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2961",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value gap",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_RETRACEMENT",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount Market PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "EXIT_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fib extension (127 percent or 168 percent)",
+          "perfect symmetrical price swing/100 percent measured move"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "EXIT_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_PROJECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fib projection",
+          "project down for 127"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "CONFLUENCE",
+          "TARGET_VALIDATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "overlap and converge"
+        ],
+        "narrative_roles": [
+          "TARGET_VALIDATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "Thursday",
+          "Friday",
+          "weekly target"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "time frame lesser than the bearish order block entry",
+          "daily bearish order block",
+          "four-hour discount Market PD array"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "TARGET_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2962",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_LOW_OF_THE_WEEK_TEMPLATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEDNESDAY LOW OF THE WEEK",
+          "Another scenario for Wednesday Low of the Week"
+        ],
+        "narrative_roles": [
+          "MARKET_TEMPLATE",
+          "ENTRY_STRATEGY",
+          "MARKET_PROFILE"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish market"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount Market"
+        ],
+        "narrative_roles": [
+          "TRADE_LOCATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST_OF_PREVIOUS_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retesting an old monthly, weekly, or daily high",
+          "retest the old high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "SUPPORT_IDENTIFICATION",
+          "MARKET_STRUCTURE_CONTINUATION"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PRICE_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Monday might start with a small rally, but Tuesday trades lower into Wednesday to retest the old high"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium Market PD array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "EXIT_CRITERIA",
+          "TRADE_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fib extension (127 percent, 168 percent, or a perfect symmetrical price swing)",
+          "127 percent",
+          "168 percent"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array",
+          "premium Market PD array",
+          "lesser time frame PD array",
+          "PD array contrary to the entry time frame"
+        ],
+        "narrative_roles": [
+          "TRADE_LOCATION",
+          "CONFLUENCE",
+          "ENTRY_CRITERIA",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The target time frame should be lesser than the old high used for the long entry",
+          "lesser time frame PD array overlaps",
+          "PD array contrary to the entry time frame",
+          "buying a monthly high retest, the premium target (PD array) would be seen on a weekly, daily, or four-hour chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONFLUENCE",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily",
+          "four-hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_SWING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY LOW OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2963",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "LIQUIDITY_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "LIQUIDITY_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market runs through it for stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW_AS_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "LOW AS RESISTANCE",
+          "retest to an old low",
+          "selling a monthly low retest as resistance"
+        ],
+        "narrative_roles": [
+          "SETUP_CONTEXT",
+          "REVERSAL_SETUP",
+          "STRUCTURAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "premium Market",
+          "premium old low retest"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "SELL_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "discount Market",
+          "discount Market PD array",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "BUY_ZONE_IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "WEEKLY",
+          "DAILY",
+          "FOUR_HOUR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount Market PD array",
+          "weekly, daily, or four-hour discount PD array",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE",
+          "STRUCTURAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "DAILY",
+          "FOUR_HOUR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fib extension (127 percent to 168 percent)",
+          "127 percent to 168 percent",
+          "127 percent, 168 percent, or a 100 percent symmetrical duplication"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE",
+          "MEASUREMENT_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price swing"
+        ],
+        "narrative_roles": [
+          "FIBONACCI_ANCHORING",
+          "MEASUREMENT_TOOL"
+        ],
+        "temporal_tags": [
+          "TUESDAY",
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_PRICE_CONFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "blends time and price for target identification"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [
+          "TUESDAY",
+          "WEDNESDAY",
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY",
+          "FOUR_HOUR"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOW AS RESISTANCE)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2964",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_HIGH_OF_THE_WEEK_TEMPLATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "WEDNESDAY HIGH OF THE WEEK"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER_TEMPLATE",
+          "STRUCTURAL_LIQUIDITY_POINT",
+          "REVERSAL_POINT",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "primarily bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "DIRECTIONAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "premium market"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANCHOR",
+          "MARKET_CONDITION",
+          "SELL_ZONE",
+          "OPPORTUNITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "LIQUIDITY_DRAW",
+          "REVERSAL_AREA",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "LIQUIDITY_DRAW",
+          "REVERSAL_AREA",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_AREA",
+          "ENTRY_CONFIRMATION",
+          "RESISTANCE_LEVEL",
+          "TRADE_ORIGIN"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANCHOR",
+          "RETRACEMENT_LEVEL",
+          "VALUATION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first swing grade entry",
+          "third swing grade entry"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "POSITION_INITIATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "discount Market"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PROFIT_TAKING",
+          "BUY_ZONE",
+          "OPPORTUNITY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PROFIT_TAKING",
+          "PRICE_DELIVERY_MODEL",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fib extension (127 percent or 168 percent)"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PROFIT_TAKING",
+          "MEASURED_MOVE",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "PROFIT_TAKING",
+          "MEASURED_MOVE",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The target time frame should be lesser than the bearish order block used for the trade entry."
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "CONTEXTUAL_ALIGNMENT",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY HIGH OF THE WEEK",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2965",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONSOLIDATION",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "discount fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT",
+          "SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount fair value gap",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT",
+          "SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high or medium impact news event"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "Wednesday"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing projection fulcrum point",
+          "intra-week high",
+          "highest high (fulcrum point)",
+          "Monday's high"
+        ],
+        "narrative_roles": [
+          "ANCHOR_POINT",
+          "ANALYSIS_POINT"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array",
+          "premium PD arrays",
+          "four-hour premium PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_ZONE",
+          "RESISTANCE",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "monthly",
+          "weekly",
+          "daily",
+          "four-hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fib extensions of 127 percent and/or 168 percent",
+          "127 percent or 168 percent Fib extensions"
+        ],
+        "narrative_roles": [
+          "TARGET_CONFIRMATION",
+          "PROJECTION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "perfect measured swing projection"
+        ],
+        "narrative_roles": [
+          "TARGET_CONFIRMATION",
+          "PROJECTION_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "bullish order block entry",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "SUPPORT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION MIDWEEK RALLY",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2966",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium fair value gap"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "LIQUIDITY_DRAW",
+          "REVERSAL_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "REVERSAL_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high or medium impact news event"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "VOLATILITY_DRIVER",
+          "DIRECTIONAL_BIAS_INFLUENCER"
+        ],
+        "temporal_tags": [
+          "Wednesday",
+          "Tuesday"
+        ],
+        "session_tags": [
+          "LONDON_OPEN",
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array",
+          "monthly",
+          "weekly",
+          "daily"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "TARGET",
+          "HIGHER_TIMEFRAME_CONFLUENCE",
+          "REVERSAL_POINT_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fib extensions of 127 percent or 168 percent",
+          "Fib is anchored to project the decline"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "perfect symmetrical price swing (100 percent measured)"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION MIDWEEK DECLINE",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2967",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION_MIDWEEK_DECLINE",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATION MIDWEEK DECLINE",
+          "Consolidation Midweek Decline"
+        ],
+        "narrative_roles": [
+          "MARKET_TEMPLATE",
+          "STRATEGY",
+          "DECLINE_PATTERN"
+        ],
+        "temporal_tags": [
+          "MIDWEEK",
+          "WEDNESDAY",
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "BEARISH_INDICATION",
+          "PREMIUM_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "BEARISH_INDICATION",
+          "PREMIUM_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "BEARISH_INDICATION",
+          "PREMIUM_ARRAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell short entry point"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_PROJECTION_FULCRUM_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "swing projection fulcrum point"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "127 percent",
+          "168 percent extensions",
+          "127 percent extension",
+          "168 percent extension",
+          "Fibonacci extension levels"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "MEASUREMENT_TOOL",
+          "CONFLUENCE_CRITERIA"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "range (in Pips)"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_COMPONENT",
+          "CALCULATION_INPUT"
+        ],
+        "temporal_tags": [
+          "TUESDAY",
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount PD array",
+          "weekly, daily, or four-hour discount PD array"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_CRITERIA",
+          "DISCOUNT_ARRAY",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "DAILY",
+          "FOUR_HOUR",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "converge"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_CRITERIA",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION MIDWEEK DECLINE",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2968",
+    "concepts": [
+      {
+        "canonical": "MARKET_TEMPLATE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "CONSOLIDATION DESTROY BEARISH FRIDAY",
+          "neutral, low probability profile and market manipulation template"
+        ],
+        "narrative_roles": [
+          "MARKET_SCENARIO",
+          "PREDICTIVE_MODEL",
+          "MANIPULATION_PATTERN"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation from Monday through Wednesday"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity pool of buy stops"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "taking out the buy stops",
+          "buy stop raid",
+          "run the intra-week sell stops",
+          "liquidity run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRICE_DELIVERY",
+          "REVERSAL_INITIATION"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high or medium impact news event",
+          "FOMC",
+          "employment numbers"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.98,
+        "surface_terms": [
+          "higher time frame PD array"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "CONFLUENCE",
+          "REVERSAL_ANCHOR",
+          "SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "potential reversal"
+        ],
+        "narrative_roles": [
+          "OUTCOME",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY)",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2969",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_WEEKLY_REVERSAL_TEMPLATE",
+        "confidence": 1,
+        "surface_terms": [
+          "WEDNESDAY WEEKLY REVERSAL"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION_TEMPLATE",
+          "REVERSAL_PATTERN",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEDNESDAY_LOW_OF_THE_WEEK_TEMPLATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Wednesday Low of the Week templates"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION_TEMPLATE",
+          "LOW_OF_THE_WEEK_PATTERN"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "High or medium impact news"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "running liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame basis"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly or monthly support level"
+        ],
+        "narrative_roles": [
+          "RETAIL_CONCEPT_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "MONTHLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_DISCOUNTING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'discounts' the news"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "FALSE_BREAKOUT_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "reverses"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci extension of 127 percent or 168 percent",
+          "127 percent or 168 percent extension"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "PROFIT_TARGETING",
+          "ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "ALTERNATIVE_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_SUPPORT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low/retail support"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "MANIPULATION_TARGET",
+          "REFERENCE_POINT_FOR_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_THE_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Tuesday's high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ANCHOR_POINT_FOR_MEASUREMENT"
+        ],
+        "temporal_tags": [
+          "TUESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly, weekly, or daily discount array"
+        ],
+        "narrative_roles": [
+          "POI",
+          "ENTRY_ZONE",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_PROJECTION_FULCRUM_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing projection fulcrum point"
+        ],
+        "narrative_roles": [
+          "ANCHOR_POINT",
+          "MEASUREMENT_ORIGIN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly or daily premium PD array as a target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "REVERSAL_ZONE",
+          "POI"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY WEEKLY REVERSAL",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2970",
+    "concepts": [
+      {
+        "canonical": "WEDNESDAY_WEEKLY_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "WEDNESDAY WEEKLY REVERSAL"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "TRADING_STRATEGY",
+          "MARKET_TEMPLATE"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An old high",
+          "retail resistance level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "High or medium impact news"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs price above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_ACTIVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "The market rejects or 'discounts' that news event and reverses",
+          "moving aggressively lower"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci extension of 127 percent or 168 percent"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_FACTOR",
+          "REVERSAL_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "perfect symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "monthly, weekly, or daily premium array"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "REVERSAL_ZONE_IDENTIFICATION",
+          "PRICE_DELIVERY_ALGORITHM"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_PROJECTION_FULCRUM_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing projection fulcrum point"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly or daily discount PD array"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "REVERSAL_ZONE_IDENTIFICATION",
+          "PRICE_DELIVERY_ALGORITHM"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEDNESDAY WEEKLY REVERSAL",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2971",
+    "concepts": [
+      {
+        "canonical": "MARKET_TEMPLATES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "collection of templates",
+          "playbook",
+          "templates",
+          "weekly profiles"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_FOR_TRADING",
+          "TRADE_SETUP_IDENTIFICATION",
+          "PRICE_ACTION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ONE_SHOT_ONE_KILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "one shot one kill setups",
+          "one shot one kill",
+          "one shot one kill opportunity"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_TYPE",
+          "OBJECTIVE_DRIVEN_TRADING",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame information",
+          "bullish or bearish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_CONTEXT",
+          "TRADE_FILTER"
+        ],
+        "temporal_tags": [
+          "January"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "manipulation characteristics",
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_IDENTIFICATION",
+          "PRICE_ACTION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly range",
+          "weekly profile",
+          "highest high or lowest low of the week"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_ACTION_ANALYSIS",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_OBJECTIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly objective",
+          "50 to 75 Pips",
+          "profit objectives"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "TRADE_MANAGEMENT",
+          "RISK_REWARD"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "not obvious or in alignment"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RISK_MANAGEMENT",
+          "TRADE_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BACKTESTING_STUDY_METHOD",
+        "confidence": 0.85,
+        "surface_terms": [
+          "To study",
+          "analyze each weekly profile and how manipulation formed that range",
+          "requires study to internalize these templates as the market's operational framework"
+        ],
+        "narrative_roles": [
+          "LEARNING_PROCESS",
+          "SKILL_DEVELOPMENT",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [
+          "three to four months",
+          "hourly charts"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING THE PLAYBOOK FOR ONE SHOT ONE KILL SETUPS",
+      "source_file": "ICT Mentorship Core Content - Month 07 - Short Term Trading Market Maker Manipulation Templates_Handbook.chunks.json"
+    }
+  }
+]

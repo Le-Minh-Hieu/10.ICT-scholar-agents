@@ -165,6 +165,25 @@ export class TemporalEngine {
       if (matchedFactIndices.has(i)) continue;
 
       const fact = currentFacts[i];
+
+      const catalyst_vulnerability = (fact.timeframe === 'M1' || fact.timeframe === 'M5') ? 'HIGH' : (fact.timeframe === 'M15' ? 'MEDIUM' : 'LOW');
+      const scheduled_decay: any[] = [];
+      try {
+        const allEvents = [...((newsModifier as any)?.event_windows?.upcoming || []), ...((newsModifier as any)?.event_windows?.active || [])];
+        allEvents.forEach((ev: any) => {
+          if (ev.impact === 'HIGH' || ev.volatility_risk >= 0.8) {
+             const multiplier = catalyst_vulnerability === 'HIGH' ? 1.0 : (catalyst_vulnerability === 'MEDIUM' ? 0.75 : 0.25);
+             if (ev.scheduled_time) {
+                scheduled_decay.push({
+                   trigger_time: ev.scheduled_time,
+                   decay_multiplier: multiplier,
+                   reason: ev.name || ev.id
+                });
+             }
+          }
+        });
+      } catch (e) {}
+
       const newStructure: ActiveStructure = {
         id: `struct_${captureId}_${i}`,
         type: fact.type,
@@ -176,6 +195,8 @@ export class TemporalEngine {
         last_validated_at: captureId,
         decay_score: 0,
         mitigation_level: 0,
+        catalyst_vulnerability,
+        scheduled_decay,
         metadata: {
           strength: fact.confidence,
           is_htf_aligned:

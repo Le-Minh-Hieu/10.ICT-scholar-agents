@@ -1,0 +1,1111 @@
+[
+  {
+    "chunk_id": "chunk_4263",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WELCOME AND SESSION OVERVIEW",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4264",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly Bearish Order Block's opening price",
+          "Bearish Order Block opening price"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMMEDIATE_REBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "immediate rebalance"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_DIRECTIONAL_BIAS",
+          "REPRICING_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "shared bias"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX DAILY ANALYSIS",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4265",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "specific order block",
+          "weekly bullish order block"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_MAGNET",
+          "SUPPORT_ZONE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Our bias was bearish for Euro",
+          "bullish for Dollar",
+          "No bullish signs are present for Euro"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "SENTIMENT_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Monday's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SHORT_TERM_REVERSAL_POINT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMMEDIATE_REBALANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'immediate rebalance'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REBALANCING",
+          "SHORT_TERM_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "Relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_AREA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw towards a specific order block",
+          "downside draw for Euro",
+          "seeking further weakness on the downside"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trades in consolidation"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR WEEKLY & DAILY",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4266",
+    "concepts": [
+      {
+        "canonical": "IMBALANCE_REBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Monday's low is shown as the 'immediate rebalance'",
+          "Monday immediate rebalance on Monday's low was re-engaged"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "LIQUIDITY_RETEST",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_POOL_FORMATION",
+          "LIQUIDITY_TARGET",
+          "STOP_HUNT_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "downside draw"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "PRICE_ATTRACTION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Displacement to the downside"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_CONFIRMATION",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_POOL_FORMATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIG_FIGURE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "1.07 big figure level"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_LEVEL",
+          "LIQUIDITY_REFERENCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "sell side imbalance",
+          "buy side inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING_OPPORTUNITY",
+          "PRICE_MAGNET",
+          "ENTRY_POINT",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'stab up'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asia and London sessions"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW",
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA",
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR HOURLY",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4267",
+    "concepts": [
+      {
+        "canonical": "PREVIOUS_DAY_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Monday's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "Monday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ran up into Monday's low",
+          "tapped it again",
+          "immediate rebalance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "broke a swing"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "The ICT Silver Bullet trade",
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "STRATEGY"
+        ],
+        "temporal_tags": [
+          "10 AM to 11 AM New York local time window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [
+          "10 AM to 11 AM hour window"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "PRICE_REVERSAL_POINT",
+          "RESISTANCE_LEVEL",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "offering more than 15 pips to the rejection block"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 5-MINUTE",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4268",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side imbalance/buy side inefficiency",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "RETRACEMENT_LEVEL",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "displacement to the downside"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CHANGE_SIGNAL",
+          "IMPULSIVE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clearing all sell stops resting below the 4120 level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "INSTITUTIONAL_ACTION",
+          "SETUP_FOR_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_SIGNAL",
+          "BIAS_CHANGE",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "afternoon's final hour of trading"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish Fair Value Gap",
+          "buy side imbalance, sell side inefficiency"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Order Block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "opening range gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P 15-MINUTE",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4269",
+    "concepts": [
+      {
+        "canonical": "GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range gap",
+          "This gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "POTENTIAL_TARGET",
+          "DECISION_FILTER"
+        ],
+        "temporal_tags": [
+          "TUESDAY_CLOSE",
+          "WEDNESDAY_OPEN"
+        ],
+        "session_tags": [
+          "REGULAR_TRADING_HOURS"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly bearish order block"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "CONTEXTUAL_BIAS",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the 4120 level, where sell stops were located",
+          "its objective"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY_MAY_24_2023",
+          "NOON"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NARRATIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "strong narrative in play",
+          "strong narrative"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_BIAS",
+          "DECISION_FILTER_OVERRIDE"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY_MAY_24_2023"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P 5-MINUTE",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4270",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "ICT bearish order block",
+          "up-close candle",
+          "OB"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "STRUCTURE",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiencies, specifically a Fair Value Gap",
+          "this inefficiency (Fair Value Gap)"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "ENTRY_ZONE",
+          "SMART_MONEY_ACTIVITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw down into liquidity",
+          "below 4120",
+          "attacking the sell side"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "MARKET_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'smart money' operates"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "TRADE_INITIATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_EXECUTION_SHORT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "they go short"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "MARKET_DIRECTION_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_DIRECTION_BEARISH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market spools lower",
+          "attacking the sell side"
+        ],
+        "narrative_roles": [
+          "OUTCOME",
+          "CONFIRMATION",
+          "PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "AM ICT Silver Bullet trade"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "TRADE_SETUP",
+          "CONFIRMATION_SIGNAL"
+        ],
+        "temporal_tags": [
+          "AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'real order flow'"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FOCUS",
+          "MARKET_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREDETERMINED_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "predetermined level"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "TARGET_REFERENCE",
+          "ANALYSIS_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P 15-SECOND",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4271",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "E-MINI S&P SILVER BULLET",
+          "E-mini S&P Silver Bullet trade",
+          "ICT Silver Bullet Trade"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "HIGH_PROBABILITY_SETUP",
+          "TIME_BASED_STRATEGY",
+          "CONSISTENT_PROFITABILITY"
+        ],
+        "temporal_tags": [
+          "SHORTLY_AFTER_11_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "If the stops are at 41.20, it is not unreasonable to expect price to go three handles below that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGETING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency observed earlier"
+        ],
+        "narrative_roles": [
+          "ENTRY_ANCHOR",
+          "PRICE_MAGNET",
+          "MARKET_STRUCTURE_ELEMENT",
+          "REVERSION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "It must offer 10 handles",
+          "offering a 10-handle range in the move"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_TARGETING",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "dissect real order flow"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_METHOD",
+          "MARKET_UNDERSTANDING",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P SILVER BULLET",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4272",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "raiding liquidity below stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [
+          "Noon"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly bearish order block opening price"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [
+          "weekly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block (three consecutive down-closed candles)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [
+          "after 12 o'clock",
+          "Noon"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "'shift in market structure'"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [
+          "after 12 o'clock",
+          "Noon"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_LIQUIDITY",
+          "PRICE_MAGNET",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "after 12 o'clock",
+          "Noon"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range gap",
+          "filling the 'opening range gap'"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "3 PM to 4 PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet trade"
+        ],
+        "narrative_roles": [
+          "TRADING_SETUP",
+          "HIGH_PROBABILITY_TRADE"
+        ],
+        "temporal_tags": [
+          "Noon"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P POST-NOON REVERSAL AND OPENING RANGE GAP ANALYSIS",
+      "source_file": "Wednesday May 24, 2023 Forex & Spooz Market Review_Handbook.chunks.json"
+    }
+  }
+]

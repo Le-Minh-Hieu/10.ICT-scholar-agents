@@ -1,0 +1,674 @@
+[
+  {
+    "chunk_id": "chunk_647",
+    "concepts": [
+      {
+        "canonical": "PRICE_LEVEL_OF_INTEREST",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4117.25",
+          "a reasonable price level to expect a bounce",
+          "this area"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "TARGET_LEVEL",
+          "POTENTIAL_SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bounce",
+          "retrace back up into this area"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MOVEMENT",
+          "PULLBACK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRICE_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic price movements"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_MARKET_MECHANISM",
+          "PREDICTIVE_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING A BOUNCE AND REASONABLE PRICE LEVELS",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_648",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCING",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap (NDOG)",
+          "New Week Opening Gap (NWOG)",
+          "previous NWOG",
+          "this week's NWOG",
+          "last week"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TARGET_ZONE",
+          "LIQUIDITY_ENGINEERING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "yesterday",
+          "New Day",
+          "New Week",
+          "last week",
+          "this week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDPOINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consequent midpoint from last week",
+          "this week's NWOG and its midpoint"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "last week",
+          "this week"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CHART ANALYSIS AND NWOG RE-EVALUATION",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_649",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET",
+          "REACTION_POINT",
+          "ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "Dollar Index failed to make a higher high, while ES, NASDAQ, and DOW made lower lows"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_CLUE"
+        ],
+        "temporal_tags": [
+          "Yesterday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaker",
+          "wicks outside are permissible",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PRICE_MAGNET",
+          "ENTRY_POINT_CONTEXT",
+          "REVERSAL_POINT",
+          "PATTERN_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-NWOG BEHAVIOR AND PREVIOUS SMT DIVERGENCE RECAP",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_650",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "stop losses are typically placed right above the current high printed on their charts",
+          "protective buy stops at the highest high formed"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RETAIL_BEHAVIOR",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The market is quick to punish those who chase price on large moves.",
+          "protective buy stops at the highest high formed"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_EXPLOITATION",
+          "TRAP_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30 AM opening",
+          "in the first few minutes after the open"
+        ],
+        "narrative_roles": [
+          "MARKET_OPEN_DYNAMICS"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SHORT SELLER BEHAVIOR AND STOP LOSS PLACEMENT",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_651",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range",
+          "first 30 minutes",
+          "9:30 AM to 10:00 AM",
+          "this range",
+          "high formed on the opening range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_TARGET",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "first 30 minutes",
+          "9:30 AM",
+          "10:00 AM",
+          "intraday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "'Opening Range Gap'",
+          "difference between yesterday's closing price and today's 9:30 AM opening price"
+        ],
+        "narrative_roles": [
+          "GAP_FORMATION",
+          "PRICE_ACTION_DRIVER",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "9:30 AM",
+          "today",
+          "yesterday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_CLOSE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "yesterday's closing price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "GAP_FORMATION_COMPONENT"
+        ],
+        "temporal_tags": [
+          "yesterday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap (NDOG)"
+        ],
+        "narrative_roles": [
+          "GAP_FORMATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap (NWOG)",
+          "New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "GAP_FORMATION",
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops being triggered on retail positions",
+          "sweeping the New Week Opening Gap low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "intraday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING AND ANALYZING THE OPENING RANGE GAP",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_652",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range gap",
+          "large opening range gaps"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_INDICATOR",
+          "INITIAL_MARKET_IMBALANCE",
+          "HIGH_IMPACT_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out both buy-side and sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "INDETERMINATE_PHASE_CHARACTERISTIC"
+        ],
+        "temporal_tags": [
+          "first 30-45 minutes"
+        ],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "large shaded range on the chart",
+          "this range"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "LIQUIDITY_DRAW",
+          "EQUILIBRIUM_ZONE_CANDIDATE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "TREND_INITIATION",
+          "MARKET_STRUCTURE_SHIFT_INDICATOR",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RUN",
+        "confidence": 0.75,
+        "surface_terms": [
+          "An afternoon run"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "LIQUIDITY_SEEKING",
+          "INSTITUTIONAL_FLOW"
+        ],
+        "temporal_tags": [
+          "11:00 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_TIME",
+        "confidence": 0.8,
+        "surface_terms": [
+          "4:00 PM time period for better trading opportunities"
+        ],
+        "narrative_roles": [
+          "STRATEGY_GUIDANCE",
+          "TIMING_SIGNIFICANCE",
+          "OPPORTUNITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "4:00 PM"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING LARGE OPENING RANGE GAPS AND MORNING SESSION STRATEGY",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_653",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "this FVG"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_POINT",
+          "OBSERVATION_POINT",
+          "POTENTIAL_REVERSAL_ZONE",
+          "CONTINUATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_POINT",
+          "POTENTIAL_REVERSAL_ZONE",
+          "CONTINUATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap (NWOG)",
+          "NWOG high"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "REFERENCE_POINT",
+          "LIQUIDITY_POINT"
+        ],
+        "temporal_tags": [
+          "previous week"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAYS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "premium level",
+          "next premium level"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "OBSERVATION_POINT",
+          "POTENTIAL_BREAKOUT_POINT",
+          "POTENTIAL_LIQUIDITY_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING NEXT PREMIUM LEVEL AND TRADING CAUTION",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_654",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "trigger buy stops above the intraday high",
+          "buy stops above the intraday high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNTING",
+          "MANIPULATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "initial 20 minutes of trading"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encroachment of the NWOG high",
+          "identified breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION",
+          "RETEST_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "pink area",
+          "identified premium level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "SUPPLY_ZONE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_MAGNETISM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price magnetism",
+          "acts like a magnet, drawing price ticks (paper clips) within its magnetic field, illustrating where price is likely to gravitate"
+        ],
+        "narrative_roles": [
+          "PRICE_FORECASTING",
+          "LIQUIDITY_DRAW",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "The 4113 level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET_ACHIEVED"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RECAP OF EARLY SESSION DYNAMICS AND PRICE MAGNETISM",
+      "source_file": "February 16, 2023 ES Opening Session Commentary_Handbook.chunks.json"
+    }
+  }
+]

@@ -52,6 +52,19 @@ export async function ltfPDArrayAgent(input: LTFPDArrayInput, minimal_context: a
       pushImage(parts, input.eurusd.m1!, "LTF-EURUSD-M1", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT Premium/Discount (PD) Array observations on the Low Time Frame (LTF - M15, M5, M1).
+
+Focus on mapping the active low-timeframe dealing range and identifying the PD array hierarchy (Answer the question: Where is price in the dealing range?):
+Primary Focus:
+1. **LTF Dealing Range Boundaries**: Identify the recent valid M15 or M5 swing high and swing low defining the current active low-timeframe dealing range. (PD_ARRAY)
+2. **Equilibrium Level**: Pinpoint the midpoint (50% level) of this active dealing range. (PD_ARRAY)
+3. **Current Price Position**: Determine whether the current price is trading in a Premium zone (above 50% equilibrium) or Discount zone (below 50% equilibrium) within the active range. (PD_ARRAY)
+4. **PD Array Hierarchy**: Map where the price is trading relative to key low-timeframe PD Arrays (e.g. trading at equilibrium, deep premium, deep discount, or reacting to a specific M15/M5 PD Array). (PD_ARRAY)
+
+Secondary Focus:
+5. **Premium / Discount PD Arrays**: Note supporting M15/M5/M1 Order Blocks (OB), Fair Value Gaps (FVG), or Volume Imbalances (VI) only to confirm price location and interaction within the dealing range. (PD_ARRAY)
+
+Output your observations as objective bullet points detailing the Premium/Discount status and dealing range location.`,
     schema: ltfPdArrayOutputSchema,
     mapOutput: (result) => {
       const notes = (result?.notes || "").toLowerCase();

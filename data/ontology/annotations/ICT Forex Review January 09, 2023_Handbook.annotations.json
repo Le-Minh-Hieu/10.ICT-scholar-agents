@@ -1,0 +1,909 @@
+[
+  {
+    "chunk_id": "chunk_1346",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "value Gap",
+          "buy-side imbalance, sell-side inefficiency (BISI)",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "REBALANCING_ZONE",
+          "SUPPORT_ZONE",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY DAILY CHART ANALYSIS",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1347",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity pool",
+          "relatively equal lows"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [
+          "SPECIFIC_DATE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "REBALANCING_AREA",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY HOURLY CHART",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1348",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity",
+          "take out buy-side"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_ENGINEERING_SOURCE",
+          "LIQUIDITY_SWEEP_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_ENGINEERING_SOURCE",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MIDNIGHT_OPEN_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midnight opening candle",
+          "opening price extended through"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "BIAS_REFERENCE",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "REBALANCING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_TYPE",
+          "REBALANCING_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_TYPE",
+          "REBALANCING_TARGET",
+          "PRICE_DRAW",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY 15-MINUTE ANALYSIS",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1349",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "takes out buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "INITIATION_OF_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "attacks the sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "INITIATION_OF_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open Killzone"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "TRADING_WINDOW",
+          "HIGH_PROBABILITY_TIMING"
+        ],
+        "temporal_tags": [
+          "NY_OPEN_TIME",
+          "7_AM_NY",
+          "9_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "sell-side imbalance, buy-side inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "PRICE_INEFFICIENCY",
+          "DELIVERY_IMPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old relatively equal low on the daily chart",
+          "daily old lows",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "REFERENCE_POINT_FOR_RETRACEMENT",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY PRICE ACTION",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1350",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI (sell-side imbalance, buy-side inefficiency)"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "LIQUIDITY_REFERENCE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint of that gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "RETRACEMENT_LEVEL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_AREA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old daily lows"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old equal lows"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_CONTROLLER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "TARGET_AREA",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_RANGE_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low of the day"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "noon"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NOON",
+        "confidence": 0.95,
+        "surface_terms": [
+          "noon"
+        ],
+        "narrative_roles": [
+          "REVERSAL_TIME",
+          "EVENT_TIME"
+        ],
+        "temporal_tags": [
+          "noon"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_CLOSE_KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close Killzone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "HIGH_PROBABILITY_SETUP_TIME",
+          "REVERSAL_TIME"
+        ],
+        "temporal_tags": [
+          "noon"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY ALGORITHM REACTION",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1351",
+    "concepts": [
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open Killzone"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "MARKET_OPEN_PREPARATION"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term shift in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "daily sell-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NOON_REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The market turned again at noon"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_BIAS",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "NOON"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY 5-MINUTE CHART",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1352",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy-side liquidity",
+          "old high",
+          "buy-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD DAILY CHART",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1353",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "takes out buy-side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "ORDER_FLOW_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy-side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London open Killzone"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_ALIGNMENT",
+          "HIGH_PROBABILITY_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "2 o'clock to 5 o'clock in the morning New York local time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open Killzone"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_ALIGNMENT",
+          "HIGH_PROBABILITY_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "7 A.M."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADING_WINDOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "exact time for a setup to form",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "SETUP_CONFIRMATION_WINDOW",
+          "OPTIMAL_TRADING_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EUR/USD 5-MINUTE",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1354",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_STANDARD_DEVIATION_PROJECTIONS",
+        "confidence": 1,
+        "surface_terms": [
+          "FIBONACCI STANDARD DEVIATION PROJECTIONS",
+          "1.5 standard deviation",
+          "standard projections",
+          "standard deviation 1",
+          "1.5",
+          "2.5",
+          "3",
+          "3.5"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "PROJECTION_TOOL",
+          "PREDICTIVE_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_PRICE_CONFLUENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "combines time and price"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "ANALYTICAL_FRAMEWORK",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "London close",
+          "10 o'clock to noon New York local time"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London close"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "POTENTIAL_REVERSAL_TIME",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [
+          "London close"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NY_AM_KILLZONE_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 o'clock to noon New York local time"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "HIGH_PROBABILITY_TRADING_WINDOW",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [
+          "10 o'clock to noon New York local time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FULCRUM_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the fulcrum point"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_TAKEN_OUT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the high is taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SWEEP_INDICATION",
+          "MARKET_STRUCTURE_EVENT",
+          "PRECURSOR_TO_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Killzone",
+          "time window like the Killzone"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TRADING_WINDOW",
+          "CONFLUENCE_FACTOR",
+          "POTENTIAL_REVERSAL_POINT",
+          "PRICE_TARGET_CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FIBONACCI STANDARD DEVIATION PROJECTIONS",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1355",
+    "concepts": [
+      {
+        "canonical": "KILLZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London open Killzone",
+          "New York open Killzone"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "LIQUIDITY_ENGINEERING_WINDOW",
+          "REVERSAL_AREA"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LOW_OF_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the day",
+          "the low"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_OF_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high of the day",
+          "that high"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "MARKET_STRUCTURE_REFERENCE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "London close"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_AREA",
+          "SESSION_END_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "continuation"
+        ],
+        "narrative_roles": [
+          "TREND_ANALYSIS",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "ENTRY_CONFIRMATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REFERENCE_PRICE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "closing price",
+          "opening price"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Projections",
+          "target"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOMEWORK AND FUTURE FOREX REVIEWS",
+      "source_file": "ICT Forex Review January 09, 2023_Handbook.chunks.json"
+    }
+  }
+]

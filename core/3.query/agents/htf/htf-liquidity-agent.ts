@@ -42,6 +42,15 @@ export async function htfLiquidityAgent(input: HTFLiquidityInput, minimal_contex
       pushImage(parts, input.eurusd.d, "HTF-EURUSD-D", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT liquidity observations.
+
+Focus strictly on identifying where resting liquidity lies and recent sweep events (Answer the question: WHERE IS LIQUIDITY?):
+1. **Buy-side Liquidity (BSL) Pools**: Locate resting liquidity above major swing highs, equal highs (EQH), or old weekly/monthly highs. (LIQUIDITY)
+2. **Sell-side Liquidity (SSL) Pools**: Locate resting liquidity below major swing lows, equal lows (EQL), or old weekly/monthly lows. (LIQUIDITY)
+3. **Liquidity Sweeps & Stop Hunts**: Note if recent price action has swept high/low liquidity pools before reversing or pulling back. (LIQUIDITY)
+4. **Liquidity Voids, Imbalance Zones, & Delivery Gaps**: Identify major unfilled spaces or delivery gaps acting as magnets for future price movement without classifying them as specific FVG structures. (LIQUIDITY)
+
+Output your observations as objective bullet points. Focus purely on liquidity location and action. Do NOT try to identify or prioritize specific FVG structures.`,
     schema: htfLiquidityOutputSchema,
     mapOutput: (result) => {
       const notes = (result?.notes || "").toLowerCase();

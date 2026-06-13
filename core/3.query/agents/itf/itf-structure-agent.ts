@@ -60,6 +60,15 @@ export async function itfStructureAgent(input: ITFStructureInput, minimal_contex
       }
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT market structure observations on the Intermediate Time Frame (ITF - H4, H1, M15).
+
+Focus on identifying intermediate structural shifts, block formations, and intermarket divergence:
+1. **SMT Divergence Detection**: Compare EURUSD and GBPUSD swing highs/lows. Identify if there is a bullish SMT (EURUSD Lower Low vs GBPUSD Higher Low) or bearish SMT (EURUSD Higher High vs GBPUSD Lower High) at key intermediate turning points on H4, H1, or M15 charts. (STRUCTURE)
+2. **Market Structure Shifts (MSS / BOS)**: Look for intermediate-term breaks of swing highs/lows with displacement, confirming trend shifts. (STRUCTURE)
+3. **Structural Blocks**: Identify prominent intermediate-term Breaker Blocks (BB), Mitigation Blocks (MB), or high-confidence Order Blocks (OB) on H4, H1, or M15 charts. (STRUCTURE)
+4. **Swing Highs & Lows**: Identify key H4/H1 swing highs and swing lows acting as intermediate structural boundaries. (PRICE)
+
+Output your observations as objective bullet points. Do NOT infer directional bias or make trading recommendations.`,
     schema: itfStructureOutputSchema,
     mapOutput: (result) => {
       return {

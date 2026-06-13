@@ -1,0 +1,3665 @@
+[
+  {
+    "chunk_id": "chunk_1739",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold",
+          "halfway point from high to low",
+          "halfway point"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TARGET_ZONE",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "up close candle"
+        ],
+        "narrative_roles": [
+          "PRICE_ANCHOR",
+          "LIQUIDITY_POOL_ORIGIN",
+          "REACTION_ZONE_ORIGIN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "continuation upside",
+          "further weakness on euro dollar"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADE_SETUP_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY DOLLAR INDEX",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1740",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "IMMEDIATE REBALANCE AND FAIR VALUE GAP PROTOCOLS",
+          "imbalance here",
+          "deferred inefficiency",
+          "fair value Gap",
+          "inefficiency",
+          "imbalance in price",
+          "imbalance is buy side",
+          "buy side imbalance, sell side inefficiency",
+          "inefficient in offering down delivery or movement delivered on the downside",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "DEFINITION_OF_CONCEPT",
+          "IDENTIFICATION_OF_INEFFICIENCY",
+          "ORDER_FLOW_CONTEXT",
+          "POTENTIAL_REBALANCE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "previous day's High"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_POOL_CANDIDATE"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMMEDIATE REBALANCE AND FAIR VALUE GAP PROTOCOLS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1741",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap protocol",
+          "fair value gap",
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "REBALANCING_TARGET",
+          "PRICE_DELIVERY_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "Sell Side Imbalance, Buy Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "REBALANCING_TARGET",
+          "PRICE_DELIVERY_INEFFICIENCY_TYPE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INEFFICIENCY TYPES",
+          "deferred inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "REBALANCING_INDICATOR"
+        ],
+        "temporal_tags": [
+          "Monday's high"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EFFICIENT_PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "efficiently delivered",
+          "Price rotation on a liquidity Continuum basis"
+        ],
+        "narrative_roles": [
+          "EQUILIBRIUM_STATE",
+          "BENCHMARK_FOR_IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE DELIVERY AND INEFFICIENCY TYPES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1742",
+    "concepts": [
+      {
+        "canonical": "NARRATIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "narrative",
+          "the importance of narrative",
+          "bringing in narrative"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "FOUNDATIONAL_PRINCIPLE",
+          "BIAS_FORMATION_INPUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias",
+          "gives you a bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_PLANNING_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTEXTUAL_FRAMEWORK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "context",
+          "a context",
+          "framework for a trade"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "DECISION_MAKING_AID",
+          "STRUCTURED_APPROACH"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "high probability",
+          "trade that's high probability"
+        ],
+        "narrative_roles": [
+          "TRADE_SELECTION_CRITERION",
+          "OUTCOME_GOAL",
+          "RISK_MANAGEMENT_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE IMPORTANCE OF NARRATIVE AND BIAS IN TRADING",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1743",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAP REBALANCING",
+          "inefficiency",
+          "fair value Gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_ATTRACTION",
+          "REBALANCING_TARGET",
+          "EFFICIENCY_RESTORATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "WEEKLY ORDER BLOCK REFERENCE"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "INSTITUTIONAL_FLOW_REFERENCE"
+        ],
+        "temporal_tags": [
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "continuation or likely continuation down",
+          "higher dollar, weaker euro dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_FORECAST",
+          "TRADING_BIAS",
+          "PRICE_TARGET_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_DELIVERY_TIMING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "holiday weekend",
+          "might not deliver it tomorrow",
+          "may need to do so next week"
+        ],
+        "narrative_roles": [
+          "EXPECTATION_ADJUSTMENT",
+          "TIMING_CONSIDERATION",
+          "MARKET_DELIVERY_IMPACT"
+        ],
+        "temporal_tags": [
+          "HOLIDAY_WEEKEND",
+          "TOMORROW",
+          "NEXT_WEEK"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP REBALANCING & WEEKLY ORDER BLOCK REFERENCE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1744",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal low",
+          "those two daily candles that I mentioned was a relative equal low",
+          "those relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side resting below here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "LIQUIDITY_VOID",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "INSTITUTIONAL_FOOTPRINT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "WEEKLY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIG_FIGURE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "1.07 Big figure"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PSYCHOLOGICAL_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "go higher first",
+          "short-term premium",
+          "then drop, go down"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR DAILY",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1745",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value gap",
+          "Gap right there between this candle's high and that candle's low"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "TARGET_ZONE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "running out these relative equal highs",
+          "Ran above it",
+          "took out buy stops",
+          "takes out this short-term High"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "order block (down close candle)",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPLY_ZONE",
+          "REVERSAL_POINT",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [
+          "PRE_NY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "midnight, midnight in New York",
+          "around 11 o'clock in the morning",
+          "just before 5 AM"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT",
+          "NY_AM",
+          "PRE_NY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 5-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1746",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "run the buy stop"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "NY_8_30AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NEW_YORK_OPEN_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "New York opening"
+        ],
+        "narrative_roles": [
+          "REFERENCE_PRICE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_FRAMEWORK",
+          "TRADING_STRATEGY",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MIDNIGHT_OPENING_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "midnight opening price",
+          "opening price at midnight"
+        ],
+        "narrative_roles": [
+          "REFERENCE_PRICE_LEVEL",
+          "ENTRY_MODEL_REFERENCE",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "optimal entries for going long",
+          "best shorts"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "news driver comes out",
+          "news embargo lifts"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "NY_8_30AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 5-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1747",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL ORDER FLOW",
+          "long-term hedge funds have orders resting"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_DRIVER",
+          "INSTITUTIONAL_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC PRICE DELIVERY",
+          "algorithm runs up there"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "INSTITUTIONAL_ACTION",
+          "PRICE_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPENING_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "midnight opening price",
+          "New York midnight opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "BIAS_INDICATOR"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "NY_OVERNIGHT",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_MODEL",
+          "BIAS_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "wiping out buy side",
+          "trading above the New York midnight opening price",
+          "short-term buy stops that the market saw get tripped",
+          "run up here stopped out anyone that was short running there",
+          "anyone short on this move gets stopped out there",
+          "buy stops here",
+          "buy stops here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION",
+          "INSTITUTIONAL_ENTRY_PREPARATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money to sell short",
+          "smart money to go short"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACTION",
+          "MARKET_MANIPULATION",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 1,
+        "surface_terms": [
+          "engineered liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "INSTITUTIONAL_ACTION",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL ORDER FLOW & ALGORITHMIC PRICE DELIVERY",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1748",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows",
+          "relative equal lows on the daily chart"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side",
+          "sell side liquidity",
+          "sell stops resting below 1.0713",
+          "liquidity below those relative equal lows on the daily chart"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "TARGET_LEVEL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "drops aggressively down into that right in here, then whips right back above it",
+          "Trades one more time to below it",
+          "liquidity below those relative equal lows on the daily chart is engaged"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "REVERSAL_SIGNAL",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "the midpoint of this Gap from this candle's High to that candle's low"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_LEVEL",
+          "REBALANCING_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "this Gap from this candle's High to that candle's low"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "REBALANCING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 1-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1749",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy side liquidity",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_CONCEPT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "retail resistance",
+          "imaginary support resistance lines",
+          "average trader"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "runs for those buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Smart money"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_BEHAVIOR",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "POTENTIAL_REVERSAL_POINT",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker: low, high, lower low",
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London close",
+          "10 o'clock in the morning to noon"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "LIQUIDITY_EVENT"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "REBALANCE_AREA",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_DISTORTION",
+        "confidence": 0.7,
+        "surface_terms": [
+          "time distortion"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR_DESCRIPTION",
+          "CONSOLIDATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "daily relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 1-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1750",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap",
+          "Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "POTENTIAL_ENTRY",
+          "REVERSION_POINT"
+        ],
+        "temporal_tags": [
+          "10 to 11"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "two consecutive up close candles",
+          "two consecutive down close candles",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE",
+          "ORDER_FLOW_REFERENCE",
+          "PRICE_MAGNET",
+          "IDENTIFICATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York stop run",
+          "stops are",
+          "takes out that low",
+          "reach back one more time below the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION",
+          "PRICE_MANIPULATION",
+          "INITIATION_OF_MOVE"
+        ],
+        "temporal_tags": [
+          "prior to New York New York lunch",
+          "prior to that 12 o'clock",
+          "New York session lunch",
+          "noon to one o'clock"
+        ],
+        "session_tags": [
+          "NY",
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "The lowest down close candle: high, low, high",
+          "higher high",
+          "order block here is the breaker",
+          "Wicks do the damage",
+          "candles that have the lower body",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "TRADE_SETUP_ELEMENT",
+          "IDENTIFICATION_CRITERIA",
+          "PRICE_ACTION_NUANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "ICT_ENTRY_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Institutional order flow entry drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "EXECUTION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO DOLLAR 1-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1751",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity pool",
+          "that sell side is really, really juicy"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range Gap"
+        ],
+        "narrative_roles": [
+          "REBALANCE_AREA",
+          "POTENTIAL_REVERSAL_ZONE",
+          "PRICE_MAGNE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this inefficiency"
+        ],
+        "narrative_roles": [
+          "REBALANCE_AREA",
+          "PRICE_MAGNE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion Gap"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SIGNAL",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "last week",
+          "overnight",
+          "tomorrow",
+          "Friday's close"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "WEEKLY",
+          "OVERNIGHT",
+          "DAILY_FORECAST",
+          "WEEKLY_CLOSE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE GAPS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1752",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "OPENING RANGE GAP DYNAMICS",
+          "opening range",
+          "closure of the opening range"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "REBALANCE_TARGET"
+        ],
+        "temporal_tags": [
+          "MULTI_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "yesterday evening",
+          "yesterday"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "YESTERDAY",
+          "YESTERDAY_EVENING"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY ES & MULTI-DAY OPENING RANGE GAP DYNAMICS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1753",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range Gap",
+          "opening range gaps",
+          "Tuesday and Wednesday's opening range Gap",
+          "Tuesday-Wednesday opening range Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "SUPPORT_RESISTANCE",
+          "VALIDITY_PERIOD"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "three days",
+          "yesterday",
+          "multi-day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three concept"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OHLC_DATA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the Open, High, Low, and Close"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_BASICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_MANIPULATION_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "Accumulation, Manipulation, Distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "algorithmic"
+        ],
+        "narrative_roles": [
+          "MARKET_ENGINEERING_EXPLANATION",
+          "INSTITUTIONAL_ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_MINDSET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "apex predator",
+          "hunt differently",
+          "first one to take the prey",
+          "not the second mouse gets the cheese",
+          "we're lions. We're going out, and we're taking it."
+        ],
+        "narrative_roles": [
+          "TRADER_PSYCHOLOGY",
+          "DISCIPLINE_AND_EDGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY ES & MULTI-DAY OPENING RANGE GAP DYNAMICS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1754",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range Gap",
+          "the old one (Tuesday-Wednesday)",
+          "didn't fill this",
+          "Why didn't it fill that?",
+          "unfinished business",
+          "Now we have a gap",
+          "portions still to fill in"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY",
+          "PRICE_DRAW",
+          "REBALANCING_TARGET"
+        ],
+        "temporal_tags": [
+          "Tuesday-Wednesday",
+          "tomorrow"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The buy stops up here",
+          "Ran up there, hit it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DRAW",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fill it in tomorrow",
+          "reprice to it",
+          "work towards this area here"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANTICIPATION",
+          "INEFFICIENCY_RESOLUTION"
+        ],
+        "temporal_tags": [
+          "tomorrow"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "holiday weekend"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CONTEXTUAL_AWARENESS"
+        ],
+        "temporal_tags": [
+          "holiday weekend",
+          "tomorrow"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES OUTLOOK",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1755",
+    "concepts": [
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap high",
+          "Tuesday Wednesday opening range Gap",
+          "Wednesday-Thursday opening range Gap",
+          "low of that Gap",
+          "into the gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_DRAW",
+          "TARGET",
+          "GAP_FILL_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "New Week",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side",
+          "didn't get to the buy side yet",
+          "Buy side that I told you last night"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "last night"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "gathering all kinds of new orders",
+          "smart money is accumulating right in here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_PREPARATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side imbalance sell side inefficiency, which is a fair value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block right there"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "went above the Range High there, but we didn't get to the buy side yet. Then it dropped all the way down"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRENDLINE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "potential phantom trendline here breaks"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side here, below here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_FILL_EXPECTATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gap that would be otherwise expected to normally fill"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMING_CONSIDERATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "electronic trading hours",
+          "holiday weekend",
+          "tomorrow"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "VOLUME_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "electronic trading hours",
+          "holiday weekend",
+          "tomorrow"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES OUTLOOK",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1756",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW DAY OPENING GAP (NDOG)",
+          "new day opening Gap",
+          "New Day Opening Gap (NDOG)",
+          "NDOG",
+          "new day opening gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "New Day Opening",
+          "five o'clock",
+          "six o'clock",
+          "Wednesday-Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSEQUENT ENCROACHMENT",
+          "Consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "PRICE_REACTION_LEVEL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "Gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "LIQUIDITY_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "Mean threshold"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_LEVEL",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_FOOTPRINT",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Tuesday-Wednesday opening range Gap",
+          "opening range Gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_IMBALANCE"
+        ],
+        "temporal_tags": [
+          "Tuesday-Wednesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ES 5-MINUTE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1757",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW_ENTRY_DRILL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "An Institutional Order Flow Entry Drill"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_ACTION_EXPLANATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_ACTION_EXPLANATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "time-based delivery schedule"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "PRICE_ACTION_EXPLANATION",
+          "PREDICTIVE_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_TIMING",
+        "confidence": 0.8,
+        "surface_terms": [
+          "this time of day"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "ENTRY_CONFIRMATION",
+          "FILTERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_SETUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "one thing, you need one setup",
+          "plethora of setups",
+          "find my setup",
+          "this setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "STRATEGY_IDENTIFICATION",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_FRAMEWORK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "this framework"
+        ],
+        "narrative_roles": [
+          "STRATEGY_IDENTIFICATION",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CUSTOMIZING ICT CONCEPTS TO PERSONAL TRADING STYLE",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1758",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ADVANCED ORDER FLOW",
+          "order flow"
+        ],
+        "narrative_roles": [
+          "CORE_CONCEPT",
+          "MARKET_ANALYSIS_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet hour"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TIMING_WINDOW"
+        ],
+        "temporal_tags": [
+          "10 o'clock to 11 o'clock"
+        ],
+        "session_tags": [
+          "AM_SESSION"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old opening range Gap",
+          "high end of that old opening range Gap",
+          "range of opening range Gap",
+          "low of the old opening range Gap Tuesday to Wednesday",
+          "Tuesday to Wednesday's opening range Gap High"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STRUCTURE_BOUNDARY",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "Tuesday to Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REBALANCE_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value Gap",
+          "SIBI (Sell Side Imbalance, Buy Side"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "LIQUIDITY_VOID",
+          "PRICE_MAGNET",
+          "REBALANCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relatively equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "ENGINEERING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "ENGINEERING_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run these relative equal lows",
+          "The Wicks are doing all the damage"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1759",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "take out a short-term High",
+          "take stops",
+          "takes the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "IMBALANCE_INDICATION",
+          "REBALANCING_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet",
+          "the ICT Silver Bullet",
+          "rules for Silver Bullet"
+        ],
+        "narrative_roles": [
+          "TRADING_MODEL",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTALS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fractals in price"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "SCALABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "REVERSAL_ZONE",
+          "TARGET",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range Gap",
+          "Wednesday-Thursday's opening range Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "RESISTANCE_LEVEL",
+          "IMBALANCE_INDICATION"
+        ],
+        "temporal_tags": [
+          "Wednesday-Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10-handle range"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "RISK_MANAGEMENT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAPS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "gaps in here",
+          "shaded area"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "LIQUIDITY_ATTRACTOR",
+          "REBALANCING_LEVEL"
+        ],
+        "temporal_tags": [
+          "Tuesday-Wednesday",
+          "Wednesday-Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_ALGORITHM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "ORDER_FLOW_ENGINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1760",
+    "concepts": [
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "ADVANCED ORDER FLOW"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTEXT_WINDOW_FOR_REFERENCE_LEVELS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "remember these levels up to three days",
+          "beyond three days",
+          "After three days, take it off your chart"
+        ],
+        "narrative_roles": [
+          "CHART_MANAGEMENT",
+          "CONTEXT_ESTABLISHMENT",
+          "VALIDITY_PERIOD"
+        ],
+        "temporal_tags": [
+          "three days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_REFERENCE_POINTS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "these levels",
+          "referring to these levels"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "DECISION_MAKING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range gaps"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "LIQUIDITY_VOID",
+          "POTENTIAL_TARGET_AREA",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ANTICIPATION_VS_REACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "I'm not reacting to price, I'm anticipating it",
+          "learn how to anticipate too. You're not reacting"
+        ],
+        "narrative_roles": [
+          "TRADER_MINDSET",
+          "DECISION_MAKING",
+          "PREDICTIVE_ANALYSIS",
+          "BEHAVIORAL_COGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1761",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Silver Bullet"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "HIGH_PROBABILITY_TRADE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 handles",
+          "10 points",
+          "10-handle run"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening range Gap",
+          "New Day Opening Gap"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE",
+          "PRICE_ACTION_FEATURE"
+        ],
+        "temporal_tags": [
+          "NEW_DAY_OPENING"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TAKE",
+        "confidence": 1,
+        "surface_terms": [
+          "taking buy side liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_OBJECTIVE",
+          "MARKET_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_TAKES",
+        "confidence": 1,
+        "surface_terms": [
+          "Taking a partial",
+          "taking a partial here"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_REALIZATION",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramid here",
+          "to pyramid"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "POSITION_SCALING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADVANCED ORDER FLOW",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1762",
+    "concepts": [
+      {
+        "canonical": "SUB_MINUTE_CHART_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+          "15-second chart",
+          "strip price down below a one-minute chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "PRECISION_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [
+          "Wednesday-Thursday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "10 and 11"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening range"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "MARKET_STRUCTURE_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1763",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap",
+          "fair value Gap that forms",
+          "fair value Gap that was prior",
+          "this fair value Gap",
+          "that fair value gap right there",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_REBALANCE",
+          "PRICE_MAGNET",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "10_AM_NY_LOCAL_TIME",
+          "11_AM_NY_LOCAL_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet",
+          "the Silver Bullet here",
+          "Silver Bullet entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [
+          "10_AM_NY_LOCAL_TIME",
+          "11_AM_NY_LOCAL_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "order block here"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_REACTION_POINT",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_MARKET_DYNAMICS",
+          "SMART_MONEY_TRACKING",
+          "PRICE_DELIVERY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_IMBALANCE_BUY_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side imbalance buy side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_REBALANCE",
+          "PRICE_MAGNET",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "go down below it shallowly",
+          "shallow run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "CONTINUATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS",
+          "one-minute chart",
+          "15-second chart"
+        ],
+        "narrative_roles": [
+          "PRECISION_ANALYSIS",
+          "ENTRY_CONFIRMATION",
+          "DETAIL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1764",
+    "concepts": [
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "PATTERN_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker pattern",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "PATTERN_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "taking out the sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "engineered it created retail-minded support",
+          "trapping traders",
+          "put a stop loss there right below those lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PSYCHOLOGICAL_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops",
+          "below those lows",
+          "that low and that low",
+          "Sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "TREND_CHANGE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance there",
+          "fair value gap",
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "REBALANCE_AREA",
+          "POTENTIAL_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS",
+          "15 second chart",
+          "one-minute chart",
+          "five-minute",
+          "four-minute",
+          "three minute",
+          "two-minute",
+          "one-minute",
+          "45 seconds",
+          "30 second",
+          "15 second",
+          "five second",
+          "intraday Matrix"
+        ],
+        "narrative_roles": [
+          "PRECISION_ENTRY",
+          "CONTEXTUAL_ANALYSIS",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "institutional area here where orders would be resting"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_CONTEXT",
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1765",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "REBALANCE_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Two down closed candles is a bullish order block",
+          "order block",
+          "bullish order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Array Matrix"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING_TRADES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "adding more to it in pyramid",
+          "buy it again here",
+          "I'm buying it again",
+          "I'm adding it here"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "POSITION_SCALING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS",
+          "15 second chart",
+          "one-minute imbalance"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "PRECISION_ENTRY"
+        ],
+        "temporal_tags": [
+          "SUB-MINUTE_TIMEFRAME",
+          "FIFTEEN_SECOND_TIMEFRAME",
+          "ONE_MINUTE_TIMEFRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1766",
+    "concepts": [
+      {
+        "canonical": "SUB_MINUTE_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS",
+          "lower timeframes",
+          "sub one-minute contract basis",
+          "15-second chart",
+          "less than one minute",
+          "below a one-minute chart"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "CONFIRMATION",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRECISION_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PRECISION ENTRIES",
+          "real close proximity entries",
+          "multiple entries generally in the same area",
+          "degree of precision"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RISK_MANAGEMENT_IMPROVEMENT",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1767",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "PRECISION_ENTRIES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value Gap",
+          "one-minute fair value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "ENTRY_CONFIRMATION",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "one-minute"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down close candle",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "pockets where there is only one candle passing through",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "REBALANCE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "repriced",
+          "rebalanced",
+          "filled in",
+          "balanced",
+          "back and forth movement",
+          "efficiently been balanced"
+        ],
+        "narrative_roles": [
+          "EFFICIENCY_RESTORATION",
+          "VALIDATION_OF_LEVELS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "price delivery",
+          "narrative that needs to be displayed in price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_EXPLANATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "acting as support",
+          "find support at it",
+          "classic support resistance",
+          "never needs to go back below this high"
+        ],
+        "narrative_roles": [
+          "VALIDATION_OF_LEVELS",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHART_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "SUB-MINUTE CHART ANALYSIS",
+          "one-minute fair value Gap",
+          "15-second chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_SCOPE"
+        ],
+        "temporal_tags": [
+          "sub-minute",
+          "one-minute",
+          "15-second"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1768",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiencies",
+          "exposure for inefficiency",
+          "The inefficiency is this handle right there"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "PRICE_MAGNET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION",
+        "confidence": 1,
+        "surface_terms": [
+          "are balanced",
+          "real balanced price range",
+          "it's been rebalanced",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "LEVEL_VALIDATION",
+          "S_R_FORMATION",
+          "PRICE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "support resistance",
+          "act as either support if it's going higher, or resistance if it's going lower"
+        ],
+        "narrative_roles": [
+          "LEVEL_VALIDATION",
+          "TRADE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap",
+          "Tuesday-Wednesday opening range Gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DRAW",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [
+          "NEW_DAY",
+          "TUESDAY",
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUB-MINUTE CHART ANALYSIS FOR PRECISION ENTRIES",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1769",
+    "concepts": [
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "PM session Silver Bullet"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [
+          "2PM_3PM_WINDOW"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity pool",
+          "take out buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MAGNET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ran through it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "real liquidity void",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCE_ZONE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency",
+          "real Gap",
+          "fair value Gap",
+          "Silver Bullet fair value Gap",
+          "small little Gap",
+          "another fair value Gap",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCE_ZONE",
+          "ENTRY_ZONE",
+          "POTENTIAL_ENTRY_ZONE",
+          "REFINED_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI (Sell Side Imbalance, Buy Side Inefficiency)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_TYPE",
+          "REBALANCE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "took sell side out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SWING_LOW_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower timeframe",
+          "10-second chart"
+        ],
+        "narrative_roles": [
+          "REFINEMENT_TECHNIQUE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL LIQUIDITY VOIDS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1770",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "REAL LIQUIDITY VOIDS",
+          "real liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "IMBALANCE_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "IMBALANCE_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rebalances price action"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_FLOW_OBJECTIVE"
+        ],
+        "temporal_tags": [
+          "THURSDAY",
+          "2_PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "HIGH_OF_THE_WEEK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high of the week"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish all week"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "10 handles",
+          "10 points in range",
+          "10-handle range"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_POSITION",
+        "confidence": 1,
+        "surface_terms": [
+          "shorting",
+          "short here"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL LIQUIDITY VOIDS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1771",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "REAL LIQUIDITY VOIDS"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "PRICE_ACTION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inefficiency",
+          "this Gap",
+          "this Gap here",
+          "FVG",
+          "imbalance",
+          "price gap"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "REBALANCING_AREA",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SWEEP",
+          "TARGET_ACHIEVEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "blow-off type move",
+          "capitulation"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_INDICATION",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR",
+          "GAP_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "breakaway Gap"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_PATTERN",
+          "IMBALANCE_PERSISTENCE",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_POINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "where you would have been filled",
+          "range entry",
+          "getting short there"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "EXECUTION_POINT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "10 handles lower",
+          "10 points lower",
+          "41.59",
+          "aiming for this"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "RISK_REWARD_MANAGEMENT",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "high probability trade"
+        ],
+        "narrative_roles": [
+          "TRADE_CONFIDENCE",
+          "SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAWDOWN",
+        "confidence": 1,
+        "surface_terms": [
+          "heat",
+          "drawdown"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "EXPECTATION_SETTING",
+          "BACKTESTING_METRIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_WINDOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "between two o'clock and three o'clock"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_WINDOW",
+          "MARKET_TIMING"
+        ],
+        "temporal_tags": [
+          "2:00-3:00"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REAL LIQUIDITY VOIDS",
+      "source_file": "ICT Mentorship 2023 - Immediate Rebalance & Institutional Order Flow_Handbook.chunks.json"
+    }
+  }
+]

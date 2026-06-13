@@ -1,0 +1,502 @@
+[
+  {
+    "chunk_id": "chunk_1991",
+    "concepts": [
+      {
+        "canonical": "HFT_ALGORITHMIC_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "algorithmic high-frequency trading entry strategy",
+          "ALGORITHMIC HFT ENTRY STRATEGY INITIATION"
+        ],
+        "narrative_roles": [
+          "STRATEGY_IDENTIFICATION",
+          "TRADE_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "identified order block",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_POINT",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHANGE_IN_STATE_OF_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "change in the state of delivery"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "MARKET_BEHAVIOR_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT_RULE",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss is placed below the mean threshold of the order block",
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold of the order block",
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ALGORITHMIC HFT ENTRY STRATEGY INITIATION",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1992",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "MARKET STRUCTURE",
+          "foundational market structure has been established",
+          "a low, high, and then a lower low"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "PRELUDE_TO_ENTRY",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TIMEFRAME ADJUSTMENT",
+          "Dropping down to a 15-second chart",
+          "finer entry and observation"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "PRECISION_TRADING",
+          "CONFIRMATION_TECHNIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE AND TIMEFRAME ADJUSTMENT",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1993",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "A gap is observed",
+          "immediate rebalance"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "REBALANCE_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "identified breaker",
+          "This breaker is associated with the sell side",
+          "located right below a previous low"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "SUPPORT_RESISTANCE",
+          "ORDER_FLOW_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT_OF_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "immediate high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING PRICE ACTION AND IMMEDIATE REBALANCE",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1994",
+    "concepts": [
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 1,
+        "surface_terms": [
+          "POSITION SIZING",
+          "Currently holding three contracts",
+          "very small risk of 310"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "GAP MANAGEMENT",
+          "market gaps up",
+          "comes down to close that gap"
+        ],
+        "narrative_roles": [
+          "INEFFICIENCY_RESOLUTION",
+          "ENTRY_CONFIRMATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_IN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "additional contract was added",
+          "another contract will be added"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_MAXIMIZATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POSITION SIZING AND GAP MANAGEMENT",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1995",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "the highest up-close candle in a swing, prior to a lower low being met",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific partial profit targets",
+          "ultimate target"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER ENTRY RATIONALE AND PROFIT TARGETS",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1996",
+    "concepts": [
+      {
+        "canonical": "ORDER_EXECUTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "execution of orders",
+          "orders booking as prices are hit"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "ORDER_FLOW_OBSERVATION"
+        ],
+        "temporal_tags": [
+          "8:00_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "STOP_LOSS_ADJUSTMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss has rolled",
+          "reducing the risk down to 300"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTING_CAPITAL"
+        ],
+        "temporal_tags": [
+          "8:00_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIVE ORDER EXECUTION AND RISK REDUCTION",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1997",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker",
+          "classical breaker"
+        ],
+        "narrative_roles": [
+          "PATTERN_IDENTIFICATION",
+          "REVERSAL_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "pyramiding concept",
+          "add one more contract"
+        ],
+        "narrative_roles": [
+          "POSITION_SCALING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER MEAN THRESHOLD AND PYRAMIDING RATIONALE",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1998",
+    "concepts": [
+      {
+        "canonical": "WICK_AS_BOUNDARY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Observe the wick; price should not breach it"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_IDENTIFICATION",
+          "ENTRY_CONFIRMATION_CRITERIA",
+          "PRICE_BEHAVIOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACCELERATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accelerate",
+          "running away"
+        ],
+        "narrative_roles": [
+          "MOMENTUM_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "PRICE_BEHAVIOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_RETRACEMENT_LEVEL",
+          "MITIGATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WICK OBSERVATION AND PRICE ACCELERATION IN SLOPPY CONDITIONS",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1999",
+    "concepts": [
+      {
+        "canonical": "CONFIRMATION_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CONFIRMATION ENTRY",
+          "If the wick is touched again, another contract will be bought",
+          "An additional contract has been added"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "POSITION_MANAGEMENT",
+          "SCALING_IN",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STOP PLACEMENT REINFORCEMENT",
+          "exact stop placement",
+          "stop placement"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_PROGRAM",
+        "confidence": 1,
+        "surface_terms": [
+          "buy program"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_BIAS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFIRMATION ENTRY AND STOP PLACEMENT REINFORCEMENT",
+      "source_file": "ICT Mentorship 2023 - September 22, 2023 - High Frequency Trading Algorithmic Entries_Handbook.chunks.json"
+    }
+  }
+]

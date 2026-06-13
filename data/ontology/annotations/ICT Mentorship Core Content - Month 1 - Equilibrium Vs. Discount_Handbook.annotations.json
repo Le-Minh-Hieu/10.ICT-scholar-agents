@@ -1,0 +1,961 @@
+[
+  {
+    "chunk_id": "chunk_3159",
+    "concepts": [
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "FOCUSING ON PRICE ACTION",
+          "price alone (open, high, low, close)"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "INFORMATION_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "impulsive price move",
+          "impulsive price swing",
+          "displacement"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "biggest price swing on the chart",
+          "present market range",
+          "largest"
+        ],
+        "narrative_roles": [
+          "CONTEXT_DEFINITION",
+          "REFERENCE_POINT",
+          "LIQUIDITY_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "large capital (banks) has a strong conviction to move price",
+          "Banks accumulate long positions at lower prices and then sell (liquidate) those positions at higher prices"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "UNDERLYING_MOTIVATION",
+          "INSTITUTIONAL_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targeting areas above old highs where institutional fund stop-loss orders are resting",
+          "old highs where institutional fund stop-loss orders are resting"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FOCUSING ON PRICE ACTION AND IDENTIFYING IMPULSIVE SWINGS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3160",
+    "concepts": [
+      {
+        "canonical": "IMPULSIVE_PRICE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "impulsive price swing",
+          "rallies aggressively"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "MARKET_ANALYSIS",
+          "PRECURSOR_TO_DISPLACEMENT",
+          "ENTRY_CONTEXT_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "Swing High",
+          "three-candle formation"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_REFERENCE",
+          "RETRACEMENT_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "discount markets"
+        ],
+        "narrative_roles": [
+          "TRADE_BIAS_DETERMINATION",
+          "ENTRY_CONTEXT",
+          "PRICE_VALUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING AN IMPULSIVE PRICE SWING AND SWING HIGHS FOR DISCOUNT MARKETS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3161",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "At equilibrium",
+          "into equilibrium",
+          "reaches that level",
+          "reaches equilibrium",
+          "fair market value"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT",
+          "ENTRY_CRITERIA",
+          "FAIR_VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_POSITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opportunity to go long",
+          "buy at these levels"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION",
+          "ENTRY_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "previous highs",
+          "old institutional order flow reference points"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "new highest high",
+          "formation of a swing high (high candle, lower candle to the left, lower candle to the right, and a fourth candle coming lower)"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "REFERENCE_POINT_FOR_FIBONACCI"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "the Fibonacci tool"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "REFERENCE_POINT_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "not trading at a premium",
+          "permissible for banks to buy at these levels"
+        ],
+        "narrative_roles": [
+          "VALUE_CRITERIA",
+          "ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUNDAY_CANDLE_FILTER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Sunday candles on MT4 should be ignored as they are a non-event"
+        ],
+        "narrative_roles": [
+          "DATA_FILTERING",
+          "TRADING_RULE"
+        ],
+        "temporal_tags": [
+          "SUNDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NAVIGATING PRICE ACTION AT EQUILIBRIUM AND BEYOND",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3162",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount",
+          "discount market",
+          "discount zone",
+          "below the equilibrium (50 Fibonacci level)"
+        ],
+        "narrative_roles": [
+          "PREFERRED_ENTRY_ZONE",
+          "REVERSAL_POINT",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium (50 Fibonacci level)"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "underlying context is bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity resting above previous highs",
+          "previous highs"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeting and clearing out liquidity resting above previous highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expansion"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "PROFIT_GENERATION",
+          "IMMEDIATE_EFFECT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITION AND EXPECTED BEHAVIOR",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3163",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "optimal trade OTE",
+          "'sweet spot' for buying"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_POINT",
+          "LIQUIDITY_ACQUISITION",
+          "RISK_MANAGEMENT_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 and 70.5 percent retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_AREA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move below equilibrium",
+          "deep discount area",
+          "Discount prices"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL",
+          "ENTRY_CRITERIA",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "below equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "natural stop-loss placement",
+          "defines the risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "underlying market bias is bullish"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSIVE_SWING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "impulsive swing",
+          "original impulsive price swing"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "CONTEXTUAL_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "swing high forms"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "CONTEXTUAL_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE)",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3164",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "below equilibrium"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "into a discount",
+          "below it into a discount",
+          "return to a discount",
+          "discount prices"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_ENTRY_ZONE",
+          "BUYING_OPPORTUNITY",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE zone",
+          "62 to 79 retracement levels",
+          "62 to 79 retracement levels within Fibonacci"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_ENTRY_ZONE",
+          "RETRACEMENT_LEVEL",
+          "PRECISION_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH-PROBABILITY TRADES IN DISCOUNTED MARKETS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3165",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "retrace to equilibrium",
+          "returns to equilibrium"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "VALUATION_METRIC",
+          "MARKET_CYCLE_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount",
+          "high-probability discount entry"
+        ],
+        "narrative_roles": [
+          "VALUATION_METRIC",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSIVE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "impulsive price swing",
+          "new impulsive swing"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DESCRIPTION",
+          "MARKET_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent retracement level (minimum)",
+          "high-probability discount entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_STRATEGY",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "initial expansion",
+          "another expansion phase"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_DESCRIPTION",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_DESCRIPTION",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity (buy stops)",
+          "liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_CRITERIA",
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "PROFIT_TAKING_CRITERIA",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETS",
+        "confidence": 1,
+        "surface_terms": [
+          "Profit targets",
+          "precise profit-taking"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_CRITERIA",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order blocks",
+          "the open of a bullish candle"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_CRITERIA",
+          "LIQUIDITY_POOL_IDENTIFICATION",
+          "REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNIVERSALITY OF EQUILIBRIUM AND DISCOUNT ACROSS TIMEFRAMES",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3166",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION_EXPANSION_CYCLE",
+        "confidence": 1,
+        "surface_terms": [
+          "THE CONSOLIDATION-EXPANSION CYCLE",
+          "cycles of consolidation and expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "PRICE_ACTION_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidation",
+          "consolidates",
+          "consolidation phase",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "ACCUMULATION",
+          "DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 1,
+        "surface_terms": [
+          "expansion",
+          "subsequent expansion",
+          "explosive bullish moves",
+          "further expansion"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PATTERN",
+          "TREND_DEVELOPMENT",
+          "IMPULSIVE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium",
+          "fair market value"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "FAIR_VALUE",
+          "MIDPOINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent retracement level (discount)",
+          "discount",
+          "discount prices",
+          "below equilibrium",
+          "62-79 percent retracement levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "HIGH_PROBABILITY_AREA",
+          "RISK_REWARD_OPTIMIZATION",
+          "BUY_AREA",
+          "TREND_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY TARGETS",
+          "liquidity above the marketplace",
+          "buy stops",
+          "liquidity pools",
+          "liquidity runs",
+          "liquidity targets"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_CLUSTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Market makers will drive price to these liquidity pools to fill their sell orders"
+        ],
+        "narrative_roles": [
+          "MARKET_MANIPULATION",
+          "INSTITUTIONAL_FLOW",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "previous Equal highs",
+          "Equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "STOP_LOSS_CLUSTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CONSOLIDATION-EXPANSION CYCLE AND LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3167",
+    "concepts": [
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 0.99,
+        "surface_terms": [
+          "turtle soup",
+          "stop run",
+          "sweeps out a previous low",
+          "goes below an old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.99,
+        "surface_terms": [
+          "equilibrium",
+          "below equilibrium"
+        ],
+        "narrative_roles": [
+          "VALUATION_POINT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.99,
+        "surface_terms": [
+          "optimal trade entry (OTE) zone",
+          "OTE zone",
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "RETRACEMENT_TARGET",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount zones",
+          "discount",
+          "below 50 percent"
+        ],
+        "narrative_roles": [
+          "VALUATION_POINT",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Fibonacci",
+          "62 to 79 percent retracement levels"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "ENTRY_ZONE_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOCHASTIC_DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stochastic divergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RECOGNIZING TURTLE SOUPS AND DISCOUNTED BUYS (SUMMARY)",
+      "source_file": "ICT Mentorship Core Content - Month 1 - Equilibrium Vs. Discount_Handbook.chunks.json"
+    }
+  }
+]

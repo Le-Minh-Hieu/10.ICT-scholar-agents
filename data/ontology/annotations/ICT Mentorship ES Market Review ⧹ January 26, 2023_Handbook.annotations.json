@@ -1,0 +1,903 @@
+[
+  {
+    "chunk_id": "chunk_3614",
+    "concepts": [
+      {
+        "canonical": "MARKET_CONDITIONS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'sloppy, choppy'",
+          "lack fluid price",
+          "'cleanest price action'",
+          "'the surest delivery and symmetry'",
+          "more fluid in their price delivery"
+        ],
+        "narrative_roles": [
+          "TRADING_DECISION_INFLUENCER",
+          "OPTIMAL_TRADING_ENVIRONMENT_IDENTIFICATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASSET_CLASS_SELECTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Forex markets (Dollar Index, Euro-Dollar, Pound-Dollar)",
+          "Stock Index Futures"
+        ],
+        "narrative_roles": [
+          "STRATEGIC_FOCUS",
+          "PORTFOLIO_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CURRENT MARKET FOCUS",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3615",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "attacking an old low",
+          "Price dropped below the midnight opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "8:30_AM",
+          "9:30_AM",
+          "10:45_AM",
+          "11:45_AM",
+          "MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "MORNING_SESSION",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "midnight opening price (4036 and three quarters)"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_REFERENCE",
+          "KEY_LEVEL"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "The target for these longs was the 4072 and three quarters level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smart Money"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_PLAYER",
+          "MARKET_MANIPULATOR",
+          "OPPORTUNISTIC_ENTRY"
+        ],
+        "temporal_tags": [
+          "8:30_AM",
+          "9:30_AM",
+          "10:45_AM",
+          "11:45_AM"
+        ],
+        "session_tags": [
+          "MORNING_SESSION",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MORNING SESSION ANALYSIS",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3616",
+    "concepts": [
+      {
+        "canonical": "PRE_MARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "PRE-MARKET PREPARATION",
+          "Hours before the New York market opened",
+          "the focus was already on the 4072 and three quarters price",
+          "crucial for students to record key levels, catalysts, and scenarios discussed"
+        ],
+        "narrative_roles": [
+          "PREPARATION",
+          "PLANNING",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [
+          "HOURS_BEFORE_NY_OPEN",
+          "PRE_SESSION"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "4072 and three quarters price",
+          "This level",
+          "key levels"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "POTENTIAL_TARGET",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONVICTION_BASED_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Strong convictions were held for the 4072 and three quarters level",
+          "ICT rarely provides indecisive predictions"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "TRADING_PSYCHOLOGY",
+          "METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRE-MARKET PREPARATION AND TWITTER COMMENTARY",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3617",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_3",
+        "confidence": 1,
+        "surface_terms": [
+          "SWING TRADING WITH THE POWER OF 3 CONCEPT",
+          "'Power of 3' entry",
+          "Power of 3 concept",
+          "Accumulation",
+          "Manipulation",
+          "Distribution phases"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "RANGE_DEFINITION",
+          "MARKET_CYCLE_PHASE"
+        ],
+        "temporal_tags": [
+          "daily range",
+          "weekly range"
+        ],
+        "session_tags": [
+          "morning",
+          "afternoon"
+        ]
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price",
+          "key opening price",
+          "midnight New York local time opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "midnight New York local time",
+          "daily range"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SWING TRADING WITH THE POWER OF 3 CONCEPT",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3618",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "Order Block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance (Fair Value Gap)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "hourly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EFFICIENCY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "showed efficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "frustrating retail traders",
+          "continuously ground higher, frustrating retail traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PSYCHOLOGICAL_MANIPULATION",
+          "MARKET_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "the algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the 4072 and three quarters level"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "FOCUS_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET ACCUMULATION AND GRINDING HIGHER",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3619",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "4035 ES sell side",
+          "sell-side liquidity below that level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "10:38 one minute candle fair value Gap",
+          "FVG",
+          "shaded area on the one-minute candle",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_LEVEL",
+          "ENTRY_CONFIRMATION",
+          "INVALIDATION_CRITERIA",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "10:38"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DETAILED TWITTER CALL-OUTS AND FVG INTERACTION",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3620",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop-loss level at 4051 and a quarter",
+          "above the high of the FVG candle",
+          "where a stop loss would be"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_INTENT_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FVG",
+          "Fair Value Gap",
+          "FVG candle",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REJECTION_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "TARGET ACHIEVEMENT",
+          "objective"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FVG REJECTION CONFIRMATION AND TARGET ACHIEVEMENT",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3621",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The objective remained the 4072 and three quarters level",
+          "objective",
+          "4072 and three quarters level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "specific low to be tagged",
+          "the low",
+          "63 and a quarter (the low)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "He entered with 10 contracts",
+          "successfully hitting the entry"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "NY_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "4:15 PM close"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "NY_CLOSE"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AFTERNOON SESSION",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3622",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "SCALING_IN_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "SCALING_IN_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_IN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SCALING IN",
+          "add another 5 contracts",
+          "added"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "POSITION_BUILDING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADE MANAGEMENT"
+        ],
+        "narrative_roles": [
+          "OVERALL_STRATEGY",
+          "RISK_MANAGEMENT",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "initial entry"
+        ],
+        "narrative_roles": [
+          "TRADE_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MENTORSHIP_GOAL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ACHIEVING INDEPENDENCE",
+          "become independent",
+          "trust their own analysis"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DEVELOPMENT",
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "SELF_RELIANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALERT_SYSTEM",
+        "confidence": 0.85,
+        "surface_terms": [
+          "alerts"
+        ],
+        "narrative_roles": [
+          "TOOL_UTILIZATION",
+          "TRADE_MONITORING",
+          "RISK_MANAGEMENT_AID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT, SCALING IN, AND ACHIEVING INDEPENDENCE",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3623",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "exits",
+          "exit strategy",
+          "80-85% of the best-case price run"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "scales out (partials)",
+          "multiple scaling-out points"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "desire for perfection",
+          "stemming from his subconscious"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_INFLUENCE_ON_TRADING_DECISIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXITS AND MANAGING PERFECTIONISM",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3624",
+    "concepts": [
+      {
+        "canonical": "EXIT_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ICT'S EXIT STRATEGY",
+          "developed a methodology of simply accepting partial profits",
+          "The goal is to exit while the market is still moving favorably away from the entry point"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_REALIZATION",
+          "PSYCHOLOGICAL_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "accepting partial profits"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_EXIT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "area very close to where he thinks the best-case exit would be",
+          "sometimes within 10-15 handles of the high",
+          "while the market is still moving favorably away from the entry point"
+        ],
+        "narrative_roles": [
+          "PROFIT_REALIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S EXIT STRATEGY AND PERSONAL TRADING PSYCHOLOGY",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3625",
+    "concepts": [
+      {
+        "canonical": "TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "entries",
+          "act of 'pressing a button'",
+          "get into trades"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "PSYCHOLOGICAL_BARRIER",
+          "SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_EXIT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "exits",
+          "Exiting",
+          "5-handle target"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "SIMPLIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_ADAPTATION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "DESENSITIZING TO ENTRIES",
+          "desensitization",
+          "desensitizing to entries"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_TRAINING",
+          "TRADER_DEVELOPMENT",
+          "OVERCOMING_FEAR",
+          "PERFORMANCE_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DESENSITIZING TO ENTRIES AND THE IMPORTANCE OF ACTION",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3626",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-handle trades",
+          "larger 12, 15, 20, or even 30-handle opportunities",
+          "very easy 5-handle setups",
+          "20-tick trades"
+        ],
+        "narrative_roles": [
+          "PROFIT_GENERATION",
+          "TRADE_PLANNING",
+          "SCALPING",
+          "CONSISTENCY"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "intraday"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "money management"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "SUSTAINABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_METHODOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reprice better"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_APPLICATION",
+          "ANALYTICAL_SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_OBJECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "financial independence",
+          "replace a portion, if not all, of their employment income"
+        ],
+        "narrative_roles": [
+          "LONG_TERM_GOAL",
+          "MOTIVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GRADUATING FROM 5-HANDLE TRADES TO FINANCIAL INDEPENDENCE",
+      "source_file": "ICT Mentorship ES Market Review ⧹ January 26, 2023_Handbook.chunks.json"
+    }
+  }
+]

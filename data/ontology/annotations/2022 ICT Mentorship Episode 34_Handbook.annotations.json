@@ -1,0 +1,657 @@
+[
+  {
+    "chunk_id": "chunk_258",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap (FVG)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_ZONE",
+          "PRICE_REACTION_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out the sell-side",
+          "traded down below the sell-side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUNDAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday opening gap",
+          "Sunday gap opening"
+        ],
+        "narrative_roles": [
+          "KEY_LEVEL",
+          "IMBALANCE_ZONE",
+          "PRICE_REACTION_ZONE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MOVEMENT AND KEY LIQUIDITY/IMBALANCE ZONES",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_259",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "small imbalance",
+          "old fair value gap",
+          "POST-FVG"
+        ],
+        "narrative_roles": [
+          "REBALANCE",
+          "RETRACEMENT",
+          "ORDER_FLOW_ALIGNMENT",
+          "PRICE_MAGNET",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUNDAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "SUPPORT_RESISTANCE_LEVEL_IDENTIFIER",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "SUNDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower end of this gap",
+          "level to watch",
+          "acting as resistance",
+          "AS RESISTANCE"
+        ],
+        "narrative_roles": [
+          "RESISTANCE",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-FVG PRICE ACTION AND SUNDAY GAP AS RESISTANCE",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_260",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening range"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "lunch_hour"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breached a small swing low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "POTENTIAL_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "post-lunch"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "PRICE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "old gap opening from Sunday",
+          "this gap",
+          "this gap, which acted as resistance"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RESISTANCE",
+          "LIQUIDITY_POOL",
+          "MAGNET"
+        ],
+        "temporal_tags": [
+          "Sunday",
+          "post-lunch"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "an order block"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SUPPORT_ZONE",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "post-lunch"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET BEHAVIOR AROUND LUNCH HOUR AND SUNDAY GAP",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_261",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "big down candle (order block)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "POINT_OF_INTEREST",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUNDAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday gap opening",
+          "that gap opening again"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "SUPPORT_LEVEL",
+          "REACCUMULATION_ZONE"
+        ],
+        "temporal_tags": [
+          "SUNDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RALLY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rallying back",
+          "rallied again"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEST",
+        "confidence": 0.9,
+        "surface_terms": [
+          "testing the level"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "SUPPORT_RETEST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retraced"
+        ],
+        "narrative_roles": [
+          "PRICE_CORRECTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discount low"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_ENTRY_ZONE",
+          "BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DYNAMIC INTERACTION WITH SUNDAY GAP AND RALLY",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_262",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_LEVEL",
+          "SUPPORT_REGION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute order block"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "SUPPORT_REGION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OBJECTIVE_HIT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "OBJECTIVE HIT",
+          "precisely hit the 3952 and three quarters level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET_REACHED",
+          "TRADE_FULFILLMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "AFTERNOON PRICE ACTION",
+          "afternoon price delivery"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "morning session"
+        ],
+        "narrative_roles": [
+          "PERFORMANCE_BENCHMARK"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AFTERNOON PRICE ACTION AND OBJECTIVE HIT",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_263",
+    "concepts": [
+      {
+        "canonical": "PRICE_OBJECTIVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "run up into that level",
+          "price objectives"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Sunday's gap opening"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "SUNDAY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP_AND_RECLAIM",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price coming down below and then back above Sunday's gap opening",
+          "dynamic support resistance level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_PATTERN",
+          "SUPPORT_RESISTANCE_FLIP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLARITY ON PRICE OBJECTIVES AND SETUP PREFERENCES",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_264",
+    "concepts": [
+      {
+        "canonical": "SUNDAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sunday gap",
+          "Sunday opening gap",
+          "dynamic price level"
+        ],
+        "narrative_roles": [
+          "DYNAMIC_SUPPORT_RESISTANCE",
+          "VALUATION_REFERENCE",
+          "MARKET_CONDITION_INDICATOR"
+        ],
+        "temporal_tags": [
+          "Sunday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy-side liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_DEFINITION_POINT",
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "consolidating or range-bound markets",
+          "choppy price action"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [
+          "FOMC weeks"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SUNDAY GAP AS A DYNAMIC PRICE LEVEL AND TRADING IN RANGE-BOUND",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_265",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LOWER TIMEFRAME ANALYSIS",
+          "two-minute chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "DETAIL_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "POTENTIAL_AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_VALIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FVG BEHAVIOR",
+          "once price had moved away from this FVG, he did not want to see it return"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_CRITERIA",
+          "SIGNAL_STRENGTH_INDICATOR",
+          "INVALIDATION_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOWER TIMEFRAME ANALYSIS AND FVG BEHAVIOR",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_266",
+    "concepts": [
+      {
+        "canonical": "PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expansion swing",
+          "impulsive price swing"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "dealing range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_AREA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retracement down to and below the 50 percent level",
+          "discount area"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_AREA",
+          "ENTRY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CORRECT APPLICATION OF FIBONACCI FOR IMPULSIVE SWINGS",
+      "source_file": "2022 ICT Mentorship Episode 34_Handbook.chunks.json"
+    }
+  }
+]

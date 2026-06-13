@@ -1,0 +1,1042 @@
+[
+  {
+    "chunk_id": "chunk_3034",
+    "concepts": [
+      {
+        "canonical": "ASIAN_SESSION_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian session range"
+        ],
+        "narrative_roles": [
+          "SETUP_IDENTIFICATION",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "8:00 PM New York time",
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish move",
+          "Daily chart indicating lower prices"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_GUIDANCE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "Daily chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_HIGH_FORMATION",
+        "confidence": 1,
+        "surface_terms": [
+          "London High",
+          "London High to form"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT_IDENTIFICATION",
+          "ENTRY_CONFIRMATION_AREA",
+          "LIQUIDITY_TARGET",
+          "PRICE_BEHAVIOR_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "12:00 AM New York time",
+          "2:00 AM New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION RANGE AND LONDON HIGH FORMATION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3035",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "protractionary stage",
+          "'Judas Swing'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "RANGE_REFERENCE",
+          "VOLATILITY_INDICATOR",
+          "CONDITIONAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "late afternoon New York session"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILD_UP",
+          "PRE_MOVE_PHASE",
+          "RANGE_BOUND"
+        ],
+        "temporal_tags": [
+          "2:00 PM to 8:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE PROTRACTIONARY STAGE AND IDEAL TRADING SCENARIO",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3036",
+    "concepts": [
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CBDR",
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_ENGINEERING_SETUP",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidates down",
+          "consolidation",
+          "20 to 30 pip range",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_SETUP",
+          "ORDER_ACCUMULATION"
+        ],
+        "temporal_tags": [
+          "8:00 PM New York time",
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ORDER_ACCUMULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "allows orders to build up"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_ENERGY",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [
+          "8:00 PM New York time",
+          "midnight New York time"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PROTRACTION_STATE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rally immediately after midnight New York time",
+          "sustained movement higher",
+          "initial move",
+          "protraction state"
+        ],
+        "narrative_roles": [
+          "MARKET_MOVEMENT",
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_RUN_INITIATION"
+        ],
+        "temporal_tags": [
+          "immediately after midnight New York time",
+          "2:00 AM hour in New York time"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CBDR AND ASIAN RANGE INTERPLAY FOR LONDON NORMAL PROTRACTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3037",
+    "concepts": [
+      {
+        "canonical": "LONDON_DELAYED_PROTRACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "LONDON DELAYED PROTRACTION",
+          "London delayed protraction"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE",
+          "TRADE_SETUP",
+          "SCENARIO_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SELL_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell profile"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range",
+          "CBDR"
+        ],
+        "narrative_roles": [
+          "INITIAL_RANGE_ASSESSMENT",
+          "VOLATILITY_MEASUREMENT",
+          "PRE_MARKET_ANALYSIS",
+          "SETUP_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CBDR_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "40 Pips",
+          "less than 40 Pips",
+          "greater than 40 Pips",
+          "ideal stage set"
+        ],
+        "narrative_roles": [
+          "SETUP_CRITERIA",
+          "CONDITION_EVALUATION",
+          "IDEAL_CONDITION_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON DELAYED PROTRACTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3038",
+    "concepts": [
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The directional bias is going to be bearish"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_PROFILE_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "IPA"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "PRICE_ACTION_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "2:00 AM New York"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROTRACTION_STAGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "protraction stage",
+          "protractionary stage",
+          "DELAYED PROTRACTION CHARACTERISTICS"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "TIMING_MODEL_COMPONENT"
+        ],
+        "temporal_tags": [
+          "delayed in the day",
+          "2:00 AM New York"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IPA TIMING",
+          "at or shortly after 2:00 AM New York",
+          "looking for price to stage a rally at or just shortly after 2:00 AM"
+        ],
+        "narrative_roles": [
+          "TIMING_MODEL",
+          "ENTRY_CONFIRMATION_TIMING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "midnight New York time",
+          "2:00 AM New York"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_EXPECTATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "rally",
+          "see the rally",
+          "stage a rally"
+        ],
+        "narrative_roles": [
+          "EXPECTED_PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "midnight New York time",
+          "2:00 AM New York"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DELAYED PROTRACTION CHARACTERISTICS AND IPA TIMING",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3039",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "smaller little Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "ENTRY_SETUP_PRECURSOR"
+        ],
+        "temporal_tags": [
+          "2:00 AM (NY Time)"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "INTRADAY PREMIUM PD ARRAY",
+          "intraday premium PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "RESISTANCE_LEVEL",
+          "LIQUIDITY_DRAW",
+          "SELL_ZONE"
+        ],
+        "temporal_tags": [
+          "2:00 AM (NY Time)"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LONDON_KILLZONE_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London entry come to fruition",
+          "This retracement will occur at or just after 2:00 AM"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [
+          "2:00 AM (NY Time)",
+          "12:00 AM New York time"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION_FAILURE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market does not create that 12:00 AM New York time rally",
+          "price does not go into a contractionary stage higher after midnight",
+          "it just rolls over, goes soft, and makes a progressively lower move"
+        ],
+        "narrative_roles": [
+          "SETUP_CONDITION",
+          "MARKET_BIAS_INDICATION",
+          "EXPECTED_MOVE_ABSENCE"
+        ],
+        "temporal_tags": [
+          "12:00 AM New York time",
+          "2:00 AM (NY Time)"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTRADAY PREMIUM PD ARRAY AND ENTRY CONDITIONS",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3040",
+    "concepts": [
+      {
+        "canonical": "TRADING_PROFILE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "LONDON DELAYED PROTRACTION SELL",
+          "London delayed protraction profile"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_IDENTIFICATION",
+          "MARKET_PROFILE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SPECIFIC_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "2:00 AM time frame",
+          "at or just after 2:00 AM",
+          "right after 2:00 AM",
+          "7 GMT",
+          "2:00 AM NY"
+        ],
+        "narrative_roles": [
+          "TIMING_ELEMENT",
+          "ENTRY_TRIGGER_CONDITION"
+        ],
+        "temporal_tags": [
+          "2_AM",
+          "7_GMT"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PRICE_ACTION_RALLY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rally up",
+          "creates a rally"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SUPPLY_ZONE",
+          "TRADE_SETUP_ELEMENT"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TRADING_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TIMEFRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAILURE_TO_MAKE_HIGHER_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price rolls over",
+          "doesn't make any higher high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "WEAKNESS_SIGNAL",
+          "MARKET_STRUCTURE_BREAK_INDICATION"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PROTRACTION_STAGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "protraction stage"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_PHASE",
+          "ENTRY_MODEL_ELEMENT"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_LEVEL",
+          "SUPPLY_ZONE",
+          "SMART_MONEY_FOOTPRINT",
+          "ENTRY_TRIGGER_ZONE"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SESSION_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "London session high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "REVERSAL_POINT",
+          "MARKET_STRUCTURE_POINT"
+        ],
+        "temporal_tags": [
+          "2_AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON DELAYED PROTRACTION SELL",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3041",
+    "concepts": [
+      {
+        "canonical": "LONDON_NORMAL_PROTRACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "LONDON NORMAL PROTRACTION",
+          "London normal protraction stage"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE",
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "looking to buy"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "RANGE_DEFINITION",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "narrow consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "LIQUIDITY_ENGINEERING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON NORMAL PROTRACTION",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3042",
+    "concepts": [
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RETRACEMENT",
+          "retrace lower",
+          "that retracement"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "ENTRY_CONTEXT",
+          "PRICE_MANIPULATION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT PD ARRAY",
+          "intraday discount PD array"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "ENTRY_ZONE",
+          "TARGET_LEVEL_FOR_RETRACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Judas swing",
+          "delayed protraction stage"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_TRIGGER",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "2:00 AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "classic intraday optimal trade entry long"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "SUPPORT_LEVEL",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "IMBALANCE_IDENTIFIER",
+          "ENTRY_ZONE",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PD_ARRAY",
+          "IMBALANCE_IDENTIFIER",
+          "ENTRY_ZONE",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_SESSION_CONTEXT",
+        "confidence": 1,
+        "surface_terms": [
+          "London entry",
+          "London delayed protraction buy day"
+        ],
+        "narrative_roles": [
+          "TRADING_SESSION",
+          "SESSION_SPECIFIC_ENTRY"
+        ],
+        "temporal_tags": [
+          "midnight",
+          "2:00 AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RETRACEMENT AND DISCOUNT PD ARRAY ENTRY",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3043",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "delay of a Judas swing"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE_INDICATION"
+        ],
+        "temporal_tags": [
+          "2:00 AM"
+        ],
+        "session_tags": [
+          "ASIA",
+          "PRE_LONDON"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame premise"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMING_WINDOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "12:00 AM going into 2:00 AM",
+          "2:00 AM"
+        ],
+        "narrative_roles": [
+          "ENTRY_WINDOW",
+          "SCENARIO_VALIDATION",
+          "MARKET_PHASE_INDICATION"
+        ],
+        "temporal_tags": [
+          "12:00 AM",
+          "2:00 AM"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "IPA"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PROFILE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "scenarios",
+          "profiles"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP",
+          "ENTRY_CRITERIA",
+          "EXPECTED_MARKET_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FLEXIBILITY AND MISSED TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3044",
+    "concepts": [
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "London open setups",
+          "very specific criteria and filters",
+          "two dominant forces that outline all of the best London open sessions"
+        ],
+        "narrative_roles": [
+          "TRADE_OPPORTUNITY",
+          "ENTRY_MODEL",
+          "STRATEGY_DEVELOPMENT",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London open",
+          "London open sessions"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "TIME_BASED_TRADING"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EMPOWERMENT AND REVIEW",
+      "source_file": "ICT Mentorship Core Content - Month 08 - Intraday Profiles_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,800 @@
+[
+  {
+    "chunk_id": "chunk_3820",
+    "concepts": [
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side liquidity",
+          "sell stops",
+          "resting below these relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET",
+          "STOP_LOSS_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NFP_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "Non-Farm Payroll (NFP)",
+          "NFP"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_EVENT",
+          "VOLATILITY_WARNING"
+        ],
+        "temporal_tags": [
+          "NFP"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "wicking down below this",
+          "rejection of these stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opposing buy side liquidity targets"
+        ],
+        "narrative_roles": [
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "daily volume imbalance"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY CHART ANALYSIS AND NON-FARM PAYROLL EXPECTATIONS",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3821",
+    "concepts": [
+      {
+        "canonical": "REFERENCE_TIMEZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "New York local time"
+        ],
+        "narrative_roles": [
+          "OPERATIONAL_SETUP",
+          "ANALYSIS_FOUNDATION"
+        ],
+        "temporal_tags": [
+          "NEW_YORK_LOCAL_TIME"
+        ],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      },
+      {
+        "canonical": "DATA_FIDELITY",
+        "confidence": 1,
+        "surface_terms": [
+          "real-time data",
+          "delayed data"
+        ],
+        "narrative_roles": [
+          "OPERATIONAL_SETUP",
+          "LIVE_TRADING_REQUIREMENT",
+          "ANALYSIS_INTEGRITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRACTICE_VS_LIVE_ENVIRONMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Market replay",
+          "live execution",
+          "live trading"
+        ],
+        "narrative_roles": [
+          "OPERATIONAL_GUIDANCE",
+          "LEARNING_METHODOLOGY",
+          "RISK_MANAGEMENT_IMPLICIT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART TIME ZONES AND REAL-TIME DATA IMPORTANCE",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3822",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "NFP REACTION",
+          "HIGH-IMPACT NEWS TRADING",
+          "NFP",
+          "unpredictability of employment numbers"
+        ],
+        "narrative_roles": [
+          "RISK_AVOIDANCE",
+          "PRICE_ACTION_STUDY"
+        ],
+        "temporal_tags": [
+          "NFP",
+          "8:30 AM",
+          "initial 30 minutes of NFP"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "avoiding high-impact news trading",
+          "not trading NFP live",
+          "managing stops",
+          "taking partials"
+        ],
+        "narrative_roles": [
+          "RISK_CONTROL",
+          "TRADE_EXECUTION",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_STUDY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "studying price action"
+        ],
+        "narrative_roles": [
+          "LEARNING_METHODOLOGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "failed to go below a key low",
+          "signaling a change in direction"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CHANGE",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "designated level",
+          "3814",
+          "3804",
+          "key low",
+          "calling levels",
+          "potential downside spike target"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "POINT_OF_INTEREST_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "price ran above the designated level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIAL_IMPACT_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "During NFP"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NFP REACTION AND AVOIDING HIGH-IMPACT NEWS TRADING",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3823",
+    "concepts": [
+      {
+        "canonical": "BIAS_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "REJECTING DOWNSIDE BIAS FOR UPSIDE",
+          "the trading bias needs to shift"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_ASSESSMENT",
+          "ADAPTIVE_STRATEGY",
+          "CHANGE_IN_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BISI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BISI",
+          "key level like a BISI"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_REFERENCE",
+          "DIRECTIONAL_THRESHOLD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL_REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market's rejection of the BISI (not getting through it)",
+          "When price rejects a key level like a BISI instead of breaking through"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "BIAS_FLIP_TRIGGER",
+          "DIRECTIONAL_SIGNAL",
+          "FAILURE_TO_CONTINUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "High-impact news drivers",
+          "NFP",
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "PRICE_DISTORTION_CAUSER",
+          "RISK_FACTOR"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_OVERREACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "cause price to overshoot anticipated areas"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SEEKING",
+          "VOLATILITY_EFFECT",
+          "DECEPTION_PLAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT_ADVICE",
+        "confidence": 1,
+        "surface_terms": [
+          "Trading NFP live is strongly discouraged",
+          "demo trading is recommended",
+          "understand its inherent risks"
+        ],
+        "narrative_roles": [
+          "TRADING_DISCIPLINE",
+          "RISK_MITIGATION",
+          "PRACTICE_RECOMMENDATION"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REJECTING DOWNSIDE BIAS FOR UPSIDE",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3824",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "refined BISI",
+          "small gap remaining open"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REBALANCE_AREA",
+          "DIRECTIONAL_BIAS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'short-term high' was taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops are in the crosshairs",
+          "targeting these relative equal highs",
+          "pools of liquidity (buy stops)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs",
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GENERATION",
+          "LIQUIDITY_POOL_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRIVEN_MARKET_PRINCIPLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market operates on liquidity",
+          "balanced rebalance"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_CONCEPT_INEFFICIENCY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Retail theory views these equal highs as resistance",
+          "ICT teaches to 'attack retail logic'"
+        ],
+        "narrative_roles": [
+          "CONTRA_RETAIL_THINKING",
+          "SMART_MONEY_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "after this shift",
+          "price trades above a short-term high"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_INDICATION",
+          "ENTRY_SETUP",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_OPEN_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midnight opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ENTRY_ZONE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "midnight"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish Power of Three expectation"
+        ],
+        "narrative_roles": [
+          "MACRO_FRAMEWORK",
+          "DIRECTIONAL_BIAS_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3825",
+    "concepts": [
+      {
+        "canonical": "MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "MIDNIGHT OPEN AS DAILY ANCHOR",
+          "midnight opening price",
+          "actual daily opening price"
+        ],
+        "narrative_roles": [
+          "ANCHOR_POINT",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish Power of Three",
+          "buying at or ideally below this midnight opening price",
+          "If price moves above the opening price and then retraces back near it, it can still be a buying opportunity"
+        ],
+        "narrative_roles": [
+          "MARKET_MODEL",
+          "ENTRY_STRATEGY",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "two down-closed candles forming a bullish order"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_LEVEL",
+          "LIQUIDITY_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TREND_REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "current dealing range (high to low)"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "external range liquidity",
+          "levels outside the current high and low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRIVER",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MIDNIGHT OPEN AS DAILY ANCHOR",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3826",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOLS",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY POOLS",
+          "specific short-term high",
+          "3876.25 level",
+          "3895",
+          "3896.25",
+          "3885",
+          "real, non-theoretical liquidity",
+          "pools of liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_TARGET",
+          "TRADE_SETUP",
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGETING_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "TARGETING LIQUIDITY POOLS",
+          "set the stage for a run higher",
+          "ran above the 3876.25 level",
+          "targeted 3895 for buy side",
+          "high-probability targets"
+        ],
+        "narrative_roles": [
+          "TRADE_TARGET",
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy side",
+          "buy stops",
+          "previous day's highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell stops",
+          "previous day's lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "10 contracts were taken off when price ran above the 3876.25 level"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTING THE TRADE AND TARGETING LIQUIDITY POOLS",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3827",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "The Power of Three sequence observed",
+          "accumulation (smart money buying below the open)",
+          "manipulation (NFP induced spike down then up)",
+          "distribution (sustained rally to targets)"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "BIAS_CONFIRMATION",
+          "TRADE_MANAGEMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "daily candle",
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "broken short-term high"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BISI"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "optimal time to exit trades near targets",
+          "pull back into its range around 3:00 PM (the last hour of trading) to form a wick at the top of the daily candle"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [
+          "3:00 PM",
+          "last hour of trading"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_CLOSE"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POWER OF THREE CONFIRMATION AND TRADE MANAGEMENT CONFIDENCE",
+      "source_file": "January 2023 NonFarm Payroll Review & HTF Concepts_Handbook.chunks.json"
+    }
+  }
+]

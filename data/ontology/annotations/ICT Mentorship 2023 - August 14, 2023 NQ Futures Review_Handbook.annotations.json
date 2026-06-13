@@ -1,0 +1,804 @@
+[
+  {
+    "chunk_id": "chunk_1619",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.75,
+        "surface_terms": [
+          "rejection on the low of Friday"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INITIATION"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "Overnight"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "A down close candle was identified as a Bullish Order Block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_ZONE",
+          "ACCUMULATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Premium Wick",
+          "consequent encroachment at its midpoint"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_ZONE",
+          "PRICE_REJECTION",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NQ FUTURES REVIEW",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1620",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MARKET STRUCTURE OVERVIEW",
+          "market structure",
+          "shift in Market Structure",
+          "market structure shift",
+          "without taking out the low",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TREND_IDENTIFICATION",
+          "REVERSAL_INDICATION",
+          "CONTINUATION_INDICATION",
+          "MULTI_TIME_FRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity resting above them",
+          "sell-side liquidity",
+          "buy-side",
+          "sell-side liquidity was visible"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "MARKET_MANIPULATION",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_HIGH_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "daily Bullish Order Block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in Market Structure",
+          "market structure shift",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell Side Imbalance Buy Side Inefficiency (SIBI)",
+          "SIBI",
+          "60-minute or hourly SIBI high",
+          "SIBI high",
+          "60-minute or hourly SIBI low",
+          "SIBI low",
+          "clear SIBI"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "PRICE_MAGNET",
+          "POTENTIAL_REVERSAL_POINT",
+          "ORDER_BLOCK_REFINEMENT",
+          "MULTI_TIME_FRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "sell-side liquidity was taken",
+          "buy-side was taken aggressively through these highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CLOSE_OF_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "close of the day"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "OBSERVATION"
+        ],
+        "temporal_tags": [
+          "close of the day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY AND 15-MINUTE MARKET STRUCTURE OVERVIEW",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1621",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "price traded down below it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CAPTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "An aggressive shift above highs"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "BULLISH_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gap",
+          "Breakaway Gap"
+        ],
+        "narrative_roles": [
+          "STRONG_MOMENTUM_INDICATION",
+          "PRICE_IMBALANCE",
+          "AREA_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "AREA_OF_INTEREST",
+          "REFERENCE_POINT_FOR_ALGORITHM"
+        ],
+        "temporal_tags": [
+          "FRIDAY",
+          "AUGUST_11_2023"
+        ],
+        "session_tags": [
+          "RTH"
+        ]
+      },
+      {
+        "canonical": "UNFILLED_GAP_PORTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "leaving a portion of the gap open"
+        ],
+        "narrative_roles": [
+          "AREA_OF_INTEREST",
+          "FUTURE_LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The algorithm refers to these gaps",
+          "they are not simply filled and forgotten"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "MARKET_EFFICIENCY_PURSUIT",
+          "ALGORITHMIC_REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_MITIGATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "candle bodies respecting the high of the gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "BUY_SIDE_LIQUIDITY",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "aggressively ran for the relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CAPTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "the drawn liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RTH ANALYSIS",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1622",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "5-minute FVG",
+          "top of that FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "RESISTANCE",
+          "RETEST"
+        ],
+        "temporal_tags": [
+          "2-minute chart",
+          "5-minute chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity",
+          "previously mentioned liquidity",
+          "Buy-side liquidity focus",
+          "Friday afternoon's trading at 15138",
+          "Sunday's highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PRICE_MAGNET",
+          "POTENTIAL_TARGET"
+        ],
+        "temporal_tags": [
+          "Friday afternoon",
+          "Sunday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "Relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGETING",
+          "CURRENT_FOCUS"
+        ],
+        "temporal_tags": [
+          "Monday morning",
+          "7 o'clock hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AND LIQUIDITY DRAW",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1623",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "5-MINUTE FAIR VALUE GAP",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SETUP_COMPONENT",
+          "PRICE_IMBALANCE",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMMEDIATE_REBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "IMMEDIATE REBALANCE",
+          "The 'Immediate Rebalance'"
+        ],
+        "narrative_roles": [
+          "SETUP_COMPONENT",
+          "HIGH_PROBABILITY_SIGNATURE",
+          "ENTRY_CONFIRMATION",
+          "PRICE_DELIVERY_IGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKAWAY_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Breakaway Gap"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "take the 15167 buy"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION_INDICATION",
+          "FUEL_FOR_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "correct bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADE_ALIGNMENT",
+          "SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "likely draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "DIRECTIONAL_PREDICTION_TOOL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the algorithm will aggressively spool price"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "MARKET_MECHANISM",
+          "EXPECTED_BEHAVIOR_OF_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_ALIGNMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "specific time of day indicative of volatility"
+        ],
+        "narrative_roles": [
+          "SETUP_FILTER",
+          "ENTRY_CONFIRMATION",
+          "VOLATILITY_EXPECTATION_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING WITH THE 5-MINUTE FAIR VALUE GAP AND IMMEDIATE REBALANCE",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1624",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inefficiency on the 5-minute chart",
+          "small gap at the bottom end of this 15-minute BISI",
+          "specific portion of inefficiency between a candlestick's high and another candlestick's low",
+          "small inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "ENTRY_CONDITION",
+          "SUPPORT",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "afternoon 'lunch macro'"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance Sell Side Inefficiency (BISI)",
+          "15-minute BISI",
+          "BISI on the 15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "REFERENCE_LEVEL",
+          "SUPPORT",
+          "REACTION_TO_LEVEL",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Opening Range Gap",
+          "Friday, August 11th Opening Range Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REFERENCE_LEVEL",
+          "REACTION_TO_LEVEL"
+        ],
+        "temporal_tags": [
+          "Friday, August 11th"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MULTI-TIMEFRAME INEFFICIENCY AND OPENING RANGE GAP AS SUPPORT",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1625",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SELL SIDE TAKEOUT",
+          "take out sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIATION_OF_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "GAPS",
+          "small gap",
+          "new gap",
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "LIQUIDITY_VOID",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INVERSION_FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "inversion fair value gap"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "TREND_CHANGE_SIGNAL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Bullish Order Block"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "15138 and 15167 buy-side liquidity",
+          "relative equal highs",
+          "run up into the buy-side"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "LIQUIDITY_POOL",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "dropped down to take sell"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INITIATION_OF_REVERSAL"
+        ],
+        "temporal_tags": [
+          "LUNCH_HOUR"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_IMBALANCE_SELL_SIDE_INEFFICIENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Imbalance Sell Side Inefficiency (BISI)",
+          "BISI low and high (blue levels)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART",
+      "source_file": "ICT Mentorship 2023 - August 14, 2023 NQ Futures Review_Handbook.chunks.json"
+    }
+  }
+]

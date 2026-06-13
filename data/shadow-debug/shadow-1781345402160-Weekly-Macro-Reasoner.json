@@ -1,0 +1,387 @@
+{
+  "timestamp": "2026-06-13T10:10:02.160Z",
+  "agentType": "Weekly-Macro-Reasoner",
+  "currentCallId": "Weekly-Macro-Reasoner-weekly-1",
+  "prompt": "\nYou are an ICT Weekly Macro Analyst.\n==================================================\nCALENDAR BIAS (PRIMARY ANCHOR)\n==================================================\n\n\nWeekly Bias:\nbearish\n\nConfidence:\n0.45\n\nBucket Scores:\n{\n  \"INFLATION\": 0,\n  \"LABOR\": -1,\n  \"GROWTH\": -1,\n  \"RATES\": 0\n}\n\nCurrency Scores:\n[\n  {\n    \"currency\": \"USD\",\n    \"bucket_scores\": {\n      \"INFLATION\": 0,\n      \"LABOR\": -1,\n      \"GROWTH\": 0,\n      \"RATES\": 0\n    },\n    \"confidence\": 0.5\n  },\n  {\n    \"currency\": \"EUR\",\n    \"bucket_scores\": {\n      \"INFLATION\": 0,\n      \"LABOR\": 0,\n      \"GROWTH\": 0,\n      \"RATES\": 0\n    },\n    \"confidence\": 0.3\n  },\n  {\n    \"currency\": \"GBP\",\n    \"bucket_scores\": {\n      \"INFLATION\": 0,\n      \"LABOR\": 0,\n      \"GROWTH\": -1,\n      \"RATES\": 0\n    },\n    \"confidence\": 0.1\n  }\n]\n\n\nThis bias is the primary directional anchor.\n\nRules:\n\n1. The calendar bias defines the directional regime.\n\n2. Retrieved ICT context must be interpreted through the calendar bias.\n\n3. You may:\n   - explain the bias\n   - refine the narrative\n   - identify tension\n   - reduce confidence\n\n4. You may NOT reverse the directional anchor.\n\n5. If ICT evidence conflicts with the calendar bias:\n   - keep the calendar bias\n   - explain the conflict\n   - express uncertainty\n\n6. Theme, narrative, delivery model and story arc must be consistent with the calendar bias.\n\n7. Use bucket_scores to identify\nthe macro drivers behind the bias.\n\n8. Use currency_scores to identify\nwhich currencies are structurally\nstrong or weak.\n\n9. Narratives should explain WHY\nthe bias exists using these drivers,\nnot merely repeat the direction.\n\nCalendar:\n{\"id\":\"forexfactory:ec7897e7c75a\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}\n{\"id\":\"forexfactory:20e43806b98e\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}\n{\"id\":\"forexfactory:5275e8ae06d1\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}\n{\"id\":\"forexfactory:f5d35e2df42c\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}\n{\"id\":\"forexfactory:0cbef99b3d47\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Main Refinancing Rate\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"}\n{\"id\":\"forexfactory:6a596f58c67b\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Monetary Policy Statement\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"}\n{\"id\":\"forexfactory:d176d7fa95eb\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Core PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"}\n{\"id\":\"forexfactory:b7103477c631\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"}\n{\"id\":\"forexfactory:d0773e9be938\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"ECB Press Conference\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:45:00.000Z\"}\n{\"id\":\"forexfactory:d5c5350d65d0\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"GDP m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-12T06:00:00.000Z\"}\n{\"id\":\"forexfactory:c44e93352039\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Unemployment Claims\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"}\n{\"id\":\"forexfactory:7e078d9978d5\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Consumer Sentiment\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"}\n{\"id\":\"forexfactory:a9b107bebdbd\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Inflation Expectations\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"}\n\nRetrieved ICT Context:\n[chunk_976] STAGE 1: PREPARATION\nFor Preparation, we're going to note all medium and high impact events for the markets that you're following. We're going to study the events on the week to come and consider how the current market structure and the calendar events may suggest a specific weekly profile for that week's range.\n\n[chunk_917] ECONOMIC CALENDAR AND WEEKLY PROFILE\nIn the preparation stage, we always refer to the economic calendar for the coming week. We note all medium and high-impact news events for the markets we intend to follow. We study the events on the week to come and consider how the current market structure and calendar events may suggest a specific weekly In the simplest way, we look for a collection out of the weekly templates that are bullish when we are anticipating the market to go higher. By comparing the bullish templates with the calendar, we can match up the likely weekly profile. For example, if a high-impact news event is centered on Tuesday London open, we look at the Tuesday low of the week weekly profile and/or the Wednesday low of the week weekly profile.\n\n[chunk_3799] DEVELOPING YOUR WEEKLY PROFILE\nOnce you have that determined, then you can focus on a weekly profile. Now if it's bullish, then you're expecting to have a weekly profile that's bullish. At the time this recording, you're world renowned for knowing and teaching how the weekly bias and weekly range is typically formed with the higher low formed generally by Tuesday's London Open, if not by Wednesday. So if you can focus on that seasonal tendency that's bullish or bearish, and you're looking for that quarterly shift that's in align with that seasonal tendency, and you have factored into what the monthly bias should be in concert with those two previous ideas, your weekly profile should be in alignment as well. So you're not trying to go against the underlying momentum, you're trying to get in sync with the institutional order flow.\n\n[chunk_2917] WEDNESDAY HIGH OF THE WEEK\nThis profile is generally bearish, indicating an expectation for lower prices. Price hovers below a higher time frame premium array on Monday and Tuesday. Then rises into that higher time frame premium array on Wednesday to form the high of the week. When the market fails to rise into that array on Tuesday, odds are Wednesday will likely see the drive This drive typically occurs during Wednesday's London open and/or New York session. Monday and Tuesday can be up days as well to form this profile. Similar to the Wednesday Low of the Week, the London open high on Wednesday can be run out on Wednesday's New York session and still create the high of the week. Have that in your notes.\n\n[chunk_512] CPI OUTLOOK AND 4180 OBJECTIVE MISS\nThe personal objective for the week was 4180, specifically between the candle's open and the high midpoint of its Wick. This level was mentioned on Twitter for the CPI outlook. Price came very close to 4180, falling one quarter point (one tick) short of reaching it today.\n\n[chunk_704] US DOLLAR ECONOMIC RELEASES\nAlright, the US Dollar, we're going to the North American market: Non-farm payroll (I avoid that, I do not touch it) You want to note these as well because all of your crosses with the dollar will be impacted by this as well.\n\n[chunk_4230] DISCLAIMER AND ECONOMIC CALENDAR OVERVIEW\nTake a look at this disclaimer, it's probably been showing for a few moments for you. Very important, this thing has given me a fit tonight, somebody doesn't want you hearing this. So, you know me, OCD. So, uh here is the economic calendar. Just real quick take a look at this, I'm not going to go through it and waste your time but everything here is important for tomorrow's trading. Cable Traders be mindful that 2 AM you have CPI number coming out so you could have a nice volatile London session there. And then we have FOMC minutes and Yellen speaking tomorrow, so it's a little bit of a wonky Wednesday. And on Thursday we have 8:30 News embargo lifting with preliminary GDP and unemployment claims and home sales at 10 o'clock on Thursday. And Friday we have Price Index and then durable goods and consumer sentiment at 10 o'clock so Friday will probably be very eventful as well.\n\n[chunk_3528] MARKET PROFILE\nMarket Profile is the next thing I can look at, and I start breaking down what the weekly looks like in terms of Market Profiling: is it in consolidation? Is it in a trending environment? Those types of things, and just like we did with the monthly, the same thing applies here on the weekly.\n\n[chunk_946] WEEKLY PROFILE & INSTITUTIONAL ORDER FLOW ENTRY\nWhen we are bullish, we will note the European open price on Tuesday (which could also be Monday or Wednesday, focusing on the weekly profile for the low to form between Monday and Wednesday's New York open). There is a 70% chance that Tuesday creates a low of the week when the market is bullish. Filter all longs at or below this European open price level, which must overlap with the 4-hour discount fair We will anticipate a 15-minute chart institutional order flow entry drill trade entry to form inside of a retracement lower during London open and/or New York open Kill Zones, or a sell stop raid. When we are bearish, we will note the European opening price on Monday, Tuesday, or Wednesday and filter all shorts at or above this price level, which must overlap in the 4-hour premium fair value gap. We will anticipate a 15-minute chart institutional order flow entry drill trade entry to form inside of a retracement higher during London open and/or New York open Kill Zones, or a standard buy stop raid.\n\n[chunk_4207] CPI/FOMC WEEK STRATEGY AND MARKET INTERVENTION\nThis week is littered with landmines. I teach my students if you have a week like this, you want to try to get yourself on Monday. Monday was a pretty good day. I'm looking for evidence to support a bias for the rest of the week, so it'll give me insight to see how they use this data. Manual intervention is where the quote-unquote 'powers that be,' you call them market makers, they are the folks in charge of how far these markets will go, when they'll move, and what price is going to be, period. It has nothing to do with your buying and selling pressure, all of our gimmicks, all of our Order Blocks, all of our supply and demand, harmonic patterns, none of that matters when they step in. They will literally reprice to another price level, and it doesn't matter what carnage is created from that. So that's the reason why I'm telling you that this type of market driver, CPI, is dangerous. You can't trust even my own concepts in front of a move like this because it can roll right over top of it. I have been very candid about how I get many times this very CPI number wrong. It's only very few times I've been able to publicly call it and be correct. So I want you to respect the measure of risk. Do not look at anything I'm saying today as a little nudge to say 'here, here's our secret little handshake, go take this trade.' Please don't do that. If you're right, it was luck, I promise you. On a day like today with CPI, if you make money, it's luck. That's the only time luck exists when it's a complete uncertainty and you just happen to be on the side that worked. I don't trade with luck, I don't rely on luck. It doesn't exist. You make the results, and skill set and experience dictate that.\n\n[chunk_477] NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES\nBecause of that, my eye was drawn to that, and the algorithm will refer to those types of price points. Before we get any further, I know some of you are chopping at the bit for Forex commentary and such. More or less, I'm just keeping your attention until we get to February 7th, as I mentioned we would be doing daily analysis on Euro Dollar, Pound Dollar, Dollar Index, in addition to obviously the NASDAQ futures and ES e-mini S&P futures. I'm not going to be doing anything more than that. I'm not a crypto trader, so I have no interest in commenting on crypto. So I apologize if you've been waiting around for that. I don't really I teach that my students should be only focusing on Monday, Tuesday, and Wednesday up to New York Non-Farm Payroll is typically the first week of every month, and on that Friday, employment numbers On Thursday and Friday of that week, it tends to be a little choppy, a little less likely to be as precise as The same thing occurs usually after New York session on Wednesday. Any position overnight from Tuesday into Wednesday, long and open, that would be favorable, but we usually try to square positions.\n\n[chunk_4017] MARKET OPENING UNCERTAINTY AND CPI IMPACT\nI do not know where the market opens on Sunday; no one does. That's a complete mystery, so we all have to wait and see how the market itself starts its week. Whatever that new opening price is on Sunday, that's when we have the data to start working with. Right now, we have no idea where it's going to open. I have to record my observations, both premium and discount. I cannot frame a narrative now. I'm going to share with you what I think might happen this week; don't read that much into it because it's before Hopefully, I'm inspiring you to look at both sides of premium and discount, and then we'll re-open up, 'What do we gravitate towards?' And then, obviously, keeping our expectations low on Monday because the CPI number that comes out on Tuesday, that's the real carnage, that's the move that's going to do a lot of the I've been wrong a lot with CPI when I try to forecast what they're going to do beforehand. That's why I don't trade ahead of it, because if I had a method to trust what it was going to do beforehand, look how fast it moves. It's typically moving anywhere between 50 to 100 plus handles when it's released. So when the market absorbs that CPI data, it's just like, 'Wow,' it goes and just immediately rips, and you don't want to be on the wrong side. So do not try to trade ahead of CPI; it will hurt you.\n\n[chunk_1887] EURO WEEKLY\nSo everything I just mentioned with the dollar early on, just apply that to this in terms of expectations, but just reverse it in terms of the direction because I'm expecting higher dollar. I'm not expecting lower dollar. I'm not calling a top in the Dollar Index. With all the things going on around the world, there's absolutely zero reason to anticipate or expect a high in the dollar to be formed, period.\n\n[chunk_3540] COMPREHENSIVE WEEKLY BIAS SUMMARY\nAnd we end with a weekly bias. So after I refer to Relative Strength for leaders and laggards, I go into Commitment of Traders. I look for the buying and selling based on their standard zero line, are they above or below the zero line? And then I break it down into my hedging program concept where we can look at the last 12 months and look at the highest high and lowest low of just their net holdings and disregard the zero line that everybody else uses for net Trader position graphs. And then split that in half, and above it would be buying and below it will be selling. I've done a teaching about that, and you guys can refer back to that as well if you have any more questions about after we get through this month's content, obviously we have plenty of time to go over that. Then I determine the market sentiment based on those three principal approaches. And then I confirm my analysis with Market Correlation, so either USDX SMT or correlated pair SMT, and or, like for instance, like dollar to commodities, you know, dollar going down, commodities going higher, those types of things. I'm looking for that to occur on the weekly chart. And I select a portion of Market Structure to frame a trade within, and then I defined the PD arrays to arrive at key levels within that range on the weekly chart. And by that time, I will have arrived in a directional biased analysis and a weekly time frame that gets transposed over to the Daily.\n\n[chunk_2968] CONSOLIDATION DESTROY BEARISH FRIDAY (LOW PROBABILITY)\nAgain, this is a neutral, low probability profile and market manipulation template, for observation rather than The market creates consolidation from Monday through Wednesday, building a liquidity pool of buy stops On Thursday, the market is anticipated to be taken up to this level, taking out the buy stops. A high or medium impact news event (e.g., FOMC or employment numbers) is usually the catalyst. After the buy stop raid, the market will run the intra-week sell stops and ultimately target a liquidity run to The purpose of observing this is to identify when the market unfolds into a higher time frame PD array When this occurs, a potential reversal is expected.\n\n[chunk_3665] WEEKLY OUTLOOK AND TRADING STRATEGY\nThat's what we're looking at going ahead for the week. I'm continuously looking for reasons to allow bullishness on my buy side for index Futures but being aware that obviously we can gap opening on the week and change everything. So we don't trade on Sundays. We prefer to see what the opening is going to be at 9:30 on Mondays, so that way the traders can digest and build their sentiment ideas, build their liquidity pools based on their positions ahead of 9:30 opening and then we'll see who they punish next. Hope you found this insightful, until next time be safe.\n\n[chunk_4023] SELL SIDE IMBALANCE, BUY SIDE INEFFICIENCY (SIBI) EXPLAINED\nBecause I see this, and this is what you want to write down in your notes too, be very careful about what I'm about to say because I'm giving my opinion, and it's before Sunday's gap, before Sunday's opening. I don't know if there's going to be a gap; it can open relatively unchanged, and that would be expected frankly because CPI is on Tuesday, and the market's going to be not terribly interested in doing a whole lot before that because that's the main event, that's the big ticket event for this week. CPI, everybody knows that's been trading, that CPI is that tornado, it's that tsunami, it's the weapon of mass destruction, where the market just simply gets destroyed immediately, and anyone that's on the wrong side of the marketplace will get hurt. So because I'm expecting that carnage on Tuesday like every other trader is, Monday's trading probably will not be all that eventful. I could be wrong, but I don't suspect that there's going to be a whole lot of movement ahead of CPI. Can you trade on Monday? I believe you can, but I don't want you to think massive big range unless they start shooting down all kinds of foo fighters, and then you know it's all over the news that it's probably going to cause all kinds of weird stuff to happen then. But if we're expecting lower prices, the best signature on Sunday's opening would be a gap lower opening and then a rally back up into it overnight or into Monday morning, and then does it show a willingness to want to go lower?\n\n[chunk_4026] OVERALL MARKET BIAS AND UNPREDICTABILITY\nI do believe that CPI is going to be probably an instigation to a higher dollar and a lower factor for like index futures, stocks, and Forex. That's my opinion right now. That can absolutely change based on what we do on Sunday's opening. We could see something happen between now and Sunday's opening that causes a geopolitical wartime response, and everything that is said is completely undermined, which would mean nothing because I'm not trading on Sunday. So these are all things that you need to be aware of, and some of you are coming into this thinking that you need to know and you must know, otherwise you don't know what you're doing or I or anyone else doesn't know what they're doing if we can't predict the opening price on Sunday. No one can do that. So stop placing that emphasis on you as a student learning how to do this because the markets are not going to be consistent in that regard. You have no idea where they're going to open, just as well as I don't know where they're going to open it up at six o'clock every weekday when we have that one hour close between 5 PM New York local time when the index futures stock trading, and when they reopen at six o'clock, I have no idea what price they're going to open up at. Now I can teach you as you'll learn how they're likely to gap it lower or gap it higher, but I don't know what price they're going to open it up at. And I don't know what the immediate response is going to be when they open it because it could be open with a gap lower and then run away real quick and leave the gap opening for a day. There's nothing saying that it has to reprice back up to that gap and fill it immediately. But some of you are thinking simply because there's a gap, 'Oh, it's immediately, let's go right there!' That's not how it works either.\n\n[chunk_552] NEWS EVENT IMPACT AND TECHNICAL LEVELS\nThe market trades up in that volume imbalance, consolidates, hits the order block (remember the 15 minute time frame), and then drops. Rallies one more time and fails, then strong rejection lower. So what was going on here at 8:30 right there when it rallied from here up to here? That was that employment number that came out, employment claims at 8:30. Look at your economic calendar, okay? It trades up into some random high. Not so random when you're spending time with good old ICT. That volume imbalance right there. So I was watching that, and I want to see this price hold at that level and then reject, and then have difficulty at the order block. That was at 15 minutes. I talked about this on Twitter this morning.\n\n[chunk_602] POST-CPI MICRO ANALYSIS\nEfficiency, meaning that this is as far as you would want to see it, really, really deep retracement inside up. And again for the yahoos that are here listening, oh he's getting it wrong. No, I said it would need to go above the consequent encroachment for me to be bullish and we need to do so with speed and distance and time. It ain't 9:30, bell hasn't rang yet, so this is all pre-session, building a narrative, what would be likely to see price do. Just because you're in front of the chart doesn't mean it's time to enter. So far this looks like it was a run on that 41.70. I'm just watching that dollar. Market's not really giving me any kind of help either, so just sitting still. This is a good day for a lot of people to lose money trying to do something. But I would, when I was a younger guy, when I first started and I discovered the non-farm payroll was a thing that repeated every month, I couldn't wait, I couldn't wait. Not that this is non-farm payroll, but the volatility that this type of event brings in. There's a lot of movement in price action. You start thinking yourself that's the day I want to trade, and every other day we don't want to trade, when that's not true. You want to trade every other day and not trade those days because those days are the ones that most likely are going to hurt you. But because they move around a lot, you think that that's what you want to be a participant in. And you can get hurt really, really easy in these days.\n\n==================================================\nOBJECTIVE\n=========\n\nAnalyze the Calendar Bias together with the Retrieved ICT Context.\n\nThe Calendar Bias is authoritative.\n\nRetrieved ICT Context is explanatory evidence.\n\nThe objective is not to determine direction.\n\nThe objective is to explain and structure the direction already established by Calendar Bias.\n\nIdentify recurring ICT weekly delivery patterns supported by the retrieved evidence.\n\nProduce:\n\n1. dominant_theme\n2. dominant_narrative\n3. weekly_delivery_model\n4. weekly_story_arc\n\nAll conclusions must be supported by retrieved ICT evidence.\n\nDo not fabricate ICT concepts.\n\n==================================================\nDAY MAPPING RULES\n=================\n\n* Use the provided day field.\n* Never infer weekdays.\n* Never move events to another day.\n* supporting_event_ids must belong to the same day as the story arc node.\n* If an event belongs to another day, do not use it.\n\n==================================================\nSTORY ARC RULES\n===============\n\nEach weekly_story_arc node represents the role of a day within the weekly delivery pattern.\n\nThe role must:\n\n* Be grounded in retrieved ICT evidence.\n* Be supported by one or more supporting_chunks.\n* Represent a recurring ICT delivery concept.\n* Be reusable across multiple weeks.\n* Be concise.\n* Not be a sentence.\n* Not be a market commentary.\n* Not be a macro-economic summary.\n\n==================================================\nROLE FORMAT RULES\n=================\n\nA role should resemble a profile label or profile title.\n\nA valid role typically:\n\n* contains between 1 and 8 words\n* is concise\n* is reusable\n* represents a recurring delivery pattern\n\nInvalid roles:\n\n* complete sentences\n* explanatory phrases\n* narrative descriptions\n* event summaries\n\nAsk yourself:\n\nWould this work as the title of an ICT profile?\n\nIf NO:\n\nreturn \"INSUFFICIENT_EVIDENCE\".\n\nMinor normalization is allowed.\n\nDo not invent terminology that is unsupported by evidence.\n\n==================================================\nTHEME RULES\n===========\n\ndominant_theme represents the dominant recurring ICT weekly profile.\n\nA theme should describe:\n\n* the overall weekly structure\n* the dominant weekly profile\n* the recurring delivery pattern\n\nA theme should not simply summarize:\n\n* inflation\n* labor market data\n* GDP data\n* central bank commentary\n* economic outlook\n\nunless no ICT profile evidence exists.\n\nIf no ICT profile evidence exists:\n\nreturn \"INSUFFICIENT_EVIDENCE\".\n\n==================================================\nNARRATIVE RULES\n===============\n\ndominant_narrative explains how the week is expected to unfold.\n\nNarratives may:\n\n* synthesize multiple supported concepts\n* describe sequencing\n* describe progression\n* describe transitions\n* describe weekly development\n\nNarratives must remain grounded in retrieved evidence.\n\nNarratives may be descriptive.\n\nRoles may not.\n\n==================================================\nDELIVERY MODEL RULES\n====================\n\nweekly_delivery_model represents the recurring weekly structure implied by the evidence.\n\nIt must be derived from:\n\n* weekly_story_arc\n* supporting_chunks\n* retrieved ICT context\n\nIf weekly_story_arc contains grounded ICT concepts:\n\nweekly_delivery_model must not be \"INSUFFICIENT_EVIDENCE\".\n\nThe delivery model should summarize the overall structure represented by the story arc.\n\nThe delivery model may synthesize multiple supported concepts.\n\nThe delivery model should not be a macro-economic headline.\n\n==================================================\nEVIDENCE RULES\n==============\n\n* Use supporting_event_ids when referencing events.\n* Do not use event titles as identifiers.\n* supporting_event_ids must only contain ids from Calendar.\n* supporting_chunks must only contain retrieved chunk ids.\n* Every story arc node should have evidence support.\n* Do not fabricate evidence.\n* Do not fabricate chunk ids.\n\n==================================================\nOUTPUT RULES\n============\n\nIf evidence is insufficient:\n\nreturn \"INSUFFICIENT_EVIDENCE\".\n\nReturn JSON only.\n\n{\n\"uncertainty_pressure\": 0.0,\n\"volatility_pressure\": 0.0,\n\"directional_pressure\": 0.0,\n\"repricing_severity\": 0.0,\n\n\"dominant_theme\": \"\",\n\"dominant_narrative\": \"\",\n\n\"expected_weekly_high_day\": \"\",\n\"expected_weekly_low_day\": \"\",\n\"expected_expansion_day\": \"\",\n\n\"weekly_delivery_model\": \"\",\n\n\"weekly_story_arc\": [\n{\n\"day\": \"\",\n\"role\": \"\",\n\"supporting_event_ids\": [],\n\"supporting_events\": [],\n\"supporting_chunks\": [],\n\"confidence\": 0.0\n}\n],\n\n\"supporting_chunks\": []\n}\n",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 10:09:58 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"uncertainty_pressure\": 0.6,\n  \"volatility_pressure\": 0.9,\n  \"directional_pressure\": 0.8,\n  \"repricing_severity\": 0.8,\n  \"dominant_theme\": \"CPI-Driven Weekly High & Bearish Expansion\",\n  \"dominant_narrative\": \"The week is anticipated to unfold with an initial setup into the high-impact CPI data on Wednesday, which is expected to act as the primary catalyst for the weekly high. This aligns with the 'Wednesday High of the Week' profile, where price may hover or even move higher on preceding days before reversing into a premium array during Wednesday's London or New York session. Following this CPI-driven reversal, the market is expected to experience bearish expansion, potentially reinforced by ECB decisions, US PPI, and UK GDP data, particularly given concerns over labor and growth reflected in the bias. The week could see subsequent consolidation or a continued push to target lower liquidity levels, though Thursday and Friday may exhibit choppiness.\",\n  \"expected_weekly_high_day\": \"Wednesday\",\n  \"expected_weekly_low_day\": null,\n  \"expected_expansion_day\": \"Wednesday\",\n  \"weekly_delivery_model\": \"Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.\",\n  \"weekly_story_arc\": [\n    {\n      \"day\": \"Wednesday\",\n      \"role\": \"CPI Catalyst & Weekly High Formation\",\n      \"supporting_event_ids\": [\n        \"forexfactory:ec7897e7c75a\",\n        \"forexfactory:20e43806b98e\",\n        \"forexfactory:5275e8ae06d1\",\n        \"forexfactory:f5d35e2df42c\"\n      ],\n      \"supporting_events\": [\n        {\"id\":\"forexfactory:ec7897e7c75a\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},\n        {\"id\":\"forexfactory:20e43806b98e\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"Core CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},\n        {\"id\":\"forexfactory:5275e8ae06d1\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"},\n        {\"id\":\"forexfactory:f5d35e2df42c\",\"day\":\"Wednesday\",\"market_date\":\"2026-06-10\",\"market_timezone\":\"America/New_York\",\"title\":\"CPI y/y\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-10T12:30:00.000Z\"}\n      ],\n      \"supporting_chunks\": [\n        \"chunk_2917\",\n        \"chunk_4207\",\n        \"chunk_4017\",\n        \"chunk_4023\",\n        \"chunk_4026\",\n        \"chunk_602\"\n      ],\n      \"confidence\": 0.8\n    },\n    {\n      \"day\": \"Thursday\",\n      \"role\": \"Bearish Continuation & Data Confirmation\",\n      \"supporting_event_ids\": [\n        \"forexfactory:0cbef99b3d47\",\n        \"forexfactory:6a596f58c67b\",\n        \"forexfactory:d176d7fa95eb\",\n        \"forexfactory:b7103477c631\",\n        \"forexfactory:d0773e9be938\",\n        \"forexfactory:c44e93352039\"\n      ],\n      \"supporting_events\": [\n        {\"id\":\"forexfactory:0cbef99b3d47\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Main Refinancing Rate\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},\n        {\"id\":\"forexfactory:6a596f58c67b\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Monetary Policy Statement\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:15:00.000Z\"},\n        {\"id\":\"forexfactory:d176d7fa95eb\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Core PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},\n        {\"id\":\"forexfactory:b7103477c631\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"PPI m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:30:00.000Z\"},\n        {\"id\":\"forexfactory:d0773e9be938\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"ECB Press Conference\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-11T12:45:00:000Z\"},\n        {\"id\":\"forexfactory:c44e93352039\",\"day\":\"Thursday\",\"market_date\":\"2026-06-11\",\"market_timezone\":\"America/New_York\",\"title\":\"Unemployment Claims\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-11T12:30:00:000Z\"}\n      ],\n      \"supporting_chunks\": [\n        \"chunk_477\",\n        \"chunk_1887\"\n      ],\n      \"confidence\": 0.6\n    },\n    {\n      \"day\": \"Friday\",\n      \"role\": \"Liquidity Seeking & Weakness Targeting\",\n      \"supporting_event_ids\": [\n        \"forexfactory:d5c5350d65d0\",\n        \"forexfactory:7e078d9978d5\",\n        \"forexfactory:a9b107bebdbd\"\n      ],\n      \"supporting_events\": [\n        {\"id\":\"forexfactory:d5c5350d65d0\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"GDP m/m\",\"impact\":\"HIGH\",\"scheduled_time\":\"2026-06-12T06:00:00.000Z\"},\n        {\"id\":\"forexfactory:7e078d9978d5\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Consumer Sentiment\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"},\n        {\"id\":\"forexfactory:a9b107bebdbd\",\"day\":\"Friday\",\"market_date\":\"2026-06-12\",\"market_timezone\":\"America/New_York\",\"title\":\"Prelim UoM Inflation Expectations\",\"impact\":\"MEDIUM\",\"scheduled_time\":\"2026-06-12T14:00:00.000Z\"}\n      ],\n      \"supporting_chunks\": [\n        \"chunk_2968\",\n        \"chunk_477\"\n      ],\n      \"confidence\": 0.5\n    }\n  ],\n  \"supporting_chunks\": [\n    \"chunk_976\",\n    \"chunk_917\",\n    \"chunk_3799\",\n    \"chunk_2917\",\n    \"chunk_512\",\n    \"chunk_704\",\n    \"chunk_4230\",\n    \"chunk_3528\",\n    \"chunk_946\",\n    \"chunk_4207\",\n    \"chunk_477\",\n    \"chunk_4017\",\n    \"chunk_1887\",\n    \"chunk_3540\",\n    \"chunk_2968\",\n    \"chunk_3665\",\n    \"chunk_4023\",\n    \"chunk_4026\",\n    \"chunk_552\",\n    \"chunk_602\"\n  ]\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.8951438621238426
+        }
+      ],
+      "createTime": "2026-06-13T10:09:26.829003Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "ViwtasvMMtTgqMgPsKbGsAU",
+      "usageMetadata": {
+        "promptTokenCount": 7138,
+        "candidatesTokenCount": 2268,
+        "totalTokenCount": 14415,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7138
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2268
+          }
+        ],
+        "thoughtsTokenCount": 5009
+      }
+    },
+    "parsed": {
+      "uncertainty_pressure": 0.6,
+      "volatility_pressure": 0.9,
+      "directional_pressure": 0.8,
+      "repricing_severity": 0.8,
+      "dominant_theme": "CPI-Driven Weekly High & Bearish Expansion",
+      "dominant_narrative": "The week is anticipated to unfold with an initial setup into the high-impact CPI data on Wednesday, which is expected to act as the primary catalyst for the weekly high. This aligns with the 'Wednesday High of the Week' profile, where price may hover or even move higher on preceding days before reversing into a premium array during Wednesday's London or New York session. Following this CPI-driven reversal, the market is expected to experience bearish expansion, potentially reinforced by ECB decisions, US PPI, and UK GDP data, particularly given concerns over labor and growth reflected in the bias. The week could see subsequent consolidation or a continued push to target lower liquidity levels, though Thursday and Friday may exhibit choppiness.",
+      "expected_weekly_high_day": "Wednesday",
+      "expected_weekly_low_day": null,
+      "expected_expansion_day": "Wednesday",
+      "weekly_delivery_model": "Initial probe/consolidation into Wednesday's high-impact CPI, followed by a bearish reversal and subsequent expansion throughout the latter half of the week, targeting lower liquidity.",
+      "weekly_story_arc": [
+        {
+          "day": "Wednesday",
+          "role": "CPI Catalyst & Weekly High Formation",
+          "supporting_event_ids": [
+            "forexfactory:ec7897e7c75a",
+            "forexfactory:20e43806b98e",
+            "forexfactory:5275e8ae06d1",
+            "forexfactory:f5d35e2df42c"
+          ],
+          "supporting_events": [
+            {
+              "id": "forexfactory:ec7897e7c75a",
+              "day": "Wednesday",
+              "market_date": "2026-06-10",
+              "market_timezone": "America/New_York",
+              "title": "Core CPI m/m",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-10T12:30:00.000Z"
+            },
+            {
+              "id": "forexfactory:20e43806b98e",
+              "day": "Wednesday",
+              "market_date": "2026-06-10",
+              "market_timezone": "America/New_York",
+              "title": "Core CPI y/y",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-10T12:30:00.000Z"
+            },
+            {
+              "id": "forexfactory:5275e8ae06d1",
+              "day": "Wednesday",
+              "market_date": "2026-06-10",
+              "market_timezone": "America/New_York",
+              "title": "CPI m/m",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-10T12:30:00.000Z"
+            },
+            {
+              "id": "forexfactory:f5d35e2df42c",
+              "day": "Wednesday",
+              "market_date": "2026-06-10",
+              "market_timezone": "America/New_York",
+              "title": "CPI y/y",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-10T12:30:00.000Z"
+            }
+          ],
+          "supporting_chunks": [
+            "chunk_2917",
+            "chunk_4207",
+            "chunk_4017",
+            "chunk_4023",
+            "chunk_4026",
+            "chunk_602"
+          ],
+          "confidence": 0.8
+        },
+        {
+          "day": "Thursday",
+          "role": "Bearish Continuation & Data Confirmation",
+          "supporting_event_ids": [
+            "forexfactory:0cbef99b3d47",
+            "forexfactory:6a596f58c67b",
+            "forexfactory:d176d7fa95eb",
+            "forexfactory:b7103477c631",
+            "forexfactory:d0773e9be938",
+            "forexfactory:c44e93352039"
+          ],
+          "supporting_events": [
+            {
+              "id": "forexfactory:0cbef99b3d47",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "Main Refinancing Rate",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-11T12:15:00.000Z"
+            },
+            {
+              "id": "forexfactory:6a596f58c67b",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "Monetary Policy Statement",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-11T12:15:00.000Z"
+            },
+            {
+              "id": "forexfactory:d176d7fa95eb",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "Core PPI m/m",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-11T12:30:00.000Z"
+            },
+            {
+              "id": "forexfactory:b7103477c631",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "PPI m/m",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-11T12:30:00.000Z"
+            },
+            {
+              "id": "forexfactory:d0773e9be938",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "ECB Press Conference",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-11T12:45:00:000Z"
+            },
+            {
+              "id": "forexfactory:c44e93352039",
+              "day": "Thursday",
+              "market_date": "2026-06-11",
+              "market_timezone": "America/New_York",
+              "title": "Unemployment Claims",
+              "impact": "MEDIUM",
+              "scheduled_time": "2026-06-11T12:30:00:000Z"
+            }
+          ],
+          "supporting_chunks": [
+            "chunk_477",
+            "chunk_1887"
+          ],
+          "confidence": 0.6
+        },
+        {
+          "day": "Friday",
+          "role": "Liquidity Seeking & Weakness Targeting",
+          "supporting_event_ids": [
+            "forexfactory:d5c5350d65d0",
+            "forexfactory:7e078d9978d5",
+            "forexfactory:a9b107bebdbd"
+          ],
+          "supporting_events": [
+            {
+              "id": "forexfactory:d5c5350d65d0",
+              "day": "Friday",
+              "market_date": "2026-06-12",
+              "market_timezone": "America/New_York",
+              "title": "GDP m/m",
+              "impact": "HIGH",
+              "scheduled_time": "2026-06-12T06:00:00.000Z"
+            },
+            {
+              "id": "forexfactory:7e078d9978d5",
+              "day": "Friday",
+              "market_date": "2026-06-12",
+              "market_timezone": "America/New_York",
+              "title": "Prelim UoM Consumer Sentiment",
+              "impact": "MEDIUM",
+              "scheduled_time": "2026-06-12T14:00:00.000Z"
+            },
+            {
+              "id": "forexfactory:a9b107bebdbd",
+              "day": "Friday",
+              "market_date": "2026-06-12",
+              "market_timezone": "America/New_York",
+              "title": "Prelim UoM Inflation Expectations",
+              "impact": "MEDIUM",
+              "scheduled_time": "2026-06-12T14:00:00.000Z"
+            }
+          ],
+          "supporting_chunks": [
+            "chunk_2968",
+            "chunk_477"
+          ],
+          "confidence": 0.5
+        }
+      ],
+      "supporting_chunks": [
+        "chunk_976",
+        "chunk_917",
+        "chunk_3799",
+        "chunk_2917",
+        "chunk_512",
+        "chunk_704",
+        "chunk_4230",
+        "chunk_3528",
+        "chunk_946",
+        "chunk_4207",
+        "chunk_477",
+        "chunk_4017",
+        "chunk_1887",
+        "chunk_3540",
+        "chunk_2968",
+        "chunk_3665",
+        "chunk_4023",
+        "chunk_4026",
+        "chunk_552",
+        "chunk_602"
+      ]
+    },
+    "latency": 38840.310900000004,
+    "telemetry": {
+      "promptTokens": 7138,
+      "completionTokens": 2268,
+      "totalTokens": 14415
+    }
+  },
+  "openrouter": {
+    "modelUsed": "openrouter/auto",
+    "success": true,
+    "parsed": {
+      "uncertainty_pressure": 0.45,
+      "volatility_pressure": 0.6,
+      "directional_pressure": -0.45,
+      "repricing_severity": 0.5,
+      "dominant_theme": "Wednesday High of the Week",
+      "dominant_narrative": "The week is expected to see price move higher into a premium array on Wednesday to form the high of the week, following a bearish bias. This drive typically occurs during Wednesday's London open and/or New York session. Monday and Tuesday may also see upward movement to set up this profile. The high impact CPI data on Wednesday is a significant driver that could lead to repricing and volatility, potentially creating the weekly high.",
+      "expected_weekly_high_day": "Wednesday",
+      "expected_weekly_low_day": "Friday",
+      "expected_expansion_day": "Thursday",
+      "weekly_delivery_model": "The week's structure is anticipated to be bearish, with price potentially reaching a premium array on Wednesday to establish the weekly high. This is preceded by potential upward movement on Monday and Tuesday. Thursday may see expansion as price reacts to economic data, and Friday could see a move lower to establish the weekly low.",
+      "weekly_story_arc": [
+        {
+          "day": "Wednesday",
+          "role": "Wednesday High of the Week",
+          "supporting_event_ids": [
+            "forexfactory:5275e8ae06d1",
+            "forexfactory:f5d35e2df42c",
+            "forexfactory:f5d35e2df42c",
+            "forexfactory:0cbef99b3d47",
+            "forexfactory:6a596f58c67b",
+            "forexfactory:d0773e9be938"
+          ],
+          "supporting_events": [
+            "CPI m/m",
+            "CPI y/y",
+            "CPI y/y",
+            "Main Refinancing Rate",
+            "Monetary Policy Statement",
+            "ECB Press Conference"
+          ],
+          "supporting_chunks": [
+            "chunk_2917",
+            "chunk_4017",
+            "chunk_4230",
+            "chunk_4207"
+          ],
+          "confidence": 0.7
+        },
+        {
+          "day": "Thursday",
+          "role": "Expansion and Reaction",
+          "supporting_event_ids": [
+            "forexfactory:d176d7fa95eb",
+            "forexfactory:b7103477c631",
+            "forexfactory:c44e93352039"
+          ],
+          "supporting_events": [
+            "Core PPI m/m",
+            "PPI m/m",
+            "Unemployment Claims"
+          ],
+          "supporting_chunks": [
+            "chunk_4230",
+            "chunk_552"
+          ],
+          "confidence": 0.6
+        },
+        {
+          "day": "Friday",
+          "role": "Potential Weekly Low Formation",
+          "supporting_event_ids": [
+            "forexfactory:d5c5350d65d0",
+            "forexfactory:7e078d9978d5",
+            "forexfactory:a9b107bebdbd"
+          ],
+          "supporting_events": [
+            "GDP m/m",
+            "Prelim UoM Consumer Sentiment",
+            "Prelim UoM Inflation Expectations"
+          ],
+          "supporting_chunks": [
+            "chunk_3665",
+            "chunk_4023"
+          ],
+          "confidence": 0.4
+        }
+      ],
+      "supporting_chunks": [
+        "chunk_976",
+        "chunk_917",
+        "chunk_3799",
+        "chunk_2917",
+        "chunk_512",
+        "chunk_704",
+        "chunk_4230",
+        "chunk_3528",
+        "chunk_946",
+        "chunk_4207",
+        "chunk_477",
+        "chunk_4017",
+        "chunk_1887",
+        "chunk_3540",
+        "chunk_2968",
+        "chunk_3665",
+        "chunk_4023",
+        "chunk_4026",
+        "chunk_552",
+        "chunk_602"
+      ]
+    },
+    "latency": 5049.612999999998,
+    "telemetry": {
+      "promptTokens": 7137,
+      "completionTokens": 1110,
+      "totalTokens": 8247
+    },
+    "estimatedCost": 0.009356999999999999
+  }
+}

@@ -1,0 +1,875 @@
+[
+  {
+    "chunk_id": "chunk_666",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH DAILY BIAS",
+          "daily bias",
+          "bullish scenario",
+          "bullish stage",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TREND_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high",
+          "a candle that has a lower high to the left of it and then a lower high to the right of it"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_COMPONENT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high to form and to be broken",
+          "traded through"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION_SIGNAL",
+          "TREND_CONFIRMATION",
+          "STRUCTURAL_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IMPLEMENTING BULLISH DAILY BIAS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_667",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BULLISH DAILY BIAS"
+        ],
+        "narrative_roles": [
+          "BIAS_SETTING"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broken swing high",
+          "a high is broken",
+          "breaking a short-term high"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low",
+          "A swing low"
+        ],
+        "narrative_roles": [
+          "PATTERN_IDENTIFICATION",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "probable optimal trade entry scenario"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "62 percent retracing level",
+          "a retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH DAILY BIAS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_668",
+    "concepts": [
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "EMPLOYING BEARISH DAILY BIAS",
+          "daily bias for a bearish scenario",
+          "bearish scenario"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low",
+          "daily candle that has a higher low to the left of it and a higher low to the right of it"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "LIQUIDITY_REFERENCE",
+          "PRECURSOR_TO_MSS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low to be broken",
+          "price trades through this",
+          "this break in market structure",
+          "bearish market condition",
+          "sell scenario"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EMPLOYING BEARISH DAILY BIAS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_669",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH DAILY BIAS"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "daily swing high",
+          "The third candle that makes the swing high",
+          "swing high"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFIER",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low to be violated",
+          "swing low that has broken a previous swing low",
+          "swing low broken",
+          "market trade to a new low"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "CONTINUATION_SETUP"
+        ],
+        "temporal_tags": [
+          "next trading day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "retracement",
+          "net three-quarter back retracement",
+          "it retraces but will not break a swing high"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_PHASE",
+          "PULLBACK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "62 to 70.5 to 79 percent",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "HIGH_PROBABILITY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH DAILY BIAS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_670",
+    "concepts": [
+      {
+        "canonical": "BEARISH_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH DAILY BIAS",
+          "remains the bias"
+        ],
+        "narrative_roles": [
+          "MACRO_CONTEXT",
+          "DIRECTIONAL_PREFERENCE"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily swing high",
+          "swing high",
+          "recent swing high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT_IDENTIFICATION",
+          "BIAS_INITIATION",
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_FORMATION_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "third candle forms at its close",
+          "third daily candle in the swing high"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "ENTRY_SETUP_CRITERIA"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing low forms",
+          "new daily swing low"
+        ],
+        "narrative_roles": [
+          "BIAS_INVALIDATION",
+          "TARGET_LEVEL",
+          "REVERSAL_POINT_IDENTIFICATION",
+          "MARKET_STRUCTURE_ELEMENT"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "previous day's low to be rated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_SUPPORT_RESISTANCE_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "key support-resistance level"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "BIAS_INVALIDATION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOWER_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high to form, but it does not break a recent swing high"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_CONFIRMATION",
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "BEARISH_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "LIQUIDITY_POOL",
+          "BIAS_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH DAILY BIAS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_671",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "25 pips",
+          "50 pips per week",
+          "50 to 75 pips per week",
+          "entire weekly objective"
+        ],
+        "narrative_roles": [
+          "GOAL_SETTING",
+          "RISK_MANAGEMENT",
+          "PERFORMANCE_BENCHMARK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREFERRED_TRADING_DAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "Tuesdays and Wednesdays",
+          "best days"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_CONDITIONS",
+          "STRATEGY_ALIGNMENT",
+          "MARKET_RHYTHM_UNDERSTANDING"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "only need one scalp, one setup",
+          "only really need two setups for a week",
+          "will not do any more trading after that"
+        ],
+        "narrative_roles": [
+          "PSYCHOLOGICAL_CONTROL",
+          "RISK_MANAGEMENT",
+          "SUSTAINABILITY",
+          "AVOIDING_OVERTRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "50 PIPS AND PREFERRED TRADING DAYS",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_672",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish for the week",
+          "weekly low to form",
+          "weekly bearish candle",
+          "lower prices by Friday's close relative to Sunday's opening",
+          "Tuesday or Wednesday's price action to create the high of the week"
+        ],
+        "narrative_roles": [
+          "MARKET_OUTLOOK",
+          "BIAS_FORMATION",
+          "PRICE_FORECAST",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday",
+          "Friday's close",
+          "Sunday's opening",
+          "New York open"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "daily chart will probably sustain the move"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TIMEFRAME_ALIGNMENT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPPORTUNITY_IDENTIFICATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "setups are plenty",
+          "allow them to be presented in price action",
+          "not forcing it"
+        ],
+        "narrative_roles": [
+          "PATIENCE",
+          "DISCIPLINE",
+          "TRADE_SELECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PAIR_SELECTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Every single pair does not move lockstep to one another",
+          "not always moving in tandem",
+          "what may be a good pair to trade today may not be a pair that is really good to trade tomorrow, but another pair may move in equal or better fashion"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "DIVERSIFICATION"
+        ],
+        "temporal_tags": [
+          "today",
+          "tomorrow"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SYNCHRONIZING WITH WEEKLY OUTLOOK AND MARKET CONVICTION",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_673",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Kill Zones"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high here: lower high to the left, lower high to the right, highest high in the middle. It breaks that",
+          "swing high that is broken"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing low to form",
+          "preliminary swing low here",
+          "This candle is the third one",
+          "wait for price to trade through this candle's high",
+          "potential swing low here"
+        ],
+        "narrative_roles": [
+          "ENTRY_ANTICIPATION",
+          "ENTRY_CONFIRMATION",
+          "SWING_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "The very next day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET_PREVIOUS_DAY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "running previous day's high",
+          "previous day's high",
+          "that high again coming in at 1.3057",
+          "that is where the liquidity run is going to be right there"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [
+          "July 24th, 2017",
+          "previous day's high",
+          "25th of July"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BULLISH SCALPING SCENARIO",
+          "scalping",
+          "scalp"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY"
+        ],
+        "temporal_tags": [
+          "JULY 24-25, 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "BULLISH SCALPING SCENARIO",
+          "buy watch",
+          "buyer"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "anticipating a retracement after this run-up",
+          "As price starts to drop down"
+        ],
+        "narrative_roles": [
+          "ENTRY_ANTICIPATION",
+          "TRADE_SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH SCALPING SCENARIO (JULY 24-25, 2017)",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_674",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Previous day's high",
+          "here is where the liquidity is",
+          "running for 1.3057",
+          "run that liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH_LOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_HIGH_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "London session low",
+          "session highs and lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "62 percent retracing level",
+          "70.5",
+          "79 percent",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "get long"
+        ],
+        "narrative_roles": [
+          "TRADE_DIRECTION",
+          "MARKET_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "15-MINUTE ENTRY AND LIQUIDITY TARGET",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_675",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Kill Zone"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal trade entry price"
+        ],
+        "narrative_roles": [
+          "PRECISION_ENTRY",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 1,
+        "surface_terms": [
+          "DEFINITIVE TARGETS",
+          "UNLIMITED PROFIT MINDSET",
+          "definitive way of determining what could be reasonably expected",
+          "25 to 50 pips is rather easy to get",
+          "20-25 pips per setup",
+          "aiming for two good ones per week",
+          "50 pips is a really low-hanging fruit, reachable, achievable, and certainly realistic",
+          "expectancy for a nice return of 50 pips per week"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADING_PSYCHOLOGY",
+          "GOAL_SETTING",
+          "EXPECTANCY"
+        ],
+        "temporal_tags": [
+          "daily",
+          "weekly",
+          "per week",
+          "per setup",
+          "over time"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "intraday setup"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE",
+          "TIME_FRAME_CONSIDERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITIVE TARGETS VS. UNLIMITED PROFIT MINDSET",
+      "source_file": "ICT - Mastering High Probability Scalping Vol. 2 of 3_Handbook.chunks.json"
+    }
+  }
+]

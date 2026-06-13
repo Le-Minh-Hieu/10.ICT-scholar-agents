@@ -1,0 +1,267 @@
+[
+  {
+    "chunk_id": "chunk_4106",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry Pattern Recognition Series",
+          "OTE Pattern Recognition Series"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_CHART_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "most likely directional run"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "DIRECTIONAL_BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "above a specific candle's high",
+          "below its low"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "DIRECTIONAL_BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OTE PATTERN RECOGNITION SERIES",
+      "source_file": "OTE Pattern Recognition Series - Vol. 06_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4107",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "doji candle or pin bar",
+          "dojis or pin bars are seen as liquidity points",
+          "liquidity points",
+          "'pseudo pin bar' or 'doji'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RETAIL_TRAP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity points to be purged",
+          "The market is expected to run above them",
+          "run the candle's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHALLENGING RETAIL INTERPRETATIONS OF DOJI/PIN BARS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 06_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4108",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous day's high was run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retracement down"
+        ],
+        "narrative_roles": [
+          "PULLBACK",
+          "ENTRY_SETUP_PREPARATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CRUDE OIL CHART",
+      "source_file": "OTE Pattern Recognition Series - Vol. 06_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4109",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "TARGETING RETAIL LIQUIDITY",
+          "Liquidity is expected to rest above this point",
+          "previous day's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_TARGET",
+          "LIQUIDITY_ORIGIN"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "deeper run above the previous day's high"
+        ],
+        "narrative_roles": [
+          "PRICE_MANIPULATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY_HIGH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retail 'pin bar' idea",
+          "considered bearish by retail traders"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING_SOURCE",
+          "OPPOSITE_SIDE_ORDER_FLOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLESTICK_PATTERN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'pin bar'",
+          "doji candle"
+        ],
+        "narrative_roles": [
+          "RETAIL_ENTRY_POINT",
+          "LIQUIDITY_INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "5-MINUTE CHART",
+          "daily chart",
+          "daily pin bar"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING RETAIL LIQUIDITY ON THE 5-MINUTE CHART",
+      "source_file": "OTE Pattern Recognition Series - Vol. 06_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4110",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "Optimal Trade Entry (OTE) zone"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci retracement",
+          "62 percent retracement"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_TOOL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) APPLICATION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 06_Handbook.chunks.json"
+    }
+  }
+]

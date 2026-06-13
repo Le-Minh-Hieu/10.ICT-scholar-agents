@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-06-13T08:55:27.122Z",
+  "agentType": "HTF-Liquidity-Agent",
+  "currentCallId": "HTF-Liquidity-Agent-HTF-Liquidity-Agent-1781340841496-18",
+  "prompt": "## ROLE\nYou are an ICT liquidity detection system.\n\n## TASK\nIdentify HTF liquidity using STRICT grounded reasoning. Determine where liquidity rests (above / below).\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the observations on liquidity from the provided EURUSD charts:\n\n**Buy-side Liquidity (BSL) Pools:**\n\n*   **HTF BSL:**\n    *   Significant BSL rests above the multi-year swing high around **1.2400** (from 2021, visible on the Monthly chart).\n    *   BSL is present above the intermediate swing high at **1.20813** (labeled BSL on Weekly/Daily charts).\n    *   BSL is also present above the relative equal highs around **1.18492** (labeled BSL on Weekly/Daily charts).\n*   **ITF BSL:**\n    *   More immediate BSL is located above the daily swing high around **1.17300** (visible on Daily chart, prior high from mid-October).\n    *   Further immediate BSL is above the daily swing high around **1.16800** (visible on Daily chart, prior high from early October).\n\n**Sell-side Liquidity (SSL) Pools:**\n\n*   **HTF SSL:**\n    *   Major SSL rests below the multi-year swing low around **1.01779** (labeled SSL on Monthly/Weekly charts, from late 2022 and 2015/2016).\n    *   SSL is present below the intermediate swing low at **1.14110** (labeled SSL on Weekly/Daily charts).\n*   **ITF SSL:**\n    *   More immediate SSL is located below the daily swing low around **1.15000** (visible on Daily chart, from early October).\n    *   Further immediate SSL is below the daily swing low around **1.15500** (visible on Daily chart, from mid-October).\n\n**Liquidity Sweeps & Stop Hunts:**\n\n*   **Monthly/Weekly Sweeps:**\n    *   The major low at **1.01779** was swept in late 2022 before a significant rally (visible on Monthly/Weekly charts).\n    *   The high around **1.18492** was swept in mid-2023 (July) before a substantial reversal to the downside (visible on Weekly/Daily charts).\n*   **Daily Sweeps:**\n    *   On October 26th, price swept the low of the previous day (October 25th) around **1.15800** before moving higher.\n    *   On October 16th, price swept the low of October 13th before rallying.\n    *   Several daily lows were swept in early October (Oct 2, Oct 5) before upward movements, indicating repeated raids on sell-side liquidity at short-term lows.\n\n**Liquidity Voids, Imbalance Zones, & Delivery Gaps:**\n\n*   **HTF Voids:**\n    *   The strong bullish move from the **1.01779** low (late 2022) to above **1.09** created significant price inefficiency.\n    *   The large bearish candles from **1.20813** down to **1.14110** (mid-2023) indicate areas of substantial imbalance.\n*   **ITF Voids:**\n    *   The aggressive bearish daily move on October 18th-19th created a significant liquidity void below **1.16500** down to approximately **1.15000**.\n    *   The strong bullish rally from early July to mid-July shows a significant imbalance (void) from approximately **1.10** to **1.12**.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_4194]\nLIQUIDITY AND INEFFICIENCY\nTo take out buy stops (above old highs) or sell stops (below old lows). To trade into some form of inefficiency (a Fair Value Gap). This is not due to 'buying pressure' or 'selling pressure.' A single trade can hit a limit up, demonstrating The algorithm prioritizes inefficiencies, then liquidity. If in a premium and no inefficiency above, it seeks sell-side liquidity. If in a discount and no inefficiency below, it seeks buy-side liquidity.\n\n[CHUNK_ID:chunk_215]\nIDENTIFYING THE FAIR VALUE GAP (FVG) AND ENTRY\nSo, in your chart, once you're developing this idea and learning it, you're going to highlight this candle's low, this candle's high, and this right here is what I teach my students as a 'Fair Value Gap'.\n\n[CHUNK_ID:chunk_2001]\nEURO ANALYSIS\nSo anyway, we're looking at this draw on liquidity here. I mentioned how this inefficiency would act as an inversion fair value gap. That's not noted now, but go back and don't take my word for anything I'm saying here. Go back and look at the analysis that I gave in Twitter spaces talking about it, in the live streams that I've talked about these things, in the video commentaries that I've posted. Incidentally, I also have this in my notes here. I saw a tweet someone mentioned that there was not a tweet, I'm sorry, I get a lot of comments in my videos and somebody mentioned a link to me that is a YouTube video for my 2023 playlist, but I was unable to put it in the playlist. I don't know how I messed that up, but if you're listening or if you know that there should be a video that's not in the 2023 mentorship playlist, send that link to me on Twitter so that way I can make sure it's in the playlist. I appreciate that.\n\n[CHUNK_ID:chunk_3153]\nLIQUIDITY VOIDS AND FAIR VALUE\nThe orange shaded area shows a quick, sudden movement away from a price level (an aggressive drop). This quick movement creates a 'liquidity void', meaning there were pockets where price wasn't delivered efficiently on every available price level; it moved too quickly, creating skips or gaps. We anticipate either a long entry to fill in that range, or we wait for price to come all the way back up to fill Once the void is filled, price will likely resume its original direction (e.g., going lower after filling a void This is what we look for in terms of liquidity voids.\n\n[CHUNK_ID:chunk_1741]\nPRICE DELIVERY AND INEFFICIENCY TYPES\nPrice rotation on a liquidity Continuum basis, meaning that the price is efficiently delivered between a range of price action. For instance, if we were to look at the range between 103.20 and 103.40, that's 20 Pips. For Euro, it's moved up, down, up, down in that range between 40 and 20 multiple times. Notice that? So if price has been moving back and forth between a defined range of 103.40 and 103.20, if we get a bias which is what I'm sharing, I'm sharing my 30 years experience with you, telling you that this is If we ever get an opening on a candle and it drops down to a previous high stopped short, like say the low was up here and didn't go all the way down to Monday's high, that would create a typical deferred inefficiency, meaning that it would go to a fair value Gap protocol. Something like what we've seen. Well, let me take it back up one more time. This is a fair value gap between this candle's high and this candle's low. And at one candle on the downside, that low, that high, in between those two price points, price only went down. So it's a fair value Gap, yes, but a specific category is a SIBI (Sell Side Imbalance, Buy Side Inefficiency). So it needs to see what to be efficiently balanced:\n\n[CHUNK_ID:chunk_238]\nUTILIZING THE FAIR VALUE GAP FOR OPPORTUNITIES\nYou don't need me to hold your hand. If I indicate where I believe the market is headed, your task is to study and identify the opportunity. The Fair Value Gap is the primary concept you will be utilizing. Some of you are fixated on only looking for setups at the market opening. However, if a trade doesn't materialize at the opening, you can still use a Fair Value Gap to get involved with the move, especially if it's trending towards a significant liquidity objective like the May 16th low. This is precisely what I did today.\n\n## INPUT CONTEXT\nEURUSD (M → W → D) Liquidity Context\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Extract Principles, 2. Apply to Chart, 3. Derive Signals, 4. Self-Validation\n- Extract at least 2 unique principles from grounded knowledge\n- If both liquidity.above and below are true, you MUST explain directional preference or uncertainty\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"liquidity\": {\"above\": boolean, \"below\": boolean},\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning following the mandatory order\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:54:54 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Liquidity is identified where buy stops (above old highs) or sell stops (below old lows) reside. The market algorithm often seeks to take out this liquidity, potentially trading into an inefficiency afterward. If the market is in a premium and lacks inefficiency above, it will seek sell-side liquidity; if in a discount and lacks inefficiency below, it will seek buy-side liquidity.\",\n      \"chunk_id\": \"chunk_4194\"\n    },\n    {\n      \"rule\": \"Liquidity voids, characterized by quick, aggressive price movements where price was not delivered efficiently, are areas that are anticipated to be filled. Once a void is filled, price will likely resume its original direction.\",\n      \"chunk_id\": \"chunk_3153\"\n    }\n  ],\n  \"liquidity\": {\n    \"above\": true,\n    \"below\": true\n  },\n  \"confidence\": 0.95,\n  \"references\": [\n    \"CHUNK_ID:chunk_4194\",\n    \"CHUNK_ID:chunk_3153\"\n  ],\n  \"notes\": \"Step-by-step reasoning following the mandatory order:\\n\\n1.  **Extract Principles:**\\n    *   Principle 1 (Liquidity & Inefficiency Seeking): The market targets liquidity pools (buy stops above old highs, sell stops below old lows) and inefficiencies (like Fair Value Gaps). Price movement is dictated by these targets, with the algorithm prioritizing inefficiencies, then liquidity. If in a premium without inefficiency above, it seeks SSL. If in a discount without inefficiency below, it seeks BSL. (CHUNK_ID: chunk_4194)\\n    *   Principle 2 (Liquidity Voids & Directional Resumption): Aggressive movements create 'liquidity voids' where price delivery was inefficient. These voids are expected to be filled, after which price typically resumes its original direction. (CHUNK_ID: chunk_3153)\\n\\n2.  **Apply to Chart (HTF Liquidity Identification & Directional Preference):**\\n    *   Current price for EURUSD is approximately **1.15669**.\\n    *   **Buy-side Liquidity (BSL) above:**\\n        *   Significant HTF BSL is present above the intermediate swing high at **1.20813**. (Vision Primary)\\n        *   Further HTF BSL rests above the relative equal highs around **1.18492**. (Vision Primary)\\n        *   The multi-year swing high around **1.2400** also holds substantial HTF BSL. (Vision Primary)\\n    *   **Sell-side Liquidity (SSL) below:**\\n        *   Major HTF SSL rests below the intermediate swing low at **1.14110**. (Vision Primary)\\n        *   A multi-year swing low around **1.01779** holds significant HTF SSL, although it was swept in late 2022. (Vision Primary)\\n    *   **Directional Preference:** Both HTF BSL and SSL pools exist relative to the current price. To determine directional preference, we consider the recent HTF price action and the market's current position.\\n        *   The 'LIVE MARKET OBSERVATIONS' note that 'The high around **1.18492** was swept in mid-2023 (July) before a substantial reversal to the downside.' This indicates a prevailing HTF bearish bias from that point.\\n        *   Current price is trading in a discount relative to the range defined by the HTF swing high of 1.20813 and the HTF swing low of 1.14110. (Equilibrium ~1.1746). According to Principle 1 (CHUNK_ID: chunk_4194), if in a discount and no inefficiency below, it seeks BSL. However, there is an immediate HTF SSL target at 1.14110. Additionally, a significant liquidity void was created by an 'aggressive bearish daily move on October 18th-19th below **1.16500** down to approximately **1.15000**'. Current price (1.15669) is within this void. Principle 2 (CHUNK_ID: chunk_3153) suggests that after a void is filled, price resumes its original direction. Given the void was created by a bearish move, the original direction is lower.\\n        *   Considering the established HTF bearish reversal from the 1.18492 highs, and the presence of a substantial HTF SSL at **1.14110** below the current price, the more immediate HTF draw on liquidity appears to be to the downside. While BSL above remains a long-term target, the contextual HTF bias points to SSL below as the next objective.\\n\\n3.  **Derive Signals:**\\n    *   Liquidity above: True (1.18492, 1.20813, 1.2400 are all significant HTF BSL pools).\\n    *   Liquidity below: True (1.14110 is a significant HTF SSL pool; 1.01779 also exists though previously swept).\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -1.0023409322017165
+        }
+      ],
+      "createTime": "2026-06-13T08:54:35.569094Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "yxotaobeIs2MqMgPm9GquQk",
+      "usageMetadata": {
+        "promptTokenCount": 2903,
+        "candidatesTokenCount": 1187,
+        "totalTokenCount": 6701,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2129
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1187
+          }
+        ],
+        "thoughtsTokenCount": 2611
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Liquidity is identified where buy stops (above old highs) or sell stops (below old lows) reside. The market algorithm often seeks to take out this liquidity, potentially trading into an inefficiency afterward. If the market is in a premium and lacks inefficiency above, it will seek sell-side liquidity; if in a discount and lacks inefficiency below, it will seek buy-side liquidity.",
+          "chunk_id": "chunk_4194"
+        },
+        {
+          "rule": "Liquidity voids, characterized by quick, aggressive price movements where price was not delivered efficiently, are areas that are anticipated to be filled. Once a void is filled, price will likely resume its original direction.",
+          "chunk_id": "chunk_3153"
+        }
+      ],
+      "liquidity": {
+        "above": true,
+        "below": true
+      },
+      "confidence": 0.95,
+      "references": [
+        "CHUNK_ID:chunk_4194",
+        "CHUNK_ID:chunk_3153"
+      ],
+      "notes": "Step-by-step reasoning following the mandatory order:\n\n1.  **Extract Principles:**\n    *   Principle 1 (Liquidity & Inefficiency Seeking): The market targets liquidity pools (buy stops above old highs, sell stops below old lows) and inefficiencies (like Fair Value Gaps). Price movement is dictated by these targets, with the algorithm prioritizing inefficiencies, then liquidity. If in a premium without inefficiency above, it seeks SSL. If in a discount without inefficiency below, it seeks BSL. (CHUNK_ID: chunk_4194)\n    *   Principle 2 (Liquidity Voids & Directional Resumption): Aggressive movements create 'liquidity voids' where price delivery was inefficient. These voids are expected to be filled, after which price typically resumes its original direction. (CHUNK_ID: chunk_3153)\n\n2.  **Apply to Chart (HTF Liquidity Identification & Directional Preference):**\n    *   Current price for EURUSD is approximately **1.15669**.\n    *   **Buy-side Liquidity (BSL) above:**\n        *   Significant HTF BSL is present above the intermediate swing high at **1.20813**. (Vision Primary)\n        *   Further HTF BSL rests above the relative equal highs around **1.18492**. (Vision Primary)\n        *   The multi-year swing high around **1.2400** also holds substantial HTF BSL. (Vision Primary)\n    *   **Sell-side Liquidity (SSL) below:**\n        *   Major HTF SSL rests below the intermediate swing low at **1.14110**. (Vision Primary)\n        *   A multi-year swing low around **1.01779** holds significant HTF SSL, although it was swept in late 2022. (Vision Primary)\n    *   **Directional Preference:** Both HTF BSL and SSL pools exist relative to the current price. To determine directional preference, we consider the recent HTF price action and the market's current position.\n        *   The 'LIVE MARKET OBSERVATIONS' note that 'The high around **1.18492** was swept in mid-2023 (July) before a substantial reversal to the downside.' This indicates a prevailing HTF bearish bias from that point.\n        *   Current price is trading in a discount relative to the range defined by the HTF swing high of 1.20813 and the HTF swing low of 1.14110. (Equilibrium ~1.1746). According to Principle 1 (CHUNK_ID: chunk_4194), if in a discount and no inefficiency below, it seeks BSL. However, there is an immediate HTF SSL target at 1.14110. Additionally, a significant liquidity void was created by an 'aggressive bearish daily move on October 18th-19th below **1.16500** down to approximately **1.15000**'. Current price (1.15669) is within this void. Principle 2 (CHUNK_ID: chunk_3153) suggests that after a void is filled, price resumes its original direction. Given the void was created by a bearish move, the original direction is lower.\n        *   Considering the established HTF bearish reversal from the 1.18492 highs, and the presence of a substantial HTF SSL at **1.14110** below the current price, the more immediate HTF draw on liquidity appears to be to the downside. While BSL above remains a long-term target, the contextual HTF bias points to SSL below as the next objective.\n\n3.  **Derive Signals:**\n    *   Liquidity above: True (1.18492, 1.20813, 1.2400 are all significant HTF BSL pools).\n    *   Liquidity below: True (1.14110 is a significant HTF SSL pool; 1.01779 also exists though previously swept)."
+    },
+    "latency": 56314.354499999434,
+    "telemetry": {
+      "promptTokens": 2903,
+      "completionTokens": 1187,
+      "totalTokens": 6701
+    }
+  },
+  "openrouter": {
+    "modelUsed": "nex-agi/nex-n2-pro:free",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "The algorithm prioritizes inefficiencies first, then liquidity; in premium with no inefficiency above it seeks sell-side liquidity, while in discount with no inefficiency below it seeks buy-side liquidity.",
+          "chunk_id": "CHUNK_ID:chunk_4194"
+        },
+        {
+          "rule": "Aggressive price movement creates liquidity voids / inefficiency, and price may retrace to fill those voids before continuing in the original direction.",
+          "chunk_id": "CHUNK_ID:chunk_3153"
+        },
+        {
+          "rule": "A Fair Value Gap is defined by the high/low relationship of the displacement candle and adjacent candles, marking an inefficient one-sided price delivery area.",
+          "chunk_id": "CHUNK_ID:chunk_215"
+        }
+      ],
+      "liquidity": {
+        "above": true,
+        "below": true
+      },
+      "confidence": 0.88,
+      "references": [
+        "CHUNK_ID:chunk_4194",
+        "CHUNK_ID:chunk_3153",
+        "CHUNK_ID:chunk_215",
+        "CHUNK_ID:chunk_1741"
+      ],
+      "notes": "Mandatory reasoning order: 1) Extract Principles — CHUNK_ID:chunk_4194 states the algorithm prioritizes inefficiencies, then liquidity; if in premium and no inefficiency above, it seeks sell-side liquidity, and if in discount and no inefficiency below, it seeks buy-side liquidity. CHUNK_ID:chunk_3153 states that aggressive moves create liquidity voids / inefficiencies, and price may return to fill those voids before resuming the original direction. CHUNK_ID:chunk_215 and CHUNK_ID:chunk_1741 support identifying fair value gaps / one-sided imbalance zones as areas of inefficient price delivery. 2) Apply to Chart — Vision-primary EURUSD HTF observations show buy-side liquidity above the multi-year high near 1.2400, above the intermediate high 1.20813, and above relative equal highs near 1.18492. Vision-primary observations also show sell-side liquidity below the HTF swing low 1.14110 and the major multi-year low 1.01779. HTF voids are present in the bullish displacement from 1.01779 higher and the bearish displacement from 1.20813 down toward 1.14110, consistent with CHUNK_ID:chunk_3153. 3) Derive Signals — Liquidity rests both above and below: above as BSL at 1.18492 / 1.20813 / 1.2400, and below as SSL at 1.14110 / 1.01779. Directional preference is conditional rather than one-sided: if price is in HTF premium and the bearish void from 1.20813 toward 1.14110 remains unfilled, the draw is more likely lower toward sell-side liquidity, per CHUNK_ID:chunk_4194. If price is in HTF discount and no inefficiency remains below, the draw is more likely higher toward buy-side liquidity, also per CHUNK_ID:chunk_4194. 4) Self-Validation — The conclusion is validated by the presence of clear HTF old highs and old lows, prior sweeps at 1.01779 and 1.18492, and HTF imbalance zones. Because exact current price is not provided, both above and below HTF liquidity are marked true, with directional preference left conditional on premium/discount location and void-fill status."
+    },
+    "latency": 29131.66260000039,
+    "telemetry": {
+      "promptTokens": 2507,
+      "completionTokens": 1850,
+      "totalTokens": 4357
+    },
+    "estimatedCost": 0.006206999999999999
+  }
+}

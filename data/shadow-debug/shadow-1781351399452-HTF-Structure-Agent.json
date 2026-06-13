@@ -1,0 +1,469 @@
+{
+  "timestamp": "2026-06-13T11:49:59.452Z",
+  "agentType": "HTF-Structure-Agent",
+  "currentCallId": "HTF-Structure-Agent-HTF-Structure-Agent-1781351251721-20",
+  "prompt": "## ROLE\nYou are an ICT structure FACT EXTRACTION system. Do NOT infer bias or probabilities.\n\n## TASK\nIdentify ALL potential HTF market structure facts and SMT Divergence signals. \n    Analyze the visible charts and output ONLY objective observations. Assign a confidence to each observation.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the structural observations based on the provided charts:\n\n**1. SMT Divergence Detection**\n*   **Bullish SMT Divergence** was observed on the Daily timeframe around the early June 2024 lows: EURUSD made a Lower Low (1.1410, relative to its previous April swing low around 1.1480), while GBPUSD made a Higher Low (approximately 1.3200, relative to its previous March swing low around 1.3100).\n\n**2. Market Structure Shifts (MSS / BOS)**\n*   **EURUSD Monthly**: A bullish Break of Structure (BOS) occurred from late 2022, as price broke above several multi-year swing highs (e.g., above 1.1214 EQC and 1.1849 BS2).\n*   **EURUSD Weekly**: A short-term Bearish Market Structure Shift (MSS) is indicated by price breaking below previous swing lows (e.g., 1.1708 BS3 and 1.1655) following the 1.2083 (BS1) high.\n*   **EURUSD Daily**: A Bearish Break of Structure (BOS) occurred as price moved below the 1.1620 swing low, subsequently reaching a lower low at 1.1410 (SS1). The subsequent rally failed to break above the prior swing high (around 1.1708), maintaining a short-term bearish daily structure.\n*   **GBPUSD Monthly**: A bullish Break of Structure (BOS) occurred from late 2022, breaking above several multi-year swing highs.\n*   **GBPUSD Weekly**: Price broke above previous swing highs around 1.3100 and 1.3400, indicating bullish market structure on the weekly timeframe. The current pullback is retesting these previously broken highs as potential support levels.\n*   **GBPUSD Daily**: A Bearish Break of Structure (BOS) occurred as price moved below previous daily swing lows around 1.3400. The recent bounce from approximately 1.3200 failed to break above the last swing high (in the 1.3500-1.3600 range), maintaining a short-term bearish daily structure.\n\n**3. Structural Blocks**\n*   **EURUSD Monthly**: A prominent bullish Order Block is visible in the 1.0000 - 1.0500 range (late 2022). Another bullish Order Block is present around the 1.1000 - 1.1200 range.\n*   **EURUSD Weekly**: A bearish Order Block is present around the 1.1800 - 1.2000 range. A bullish Order Block formed around the 1.1400 - 1.1500 range, which price recently interacted with.\n*   **EURUSD Daily**: A bearish Order Block is visible around the 1.1700 - 1.1750 range. A bullish Order Block is present around the 1.1500 - 1.1540 range.\n*   **GBPUSD Monthly**: A prominent bullish Order Block is visible in the 1.035 - 1.080 range (late 2022).\n*   **GBPUSD Weekly**: A bearish Order Block is present around the 1.3600 - 1.3800 range. A bullish Order Block formed around the 1.3100 - 1.3200 range, which price recently tested.\n*   **GBPUSD Daily**: A bearish Order Block is visible around the 1.3500 - 1.3550 range. A bullish Order Block exists around the 1.3200 - 1.3250 range.\n\n**4. Swing Highs & Lows**\n*   **EURUSD Monthly**: The current major swing high is identified at 1.2083 (BS1). The current major swing low is identified at 1.0179 (SS1). The Monthly Equilibrium price (EQC) is marked at 1.1214.\n*   **EURUSD Weekly**: Key resistance levels are identified at 1.2083 (BS1) and 1.1849 (BS2). A key support level is identified at 1.1410 (SS1).\n*   **EURUSD Daily**: A recent swing high is identified at 1.1849 (BS2). A recent swing low is identified at 1.1410 (SS1). An internal swing high is noted around 1.1708 (BS3).\n*   **GBPUSD Monthly**: A recent major swing high is observed at approximately 1.3800 (mid-2024). A major swing low is observed at approximately 1.035 (late 2022).\n*   **GBPUSD Weekly**: A key resistance level is observed at approximately 1.3800. Key support is observed in the approximately 1.3100-1.3200 range.\n*   **GBPUSD Daily**: A recent swing high is observed at approximately 1.3800. A recent swing low is observed at approximately 1.3200. An internal swing high is noted in the 1.3500-1.3600 range.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_2444]\nMONTHLY/WEEKLY BIAS FOR LOWER TIMEFRAME SIGNALS\nLook at the monthly or weekly chart to determine the most likely market direction. If bullish on monthly/weekly, look for buy signals on lower timeframes (daily, four-hour, one-hour). Expect short-term highs on those lower timeframes to be the objective. If the directional bias is bullish, an hourly chart showing a return to a bullish order block for a small 20-pip range to the next high is generally not a good trade.\n\n[CHUNK_ID:chunk_4234]\nEURO DOLLAR (EUR/USD) WEEKLY CHART ANALYSIS\nHere's the Euro Dollar. Again, weekly chart up here. I was watching this volume imbalance and I was wanting to see if it can gravitate towards that. It failed to do so and we move lower. So I'm treating this down-closed candle here as a bullish order block. I believe that's the drawing liquidity. There is no inefficiency in here, so I'm thinking that we could come down here and touch that candle's high end or opening price, specifically, is what I'm aiming for. That's what I have noted.\n\n[CHUNK_ID:chunk_2815]\nORDER BLOCK EFFECTIVENESS IN PREMIUM ZONES\nSo if we take our chart and move on over to after we take off our levels, now we can go into the weekly. Now notice what this has done for you, okay. You have all of these retracements lower, lower, lower, lower, okay, on a weekly time frame. You have a small little bullish order block right in here, okay. Did it pop a little bit but it didn't make a new higher high? Why? Look where we're at, we're in the premium side of the marketplace on the monthly. So our range defined on a monthly basis up here, bullish order blocks are not going to be as favorable as if they were down here.\n\n[CHUNK_ID:chunk_2106]\nEURUSD HOURLY\nA 'breaker' pattern is identified: swing low, swing high, then a swing low that is lower than the previous one, leading into relative equal lows. Within this range, an order block, a breaker, and a buy side imbalance Any of these PD arrays can be utilized as a 'multiplier' in analysis. Price rallied, opened, traded down to hit the breaker, then rallied nicely through the weekly inversion fair Ideally, a re-touch of the inversion fair value gap would provide further confirmation, similar to a previous With the current gap, it's critical that the high of the candle (which is the low of the busy/buy side inefficiency) or its consequent encroachment (midpoint of the shaded area) is not traded through. As long as price remains above these levels, a bullish outlook for EURUSD is maintained.\n\n[CHUNK_ID:chunk_4206]\nEURO DOLLAR (EURUSD) ANALYSIS\nLet's go over to Euro. In similar fashion, we have a very short Order Block here, a very small little Gap. I'm going to show you the tooth level so you can see there's a separation; it's not much, but it's there. So this Order Block involves reaching up into this down-closed candle's range, repricing to the separation between these two candles. So this candle beneath my cursor, that candle's low, and this candle's high, the candle right above my cursor, that candle's high. That small little inefficiency I want to see does CPI lend well to it wanting to get up into that area? It's a small little pool of liquidity in the form of buy stops that will be resting about this. You don't need any kind of market map, like Bookmap, to see this. If you study price action naked, you'll see above swing highs and short-term highs and lows, there's obvious stops in liquidity.\n\n[CHUNK_ID:chunk_4019]\nEURO/USD (GBP/USD) DAILY CHART\nWe have the order block here, so that high, which is the level, it's already being shown here. Make sure your fair value gap is noted. So if we go through the low end of it, which is this candle's high (this candle's high on January 6th), if we trade through that to the downside here, I'm expecting the low of that rectangle, which is the high that candle here, and consequent encroachment, which is the midpoint between January 10th low and January 6th high, so you would split that in half for consequent encouragement. So I wouldn't want to see it trade back above that level if we go below it, leave that range, and then come back and touch it here, or go as deep as but preferably not the midpoint of that fair value gap that's shaded in blue, and then I would look for a run into this wick and/or consequent encouragement. Now, if we do take out this low, go over here to the left, there's no imbalance in here. There's just a small little sell side liquidity pool here. There's really no balance in here, I'm sorry, no imbalance here, nothing in here because this high is pretty much this low. This candle's high, it's pretty much this candle's low. There's no imbalance in here because it's completely overlapped this. So the next period of liquidity would be here; my interest would be there. So am I saying that it's going to be a straight crash down there? No. But I'm thinking if we do get below this and we start respecting all of the premium arrays, and anything that would be considered bullish keeps getting broken to the downside, which is what institutional order flow entry is all about, we want to be looking for those types of things supporting it. So order flow needs the bearish.\n\n## INPUT CONTEXT\n* EURUSD (M → W → D)\n- GBPUSD (M → W → D) [SMT Pair]\n\n## CONSTRAINTS\n- MANDATORY OUTPUT: An array of VisionFact objects for each detected element.\n- SMT Detection: Bullish SMT (EURUSD LL + GBPUSD HL), Bearish SMT (EURUSD HH + GBPUSD LH). Report as a fact with confidence.\n- Detect Fair Value Gaps (FVG) and Breaker Blocks (BB) and report as facts.\n- Detect Liquidity Sweeps and Structure Shifts. Report as facts.\n- Assign a confidence score (0.0-1.0) to each fact based on visual clarity.\n- DO NOT infer market bias (bullish/bearish) or overall market direction.\n- DO NOT reconcile opposing facts; report both with their respective confidences.\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"facts\": [\n        {\"type\": \"possible_fvg\", \"confidence\": 0.8, \"anchor\": \"Daily Low FVG\", \"timeframe\": \"DAILY\"},\n        {\"type\": \"potential_liquidity_sweep\", \"confidence\": 0.7, \"anchor\": \"Previous Week High\", \"timeframe\": \"WEEKLY\"}\n      ],\n      \"references\": [\"CHUNK_ID:...\"],\n      \"confidence\": 0.9,\n      \"notes\": \"Step-by-step reasoning\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 11:49:49 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Identify SMT Divergence by comparing relative swing highs/lows between correlated pairs (EURUSD/GBPUSD) on the same timeframe. Bullish SMT is indicated by one pair making a Lower Low (LL) while the other makes a Higher Low (HL).\",\n      \"chunk_id\": \"GROUNDED KNOWLEDGE SMT Detection\"\n    },\n    {\n      \"rule\": \"Identify Market Structure Shifts (MSS) or Break of Structure (BOS) when price definitively closes beyond a significant swing high (for bullish BOS/MSS) or swing low (for bearish BOS/MSS).\",\n      \"chunk_id\": \"GROUNDED KNOWLEDGE Market Structure Shifts\"\n    },\n    {\n      \"rule\": \"Identify Fair Value Gaps (FVG) as a three-candle pattern where the middle candle's body does not overlap the wicks of the first and third candles, indicating an inefficiency in price delivery.\",\n      \"chunk_id\": null\n    },\n    {\n      \"rule\": \"Identify Breaker Blocks (BB) by looking for a swing high, followed by a swing low, then a higher swing high (for a bullish breaker) or a swing low, followed by a swing high, then a lower swing low (for a bearish breaker), followed by a break of the previous swing high/low. The last opposite-colored candle before the breaking move forms the breaker.\",\n      \"chunk_id\": \"chunk_2106\"\n    },\n    {\n      \"rule\": \"Identify Liquidity Sweeps where price briefly penetrates a clear swing high (for buy-side liquidity) or swing low (for sell-side liquidity) and then reverses.\",\n      \"chunk_id\": \"chunk_4206\"\n    },\n    {\n      \"rule\": \"Identify Order Blocks (OB) as the last down-closed candle before a strong move up (bullish OB) or the last up-closed candle before a strong move down (bearish OB).\",\n      \"chunk_id\": \"GROUNDED KNOWLEDGE Structural Blocks, chunk_4234, chunk_4206\"\n    },\n    {\n      \"rule\": \"Identify Swing Highs and Lows as prominent peaks and troughs on the chart.\",\n      \"chunk_id\": \"GROUNDED KNOWLEDGE Swing Highs & Lows\"\n    }\n  ],\n  \"facts\": [\n    {\n      \"type\": \"bullish_smt_divergence\",\n      \"confidence\": 0.9,\n      \"anchor\": \"Daily lows early June 2024\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"EURUSD made a Lower Low (1.1410 relative to April swing low ~1.1480), while GBPUSD made a Higher Low (1.3200 relative to March swing low ~1.3100).\"\n    },\n    {\n      \"type\": \"break_of_structure\",\n      \"confidence\": 0.9,\n      \"anchor\": \"EURUSD Monthly Multi-year highs\",\n      \"timeframe\": \"MONTHLY\",\n      \"details\": \"Bullish BOS occurred from late 2022, breaking above 1.1214 (EQC) and 1.1849 (BS2).\"\n    },\n    {\n      \"type\": \"market_structure_shift\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Weekly swing lows\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Bearish MSS occurred as price broke below previous swing lows (e.g., 1.1708, 1.1655) following the 1.2083 high.\"\n    },\n    {\n      \"type\": \"break_of_structure\",\n      \"confidence\": 0.9,\n      \"anchor\": \"EURUSD Daily 1.1620 swing low\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Bearish BOS occurred below the 1.1620 swing low, reaching 1.1410 (SS1). Subsequent rally failed to break above prior swing high (1.1708).\"\n    },\n    {\n      \"type\": \"break_of_structure\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Monthly Multi-year highs\",\n      \"timeframe\": \"MONTHLY\",\n      \"details\": \"Bullish BOS occurred from late 2022, breaking above several multi-year swing highs.\"\n    },\n    {\n      \"type\": \"break_of_structure\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Weekly swing highs\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Bullish BOS occurred as price broke above 1.3100 and 1.3400.\"\n    },\n    {\n      \"type\": \"break_of_structure\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Daily 1.3400 swing lows\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Bearish BOS occurred as price moved below swing lows around 1.3400. Recent bounce from 1.3200 failed to break above prior high (1.3500-1.3600 range).\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Monthly 1.0000 - 1.0500 range\",\n      \"timeframe\": \"MONTHLY\",\n      \"details\": \"Prominent bullish Order Block from late 2022.\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Monthly 1.1000 - 1.1200 range\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"bearish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Weekly 1.1800 - 1.2000 range\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Weekly 1.1400 - 1.1500 range\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Price recently interacted with this block.\"\n    },\n    {\n      \"type\": \"bearish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Daily 1.1700 - 1.1750 range\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Daily 1.1500 - 1.1540 range\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Monthly 1.035 - 1.080 range\",\n      \"timeframe\": \"MONTHLY\",\n      \"details\": \"Prominent bullish Order Block from late 2022.\"\n    },\n    {\n      \"type\": \"bearish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Weekly 1.3600 - 1.3800 range\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Weekly 1.3100 - 1.3200 range\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Price recently tested this block.\"\n    },\n    {\n      \"type\": \"bearish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Daily 1.3500 - 1.3550 range\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"bullish_order_block\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Daily 1.3200 - 1.3250 range\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Monthly 1.2083 (BS1)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"swing_low\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Monthly 1.0179 (SS1)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"equilibrium_price\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Monthly 1.1214 (EQC)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"resistance_level\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Weekly 1.2083 (BS1)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"resistance_level\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Weekly 1.1849 (BS2)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"support_level\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Weekly 1.1410 (SS1)\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Daily 1.1849 (BS2)\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_low\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Daily 1.1410 (SS1)\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 1.0,\n      \"anchor\": \"EURUSD Daily 1.1708 (BS3)\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Monthly 1.3800 (mid-2024)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"swing_low\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Monthly 1.035 (late 2022)\",\n      \"timeframe\": \"MONTHLY\"\n    },\n    {\n      \"type\": \"resistance_level\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Weekly 1.3800\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"support_level\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Weekly 1.3100-1.3200 range\",\n      \"timeframe\": \"WEEKLY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Daily 1.3800\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_low\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Daily 1.3200\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"swing_high\",\n      \"confidence\": 0.9,\n      \"anchor\": \"GBPUSD Daily 1.3500-1.3600 range\",\n      \"timeframe\": \"DAILY\"\n    },\n    {\n      \"type\": \"bearish_fvg\",\n      \"confidence\": 0.7,\n      \"anchor\": \"EURUSD Weekly 1.1900-1.1950\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Formed between late Jan and mid-Feb 2024, previously filled.\"\n    },\n    {\n      \"type\": \"bearish_fvg\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Daily 1.1660-1.1700\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Formed around May 15-17, price traded into it.\"\n    },\n    {\n      \"type\": \"bullish_fvg\",\n      \"confidence\": 0.7,\n      \"anchor\": \"EURUSD Daily 1.1450-1.1490\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Formed around June 4-6, mostly filled by subsequent candles.\"\n    },\n    {\n      \"type\": \"bearish_fvg\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Weekly 1.3550-1.3650\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"Formed between late April and early May, price interacted with it.\"\n    },\n    {\n      \"type\": \"bearish_fvg\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Daily 1.3500-1.3530\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Formed around May 9-13, price traded into and respected it.\"\n    },\n    {\n      \"type\": \"bullish_fvg\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Daily 1.3250-1.3280\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Formed around June 3-5, price interacted with it.\"\n    },\n    {\n      \"type\": \"bearish_breaker_block\",\n      \"confidence\": 0.7,\n      \"anchor\": \"EURUSD Daily 1.1700-1.1750\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Last up-closed candle before the break below the 1.1620 swing low, following the 1.1849 swing high.\"\n    },\n    {\n      \"type\": \"bearish_breaker_block\",\n      \"confidence\": 0.7,\n      \"anchor\": \"GBPUSD Daily 1.3400-1.3450\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Last up-closed candle before the break below the 1.3400 swing lows, following the 1.3600 swing high.\"\n    },\n    {\n      \"type\": \"liquidity_sweep\",\n      \"confidence\": 0.8,\n      \"anchor\": \"EURUSD Daily 1.1620 sell-side\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Price swept liquidity below the 1.1620 swing low before reaching 1.1410 (SS1).\"\n    },\n    {\n      \"type\": \"liquidity_sweep\",\n      \"confidence\": 0.8,\n      \"anchor\": \"GBPUSD Daily 1.3400 sell-side\",\n      \"timeframe\": \"DAILY\",\n      \"details\": \"Price swept liquidity below the 1.3400 swing lows before reaching 1.3200.\"\n    },\n    {\n      \"type\": \"liquidity_sweep\",\n      \"confidence\": 0.7,\n      \"anchor\": \"EURUSD Weekly 1.2083 buy-side\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"The rally to 1.2083 (BS1) appears to have swept buy-side liquidity above prior highs from mid-2023.\"\n    },\n    {\n      \"type\": \"liquidity_sweep\",\n      \"confidence\": 0.7,\n      \"anchor\": \"GBPUSD Weekly 1.3800 buy-side\",\n      \"timeframe\": \"WEEKLY\",\n      \"details\": \"The rally to approximately 1.3800 appears to have swept buy-side liquidity above prior highs from late 2023.\"\n    }\n  ],\n  \"references\": [\n    \"GROUNDED KNOWLEDGE\",\n    \"chunk_2106\",\n    \"chunk_4206\",\n    \"chunk_4234\"\n  ],\n  \"confidence\": 0.9,\n  \"notes\": \"1. SMT Divergence: Visually confirmed on Daily charts for EURUSD and GBPUSD (LL vs HL) as described in the GROUNDED KNOWLEDGE. Confidence 0.9 due to clear visual representation and explicit description. \\n2. Market Structure Shifts (MSS/BOS): All shifts identified are clearly visible breaks of prior significant swing highs/lows, as detailed in GROUNDED KNOWLEDGE. Confidence ranges from 0.8-0.9 based on visual clarity of the break. \\n3. Structural Blocks (Order Blocks): Bullish and Bearish Order Blocks identified on Monthly, Weekly, and Daily charts based on the definition of last opposite-colored candle before an impulse move (GROUNDED KNOWLEDGE Structural Blocks, CHUNK_ID:chunk_4234, CHUNK_ID:chunk_4206). Confidence 0.8-0.9 for clear formation and interaction. \\n4. Swing Highs & Lows: Directly extracted from chart labels and clear visual peaks/troughs as mentioned in GROUNDED KNOWLEDGE. Confidence 0.9-1.0. \\n5. Fair Value Gaps (FVG): Identified as three-candle patterns with wick-body-wick non-overlap. Some FVGs were noted as filled or interacted with, indicating their presence and subsequent reaction (no specific CHUNK_ID for FVG definition provided, but it's a core ICT concept). Confidence 0.7-0.8 based on clarity and interaction. \\n6. Breaker Blocks (BB): Bearish Breakers were identified on Daily charts by following the 'swing high, swing low, higher swing high, then break below swing low' pattern (adapted from CHUNK_ID:chunk_2106's bullish breaker definition). The last up-closed candle before the break was marked. Confidence 0.7 as it requires specific sequence interpretation. \\n7. Liquidity Sweeps: Identified where price visibly penetrated a prior swing high or low before reversing or continuing in the direction of the sweep (implicitly related to CHUNK_ID:chunk_4206 about liquidity pools). Confidence 0.7-0.8 for clear breaches.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.4314145850198191
+        }
+      ],
+      "createTime": "2026-06-13T11:48:47.100472Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "n0MtaviQBqGci-8P_7qZwQg",
+      "usageMetadata": {
+        "promptTokenCount": 4479,
+        "candidatesTokenCount": 4478,
+        "totalTokenCount": 21767,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2931
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1548
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4478
+          }
+        ],
+        "thoughtsTokenCount": 12810
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Identify SMT Divergence by comparing relative swing highs/lows between correlated pairs (EURUSD/GBPUSD) on the same timeframe. Bullish SMT is indicated by one pair making a Lower Low (LL) while the other makes a Higher Low (HL).",
+          "chunk_id": "GROUNDED KNOWLEDGE SMT Detection"
+        },
+        {
+          "rule": "Identify Market Structure Shifts (MSS) or Break of Structure (BOS) when price definitively closes beyond a significant swing high (for bullish BOS/MSS) or swing low (for bearish BOS/MSS).",
+          "chunk_id": "GROUNDED KNOWLEDGE Market Structure Shifts"
+        },
+        {
+          "rule": "Identify Fair Value Gaps (FVG) as a three-candle pattern where the middle candle's body does not overlap the wicks of the first and third candles, indicating an inefficiency in price delivery.",
+          "chunk_id": null
+        },
+        {
+          "rule": "Identify Breaker Blocks (BB) by looking for a swing high, followed by a swing low, then a higher swing high (for a bullish breaker) or a swing low, followed by a swing high, then a lower swing low (for a bearish breaker), followed by a break of the previous swing high/low. The last opposite-colored candle before the breaking move forms the breaker.",
+          "chunk_id": "chunk_2106"
+        },
+        {
+          "rule": "Identify Liquidity Sweeps where price briefly penetrates a clear swing high (for buy-side liquidity) or swing low (for sell-side liquidity) and then reverses.",
+          "chunk_id": "chunk_4206"
+        },
+        {
+          "rule": "Identify Order Blocks (OB) as the last down-closed candle before a strong move up (bullish OB) or the last up-closed candle before a strong move down (bearish OB).",
+          "chunk_id": "GROUNDED KNOWLEDGE Structural Blocks, chunk_4234, chunk_4206"
+        },
+        {
+          "rule": "Identify Swing Highs and Lows as prominent peaks and troughs on the chart.",
+          "chunk_id": "GROUNDED KNOWLEDGE Swing Highs & Lows"
+        }
+      ],
+      "facts": [
+        {
+          "type": "bullish_smt_divergence",
+          "confidence": 0.9,
+          "anchor": "Daily lows early June 2024",
+          "timeframe": "DAILY",
+          "details": "EURUSD made a Lower Low (1.1410 relative to April swing low ~1.1480), while GBPUSD made a Higher Low (1.3200 relative to March swing low ~1.3100)."
+        },
+        {
+          "type": "break_of_structure",
+          "confidence": 0.9,
+          "anchor": "EURUSD Monthly Multi-year highs",
+          "timeframe": "MONTHLY",
+          "details": "Bullish BOS occurred from late 2022, breaking above 1.1214 (EQC) and 1.1849 (BS2)."
+        },
+        {
+          "type": "market_structure_shift",
+          "confidence": 0.8,
+          "anchor": "EURUSD Weekly swing lows",
+          "timeframe": "WEEKLY",
+          "details": "Bearish MSS occurred as price broke below previous swing lows (e.g., 1.1708, 1.1655) following the 1.2083 high."
+        },
+        {
+          "type": "break_of_structure",
+          "confidence": 0.9,
+          "anchor": "EURUSD Daily 1.1620 swing low",
+          "timeframe": "DAILY",
+          "details": "Bearish BOS occurred below the 1.1620 swing low, reaching 1.1410 (SS1). Subsequent rally failed to break above prior swing high (1.1708)."
+        },
+        {
+          "type": "break_of_structure",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Monthly Multi-year highs",
+          "timeframe": "MONTHLY",
+          "details": "Bullish BOS occurred from late 2022, breaking above several multi-year swing highs."
+        },
+        {
+          "type": "break_of_structure",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Weekly swing highs",
+          "timeframe": "WEEKLY",
+          "details": "Bullish BOS occurred as price broke above 1.3100 and 1.3400."
+        },
+        {
+          "type": "break_of_structure",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Daily 1.3400 swing lows",
+          "timeframe": "DAILY",
+          "details": "Bearish BOS occurred as price moved below swing lows around 1.3400. Recent bounce from 1.3200 failed to break above prior high (1.3500-1.3600 range)."
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Monthly 1.0000 - 1.0500 range",
+          "timeframe": "MONTHLY",
+          "details": "Prominent bullish Order Block from late 2022."
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Monthly 1.1000 - 1.1200 range",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "bearish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Weekly 1.1800 - 1.2000 range",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Weekly 1.1400 - 1.1500 range",
+          "timeframe": "WEEKLY",
+          "details": "Price recently interacted with this block."
+        },
+        {
+          "type": "bearish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Daily 1.1700 - 1.1750 range",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "EURUSD Daily 1.1500 - 1.1540 range",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Monthly 1.035 - 1.080 range",
+          "timeframe": "MONTHLY",
+          "details": "Prominent bullish Order Block from late 2022."
+        },
+        {
+          "type": "bearish_order_block",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Weekly 1.3600 - 1.3800 range",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Weekly 1.3100 - 1.3200 range",
+          "timeframe": "WEEKLY",
+          "details": "Price recently tested this block."
+        },
+        {
+          "type": "bearish_order_block",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Daily 1.3500 - 1.3550 range",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "bullish_order_block",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Daily 1.3200 - 1.3250 range",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 1,
+          "anchor": "EURUSD Monthly 1.2083 (BS1)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "swing_low",
+          "confidence": 1,
+          "anchor": "EURUSD Monthly 1.0179 (SS1)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "equilibrium_price",
+          "confidence": 1,
+          "anchor": "EURUSD Monthly 1.1214 (EQC)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "resistance_level",
+          "confidence": 1,
+          "anchor": "EURUSD Weekly 1.2083 (BS1)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "resistance_level",
+          "confidence": 1,
+          "anchor": "EURUSD Weekly 1.1849 (BS2)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "support_level",
+          "confidence": 1,
+          "anchor": "EURUSD Weekly 1.1410 (SS1)",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 1,
+          "anchor": "EURUSD Daily 1.1849 (BS2)",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_low",
+          "confidence": 1,
+          "anchor": "EURUSD Daily 1.1410 (SS1)",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 1,
+          "anchor": "EURUSD Daily 1.1708 (BS3)",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Monthly 1.3800 (mid-2024)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "swing_low",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Monthly 1.035 (late 2022)",
+          "timeframe": "MONTHLY"
+        },
+        {
+          "type": "resistance_level",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Weekly 1.3800",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "support_level",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Weekly 1.3100-1.3200 range",
+          "timeframe": "WEEKLY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Daily 1.3800",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_low",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Daily 1.3200",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "swing_high",
+          "confidence": 0.9,
+          "anchor": "GBPUSD Daily 1.3500-1.3600 range",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "bearish_fvg",
+          "confidence": 0.7,
+          "anchor": "EURUSD Weekly 1.1900-1.1950",
+          "timeframe": "WEEKLY",
+          "details": "Formed between late Jan and mid-Feb 2024, previously filled."
+        },
+        {
+          "type": "bearish_fvg",
+          "confidence": 0.8,
+          "anchor": "EURUSD Daily 1.1660-1.1700",
+          "timeframe": "DAILY",
+          "details": "Formed around May 15-17, price traded into it."
+        },
+        {
+          "type": "bullish_fvg",
+          "confidence": 0.7,
+          "anchor": "EURUSD Daily 1.1450-1.1490",
+          "timeframe": "DAILY",
+          "details": "Formed around June 4-6, mostly filled by subsequent candles."
+        },
+        {
+          "type": "bearish_fvg",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Weekly 1.3550-1.3650",
+          "timeframe": "WEEKLY",
+          "details": "Formed between late April and early May, price interacted with it."
+        },
+        {
+          "type": "bearish_fvg",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Daily 1.3500-1.3530",
+          "timeframe": "DAILY",
+          "details": "Formed around May 9-13, price traded into and respected it."
+        },
+        {
+          "type": "bullish_fvg",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Daily 1.3250-1.3280",
+          "timeframe": "DAILY",
+          "details": "Formed around June 3-5, price interacted with it."
+        },
+        {
+          "type": "bearish_breaker_block",
+          "confidence": 0.7,
+          "anchor": "EURUSD Daily 1.1700-1.1750",
+          "timeframe": "DAILY",
+          "details": "Last up-closed candle before the break below the 1.1620 swing low, following the 1.1849 swing high."
+        },
+        {
+          "type": "bearish_breaker_block",
+          "confidence": 0.7,
+          "anchor": "GBPUSD Daily 1.3400-1.3450",
+          "timeframe": "DAILY",
+          "details": "Last up-closed candle before the break below the 1.3400 swing lows, following the 1.3600 swing high."
+        },
+        {
+          "type": "liquidity_sweep",
+          "confidence": 0.8,
+          "anchor": "EURUSD Daily 1.1620 sell-side",
+          "timeframe": "DAILY",
+          "details": "Price swept liquidity below the 1.1620 swing low before reaching 1.1410 (SS1)."
+        },
+        {
+          "type": "liquidity_sweep",
+          "confidence": 0.8,
+          "anchor": "GBPUSD Daily 1.3400 sell-side",
+          "timeframe": "DAILY",
+          "details": "Price swept liquidity below the 1.3400 swing lows before reaching 1.3200."
+        },
+        {
+          "type": "liquidity_sweep",
+          "confidence": 0.7,
+          "anchor": "EURUSD Weekly 1.2083 buy-side",
+          "timeframe": "WEEKLY",
+          "details": "The rally to 1.2083 (BS1) appears to have swept buy-side liquidity above prior highs from mid-2023."
+        },
+        {
+          "type": "liquidity_sweep",
+          "confidence": 0.7,
+          "anchor": "GBPUSD Weekly 1.3800 buy-side",
+          "timeframe": "WEEKLY",
+          "details": "The rally to approximately 1.3800 appears to have swept buy-side liquidity above prior highs from late 2023."
+        }
+      ],
+      "references": [
+        "GROUNDED KNOWLEDGE",
+        "chunk_2106",
+        "chunk_4206",
+        "chunk_4234"
+      ],
+      "confidence": 0.9,
+      "notes": "1. SMT Divergence: Visually confirmed on Daily charts for EURUSD and GBPUSD (LL vs HL) as described in the GROUNDED KNOWLEDGE. Confidence 0.9 due to clear visual representation and explicit description. \n2. Market Structure Shifts (MSS/BOS): All shifts identified are clearly visible breaks of prior significant swing highs/lows, as detailed in GROUNDED KNOWLEDGE. Confidence ranges from 0.8-0.9 based on visual clarity of the break. \n3. Structural Blocks (Order Blocks): Bullish and Bearish Order Blocks identified on Monthly, Weekly, and Daily charts based on the definition of last opposite-colored candle before an impulse move (GROUNDED KNOWLEDGE Structural Blocks, CHUNK_ID:chunk_4234, CHUNK_ID:chunk_4206). Confidence 0.8-0.9 for clear formation and interaction. \n4. Swing Highs & Lows: Directly extracted from chart labels and clear visual peaks/troughs as mentioned in GROUNDED KNOWLEDGE. Confidence 0.9-1.0. \n5. Fair Value Gaps (FVG): Identified as three-candle patterns with wick-body-wick non-overlap. Some FVGs were noted as filled or interacted with, indicating their presence and subsequent reaction (no specific CHUNK_ID for FVG definition provided, but it's a core ICT concept). Confidence 0.7-0.8 based on clarity and interaction. \n6. Breaker Blocks (BB): Bearish Breakers were identified on Daily charts by following the 'swing high, swing low, higher swing high, then break below swing low' pattern (adapted from CHUNK_ID:chunk_2106's bullish breaker definition). The last up-closed candle before the break was marked. Confidence 0.7 as it requires specific sequence interpretation. \n7. Liquidity Sweeps: Identified where price visibly penetrated a prior swing high or low before reversing or continuing in the direction of the sweep (implicitly related to CHUNK_ID:chunk_4206 about liquidity pools). Confidence 0.7-0.8 for clear breaches."
+    },
+    "latency": 78261.94230000023,
+    "telemetry": {
+      "promptTokens": 4479,
+      "completionTokens": 4478,
+      "totalTokens": 21767
+    }
+  },
+  "openrouter": {
+    "modelUsed": "rekaai/reka-edge",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Identify potential HTF market structure facts and SMT Divergence signals based on visible chart patterns",
+          "chunk_id": "principle_1"
+        },
+        {
+          "rule": "Analyze EURUSD and GBPUSD market structures for bullish Order Blocks, bearish Order Blocks, and swing high/low patterns",
+          "chunk_id": "principle_2"
+        },
+        {
+          "rule": "Detect Fair Value Gaps (FVG) and Breaker Blocks (BB) using structural blocks analysis",
+          "chunk_id": "principle_3"
+        },
+        {
+          "rule": "Assess confidence levels for detected signals using visual clarity and historical reference data",
+          "chunk_id": "principle_4"
+        },
+        {
+          "rule": "Report findings as objective observations without bias or probabilities",
+          "chunk_id": "principle_5"
+        }
+      ],
+      "facts": [
+        {
+          "type": "possible_fvg",
+          "confidence": 0.8,
+          "anchor": "Daily Low FVG",
+          "timeframe": "DAILY"
+        },
+        {
+          "type": "potential_liquidity_sweep",
+          "confidence": 0.7,
+          "anchor": "Previous Week High",
+          "timeframe": "WEEKLY"
+        }
+      ],
+      "references": [
+        "CHUNK_ID:chunk_2444",
+        "CHUNK_ID:chunk_4234",
+        "CHUNK_ID:chunk_2106",
+        "CHUNK_ID:chunk_4019",
+        "CHUNK_ID:chunk_4206"
+      ],
+      "confidence": 0.9,
+      "notes": "Step-by-step analysis of live market observations, structural block patterns, and SMT divergence signals. Confidences reflect visual clarity and historical reference validation."
+    },
+    "latency": 3839.317300000228,
+    "telemetry": {
+      "promptTokens": 2951,
+      "completionTokens": 338,
+      "totalTokens": 3289
+    },
+    "estimatedCost": 0.003627
+  }
+}

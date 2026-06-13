@@ -1,0 +1,332 @@
+[
+  {
+    "chunk_id": "chunk_4118",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE)",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "two shallow runs",
+          "one above relative equal highs",
+          "one below a previous low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "SETUP_PHASE",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal highs",
+          "previous low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_CLUSTER_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "retracement"
+        ],
+        "narrative_roles": [
+          "PULLBACK_TO_VALUE",
+          "ENTRY_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING OTE AFTER SHALLOW RUNS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 09_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4119",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "FIBONACCI_ANCHOR",
+          "STOP_LOSS_REFERENCE"
+        ],
+        "temporal_tags": [
+          "leading into the New York session"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "FIBONACCI_ANCHOR"
+        ],
+        "temporal_tags": [
+          "leading into the New York session"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_LEVELS",
+        "confidence": 1,
+        "surface_terms": [
+          "70.5 level",
+          "62 percent retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop loss",
+          "placed at the high from which the retracement originated"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROTECTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "partial profit target",
+          "30 pips",
+          "50 pips",
+          "one half of a standard deviation of the dealing range"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion down",
+          "Further expansion down",
+          "makes a run"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "dealing range used for the Fibonacci"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "FIBONACCI_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "TIMING_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTING THE OPTIMAL TRADE ENTRY (OTE)",
+      "source_file": "OTE Pattern Recognition Series - Vol. 09_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4120",
+    "concepts": [
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "previous day's highs/lows",
+          "previous day's low or high",
+          "previous day's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [
+          "previous day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session trades",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "where the liquidity is going to be reaching"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "already been cleared"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INVALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "avoid needless risk",
+          "simply stay out"
+        ],
+        "narrative_roles": [
+          "STRATEGY_PRINCIPLE",
+          "TRADING_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SETUP_CLARITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "liquidity picture is not really clear",
+          "setup is clearer"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONCLUDING PRINCIPLES AND RISK MANAGEMENT",
+      "source_file": "OTE Pattern Recognition Series - Vol. 09_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "chunk_id": "chunk_893",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_INITIATOR"
+        ],
+        "temporal_tags": [
+          "8:30 a.m. to 11:00 a.m. Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term shift in Market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "8:30 a.m. to 11:00 a.m. Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING FRAMEWORK",
+      "source_file": "ICT Charter Price Action Model 13 - Charter Lecture On 2022 YouTube Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_894",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "PRICE_IMBALANCE",
+          "STOP_LOSS_REFERENCE"
+        ],
+        "temporal_tags": [
+          "5-MINUTE_CHART",
+          "1-MINUTE_CHART"
+        ],
+        "session_tags": [
+          "NY_PM",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIMIT_ORDER_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell limit order",
+          "buy limit order"
+        ],
+        "narrative_roles": [
+          "ORDER_PLACEMENT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "Stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "INVALIDATION_POINT",
+          "PROTECTION",
+          "ORDER_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FVG_DISCOUNT_REFERENCE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high of the discount low of the fair value gap",
+          "discount low of the fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_LEVEL",
+          "STOP_LOSS_LEVEL",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FVG_PREMIUM_REFERENCE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of the premium high of the fair value gap",
+          "premium high of the fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_LEVEL",
+          "STOP_LOSS_LEVEL",
+          "PRICE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PM SESSION ENTRY AND STOP LOSS RULES",
+      "source_file": "ICT Charter Price Action Model 13 - Charter Lecture On 2022 YouTube Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_895",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD arrays",
+          "discount PD array"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "RANGE_REFERENCE",
+          "PROFIT_TARGET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "RANGE_REFERENCE",
+          "PROFIT_TARGET_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "dealing range"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "fair value gap",
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous day low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PROFIT_TARGET_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING LOGIC",
+      "source_file": "ICT Charter Price Action Model 13 - Charter Lecture On 2022 YouTube Model_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_896",
+    "concepts": [
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "News or embargo lifts",
+          "high or medium impact news is released"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [
+          "8:30 a.m. Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "US equities markets open"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST"
+        ],
+        "temporal_tags": [
+          "9:30 a.m. Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING AM SESSION TRADES",
+      "source_file": "ICT Charter Price Action Model 13 - Charter Lecture On 2022 YouTube Model_Handbook.chunks.json"
+    }
+  }
+]

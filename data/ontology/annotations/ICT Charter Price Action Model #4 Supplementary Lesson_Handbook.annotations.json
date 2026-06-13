@@ -1,0 +1,319 @@
+[
+  {
+    "chunk_id": "chunk_847",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "overall price or market structure",
+          "market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_SETUP_VALIDATION"
+        ],
+        "temporal_tags": [
+          "DAILY_TIMEFRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT Divergence",
+          "if the Euro Dollar fails to make a higher high while the British Pound makes a higher high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running out an older high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Model 4"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE AND MARKET STRUCTURE ON THE DAILY CHART",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_848",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "SMT Divergence with the Dollar Index",
+          "higher high in the Cable (British Pound versus Dollar)",
+          "British Pound futures",
+          "lower high in the mirrored Dollar",
+          "failed lower low",
+          "higher low on the Dollar Index"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE WITH THE DOLLAR INDEX",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_849",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "daily equal low",
+          "old sell-side liquidity pool"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "monthly candle expansion on the downside",
+          "The expectation is to see monthly candle expansion on the downside"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "PRICE_DELIVERY_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_DATA_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "COOT hedging program",
+          "commercials hold a heavy net short position",
+          "COOT data interpretation"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "INSTITUTIONAL_SENTIMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCY",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendency"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_BIAS",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET EXPECTATIONS AND CONFLUENCE",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_850",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Commercials pair orders above an old high",
+          "Buy stops are triggered",
+          "high pool of liquid participants willing to buy"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "COUNTERPARTY_GENERATION",
+          "PRELUDE_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Commercials",
+          "Smart money",
+          "we do the same"
+        ],
+        "narrative_roles": [
+          "MARKET_ACTOR",
+          "STRATEGIC_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_INDUCEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breakout artists buy the breakout",
+          "high pool of liquid participants willing to buy"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_PROVISION",
+          "MISDIRECTION",
+          "RETAIL_TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIAL POSITIONING AND LIQUIDITY",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_851",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF COMPREHENSIVE MODEL STUDY",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_852",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GRADUATED UNDERSTANDING AND LEARNING PROCESS",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_853",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FLEXIBILITY IN TOOL SELECTION AND DATA INTERPRETATION",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_854",
+    "concepts": [
+      {
+        "canonical": "COMMITMENT_OF_TRADERS_REPORT_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "commercials' red line",
+          "COOT hedging program perspective",
+          "cotbase.com"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS",
+          "FUNDAMENTAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "six-month",
+          "twelve-month",
+          "multi-year"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "quarterly shift",
+          "Every three months or so, a significant quarterly shift and price swing is expected"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "MARKET_CYCLE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "Every three months"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "seasonal tendencies",
+          "current quarter's seasonal tendencies"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "current quarter"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "COMMERCIALS' LINE AND QUARTERLY SHIFTS",
+      "source_file": "ICT Charter Price Action Model #4 Supplementary Lesson_Handbook.chunks.json"
+    }
+  }
+]

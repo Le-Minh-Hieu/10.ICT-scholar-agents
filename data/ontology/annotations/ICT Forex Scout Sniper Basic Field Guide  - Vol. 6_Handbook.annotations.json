@@ -1,0 +1,626 @@
+[
+  {
+    "chunk_id": "chunk_1356",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 1,
+        "surface_terms": [
+          "FIB PROJECTIONS",
+          "Downside fib levels (127, 162, 200 extension)",
+          "127 extension",
+          "162 extension",
+          "200 extension",
+          "preference for the 162 extension",
+          "reliable Further targets",
+          "multiple targeting methods"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_PROJECTION",
+          "RELIABILITY_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MULTI-TIMEFRAME",
+          "15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_IDENTIFICATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "a swing is identified",
+          "its break below a low",
+          "establishes a fulcrum point"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_ANALYSIS",
+          "SETUP_IDENTIFICATION_CONTEXT",
+          "REFERENCE_POINT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MULTI-TIMEFRAME FIB PROJECTIONS AND TARGET PREFERENCES",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1357",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_PREMIUM_ARRAYS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "wholesale prices",
+          "retail levels"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TARGET_AREA",
+          "PRICE_DELIVERY_MODEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_STOP",
+        "confidence": 1,
+        "surface_terms": [
+          "time stop"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION_TARGETS",
+        "confidence": 1,
+        "surface_terms": [
+          "fib extensions (127, 162)"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PROJECTION_TOOL",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGHS_LOWS_REFERENCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old highs/lows"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "LIQUIDITY_REFERENCE",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time and day of week"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FACTOR",
+          "TRADE_FILTER",
+          "MARKET_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "IMPLICIT_TIME_OF_DAY",
+          "IMPLICIT_DAY_OF_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "pre-determined area to cut losses short"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "INVALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT AND MARKET CONVICTION",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1358",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK PERCENTAGE",
+          "risk is often cited as 2% of equity per trade",
+          "ICT suggests working within 1% of equity per trade, or ideally less",
+          "1% risk",
+          "2% risk"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "TRADING_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 1,
+        "surface_terms": [
+          "PIP SIZING",
+          "This dollar amount is divided by the total pips needed to justify the trade",
+          "reduce stop risk",
+          "30-40 pips is ideal for developing traders",
+          "30-pip stop",
+          "$3.30 per pip"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MITIGATION",
+          "RISK_REDUCTION_STRATEGY"
+        ],
+        "temporal_tags": [
+          "daily chart",
+          "lower timeframes"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RISK PERCENTAGE AND PIP SIZING",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1359",
+    "concepts": [
+      {
+        "canonical": "TRAILING_STOP",
+        "confidence": 1,
+        "surface_terms": [
+          "Move stop to 20 pips risk",
+          "Move stop to 10 pips risk",
+          "Move stop to break-even",
+          "effective stop management"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_PROTECTION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market inefficiencies",
+          "price going down to gather"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DRIVER",
+          "LIQUIDITY_GENERATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_HUNT",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Rapidly moving stops behind market price risks being taken out by common intraday retracements"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_WARNING",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP-LOSS TRAILING AND VOLATILITY CONSIDERATIONS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1360",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT'S 15-MINUTE STOP TRAILING METHOD",
+          "stop management",
+          "London Stop Trailing Method",
+          "place the stop 10-15 pips below the second most recent swing low",
+          "keeps the stop away from static volatility that might otherwise tag it"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTIVE_MEASURE"
+        ],
+        "temporal_tags": [
+          "15-MINUTE"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "TRADING_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute timeframe",
+          "On a 15-minute chart"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "EXECUTION_TIMEFRAME"
+        ],
+        "temporal_tags": [
+          "15-MINUTE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_POINT",
+        "confidence": 1,
+        "surface_terms": [
+          "most recent swing low",
+          "previous swing low",
+          "second most recent swing low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STOP_LOSS_PLACEMENT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "maintaining market structure",
+          "higher highs, higher lows"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retrace (equivalent to successive 79% retracement levels)",
+          "79% retracement levels"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_EXPLANATION",
+          "PULLBACK_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_EVEN",
+        "confidence": 1,
+        "surface_terms": [
+          "after moving to break-even"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_RANGE_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "complete weekly perspective (Sunday to Friday)",
+          "Weekly high by Tuesday/Wednesday",
+          "weekly low by Monday/Tuesday/Wednesday"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "RANGE_IDENTIFICATION",
+          "HIGH_PROBABILITY_AREA"
+        ],
+        "temporal_tags": [
+          "WEEKLY",
+          "SUNDAY",
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "FRIDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S 15-MINUTE STOP TRAILING METHOD",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1361",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT TAKING, RISK MITIGATION",
+          "1:1 risk-reward",
+          "Maximize protection from losing money",
+          "30-pip stop",
+          "move the stop to break-even"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT TAKING",
+          "Taking Partial Profits",
+          "big portion of the move",
+          "not the absolute extremes"
+        ],
+        "narrative_roles": [
+          "PROFIT_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first profit target",
+          "127 extension",
+          "old high",
+          "second target"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "30-pip stop",
+          "let them come all the way down to your stop"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_EVEN_STOP",
+        "confidence": 1,
+        "surface_terms": [
+          "move the stop to break-even",
+          "get stopped out at break-even"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "loser's mentality",
+          "build emotional resilience",
+          "Do not move it further"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DISCIPLINE",
+          "EMOTIONAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "127 extension"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET_IDENTIFICATION",
+          "TECHNICAL_ANALYSIS_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "intraday fastest"
+        ],
+        "narrative_roles": [
+          "TRADE_TYPE",
+          "TIME_HORIZON"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING, RISK MITIGATION, AND PRACTICE EXERCISES",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1362",
+    "concepts": [
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.95,
+        "surface_terms": [
+          "15-minute time frame"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "EXECUTION_PARAMETER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop-loss trailing",
+          "place the stop",
+          "Stop-loss management"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lowest of the two most recent swing lows",
+          "highest of the two most recent swing highs"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TAKING, RISK MITIGATION, AND PRACTICE EXERCISES",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1363",
+    "concepts": [
+      {
+        "canonical": "SYSTEMATIC_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "blueprint/flowchart format",
+          "if-then scenario structure",
+          "guide traders from beginning to end stages",
+          "consistent mindset",
+          "internalizing the flowchart and operating by habit",
+          "generic setups"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY",
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "CONSISTENCY_DEVELOPMENT",
+          "TRADE_STRUCTURING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXIT_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Setting limit orders at logical price levels for exits"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EPISODE 7 & 8 PREVIEWS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide  - Vol. 6_Handbook.chunks.json"
+    }
+  }
+]

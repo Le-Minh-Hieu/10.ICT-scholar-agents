@@ -1,0 +1,510 @@
+[
+  {
+    "chunk_id": "chunk_2323",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "run stops above highs and below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 1,
+        "surface_terms": [
+          "price delivery"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANICS",
+          "EFFICIENCY_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOUBLE_TOP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "double tops",
+          "two highs are in close proximity, indicating a double top"
+        ],
+        "narrative_roles": [
+          "RETAIL_CONCEPT_INTEGRATION",
+          "LIQUIDITY_INDUCEMENT_PATTERN",
+          "POTENTIAL_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity pools"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "ORDER_FLOW_CONTEXT",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_BUILDUP",
+          "RANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S BLEND OF INSTITUTIONAL AND RETAIL PERSPECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Double Bottom Double Top_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2324",
+    "concepts": [
+      {
+        "canonical": "DOUBLE_TOP_LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "EXECUTING THE DOUBLE TOP LIQUIDITY RUN",
+          "double top buy stop liquidity run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "INITIAL_TARGET",
+          "PRICE_DRAWS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAWS",
+          "IMBALANCE_FILL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAWS",
+          "SUPPORT_LEVEL",
+          "POTENTIAL_REVERSAL_POINT",
+          "DECEPTIVE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOUBLE_TOP",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs (double top)",
+          "double top"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_IDENTIFIER",
+          "SWING_POINT_LIQUIDITY",
+          "TARGET_FOR_SWEEP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops",
+          "clear buy stops",
+          "buy stops are liquidated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_SWEEP",
+          "LIQUIDATION_EVENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAWS",
+          "IMBALANCE_FILL",
+          "TARGET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block candle",
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAWS",
+          "RESISTANCE_LEVEL",
+          "REVERSAL_POINT",
+          "ENGINEERED_RESISTANCE",
+          "ENTRY_POINT_FOR_INSTITUTIONS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "'blown out'",
+          "clear buy stops",
+          "buy stops are liquidated",
+          "liquidated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REMOVAL",
+          "STOP_LOSS_TRIGGER",
+          "STOP_HUNT_RESULT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_LOWS_LIQUIDITY_RUN",
+        "confidence": 1,
+        "surface_terms": [
+          "run on liquidity below previous lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTINUATION_OR_REVERSAL_FOLLOW_UP",
+          "MARKET_STRUCTURE_SHIFT_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXECUTING THE DOUBLE TOP LIQUIDITY RUN",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Double Bottom Double Top_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2325",
+    "concepts": [
+      {
+        "canonical": "DOUBLE_TOP",
+        "confidence": 1,
+        "surface_terms": [
+          "double top"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POINT",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "the last down candle before an up move"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "INSTITUTIONAL_FOOTPRINT",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_MENTALITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Retail traders perceive this double top as resistance and place protective buy stops above it, anticipating a sell-off.",
+          "deceiving retail traders into selling"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE_IDENTIFICATION",
+          "OPPOSING_MARKET_VIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "protective buy stops",
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "running buy stops",
+          "runs out liquidity below lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_LOSS_HUNTING",
+          "PRICE_MANIPULATION",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 1,
+        "surface_terms": [
+          "MEASURED MOVES",
+          "measuring the distance from the high of the double top down to the low between the two peaks. This measurement is then projected upwards from the double top",
+          "projected measured move objective",
+          "hitting the objective"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGETING",
+          "ALGORITHMIC_DELIVERY",
+          "OBJECTIVE_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "MOMENTUM DIVERGENCE",
+          "momentum divergence will be observed"
+        ],
+        "narrative_roles": [
+          "DECEPTION_TOOL",
+          "LIQUIDITY_ENGINEERING_INDICATION",
+          "RETAIL_FOOLING_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_VIEW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "from an institutional view"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "TRUE_MARKET_INTENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "determine the algorithmic"
+        ],
+        "narrative_roles": [
+          "PRICE_DISCOVERY",
+          "MARKET_EFFICIENCY_MECHANISM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEASURED MOVES AND MOMENTUM DIVERGENCE",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Double Bottom Double Top_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2326",
+    "concepts": [
+      {
+        "canonical": "MEASURED_MOVE",
+        "confidence": 1,
+        "surface_terms": [
+          "MEASURED MOVES",
+          "measure the distance from the high between the two troughs down to the low of the double bottom. This range is then projected downwards from the double bottom.",
+          "This projection"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_OBJECTIVE",
+        "confidence": 1,
+        "surface_terms": [
+          "ALGORITHMIC OBJECTIVES",
+          "algorithmic objective",
+          "specific price level where the algorithm will seek to expand and take out downside liquidity",
+          "hitting this objective"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOUBLE_BOTTOM",
+        "confidence": 1,
+        "surface_terms": [
+          "double bottom",
+          "low of the double bottom",
+          "a double bottom"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "RETAIL_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops will accumulate below these lows",
+          "downside liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out downside liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOUBLE_TOP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "double top reference point"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_REFERENCE_POINT",
+          "POTENTIAL_LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_CONCEPT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Retail traders perceive a double bottom as support, expecting price to rally away"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MEASURED MOVES AND ALGORITHMIC OBJECTIVES",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Double Bottom Double Top_Handbook.chunks.json"
+    }
+  }
+]

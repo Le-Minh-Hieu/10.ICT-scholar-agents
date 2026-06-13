@@ -1,0 +1,519 @@
+[
+  {
+    "chunk_id": "chunk_118",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run the relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Objectives given were around 102, 103 for the rally"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London setup"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "TEMPORAL_BIAS",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX (DXY) FORECAST REVIEW",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_119",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relationship between the Dollar Index price move and the E-mini S&P futures",
+          "DXY AND E-MINI S&P"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVERSE_CORRELATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "inverted relationship"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily bearish order block"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "POI"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONALITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seasonal decline",
+          "Entering May"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "PREDICTIVE_TOOL"
+        ],
+        "temporal_tags": [
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relatively equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY AND E-MINI S&P",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_120",
+    "concepts": [
+      {
+        "canonical": "BUILDING_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BUILDING BIAS",
+          "public forecast",
+          "forecasts",
+          "bullish"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Intermarket relationships",
+          "intermarket analysis"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "May's seasonal"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "May"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "99.92 level for the dollar"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIMPLIFYING CONCEPTS AND BUILDING BIAS",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_121",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block",
+          "order block",
+          "high of the order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "BASIS_OF_BIAS",
+          "POTENTIAL_REVERSAL_ZONE",
+          "RESISTANCE_LEVEL",
+          "BIAS_CONFIRMATION",
+          "VALIDATION_OF_PREMISE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "next draw on liquidity",
+          "next targets",
+          "run below these levels for sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side below",
+          "sell-side liquidity",
+          "run below these levels for sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ANCHOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "May",
+          "entered May"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_TIMING"
+        ],
+        "temporal_tags": [
+          "MAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "E-MINI S&P BEARISH ORDER BLOCK AND LIQUIDITY TARGETS",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_122",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "'Power of Three'",
+          "accumulation",
+          "manipulation",
+          "distribution"
+        ],
+        "narrative_roles": [
+          "PATTERN_IDENTIFICATION",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Monday's high",
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rally above Monday's high, but it failed and accelerated downwards"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [
+          "MONDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "likely target"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "midnight hour (New York time) opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_OPEN_SIGNAL"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_HOUR"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consolidation",
+          "a drop",
+          "a rally",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY RANGE ANALYSIS AND \"POWER OF THREE\" OBSERVATIONS",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_123",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "'Power of Three' move"
+        ],
+        "narrative_roles": [
+          "MARKET_FRAMEWORK",
+          "DAILY_BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market broke down"
+        ],
+        "narrative_roles": [
+          "TREND_INITIATION",
+          "BEARISH_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "3 AM"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "BEARISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_DRAW",
+          "ENTRY_POINT",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "LIQUIDITY_DRAW",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME ZONE SETTINGS AND SESSION BREAKDOWN",
+      "source_file": "2022 ICT Mentorship Episode 21_Handbook.chunks.json"
+    }
+  }
+]

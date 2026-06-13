@@ -1,0 +1,304 @@
+[
+  {
+    "chunk_id": "chunk_4143",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "OTE",
+          "Optimal Trade Entry Pattern Recognition Series",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retail resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_LEVEL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET_AREA",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OTE PATTERN RECOGNITION SERIES VOL. 17: BRITISH POUND EXAMPLE",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4144",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "8:30 a.m. to 11:00 a.m. New York session"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW_DEFINITION",
+          "HIGH_PROBABILITY_WINDOW",
+          "OPERATIONAL_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "8:30 a.m.",
+          "11:00 a.m."
+        ],
+        "session_tags": [
+          "New York session",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "INTRADAY TRADING FOCUS"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE_DEFINITION",
+          "SCOPE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTRADAY TRADING FOCUS AND SESSION TIMING",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4145",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING DAILY HIGHS AS A DRAW ON PRICE",
+          "highs to draw price up",
+          "draw price up",
+          "draw on price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "PREDICTIVE_BIAS_DEVELOPMENT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "daily highs",
+          "daily high",
+          "last Friday's daily range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [
+          "daily",
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING DAILY HIGHS AS A DRAW ON PRICE",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4146",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY (OTE)",
+          "Optimal Trade Entry price swing"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "PRECISION_ENTRY",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "8:30 a.m."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62% retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_DRAW",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "8:30 a.m."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) EXECUTION",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4147",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop-loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROTECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "this low"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "LIQUIDITY_POINT",
+          "STOP_PLACEMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old high"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "SUPPORT_RESISTANCE",
+          "STOP_PLACEMENT_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HYPOTHETICAL ENTRY AND STOP-LOSS CALCULATION",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4148",
+    "concepts": [
+      {
+        "canonical": "EXIT_CRITERION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rules for this model state we have to bail on the day trade at 2 standard deviations"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "RULE_ADHERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RUNNER_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "leave a 'leader' a small portion of your original position"
+        ],
+        "narrative_roles": [
+          "PROFIT_MAXIMIZATION",
+          "TRADE_MANAGEMENT",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXTUAL_ANALYSIS",
+          "STRUCTURAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADHERING TO TRADING RULES VS. MAXIMIZING GAINS",
+      "source_file": "OTE Pattern Recognition Series - Vol.17_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-06-13T11:57:14.426Z",
+  "agentType": "LTF-Structure-Agent",
+  "currentCallId": "LTF-Structure-Agent-LTF-Structure-Agent-1781351735281-40",
+  "prompt": "## ROLE\nYou are an ICT LTF structure FACT EXTRACTION system. Do NOT infer bias or probabilities.\n\n## TASK\nIdentify ALL potential LTF market structure facts (MSS, CISD, Displacement, Sweeps). Analyze micro structure (M15 → M5 → M1) and output ONLY objective observations.\n\n## PROBABILISTIC CONTEXT ANCHOR (FROM H4)\n- Suggested Bias: suggests_bearish (Confidence: 0.65)\n- Summary: The H4 timeframe suggests a potential conclusion or reversal of the current bullish retracement, indicated by the formation of equal highs around 1.1588-1.1590 coupled with a bearish SMT divergence. While the overall Daily context still anticipates a retracement towards the 1.1600-1.1650 Daily Bearish FVG, the H4 exhibits signs of weakening bullish momentum and consolidation, potentially signaling a resumption of the dominant higher timeframe bearish trend from the lower boundary of this FVG target.\n- Key Anchors: H1 Equal Highs / Resistance at ~1.1588-1.1590, Bearish SMT Divergence (EURUSD vs GBPUSD) at recent highs, Daily Bearish FVG at ~1.1600-1.1650 (higher timeframe magnet), H4/H1 Dealing Range Discount (current price ~1.1567 is slightly below equilibrium of 1.1571)\n- Shift Conditions: A sustained break and close above the 1.1590-1.1600 level, particularly if accompanied by strong bullish displacement and an invalidation of the bearish SMT, would suggest a continuation of the retracement deeper into the Daily Bearish FVG (towards 1.1600-1.1650). Conversely, a clear break and close below the recent H4 consolidation lows (e.g., ~1.1560) would strongly confirm the immediate bearish bias for the H4 timeframe.\n\nIMPORTANT: This is a contextual anchor, NOT an absolute truth. Look for evidence that aligns with this anchor, but also actively seek signals that might indicate a local reversal or retracement against it.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the LIVE ICT market structure observations on the Low Time Frames (M15, M5, M1) from the provided charts:\n\n**EURUSD M15 Chart Observations:**\n\n*   **Market Structure Shifts (MSS / BOS)**:\n    *   A significant bullish Market Structure Shift occurred around 13:00 (chart time), breaking several prior swing highs with strong displacement.\n    *   Around 04:00 (next day), price broke below a swing low, indicating a short-term bearish shift in market structure.\n    *   A subsequent bullish break of structure occurred around 08:00.\n    *   From approximately 12:00 onwards, price initiated a series of bearish breaks of structure, consistently moving lower.\n*   **Displacement & Strong Moves**:\n    *   A very strong bullish displacement is evident between 13:00 and 14:00, characterized by large, consecutive green candles.\n    *   From approximately 12:00 to 17:00, there are several strong bearish displacements, indicated by long-bodied red candles driving price lower.\n*   **Structural Blocks & Gaps**:\n    *   A large bullish Fair Value Gap (FVG) was created during the strong bullish displacement around 13:00-14:00, which price later traded back into.\n    *   Multiple bearish Fair Value Gaps are forming during the recent bearish leg from 12:00 onwards.\n\n**EURUSD M5 Chart Observations:**\n\n*   **Market Structure Shifts (MSS / BOS)**:\n    *   The bullish market structure shift observed on M15 is clearly detailed with multiple M5 bullish breaks of structure around 13:00-14:00.\n    *   A clear bearish break of structure occurred around 04:00, followed by a bullish break around 08:00.\n    *   From approximately 14:00 onwards, price exhibits consistent bearish market structure shifts, breaking below consecutive swing lows.\n*   **Displacement & Strong Moves**:\n    *   The initial strong bullish impulse (left side of the chart) shows significant displacement with large green candles.\n    *   The recent price action from 14:00 demonstrates strong bearish displacement with multiple consecutive long-bodied red candles.\n*   **Structural Blocks & Gaps**:\n    *   Numerous bullish Fair Value Gaps are visible during the early bullish impulse.\n    *   Multiple bearish Fair Value Gaps are forming and being respected during the recent downward price action from 14:00 onwards.\n\n**EURUSD M1 Chart Observations:**\n\n*   **Market Structure Shifts (MSS / BOS)**:\n    *   The recent price action (from 14:30 onwards) shows continuous bearish market structure shifts, with price breaking below micro swing lows multiple times.\n    *   Around 16:00, there was a minor attempt at a bullish break of structure, but price quickly reverted to bearish.\n    *   Following 16:30, price resumed bearish breaks of structure, confirming a downward trend on this timeframe.\n*   **Change in State of Delivery (CISD)**:\n    *   The brief bullish attempt around 16:00 failed to sustain, with price quickly breaking below the swing low that formed, indicating a failure to maintain bullish delivery.\n*   **Displacement & Strong Moves**:\n    *   Several instances of strong bearish displacement are present (e.g., around 15:00, 15:30, 16:45), characterized by sequences of large bearish candles.\n*   **Structural Blocks & Gaps**:\n    *   Numerous bearish Fair Value Gaps (FVGs) are continuously forming and being traded into or through during the sustained bearish movements (e.g., around 15:00, 15:30, 16:45). These gaps are part of the bearish price delivery.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_417]\nREACCUMULATION AND PREFERRED ENTRY\nThe 15-minute timeframe shows clearer detail of the low and a fair value gap. One fair value gap was favored over another. This setup aligns with a market maker buy model: original consolidation, distribution, redistribution, smart money reversal, low-risk buy accumulation, followed by reaccumulation to clear the original consolidation. The preference was for a second stage reaccumulation, meaning a deeper drop into a specific area before a springboard rally. This strategy of 'forcing the market to come to me' carries the risk of missing the trade, which happened today. While a deeper drop into the fair value gap at 9:30 was desired to clear sell side, it was too shallow for participation.\n\n[CHUNK_ID:chunk_345]\nIDENTIFYING FAIR VALUE GAPS (FVG) AFTER DISPLACEMENT\nAfter a swing high is taken out and an energetic break below it occurs: Look for a clear Fair Value Gap (FVG) formed by a smashing down movement. The low, the high, and if price trades back up into that FVG, you look for a short entry. Target the sell-side liquidity resting below the swing low identified prior to 8:30 AM.\n\n[CHUNK_ID:chunk_2106]\nEURUSD HOURLY\nA 'breaker' pattern is identified: swing low, swing high, then a swing low that is lower than the previous one, leading into relative equal lows. Within this range, an order block, a breaker, and a buy side imbalance Any of these PD arrays can be utilized as a 'multiplier' in analysis. Price rallied, opened, traded down to hit the breaker, then rallied nicely through the weekly inversion fair Ideally, a re-touch of the inversion fair value gap would provide further confirmation, similar to a previous With the current gap, it's critical that the high of the candle (which is the low of the busy/buy side inefficiency) or its consequent encroachment (midpoint of the shaded area) is not traded through. As long as price remains above these levels, a bullish outlook for EURUSD is maintained.\n\n[CHUNK_ID:chunk_164]\nDISPLACEMENT AND FAIR VALUE GAP\nSo that area right there, as soon as you run above the relative equal highs, in your mind, you're looking for, 'Where's the trigger?' Because until it takes out that short-term low, there's nothing going on. There's no trade there, there's no setup there. Then, when there's displacement, that displacement leg in price action, that right there is your foundation to the setup. That's it. Once you have that, then you can go into that area and look for the fair value gap. That's the logic, that's the pattern, that's what you're looking for. This is if it's bearish. Now, if those relative equal highs would have been traded through this morning, I would have expected this scenario. Okay? Before it ran those relative equal highs, I was looking for, like down here, price was trading down into that area. I was showing you my interest, 'Today I'm watching this,' where it was likely to go down to. This is kind of like the low in my mind. I'm kind of using it as an example of what I was expecting price to do once it got down into that fair value gap that I was saying, 'I'm watching this,' that little arrow. Okay, I showed that little gap. I was expecting this type of movement to set up the run above those relative equal highs, but there was no movement here to set up that run either.\n\n[CHUNK_ID:chunk_3580]\nICT BEARISH PATTERN #1: OPTIMAL TRADE ENTRY (OTE)\nPrice bounces off a higher time frame premium array. An impulse swing creates a Fair Value Gap near the swing high. A short-term high forms in the market structure and fails to drop lower after equal lows or a lower low is Price rallies up into the Fair Value Gap and above a short-term high forming after the impulse swing forms.\n\n[CHUNK_ID:chunk_429]\nFAIR VALUE GAP AS DYNAMIC SUPPORT\nThe five-minute Fair Value Gap is now above the current price level. In a correct bullish narrative, when price is above a Fair Value Gap, it tends to act as support. This behavior is contrasted with classic support and resistance, which 'hardly ever works'. The FVG is the expected mechanism for support in this scenario.\n\n## INPUT CONTEXT\nLTF Structure Fact Extraction (M15 -> M5 -> M1)\n\n## CONSTRAINTS\n- MANDATORY OUTPUT: An array of VisionFact objects for each detected element.\n- Detect Market Structure Shifts (MSS) and Change in State of Delivery (CISD).\n- Detect Displacement (strong moves) and Liquidity Sweeps.\n- Detect LTF Fair Value Gaps (FVG).\n- Assign a confidence score (0.0-1.0) to each fact based on visual clarity.\n- Preserve AMBIGUITY: Use types like 'possible_mss', 'potential_sweep' if not 100% clear.\n- DO NOT infer macro bias; focus ONLY on what is visible on the LTF charts.\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"facts\": [\n        {\"type\": \"possible_mss\", \"confidence\": 0.75, \"anchor\": \"M15 Swing High\", \"timeframe\": \"M15\"},\n        {\"type\": \"confirmed_fvg\", \"confidence\": 0.95, \"anchor\": \"M5 Displacement Gap\", \"timeframe\": \"M5\"}\n      ],\n      \"references\": [\"CHUNK_ID:...\"],\n      \"confidence\": 0.7,\n      \"notes\": \"Step-by-step reasoning for micro-fact extraction\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 11:56:32 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Market Structure Shift (MSS) is identified when price breaks a prior swing high (bullish) or a prior swing low (bearish), often indicating a change in the prevailing trend on that timeframe.\",\n      \"chunk_id\": \"CHUNK_345, CHUNK_164\"\n    },\n    {\n      \"rule\": \"Displacement refers to strong, energetic price movements, often characterized by large-bodied, consecutive candles, which typically occur after a liquidity event or prior to a market structure shift, often leaving behind inefficiencies like Fair Value Gaps.\",\n      \"chunk_id\": \"CHUNK_345, CHUNK_164\"\n    },\n    {\n      \"rule\": \"A Fair Value Gap (FVG) is a three-candle pattern where the high of the first candle and the low of the third candle do not overlap the middle candle's body, creating an inefficiency or void in price delivery. These can act as areas for price to retrace to or through.\",\n      \"chunk_id\": \"CHUNK_345, CHUNK_3580, CHUNK_429\"\n    },\n    {\n      \"rule\": \"Change in State of Delivery (CISD) occurs when price attempts to deliver in one direction (e.g., bullish attempt) but fails to sustain the movement, indicating a shift in delivery preference, often accompanied by a swift reversal and break of an opposing swing point.\",\n      \"chunk_id\": \"N/A - Derived from M1 live observation of failed bullish attempt\"\n    }\n  ],\n  \"facts\": [\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M15 swing highs around 13:00\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bullish\",\n      \"observation\": \"A significant bullish Market Structure Shift occurred around 13:00, breaking several prior swing highs.\"\n    },\n    {\n      \"type\": \"confirmed_displacement\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M15 price action between 13:00 and 14:00\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bullish\",\n      \"observation\": \"A very strong bullish displacement is evident between 13:00 and 14:00, characterized by large, consecutive green candles.\"\n    },\n    {\n      \"type\": \"confirmed_fvg\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M15 13:00-14:00 displacement\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bullish\",\n      \"observation\": \"A large bullish Fair Value Gap (FVG) was created during the strong bullish displacement around 13:00-14:00, which price later traded back into.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M15 swing low around 04:00 (next day)\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bearish\",\n      \"observation\": \"Around 04:00, price broke below a swing low, indicating a short-term bearish shift in market structure.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M15 swing high around 08:00\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bullish\",\n      \"observation\": \"A subsequent bullish break of structure occurred around 08:00.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M15 swing lows from 12:00 onwards\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bearish\",\n      \"observation\": \"From approximately 12:00 onwards, price initiated a series of bearish breaks of structure, consistently moving lower.\"\n    },\n    {\n      \"type\": \"confirmed_displacement\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M15 price action from 12:00 to 17:00\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bearish\",\n      \"observation\": \"From approximately 12:00 to 17:00, there are several strong bearish displacements, indicated by long-bodied red candles driving price lower.\"\n    },\n    {\n      \"type\": \"confirmed_fvg\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M15 bearish leg from 12:00 onwards\",\n      \"timeframe\": \"M15\",\n      \"direction\": \"bearish\",\n      \"observation\": \"Multiple bearish Fair Value Gaps are forming during the recent bearish leg from 12:00 onwards.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M5 multiple swing highs around 13:00-14:00\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bullish\",\n      \"observation\": \"The bullish market structure shift observed on M15 is clearly detailed with multiple M5 bullish breaks of structure around 13:00-14:00.\"\n    },\n    {\n      \"type\": \"confirmed_displacement\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M5 initial strong bullish impulse (left side)\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bullish\",\n      \"observation\": \"The initial strong bullish impulse shows significant displacement with large green candles.\"\n    },\n    {\n      \"type\": \"confirmed_fvg\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M5 early bullish impulse\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bullish\",\n      \"observation\": \"Numerous bullish Fair Value Gaps are visible during the early bullish impulse.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M5 swing low around 04:00\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bearish\",\n      \"observation\": \"A clear bearish break of structure occurred around 04:00.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M5 swing high around 08:00\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bullish\",\n      \"observation\": \"A bullish break of structure occurred around 08:00.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M5 consecutive swing lows from 14:00 onwards\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bearish\",\n      \"observation\": \"From approximately 14:00 onwards, price exhibits consistent bearish market structure shifts, breaking below consecutive swing lows.\"\n    },\n    {\n      \"type\": \"confirmed_displacement\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M5 price action from 14:00 onwards\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bearish\",\n      \"observation\": \"The recent price action from 14:00 demonstrates strong bearish displacement with multiple consecutive long-bodied red candles.\"\n    },\n    {\n      \"type\": \"confirmed_fvg\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M5 recent downward price action from 14:00 onwards\",\n      \"timeframe\": \"M5\",\n      \"direction\": \"bearish\",\n      \"observation\": \"Multiple bearish Fair Value Gaps are forming and being respected during the recent downward price action from 14:00 onwards.\"\n    },\n    {\n      \"type\": \"confirmed_mss\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M1 micro swing lows from 14:30 onwards\",\n      \"timeframe\": \"M1\",\n      \"direction\": \"bearish\",\n      \"observation\": \"The recent price action (from 14:30 onwards) shows continuous bearish market structure shifts, with price breaking below micro swing lows multiple times.\"\n    },\n    {\n      \"type\": \"confirmed_displacement\",\n      \"confidence\": 0.95,\n      \"anchor\": \"M1 price action around 15:00, 15:30, 16:45\",\n      \"timeframe\": \"M1\",\n      \"direction\": \"bearish\",\n      \"observation\": \"Several instances of strong bearish displacement are present (e.g., around 15:00, 15:30, 16:45), characterized by sequences of large bearish candles.\"\n    },\n    {\n      \"type\": \"confirmed_fvg\",\n      \"confidence\": 0.90,\n      \"anchor\": \"M1 sustained bearish movements\",\n      \"timeframe\": \"M1\",\n      \"direction\": \"bearish\",\n      \"observation\": \"Numerous bearish Fair Value Gaps (FVGs) are continuously forming and being traded into or through during the sustained bearish movements (e.g., around 15:00, 15:30, 16:45).\"\n    },\n    {\n      \"type\": \"possible_mss\",\n      \"confidence\": 0.85,\n      \"anchor\": \"M1 swing high around 16:00\",\n      \"timeframe\": \"M1\",\n      \"direction\": \"bullish (failed)\",\n      \"observation\": \"Around 16:00, there was a minor attempt at a bullish break of structure, but price quickly reverted to bearish.\"\n    },\n    {\n      \"type\": \"confirmed_cisd\",\n      \"confidence\": 0.85,\n      \"anchor\": \"M1 failed bullish attempt around 16:00\",\n      \"timeframe\": \"M1\",\n      \"direction\": \"bearish\",\n      \"observation\": \"The brief bullish attempt around 16:00 failed to sustain, with price quickly breaking below the swing low that formed, indicating a failure to maintain bullish delivery.\"\n    }\n  ],\n  \"references\": [\n    \"CHUNK_345\",\n    \"CHUNK_429\",\n    \"CHUNK_164\",\n    \"CHUNK_3580\"\n  ],\n  \"confidence\": 0.95,\n  \"notes\": \"The extraction process systematically analyzed the provided M15, M5, and M1 'LIVE MARKET OBSERVATIONS'. For each timeframe, specific instances of Market Structure Shifts (MSS), Displacement, Fair Value Gaps (FVG), and Change in State of Delivery (CISD) were identified based on the explicit descriptions. Confidence scores reflect the clarity and directness of the observation statements. 'Confirmed' types were used when the observation explicitly described a clear structural event, while 'possible_mss' was used for a described attempt that ultimately failed. No liquidity sweeps were explicitly described in the 'LIVE MARKET OBSERVATIONS', therefore none were extracted. Principles for each structure type were derived from the 'GROUNDED KNOWLEDGE' and applied to categorize the observations. The process strictly adhered to objective observation without inferring bias.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.35211272500552426
+        }
+      ],
+      "createTime": "2026-06-13T11:56:00.872116Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "UEUtarSdNey3trIPocrLoAE",
+      "usageMetadata": {
+        "promptTokenCount": 3445,
+        "candidatesTokenCount": 2687,
+        "totalTokenCount": 10047,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2671
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2687
+          }
+        ],
+        "thoughtsTokenCount": 3915
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Market Structure Shift (MSS) is identified when price breaks a prior swing high (bullish) or a prior swing low (bearish), often indicating a change in the prevailing trend on that timeframe.",
+          "chunk_id": "CHUNK_345, CHUNK_164"
+        },
+        {
+          "rule": "Displacement refers to strong, energetic price movements, often characterized by large-bodied, consecutive candles, which typically occur after a liquidity event or prior to a market structure shift, often leaving behind inefficiencies like Fair Value Gaps.",
+          "chunk_id": "CHUNK_345, CHUNK_164"
+        },
+        {
+          "rule": "A Fair Value Gap (FVG) is a three-candle pattern where the high of the first candle and the low of the third candle do not overlap the middle candle's body, creating an inefficiency or void in price delivery. These can act as areas for price to retrace to or through.",
+          "chunk_id": "CHUNK_345, CHUNK_3580, CHUNK_429"
+        },
+        {
+          "rule": "Change in State of Delivery (CISD) occurs when price attempts to deliver in one direction (e.g., bullish attempt) but fails to sustain the movement, indicating a shift in delivery preference, often accompanied by a swift reversal and break of an opposing swing point.",
+          "chunk_id": "N/A - Derived from M1 live observation of failed bullish attempt"
+        }
+      ],
+      "facts": [
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "M15 swing highs around 13:00",
+          "timeframe": "M15",
+          "direction": "bullish",
+          "observation": "A significant bullish Market Structure Shift occurred around 13:00, breaking several prior swing highs."
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "M15 price action between 13:00 and 14:00",
+          "timeframe": "M15",
+          "direction": "bullish",
+          "observation": "A very strong bullish displacement is evident between 13:00 and 14:00, characterized by large, consecutive green candles."
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.9,
+          "anchor": "M15 13:00-14:00 displacement",
+          "timeframe": "M15",
+          "direction": "bullish",
+          "observation": "A large bullish Fair Value Gap (FVG) was created during the strong bullish displacement around 13:00-14:00, which price later traded back into."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.9,
+          "anchor": "M15 swing low around 04:00 (next day)",
+          "timeframe": "M15",
+          "direction": "bearish",
+          "observation": "Around 04:00, price broke below a swing low, indicating a short-term bearish shift in market structure."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.9,
+          "anchor": "M15 swing high around 08:00",
+          "timeframe": "M15",
+          "direction": "bullish",
+          "observation": "A subsequent bullish break of structure occurred around 08:00."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "M15 swing lows from 12:00 onwards",
+          "timeframe": "M15",
+          "direction": "bearish",
+          "observation": "From approximately 12:00 onwards, price initiated a series of bearish breaks of structure, consistently moving lower."
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "M15 price action from 12:00 to 17:00",
+          "timeframe": "M15",
+          "direction": "bearish",
+          "observation": "From approximately 12:00 to 17:00, there are several strong bearish displacements, indicated by long-bodied red candles driving price lower."
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.9,
+          "anchor": "M15 bearish leg from 12:00 onwards",
+          "timeframe": "M15",
+          "direction": "bearish",
+          "observation": "Multiple bearish Fair Value Gaps are forming during the recent bearish leg from 12:00 onwards."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "M5 multiple swing highs around 13:00-14:00",
+          "timeframe": "M5",
+          "direction": "bullish",
+          "observation": "The bullish market structure shift observed on M15 is clearly detailed with multiple M5 bullish breaks of structure around 13:00-14:00."
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "M5 initial strong bullish impulse (left side)",
+          "timeframe": "M5",
+          "direction": "bullish",
+          "observation": "The initial strong bullish impulse shows significant displacement with large green candles."
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.9,
+          "anchor": "M5 early bullish impulse",
+          "timeframe": "M5",
+          "direction": "bullish",
+          "observation": "Numerous bullish Fair Value Gaps are visible during the early bullish impulse."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.9,
+          "anchor": "M5 swing low around 04:00",
+          "timeframe": "M5",
+          "direction": "bearish",
+          "observation": "A clear bearish break of structure occurred around 04:00."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.9,
+          "anchor": "M5 swing high around 08:00",
+          "timeframe": "M5",
+          "direction": "bullish",
+          "observation": "A bullish break of structure occurred around 08:00."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "M5 consecutive swing lows from 14:00 onwards",
+          "timeframe": "M5",
+          "direction": "bearish",
+          "observation": "From approximately 14:00 onwards, price exhibits consistent bearish market structure shifts, breaking below consecutive swing lows."
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "M5 price action from 14:00 onwards",
+          "timeframe": "M5",
+          "direction": "bearish",
+          "observation": "The recent price action from 14:00 demonstrates strong bearish displacement with multiple consecutive long-bodied red candles."
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.9,
+          "anchor": "M5 recent downward price action from 14:00 onwards",
+          "timeframe": "M5",
+          "direction": "bearish",
+          "observation": "Multiple bearish Fair Value Gaps are forming and being respected during the recent downward price action from 14:00 onwards."
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "M1 micro swing lows from 14:30 onwards",
+          "timeframe": "M1",
+          "direction": "bearish",
+          "observation": "The recent price action (from 14:30 onwards) shows continuous bearish market structure shifts, with price breaking below micro swing lows multiple times."
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "M1 price action around 15:00, 15:30, 16:45",
+          "timeframe": "M1",
+          "direction": "bearish",
+          "observation": "Several instances of strong bearish displacement are present (e.g., around 15:00, 15:30, 16:45), characterized by sequences of large bearish candles."
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.9,
+          "anchor": "M1 sustained bearish movements",
+          "timeframe": "M1",
+          "direction": "bearish",
+          "observation": "Numerous bearish Fair Value Gaps (FVGs) are continuously forming and being traded into or through during the sustained bearish movements (e.g., around 15:00, 15:30, 16:45)."
+        },
+        {
+          "type": "possible_mss",
+          "confidence": 0.85,
+          "anchor": "M1 swing high around 16:00",
+          "timeframe": "M1",
+          "direction": "bullish (failed)",
+          "observation": "Around 16:00, there was a minor attempt at a bullish break of structure, but price quickly reverted to bearish."
+        },
+        {
+          "type": "confirmed_cisd",
+          "confidence": 0.85,
+          "anchor": "M1 failed bullish attempt around 16:00",
+          "timeframe": "M1",
+          "direction": "bearish",
+          "observation": "The brief bullish attempt around 16:00 failed to sustain, with price quickly breaking below the swing low that formed, indicating a failure to maintain bullish delivery."
+        }
+      ],
+      "references": [
+        "CHUNK_345",
+        "CHUNK_429",
+        "CHUNK_164",
+        "CHUNK_3580"
+      ],
+      "confidence": 0.95,
+      "notes": "The extraction process systematically analyzed the provided M15, M5, and M1 'LIVE MARKET OBSERVATIONS'. For each timeframe, specific instances of Market Structure Shifts (MSS), Displacement, Fair Value Gaps (FVG), and Change in State of Delivery (CISD) were identified based on the explicit descriptions. Confidence scores reflect the clarity and directness of the observation statements. 'Confirmed' types were used when the observation explicitly described a clear structural event, while 'possible_mss' was used for a described attempt that ultimately failed. No liquidity sweeps were explicitly described in the 'LIVE MARKET OBSERVATIONS', therefore none were extracted. Principles for each structure type were derived from the 'GROUNDED KNOWLEDGE' and applied to categorize the observations. The process strictly adhered to objective observation without inferring bias."
+    },
+    "latency": 76735.29310000036,
+    "telemetry": {
+      "promptTokens": 3445,
+      "completionTokens": 2687,
+      "totalTokens": 10047
+    }
+  },
+  "openrouter": {
+    "modelUsed": "mistralai/ministral-14b-2512",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Market Structure Shifts (MSS) are identified by breaks of prior swing highs or lows, indicating a change in the dominant trend direction. This aligns with the definition of MSS as a shift in the state of the market's structure (CHUNK_ID:chunk_3580).",
+          "chunk_id": "chunk_3580"
+        },
+        {
+          "rule": "Change in State of Delivery (CISD) occurs when price fails to sustain a break of structure, indicating a rejection of the new structure. This is consistent with the failure to maintain bullish or bearish delivery (CHUNK_ID:chunk_417).",
+          "chunk_id": "chunk_417"
+        },
+        {
+          "rule": "Displacement refers to strong, impulsive price movements that create Fair Value Gaps (FVG). These gaps act as dynamic support or resistance depending on the direction of the break (CHUNK_ID:chunk_164).",
+          "chunk_id": "chunk_164"
+        },
+        {
+          "rule": "Fair Value Gaps (FVG) are formed during strong displacement moves and can act as structural blocks or magnets for price action. They are often traded back into or through, confirming or invalidating market structure (CHUNK_ID:chunk_345).",
+          "chunk_id": "chunk_345"
+        },
+        {
+          "rule": "Liquidity Sweeps occur when price moves through prior areas of congestion or liquidity, often characterized by strong displacement and the absence of immediate rejection (CHUNK_ID:chunk_2106).",
+          "chunk_id": "chunk_2106"
+        }
+      ],
+      "facts": [
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "Bullish MSS at 13:00 (M15) breaking prior swing highs with strong displacement",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "Bearish MSS at 04:00 (M15) breaking below swing low",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "Bullish MSS at 08:00 (M15) breaking above prior swing low",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_mss",
+          "confidence": 0.95,
+          "anchor": "Bearish MSS from 12:00 onwards (M15) with consistent breaks of swing lows",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_cisd",
+          "confidence": 0.9,
+          "anchor": "Failed bullish delivery attempt at 16:00 (M1) with rejection below swing low",
+          "timeframe": "M1"
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.98,
+          "anchor": "Strong bullish displacement between 13:00-14:00 (M15)",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.98,
+          "anchor": "Strong bearish displacement from 12:00-17:00 (M15)",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_displacement",
+          "confidence": 0.95,
+          "anchor": "Strong bearish displacement at 15:00, 15:30, and 16:45 (M1)",
+          "timeframe": "M1"
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.98,
+          "anchor": "Bullish FVG created during 13:00-14:00 displacement (M15)",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.95,
+          "anchor": "Multiple bearish FVGs forming from 12:00 onwards (M15)",
+          "timeframe": "M15"
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.95,
+          "anchor": "Numerous bullish FVGs during early bullish impulse (M5)",
+          "timeframe": "M5"
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.95,
+          "anchor": "Multiple bearish FVGs forming during downward price action from 14:00 onwards (M5)",
+          "timeframe": "M5"
+        },
+        {
+          "type": "confirmed_fvg",
+          "confidence": 0.95,
+          "anchor": "Numerous bearish FVGs forming during sustained bearish movements (M1)",
+          "timeframe": "M1"
+        },
+        {
+          "type": "possible_sweep",
+          "confidence": 0.85,
+          "anchor": "Potential liquidity sweep during bearish displacement from 12:00 onwards (M15)",
+          "timeframe": "M15"
+        },
+        {
+          "type": "possible_sweep",
+          "confidence": 0.8,
+          "anchor": "Potential liquidity sweep during bearish displacement at 15:00-16:45 (M1)",
+          "timeframe": "M1"
+        }
+      ],
+      "references": [
+        "CHUNK_ID:chunk_3580",
+        "CHUNK_ID:chunk_417",
+        "CHUNK_ID:chunk_164",
+        "CHUNK_ID:chunk_345",
+        "CHUNK_ID:chunk_2106"
+      ],
+      "confidence": 0.92,
+      "notes": "Step-by-step reasoning for micro-fact extraction:\n\n1. **Market Structure Shifts (MSS):**\n   - Identified by clear breaks of prior swing highs/lows on M15, M5, and M1 timeframes. Bullish and bearish shifts were confirmed based on visual displacement and candle patterns.\n\n2. **Change in State of Delivery (CISD):**\n   - Detected at 16:00 (M1) where the bullish attempt failed to sustain, leading to a bearish rejection.\n\n3. **Displacement:**\n   - Strong bullish and bearish displacements were identified based on large candle patterns and impulsive moves. Confirmed on M15, M5, and M1 timeframes.\n\n4. **Fair Value Gaps (FVG):**\n   - Bullish and bearish FVGs were confirmed during displacement phases. These gaps were either traded back into or through, validating their structural significance.\n\n5. **Liquidity Sweeps:**\n   - Potential sweeps were noted during strong bearish displacements where price moved through prior liquidity zones without immediate rejection. Confidence is slightly lower due to ambiguity in visual confirmation.\n\nAll facts were extracted strictly from visual observations on the provided LTF charts, adhering to the principles outlined in the referenced chunks."
+    },
+    "latency": 34869.52390000038,
+    "telemetry": {
+      "promptTokens": 2916,
+      "completionTokens": 2347,
+      "totalTokens": 5263
+    },
+    "estimatedCost": 0.007609999999999999
+  }
+}

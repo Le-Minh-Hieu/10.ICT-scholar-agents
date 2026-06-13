@@ -1,0 +1,216 @@
+[
+  {
+    "chunk_id": "chunk_1325",
+    "concepts": [
+      {
+        "canonical": "HIGH_LOW_OF_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "low or high of the day",
+          "very low of the day",
+          "low of the day",
+          "high of the day",
+          "creates the low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "LIQUIDITY_TARGET",
+          "TURNING_POINT"
+        ],
+        "temporal_tags": [
+          "London Open",
+          "Asian Open"
+        ],
+        "session_tags": [
+          "London",
+          "Asian session"
+        ]
+      },
+      {
+        "canonical": "POWER_OF_3",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Power of 3"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_MODEL",
+          "PRICE_ACTION_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "MARKET_STRUCTURE_DEFINITION",
+          "PRICE_ACTION_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "Asian session"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "drop down in London is typically a retracement",
+          "retracement",
+          "market is retracing down"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SETUP",
+          "PRICE_ACTION_TYPE",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "London"
+        ]
+      },
+      {
+        "canonical": "IMPULSE_LEG",
+        "confidence": 0.9,
+        "surface_terms": [
+          "initial leg",
+          "impulse leg"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "PRICE_ACTION_TYPE",
+          "TREND_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.75,
+        "surface_terms": [
+          "optimal"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_TARGET",
+          "PRICE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH/LOW OF DAY OR RETRACEMENT",
+      "source_file": "ICT Forex - Trading The Key Swing Points_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1326",
+    "concepts": [
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "The London Close",
+          "London Close",
+          "London Close time period"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "HIGH_OF_DAY_FORMATION",
+          "LOW_OF_DAY_FORMATION"
+        ],
+        "temporal_tags": [
+          "London Close"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY GRAB",
+          "takes those highs",
+          "equal lows are taken",
+          "raid",
+          "stop hunt",
+          "liquidity grab",
+          "run on stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_TRIGGER",
+          "HIGH_OF_DAY_FORMATION",
+          "LOW_OF_DAY_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS_LOWS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "equal highs",
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REVERSAL_POINT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "high or low of the day",
+          "creates the actual high of the day, trading lower",
+          "create the low of the day",
+          "reversal point",
+          "makes a reversal",
+          "long-term reversal"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT",
+          "TREND_CHANGE_SIGNAL",
+          "PRICE_EXTREMITY"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SPECIFIC_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London or Asia created the low of the day"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ORIGIN",
+          "MARKET_DIRECTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RANGE EXTREMITY, LIQUIDITY GRAB, OR LONG-TERM REVERSAL",
+      "source_file": "ICT Forex - Trading The Key Swing Points_Handbook.chunks.json"
+    }
+  }
+]

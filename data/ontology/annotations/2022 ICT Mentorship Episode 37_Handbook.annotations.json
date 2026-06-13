@@ -1,0 +1,933 @@
+[
+  {
+    "chunk_id": "chunk_280",
+    "concepts": [
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "BIAS_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "that high is taken out",
+          "taking out the high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "RETRACEMENT_TRIGGER",
+          "TARGET_FULFILLMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "RETRACEMENT_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_MITIGATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fills the fair value gap",
+          "tests it"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_CORRECTION",
+          "RETRACEMENT_COMPLETION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEVELOPING MARKET BIAS",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_281",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "The bias for tomorrow (NFP day) is derived from the expectation",
+          "bias",
+          "the bias suggests an attempt will be made"
+        ],
+        "narrative_roles": [
+          "PREDICTIVE_TOOL",
+          "DIRECTIONAL_ASSESSMENT"
+        ],
+        "temporal_tags": [
+          "NFP_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high",
+          "running the short-term high",
+          "run out this high",
+          "short-term high has not been taken out",
+          "attempt to reach that level"
+        ],
+        "narrative_roles": [
+          "TARGETED_LIQUIDITY",
+          "PRICE_DELIVERY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "OVERNIGHT",
+          "8:30_AM_NFP_RELEASE"
+        ],
+        "session_tags": [
+          "ASIA",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap high (the candlestick's low)"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NFP DAY BIAS AND OVERNIGHT PROJECTIONS",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_282",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "NFP weeks",
+          "big days like FOMC and NFP weeks"
+        ],
+        "narrative_roles": [
+          "RISK_AVOIDANCE",
+          "VOLATILITY_EXPECTATION",
+          "MARKET_CONDITION_ASSESSMENT"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "NFP_WEEK"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE_RULE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Mentorship Rule: Stop trading by the New York session on Wednesday during NFP weeks.",
+          "If you've been profitable up to that point, stop trading for the rest of the week.",
+          "Observe and study the price action for the rest of the week, but do not execute any trades.",
+          "Focus on days where you have an advantage, not disadvantages.",
+          "Promotes a 'super mindset' to respect the measure of risk."
+        ],
+        "narrative_roles": [
+          "RISK_AVOIDANCE",
+          "DISCIPLINE",
+          "CAPITAL_PRESERVATION",
+          "STRATEGY_ADJUSTMENT",
+          "BEHAVIORAL_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "NFP_WEEK",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value gap on daily chart",
+          "the two blue lines"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PRICE_MAGNET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term high",
+          "the red line"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING DISCIPLINE DURING FOMC & NFP WEEKS",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_283",
+    "concepts": [
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute chart",
+          "15-minute time frame",
+          "intra-day trading perspective"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "TRADING_STYLE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_OF_WEEK",
+        "confidence": 1,
+        "surface_terms": [
+          "Wednesday's trading"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [
+          "WEDNESDAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap low"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "TARGET_ACHIEVEMENT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "DAILY_CHART"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take out the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "TRADING_BIAS"
+        ],
+        "temporal_tags": [
+          "EARLY_SESSION"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York midnight opening"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "DIRECTIONAL_BIAS",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": [
+          "NEW_YORK"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "15-MINUTE CHART AND INTRA-DAY TRADING PERSPECTIVE",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_284",
+    "concepts": [
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "UNDERSTANDING LOWER TIME FRAME MOVEMENTS WITHIN HIGHER TIME FRAME",
+          "lower time frames (1-minute, 5-minute)",
+          "daily chart's action represented on a smaller",
+          "Losing the context of higher time frame key levels"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "ANALYTICAL_APPROACH",
+          "NOISE_FILTERING"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "1-MINUTE",
+          "5-MINUTE",
+          "HIGHER_TIME_FRAME",
+          "LOWER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_3",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of 3"
+        ],
+        "narrative_roles": [
+          "PRICE_PATTERN",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap low"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "HIGHER_TIME_FRAME"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING LOWER TIME FRAME MOVEMENTS WITHIN HIGHER TIME FRAME",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_285",
+    "concepts": [
+      {
+        "canonical": "MARKET_CONDITIONS_VOLATILE",
+        "confidence": 1,
+        "surface_terms": [
+          "VOLATILE CONDITIONS",
+          "on these particular days"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_AWARENESS",
+          "RISK_MANAGEMENT_CHALLENGE",
+          "STRATEGY_ADAPTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term low"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "PROFIT_TAKING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "dipped below the short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "TRADE_EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PERFORMANCE_IMPACT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "His precision and visibility drop 'precipitously'"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "SELF_EVALUATION",
+          "ADAPTIVE_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S TRADING DURING VOLATILE CONDITIONS",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_286",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF HEEDING MENTORSHIP ADVICE",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_287",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "5-minute fair value gap",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "PRICE_MAGNET",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "11:37 AM Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity",
+          "expected draw on liquidity",
+          "target"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "11:37 AM Eastern Time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCESSING ICT'S REAL-TIME MARKET INSIGHTS ON TWITTER",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_288",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.75,
+        "surface_terms": [
+          "that level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_DRAW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market often runs to that level",
+          "immediate reaction"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY",
+          "SHORT_TERM_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "IMMEDIATE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING THE MARKET'S IMMEDIATE REACTION TO ICT'S COMMENTARY",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_289",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "the down-closed candle prior to an upward move",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "CHART_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCING_LEVEL",
+          "TARGET_LEVEL",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FVG_INTERACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Price drops after consolidation into a fair value gap",
+          "delivered up to the fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION",
+          "REBALANCING",
+          "TARGET_HIT",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING A 2-MINUTE CHART SETUP",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_290",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PRICE_MAGNET",
+          "REBALANCE_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADE_ENTRY",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANNOTATING CHART OBSERVATIONS FOR LEARNING",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_291",
+    "concepts": [
+      {
+        "canonical": "NY_MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York midnight opening price",
+          "opening"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "EQUILIBRIUM_REFERENCE",
+          "INITIAL_BIAS_CONTEXT"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONTEXT",
+          "PRICE_VALUATION",
+          "INSTITUTIONAL_BUY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LOW_OF_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "low of the day"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_ELEMENT",
+          "REFERENCE_POINT",
+          "LIQUIDITY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RECLAIM_KEY_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "moved back above the opening"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "REVERSAL_SIGNAL",
+          "LIQUIDITY_SWEEP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "delivery",
+          "move to the target"
+        ],
+        "narrative_roles": [
+          "MARKET_OBJECTIVE",
+          "PRICE_FULFILLMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SESSION_TIMING",
+        "confidence": 1,
+        "surface_terms": [
+          "New York trading session",
+          "New York midnight opening price",
+          "New York session lunch hour (before 12 PM)",
+          "PM session (1 PM to 1:30 PM)"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW_IDENTIFICATION",
+          "TIME_BASED_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "NY_MIDNIGHT",
+          "NY_LUNCH_HOUR",
+          "BEFORE_12PM",
+          "NY_PM_SESSION",
+          "1PM_TO_1_30PM"
+        ],
+        "session_tags": [
+          "NY",
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE DELIVERY WITHIN THE NEW YORK TRADING SESSION",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_292",
+    "concepts": [
+      {
+        "canonical": "DEVELOPING_TRADING_INTUITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DEVELOPING TRADING INTUITION",
+          "trading intuition"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "PSYCHOLOGICAL_TRAINING",
+          "LEARNING_GOAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JOURNALING_PRACTICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STRATEGIC JOURNALING",
+          "annotating your chart, write down observations in your journal",
+          "Journal entries",
+          "logging and reviewing",
+          "crucial journaling practice"
+        ],
+        "narrative_roles": [
+          "LEARNING_METHODOLOGY",
+          "SKILL_DEVELOPMENT_TOOL",
+          "DISCIPLINARY_PRACTICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PSYCHOLOGICAL_CONDITIONING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Phrase observations as if you saw them in advance",
+          "'self-talk'",
+          "trick your subconscious into believing you had this experience",
+          "cheerlead yourself and phrase it like you saw it beforehand",
+          "'trick your brain' into"
+        ],
+        "narrative_roles": [
+          "MINDSET_DEVELOPMENT",
+          "BEHAVIORAL_TRAINING",
+          "SUBCONSCIOUS_PROGRAMMING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STRATEGIC JOURNALING FOR DEVELOPING TRADING INTUITION",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_293",
+    "concepts": [
+      {
+        "canonical": "SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "AFTERNOON SESSION",
+          "afternoon session"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_ELEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "low was formed"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "model entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "clear fair value gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_INDICATION",
+          "CONTINUATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 1,
+        "surface_terms": [
+          "continuation to the upside"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_FORECAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "setup"
+        ],
+        "narrative_roles": [
+          "TRADING_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_JOURNAL",
+        "confidence": 1,
+        "surface_terms": [
+          "journal"
+        ],
+        "narrative_roles": [
+          "TRADING_DISCIPLINE",
+          "PERFORMANCE_TRACKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AFTERNOON SESSION SETUP AND LECTURE SUMMARY",
+      "source_file": "2022 ICT Mentorship Episode 37_Handbook.chunks.json"
+    }
+  }
+]

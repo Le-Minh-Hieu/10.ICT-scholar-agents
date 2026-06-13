@@ -46,6 +46,15 @@ export async function ltfStructureAgent(input: LTFStructureInput, minimal_contex
       pushImage(parts, input.eurusd.m1!, "LTF-EURUSD-M1", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT market structure observations on the Low Time Frame (LTF - M15, M5, M1).
+
+Focus on identifying low-timeframe structural shifts, displacement, and micro-level blocks:
+1. **Market Structure Shifts (MSS / BOS)**: Look for clean breaks of micro swing highs/lows on M15, M5, or M1 confirming local displacement and trend shifts. (STRUCTURE)
+2. **Change in State of Delivery (CISD)**: Identify changes in state of delivery where price fails to respect previous zones (e.g. failure to respect a bearish FVG, turning it into a support zone). (STRUCTURE)
+3. **Displacement & Strong Moves**: Look for strong, energetic moves (long-bodied candles) indicating institutional participation and potential shifts. (STRUCTURE)
+4. **Structural Blocks & Gaps**: Identify local Breaker Blocks (BB), Mitigation Blocks (MB), or Fair Value Gaps (FVG) forming on M15, M5, or M1. (STRUCTURE)
+
+Output your observations as objective bullet points. Do NOT infer directional bias or make trading recommendations.`,
     schema: ltfStructureOutputSchema,
     mapOutput: (result) => {
       const facts = result?.facts?.map((fact: any) => ({...fact, confidence: fact.confidence})) || [];

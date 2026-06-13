@@ -1,0 +1,385 @@
+[
+  {
+    "chunk_id": "chunk_4100",
+    "concepts": [
+      {
+        "canonical": "TRADITIONAL_SUPPORT_RESISTANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "support and resistance",
+          "old highs",
+          "old lows",
+          "these levels",
+          "traditional concepts of support and resistance levels"
+        ],
+        "narrative_roles": [
+          "TRADITIONAL_BIAS",
+          "CONCEPTUAL_CONTRAST",
+          "MISLEADING_CONCEPT",
+          "PROBLEM_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEBUNKING TRADITIONAL SUPPORT AND RESISTANCE",
+      "source_file": "OTE Pattern Recognition Series - Vol. 04_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4101",
+    "concepts": [
+      {
+        "canonical": "MARKET_EFFICIENCY_PARADIGM",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Efficiency Paradigm"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_FOR_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL_COMPONENT",
+          "TARGET_FOR_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "fake move designed to trick traders into thinking the market will be bullish"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_BREAKOUT",
+          "PRICE_MANIPULATION",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs an old high",
+          "swiftly moves through such a level",
+          "sharp moves that run previous highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "If price moves back below the lowest down close candle after breaking it, the narrative shifts to bearish"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTRODUCING THE MARKET EFFICIENCY PARADIGM AND JUDAS SWING",
+      "source_file": "OTE Pattern Recognition Series - Vol. 04_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4102",
+    "concepts": [
+      {
+        "canonical": "BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "5-MINUTE CHART BREAKER CONFIRMATION",
+          "bearish breaker",
+          "the breaker",
+          "Price hits this old high, returns to it, and hits the same level again. This is the breaker"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "May 12, 2020"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell-side liquidity resides"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity that will be taken out below that level"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OTE",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE)"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CHART BREAKER CONFIRMATION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 04_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4103",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry (OTE)",
+          "OTE forming",
+          "retracing back into the OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's low",
+          "May 11th's low"
+        ],
+        "narrative_roles": [
+          "CONDITIONAL_LEVEL",
+          "TARGET_LEVEL",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [
+          "May 11th"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "62 percent retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_EXTENSION_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "Potential Fibonacci targets are 1.2283 and 1.2265",
+          "full Fibonacci extension target"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop-loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGET_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Our target for this trade",
+          "target the 1.2270 level"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "TRADING_WINDOW"
+        ],
+        "temporal_tags": [
+          "11 o'clock in the morning"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SECOND OTE OPPORTUNITY IN NEW YORK SESSION AND REFINED TARGETS",
+      "source_file": "OTE Pattern Recognition Series - Vol. 04_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4104",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweeps below the May 11th low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "May 11th low",
+          "liquidity area"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry pattern"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "SETUP_IDENTIFICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard deviation of 1 on the range"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW_CONTINUATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "expanding further down"
+        ],
+        "narrative_roles": [
+          "TREND_CONTINUATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE OUTCOME AND CONCLUSION",
+      "source_file": "OTE Pattern Recognition Series - Vol. 04_Handbook.chunks.json"
+    }
+  }
+]

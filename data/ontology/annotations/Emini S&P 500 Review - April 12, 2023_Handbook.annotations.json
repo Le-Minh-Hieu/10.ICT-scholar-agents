@@ -1,0 +1,687 @@
+[
+  {
+    "chunk_id": "chunk_512",
+    "concepts": [
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "personal objective for the week was 4180",
+          "4180 OBJECTIVE"
+        ],
+        "narrative_roles": [
+          "EXPECTATION",
+          "MARKET_BIAS"
+        ],
+        "temporal_tags": [
+          "WEEKLY_CONTEXT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL_DEFINITION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "between the candle's open and the high midpoint of its Wick",
+          "This level"
+        ],
+        "narrative_roles": [
+          "PRECISION_TRADING",
+          "TARGET_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FUNDAMENTAL_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI outlook"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "MACRO_CONTEXT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "CPI_RELEASE_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNMET_EXPECTATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "falling one quarter point (one tick) short of reaching it today",
+          "one quarter point (one tick) short"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "FAILURE_TO_DELIVER_PRICE"
+        ],
+        "temporal_tags": [
+          "DAILY_CONTEXT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI OUTLOOK AND 4180 OBJECTIVE MISS",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_513",
+    "concepts": [
+      {
+        "canonical": "WEEKLY_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly range",
+          "previous week's high"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running above the previous week's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "POTENTIAL_REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "Buy Side Sell Side Imbalance (BISI)",
+          "BISI",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_FILLING",
+          "PRICE_MAGNET",
+          "POTENTIAL_REVERSAL_ZONE",
+          "SENTIMENT_CONFIRMATION",
+          "TARGET_FORECASTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment (CE) level",
+          "CE level"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "REBALANCE_POINT",
+          "POTENTIAL_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WEEKLY RANGE, IMBALANCE, AND BEARISH OUTLOOK",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_514",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_SELL_SIDE_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Buy Side Sell Side Imbalance (BISI)",
+          "BISI"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "PRICE_DRAW",
+          "REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "MARKET_INEFFICIENCY",
+          "PRICE_DRAW",
+          "REBALANCING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "4180 level, a key target"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [
+          "CPI number run-up"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "buy side above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_DRAW",
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment (CE)"
+        ],
+        "narrative_roles": [
+          "REBALANCING",
+          "LEVEL_INTERACTION",
+          "MITIGATION_LEVEL",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOURLY CHART",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_515",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Huge amount of sell stops resting below current levels",
+          "sell side",
+          "current lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "run above"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_FOR_BEARISH_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move to take out the current lows",
+          "take out the current lows, followed by a rejection"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "decidedly bullish reversal"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "8:30 CPI number"
+        ],
+        "narrative_roles": [
+          "CATALYST"
+        ],
+        "temporal_tags": [
+          "CPI_RELEASE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEAR-TERM BEARISH OUTLOOK WITH LONG-TERM CONSIDERATIONS",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_516",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance (Fair Value Gap BISI)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "personal market opinion",
+          "market bias"
+        ],
+        "narrative_roles": [
+          "BIAS_DEVELOPMENT",
+          "EDUCATIONAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "high risk events like CPI",
+          "CPI is very risky",
+          "advised not to trade it due to the potential for significant losses"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "EDUCATIONAL_GUIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price delivery"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_OBSERVATION",
+          "SKILL_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TAPE_READING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "tape reading"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "EDUCATIONAL_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CPI_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI",
+          "CPI expectation"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT",
+          "RISK_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "CPI"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI FRAMEWORK, TRANSPARENCY, AND RISK MANAGEMENT",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_517",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "RETRACEMENT_TARGET"
+        ],
+        "temporal_tags": [
+          "CPI_NUMBER"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "5-MINUTE CHART",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_518",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "CPI release"
+        ],
+        "narrative_roles": [
+          "CATALYST",
+          "MARKET_DRIVER",
+          "VOLATILITY_EVENT"
+        ],
+        "temporal_tags": [
+          "8:30"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CPI REJECTION",
+          "rejection"
+        ],
+        "narrative_roles": [
+          "SETUP_CONDITION",
+          "PRICE_REVERSAL_SIGNAL",
+          "FAILURE_TO_HOLD_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "broke down completely",
+          "MARKET BREAKDOWN",
+          "breakdown"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "SETUP_CONDITION",
+          "DISPLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_SELL_SIDE_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Buy Side Sell Side Imbalance (BISI)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "LIQUIDITY_VOID",
+          "AREA_OF_INTEREST",
+          "PRECURSOR_TO_FVG_CREATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "LIQUIDITY_VOID",
+          "ENTRY_CRITERIA",
+          "TARGET_AREA",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SILVER_BULLET",
+        "confidence": 1,
+        "surface_terms": [
+          "Silver Bullet\" trade",
+          "AM SILVER BULLET SETUP"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "HIGH_PROBABILITY_SETUP",
+          "TIME_BASED_STRATEGY"
+        ],
+        "temporal_tags": [
+          "10:00 to 11:00 AM range",
+          "10:00-11:00 AM window",
+          "optimal time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "morning trade"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CPI REJECTION, MARKET BREAKDOWN, AND AM SILVER BULLET SETUP",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_519",
+    "concepts": [
+      {
+        "canonical": "NY_PM_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK PM SESSION",
+          "PM session"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "OPTIMAL_TRADING_WINDOW"
+        ],
+        "temporal_tags": [
+          "1:30 PM",
+          "2:00 PM",
+          "4:00 PM",
+          "last hour of trading"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TREND_CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "continuation of the day's dominant trend",
+          "continuation"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK PM SESSION",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_520",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "high-rated shift in Market Structure"
+        ],
+        "narrative_roles": [
+          "BIAS_CHANGE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "final hour",
+          "beginning of the 3:00 PM hour"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "SELL_SIDE_BUY_SIDE_IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell Side Buy Side Imbalance (SISI)",
+          "Buy Side Sell Side Inefficiency"
+        ],
+        "narrative_roles": [
+          "REPRICE_TO_FAIR_VALUE",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "final hour",
+          "beginning of the 3:00 PM hour"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment (CE)",
+          "(midpoint)"
+        ],
+        "narrative_roles": [
+          "REACTION_POINT",
+          "TARGET_LEVEL"
+        ],
+        "temporal_tags": [
+          "final hour",
+          "beginning of the 3:00 PM hour"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FINAL HOUR PM SESSION",
+      "source_file": "Emini S&P 500 Review - April 12, 2023_Handbook.chunks.json"
+    }
+  }
+]

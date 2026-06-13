@@ -1,0 +1,114 @@
+[
+  {
+    "section_title": "INTRODUCTION TO ALGORITHMIC PRICE DELIVERY AND TIME MACROS",
+    "content": "This lesson focuses on time elements in algorithmic price delivery and introduces ICT macros. The context\nfor using a macro on a NASDAQ daily chart from Friday, July 2023, will be provided."
+  },
+  {
+    "section_title": "THE IMPORTANCE OF CONTEXT IN MACRO APPLICATION",
+    "content": "Without proper context, understanding the specific times of day called a macro is not helpful. It is\nemphasized not to teach something you don't fully understand yet. This introduction will not satisfy all\nquestions initially, as all concepts lean on other aspects of the methodology. It is one more piece of the\npuzzle that comes together slowly over time, with experience being the greatest teacher."
+  },
+  {
+    "section_title": "ANALYZING A DAILY DOWN CLOSE CANDLE",
+    "content": "- CONSEQUENT ENCROUCHMENT\nObserve a specific down close candle. Wicks or tails are immediately analyzed by looking at their midpoint.\nThis midpoint is referred to as consequent encroachment, and the algorithm treats the entire wick/tail as a\ngap."
+  },
+  {
+    "section_title": "IDENTIFYING A BULLISH ORDER BLOCK AND PROPULSION BLOCK",
+    "content": "On Friday, price traded higher, close to the midpoint of the wick. Attention is drawn to the high and open of\na specific down close candle, which forms a bullish order block.\n- A bullish order block is defined by the high and opening price of the last down close candle prior to a run\nup.\n- The specific price points (high and opening price) are used, not the mean threshold of the body or the\nentire high-to-low range."
+  },
+  {
+    "section_title": "PROPULSION BLOCK CHARACTERISTICS AND PRICE ANTICIPATION",
+    "content": "This specific order block is identified as a propulsion block, a concept from the Month Four mentorship\ncontent. A propulsion block works off an earlier order block. Key characteristics include:\n- Price digs into an earlier order block but should not go below half of that candle's body.\n- If this condition is met, it suggests anticipating higher prices the next day."
+  },
+  {
+    "section_title": "NON-FARM PAYROLL (NFP) RELEASE AND MARKET BEHAVIOR",
+    "content": "Ahead of the Non-Farm Payroll (NFP) release at 8:30 AM New York time, bullish order flow was\nanticipated, favoring buy side liquidity. This suggests an initial rally higher, potentially challenging previous\nhighs. However, the exact extent of the initial move is a 'guessing game' before the news hits."
+  },
+  {
+    "section_title": "NFP MANUAL INTERVENTION AND WHIPSAW EVENTS",
+    "content": "After the 8:30 AM news hits, manual intervention often occurs to target both sides of the marketplace.\n- This means buy side then sell side, or sell side then buy side.\n- The true move takes place after this initial 'whipsaw' type event."
+  },
+  {
+    "section_title": "BREAKERS AND NEWS EVENT EXCEPTIONS",
+    "content": "Breakers, which typically provide clean points of rejection or entry, may not function cleanly during major\nnews events such as:\n- Non-Farm Payroll (NFP)\n- Consumer Price Index (CPI)\n- Federal Open Market Committee (FOMC)\n- In such circumstances, a typical bearish breaker setup might not be respected, and price could trade\nthrough it."
+  },
+  {
+    "section_title": "NARRATIVE AS CRUCIAL TO MACRO UNDERSTANDING",
+    "content": "Beyond technical aspects of time, understanding the market's narrative is absolutely crucial for knowing\nwhat a macro will do. A macro is not a 'magic pill'; it requires understanding what price is likely to do. This is\na complex topic that requires consistent study throughout the year."
+  },
+  {
+    "section_title": "PRICE DELIVERY TO INEFFICIENCIES AND LIQUIDITY",
+    "content": "Price tends to rally into premium inefficiencies, such as a Buy Side Imbalance Sell Side Inefficiency\n(BISIE), especially during events like NFP. Price rallies to address inefficiencies and seek buy side liquidity,\nor it consolidates, or it seeks sell side liquidity and inefficiencies below the market.\nTOP\n- DOWN ANALYSIS:"
+  },
+  {
+    "section_title": "IDENTIFYING LIQUIDITY AND INEFFICIENCIES",
+    "content": "A top-down approach, starting from PD Arrays (Premium and Discount) is essential to identify available\nprice action. The primary task is to identify:\n- Inefficiency and buy side liquidity above the marketplace.\n- Inefficiency and sell side liquidity below the marketplace.\n- General rules of thumb for identifying targets include previous days' highs and lows, session highs and\nlows, highs and lows of the last three days, and previous week's high and low. These areas reliably indicate\nwhere price will likely gravitate for inefficiencies or liquidity."
+  },
+  {
+    "section_title": "NASDAQ SELECTION FOR DEMONSTRATION AND PROPULSION BLOCK REVISIT",
+    "content": "The NASDAQ was chosen for this demonstration due to student requests for more content on it, not\nbecause it was inherently better to trade. The analysis highlights:\n- The bullish propulsion block's wick high.\n- The opening price of that propulsion block.\n- The hourly Fair Value Gap (blue shaded area) residing within the propulsion block's high and opening\nprice.\n- Consequent encroachment: treating wicks and tails as gaps, with the midpoint being a key sensitive level\nfor algorithmic price delivery."
+  },
+  {
+    "section_title": "NFP PRICE ACTION",
+    "content": "- INITIAL RUN TO CONSEQUENT ENCROUCHMENT\nAfter an initial rally, the market drops, taking out recent lows and digging into the order flow. Specifically, it\ntrades right into the consequent encroachment of the bullish daily propulsion block (an order block).\nFollowing this, the market starts to move higher."
+  },
+  {
+    "section_title": "NFP PRICE ACTION",
+    "content": "- FALSE RUN AND TRAPPING TRADERS\nA key observation for NFP:\n- The side of the market it goes for first (e.g., buy side) when the 8:30 AM news hits is usually the false run.\n- Example: Price rallies, taking buy side, trapping traders long. It then reverses, trading lower to take out sell\nstops of those trapped long, and below recent lows.\n- This process involves: trapping longs, stopping out shorts, inducing new shorts, crushing existing longs,\ntrapping new shorts, accumulating sell side liquidity, and then finally running for buy side liquidity or higher\ntimeframe drawn liquidity."
+  },
+  {
+    "section_title": "HIGH PROBABILITY BULLISH ORDER BLOCK AND INVERSION FAIR VALUE GAP",
+    "content": "A specific candlestick forms a bullish order block, identified by the high of its wick to its opening. This order\nblock contains a small Fair Value Gap, indicating a high probability for higher prices after stops have been\ntaken.\n- On a 3-minute chart, the Fair Value Gap within the order block becomes even more refined, with candle\nbodies respecting it before sending price higher.\n- An inefficiency present is identified as an Inversion Fair Value Gap. When order flow is bullish and stops\nhave been taken, an inversion fair value gap acts as support, accumulating more long positions."
+  },
+  {
+    "section_title": "INTERNALIZING TIME IN PRICE DELIVERY ACROSS ASSET CLASSES",
+    "content": "The characteristics of time are unique to algorithmic price delivery across all asset classes (Forex,\ncommodities, index futures). When observing price action, awareness of specific time windows is crucial,\nincluding:\n- New York Open Killzone (7:00 AM to 9:00 AM New York time for Forex).\n- New York AM Session (8:30 AM to Noon New York time for index trading).\n- 10:00 AM to 11:00 AM AM Silver Bullet."
+  },
+  {
+    "section_title": "KEY TIME-BASED KILLZONES AND THE INTRODUCTION TO MACROS",
+    "content": "Macros are introduced as specific segments of price action, usually 20-minute intervals. Several macros\nexist, but only a few will be taught initially. These are specific windows of opportunity, not a complete\nsolution, serving as an introduction to their usage."
+  },
+  {
+    "section_title": "PRICE MOVEMENT AND ALGORITHM COMPLEXITY",
+    "content": "During NFP, price runs into inefficiency, aggressively drops to take out sell side below relative equal lows,\nand then returns into an hourly Fair Value Gap. Price then rallies to inefficiency and takes buy side again,\nleaving weak relative equal lows. The daily bullish propulsion block's consequent encroachment is a key\nmeasurement.\n- These markets are driven by high-frequency algorithms and are not easily understood.\n- The topic is complex and requires detailed study; simple moving average crossovers are insufficient."
+  },
+  {
+    "section_title": "MENTORSHIP APPROACH AND CHART ANNOTATION FOR TEACHING",
+    "content": "The typical NFP event involves an initial run to buy side, then sell side, and then time becomes a factor.\nICT's Twitter Spaces provide psychological coaching without charts. On-chart annotations (numerical\nlevels, descriptions) are used for teaching to conceptually visualize references, but in live trading, charts\nare kept clean to avoid distraction. The ability to explain market movements comes from deep\nunderstanding and having 'engineered' many concepts used by the market."
+  },
+  {
+    "section_title": "MARKET DYNAMICS AND CORRELATION",
+    "content": "The 9:50-10:10 AM macro is a 20-minute period specializing in market behavior around the first 30 minutes\nafter the 9:30 AM equities market open.\n- Applicable to both Forex and Futures, as all markets are interconnected.\n- Discordant correlation can signal impending abrupt changes.\n- During this macro, price delivered to buy side and inefficiency (premium relative to high and low), then\ndropped to take out sell side, aligning with the NFP profile."
+  },
+  {
+    "section_title": "LIQUIDITY DELIVERY",
+    "content": "The 9:50-10:10 AM macro is observed after initial liquidity (buy side) has been engaged. With the NFP\nprofile (initial buy side run, relative equal lows left behind), the macro facilitates the market dropping to take\nout the other side of the marketplace (sell side) by trading into engineered liquidity, such as an hourly Fair\nValue Gap and the consequent encroachment of the daily propulsion block."
+  },
+  {
+    "section_title": "MACRO AS AN ALGORITHMIC SPOOLING EVENT",
+    "content": "A macro is a time window, for example, the 9:50-10:10 AM macro specializes in the first 20-40 minutes of\nthe trading hour starting at 9:30 AM. It often relates to the opening range dynamics. A macro is defined as:\n- A short list of directives that the algorithm will run.\n- A small list of orders it must fulfill to seek liquidity and/or inefficiencies.\n- After seeking premium inefficiency and buy side, the macro initiated a run for the opposing side of\nliquidity, consistent with the NFP profile of an initial rally, then a drop to take out stops, followed by a\nresumed rally (or vice-versa)."
+  },
+  {
+    "section_title": "SILVER BULLET, LUNCH MACRO, AND NFP PROFILE INTEGRATION",
+    "content": "Price drops during the 10:00-11:00 AM Silver Bullet window, providing entries. It trades down to the\nconsequent encroachment of both the daily bullish propulsion block and the hourly Fair Value Gap. After a\nshort-term rally, price then forms another move during the 10:50-11:10 macro.\n- The 10:50-11:10 macro signifies the end of the 10:00-11:00 AM hour (first 90 minutes of trading) and\nprecedes the New York lunch hour.\n- The New York lunch hour has its own macro, often characterized by consolidation, running for liquidity, or\nreversal.\n- These time windows are integrated with the NFP profile: initial buy side run, engineered sell side, then a\ndrop for sell side, clearing the way for higher prices as trapped traders are liquidated."
+  },
+  {
+    "section_title": "MACROS AS TIME WINDOWS FOR ANTICIPATING MARKET ANIMATION",
+    "content": "Macros are time aspects that indicate when the market is anticipated to start 'animating' or 'reaching'.\n- It's not enough to simply know the times; within these times, there are specific windows for anticipating\nprice phenomena.\n- Price should start running for liquidity or inefficiency.\n- If macros do not produce movement that aligns with analysis (seeking strong liquidity), it's often a signal\nto close charts and trade the next session, preventing drawdown or losing trades.\n- Macros exist for afternoon, lunch, and London sessions as well."
+  },
+  {
+    "section_title": "THE 'SPOOLING EVENT' METAPHOR FOR MACROS",
+    "content": "A macro is essentially the beginning of a 'spooling event' where price starts to reach for a target.\n- Analogy: Like casting a fishing line, the reel 'spools' out line, delivering the hook and bait far away. Macros\n'cast' price away, either higher or lower.\n- These specific times of day are watched for price to initiate such movements."
+  },
+  {
+    "section_title": "MACROS DO NOT PROVIDE DIRECTION",
+    "content": "It is critical to understand that macros DO NOT give direction.\n- They indicate when price will start to move or 'spool', not where it will go.\n- A comprehensive understanding of other ICT concepts is required, including:\n- Tape reading\n- Bias determination\n- Liquidity identification and utilization\n- Higher timeframe analysis\n- Without this complete understanding, macros will be a source of frustration, not a trading solution. The\nmarket's algorithmic nature, operating on time first, is a foundational belief."
+  },
+  {
+    "section_title": "ALGORITHMIC NATURE OF MARKETS AND TIME AS A KEY FACTOR",
+    "content": "Markets are algorithmic and operate on the basis of time first. Unless there's a major geopolitical event or\n'black swan' event, market movements are not random. They are driven by artificial intelligence (algorithms)\nfollowing coded instructions based on time periods."
+  },
+  {
+    "section_title": "LIVE TRADING EXAMPLE AND CONCLUDING THOUGHTS ON MACROS",
+    "content": "A live trading demonstration showed how this information was used for executions. In conclusion, a macro\nis simply a time of day when price will begin to 'spool', reaching for liquidity or inefficiency. If the market\ndoes not show signs of respecting this measure of time, it indicates a need to step away from trading that\nsession or day, which can prevent losses."
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "chunk_id": "chunk_4169",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OPTIMAL TRADE ENTRY",
+          "OTE",
+          "Optimal Trade Entry (OTE) zone",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "break a short term high",
+          "break in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci tool",
+          "Fibonacci"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL_TOOL",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLE_BODY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "bodies of the candles",
+          "bodies of the candles (open/close)"
+        ],
+        "narrative_roles": [
+          "PRECISION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first target",
+          "old high that was initially broken"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) ON LOWER TIMEFRAMES",
+      "source_file": "Pattern Recognition - Fiber OTE NYO and Asian Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4170",
+    "concepts": [
+      {
+        "canonical": "ASIA_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "ASIAN SESSION",
+          "Asian session"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LOW_VOLATILITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "symmetrical price swing target"
+        ],
+        "narrative_roles": [
+          "TARGET_PROJECTION",
+          "CONFIRMATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "market structure break"
+        ],
+        "narrative_roles": [
+          "TREND_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "short term high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fibonacci",
+          "62 percent retracement level"
+        ],
+        "narrative_roles": [
+          "TOOL_FOR_ANALYSIS",
+          "ENTRY_CRITERIA",
+          "MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_ENTRY",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "first target",
+          "second target"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ASIAN SESSION AND SYMMETRICAL PRICE",
+      "source_file": "Pattern Recognition - Fiber OTE NYO and Asian Session_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4171",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish breaker"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short term high to be broken",
+          "break in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "shift in market structure"
+        ],
+        "narrative_roles": [
+          "REVERSAL_CONFIRMATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE) zone",
+          "OTE zone"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "HIGH_PROBABILITY_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SYMMETRICAL_PRICE_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "symmetrical price swing"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "PRICE_PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUMMARY OF THE PATTERN RECOGNITION FRAMEWORK",
+      "source_file": "Pattern Recognition - Fiber OTE NYO and Asian Session_Handbook.chunks.json"
+    }
+  }
+]

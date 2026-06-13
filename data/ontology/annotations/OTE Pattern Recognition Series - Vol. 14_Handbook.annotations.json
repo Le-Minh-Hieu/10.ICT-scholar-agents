@@ -1,0 +1,392 @@
+[
+  {
+    "chunk_id": "chunk_4130",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART SETUP AND INITIAL STUDY FOR BRITISH POUND (GBP)",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4131",
+    "concepts": [
+      {
+        "canonical": "NEW_YORK_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_SETTING"
+        ],
+        "temporal_tags": [
+          "8:30 a.m. New York time",
+          "11:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "potential entries",
+          "primary one taught in mentorship",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "ENTRY_SELECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SWING",
+        "confidence": 0.75,
+        "surface_terms": [
+          "this particular swing"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE NEW YORK SESSION AND OPTIMAL TRADE ENTRY",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4132",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing"
+        ],
+        "narrative_roles": [
+          "DECEPTION",
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_FOR_REVERSAL"
+        ],
+        "temporal_tags": [
+          "8:30 to 11:00 a.m."
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENSURING CHART CLARITY AND SPOTTING THE JUDAS SWING",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4133",
+    "concepts": [
+      {
+        "canonical": "OTE",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE PATTERN"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "yesterday's low",
+          "yesterday's high",
+          "previous day's high",
+          "previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "PRICE_TARGET",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [
+          "DAILY_REFERENCE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "run below yesterday's low",
+          "run above yesterday's high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [
+          "DAILY_REFERENCE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_CONTINUATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Continuation patterns",
+          "market has already moved beyond the previous day's high or low"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "LIQUIDITY_DRAW",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "DAILY_REFERENCE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING THE OTE PATTERN SIGNATURE AND REOCCURRENCE",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4134",
+    "concepts": [
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci tool",
+          "Fibonacci",
+          "Fibonacci projections"
+        ],
+        "narrative_roles": [
+          "FRAMING_TOOL",
+          "OVERBOUGHT_OVERSOLD_IDENTIFICATION",
+          "POTENTIAL_TARGET_IDENTIFICATION",
+          "RETRACEMENT_MEASUREMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "clear displacement"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "IMBALANCE_INDICATION",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high",
+          "swing low",
+          "high of that range",
+          "range from the swing high to the swing low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "RANGE_DEFINITION",
+          "FIBONACCI_ANCHOR_POINTS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERBOUGHT_OVERSOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "overbought",
+          "oversold",
+          "short-term overbought market"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_AREA_IDENTIFICATION",
+          "CONTEXTUAL_BIAS",
+          "COUNTER_TREND_SETUP_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retraces back up",
+          "retrace near the high of that range"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "PULLBACK_ANALYSIS",
+          "LIQUIDITY_SEEKING_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.75,
+        "surface_terms": [
+          "retrace near the high of that range indicates a short-term overbought market"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_ENTRY_ZONE",
+          "RISK_MANAGEMENT_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREVIOUS_DAY_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "previous day's low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_REFERENCE_POINT",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING FIBONACCI AS A FRAMING TOOL FOR OVERBOUGHT/OVERSOLD",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4135",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "70.5 level",
+          "79 percent retracement level",
+          "62 percent retracement level",
+          "'low-hanging fruit' approach",
+          "easily accessible 62 percent retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT",
+          "TRADE_SIMPLIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "20-pips stop loss, placed above the swing"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FRUIT' APPROACH",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_4136",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "determining whether to be a buyer or a seller",
+          "the market bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADE_PLANNING",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PATTERN_RECOGNITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "what the pattern looks like"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "SETUP_IDENTIFICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE CRITICAL ROLE OF BIAS AND CONSISTENT DAILY STUDY",
+      "source_file": "OTE Pattern Recognition Series - Vol. 14_Handbook.chunks.json"
+    }
+  }
+]

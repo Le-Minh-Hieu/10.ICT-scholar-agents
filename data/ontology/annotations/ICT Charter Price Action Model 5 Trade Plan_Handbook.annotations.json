@@ -1,0 +1,657 @@
+[
+  {
+    "chunk_id": "chunk_953",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "medium and high impact economic events",
+          "economic event"
+        ],
+        "narrative_roles": [
+          "BIAS_INFLUENCE",
+          "VOLATILITY_DRIVER",
+          "TRADE_CATALYST"
+        ],
+        "temporal_tags": [
+          "upcoming week",
+          "current or next trading week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "specific weekly profile",
+          "weekly range bias",
+          "weekly bias"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING",
+          "TRADE_DIRECTION_GUIDANCE"
+        ],
+        "temporal_tags": [
+          "upcoming week",
+          "week's range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "IPA_DATA_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "IPA data range of the last 20 trading days"
+        ],
+        "narrative_roles": [
+          "RANGE_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "last 20 trading days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "current dealing Inside this dealing range"
+        ],
+        "narrative_roles": [
+          "RANGE_DETERMINATION",
+          "CONTEXT_SETTING",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "20 trading days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUNDARY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "highest high",
+          "lowest low"
+        ],
+        "narrative_roles": [
+          "RANGE_DETERMINATION",
+          "CONTEXT_SETTING",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "20 trading days"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "above a previous day's high",
+          "below a previous day's low"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION_ZONE"
+        ],
+        "temporal_tags": [
+          "previous day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_ZONE_IDENTIFICATION",
+          "SUPPORT_RESISTANCE_LEVEL",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_RESISTANCE_LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low resistance liquidity run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION",
+          "PRICE_DELIVERY_MECHANISM",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PREPARATION PHASE",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_954",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.98,
+        "surface_terms": [
+          "previous day's low",
+          "intra-week low",
+          "previous day's high",
+          "intra-week high"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bias",
+          "this bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily range expansion"
+        ],
+        "narrative_roles": [
+          "EXPECTED_MOVEMENT",
+          "PRICE_DELIVERY"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPPORTUNITY DISCOVERY",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_955",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "premium fair value Gap setups",
+          "discount fair value Gap setups",
+          "15-minute premium fair value Gap PD array",
+          "15-minute discount fair value Gap PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "REJECTION_POINT",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN",
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "REJECTION_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 1,
+        "surface_terms": [
+          "standard deviation",
+          "three standard deviations",
+          "negative three standard deviations"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RISK_MANAGEMENT",
+          "MEASUREMENT_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.75,
+        "surface_terms": [
+          "manipulation"
+        ],
+        "narrative_roles": [
+          "MARKET_PRECONDITION",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALPING",
+        "confidence": 1,
+        "surface_terms": [
+          "Scalping protocols"
+        ],
+        "narrative_roles": [
+          "TRADE_STRATEGY",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Central Bank Dealers Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_DEFINITION",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_DEFINITION",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "TRADE_PLANNING_CRITERIA",
+        "confidence": 0.85,
+        "surface_terms": [
+          "When the market is primed",
+          "economic calendar suggests a volatility injection will likely unfold"
+        ],
+        "narrative_roles": [
+          "MARKET_PRECONDITION",
+          "CONTEXT",
+          "VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "ECONOMIC_CALENDAR_EVENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.9,
+        "surface_terms": [
+          "5-minute charts",
+          "1-minute charts"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT",
+          "CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE PLANNING",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_956",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_CONVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "PD array convergence",
+          "premium array and standard deviation convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "managing short and long entries",
+          "target objectives",
+          "initial objective on one position",
+          "second objective",
+          "multiple orders to manage the trade idea",
+          "capture a 50 Pip objective",
+          "close 80 percent of the trade",
+          "first order takes profit at 40 Pips",
+          "next one takes 50 Pips",
+          "third order has to have 80 percent of it closed at 50 Pips"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_TAKING",
+          "SCALING_OUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "initial stop-loss placements",
+          "Place our stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RE_ENTRY_TACTIC",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Re-enter if the trade stops out",
+          "secondary entry",
+          "multiple attempts to secure a solid entry"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "OPPORTUNITY_CAPTURE",
+          "RISK_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAY_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "Day trades"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEMO_TRADING",
+        "confidence": 0.8,
+        "surface_terms": [
+          "demo account"
+        ],
+        "narrative_roles": [
+          "PRACTICE_AND_LEARNING",
+          "RISK_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_957",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array convergence",
+          "discount array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "entry price",
+          "standard deviation and PD array convergence plus 5 Pips as our entry price",
+          "discount array and standard deviation convergence we aim to enter at"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "40 Pips as our initial objective on one position",
+          "50 Pips as our second objective"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "close 80 percent of the Note"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADE MANAGEMENT",
+          "Use multiple orders to manage the trade idea"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RE_ENTRY_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Re-enter if the trade stops out",
+          "secondary entry",
+          "multiple attempts to secure a solid entry"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "stops out"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Model Number Five",
+          "particular price action model"
+        ],
+        "narrative_roles": [
+          "STRATEGY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE MANAGEMENT",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_958",
+    "concepts": [
+      {
+        "canonical": "MONEY_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP-LOSS AND MONEY MANAGEMENT PRINCIPLES",
+          "Stop-loss management",
+          "money management principles",
+          "R-percentage",
+          "maximum R-percentage per trade",
+          "reduce the R-percentage",
+          "previous trade losses are recovered by 50 percent"
+        ],
+        "narrative_roles": [
+          "RISK_CONTROL",
+          "CAPITAL_PRESERVATION",
+          "DISCIPLINE_FRAMEWORK",
+          "RECOVERY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "When in profit 25 percent of our expected objective, the stop-loss can be reduced by 25 percent",
+          "When in profit 50 percent of our expected objective, the stop-loss can be reduced by 50 percent",
+          "When the position is at 75 percent of the expected profit objective, the stop must be at break even",
+          "not rushing to get break-even, not trying to get it to plus, not strangling the position"
+        ],
+        "narrative_roles": [
+          "POSITION_ADJUSTMENT",
+          "PROFIT_PROTECTION",
+          "RISK_MITIGATION",
+          "PSYCHOLOGICAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP-LOSS AND MONEY MANAGEMENT PRINCIPLES",
+      "source_file": "ICT Charter Price Action Model 5 Trade Plan_Handbook.chunks.json"
+    }
+  }
+]

@@ -518,6 +518,113 @@ export function reconcileHierarchy(memory: HierarchicalMemory): AlignmentResolut
 
   return {
     state: "RETRACEMENT",
+}
+
+export function reconcileIntermarket(memory: HierarchicalMemory): IntermarketResolution {
+  const rel = memory.relational;
+  if (!rel) {
+    return {
+      smt_detected: false,
+      correlation_state: "STABLE",
+      macro_pressure: "NEUTRAL",
+      confidence: 0
+    };
+  }
+
+  // SMT selection gate: require strong confidence and PD-array location at HTF.
+  const smtCandidates = rel.smt_hints || [];
+  const acceptedSmt = smtCandidates
+    .map(s => {
+      const passesConfidence = s.confidence > 0.7;
+      const passesPdArray = !!s.is_at_pd_array;
+      const accepted = passesConfidence && passesPdArray;
+      return { ...s, __passesConfidence: passesConfidence, __passesPdArray: passesPdArray, __accepted: accepted };
+    });
+
+  const strongestSmt = acceptedSmt
+    .filter(s => s.__accepted)
+    .sort((a, b) => b.confidence - a.confidence)[0];
+
+  log({
+    stage: "PMSO_RECONCILE_INTERMARKET",
+    message: "SMT reconciliation selection",
+    data: {
+      relationalHasRelational: !!rel,
+      smtHintCount: smtCandidates.length,
+      candidates: smtCandidates.slice(0, 6).map(s => ({
+        type: s.type,
+        confidence: s.confidence,
+        is_at_pd_array: (s as any).is_at_pd_array,
+        accepted: ((s as any).__passesConfidence && (s as any).__passesPdArray) || false
+      })),
+      strongestSmt: strongestSmt ? { type: strongestSmt.type, confidence: strongestSmt.confidence } : null,
+    },
+  });
+
+  let bullishPressure = 0;
+  let bearishPressure = 0;
+
+  rel.external_influences.forEach(inf => {
+    const effectivePower = inf.confidence * inf.temporal_decay;
+    if (inf.direction === "BULLISH_PRESSURE") bullishPressure += effectivePower;
+    if (inf.direction === "BEARISH_PRESSURE") bearishPressure += effectivePower;
+  });
+
+  const pressure = bullishPressure > bearishPressure + 0.2 ? "BULLISH" :
+    bearishPressure > bullishPressure + 0.2 ? "BEARISH" : "NEUTRAL";
+
+  const relationalAlignment =
+    Math.abs(rel.overall_relational_alignment || 0);
+
+  const boundedConfidence = Math.max(
+    pressure === "NEUTRAL" ? 0 : 0.25,
+    Math.min(1, relationalAlignment)
+  );
+
+  return {
+    smt_detected: !!strongestSmt,
+    smt_signal: strongestSmt,
+    correlation_state: "STABLE",
+    macro_pressure: pressure,
+    confidence: boundedConfidence
+  };
+}
+
+export function reconcileHierarchy(memory: HierarchicalMemory): AlignmentResolution {
+  const htf = memory.theses.DAILY;
+  const ltf = memory.theses.M15;
+
+  if (!htf || !ltf) {
+    return {
+      state: "SHIFT_IN_PROGRESS",
+      dominant_timeframe: "DAILY",
+      resolution_notes: "Insufficient data for full hierarchical reconciliation."
+    };
+  }
+
+  const htfBearish = htf.bias.includes("bearish");
+  const htfBullish = htf.bias.includes("bullish");
+  const ltfBearish = ltf.bias.includes("bearish");
+  const ltfBullish = ltf.bias.includes("bullish");
+
+  if ((htfBearish && ltfBearish) || (htfBullish && ltfBullish)) {
+    return {
+      state: "ALIGNED",
+      dominant_timeframe: "DAILY",
+      resolution_notes: "LTF aligns with HTF anchor. High probability continuation."
+    };
+  }
+
+  if (ltf.confidence > 0.85) {
+    return {
+      state: "SHIFT_IN_PROGRESS",
+      dominant_timeframe: "M15",
+      resolution_notes: "LTF showing high-intensity displacement against HTF anchor. Potential structural reversal in progress."
+    };
+  }
+
+  return {
+    state: "RETRACEMENT",
     dominant_timeframe: "DAILY",
     resolution_notes: "LTF move interpreted as a retracement within HTF structure. Awaiting alignment for execution."
   };
@@ -525,7 +632,8 @@ export function reconcileHierarchy(memory: HierarchicalMemory): AlignmentResolut
 
 export function reconcileScenarios(
   currentMemory: HierarchicalMemory,
-  previousScenarios?: ScenarioMemory
+  previousScenarios?: ScenarioMemory,
+  newsModifier?: any
 ): ScenarioMemory {
   const DECAY_COEFFICIENT = 0.5;
   const PRUNE_THRESHOLD = 0.2;
@@ -565,6 +673,34 @@ export function reconcileScenarios(
     seenIds.add(s.id);
     return true;
   }).sort((a, b) => b.confidence - a.confidence);
+
+  // Post-News Invalidation Logic
+  try {
+    const activeEvents = newsModifier?.event_windows?.active || [];
+    const postNewsEvents = activeEvents.filter((ev: any) => ev.actual !== undefined && ev.actual !== null && Math.abs(ev.deviation || 0) > 0);
+    if (postNewsEvents.length > 0) {
+       const newActive: MarketScenario[] = [];
+       const macroBias = newsModifier?.macro_context?.macro_bias || 'neutral';
+       
+       active.forEach(s => {
+          let isInvalidated = false;
+          if (macroBias === 'bearish' && (s.name.toLowerCase().includes('bullish') || s.description.toLowerCase().includes('bullish'))) {
+              isInvalidated = true;
+          } else if (macroBias === 'bullish' && (s.name.toLowerCase().includes('bearish') || s.description.toLowerCase().includes('bearish'))) {
+              isInvalidated = true;
+          }
+          
+          if (isInvalidated) {
+             s.metadata.archived_reason = "INVALIDATED_BY_FUNDAMENTAL";
+             archived.push(s);
+             log({stage: "SCENARIO_FUNDAMENTAL_INVALIDATION", message: `Archived scenario due to post-news deviation`, data: { id: s.id, macroBias }});
+          } else {
+             newActive.push(s);
+          }
+       });
+       active = newActive;
+    }
+  } catch (err) {}
 
   return {
     active_scenarios: active,

@@ -46,6 +46,19 @@ export async function htfPDArrayAgent(input: HTFPDArrayInput, minimal_context: a
       pushImage(parts, input.eurusd.d, "HTF-EURUSD-D", callId);
     },
     useGroundingVerification: true,
+    visionPrompt: `Analyze ALL attached chart images for LIVE ICT Premium/Discount (PD) Array observations.
+
+Focus on mapping the active dealing range and identifying the PD array hierarchy (Answer the question: Where is price in the dealing range?):
+Primary Focus:
+1. **HTF Dealing Range Boundaries**: Identify the recent valid swing high and swing low defining the current daily/weekly dealing range. (PD_ARRAY)
+2. **Equilibrium Level**: Pinpoint the estimated midpoint (50% level) of the current dealing range. (PD_ARRAY)
+3. **Current Price Position**: Determine whether the current price is trading in a Premium zone (above 50% equilibrium) or Discount zone (below 50% equilibrium). (PD_ARRAY)
+4. **PD Array Hierarchy**: Map which structural zone the price is in (e.g. Deep Premium, Discount, Equilibrium boundary). (PD_ARRAY)
+
+Secondary Focus (Only as supporting reference):
+5. **Premium / Discount PD Arrays**: Note supporting Daily/Weekly Order Blocks (OB), Fair Value Gaps (FVG), or Volume Imbalances (VI) only to confirm price location inside the range. (PD_ARRAY)
+
+Output your observations as objective bullet points detailing the Premium/Discount status and dealing range location.`,
     schema: htfPDArrayOutputSchema,
     mapOutput: (result) => {
       return {

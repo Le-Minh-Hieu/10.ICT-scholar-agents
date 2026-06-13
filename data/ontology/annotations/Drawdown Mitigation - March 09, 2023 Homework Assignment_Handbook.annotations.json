@@ -1,0 +1,154 @@
+[
+  {
+    "chunk_id": "chunk_510",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_HIT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "initial stop out"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_EVENT",
+          "LIQUIDITY_INTERACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DELIBERATE_DRAWDOWN_INDUCEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "another short position is added to deliberately induce further drawdown"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_DEMONSTRATION",
+          "RISK_MANAGEMENT_SCENARIO",
+          "PSYCHOLOGICAL_TESTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFITABLE_PRICE_MOVEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'five handle run'"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_DEMONSTRATION",
+          "PROFIT_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTENTIONAL_REVERSAL_EXPOSURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "position is intentionally not closed",
+          "allow the market to come back against the position"
+        ],
+        "narrative_roles": [
+          "EDUCATIONAL_DEMONSTRATION",
+          "REVERSAL_SCENARIO_SETUP",
+          "PSYCHOLOGICAL_TEST_OF_DISCIPLINE",
+          "RISK_MANAGEMENT_LESSON"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSECUTIVE DRAWDOWNS AND INTENTIONAL FIVE-HANDLE REVERSAL",
+      "source_file": "Drawdown Mitigation - March 09, 2023 Homework Assignment_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_511",
+    "concepts": [
+      {
+        "canonical": "PRICE_MOVEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "FIVE-HANDLE RUN"
+        ],
+        "narrative_roles": [
+          "PREVIOUS_TRADE_OUTCOME",
+          "PRICE_SWING_OBSERVATION",
+          "PROFIT_ACKNOWLEDGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "upcoming unemployment data",
+          "economic data"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER",
+          "UNCERTAINTY_FACTOR"
+        ],
+        "temporal_tags": [
+          "upcoming"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The position is moved to the sidelines"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "CAPITAL_PRESERVATION",
+          "PRE_NEWS_PREPARATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_INDUCED_VOLATILITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "railroad this position"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_RISK",
+          "UNFAVORABLE_PRICE_ACTION",
+          "LIQUIDITY_HUNT_IMPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POST_NEWS_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "observing the 'run out'"
+        ],
+        "narrative_roles": [
+          "MARKET_REASSESSMENT",
+          "PRICE_ACTION_OBSERVATION",
+          "LIQUIDITY_TARGETING_IDENTIFICATION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACKNOWLEDGING FIVE-HANDLE RUN AND AWAITING ECONOMIC DATA",
+      "source_file": "Drawdown Mitigation - March 09, 2023 Homework Assignment_Handbook.chunks.json"
+    }
+  }
+]

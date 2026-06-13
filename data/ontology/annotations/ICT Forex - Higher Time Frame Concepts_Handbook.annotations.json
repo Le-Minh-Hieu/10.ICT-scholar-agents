@@ -1,0 +1,769 @@
+[
+  {
+    "chunk_id": "chunk_1142",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Double-top sweeps",
+          "price to drive above those equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "very clean equal highs",
+          "relatively equal highs"
+        ],
+        "narrative_roles": [
+          "BUY_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Double-bottom sweeps",
+          "sweep below it",
+          "run the sell stops below the equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equal lows form",
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Simple run on old lows",
+          "running out a previous low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a previous low",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "SELL_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Runs on old highs",
+          "An old high gets traded through"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_GRAB",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An old high",
+          "old highs"
+        ],
+        "narrative_roles": [
+          "BUY_SIDE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "UNDERSTANDING PRICE REJECTIONS",
+          "reject and go higher",
+          "rejecting that and going higher",
+          "returns back into the range trading the opposite direction"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "POST_LIQUIDITY_GRAB_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FALSE_BREAKOUT",
+        "confidence": 1,
+        "surface_terms": [
+          "a false breakout"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "LIQUIDITY_GRAB_OUTCOME",
+          "PRICE_REJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNDERSTANDING PRICE REJECTIONS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1143",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIME FRAME ANALYSIS"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "PRE_TRADE_PLANNING",
+          "TRADER_ORIENTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTRADAY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "intraday charting",
+          "trading",
+          "day trading",
+          "scalping",
+          "intraday traders"
+        ],
+        "narrative_roles": [
+          "CONTRASTING_APPROACH",
+          "TRADER_LIMITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEMO_ACCOUNT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "demo account"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "PRACTICE_ENVIRONMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIME FRAME ANALYSIS FOR LIMITED INTRADAY TRADERS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1144",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "traded below this low",
+          "most recent run on liquidity",
+          "trade above this high",
+          "this low was traded through with this low",
+          "tried to go lower below this low and it rejected it handsomely"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "aim for these equal highs",
+          "run through these equal highs again",
+          "reaching for these equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.75,
+        "surface_terms": [
+          "breaking this high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "TREND_CHANGE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_BOUND_MARKET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "consolidating and going sideways",
+          "consolidating sideways",
+          "trading range market",
+          "range-bound market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX (DXY) DAILY CHART ANALYSIS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1145",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.85,
+        "surface_terms": [
+          "middle of the range",
+          "equilibrium",
+          "smack dab right in the middle of it"
+        ],
+        "narrative_roles": [
+          "DESCRIBING_MARKET_STATE",
+          "LACK_OF_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "range",
+          "The range is defined by this low to this high"
+        ],
+        "narrative_roles": [
+          "MARKET_DELINEATION",
+          "CONTEXT_FOR_PRICE_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TECHNIQUE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT (Smart Money Technique)"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out clean highs",
+          "every low has been taken out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clear defined market structure",
+          "no real clear market structure"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "DIRECTIONAL_BIAS_DETERMINATION",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation nature"
+        ],
+        "narrative_roles": [
+          "DESCRIBING_MARKET_STATE",
+          "LACK_OF_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AUSSIE DOLLAR (AUD/USD) AND NEW ZEALAND DOLLAR (NZD/USD) DAILY CHART",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1146",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price coming down below these equal lows; we ran through that and rejected"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "POTENTIAL_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs",
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SEEK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "another leg higher to reach above these equal highs",
+          "reach above these equal highs",
+          "probable levels to reach for Dollar Swissy, we could possibly see it trade up to that level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_SEEKING",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR SWISSY (USD/CHF) DAILY CHART ANALYSIS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1147",
+    "concepts": [
+      {
+        "canonical": "TRADING_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "trading range",
+          "this range",
+          "stuck in a range",
+          "inside that range"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "PRICE_BEHAVIOR",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_HIGH_LOW_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "double bottoms",
+          "old highs",
+          "yearly high",
+          "individual monthly highs and lows",
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "POTENTIAL_REVERSAL_POINT",
+          "ENTRY_TRIGGER_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "DAILY CHART ANALYSIS",
+          "yearly high",
+          "looking back 12 months",
+          "12 full months",
+          "quarterly",
+          "March",
+          "June",
+          "September",
+          "December",
+          "individual monthly highs and lows"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LEVEL_IDENTIFICATION",
+          "RANGE_DELINEATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RULE_RANGE_MIDDLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "don't want to trade it in the middle of the range"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "ENTRY_CRITERIA",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_AT_LIQUIDITY_ZONE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "You want to trade it when it gets down to an old low"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_HUNT_STRATEGY",
+          "POTENTIAL_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR YEN (USD/JPY) DAILY CHART ANALYSIS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1148",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIME FRAME TRADING",
+          "daily timeframe",
+          "longer-term setups",
+          "cannot day trade"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADING_STYLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows",
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running an old low",
+          "run that",
+          "take those out",
+          "punched through it",
+          "ran through it",
+          "reached below this low here",
+          "old lows to be run out",
+          "trade through it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old low",
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejection",
+          "trades back above that old low",
+          "fails here, trades back down, it goes back below this old high"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "in Asia",
+          "open at Asia"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "ASIA_OPEN"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trade above the opening at Asia and then sell short there with a stop above that high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "ASIA_OPEN"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRACTICAL APPLICATION OF HIGHER TIME FRAME TRADING ON USD/JPY",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1149",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "highest probability levels",
+          "untapped area of liquidity",
+          "large liquidity pools",
+          "liquidity",
+          "large area of interest for buying and selling",
+          "those levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "ORDER_FLOW_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSSES",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Who has a stop up there?",
+          "That's what the market reaches for",
+          "it's not your retail stop",
+          "Your retail stop",
+          "retail stop, they can't see it, they don't know where it's at, it's not important to them"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_FLOW_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Large funds",
+          "market goes to large liquidity pools on the basis of other institutional traders or large funds",
+          "retail stop",
+          "large funds, they're trading billions of dollars",
+          "market will gravitate to those levels"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "ORDER_FLOW_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS_AND_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "These highs here",
+          "relatively equal highs",
+          "this high intact",
+          "these highs",
+          "these lows",
+          "double tops",
+          "double bottoms"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "ORDER_FLOW_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "That's what the market reaches for",
+          "market goes to large liquidity pools",
+          "market will gravitate to those levels",
+          "market goes right to them and then starts to look for the other side of the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUMMARY FOR NEW TRADERS",
+      "source_file": "ICT Forex - Higher Time Frame Concepts_Handbook.chunks.json"
+    }
+  }
+]

@@ -1,0 +1,403 @@
+[
+  {
+    "chunk_id": "chunk_948",
+    "concepts": [
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "BEARISH BIAS",
+          "felt the Dollar CAD was going to go lower",
+          "market will go lower",
+          "market will move in our direction"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "PREDICTIVE_ANALYSIS",
+          "TRADE_SETUP_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_SEEKING",
+          "OBJECTIVE_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH BIAS FOR DOLLAR CAD AND SUPPORTING EVIDENCE",
+      "source_file": "ICT Charter Price Action Model 5 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_949",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAPS",
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "POINT_OF_ORIGIN",
+          "BIAS_DETERMINATION",
+          "TRADING_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order blocks"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS_DETERMINATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BIAS DETERMINATION",
+          "determine our bias",
+          "indicates the direction"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "MARKET_CLOSE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame charts",
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly range expansion",
+          "weekly range that was down"
+        ],
+        "narrative_roles": [
+          "PRICE_PROJECTION",
+          "DIRECTIONAL_BIAS",
+          "MACRO_MOVEMENT"
+        ],
+        "temporal_tags": [
+          "MARKET_CLOSE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high probability setups",
+          "truly high probability"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAPS AS POINT OF ORIGIN AND BIAS DETERMINATION",
+      "source_file": "ICT Charter Price Action Model 5 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_950",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FLEXIBILITY IN TRADING STYLES AND MASTERY EXPECTATIONS",
+      "source_file": "ICT Charter Price Action Model 5 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_951",
+    "concepts": [
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish bias",
+          "bias is bearish",
+          "bearish stance",
+          "bearish on the dollar"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "TRADING_DIRECTION_ALIGNMENT",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [
+          "higher time frame",
+          "weekly chart",
+          "weekly range",
+          "near-term"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three application",
+          "incorporating Power of Three",
+          "Power of Three is bearish"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE_IDENTIFICATION",
+          "DIRECTIONAL_CONFIRMATION",
+          "RANGE_PREDICTION",
+          "MANIPULATION_ANTICIPATION"
+        ],
+        "temporal_tags": [
+          "weekly chart",
+          "weekly range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "draw on liquidity at this old low",
+          "reaching for downside objectives"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNET",
+          "PROFIT_TAKING_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_AREA",
+          "DRAW_ON_LIQUIDITY_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "buy-side inefficiency"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "REBALANCE_POINT",
+          "PRICE_ATTRACTION",
+          "MITIGATION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame weekly chart",
+          "weekly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "BIAS_DETERMINATION",
+          "ROADMAP_GENERATION"
+        ],
+        "temporal_tags": [
+          "weekly chart",
+          "weekly range"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "watching the gold market because if it went higher, it would make it easier for the dollar to go lower and for foreign currencies to have a higher probability to rally"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "CONFIRMATION_BIAS",
+          "CORRELATION_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR CAD BEARISH BIAS AND POWER OF THREE APPLICATION",
+      "source_file": "ICT Charter Price Action Model 5 Supplementary Lesson_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_952",
+    "concepts": [
+      {
+        "canonical": "PD_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "PD Matrix"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DAILY RANGE EXPANSION",
+          "weekly range expansion",
+          "each daily range to expand downward"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TARGET_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount arrays"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish down close representing a bullish order block"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejection block"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "draw on liquidity"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old daily low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING PD MATRIX AND DAILY RANGE EXPANSION",
+      "source_file": "ICT Charter Price Action Model 5 Supplementary Lesson_Handbook.chunks.json"
+    }
+  }
+]

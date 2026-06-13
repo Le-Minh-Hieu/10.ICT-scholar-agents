@@ -1,0 +1,1181 @@
+[
+  {
+    "chunk_id": "chunk_917",
+    "concepts": [
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 1,
+        "surface_terms": [
+          "economic calendar",
+          "calendar events",
+          "calendar"
+        ],
+        "narrative_roles": [
+          "PREPARATION",
+          "MACRO_ANALYSIS",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [
+          "coming week",
+          "week to come"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENTS",
+        "confidence": 1,
+        "surface_terms": [
+          "medium and high-impact news events",
+          "high-impact news event"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_DRIVER",
+          "BIAS_DEVELOPMENT",
+          "EXPECTATIONAL_MODEL"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_PROFILE",
+        "confidence": 1,
+        "surface_terms": [
+          "weekly profile",
+          "specific weekly",
+          "likely weekly profile",
+          "Tuesday low of the week weekly profile",
+          "Wednesday low of the week weekly profile"
+        ],
+        "narrative_roles": [
+          "PREDICTION",
+          "BIAS_DEVELOPMENT",
+          "TRADE_PLANNING",
+          "EXPECTATIONAL_MODEL"
+        ],
+        "temporal_tags": [
+          "week to come",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "current market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_TEMPLATES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly templates",
+          "bullish templates"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "BIAS_DEVELOPMENT",
+          "PREDICTION",
+          "EXPECTATIONAL_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_SPECIFIC_TIME",
+        "confidence": 1,
+        "surface_terms": [
+          "Tuesday London open"
+        ],
+        "narrative_roles": [
+          "MARKET_TIMING",
+          "LIQUIDITY_EXPECTATION",
+          "VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "WEEKLY_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Tuesday low of the week weekly profile",
+          "Wednesday low of the week weekly profile"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POINT",
+          "KEY_REFERENCE_POINT",
+          "PREDICTIVE_ELEMENT",
+          "BIAS_DEVELOPMENT"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ECONOMIC CALENDAR AND WEEKLY PROFILE",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_918",
+    "concepts": [
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING THE NEXT DRAW IN LIQUIDITY",
+          "next draw in liquidity",
+          "draw in liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "PD ARRAY DIRECTION",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "TARGET_IDENTIFICATION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH_OR_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "An old High/low"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOL_LOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "a fair value gap"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "IMBALANCE_REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "weekly range",
+          "weekly bias"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_BIAS",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "economic calendar event",
+          "economic calendar"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_INFLUENCE",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "current or next trading week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a run on liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY_REBALANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rebalancing of inefficiency in price"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_REBALANCE",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE NEXT DRAW IN LIQUIDITY AND PD ARRAY DIRECTION",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_919",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT AND PREMIUM ARRAYS",
+          "discount arrays",
+          "discount arrays under Tuesday's European opening price inside the 20-day IPA data range",
+          "discount arrays under Wednesday's European opening price inside the 20-day if the data range"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_DISCOVERY",
+          "OPTIMAL_ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "EUROPEAN",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCOUNT AND PREMIUM ARRAYS",
+          "premium arrays",
+          "premium arrays above Tuesday's European open inside the 20-day if the data range",
+          "premium arrays above Wednesday's European opening price inside the 20-day if the data range"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_DISCOVERY",
+          "OPTIMAL_EXIT_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "session_tags": [
+          "EUROPEAN",
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCOUNT AND PREMIUM ARRAYS",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_920",
+    "concepts": [
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 1,
+        "surface_terms": [
+          "Judas swing",
+          "manipulation in price opposite to our trade bias",
+          "snappy, sharp price movement that would be in the opposite direction"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [
+          "ECONOMIC_CALENDAR"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY_INJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "volatility injection"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT_DESCRIPTION",
+          "CONDITIONAL_TRIGGER"
+        ],
+        "temporal_tags": [
+          "ECONOMIC_CALENDAR"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET PRIMING AND VOLATILITY INJECTION",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_921",
+    "concepts": [
+      {
+        "canonical": "INDUCEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market protraction",
+          "period of market protraction",
+          "opposed to our trade direction",
+          "price shoot up when we are looking to go short",
+          "price shoot down when we want to go long"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRE_ENTRY_SETUP",
+          "TRADE_SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 1,
+        "surface_terms": [
+          "We are not chasing price"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_CONTROL",
+          "AVOID_FOMO"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET PROTRACTION AND ENTRY STRATEGY",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_922",
+    "concepts": [
+      {
+        "canonical": "BEARISH_ENTRY_FRAMING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "BEARISH ENTRY FRAMING",
+          "bearish",
+          "short entry"
+        ],
+        "narrative_roles": [
+          "TRADE_CONTEXT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "REVERSAL_ZONE",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 0.8,
+        "surface_terms": [
+          "15-minute"
+        ],
+        "narrative_roles": [
+          "ANALYSIS_CRITERIA",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "standard deviation",
+          "three standard deviations",
+          "plus three"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RANGE_PROJECTION",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_REFERENCE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "CENTRAL_BANK_DEALERS_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Central Bank dealers range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "RANGE_REFERENCE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London open"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TIME_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_TIME_WINDOW",
+          "ENTRY_WINDOW"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "WEEKLY_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly low"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_TARGET",
+          "MARKET_STRUCTURE_POINT",
+          "SUPPORT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_PROBABILITY_TIME_WINDOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Thursday New York session"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION_TIME",
+          "CONTEXT_SETTING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_FILTER",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time filter"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TARGETING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "targeting purposes"
+        ],
+        "narrative_roles": [
+          "EXIT_CRITERIA",
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ENTRY FRAMING",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_923",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_PD_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "15-minute discount PD array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "LONG_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION_PROJECTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "standard deviation of no more than three standard deviations lower",
+          "three Asian range standard deviations projected lower",
+          "three Central Bank dealers range projected lower",
+          "three flout levels lower"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_CRITERIA",
+          "PRICE_BOUNDARY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_TIMING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "London open",
+          "New York open"
+        ],
+        "narrative_roles": [
+          "TRADE_TIMING"
+        ],
+        "temporal_tags": [
+          "London open",
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "WEEKLY_HIGH_FORMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "weekly high"
+        ],
+        "narrative_roles": [
+          "TARGETING",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [
+          "Thursday New York session"
+        ],
+        "session_tags": [
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ENTRY FRAMING",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_924",
+    "concepts": [
+      {
+        "canonical": "SESSION_OPEN_PRICE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "European opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PREMIUM_DISCOUNT_BENCHMARK"
+        ],
+        "temporal_tags": [
+          "Tuesday"
+        ],
+        "session_tags": [
+          "EUROPEAN_OPEN"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "retracement higher"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONTEXT",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London open kill zones",
+          "New York open kill zones"
+        ],
+        "narrative_roles": [
+          "TIMING_WINDOW"
+        ],
+        "temporal_tags": [
+          "London open",
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stop raid"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ENTRIES",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_925",
+    "concepts": [
+      {
+        "canonical": "ENTRY_ORDER_TYPE",
+        "confidence": 1,
+        "surface_terms": [
+          "sell limit order"
+        ],
+        "narrative_roles": [
+          "ORDER_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PD_ARRAY_CONVERGENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "PD array convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STANDARD_DEVIATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "standard deviation"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "PRICE_PROJECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_PRICE_REFINEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "minus 5 Pips"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "SLIPPAGE_MITIGATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_ORDER_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "multiple positions",
+          "multiple orders",
+          "all use the same entry price"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "CONSISTENCY_RULE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY AND MULTIPLE POSITIONS",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_926",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT OBJECTIVES",
+          "50 Pips as your objective",
+          "second objective",
+          "75 Pips as your second objective",
+          "100 pip objective"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "EXIT_STRATEGY",
+          "OBJECTIVE_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT OBJECTIVES",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_927",
+    "concepts": [
+      {
+        "canonical": "PD_ARRAY_CONVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "PD array convergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_PREDICTION",
+          "REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_METHODOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "entry price",
+          "standard deviation and PD array convergence plus 5 Pips as your entry price",
+          "same entry price"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "PRICE_REFINEMENT",
+          "POSITION_SIZING_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_TYPE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "buy limit order"
+        ],
+        "narrative_roles": [
+          "EXECUTION_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY AND MULTIPLE POSITIONS",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_928",
+    "concepts": [
+      {
+        "canonical": "PROFIT_TARGETS",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT OBJECTIVES",
+          "50 Pips out as your objective",
+          "75 Pips out as your second objective",
+          "100 pip objective"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_TYPE",
+        "confidence": 1,
+        "surface_terms": [
+          "limit order"
+        ],
+        "narrative_roles": [
+          "EXECUTION_STRATEGY",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_CLOSURE",
+        "confidence": 1,
+        "surface_terms": [
+          "collapse the trade"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT OBJECTIVES",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_929",
+    "concepts": [
+      {
+        "canonical": "STOP_LOSS_ADJUSTMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS ADJUSTMENT IN PROFIT",
+          "adjust your stop loss",
+          "stop loss can be reduced"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_PROTECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_EVEN_STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "break even",
+          "stop must be at break even or above it"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "expected objective",
+          "expected profit objective"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS ADJUSTMENT IN PROFIT",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_930",
+    "concepts": [
+      {
+        "canonical": "RISK_PERCENTAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "1.5 percent",
+          "1.5 percent of the account equity"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MONETARY_RISK_PER_TRADE",
+        "confidence": 1,
+        "surface_terms": [
+          "$300",
+          "$300 (total risk)"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 1,
+        "surface_terms": [
+          "$300 (total risk) / $2 (per pip) = 150 micro Lots per trade"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_PLANNING",
+          "CAPITAL_ALLOCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MICRO_LOTS",
+        "confidence": 1,
+        "surface_terms": [
+          "MICRO LOTS",
+          "micro Lots"
+        ],
+        "narrative_roles": [
+          "POSITION_SIZING",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MICRO LOTS",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_931",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Risk per trade: 1.5 percent",
+          "$20,000 1.5 percent = $300",
+          "$300 (total risk)",
+          "1.5 percent risk of the account equity"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "TRADE_PLANNING",
+          "EXPOSURE_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "20 Pips"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_PLANNING",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_SIZING",
+        "confidence": 0.99,
+        "surface_terms": [
+          "15 mini Lots per trade",
+          "mini Lots",
+          "$1 per pip leverage",
+          "$300 (total risk) / $20 = 15 mini Lots per trade"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_CONTROL",
+          "ACCOUNT_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MINI LOTS",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_932",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STANDARD LOTS AND STOP LOSS ADJUSTMENT",
+      "source_file": "ICT Charter Price Action Model 2 Trade Plan & Algorithmic Theory_Handbook.chunks.json"
+    }
+  }
+]

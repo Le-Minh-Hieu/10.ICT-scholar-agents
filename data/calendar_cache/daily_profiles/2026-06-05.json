@@ -1,0 +1,400 @@
+{
+  "profile_date_utc": "2026-06-05T13:20:33.226Z",
+  "market_date": "2026-06-05",
+  "market_weekday": "Friday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-01",
+  "source_week_profile_id": "2026-06-01",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.5
+      },
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": -1,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.2
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.35
+  },
+  "daily_bias": {
+    "daily_bias": "neutral",
+    "confidence": 0.15,
+    "bucket_scores": {
+      "INFLATION": 0,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      },
+      {
+        "currency": "CAD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      },
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "source": "calendar"
+  },
+  "day_type": "NFP Driven Expansion / Weekly Low Formation",
+  "day_confidence": 0.8,
+  "day_role_in_week": "NFP Driven Expansion / Weekly Low Formation",
+  "weekly_alignment_state": "Aligned with weekly bearish 'Seek and Destroy' narrative and weekly low formation.",
+  "dominant_weekly_theme": "Bearish Wednesday High of Week with NFP Driven Expansion",
+  "dominant_weekly_narrative": "The week is set to unfold with a prevailing bearish bias, primarily influenced by persistent inflation concerns, notably in the Eurozone (EUR Inflation -2), alongside structural weakness in the US labor market (USD Labor -1). This macro environment suggests a risk-off sentiment. Early in the week, price is likely to seek higher premium levels on Monday and Tuesday, potentially setting up the weekly high. Tuesday's Eurozone CPI figures are poised to inject significant volatility, and a strong inflation print could solidify the bearish outlook for the EUR. By Wednesday, with key US labor (ADP) and growth (ISM Services) data releases, the market is expected to confirm the weekly high, potentially reversing any early week rallies into a bearish expansion phase. The bearish momentum is then anticipated to continue through Thursday, culminating in a 'Seek and Destroy' bearish movement on Friday. The high-impact Non-Farm Payroll report is expected to provide the volatility for price to run intra-week lows and establish the weekly low, either reinforcing US labor weakness or further driving the general inflation-driven bearishness.",
+  "weekly_delivery_model": "The week will likely begin with price seeking higher premium levels for optimal short entries on Monday and Tuesday, potentially consolidating before significant news. Wednesday is anticipated to mark the weekly high after a run into a premium array, setting the stage for a subsequent bearish expansion. This downward movement is expected to continue through Thursday, culminating in a significant 'seek and destroy' move on Friday, driven by Non-Farm Payrolls, forming the weekly low.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": "Friday",
+  "expected_expansion_day": "Friday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [
+    {
+      "event_id": "forexfactory:1d9fb6e0e3cc",
+      "title": "Employment Change",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-05T12:30:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:409c6c8dfa02",
+      "title": "Unemployment Rate",
+      "category": "LABOR",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-05T12:30:00.000Z",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:2cf63b971758",
+      "title": "Average Hourly Earnings m/m",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-05T12:30:00.000Z",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:9d5ff56370fe",
+      "title": "Non-Farm Employment Change",
+      "category": "OTHER",
+      "impact": "HIGH",
+      "scheduled_time_utc": "2026-06-05T12:30:00.000Z",
+      "expected_effect": "LIQUIDITY_EVENT",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "08:30",
+      "session_tags": [
+        "new_york_morning",
+        "us_data_window",
+        "exact_0830"
+      ],
+      "killzone_tags": [
+        "new_york_killzone",
+        "ny_0830_macro"
+      ],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:0f03523005b6",
+      "title": "Ivey PMI",
+      "category": "OTHER",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-05T14:00:00.000Z",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "10:00",
+      "session_tags": [
+        "new_york_morning",
+        "exact_1000"
+      ],
+      "killzone_tags": [
+        "london_close_window",
+        "ny_1000_macro"
+      ],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    },
+    {
+      "event_id": "forexfactory:055342305ee7",
+      "title": "BOE Gov Bailey Speaks",
+      "category": "OTHER",
+      "impact": "MEDIUM",
+      "scheduled_time_utc": "2026-06-05T18:00:00.000Z",
+      "expected_effect": "EXPANSION",
+      "market_timezone": "America/New_York",
+      "market_date": "2026-06-05",
+      "market_weekday": "Friday",
+      "market_time_hhmm": "14:00",
+      "session_tags": [
+        "new_york_afternoon"
+      ],
+      "killzone_tags": [],
+      "catalyst_role": "NFP Driven Expansion / Weekly Low Formation",
+      "confidence": 0.6
+    }
+  ],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "event-driven repricing",
+      "liquidity sensitivity around scheduled releases"
+    ],
+    "expected_liquidity_sequence": [
+      "08:30 Employment Change",
+      "08:30 Unemployment Rate",
+      "08:30 Average Hourly Earnings m/m",
+      "08:30 Non-Farm Employment Change",
+      "10:00 Ivey PMI",
+      "14:00 BOE Gov Bailey Speaks"
+    ],
+    "high_attention_windows": [
+      "new_york_killzone",
+      "ny_0830_macro",
+      "london_close_window",
+      "ny_1000_macro"
+    ],
+    "expected_displacement_windows": [
+      "new_york_killzone",
+      "ny_0830_macro",
+      "ny_1000_macro"
+    ],
+    "expected_reversal_windows": [
+      "08:30",
+      "10:00",
+      "14:00"
+    ]
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:NFP Driven Expansion / Weekly Low Formation",
+      "weekly_model:The week will likely begin with price seeking higher premium levels for optimal short entries on Monday and Tuesday, potentially consolidating before significant news. Wednesday is anticipated to mark the weekly high after a run into a premium array, setting the stage for a subsequent bearish expansion. This downward movement is expected to continue through Thursday, culminating in a significant 'seek and destroy' move on Friday, driven by Non-Farm Payrolls, forming the weekly low.",
+      "dominant_theme:Bearish Wednesday High of Week with NFP Driven Expansion",
+      "catalyst:Employment Change",
+      "time:08:30",
+      "killzone:new_york_killzone",
+      "killzone:ny_0830_macro",
+      "catalyst:Unemployment Rate",
+      "catalyst:Average Hourly Earnings m/m"
+    ],
+    "queries": [
+      "Friday daily profile intraday ICT",
+      "Friday NFP Driven Expansion / Weekly Low Formation ICT weekly delivery model",
+      "Average Hourly Earnings m/m HIGH 08:30 New York ICT profile",
+      "Employment Change HIGH 08:30 New York ICT profile",
+      "Unemployment Rate HIGH 08:30 New York ICT profile",
+      "The week will likely begin with price seeking higher premium levels for optimal short entries on Monday and Tuesday, potentially consolidating before significant news. Wednesday is anticipated to mark the weekly high after a run into a premium array, setting the stage for a subsequent bearish expansion. This downward movement is expected to continue through Thursday, culminating in a significant 'seek and destroy' move on Friday, driven by Non-Farm Payrolls, forming the weekly low. Average Hourly Earnings m/m HIGH Friday",
+      "The week will likely begin with price seeking higher premium levels for optimal short entries on Monday and Tuesday, potentially consolidating before significant news. Wednesday is anticipated to mark the weekly high after a run into a premium array, setting the stage for a subsequent bearish expansion. This downward movement is expected to continue through Thursday, culminating in a significant 'seek and destroy' move on Friday, driven by Non-Farm Payrolls, forming the weekly low. Employment Change HIGH Friday",
+      "The week will likely begin with price seeking higher premium levels for optimal short entries on Monday and Tuesday, potentially consolidating before significant news. Wednesday is anticipated to mark the weekly high after a run into a premium array, setting the stage for a subsequent bearish expansion. This downward movement is expected to continue through Thursday, culminating in a significant 'seek and destroy' move on Friday, driven by Non-Farm Payrolls, forming the weekly low. Unemployment Rate HIGH Friday",
+      "Average Hourly Earnings m/m HIGH new york killzone New York",
+      "Average Hourly Earnings m/m HIGH ny 0830 macro New York"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_2921",
+      "chunk_2917",
+      "chunk_2964",
+      "chunk_2111",
+      "chunk_537",
+      "chunk_1602",
+      "chunk_281",
+      "chunk_3820",
+      "chunk_477",
+      "chunk_1211",
+      "chunk_2048",
+      "chunk_4088",
+      "chunk_552",
+      "chunk_1284",
+      "chunk_298",
+      "chunk_2989",
+      "chunk_1202",
+      "chunk_1210",
+      "chunk_3561",
+      "chunk_1927",
+      "chunk_2957",
+      "chunk_863",
+      "chunk_3339",
+      "chunk_3674",
+      "chunk_308",
+      "chunk_291",
+      "chunk_1031",
+      "chunk_797",
+      "chunk_3556"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "SEEK AND DESTROY BEARISH FRIDAY",
+        "chunk_id": "chunk_2921",
+        "relevance": null
+      },
+      {
+        "concept": "WEDNESDAY HIGH OF THE WEEK",
+        "chunk_id": "chunk_2917",
+        "relevance": null
+      },
+      {
+        "concept": "WEDNESDAY HIGH OF THE WEEK (bearish market)",
+        "chunk_id": "chunk_2964",
+        "relevance": null
+      },
+      {
+        "concept": "E-MINI S&P 15-MINUTE (NFP Friday liquidity)",
+        "chunk_id": "chunk_2111",
+        "relevance": null
+      },
+      {
+        "concept": "NAVIGATING EMPLOYMENT NUMBERS AND AVOIDING GAMBLING",
+        "chunk_id": "chunk_537",
+        "relevance": null
+      },
+      {
+        "concept": "NON-FARM PAYROLL (NFP) RELEASE AND MARKET BEHAVIOR",
+        "chunk_id": "chunk_1602",
+        "relevance": null
+      },
+      {
+        "concept": "NFP DAY BIAS AND OVERNIGHT PROJECTIONS",
+        "chunk_id": "chunk_281",
+        "relevance": null
+      },
+      {
+        "concept": "HOURLY CHART ANALYSIS AND NON-FARM PAYROLL EXPECTATIONS",
+        "chunk_id": "chunk_3820",
+        "relevance": null
+      },
+      {
+        "concept": "NON-FARM PAYROLL WEEKS AND TRADING GUIDELINES",
+        "chunk_id": "chunk_477",
+        "relevance": null
+      },
+      {
+        "concept": "FRIDAY'S BEARISH ORDER BLOCK AND MARKET STRUCTURE BREAK",
+        "chunk_id": "chunk_1211",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Today is projected as an NFP-driven expansion day, expected to establish the weekly low. While the overall weekly narrative points to a 'Seek and Destroy' bearish movement, the daily calendar bias is currently neutral, suggesting that significant directional clarity will emerge following the high-impact NFP reports. Price is expected to seek and run liquidity pools, specifically intra-week lows, with NFP acting as the catalyst for potential volatile movements.",
+    "key_if_then_paths": {
+      "if_nfp_confirms_bearish_narrative": "If the Non-Farm Payroll report reinforces US labor weakness or general inflation-driven bearishness, then the bearish 'seek and destroy' movement will be confirmed, leading to an expansion lower to run intra-week lows and establish the weekly low.",
+      "if_nfp_contradicts_bearish_narrative": "If the Non-Farm Payroll report unexpectedly contradicts the prevailing bearish sentiment, then the market may experience initial indecision or reversals before potentially finding a sustained direction, although the weekly expectation is for a bearish low formation."
+    },
+    "invalidation_conditions": "The primary daily thesis would be invalidated if price fails to expand lower to run intra-week lows following the NFP release, or if a strong, sustained bullish expansion occurs that significantly moves price away from and holds above previously established intra-week lows, contradicting the weekly low formation expectation."
+  },
+  "intraday_awareness": {
+    "session_focus": "The primary focus will be on the New York Morning session, specifically the 08:30 AM (NYT) Non-Farm Payroll (NFP) releases, including Employment Change, Unemployment Rate, Average Hourly Earnings m/m, and Non-Farm Employment Change. Secondary attention will be on the 10:00 AM (NYT) Ivey PMI and the 14:00 PM (NYT) BOE Gov Bailey Speaks for potential GBP volatility.",
+    "catalyst_priorities": [
+      "Employment Change",
+      "Unemployment Rate",
+      "Average Hourly Earnings m/m",
+      "Non-Farm Employment Change",
+      "Ivey PMI",
+      "BOE Gov Bailey Speaks"
+    ],
+    "caution_flags": "High impact NFP events typically lead to extreme volatility and potential for significant whipsaws. The market profile described for a 'Seek and Destroy Bearish Friday' can be a neutral or low probability setup, often involving running shallow stops in both directions. It is crucial to avoid 'gambling' on these numbers, as price action can be highly unpredictable around the 08:30 AM release. The neutral daily bias also suggests an increased risk of initial indecisive price movements.",
+    "execution_risk_context": "Extreme volatility and potential for significant price swings are expected around the 08:30 AM NFP release. The 'Seek and Destroy' profile suggests that price may run shallow stops in both directions before committing to the primary expansion to the weekly low. The neutral daily bias implies increased unpredictability in immediate post-NFP price action, warranting heightened caution and potentially observing initial market reactions rather than anticipating a direct move."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-05T13:21:33.044Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-05T13:21:56.239Z",
+  "version": 1
+}

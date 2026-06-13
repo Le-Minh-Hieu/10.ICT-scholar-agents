@@ -1,0 +1,394 @@
+[
+  {
+    "chunk_id": "chunk_191",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Retail Sales numbers",
+          "FED Chairman speaking",
+          "These events"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "LIQUIDITY_ENGINEERING_CATALYST",
+          "MARKET_DIRECTION_INFLUENCER"
+        ],
+        "temporal_tags": [
+          "Tuesday, May 17th, 2022",
+          "8:30 AM New York local time",
+          "2:00 PM New York local time"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "MARKET_VOLATILITY",
+        "confidence": 1,
+        "surface_terms": [
+          "significant volatility",
+          "UPCOMING VOLATILITY"
+        ],
+        "narrative_roles": [
+          "TRADING_CONDITION",
+          "OPPORTUNITY_CREATOR"
+        ],
+        "temporal_tags": [
+          "2:00 PM tomorrow"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "MARKET_CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "today's lethargic market"
+        ],
+        "narrative_roles": [
+          "PRE_NEWS_LULL",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [
+          "today"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "read price action"
+        ],
+        "narrative_roles": [
+          "CORE_SKILL",
+          "MARKET_UNDERSTANDING",
+          "TRADING_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEMO_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "paper trading",
+          "demo trading"
+        ],
+        "narrative_roles": [
+          "TRAINING_METHOD",
+          "DEMONSTRATION_TOOL",
+          "SKILL_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UPCOMING VOLATILITY AND DISPELLING MT4 SERVER DOUBTS",
+      "source_file": "2022 ICT Mentorship Episode 29_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_192",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "NASDAQ exhibited a similar pattern but made a lower low, while S&P resisted going lower, indicating an unwillingness to follow NASDAQ's deeper decline",
+          "NASDAQ again made a lower low than its 10:00 AM low, whereas S&P once again refused to go lower than its 10:00 AM low",
+          "This divergence"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "INTERMARKET_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "10:00 AM low"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "ONE_MINUTE_CHART",
+        "confidence": 1,
+        "surface_terms": [
+          "one-minute chart"
+        ],
+        "narrative_roles": [
+          "SCALPING_TIME_FRAME",
+          "ENTRY_TIME_FRAME",
+          "CONFIRMATION_TIME_FRAME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking out a short-term high and then declining"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "STOP_HUNT",
+          "LIQUIDITY_GRAB"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SHORT_TERM_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "ENTRY_MODEL_COMPONENT",
+          "REJECTION_POINT",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LOW_VOLATILITY",
+        "confidence": 1,
+        "surface_terms": [
+          "very low volatility",
+          "quiet day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "AVOIDANCE_CRITERIA",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "day before the Fed Chair speaks"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMALL_RANGE_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "small range day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION_ASSESSMENT",
+          "AVOIDANCE_CRITERIA"
+        ],
+        "temporal_tags": [
+          "day before the Fed Chair speaks"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART ANALYSIS AND SMT DIVERGENCE",
+      "source_file": "2022 ICT Mentorship Episode 29_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_193",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap",
+          "gap"
+        ],
+        "narrative_roles": [
+          "ENTRY_SETUP",
+          "PRICE_RETEST",
+          "IDEAL_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_EXECUTION_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "close proximity entries",
+          "entry close to this fair value gap",
+          "very close proximity to the ideal entry point"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "BEHAVIORAL_CONSIDERATION",
+          "RISK_TOLERANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "entry",
+          "stop placement",
+          "position management",
+          "adding a second position"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "RISK_MANAGEMENT",
+          "SCALING_IN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CAMTASIA SOFTWARE AND CLOSE PROXIMITY ENTRIES",
+      "source_file": "2022 ICT Mentorship Episode 29_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_194",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "breaking market structure to the upside"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "primary fair value gap",
+          "secondary fair value gap",
+          "the gap",
+          "fair value gap itself"
+        ],
+        "narrative_roles": [
+          "RETRACEMENT_TARGET",
+          "ENTRY_ZONE",
+          "REFERENCE_POINT",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIVE TRADINGVIEW EXECUTION AND SPECIFIC ENTRIES",
+      "source_file": "2022 ICT Mentorship Episode 29_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_195",
+    "concepts": [
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "PRICE ACTION MASTERY",
+          "read price action",
+          "interpret candlesticks and predict their likely movements"
+        ],
+        "narrative_roles": [
+          "SKILL_DEMONSTRATION",
+          "ANALYTICAL_FRAMEWORK",
+          "MASTERY_ASSERTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the algorithm",
+          "conditions align with the algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PREDICTIVE_FRAMEWORK",
+          "CONDITIONAL_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRANSPARENCY IN PAPER TRADING AND PRICE ACTION MASTERY",
+      "source_file": "2022 ICT Mentorship Episode 29_Handbook.chunks.json"
+    }
+  }
+]

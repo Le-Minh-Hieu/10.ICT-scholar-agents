@@ -1,0 +1,122 @@
+[
+  {
+    "section_title": "DAILY RANGE",
+    "content": "Welcome back to the 2022 ICT mentorship on YouTube. This lesson will focus on intraday order flow and\nunderstanding the daily range."
+  },
+  {
+    "section_title": "PLATFORM AND LESSON SCOPE",
+    "content": "We will be looking at TradingView.com, which can be used for free or with an affordable membership. This\nplatform allows you to view the same charts I use in my mentorship.\nThis lecture will predominantly teach the elements of the E-mini, setting up your daily range, and intraday\nlayouts. I will also discuss daily profiles, comparing my teachings with what is generally available online to\nhelp you decide if this pursuit is worthwhile."
+  },
+  {
+    "section_title": "INDEX FUTURES",
+    "content": "The concepts taught today are directly linked to index futures, specifically:\n- S&P (ES)\n- NASDAQ (NQ)\n- Dow (YM)\n- Russell 2000 (RTY)\nThe ideas of trading the Asian range and similar concepts are not applicable to these markets and will not\nbe taught in this mentorship. Focus on the methods provided."
+  },
+  {
+    "section_title": "UNDERSTANDING FUTURES CONTRACT EXPIRATION AND SYMBOLS",
+    "content": "Index Futures contracts trade with expiration dates. The delivery month codes are:\n- H: March\n- M: June\n- U: September\n- Z: December\nThese are the only four months index futures (E-mini S&P, E-mini NASDAQ, E-mini Dow) trade on. The\nyear follows the month code.\nFor example, on TradingView, ES H2022 represents the E-mini S&P 500 contract for March 2022."
+  },
+  {
+    "section_title": "CONTRACT EXPIRATION AND ROLLOVER",
+    "content": "Contracts expire on the third Friday of the delivery month (e.g., third Friday of March for an H contract).\n- You should not trade after expiration.\n- The 'front month' or 'current month' refers to the nearest contract month.\n- The 'next month out' refers to the contract month immediately following the front month."
+  },
+  {
+    "section_title": "MONITORING OPEN INTEREST FOR CONTRACT SELECTION",
+    "content": "To determine which contract to trade, monitor open interest:\n- One week before expiration (the third Friday of the delivery month), begin monitoring open interest.\n- Roll over to the month that has a larger open interest number.\n- Example: If the June contract has larger open interest than March, trade June for better liquidity.\nThis ensures you are trading the contract month with the larger liquidity pool. The sequence repeats\nannually: March, June, September, December."
+  },
+  {
+    "section_title": "INTRADAY FRAMEWORK AND MARKET PROFILES",
+    "content": "This week's lesson focuses on the intraday framework. Next week, we will cover bias and specific entry\ntechniques. You will have homework assignments at the end of this video related to market profiles.\nWe will assume a bullish bias for today's examples, though proof of this bias and execution will be provided\nlater. It is crucial to follow the lesson pace and complete homework assignments to build ingrained\nunderstanding. Your study time is where the majority of learning occurs."
+  },
+  {
+    "section_title": "BELLWETHER FOR KEY LEVELS",
+    "content": "The 15-minute time frame is the 'bellwether time frame'. Here, you look for:\n- Key highs and lows\n- Imbalances like Fair Value Gaps\n- Order blocks (though the focus in this mentorship is fair value gaps due to their repetitive and easy-to\n- spot nature).\nThis time frame helps frame your day. For charting, use vertical lines in TradingView or your platform."
+  },
+  {
+    "section_title": "SETTING UP INTRADAY ZONES ON YOUR CHART",
+    "content": "To set up your intraday chart:\n- Place a vertical line at 8:30 AM New York local time.\n- Place another vertical line at 12:00 PM (Noon) New York local time.\n- Place a third vertical line at 1:00 PM New York local time.\n- Place a final vertical line at 4:00 PM New York local time.\nThese lines establish equal distance in time for the morning session, the lunch hour, and the afternoon\nsession. It is critical that your TradingView chart is set to New York local time for all calibrations to align with\nmy teachings and community charts."
+  },
+  {
+    "section_title": "NEW YORK LOCAL TIME AND THE 'NO TRADE' LUNCH HOUR",
+    "content": "All time references are New York local time. Setting your chart to this ensures consistency with the\nmentorship.\n- The hour from noon to 1:00 PM New York time is a no-trade time period. Do not trade during this time,\neven in demo accounts. More reasons for this will be explained later in the mentorship, but trust this rule for\nnow. This period can be volatile or consolidate, neither is ideal for participation."
+  },
+  {
+    "section_title": "DAILY RANGE BOUNDARIES AND OPTIMAL TRADING TIMES",
+    "content": "Your daily range on an intraday basis is now set up:\n- Morning trade session: 8:30 AM (due to news events) to noon.\n- Preferably, aim to exit or manage trades around 11:00 AM. The goal is to be positioned before 11:00 AM\nand ride the move into the New York lunch hour.\n- The afternoon session (post-1:00 PM) will be discussed further when we delve into daily profiles (not\nvolume profiles)."
+  },
+  {
+    "section_title": "A COMPLETE DAILY TREATISE",
+    "content": "The afternoon session will be taught to provide a complete daily treatise on the entire daily range of\nindices. This will offer a far better chance of success using the provided information, supported by actual\ntrade executions.\nMany questions have arisen regarding what highs and lows to look for prior to 8:30 AM as catalysts for stop\nhunts. I appreciate all feedback in the comment section as it helps refine future lessons and explanations."
+  },
+  {
+    "section_title": "IDENTIFYING PRE-8:30 SWING HIGHS AND LOWS",
+    "content": "Prior to 8:30 AM (to the left of the 8:30 vertical line on a 15-minute time frame), identify the most significant\nor obvious swing high and swing low.\n- Swing High: A candle with a lower high to its left and a lower high to its right (a three-candle pattern). The\nclose of the candles does not matter. Buy-side liquidity (buy stops) rests above a swing high.\n- Swing Low: A candle with a higher low to its left and a higher low to its right (a three-candle pattern). The\nclose of the candles does not matter. Sell-side liquidity (sell stops) rests below a swing low.\nThese swing points are where liquidity is placed."
+  },
+  {
+    "section_title": "TRANSITION TO 5-MINUTE CHART FOR ENTRY",
+    "content": "Once you have identified these key levels on your 15-minute chart, you can drop down to your first lower\ntime frame for entry the 5-minute chart. All your annotations will transpose to the 5-minute chart without\nbeing lost."
+  },
+  {
+    "section_title": "THE THREE DRIVES PATTERN AND STOP HUNTS",
+    "content": "Observe the price action around old highs. If you see relative equal highs or multiple short-term highs\ngoing higher (a 'three drives pattern' or 'three little endings' as described by Linda Raschke and Larry\nConnor), this indicates liquidity building.\n- A three drives pattern is a swing high, a higher swing high, and another higher swing high. The market\nrepeatedly presses up.\n- This pattern is significant when forming into an old high on any time frame (it's universal).\n- Each time a swing high is created and price moves down, bears attempt to sell, placing buy stops above\nthe previous high. These stops are taken, building liquidity.\n- Informed investors ('smart money') will be establishing short positions during this process, anticipating a\nmarket break.\nDISPLACEMENT:"
+  },
+  {
+    "section_title": "THE ELEPHANT IN THE SWIMMING POOL",
+    "content": "Displacement is crucial. When price goes above an old high and then trades down below it, you need to\nsee an 'obvious displacement'. Think of an elephant falling into a children's swimming pool the water is\nclearly displaced.\n- You don't want to see a weak, 'anemic' move lower after a high is taken.\n- An energetic, animated movement lower confirms displacement.\n- Once this clear displacement occurs, then you can look for a Fair Value Gap (FVG) for a potential short\nentry. If price trades back up into the FVG, you can look to go short."
+  },
+  {
+    "section_title": "RULES FOR ENGAGEMENT AND RISK MANAGEMENT",
+    "content": "There's a process for learning, and it's good to be critical, but trust there are rules for a reason. These\npatterns can sometimes fail, leading to losing trades due to misinterpretation or unexpected news events.\n- Always have a stop loss.\n- Practice sound money management.\n- Limiting your risk is crucial; do not leave your losses open to the market's determination.\nIf you don't see higher highs forming, but a steady run up, anticipate the old high to be taken out by a small\nmargin, followed by an energetic, displaced move lower. This is your cue to look for the FVG."
+  },
+  {
+    "section_title": "IDENTIFYING FAIR VALUE GAPS (FVG) AFTER DISPLACEMENT",
+    "content": "After a swing high is taken out and an energetic break below it occurs:\n- Look for a clear Fair Value Gap (FVG) formed by a smashing down movement.\n- The low, the high, and if price trades back up into that FVG, you look for a short entry.\n- Target the sell-side liquidity resting below the swing low identified prior to 8:30 AM."
+  },
+  {
+    "section_title": "MORNING AND AFTERNOON LIQUIDITY HUNTS",
+    "content": "Consider the example:\n- Relative equal highs created, indicating buy-side liquidity (buy stops) resting above.\n- Right before the lunch hour, price slightly goes above these highs, then trades down, entering the\nnoon-1:00 PM no-trade zone.\n- Post-lunch (after 1:00 PM), monitor for indications of higher prices. The market may want to reach for the\nbuy-side liquidity pools that were not tagged earlier, as many short sellers' stops are resting there. This\nleads to an aggressive bullish run into the close, often with small retracements followed by immediate runs."
+  },
+  {
+    "section_title": "DAILY MARKET PROFILE HOMEWORK",
+    "content": "Your homework is to analyze how the day is designed:\n- A morning move.\n- A lunch hour (no trading).\n- An afternoon move.\nGo back through your charts and:\n- Describe the morning trend: bullish, bearish, or consolidation.\n- Describe the afternoon trend. Sometimes, it's a continuation; other times, a reversal. A 'measured move'\nmeans the afternoon duplicates the morning's range (e.g., 200 points in morning, another 200 in afternoon\nfor 400 total).\n- Study daily charts from previous days to find big moves, especially when consolidation precedes a trend."
+  },
+  {
+    "section_title": "AFTERNOON SESSION ACCELERATION AND DAILY BIAS",
+    "content": "The afternoon session often sees accelerated moves into the close, particularly around 20 minutes to 4:00\nPM and 10 minutes to 4:00 PM, and at 4:00 PM itself. This is driven by 'Market On Close' (MOC) orders,\nwith algorithms spitting out aggressive pricing to force traders to cover or exit.\n- If you know your daily bias (bullish or bearish range expansion), you can anticipate these moves.\n- If your analysis suggests a daily candle will expand higher, look for trades in the afternoon based on\nmorning logic. This is similar to a 'London low in a buy day' for Forex, but calibrated to New York time."
+  },
+  {
+    "section_title": "NEW YORK TIME",
+    "content": "It is paramount that your charts, especially on TradingView, are set to New York local time. If your charts\nare set to your local time zone, everything you learn here will be miscalibrated and lead to confusion.\nCalibrate your charts now; the phenomena discussed repeat the same way every single day."
+  },
+  {
+    "section_title": "MARKET PROFILE HOMEWORK AND COMPARISON",
+    "content": "For homework, outline the morning session's character and the afternoon session's character. Note:\n- Bullish morning, continuation afternoon (potentially a measured move).\n- Bullish morning, reversal afternoon.\n- Consolidation morning, trend afternoon (higher or lower).\nThis work is crucial for learning. Compare this approach to others who focus on very small moves with\nlarge contract sizes and high anxiety. My goal is to teach you how to understand deeper price mechanics."
+  },
+  {
+    "section_title": "SWING POINTS AND ALGORITHM MACROS",
+    "content": "Do not chase small tick movements with high leverage. Instead, focus on understanding the market's intent.\nFor the afternoon session:\n- Look for swing highs and swing lows after 1:30 PM New York time. This is the earliest I start trading the\nafternoon.\n- There is an algorithm macro that starts running at 1:30 PM, creating movement in equity markets.\n- Apply the same stop hunt context as the morning session: look for clean, straight-line levels that tend to\nbe disrupted."
+  },
+  {
+    "section_title": "AFTERNOON SESSION STOP HUNTS AND BUY PROGRAMS",
+    "content": "If you anticipate higher prices and see a swing low violated after 1:30 PM (e.g., a clean level with relative\nequal lows):\n- This small stop hunt (running through sell stops) can initiate a 'buy program'.\n- A buy program is when algorithms continuously offer higher prices ('spooling'), regardless of volume. This\nis market manipulation, and knowing its likely action provides an edge.\n- Buy the sell stops that are resting below the violated swing low and expect the next high liquidity pool to\nbe targeted."
+  },
+  {
+    "section_title": "PREDICTABILITY AND ENTRY PATTERNS",
+    "content": "These market dynamics tend to repeat a majority of the time, not every day, but often enough to be\nprofitable if conditions align. If you see the 'fingerprints' of these patterns, it's likely to pan out.\nTwo primary entry patterns:\n- Stop hunt violation: Wait for a swing low (or high) to be violated, then buy the sell stops (or sell the buy\nstops).\n- Displacement and FVG: If no clear swing point violation, look for a sudden, aggressive displacement, then\nwait for price to retrace into a Fair Value Gap, and trade from there.\nThese are the only two patterns you need; avoid gimmicky names or complex setups. It's a very simple,\neither-or strategy, with logic supporting each outcome."
+  },
+  {
+    "section_title": "AFTERNOON BUY SETUP",
+    "content": "Using NASDAQ as an example (NQ):\n- At 1:30 PM, observe a swing low, almost matching a previous low, creating relative equal lows (retail\nsupport).\n- Price then trades down below these lows, a sudden drop, appearing dynamic and aggressive on a 1\n- minute chart (the floor dropping out).\n- This is exactly what you look for to buy: buying the sell stops that were resting below those relative equal\nlows, anticipating higher prices. This avoids trying to scalp a few ticks with many contracts."
+  },
+  {
+    "section_title": "LARGE MOVES VS. MICRO-SCALPING",
+    "content": "Contrast this approach with micro-scalping (trading a handful of ticks with many contracts and high\nanxiety). While some find success, it communicates a lack of understanding of how price truly works and\nhow it 'books'.\nInstead, focus on:\n- Trading with the daily range unfolding.\n- Being comfortable knowing the market's likely direction based on your analysis.\n- Being precise and dialed-in on predictable market behaviors, especially in index futures."
+  },
+  {
+    "section_title": "FUTURES MARKET CHARACTERISTICS AND DISCIPLINE",
+    "content": "Futures markets, especially index futures, are traded by institutions and professional traders. The\nmanipulation is present but generally less 'vulgar' or 'ruthless' than in interbank Forex markets. They tend to\nbe cleaner and more predictable in their delivery.\n- Stand aside during volatile periods caused by unannounced news; wait for markets to sync again.\n- Avoid summer months (July and August) as they can be 'hit or miss'. The rest of the year offers nice,\nsystematic markets.\n- If you don't understand these basic mechanics, you can still hurt yourself. Focus on one or two quality\ntrades, not 25-30 micro-scalps."
+  },
+  {
+    "section_title": "DISCIPLINE, PRACTICE, AND LIVE TRADING DISCLAIMER",
+    "content": "Identify specific times in the day for setups. Do not:\n- Aim for 25-30 micro-scalp trades.\n- Give back profits to the market, especially as a beginner.\nIt is advised not to trade with live funds while learning. While I sometimes show live account trades to prove\nconcepts, this is not a permanent practice and is for the benefit of students. Practice in demo accounts and\nprioritize understanding over immediate live trading. Hopefully, this was insightful."
+  }
+]

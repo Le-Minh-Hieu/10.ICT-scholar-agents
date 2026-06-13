@@ -1,0 +1,974 @@
+[
+  {
+    "chunk_id": "chunk_420",
+    "concepts": [
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INITIAL TRADE SETUP",
+          "the setup involves"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "PLANNING",
+          "TRADE_PLAN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ENTRY STRATEGY",
+          "The intention to buy if price can touch the bottom end of the Fair Value Gap",
+          "Entry will be with e-contracts",
+          "prioritizing the fill"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "OPPORTUNITY_IDENTIFICATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "bottom end of the Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_INEFFICIENCY",
+          "ENTRY_POINT_REFERENCE",
+          "REVERSAL_POINT",
+          "TRADE_SETUP_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMPULSIVE_MOVE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "potential for price to run away quickly"
+        ],
+        "narrative_roles": [
+          "TRADE_EXPECTATION",
+          "TRADE_URGENCY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL TRADE SETUP AND ENTRY STRATEGY",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_421",
+    "concepts": [
+      {
+        "canonical": "INITIAL_PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INITIAL PRICE TARGETS"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_PLANNING",
+          "EXPECTATION_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ENTRY FILL CONFIRMATION",
+          "entry fill"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "POSITION_ENTRY",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POINT_OF_INTEREST",
+        "confidence": 0.85,
+        "surface_terms": [
+          "low",
+          "bottom orange level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "LEVEL_IDENTIFICATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL PRICE TARGETS AND ENTRY FILL CONFIRMATION",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_422",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breaker",
+          "Identification of a breaker",
+          "sequence of low, high, and lower low",
+          "range of this breaker should be split in half",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT",
+          "ENTRY_POINT_IDENTIFICATION",
+          "STOP_LOSS_PLACEMENT",
+          "RETEST_LEVEL_IDENTIFICATION",
+          "TRADE_PLANNING",
+          "KEY_LEVEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLUME_IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volume imbalance"
+        ],
+        "narrative_roles": [
+          "STOP_LOSS_PLACEMENT",
+          "SUPPORT_RESISTANCE",
+          "POINT_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "STOP LOSS PLACEMENT",
+          "A stop loss is placed"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVELS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "key levels"
+        ],
+        "narrative_roles": [
+          "PRICE_ANALYSIS",
+          "TRADE_PLANNING",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP LOSS PLACEMENT AND BREAKER IDENTIFICATION",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_423",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKER",
+          "breaker range",
+          "bottom of the breaker",
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "STRUCTURE_IDENTIFICATION",
+          "TRADE_MANAGEMENT",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "mean threshold",
+          "mean threshold for the breaker range",
+          "this mean threshold level",
+          "the red level at 4053.25"
+        ],
+        "narrative_roles": [
+          "VALIDATION_CRITERIA",
+          "RISK_MANAGEMENT",
+          "SUPPORT_RESISTANCE",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_ADJUSTMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "STOP LOSS ADJUSTMENT",
+          "stop loss can be raised",
+          "adjusted stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT",
+          "PROFIT_PROTECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER MEAN THRESHOLD AND STOP LOSS ADJUSTMENT",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_424",
+    "concepts": [
+      {
+        "canonical": "SCALING_IN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Adding to the position"
+        ],
+        "narrative_roles": [
+          "POSITION_MANAGEMENT",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "the breaker"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "current high",
+          "aggressively move through the current high"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "CONTINUATION",
+          "MOMENTUM_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "five-minute Fair Value Gap",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "MOMENTUM_INDICATION",
+          "PRICE_ACTION_EXPECTATION",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SCALING IN AND PRICE ACTION EXPECTATIONS",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_425",
+    "concepts": [
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ANCHORED LEVELS",
+          "two orange levels are anchored to specific candle points",
+          "specific candle points"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "POTENTIAL_TARGET",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CORE POSITION TARGET"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "An additional quarter point, making it 4059 and a quarter, is included to cover fees and commissions."
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_OPTIMIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANCHORED LEVELS AND CORE POSITION TARGET",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_426",
+    "concepts": [
+      {
+        "canonical": "GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "gap protocol",
+          "lower gap opening"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "OPENING_RANGE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening range",
+          "opening range protocol"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TIMING_COMPONENT"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "five handles",
+          "FIVE-HANDLE TARGET"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "TRADING_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "morning session",
+          "9:30 AM"
+        ],
+        "narrative_roles": [
+          "TIMING_COMPONENT",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "9:30 AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FIVE-HANDLE TARGET WITH OPENING RANGE PROTOCOL",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_427",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.98,
+        "surface_terms": [
+          "LIQUIDITY VOID",
+          "small gap",
+          "this gap",
+          "this liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW",
+          "ENTRY_POINT",
+          "RE_ENTRY_STRATEGY",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LIQUIDITY VOID AND POTENTIAL RE-ENTRY STRATEGY",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_428",
+    "concepts": [
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4059 and a quarter level",
+          "4161.50",
+          "higher price target of 4161 and a half",
+          "seeing price aim for",
+          "target is to reach up into"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "PROFIT_TAKING",
+          "EXPECTED_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POSITION_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "POSITION MANAGEMENT",
+          "The plan is to leave two contracts on"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_MAXIMIZATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_OUT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "leave two contracts on for the higher price target"
+        ],
+        "narrative_roles": [
+          "PROFIT_MAXIMIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER PRICE TARGETS AND POSITION MANAGEMENT",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_429",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "five-minute Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "CONTINUATION",
+          "PRICE_CONSTRAINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FAIR VALUE GAP AS DYNAMIC SUPPORT",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_430",
+    "concepts": [
+      {
+        "canonical": "CONFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "CONFLUENCE FOR SUBSEQUENT BUYING OPPORTUNITY",
+          "Several elements contribute to a constructive opportunity for another buy",
+          "These factors together strengthen the case for another buying opportunity"
+        ],
+        "narrative_roles": [
+          "TRADE_VALIDATION",
+          "HIGH_PROBABILITY_SETUP",
+          "DECISION_MAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "five-minute Fair Value Gap",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "REJECTION_POINT",
+          "TRADE_ZONE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "midpoint of that FVG, known as consequent encroachment",
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "PRICE_SENSITIVITY",
+          "REJECTION_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "real liquidity void",
+          "an actual gap with no wicks, between a close and an open"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "ACCELERATION_ZONE",
+          "MAGNETIC_PULL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "A down-closed candle prior to the displacement of all the short-term highs, indicating a bullish order block",
+          "bullish order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE_ZONE",
+          "ENTRY_POINT",
+          "REVERSAL_POINT",
+          "CONTINUATION_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "displacement of all the short-term highs"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "BIAS_CONFIRMATION",
+          "ENTRY_TRIGGER_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONFLUENCE FOR SUBSEQUENT BUYING OPPORTUNITY",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_431",
+    "concepts": [
+      {
+        "canonical": "PYRAMID_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "PYRAMID ENTRY",
+          "pyramid addition",
+          "another long entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_SCALING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small liquidity void",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_RESOLUTION",
+          "PRICE_MAGNATE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "upper portion of the order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "five-minute Fair Value Gap",
+          "lower end of the five-minute Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE",
+          "IMBALANCE_RESOLUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PYRAMID ENTRY AND MEAN THRESHOLD ADHERENCE",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_432",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "little gap",
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "confirms the second entry",
+          "second entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop loss remains in its original position",
+          "initial protection level"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STOP_LOSS_MAINTENANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SECOND ENTRY CONFIRMATION AND STOP LOSS MAINTENANCE",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_433",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "five-minute Fair Value Gap",
+          "bottom end of the five-minute Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "SUPPORT_LEVEL",
+          "CONTINUATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "PRICE RUN EXPECTATION",
+          "large ranges to run directly up into 4059 and a quarter"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_OBJECTIVE",
+          "PROFIT_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRICE RUN EXPECTATION AND FOCUSED TRADING",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_434",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "mean threshold",
+          "4054 level",
+          "crucial for stop management"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STOP_LOSS_PLACEMENT",
+          "EQUILIBRIUM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "market opening",
+          "15 seconds remaining until the market opening",
+          "OPENING LAUNCH ANTICIPATION"
+        ],
+        "narrative_roles": [
+          "TEMPORAL_ALIGNMENT",
+          "HIGH_IMPACT_EVENT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "MARKET_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "participants attempting to sell short will face significant losses",
+          "OPENING LAUNCH ANTICIPATION"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PREDICTIVE_BIAS",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "MARKET_OPEN"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STOP MANAGEMENT AND OPENING LAUNCH ANTICIPATION",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_435",
+    "concepts": [
+      {
+        "canonical": "SESSION_END",
+        "confidence": 0.85,
+        "surface_terms": [
+          "TRADE COMPLETION",
+          "completion of the trading business for this session"
+        ],
+        "narrative_roles": [
+          "SESSION_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXECUTION_ERROR",
+        "confidence": 0.8,
+        "surface_terms": [
+          "An over-execution occurred",
+          "one contract being left over accidentally"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT_ISSUE",
+          "LEARNING_POINT",
+          "RISK_MANAGEMENT_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE COMPLETION AND FINAL ADJUSTMENT",
+      "source_file": "5 Handle Twitter Example Live Execution... January 30, 2023_Handbook.chunks.json"
+    }
+  }
+]

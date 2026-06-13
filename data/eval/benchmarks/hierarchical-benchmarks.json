@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": "H-001",
+    "name": "HTF Bearish Alignment",
+    "query": "M15 Bearish Displacement after H1 Liquidity Sweep",
+    "context": {
+      "htf_thesis": {
+        "timeframe": "DAILY",
+        "bias": "suggests_bearish",
+        "summary": "Evidence suggests bearish continuation into Daily FVG."
+      }
+    },
+    "expected_alignment": "ALIGNED",
+    "min_retrieval_coherence": 0.8
+  },
+  {
+    "id": "H-002",
+    "name": "Nested Bullish Retracement",
+    "query": "M5 Bullish SMT at H1 Discount Array",
+    "context": {
+      "htf_thesis": {
+        "timeframe": "DAILY",
+        "bias": "suggests_bearish",
+        "summary": "Daily structure remains bearish, but approaching internal discount levels."
+      }
+    },
+    "expected_alignment": "RETRACEMENT",
+    "required_probabilistic_language": ["potential", "retracement", "within"]
+  },
+  {
+    "id": "H-003",
+    "name": "Tunnel Vision Check (Reversal)",
+    "query": "M15 High Intensity Bullish Break of Structure + SMT",
+    "context": {
+      "htf_thesis": {
+        "timeframe": "DAILY",
+        "bias": "suggests_bearish",
+        "summary": "Bearish trend has been dominant for 5 days."
+      }
+    },
+    "expected_alignment": "SHIFT_IN_PROGRESS",
+    "notes": "System must NOT force-label this as a retracement if intensity is high."
+  }
+]

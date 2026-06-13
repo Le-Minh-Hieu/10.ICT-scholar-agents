@@ -1,0 +1,489 @@
+[
+  {
+    "chunk_id": "chunk_382",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "FAIR VALUE GAPS",
+          "imbalance",
+          "fair value gap",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "FORMATION",
+          "MITIGATION",
+          "LIQUIDITY_DRAW",
+          "RETRACEMENT_TARGET",
+          "PRICE_ARRAY"
+        ],
+        "temporal_tags": [
+          "MONDAY",
+          "MONDAY_CLOSE",
+          "OVERNIGHT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "deep discount",
+          "discount area"
+        ],
+        "narrative_roles": [
+          "PRICE_ARRAY",
+          "OPTIMAL_ENTRY_ZONE",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three",
+          "accumulation, distribution, and manipulation"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "SMART_MONEY_BEHAVIOR",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "lower timeframes"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "TRADE_PLANNING",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MONDAY'S TRADING ACTION AND FAIR VALUE GAPS",
+      "source_file": "2022 ICT Mentorship Episode 9_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_383",
+    "concepts": [
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING BULLISH ENTRIES WITH POWER OF THREE",
+          "Power of Three",
+          "Power of Three for bullish scenarios",
+          "This pattern"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_MODEL",
+          "ENTRY_STRATEGY",
+          "BULLISH_BIAS_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MANIPULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small initial move lower (manipulation)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE_REFERENCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price",
+          "the opening price"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_REFERENCE",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [
+          "8:30 AM open"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "TARGETING_LIQUIDITY",
+          "EXTERNAL_RANGE_LIQUIDITY",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "TARGETING_LIQUIDITY",
+          "IMBALANCE_RESOLUTION",
+          "INTERNAL_RANGE_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BULLISH ENTRIES WITH POWER OF THREE",
+      "source_file": "2022 ICT Mentorship Episode 9_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_384",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "entry opportunity",
+          "long entry",
+          "setup provides a strong basis for a long entry"
+        ],
+        "narrative_roles": [
+          "TRADE_INITIATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "2:00 PM New York time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "targeting buy stops above current highs"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART ANALYSIS",
+      "source_file": "2022 ICT Mentorship Episode 9_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_385",
+    "concepts": [
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "8:30 AM open",
+          "NEW YORK SESSION OPENING PRICE"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANCHOR",
+          "SESSION_START"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REFERENCE_POINT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "reference highs and lows"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "MAGNETIC_PULL",
+          "IMBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CHOPPY_PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "sloppy opening",
+          "choppy, back-and-forth movement"
+        ],
+        "narrative_roles": [
+          "UNCERTAINTY",
+          "LIQUIDITY_ENGINEERING_PHASE",
+          "CONSOLIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pseudo Judas swing"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FAKE_MOVE",
+          "STOP_HUNT_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "suspect lows",
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell-side liquidity",
+          "sell stops",
+          "stop losses"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP_SETUP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Sell-side liquidity (sell stops) will accumulate below these lows",
+          "traders who were long overnight will place their stop losses just below these lows",
+          "This creates the exact scenario ICT is looking for"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION_SETUP",
+          "TRADE_SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING NEW YORK SESSION OPENING PRICE AND MARKET SENTIMENT",
+      "source_file": "2022 ICT Mentorship Episode 9_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_386",
+    "concepts": [
+      {
+        "canonical": "STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "NEW YORK SESSION STRATEGY FOR EQUITIES AFTER OVERNIGHT RALLIES"
+        ],
+        "narrative_roles": [
+          "STRATEGY_OVERVIEW"
+        ],
+        "temporal_tags": [
+          "OVERNIGHT"
+        ],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Anticipate the New York lunch lows or morning session lows to be taken out",
+          "taking out sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TARGET",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [
+          "1:00_PM_NY"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_LUNCH"
+        ]
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET_POTENTIAL"
+        ],
+        "temporal_tags": [
+          "7:00_AM_NY"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "daily fair value gap",
+          "high end of the daily fair value gap",
+          "fair value gap",
+          "digging into the fair",
+          "fair value gap level"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "PRICE_MAGNET",
+          "SUPPORT_LEVEL",
+          "RESISTANCE_LEVEL",
+          "PRICE_LEVEL_INTERACTION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET_POTENTIAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "algorithmic principles",
+          "markets can be incredibly precise"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_PREDICTABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NEW YORK SESSION STRATEGY FOR EQUITIES AFTER OVERNIGHT RALLIES",
+      "source_file": "2022 ICT Mentorship Episode 9_Handbook.chunks.json"
+    }
+  }
+]

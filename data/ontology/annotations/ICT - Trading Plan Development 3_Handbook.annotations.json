@@ -1,0 +1,1173 @@
+[
+  {
+    "chunk_id": "chunk_731",
+    "concepts": [
+      {
+        "canonical": "YIELD_TRIAD",
+        "confidence": 1,
+        "surface_terms": [
+          "yield triad"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MACRO_ANALYTICAL_FRAMEWORK",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "QUARTERLY_MARKET_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "QUARTERLY MARKET SHIFTS",
+          "significant shift occurs",
+          "fundamental shift"
+        ],
+        "narrative_roles": [
+          "MACRO_SENTIMENT_CHANGE",
+          "LONG_TERM_FORECASTING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [
+          "every two to three months",
+          "a couple of times a year",
+          "periodically"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "YIELD_NON_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "yields will fail to make comparable lows",
+          "If yields do not confirm each other"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYTICAL_CRITERION",
+          "SIGNAL_GENERATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE YIELD TRIAD AND QUARTERLY MARKET SHIFTS",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_732",
+    "concepts": [
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "yield divergence",
+          "example of divergence"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "MARKET_TURN_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_TURN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market turns",
+          "likely market turn",
+          "shift in the overall trend of yields",
+          "failure signals a shift in the overall trend of yields"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "TREND_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_ON_RISK_OFF",
+        "confidence": 1,
+        "surface_terms": [
+          "'risk on' or 'risk off' scenario",
+          "risk-off scenario",
+          "risk on scenario"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "MARKET_SENTIMENT",
+          "CURRENCY_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TOP_DOWN_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "top-down analysis"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_ECONOMIC_INDICATOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "UK and US yields",
+          "German yields",
+          "yields",
+          "interest rate markets"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS",
+          "MARKET_SENTIMENT",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "next quarter"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.75,
+        "surface_terms": [
+          "resistance level"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_REFERENCE",
+          "FAILURE_POINT",
+          "TREND_CHANGE_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING YIELD DIVERGENCE AND MARKET TURNS",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_733",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "interest rate markets",
+          "futures market, specifically Treasuries (5-year, 10-year, and 30-year T-notes)",
+          "Stock indices",
+          "Dow Theory",
+          "CRB index",
+          "commodity markets",
+          "Gold and oil"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "INTERMARKET_CONFLUENCE",
+          "RISK_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe views for the overarching buy or sell program"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DOLLAR_INDEX_CORRELATION",
+        "confidence": 0.97,
+        "surface_terms": [
+          "direction of the United States Dollar",
+          "current technical levels",
+          "bearish for the Dollar and bullish for foreign currencies"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "INTERMARKET_CONFLUENCE",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_SENTIMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "overall risk tone",
+          "'risk on' environment",
+          "'risk off' scenarios",
+          "Gold and oil serve as valuable barometers for 'risk on' and 'risk off' scenarios"
+        ],
+        "narrative_roles": [
+          "RISK_ASSESSMENT",
+          "MACRO_BIAS_DETERMINATION",
+          "INTERMARKET_CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MACRO-LEVEL ANALYSIS SEQUENCE",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_734",
+    "concepts": [
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "SEASONAL TENDENCIES",
+          "seasonal tendencies",
+          "strong seasonal patterns",
+          "seasonal context"
+        ],
+        "narrative_roles": [
+          "MACRO_ANALYSIS",
+          "BIAS_DETERMINATION",
+          "CONTEXTUAL_FRAMEWORK"
+        ],
+        "temporal_tags": [
+          "SEASONAL"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ANTICIPATORY_STAGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Anticipatory Stage"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PLANNING_STAGE",
+          "PRE_MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEASONAL TENDENCIES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_735",
+    "concepts": [
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET FLOW",
+          "market flow",
+          "Confirm market flow",
+          "market's 'tide'",
+          "market flow is aligned with your bias"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "macro support and resistance levels"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_REFERENCE",
+          "POTENTIAL_ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframes (monthly, weekly, daily, 4-hour, 1-hour)",
+          "intraday charts (e.g., 5-minute, 15-minute)",
+          "higher timeframes (4-hour and daily)"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_CONFIRMATION",
+          "SCALING_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "If bullish",
+          "If bearish",
+          "your bias",
+          "market's 'tide' is in your favor"
+        ],
+        "narrative_roles": [
+          "TRADING_DIRECTION",
+          "ENTRY_ALIGNMENT",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CRITERIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seek entries at short-term or medium-term lows",
+          "look for long-term or medium-term highs",
+          "aiming for short term highs to enter short positions"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish market structure"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET FLOW",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_736",
+    "concepts": [
+      {
+        "canonical": "TIME_AND_PRICE_THEORY",
+        "confidence": 1,
+        "surface_terms": [
+          "TIME AND PRICE THEORY"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "ASIAN RANGE",
+          "Asian range low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "SETUP_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish market structure"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish market flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MACRO_VIEW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish macro view"
+        ],
+        "narrative_roles": [
+          "HIGHER_TIMEFRAME_BIAS",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "risk-on buy program",
+          "risk-off scenario"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "TRADING_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_PRINCIPLE",
+        "confidence": 1,
+        "surface_terms": [
+          "time of day principle"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "SETUP_ZONE"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "anticipating a swing up"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME AND PRICE THEORY, ASIAN RANGE",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_737",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stagnant or consolidating",
+          "little to no movement"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "RISK_MITIGATION_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MANAGING STAGNANT TRADES",
+          "Do not allow your trading success to hinge upon a single event or a single trading day.",
+          "Significant losses often result from hoping and praying for a particular trade to be 'the winner.'",
+          "close the trade"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT",
+          "EXIT_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "hoping and praying for a particular trade to be 'the winner.'"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DISCIPLINE",
+          "COMMON_TRADING_MISTAKE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY_EXPECTATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "volatility was expected to increase",
+          "expected volatility"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "PLANNING_CRITERIA"
+        ],
+        "temporal_tags": [
+          "specific time of day"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ANALYTICAL_RIGOR",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Demand that your analytical tools guide you to optimal trade entries."
+        ],
+        "narrative_roles": [
+          "PROCESS_ADHERENCE",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_AT_KEY_LEVELS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rejection at key lows/highs"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "VALIDATION_CRITERION",
+          "POTENTIAL_REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MOMENTUM_CONFIRMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "follow-through"
+        ],
+        "narrative_roles": [
+          "CONTINUATION",
+          "VALIDATION_CRITERION",
+          "TRADE_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MANAGING STAGNANT TRADES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_738",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "REACTING TO UNEXPECTED EVENTS AND LIFE OCCURRENCES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_739",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET FLOW AND STRUCTURE SHIFT",
+          "shift in both market flow and market structure to a bearish",
+          "confirmed break below this low signals a shift in both market flow and market structure to a bearish",
+          "breaking a previous low"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_FLOW_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET FLOW AND STRUCTURE SHIFT",
+          "shift in both market flow and market structure to a bearish",
+          "confirmed break below this low signals a shift in both market flow and market structure to a bearish"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS_SHIFT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "This higher timeframe Optimal Trade Entry (OTE), characterized by price reaching resistance, retracing, attempting a retest, failing, and then breaking a previous low"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE_IDENTIFICATION",
+          "REVERSAL_SETUP_MODEL",
+          "HIGH_PROBABILITY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe resistance level",
+          "price reaching resistance"
+        ],
+        "narrative_roles": [
+          "PRICE_REACTION_POINT",
+          "SUPPLY_ZONE_INDICATION",
+          "CONTEXTUAL_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_MARKET",
+        "confidence": 1,
+        "surface_terms": [
+          "fractal pattern",
+          "The entire formation of this price action is itself a fractal pattern"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "UNIVERSAL_PRINCIPLE",
+          "MULTI_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET FLOW AND STRUCTURE SHIFT",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_740",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "CONSOLIDATION",
+          "new consolidation",
+          "smaller consolidation",
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "REACCUMULATION/REDISTRIBUTION",
+          "NESTED_STRUCTURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND",
+        "confidence": 1,
+        "surface_terms": [
+          "TREND",
+          "trending phase",
+          "range expansion"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "DIRECTIONAL_BIAS",
+          "PRICE_ACTION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "NESTED OTES",
+          "optimal trade entry setups",
+          "OTEs"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION",
+          "SCALING_IN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_LEG",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price breaks down",
+          "higher timeframe bearish price leg"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTEXT_SETTING",
+          "MARKET_STRUCTURE_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframe",
+          "lower timeframe (e.g., 5-minute, 15-minute, 1-hour)"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "SCALING_IN",
+          "TOP_DOWN_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bearish price leg",
+          "selling opportunities",
+          "weak market",
+          "consistent bearish bias"
+        ],
+        "narrative_roles": [
+          "TRADE_BIAS",
+          "TRADE_DIRECTION",
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONSOLIDATION, TREND, AND NESTED OTES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_741",
+    "concepts": [
+      {
+        "canonical": "MARKET_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "PERSISTENT BEARISH MARKET FLOW",
+          "Market flow remains bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_SETTING",
+          "TREND_IDENTIFICATION",
+          "CONTEXT_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high preceding the current swing high is ultimately taken out"
+        ],
+        "narrative_roles": [
+          "FLOW_INVALIDATION",
+          "BIAS_CHANGE_SIGNAL",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lower lows and lower highs"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "BIAS_CONFIRMATION",
+          "PRICE_ACTION_DESCRIPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "sell scenario is maintained",
+          "consistent daily bias",
+          "keeping traders on the correct side of the market"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADE_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTALS",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTAL REPETITION",
+          "shorter timeframe fractal patterns",
+          "inherent fractal nature of price",
+          "higher timeframe fractal cycle",
+          "smaller subunits on lower timeframes, each exhibiting the same repeating pattern"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_DESCRIPTION",
+          "MULTI_TIME_FRAME_LINKAGE",
+          "PATTERN_RECOGNITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry tops",
+          "lower timeframe optimal trade entries"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "shorter timeframe fractal patterns",
+          "smaller price swing inside a larger consolidation",
+          "lower timeframe optimal trade entries",
+          "higher timeframe fractal cycle",
+          "smaller subunits on lower timeframes"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "CONFIRMATION",
+          "TRADE_EXECUTION_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CYCLE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher timeframe fractal cycle of consolidation-to-trend-to-consolidation-to-trend"
+        ],
+        "narrative_roles": [
+          "CONTEXT_ESTABLISHMENT",
+          "MARKET_STATE_IDENTIFICATION",
+          "PREDICTIVE_MODELING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "larger consolidation",
+          "move out of the consolidation",
+          "consolidation-to-trend"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE_IDENTIFICATION",
+          "PHASE_TRANSITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PERSISTENT BEARISH MARKET FLOW AND FRACTAL REPETITION",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_742",
+    "concepts": [
+      {
+        "canonical": "FRACTAL_NATURE",
+        "confidence": 1,
+        "surface_terms": [
+          "fractal analysis",
+          "smaller fractal",
+          "larger fractal pattern",
+          "replication of the previous price swing"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "PRICE_BEHAVIOR_DESCRIPTION",
+          "SCALABILITY_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "larger OTES"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_INDICATION",
+          "PULLBACK_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "critical 'low' that breaks",
+          "market turning point",
+          "shift to bullish"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SCALING OUT",
+          "15-minute chart",
+          "higher timeframe",
+          "hourly chart",
+          "consistency across timeframes"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "CONTEXTUAL_ANALYSIS",
+          "SCALABILITY_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SCALING OUT AND RECOGNIZING LARGER OTES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_743",
+    "concepts": [
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 0.95,
+        "surface_terms": [
+          "5-minute swing high",
+          "swing high"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_REVERSAL_POINT",
+          "RESISTANCE",
+          "ENTRY_POINT_REFERENCE",
+          "STOP_LOSS_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE) sell signal",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.85,
+        "surface_terms": [
+          "previous swing low",
+          "a low with two higher lows on either side"
+        ],
+        "narrative_roles": [
+          "BROKEN_SUPPORT_TURNED_RESISTANCE",
+          "ENTRY_POINT_REFERENCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "range expansion to the downside"
+        ],
+        "narrative_roles": [
+          "EXPECTED_OUTCOME",
+          "TARGET_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time of day when a turn is"
+        ],
+        "narrative_roles": [
+          "CONTEXT_FILTER",
+          "TRADING_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RESISTANCE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "resistance level"
+        ],
+        "narrative_roles": [
+          "CONTEXT_FILTER",
+          "REFERENCE_POINT",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BEARISH ENTRY TECHNIQUES",
+      "source_file": "ICT - Trading Plan Development 3_Handbook.chunks.json"
+    }
+  }
+]

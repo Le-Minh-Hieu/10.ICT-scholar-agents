@@ -1,0 +1,1242 @@
+[
+  {
+    "chunk_id": "chunk_3923",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Fair Value Gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PRICE_IMBALANCE",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell side liquidity",
+          "buy side or sell side level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity",
+          "buy side or sell side level"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET",
+          "ORDER_FLOW_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S EXPERIENCE AND SON'S CHALLENGE",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3924",
+    "concepts": [
+      {
+        "canonical": "OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING GAP",
+          "The shaded area between yesterday's regular session close price and this morning's opening price",
+          "this shaded range",
+          "full gap fill"
+        ],
+        "narrative_roles": [
+          "PRICE_ANOMALY",
+          "LIQUIDITY_REFERENCE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "YESTERDAYS_CLOSE",
+          "TODAYS_OPEN"
+        ],
+        "session_tags": [
+          "NY_OPEN",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DAILY_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "DIRECTIONAL BIAS",
+          "The directional bias is to look for shorts",
+          "daily bias",
+          "directional bias"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "MARKET_OUTLOOK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INDUCEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A move to the upside to draw in the public and make them chase it."
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "RETAIL_TRADER_FOOLING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PARTIAL_GAP_FILL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A move back down inside the previous range",
+          "The focus is on trading back into this shaded range",
+          "not necessarily down to the full gap fill"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "PROFIT_TARGETING",
+          "TRADING_TACTIC"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WAITING_FOR_CONFIRMATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "not trying to pick the top; waiting for market indication."
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RISK_MANAGEMENT",
+          "PATIENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A five-handle price run",
+          "The objective is a five-handle price run"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING GAP ANALYSIS AND DIRECTIONAL BIAS",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3925",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS_INSTRUMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Dollar Index",
+          "DXY"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_CORRELATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS_INSTRUMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "ES"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_CORRELATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_TIME_BASED_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "9:30",
+          "9:15-9:30 range",
+          "this morning"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONTEXT",
+          "SESSION_OPEN_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "9:15",
+          "9:30"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY mount a run above 103.13",
+          "run above 103.13",
+          "103.13"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREDICTION",
+          "PRICE_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Fear and anxiety",
+          "rooted in leverage",
+          "removing leverage is the easiest way to squash it"
+        ],
+        "narrative_roles": [
+          "EMOTIONAL_CONTROL",
+          "PERFORMANCE_IMPROVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Initial entry drills",
+          "one contract",
+          "demo account",
+          "leverage"
+        ],
+        "narrative_roles": [
+          "SKILL_DEVELOPMENT",
+          "RISK_MITIGATION",
+          "ENTRY_PRACTICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DOLLAR INDEX & ES",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3926",
+    "concepts": [
+      {
+        "canonical": "CAPITAL_PRESERVATION",
+        "confidence": 1,
+        "surface_terms": [
+          "CAPITAL PRESERVATION",
+          "Preservation of capital is the first and foremost important rule in speculation",
+          "erosion of equity or mental capital"
+        ],
+        "narrative_roles": [
+          "CORE_TRADING_PRINCIPLE",
+          "RISK_MANAGEMENT",
+          "LONGEVITY_STRATEGY",
+          "PSYCHOLOGICAL_DISCIPLINE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INITIAL_SESSION_BEHAVIOR_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "first 30 minutes"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_PHASE",
+          "INITIAL_MARKET_MOVEMENT_OBSERVATION"
+        ],
+        "temporal_tags": [
+          "first 30 minutes"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "DXY_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY is firming",
+          "DXY"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_CORRELATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEARNING FROM MISTAKES AND CAPITAL PRESERVATION",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3927",
+    "concepts": [
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "SELL SIDE LIQUIDITY",
+          "sell side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CLEAN_LOWS",
+        "confidence": 1,
+        "surface_terms": [
+          "CLEAN LOWS",
+          "'clean lows'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "displacement below a previous low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_STRUCTURE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "imbalance",
+          "small imbalance",
+          "shaded gap area",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_RETRACEMENT_TARGET",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_VOID"
+        ],
+        "temporal_tags": [
+          "9:44"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Watching DXY's small imbalance",
+          "sends the dollar higher, supporting ES moving lower"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "9:44"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CLEAN LOWS AND SELL SIDE LIQUIDITY",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3928",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap",
+          "Fair Value Gap entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADING_MODEL_IDENTIFICATION"
+        ],
+        "temporal_tags": [
+          "daily"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint of a wick"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETEST_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HYPOTHETICAL ENTRY AND FAIR VALUE GAP FOCUS",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3929",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_FORMATION",
+          "PREDICTIVE_ANOMALY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_PSYCHOLOGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DISCIPLINE AND REJECTING EXTERNAL NOISE",
+          "exercising discipline",
+          "Irrelevant what others post on YouTube or Twitter",
+          "'that's not my trade, that's not your trade.'",
+          "requiring nimbleness and lower expectations"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PSYCHOLOGICAL_ENDURANCE",
+          "FOCUS_MAINTENANCE",
+          "EXTERNAL_NOISE_FILTERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "MACRO_ECONOMIC_IMPACT",
+          "VOLATILITY_DRIVER",
+          "MARKET_CONTEXT_SETTER"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITIONS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "very very mixed"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "RISK_ASSESSMENT_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCIPLINE AND REJECTING EXTERNAL NOISE",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3930",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "pop to 4028 indicates a run on buy stops",
+          "run on buy stops",
+          "just a run on buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "DXY's original Fair Value Gap",
+          "Fair Value Gap"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "9:44"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET CONTEXT AND INTERMARKET DIVERGENCE",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3931",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lows (103.00)",
+          "9:50 low (103.015-103.014)"
+        ],
+        "narrative_roles": [
+          "SUPPORT_IDENTIFICATION",
+          "PRICE_REFERENCE",
+          "LIQUIDITY_OBSERVATION"
+        ],
+        "temporal_tags": [
+          "NY_AM_TIME_REFERENCE"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.8,
+        "surface_terms": [
+          "break 103.13 upside"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "recent highs"
+        ],
+        "narrative_roles": [
+          "RESISTANCE_IDENTIFICATION",
+          "PRICE_REFERENCE",
+          "LIQUIDITY_OBSERVATION",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EURO, POUND, DOLLAR INDEX",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3932",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gap (FVG)",
+          "FVG",
+          "imbalance",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "ENTRY_CONFIRMATION",
+          "TARGET_GENERATION",
+          "PREDICTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "WITHIN A RANGE",
+          "price action within a range",
+          "current ES high holds",
+          "price leg between the current low and the recently formed high"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "MARKET_CHARACTERIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TURTLE_SOUP",
+        "confidence": 1,
+        "surface_terms": [
+          "turtle soup",
+          "shorting after a run above a high"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LIQUIDITY_ENGINEERING",
+          "CONFIRMATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "divergence between Dow, NASDAQ, and ES (Dow not making higher high)"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "CONFIRMATION",
+          "CONFLUENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATING A FAIR VALUE GAP WITHIN A RANGE",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3933",
+    "concepts": [
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "small volume imbalance"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_EXPECTATION",
+          "SUPPORT_RESISTANCE_AREA_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "'reduce the risk'"
+        ],
+        "narrative_roles": [
+          "IN_TRADE_MANAGEMENT",
+          "STOP_LOSS_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "the breaker"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_ANCHOR",
+          "PROTECTION_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY_OBSERVATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "studying price action",
+          "continuously delivers"
+        ],
+        "narrative_roles": [
+          "MARKET_OBSERVATION",
+          "TRADE_CONVICTION_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_TO_REWARD_RATIO",
+        "confidence": 1,
+        "surface_terms": [
+          "'five for five' risk-to-reward ratio"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ES to remain heavy",
+          "DXY to climb back up"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "103.16 area"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "PROFIT_TAKING_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IN-TRADE RISK MANAGEMENT AND PRICE DELIVERY OBSERVATION",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3934",
+    "concepts": [
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Remove risk",
+          "stopped in profit"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "PROFIT_PROTECTION",
+          "TRADE_CONCLUSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "new sell side liquidity"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING_RESPONSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "premium arrays"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_OBSERVATION",
+          "POTENTIAL_RETRACEMENT_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PSYCHOLOGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Submit to either outcome"
+        ],
+        "narrative_roles": [
+          "MENTAL_DISCIPLINE",
+          "ACCEPTANCE_OF_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_JOURNALING",
+        "confidence": 1,
+        "surface_terms": [
+          "journal the entry, positive actions, and observations"
+        ],
+        "narrative_roles": [
+          "LEARNING_AND_IMPROVEMENT",
+          "PERFORMANCE_TRACKING",
+          "ACCOUNTABILITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "limit order",
+          "market hitting the limit order",
+          "five-handle target",
+          "10 handles"
+        ],
+        "narrative_roles": [
+          "TRADE_CONCLUSION",
+          "PERFORMANCE_BENCHMARK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RISK REMOVAL AND TRADE CONCLUSION",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3935",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "the breaker",
+          "how to frame it",
+          "breaker high"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_ACTION_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRECISION_TRADING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'to the tick'",
+          "perfect delivery",
+          "one tick Price needs to move one tick above a level"
+        ],
+        "narrative_roles": [
+          "TRADING_PRINCIPLE",
+          "EXECUTION_STANDARD",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "REFERENCE_POINT",
+          "RESISTANCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRECISION AND EMOTIONLESS TRADING",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3936",
+    "concepts": [
+      {
+        "canonical": "OPENING_RANGE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "OPENING RANGE GAP",
+          "opening range gap",
+          "yesterday's close to today's open",
+          "opening range gap high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "TRAP_SETUP"
+        ],
+        "temporal_tags": [
+          "TODAY_OPEN",
+          "YESTERDAY_CLOSE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "a premium"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "ANTICIPATION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TRAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "a 'trap.'",
+          "Traders fading the gap or going long were trapped."
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MARKET_MANIPULATION_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERMARKET DIVERGENCE",
+          "Nasdaq making a higher high, while Dow made a lower high, created an SMT (Smart Money Tool) divergence",
+          "SMT (Smart Money Tool) divergence",
+          "'cracking correlation'"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FILTER",
+          "MARKET_DIRECTION_BIAS",
+          "ENTRY_CONFIRMATION_FILTER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS_FILTER",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The Dollar Index was used as a filter",
+          "preventing premature short entry"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE_FILTER",
+          "PREMATURE_ENTRY_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "OVERNIGHT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'suspect rally'",
+          "only going up to take stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FAKE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPENING RANGE GAP AND INTERMARKET DIVERGENCE",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3937",
+    "concepts": [
+      {
+        "canonical": "ICT_TRADING_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "2022 model"
+        ],
+        "narrative_roles": [
+          "TRADING_STRATEGY",
+          "FRAMEWORK_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "displacement"
+        ],
+        "narrative_roles": [
+          "ENTRY_SIGNAL_TRIGGER",
+          "REVERSAL_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "shift in market structure",
+          "MSS",
+          "BMS",
+          "bearish market structure shift",
+          "bullish market structure shift",
+          "break in market structure"
+        ],
+        "narrative_roles": [
+          "BIAS_CHANGE_INDICATION",
+          "STRUCTURAL_CHANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "short-term swing low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair Value Gaps"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_REFINEMENT",
+          "MITIGATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence",
+          "(Dow lower high vs. NASDAQ/ES higher highs)"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "REVERSAL_INDICATION",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS_INVALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop-out",
+          "change to a bullish bias"
+        ],
+        "narrative_roles": [
+          "BIAS_CHANGE",
+          "TRADE_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "50% equilibrium level",
+          "equilibrium level"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "PRICE_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT",
+        "confidence": 1,
+        "surface_terms": [
+          "discount"
+        ],
+        "narrative_roles": [
+          "PRICE_CONTEXT",
+          "ENTRY_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING THE 2022 MODEL AND ALGORITHMIC CERTAINTY",
+      "source_file": "March 21, 2023 Live Tape Reading - Conquering Your Fear Of Entries_Handbook.chunks.json"
+    }
+  }
+]

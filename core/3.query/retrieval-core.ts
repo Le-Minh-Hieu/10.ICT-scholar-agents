@@ -76,6 +76,7 @@ import { ChunkAnnotation } from "../../shared/knowledge/ontology-types";
 import { ScenarioMemory } from "../../shared/knowledge/scenario-types";
 import { RelationalContext } from "../../shared/knowledge/relational-types";
 import { PMSO } from "../../shared/contracts/pmso";
+import { attributionTracker } from "./retrieval-attribution.js";
 
 // =======================
 // TYPES
@@ -695,12 +696,20 @@ function topKSimilar(queryVec: number[], vectors: ChunkVector[], topK: number): 
   return heap.getResults();
 }
 
-async function vectorSearch(queryEmbeddings: number[][], weights: number[], symbol?: string): Promise<Chunk[]> {
+async function vectorSearch(
+  queryEmbeddings: number[][], 
+  weights: number[], 
+  queries: string[],
+  symbol?: string
+): Promise<Chunk[]> {
   const vectors = loadVectors(symbol);
   const allScored = new Map<string, Chunk>();
+  
   for (let i = 0; i < queryEmbeddings.length; i++) {
     const topK = i === 0 ? 40 : 25;
     const top = topKSimilar(queryEmbeddings[i], vectors, topK);
+    const chunkIds: string[] = [];
+    
     for (const res of top) {
       const weight = weights[i] || 0.7;
       const weightedScore = (res.score || 0) * weight;
@@ -708,6 +717,12 @@ async function vectorSearch(queryEmbeddings: number[][], weights: number[], symb
       if (!existing || weightedScore > (existing.score || 0)) {
         allScored.set(res.chunk_id, { ...res, score: weightedScore });
       }
+      chunkIds.push(res.chunk_id);
+    }
+    
+    // Track attribution: this query retrieved these chunks
+    if (queries[i]) {
+      attributionTracker.trackQueryChunks(queries[i], chunkIds);
     }
   }
   return Array.from(allScored.values());
@@ -717,11 +732,14 @@ function keywordSearch(queries: string[], weights: number[], symbol?: string): C
   const index = getBM25(symbol);
   const k1 = 1.2, b = 0.75;
   const allResults = new Map<string, Chunk>();
+  
   for (let i = 0; i < queries.length; i++) {
     const qTokens = tokenize(queries[i]);
     const docFreqs = new Map<string, number>();
     qTokens.forEach(t => docFreqs.set(t, index.docs.filter(doc => doc.tokens.includes(t)).length));
     const heap = new MinHeap(20);
+    const chunkIds: string[] = [];
+    
     for (const doc of index.docs) {
       let score = 0;
       qTokens.forEach(t => {
@@ -730,11 +748,22 @@ function keywordSearch(queries: string[], weights: number[], symbol?: string): C
         const f_q = doc.tokens.filter(tok => tok === t).length;
         score += (idf * (f_q * (k1 + 1))) / (f_q + k1 * (1 - b + b * (doc.tokens.length / index.avgdl)));
       });
-      if (score > 0) heap.push(score * (weights[i] || 1.0), { chunk_id: doc.chunk_id, text: doc.text });
+      if (score > 0) {
+        heap.push(score * (weights[i] || 1.0), { chunk_id: doc.chunk_id, text: doc.text });
+      }
     }
+    
     for (const res of heap.getResults()) {
       const existing = allResults.get(res.chunk_id);
-      if (!existing || (res.score || 0) > (existing.score || 0)) allResults.set(res.chunk_id, res);
+      if (!existing || (res.score || 0) > (existing.score || 0)) {
+        allResults.set(res.chunk_id, res);
+      }
+      chunkIds.push(res.chunk_id);
+    }
+    
+    // Track attribution: this query retrieved these chunks
+    if (queries[i]) {
+      attributionTracker.trackQueryChunks(queries[i], chunkIds);
     }
   }
   return Array.from(allResults.values());
@@ -755,6 +784,7 @@ export async function retrieveRAG(input: {
   relational?: RelationalContext;
   scenarios?: ScenarioMemory;
 }): Promise<{ chunks: Chunk[]; expandedQueries: string[]; topKChunks: number }> {
+  console.log("[TRACE] R1-enter", { queryCount: input.queries.length, agent: input.agentName });
   const rawQueries = input.queries;
   const originalQuery = typeof rawQueries[0] === "string" ? rawQueries[0] : rawQueries[0].query;
   if (input.queryId) retrievalTracer.startTrace(input.queryId, originalQuery);
@@ -766,14 +796,20 @@ export async function retrieveRAG(input: {
   const queriesOnly = weightedQueries.map(wq => wq.query);
   const weightsOnly = weightedQueries.map(wq => wq.weight);
   const queryEmbeddings = await embedQueries(queriesOnly);
+  console.log("[TRACE] R2-after-embed", { embeddingCount: queryEmbeddings.length });
+
   retrievalTracer.logExpandedQueries(queriesOnly);
 
-  const vectorResults = await vectorSearch(queryEmbeddings, weightsOnly, input.symbol);
+  const vectorResults = await vectorSearch(queryEmbeddings, weightsOnly, queriesOnly, input.symbol);
   const bm25Results = keywordSearch(queriesOnly, weightsOnly, input.symbol);
+  console.log("[TRACE] R3-after-search", { vectorCount: vectorResults.length, bm25Count: bm25Results.length });
 
   if (process.env.RAG_DEBUG_DUMP === "true") {
     try {
-      const captureId = (global as any).currentCaptureId || Date.now().toString();
+      if (!(global as any).currentCaptureId) {
+        (global as any).currentCaptureId = Date.now().toString();
+      }
+      const captureId = (global as any).currentCaptureId;
       const agentName = input.agentName || "RAG";
       const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -842,7 +878,10 @@ export async function retrieveRAG(input: {
 
   if (process.env.RAG_DEBUG_DUMP === "true") {
     try {
-      const captureId = (global as any).currentCaptureId || Date.now().toString();
+      if (!(global as any).currentCaptureId) {
+        (global as any).currentCaptureId = Date.now().toString();
+      }
+      const captureId = (global as any).currentCaptureId;
       const agentName = input.agentName || "RAG";
       const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -897,7 +936,10 @@ export async function retrieveRAG(input: {
 
     if (process.env.RAG_DEBUG_DUMP === "true") {
       try {
-        const captureId = (global as any).currentCaptureId || Date.now().toString();
+        if (!(global as any).currentCaptureId) {
+          (global as any).currentCaptureId = Date.now().toString();
+        }
+        const captureId = (global as any).currentCaptureId;
         const agentName = input.agentName || "RAG";
         const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });
@@ -924,6 +966,7 @@ export async function retrieveRAG(input: {
 
     final = await rerank(rerankQuery, topCandidates as any, parentThesis, input.relational);
   }
+  console.log("[TRACE] R4-after-rerank", { candidateCount: topCandidates.length, finalCount: final.length });
   console.log(
     "[RETRIEVAL_CORE_WEEKLY_STAGE]",
     JSON.stringify({
@@ -936,7 +979,10 @@ export async function retrieveRAG(input: {
 
   if (process.env.RAG_DEBUG_DUMP === "true") {
     try {
-      const captureId = (global as any).currentCaptureId || Date.now().toString();
+      if (!(global as any).currentCaptureId) {
+        (global as any).currentCaptureId = Date.now().toString();
+      }
+      const captureId = (global as any).currentCaptureId;
       const agentName = input.agentName || "RAG";
       const dumpDir = `data/rag-debug/${captureId}/${agentName}`;
       if (!fs.existsSync(dumpDir)) fs.mkdirSync(dumpDir, { recursive: true });

@@ -1,0 +1,167 @@
+[
+  {
+    "chunk_id": "chunk_277",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "dropped to take out sell stops",
+          "sell stops had been cleared out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_CONSUMPTION",
+          "SHORT_TERM_REVERSAL"
+        ],
+        "temporal_tags": [
+          "morning"
+        ],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      },
+      {
+        "canonical": "CONTINUATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "anticipated continued higher movement"
+        ],
+        "narrative_roles": [
+          "TRADE_BIAS",
+          "POST_LIQUIDITY_BEHAVIOR",
+          "TREND_FOLLOWING"
+        ],
+        "temporal_tags": [
+          "morning"
+        ],
+        "session_tags": [
+          "MORNING_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ONE-MINUTE CHART",
+      "source_file": "2022 ICT Mentorship Episode 36_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_278",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "Sell side liquidity is taken"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DRAW_ON_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "free to run to 43 and a half"
+        ],
+        "narrative_roles": [
+          "TRADE_OBJECTIVE",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Partial Profit Taking",
+          "Final Exit"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADE VERIFICATION AND PROFIT TAKING",
+      "source_file": "2022 ICT Mentorship Episode 36_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_279",
+    "concepts": [
+      {
+        "canonical": "NFP_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Non-Farm Payroll",
+          "NFP event",
+          "non-farm payroll"
+        ],
+        "narrative_roles": [
+          "MARKET_VOLATILITY_DRIVER",
+          "TEMPORAL_ANCHOR",
+          "RISK_MANAGEMENT_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "NFP_DAY",
+          "FIRST_WEEK_OF_MONTH"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE_AND_PLANNING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TRADING DISCIPLINE AND WEEKLY STRATEGY",
+          "Personal Rule: I typically aim to complete all my trading by Wednesday",
+          "Halting Trading: I will not seek additional trades this week",
+          "Maintaining discipline and consistency is crucial"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STRATEGIC_PAUSE",
+          "PRESERVATION_OF_CAPITAL",
+          "CONSISTENCY"
+        ],
+        "temporal_tags": [
+          "WEEKLY_STRATEGY",
+          "TRADING_DAYS_LIMIT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "UNCERTAIN_MARKET_CONDITIONS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the daily chart does not provide a clear definitive objective; price could go higher or lower"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION_TRIGGER",
+          "AVOID_LOW_PROBABILITY_TRADES",
+          "BEHAVIORAL_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING DISCIPLINE AND WEEKLY STRATEGY",
+      "source_file": "2022 ICT Mentorship Episode 36_Handbook.chunks.json"
+    }
+  }
+]

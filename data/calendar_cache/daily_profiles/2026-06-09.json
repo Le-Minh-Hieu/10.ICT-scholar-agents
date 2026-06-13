@@ -1,0 +1,201 @@
+{
+  "profile_date_utc": "2026-06-09T14:41:40.296Z",
+  "market_date": "2026-06-09",
+  "market_weekday": "Tuesday",
+  "market_timezone": "America/New_York",
+  "week_start_market_date": "2026-06-08",
+  "source_week_profile_id": "2026-06-08",
+  "calendar_bias": {
+    "source": "calendar",
+    "bucket_scores": {
+      "INFLATION": -2,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "USD",
+        "bucket_scores": {
+          "INFLATION": -2,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.4
+      },
+      {
+        "currency": "EUR",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      },
+      {
+        "currency": "GBP",
+        "bucket_scores": {
+          "INFLATION": 0,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0
+      }
+    ],
+    "weekly_bias": "bearish",
+    "confidence": 0.25
+  },
+  "daily_bias": {
+    "daily_bias": "bearish",
+    "confidence": 0.05,
+    "bucket_scores": {
+      "INFLATION": -1,
+      "LABOR": 0,
+      "GROWTH": 0,
+      "RATES": 0
+    },
+    "currency_scores": [
+      {
+        "currency": "CNY",
+        "bucket_scores": {
+          "INFLATION": -1,
+          "LABOR": 0,
+          "GROWTH": 0,
+          "RATES": 0
+        },
+        "confidence": 0.1
+      }
+    ],
+    "source": "calendar"
+  },
+  "day_type": "Early Week Price Manipulation",
+  "day_confidence": 0.6,
+  "day_role_in_week": "Early Week Price Manipulation",
+  "weekly_alignment_state": "Price is likely positioning for the expected 'Wednesday High of the Week', potentially by engineering a move higher into premium arrays or sweeping buy-side liquidity today. This aligns with the pre-catalyst phase before the anticipated bearish expansion post-CPI.",
+  "dominant_weekly_theme": "Bearish Weekly Profile driven by US Inflation Catalyst and USD Strength",
+  "dominant_weekly_narrative": "The week is anchored by a bearish directional bias, primarily driven by anticipated problematic US inflation data. Wednesday's highly impactful US CPI reports, followed by Thursday's PPI data, are expected to act as the central catalyst. ICT context highlights CPI as a 'weapon of mass destruction' that will likely instigate a 'higher dollar' and exert downward pressure on risk assets, aligning with the bearish market sentiment. This setup strongly suggests a 'Wednesday High of the Week' profile, where price may consolidate or retrace higher into a premium array on Monday and Tuesday before the CPI release, forming the week's high on Wednesday. Extreme caution is advised around these events due to their unpredictable and highly volatile nature, with the ECB's rate decision on Thursday also adding significant market-moving potential for the Euro.",
+  "weekly_delivery_model": "The week is expected to begin with pre-catalyst consolidation or a liquidity engineering move higher, leading into a significant bearish reversal and expansion lower post-Wednesday's US CPI release. This will establish a 'Wednesday High of the Week' and sustain a stronger US Dollar, pressuring other currencies and risk assets through the latter half of the week.",
+  "expected_weekly_high_day": "Wednesday",
+  "expected_weekly_low_day": null,
+  "expected_expansion_day": "Wednesday",
+  "expected_distribution_day": null,
+  "todays_catalysts": [],
+  "liquidity_expectations": {
+    "expected_conditions": [
+      "routine liquidity conditions"
+    ],
+    "expected_liquidity_sequence": [],
+    "high_attention_windows": [],
+    "expected_displacement_windows": [],
+    "expected_reversal_windows": []
+  },
+  "retrieval_context": {
+    "retrieval_intents": [
+      "day_role:Early Week Price Manipulation",
+      "weekly_model:The week is expected to begin with pre-catalyst consolidation or a liquidity engineering move higher, leading into a significant bearish reversal and expansion lower post-Wednesday's US CPI release. This will establish a 'Wednesday High of the Week' and sustain a stronger US Dollar, pressuring other currencies and risk assets through the latter half of the week.",
+      "dominant_theme:Bearish Weekly Profile driven by US Inflation Catalyst and USD Strength"
+    ],
+    "queries": [
+      "Tuesday daily profile intraday ICT",
+      "Tuesday Early Week Price Manipulation ICT weekly delivery model"
+    ],
+    "retrieved_chunk_ids": [
+      "chunk_232",
+      "chunk_1927",
+      "chunk_863",
+      "chunk_2063",
+      "chunk_101",
+      "chunk_1944",
+      "chunk_3907",
+      "chunk_1945",
+      "chunk_283",
+      "chunk_1724",
+      "chunk_1032",
+      "chunk_1085",
+      "chunk_1081",
+      "chunk_3201",
+      "chunk_291",
+      "chunk_308",
+      "chunk_42",
+      "chunk_946",
+      "chunk_3556",
+      "chunk_1597",
+      "chunk_797",
+      "chunk_533",
+      "chunk_552",
+      "chunk_1419"
+    ],
+    "supporting_concepts": [
+      {
+        "concept": "Price Engineering/Liquidity Sweeps for Setup",
+        "chunk_id": "chunk_283",
+        "relevance": null
+      },
+      {
+        "concept": "Sweeping Highs as Precursor to Shift",
+        "chunk_id": "chunk_1032",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Profile and Specific Day Highs",
+        "chunk_id": "chunk_1927",
+        "relevance": null
+      },
+      {
+        "concept": "Price Reaching for Weekly Extremes",
+        "chunk_id": "chunk_2063",
+        "relevance": null
+      },
+      {
+        "concept": "Algorithmic Price Delivery and Fair Value Gaps",
+        "chunk_id": "chunk_101",
+        "relevance": null
+      },
+      {
+        "concept": "Price Delivery into Order Blocks/Fair Value Gaps",
+        "chunk_id": "chunk_232",
+        "relevance": null
+      },
+      {
+        "concept": "Weekly Range Expansion for Directional Sense",
+        "chunk_id": "chunk_863",
+        "relevance": null
+      }
+    ]
+  },
+  "narrative_assessment": {
+    "daily_thesis": "Tuesday is designated as an 'Early Week Price Manipulation' day, serving as a setup for the dominant 'Wednesday High of the Week' profile. With no major catalysts today, price is expected to consolidate or be engineered higher, potentially sweeping buy-side liquidity or reaching into premium arrays. This move will build the necessary liquidity and market structure to establish the weekly high on Wednesday, preceding the significant bearish expansion driven by US CPI data.",
+    "key_if_then_paths": {
+      "if_price_rallies_today": "THEN it is likely fulfilling its 'Early Week Price Manipulation' role, targeting buy-side liquidity or premium arrays in preparation for the Wednesday HOD and subsequent bearish reversal.",
+      "if_price_breaks_significantly_lower_today": "THEN it would prematurely trigger bearish momentum, deviating from the expected 'Wednesday High of the Week' and 'Early Week Price Manipulation' thesis, suggesting a potential pull-forward of the bearish expansion."
+    },
+    "invalidation_conditions": "A strong, sustained drive significantly below recent daily lows, failing to approach or sweep any buy-side liquidity or premium arrays, would challenge the 'Early Week Price Manipulation' thesis and the expectation of a 'Wednesday High of the Week'."
+  },
+  "intraday_awareness": {
+    "session_focus": "The primary focus for today's session is observing price engineering higher to sweep buy-side liquidity or fill premium inefficiencies, laying the groundwork for the anticipated weekly high on Wednesday.",
+    "catalyst_priorities": [],
+    "caution_flags": [
+      "Today's role is 'Early Week Price Manipulation', implying potential for deceptive moves, whipsaws, or consolidation.",
+      "Approaching a highly impactful catalyst (US CPI on Wednesday), caution is advised due to unpredictable and potentially volatile market behavior as participants position.",
+      "The low confidence in the daily bias for CNY suggests looking at the broader weekly context for USD as the more dominant strategic driver."
+    ],
+    "execution_risk_context": "The market is in a pre-catalyst environment, leading into a high-impact US CPI report. This setup typically fosters increased caution, potential for choppy price action, and institutional positioning, which can manifest as manipulation before the main directional impulse. Volatility may begin to pick up as the market anticipates Wednesday's data."
+  },
+  "bridge_metadata": {
+    "generated_at_utc": "2026-06-09T14:41:42.551Z",
+    "generated_from_weekly_fields": [
+      "dominant_theme",
+      "dominant_narrative",
+      "weekly_delivery_model",
+      "weekly_story_arc",
+      "macro_timeline",
+      "calendar_bias"
+    ],
+    "timezone_policy": "UTC storage, America/New_York market-day semantics"
+  },
+  "updated_at": "2026-06-09T14:42:06.449Z",
+  "version": 1
+}

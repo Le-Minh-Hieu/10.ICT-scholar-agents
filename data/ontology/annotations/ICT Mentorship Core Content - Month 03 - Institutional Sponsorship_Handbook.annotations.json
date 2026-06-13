@@ -1,0 +1,1568 @@
+[
+  {
+    "chunk_id": "chunk_2227",
+    "concepts": [
+      {
+        "canonical": "HIGHER_TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "higher time frame"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "ANALYTICAL_FRAMEWORK",
+          "BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity",
+          "short term buy liquidity"
+        ],
+        "narrative_roles": [
+          "TARGET_AREA",
+          "TRADING_OPPORTUNITY_IDENTIFICATION",
+          "PRICE_DRAW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "VALIDATION",
+          "SETUP_CONFIRMATION",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_OF_DAY_INFLUENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "time of day influence",
+          "specific times of the day"
+        ],
+        "narrative_roles": [
+          "TRADING_PLANNING",
+          "MARKET_TIMING",
+          "OPTIMAL_TRADING_WINDOWS",
+          "BEHAVIORAL_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "TEMPORAL_ALIGNMENT",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NY_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Session"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "TEMPORAL_ALIGNMENT",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "LONDON_CLOSE",
+        "confidence": 1,
+        "surface_terms": [
+          "London Close"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_WINDOW",
+          "TEMPORAL_ALIGNMENT",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [
+          "LONDON_CLOSE"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "ASIA_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "Asia"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "TEMPORAL_ALIGNMENT",
+          "RANGE_DEVELOPMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGHER TIME FRAME LIQUIDITY AND TIME OF DAY INFLUENCE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2228",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "INSTITUTIONAL SPONSORSHIP IN SHORT SETUPS"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS",
+          "SETUP_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Higher time frame price displacement"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "return to fair value"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "REBALANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalance in price"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move to a premium"
+        ],
+        "narrative_roles": [
+          "TRADE_ENTRY_CONDITION",
+          "REVERSAL_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_SEEK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "moving towards the buy side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "Short term sell liquidity below the marketplace",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "TARGET_LEVEL",
+          "PROFIT_TAKING",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pairing short exits to cover",
+          "buying those from the counterparties"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL SPONSORSHIP IN SHORT SETUPS (REVERSED CRITERIA)",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2229",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional sponsorship",
+          "the impact of large institutions, banks, and big equity traders coming in to fund the side of the marketplace",
+          "institutional sponsorship as a concept"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION_BIAS",
+          "SMART_MONEY_ALIGNMENT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MINDSET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "MARKET MAKER MINDSET",
+          "large institutions, banks, and big equity traders"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_PERSPECTIVE",
+          "MARKET_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher time frame setups"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINING INSTITUTIONAL SPONSORSHIP AND MARKET MAKER MINDSET",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2230",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "sell stops are ran out",
+          "low is violated",
+          "low being violated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTAL_NATURE_OF_PRICE",
+        "confidence": 1,
+        "surface_terms": [
+          "FRACTAL NATURE OF PRICE",
+          "price is fractal",
+          "everything you see on one time frame is replicable on the higher time frame and the lower time frame",
+          "similarity throughout all the time frames",
+          "everything on price is fractal"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "STRATEGY_APPLICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "lower time frame",
+          "go into a lower time frame",
+          "look into a lower time frame",
+          "short term price action on a lower time frame"
+        ],
+        "narrative_roles": [
+          "ENTRY_REFINEMENT",
+          "CONFIRMATION_SEEKING",
+          "ANALYTICAL_TECHNIQUE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "AGGRESSIVE TRADING AND FRACTAL NATURE OF PRICE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2231",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "SEEKING EVIDENCE OF INSTITUTIONAL SPONSORSHIP",
+          "evidence of institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "TRADE_VALIDATION",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "understanding and expectation",
+          "anticipating a market move higher"
+        ],
+        "narrative_roles": [
+          "MARKET_ASSESSMENT",
+          "TRADE_PLANNING",
+          "OUTCOME_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LONG_POSITION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "take a long position"
+        ],
+        "narrative_roles": [
+          "TRADE_EXECUTION",
+          "ENTRY_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "a run below the old lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGETS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "where could this market go to?"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_PLANNING",
+          "EXIT_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEEKING EVIDENCE OF INSTITUTIONAL SPONSORSHIP",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2232",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING BUY SIDE LIQUIDITY TARGETS",
+          "short-term high",
+          "old high",
+          "relatively equal highs"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_POOL",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "clear these relatively equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_DELIVERY",
+          "TARGET_ACHIEVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BUY SIDE LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2233",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "last down candle",
+          "body of that candle",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ORIGIN_OF_PRICE_SWING",
+          "POTENTIAL_ENTRY_LEVEL",
+          "INSTITUTIONAL_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INSTITUTIONAL SPONSORSHIP",
+          "sponsorship behind it by banks or large institutions or big equity traders",
+          "institutional sponsorship level",
+          "where everything started from"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER_IDENTIFICATION",
+          "ORIGIN_OF_PRICE_SWING",
+          "HIGHER_TIME_FRAME_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "daily chart",
+          "higher time frame price displacement",
+          "where the banks are trading off of",
+          "those levels are key"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "INSTITUTIONAL_PERSPECTIVE",
+          "IDENTIFYING_KEY_LEVELS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING THE ORIGIN OF INSTITUTIONAL SPONSORSHIP",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2234",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "accelerate towards your stop",
+          "sell stop low capitalized by this buying in here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT_MECHANISM",
+          "REVERSAL_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DISPLACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame price displacement"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ORDER_FLOW_CONFIRMATION",
+          "MARKET_STRUCTURE_SHIFT_PRECURSOR",
+          "STRONG_MOMENTUM"
+        ],
+        "temporal_tags": [
+          "HIGHER_TIME_FRAME"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the elephant has put itself inside that pool",
+          "capitalized by this buying in here",
+          "market's going to move dynamically immediately"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVING_FORCE",
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "SMART_MONEY_PRESENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET RESPONSIVENESS AND THE 'ELEPHANT IN THE POOL' ANALOGY",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2235",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "run back up into these highs here",
+          "run those buy stops",
+          "run those buy stops above the short term high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGETING_LIQUIDITY",
+          "POTENTIAL_REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING LOGICAL EXIT POINTS FOR BANKS",
+          "take our position off at logical areas",
+          "unloading long positions by the banks"
+        ],
+        "narrative_roles": [
+          "EXIT_STRATEGY",
+          "INSTITUTIONAL_BEHAVIOR",
+          "DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "come back above this old high here",
+          "Hold for higher prices"
+        ],
+        "narrative_roles": [
+          "MARKET_STRENGTH_INDICATION",
+          "CONTINUATION",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING LOGICAL EXIT POINTS FOR BANKS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2236",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "SEQUENTIAL BUY STOP LIQUIDITY RUNS",
+          "price obviously goes up there and hits it",
+          "as price hits that level right up here",
+          "pairing orders with buy stops",
+          "buy stop liquidity is gone",
+          "ran an area of buy stop liquidity",
+          "sell stops were ran out",
+          "went below this old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_FULFILLMENT",
+          "STOP_HUNT",
+          "INDUCEMENT",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "That old high back here",
+          "next level of institutional order flow that suggests price may go to",
+          "this low here",
+          "this lower low here",
+          "this old low"
+        ],
+        "narrative_roles": [
+          "TARGET_IDENTIFICATION",
+          "PRICE_MAGNATE",
+          "ORDER_CONCENTRATION_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "move above this old high",
+          "market structure on the daily chart has now changed to bullishness"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "DIRECTIONAL_BIAS",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional order flow",
+          "they bought it up",
+          "they bought it again"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTION",
+          "PRICE_MANIPULATION",
+          "ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "HIGHER_TIMEFRAME_BIAS"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SEQUENTIAL BUY STOP LIQUIDITY RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2237",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "BUY STOPS",
+          "buy stop traders",
+          "a buy stop above here",
+          "that high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_AREA",
+          "EXIT_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TARGETING BUY STOPS",
+          "sell to the buy stop traders up here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "EXIT_STRATEGY",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFTS",
+          "market structure breaking on a very intermediate term basis",
+          "old high being violated"
+        ],
+        "narrative_roles": [
+          "TREND_CHANGE_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional sponsorship",
+          "they don't want to give you an opportunity to get in there",
+          "we're trying to buy down here and get off our position up here",
+          "we're trying to buy down here and sell to the buy stop traders up here"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_INDICATION",
+          "MARKET_DRIVERS",
+          "SMART_MONEY_PERSPECTIVE",
+          "LIQUIDITY_EXPLOITATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "equilibrium price point"
+        ],
+        "narrative_roles": [
+          "REVERSAL_AREA",
+          "POTENTIAL_STOPPING_POINT",
+          "CONSOLIDATION_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POINT_OF_INTEREST",
+        "confidence": 0.8,
+        "surface_terms": [
+          "logical areas in price",
+          "this level here"
+        ],
+        "narrative_roles": [
+          "SUPPORT/RESISTANCE_FORMATION",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING BUY STOPS AND MARKET STRUCTURE SHIFTS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2238",
+    "concepts": [
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "FORMATION OF BULLISH ORDER BLOCKS ON LOWER TIME FRAMES",
+          "two down candles forming",
+          "down price or down candles at an anticipated level of support, where we expect to see institution order flow send price higher."
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "TIME_FRAME_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stop liquidity above this short term high",
+          "buy stop liquidity resting above the high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_MAGNET",
+          "INSTITUTIONAL_OBJECTIVE",
+          "PRICE_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIME_FRAME_LEVEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher time frame support level",
+          "anticipated level of support"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_FRAMEWORK",
+          "CONFLUENCE",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FORMATION OF BULLISH ORDER BLOCKS ON LOWER TIME FRAMES",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2239",
+    "concepts": [
+      {
+        "canonical": "MIDNIGHT_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "MIDNIGHT OPEN",
+          "opening price",
+          "opening",
+          "New York's midnight candle"
+        ],
+        "narrative_roles": [
+          "DAILY_BIAS_ANCHOR",
+          "LIQUIDITY_REFERENCE_POINT"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_OPEN_TIME"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "TARGET_FOR_RETRACEMENT",
+          "INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "old order block"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trades lower",
+          "small little move below the opening price",
+          "trades lower again"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "REVERSAL_CATALYST"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      },
+      {
+        "canonical": "SMART_MONEY_INTERVENTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional sponsorship steps in",
+          "institutional sponsorship steps in again",
+          "institutional sponsorship steps in one more time",
+          "they buy it again",
+          "sends price higher",
+          "Rallies",
+          "Rallies up"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVE",
+          "MARKET_MANIPULATION",
+          "CONFIRMATION_OF_REVERSAL"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": [
+          "NY_OPEN"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY ACCUMULATION BELOW MIDNIGHT OPEN",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2240",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order block",
+          "down candle",
+          "this becomes an order block that's bullish"
+        ],
+        "narrative_roles": [
+          "SUPPORT",
+          "REVERSAL_POINT",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_ENTRY_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price comes back down, it snaps right back into it",
+          "hits it here",
+          "you could be a buyer at that point",
+          "Five pips added to the level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_PLAY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "capitalization of new longs"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACTION",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "opening price",
+          "opening price of that day"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "KEY_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK_VALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down candle is violated",
+          "this candle trades through it"
+        ],
+        "narrative_roles": [
+          "STRUCTURE_CONFIRMATION",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ORDER BLOCKS AND OPENING PRICE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2241",
+    "concepts": [
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 1,
+        "surface_terms": [
+          "trading at equilibrium",
+          "at equilibrium price points",
+          "away from the equilibrium"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PRICE_ANALYSIS",
+          "CONSOLIDATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "order block",
+          "down candle",
+          "The down candle",
+          "OB"
+        ],
+        "narrative_roles": [
+          "ENTRY_TRIGGER",
+          "PRICE_ANCHOR",
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "PRICE_EXPANSION_JUSTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_ANCHOR"
+        ],
+        "temporal_tags": [
+          "DAILY_OPEN"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_ACTIVITY",
+          "BIAS_CONFIRMATION",
+          "TRADE_JUSTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "POWER OF THREE CONCEPT"
+        ],
+        "narrative_roles": [
+          "DAILY_PRICE_CYCLE",
+          "ACCUMULATION_MANIPULATION_DISTRIBUTION"
+        ],
+        "temporal_tags": [
+          "DAILY_CYCLE"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EQUILIBRIUM TRADING AND POWER OF THREE CONCEPT",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2242",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "down candle here, and it's violated on the upside",
+          "bullish order block",
+          "buyer here"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "POWER_OF_THREE",
+        "confidence": 1,
+        "surface_terms": [
+          "Power of Three",
+          "daily open high low close bar",
+          "daily range",
+          "buying near the opening on an up day and exiting on the close",
+          "buying near or below the opening price",
+          "opening price",
+          "higher close",
+          "low up to a higher high close"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_FRAMEWORK",
+          "BIAS_CONFIRMATION",
+          "TRADE_STRATEGY",
+          "ENTRY_CRITERIA",
+          "EXIT_CRITERIA",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [
+          "daily open",
+          "daily close"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY OHLC CYCLE",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2243",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY RUNS",
+          "run through them again",
+          "take those positions out right here"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNTING",
+          "MANIPULATION",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXTERNAL_RANGE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "first old high",
+          "just above this old high",
+          "the old high here, the second one",
+          "old resistance"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MAGNET_FOR_PRICE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_CONCEPT_EXPLOITATION",
+        "confidence": 1,
+        "surface_terms": [
+          "EXPLOITING CONVENTIONAL RESISTANCE",
+          "Traditional support resistance players will see that old high as resistance",
+          "That's what classic textbooks say"
+        ],
+        "narrative_roles": [
+          "MARKET_MAKER_PLAYBOOK",
+          "STRATEGY_FOUNDATION",
+          "COUNTER_RETAIL_TRADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "starts staying sideways, it's consolidating"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILD_UP",
+          "PRE_MANIPULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "EXPLOITING CONVENTIONAL RESISTANCE AND LIQUIDITY RUNS",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2244",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "DAILY ORDER BLOCKS",
+          "order block",
+          "all these down candles in here, all these down candles on a 15 minute time frame, creates a larger order block on a higher time frame",
+          "back into the order block",
+          "this down candle, which is the order block",
+          "order block from the previous day",
+          "OB"
+        ],
+        "narrative_roles": [
+          "REVERSAL_POINT",
+          "CONTINUATION_POINT",
+          "MITIGATION_POINT",
+          "AREA_OF_INTEREST",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "previous day"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "liquidity void",
+          "its void"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_CORRECTION",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME_CONFLUENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "15 minute time frame, creates a larger order block on a higher time frame"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "HIGHER_TF_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPENING_PRICE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market opens",
+          "opening here",
+          "opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "DAILY_BIAS_SETUP"
+        ],
+        "temporal_tags": [
+          "next day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DAILY ORDER BLOCKS AND NEW YORK/LONDON SESSION OPPORTUNITIES",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2245",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ORDER BLOCKS",
+          "what's the order block to use?",
+          "Every order block that we refer to here"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_SPONSORSHIP_IDENTIFIER",
+          "POI",
+          "BIAS_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old lows to be violated and then rallied off of",
+          "turtle soup",
+          "old high to be rallied through and then rejected and trade softer",
+          "turtle soup sell"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "IDENTIFYING INSTITUTIONAL SPONSORSHIP",
+          "understanding where the market should go",
+          "underlying interest for the market maker to see price go higher"
+        ],
+        "narrative_roles": [
+          "BIAS_IDENTIFICATION",
+          "DIRECTIONAL_FORECAST",
+          "MARKET_MAKER_INTENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "time",
+          "linked to a London session",
+          "New York session",
+          "previous day",
+          "a couple days ago"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_VALIDATION",
+          "CONTEXT_SETTING",
+          "HIGH_PROBABILITY_TIMING"
+        ],
+        "temporal_tags": [
+          "PREVIOUS_DAY",
+          "PAST_DAYS"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM",
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING INSTITUTIONAL SPONSORSHIP THROUGH ORDER BLOCKS AND TIME",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2246",
+    "concepts": [
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "Specific order blocks"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "DIRECTIONAL_BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_SPONSORSHIP",
+        "confidence": 1,
+        "surface_terms": [
+          "SPONSORSHIP",
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "MARKET_BIAS_CONFIRMATION",
+          "SMART_MONEY_PRESENCE",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "reduce the risk"
+        ],
+        "narrative_roles": [
+          "CAPITAL_PRESERVATION",
+          "PSYCHOLOGICAL_DISCIPLINE",
+          "TRADE_ADJUSTMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "RELAXED TRADING AND RISK MANAGEMENT WITH SPONSORSHIP",
+      "source_file": "ICT Mentorship Core Content - Month 03 - Institutional Sponsorship_Handbook.chunks.json"
+    }
+  }
+]

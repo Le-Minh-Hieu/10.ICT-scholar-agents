@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { retrieveRAG } from "../../retrieval-core.js";
 import { buildGrounded } from "../../grounding";
+import { attributionTracker } from "../../retrieval-attribution.js";
 
 import * as ragFs from "fs";
 
@@ -10,7 +11,10 @@ function ragDebugEnabled(): boolean {
 }
 
 function safeCaptureId(): string {
-  return ((global as any).currentCaptureId || Date.now().toString()).toString();
+  if (!(global as any).currentCaptureId) {
+    (global as any).currentCaptureId = Date.now().toString();
+  }
+  return ((global as any).currentCaptureId).toString();
 }
 
 function dumpRagArtifact(relativeFilePath: string, data: any, isText: boolean = false) {
@@ -41,6 +45,9 @@ function dumpRagDebug(agent: string, filename: string, data: any, isText: boolea
 }
 
 import { callLLM } from "../../../../shared/utils/llm-utils";
+import { buildVisionKnowledge, extractConceptsFromVision } from "../../vision-grounded-knowledge";
+import { visionFactExtractor } from "../../vision-signal-extractor";
+import { Pipeline, PipelineStep } from "../../vision-grounded-knowledge";
 import { verifyGrounding } from "../../../../shared/utils/grounding-verify";
 import { log } from "../../../../shared/utils/logger.js";
 import { buildPrompt } from "../../prompt-builder.js";
@@ -132,6 +139,10 @@ export interface AgentConfig<TInput, TOutput> {
   fallback: TOutput;
   useGroundingVerification?: boolean;
   schema: any; // ZodSchema
+  /** Vision-first prompt: instruction for extracting market state from charts.
+   *  If provided, agent runs vision extraction BEFORE RAG, using knowledge_map as grounded context.
+   *  Vision summary then feeds into query expansion for market-state-aware RAG. */
+  visionPrompt?: string;
 }
 
 function estimateTokens(value: any): number {
@@ -344,14 +355,109 @@ export async function runBaseAgent<TInput, TOutput>(
   const startTime = new Date().toISOString();
 
   try {
-    // 1. RAG
+    let unfinalizedBaseQueries: any[] = [];
+    let unfinalizedVisionConceptQueries: any[] = [];
+    let visionFactQueries: string[] = [];
+
+    // 0. VISION-FIRST (if visionPrompt is set)
+    let visionSummary: string | null = null;
     const pipeline = loadPipeline(config.pipelinePath);
-    const concepts = extractConcepts(pipeline, config.step);
+    let concepts = extractConcepts(pipeline, config.step);
 
     const kmPath = path.join(process.cwd(), "data/knowledge_map.json");
     const knowledgeMap = JSON.parse(fs.readFileSync(kmPath, "utf8"));
 
-    const queries = buildQueries(concepts, knowledgeMap);
+    // Skip finalization if vision-first is enabled (queries will be merged with vision lanes)
+    let queries = buildQueries(
+      concepts,
+      knowledgeMap,
+      undefined,
+      undefined,
+      { skipFinalize: !!config.visionPrompt }
+    );
+
+    if (config.visionPrompt) {
+      unfinalizedBaseQueries = queries;
+
+      // Build grounded knowledge for vision from pipeline concepts + knowledge_map
+      const visionGrounded = buildVisionKnowledge(pipeline, config.step, knowledgeMap);
+
+      // Call vision LLM with grounded context
+      const visionParts: any[] = [{ text: visionGrounded + "\n\n---\n\n" + config.visionPrompt }];
+      if (config.pushImages) {
+        config.pushImages(visionParts, input, callId);
+      }
+
+      dumpRagDebug(config.agentName, "00_VISION_INPUT.txt", visionGrounded + "\n\n---\n\n" + config.visionPrompt, true);
+
+      const visionResult = await callLLM(
+        visionGrounded + "\n\n---\n\n" + config.visionPrompt,
+        `${config.agentName}-vision`,
+        callId,
+        visionParts,
+        { returnTelemetry: false, responseType: "text" }
+      );
+      visionSummary = String(visionResult ?? "").trim();
+
+      dumpRagDebug(config.agentName, "00_VISION_SUMMARY.txt", visionSummary || "(empty)", true);
+
+      // 3-LANE VISION MERGE: Lane 0 (base) + Lane 1 (ontology concepts) + Lane 2 (raw observations)
+      if (visionSummary) {
+        const baseQueries = queries; // Lane 0: frozen baseline from pipeline concepts
+        
+        // Lane 1: Extract ontology concepts from vision summary
+        const visionConcepts = extractConceptsFromVision(visionSummary);
+        unfinalizedVisionConceptQueries = visionConcepts.length > 0 
+          ? buildQueries(visionConcepts, knowledgeMap, undefined, undefined, { skipFinalize: true })
+          : [];
+        
+        // Dedup Lane 1 against Lane 0 to avoid duplicate weight inflation
+        const normalizeQuery = (q: string) => q.toLowerCase().trim();
+        const dedupedVisionConceptQueries = unfinalizedVisionConceptQueries.filter(vq => 
+          !baseQueries.some(bq => normalizeQuery(bq.query) === normalizeQuery(vq.query))
+        );
+        
+        // Lane 2: Extract vision facts from vision summary
+        const visionFacts = visionFactExtractor.extractFacts(visionSummary);
+        visionFactQueries = visionFactExtractor.factsToQueries(visionFacts);
+        const visionObservationQueries = visionFactQueries.map((query: string) => ({
+          query,
+          weight: 0.9,
+          type: "anchor" as const
+        }));
+        
+        // Merge all 3 lanes at query level
+        const { finalizeWeightedQueries } = await import("../../query-builder");
+        queries = finalizeWeightedQueries(
+          [...baseQueries, ...dedupedVisionConceptQueries, ...visionObservationQueries],
+          concepts[0] // mainConcept from pipeline
+        );
+        
+        // Dump vision artifacts
+        dumpRagDebug(config.agentName, "00_VISION_CONCEPTS.json", {
+          lane1_ontology_concepts: visionConcepts,
+          lane1_query_count: unfinalizedVisionConceptQueries.length,
+        });
+        
+        dumpRagDebug(config.agentName, "00_VISION_SIGNALS.json", {
+          lane2_facts: visionFacts,
+          lane2_fact_queries: visionFactQueries,
+          lane2_query_count: visionObservationQueries.length,
+        });
+        
+        dumpRagDebug(config.agentName, "00_VISION_OBSERVATION_QUERIES.json", visionObservationQueries);
+        
+        dumpRagDebug(config.agentName, "00_MERGED_QUERIES.json", {
+          base_query_count: baseQueries.length,
+          vision_concept_query_count: unfinalizedVisionConceptQueries.length,
+          vision_observation_query_count: visionObservationQueries.length,
+          final_merged_query_count: queries.length,
+          final_queries: queries,
+        });
+      }
+    }
+
+    // 1. RAG (using queries possibly expanded by vision)
 
     dumpRagDebug(config.agentName, "01_INPUT.json", {
       input,
@@ -386,6 +492,37 @@ export async function runBaseAgent<TInput, TOutput>(
 
     const conceptEmbeddings = await embedQueries(queries.map(q => q.query));
 
+    // Reset attribution tracker and register lane assignments for telemetry
+    attributionTracker.reset();
+    
+    // Register which queries belong to which lane (if vision-first was used)
+    if (config.visionPrompt && visionSummary) {
+      const laneRegistrations: Array<{query: string, lane: "lane0" | "lane1" | "lane2"}> = [];
+      
+      // Register lane0 (base pipeline queries)
+      for (const q of unfinalizedBaseQueries) {
+        laneRegistrations.push({ query: q.query, lane: "lane0" });
+      }
+      
+      // Register lane1 (vision ontology concepts)
+      for (const q of unfinalizedVisionConceptQueries) {
+        laneRegistrations.push({ query: q.query, lane: "lane1" });
+      }
+      
+      // Register lane2 (vision facts)
+      for (const factQuery of visionFactQueries) {
+        laneRegistrations.push({ query: factQuery, lane: "lane2" });
+      }
+      
+      attributionTracker.registerLanes(laneRegistrations);
+    } else {
+      // No vision-first: all queries are lane0
+      const laneRegistrations = queries.map(q => ({ 
+        query: q.query, 
+        lane: "lane0" as const 
+      }));
+      attributionTracker.registerLanes(laneRegistrations);
+    }
 
     const memory: HierarchicalMemory = {
       theses: minimal_context?.parent_thesis
@@ -406,6 +543,7 @@ export async function runBaseAgent<TInput, TOutput>(
       scenarios: minimal_context?.scenario_context
     };
 
+    console.log("[TRACE] A-before-retrieveRAG", { agentName: config.agentName, queryCount: queries.length });
     const retrieved = await retrieveRAG({
       queries,
       conceptEmbeddings,
@@ -416,6 +554,7 @@ export async function runBaseAgent<TInput, TOutput>(
       scenarios: minimal_context?.scenario_context,
       pmso: minimal_context?.pmso_context
     });
+    console.log("[TRACE] B-after-retrieveRAG", { chunkCount: retrieved.chunks.length });
 
     dumpRagDebug(config.agentName, "04_SEARCH.json", {
       inputSymbol: Object.keys(input as any).find(k => k !== 'query' && typeof (input as any)[k] === 'object'),
@@ -432,6 +571,10 @@ export async function runBaseAgent<TInput, TOutput>(
     });
 
     const { chunks, expandedQueries, topKChunks } = retrieved;
+    
+    // Compute and dump retrieval attribution metrics
+    const attributionMetrics = attributionTracker.computeMetrics();
+    dumpRagDebug(config.agentName, "04_ATTRIBUTION.json", attributionMetrics);
 
 
 
@@ -462,8 +605,15 @@ export async function runBaseAgent<TInput, TOutput>(
     }
 
     // 2. GROUNDED
-    const groundedResult = buildGrounded(chunks, expandedQueries);
+    const groundedResult = buildGrounded(chunks, expandedQueries, config.agentName);
     const grounded = groundedResult.text;
+
+    // VISION-FIRST: inject vision summary as PRIMARY context before RAG context
+    let groundedWithVision = grounded;
+    if (visionSummary) {
+      groundedWithVision = `## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\n${visionSummary}\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n${grounded}`;
+      dumpRagDebug(config.agentName, "06_GROUNDED_WITH_VISION.txt", groundedWithVision, true);
+    }
 
     dumpRagDebug(config.agentName, "06_GROUNDED.txt", grounded, true);
 
@@ -487,11 +637,11 @@ export async function runBaseAgent<TInput, TOutput>(
     const prompt = buildPrompt({
       role: config.role,
       task: config.task,
-      groundedKnowledge: grounded,
+      groundedKnowledge: groundedWithVision,
       inputContext: config.buildInputContext(input),
       constraints: config.constraints,
       outputFormat: config.outputFormat,
-    }, { parent_thesis: minimal_context.parent_thesis });
+    }, { parent_thesis: minimal_context?.parent_thesis });
 
     // 7. PROMPT dump (debug only)
     dumpRagDebug(config.agentName, "07_PROMPT.txt", prompt, true);
@@ -589,7 +739,7 @@ export async function runBaseAgent<TInput, TOutput>(
       _debug: {
         expandedQueries,
         topKChunks,
-        grounded,
+        grounded: groundedWithVision,
         references: (rawResult as any)?.references,
         telemetry,
       },

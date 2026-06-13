@@ -1,0 +1,723 @@
+[
+  {
+    "chunk_id": "chunk_2752",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Interest rate markets supporting the trade",
+          "higher or lower interest rates",
+          "divergences in yields",
+          "inter-market analysis"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PROBABILITY_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "COT_DATA",
+        "confidence": 1,
+        "surface_terms": [
+          "COT data",
+          "Commitment of Traders report"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PROBABILITY_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PDA_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "Opposing PDA (Premium to Discount) arrays"
+        ],
+        "narrative_roles": [
+          "TRADE_SETUP_IDENTIFICATION",
+          "PROBABILITY_ENHANCEMENT"
+        ],
+        "temporal_tags": [
+          "monthly"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SEASONAL_TENDENCIES",
+        "confidence": 1,
+        "surface_terms": [
+          "Seasonal Tendencies"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "PROBABILITY_ENHANCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ADDITIONAL HALLMARKS FOR HIGH-PROBABILITY TRADES",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2753",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "Euro Dollar on a lower low, is the Dollar Index seeing a lower high",
+          "weakness on the dollar, failing to make a higher high",
+          "shorting Dollar Swissy on a lower high, is the Dollar Index seeing a higher high",
+          "SMT divergence ideas"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_CONFIRMATION",
+          "INSTITUTIONAL_FOOTPRINT",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_FOOTPRINT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INSTITUTIONAL SPONSORSHIP",
+          "institutional sponsorship"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "SMART_MONEY_PRESENCE",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_STRENGTH_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RELATIVE STRENGTH ANALYSIS",
+          "relative strength analysis"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_TOOL",
+          "INTERMARKET_ANALYSIS",
+          "BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL SPONSORSHIP THROUGH RELATIVE STRENGTH ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2754",
+    "concepts": [
+      {
+        "canonical": "BANK_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING BANK ACCUMULATION",
+          "Bank accumulation",
+          "new Bank accumulation is measured by buying at down candles"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "INSTITUTIONAL_ACTIVITY",
+          "ACCUMULATION_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BANK_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "IDENTIFYING BANK DISTRIBUTION",
+          "Bank distribution",
+          "Bank distribution is measured at up candles acting as resistance"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "INSTITUTIONAL_ACTIVITY",
+          "DISTRIBUTION_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing highs breaking and seeing higher highs",
+          "higher highs and higher lows",
+          "resistance levels breaking",
+          "swing lows breaking and are we seeing lower prices",
+          "failure to break through resistance levels"
+        ],
+        "narrative_roles": [
+          "TREND_IDENTIFICATION",
+          "MARKET_STRUCTURE_IDENTIFICATION",
+          "TREND_CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "down candles becoming support",
+          "buying at down candles",
+          "up candles becoming resistance",
+          "new resistance levels in the form of up candles"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "ACCUMULATION_ZONE_IDENTIFICATION",
+          "DISTRIBUTION_ZONE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market recedes or retraces, offering discounts",
+          "Institutions do not buy at premium prices; they buy when the"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_TRADING_STRATEGY",
+          "PRICE_THEORY",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "market rallies provide short-term premiums for institutions to sell more"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_TRADING_STRATEGY",
+          "PRICE_THEORY",
+          "ENTRY_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING BANK ACCUMULATION AND DISTRIBUTION",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2755",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_AND_DISCOUNT_ARRAYS",
+        "confidence": 1,
+        "surface_terms": [
+          "PDAs",
+          "Premium and Discount Arrays"
+        ],
+        "narrative_roles": [
+          "IDENTIFICATION_OF_TRADE_OPPORTUNITY",
+          "CONTEXT_SETTING",
+          "PRICE_LEVEL_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Voids",
+          "liquidity voids"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "mitigation blocks"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "breakers"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gaps"
+        ],
+        "narrative_roles": [
+          "IMBALANCE",
+          "PRICE_MAGNET",
+          "TARGET",
+          "REVERSAL_POINT",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REJECTION_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "rejection blocks"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OLD_HIGH",
+        "confidence": 0.9,
+        "surface_terms": [
+          "old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish order blocks",
+          "order block",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPORT_RESISTANCE",
+          "REVERSAL_POINT",
+          "ENTRY_POINT_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "imbalance basis",
+          "imbalance",
+          "FVG",
+          "price gap",
+          "inefficiency"
+        ],
+        "narrative_roles": [
+          "PRICE_MAGNET",
+          "TARGET",
+          "LIQUIDITY_DRAW"
+        ],
+        "temporal_tags": [
+          "MONTHLY",
+          "WEEKLY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "fair value"
+        ],
+        "narrative_roles": [
+          "EQUILIBRIUM",
+          "TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUILIBRIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "equilibrium"
+        ],
+        "narrative_roles": [
+          "MARKET_STATE",
+          "PRECURSOR_TO_MOVE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE",
+          "PRECURSOR_TO_BREAKOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_DEFINITION",
+          "TARGET",
+          "REGION_OF_INTEREST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity point"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LEVEL",
+          "TARGET",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SIGNIFICANCE OF CLEAR PRICE ACTION AND PDAS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2756",
+    "concepts": [
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "DISCIPLINED RISK AND EQUITY MANAGEMENT",
+          "Effective risk and equity management",
+          "risk parameters",
+          "additional allocation exposure",
+          "assume more risk",
+          "money management rules",
+          "weigh whether the new trade is more valid or offers a better potential payout than existing trades",
+          "cut an existing trade",
+          "maintain open risk",
+          "risk and equity management"
+        ],
+        "narrative_roles": [
+          "TRADER_DISCIPLINE",
+          "CAPITAL_PRESERVATION",
+          "TRADE_SELECTION_CRITERIA",
+          "POSITION_SIZING_GUIDANCE",
+          "OPPORTUNITY_COST_EVALUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DISCIPLINED RISK AND EQUITY MANAGEMENT",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2757",
+    "concepts": [
+      {
+        "canonical": "REWARD_TO_RISK",
+        "confidence": 1,
+        "surface_terms": [
+          "reward-to-risk",
+          "3:1 reward-to-risk ratio",
+          "five times your risk",
+          "risk-to-reward ratios"
+        ],
+        "narrative_roles": [
+          "PROFITABILITY_CRITERION",
+          "TRADE_SELECTION_CRITERION",
+          "RISK_MANAGEMENT_ELEMENT",
+          "STRATEGY_DESIGN_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "money and risk management"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "PROFITABILITY_CRITERION",
+          "DISCIPLINE_ELEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFITABILITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "profitability",
+          "marginally profitable",
+          "wildly profitable",
+          "odds of profitability",
+          "make money"
+        ],
+        "narrative_roles": [
+          "TRADING_GOAL",
+          "PERFORMANCE_METRIC",
+          "OUTCOME_OF_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "setups",
+          "Limiting setups",
+          "Framing setups",
+          "Setups with the most movement potential"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "STRATEGY_APPLICATION",
+          "ANALYSIS_OUTPUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCURACY",
+        "confidence": 0.8,
+        "surface_terms": [
+          "accuracy",
+          "wrong 66%"
+        ],
+        "narrative_roles": [
+          "PERFORMANCE_METRIC",
+          "COMPLEMENT_TO_RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROBABILITIES AND FAVORABLE REWARD-TO-RISK RATIOS",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2758",
+    "concepts": [
+      {
+        "canonical": "TRADING_PLAN",
+        "confidence": 1,
+        "surface_terms": [
+          "develop a mock trading plan",
+          "formulating and creating your own plan",
+          "mapping out everything from the beginning to the end of the trading process",
+          "outline your current understanding in writing on paper"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY_DEVELOPMENT",
+          "FOUNDATIONAL_LEARNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SETUP",
+        "confidence": 1,
+        "surface_terms": [
+          "initial opportunity and what frames it",
+          "valid trade setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA_DEFINITION",
+          "PRE_TRADE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_TRADING",
+        "confidence": 1,
+        "surface_terms": [
+          "swing trading model",
+          "swing trade"
+        ],
+        "narrative_roles": [
+          "TRADING_STYLE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEVELOPING A MOCK TRADING PLAN",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2759",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HOMEWORK SUBMISSION GUIDELINES AND IMPORTANCE",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2760",
+    "concepts": [
+      {
+        "canonical": "TRADING_PLAN",
+        "confidence": 1,
+        "surface_terms": [
+          "THE VALUE OF A COMPREHENSIVE TRADING PLAN",
+          "swing trading model",
+          "What cancels the trade",
+          "comprehensive plan ensures that every decision is deliberate and based on objective reasoning"
+        ],
+        "narrative_roles": [
+          "DECISION_FRAMEWORK",
+          "STRATEGY_APPLICATION",
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "information received from price",
+          "This immediate feedback mechanism will help you know if you are on the right or wrong side of the market"
+        ],
+        "narrative_roles": [
+          "PRIMARY_INFORMATION_SOURCE",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "If you get stopped out",
+          "What cancels the trade"
+        ],
+        "narrative_roles": [
+          "TRADE_EXIT",
+          "RISK_MANAGEMENT",
+          "TRADE_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BEHAVIORAL_DISCIPLINE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "not emotions or external influences from Talking Heads on TV, Twitter, or forums",
+          "objective reasoning",
+          "solely based on information received from price"
+        ],
+        "narrative_roles": [
+          "MINDSET",
+          "DECISION_MAKING_PRINCIPLE",
+          "BIAS_MITIGATION",
+          "EMOTIONAL_CONTROL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE VALUE OF A COMPREHENSIVE TRADING PLAN",
+      "source_file": "ICT Mentorship Core Content - Month 06 - Elements To Successful Swing Trading_Handbook.chunks.json"
+    }
+  }
+]

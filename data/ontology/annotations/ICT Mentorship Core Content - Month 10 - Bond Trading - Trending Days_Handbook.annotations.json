@@ -1,0 +1,1066 @@
+[
+  {
+    "chunk_id": "chunk_3263",
+    "concepts": [
+      {
+        "canonical": "TRENDING_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "Trending days",
+          "large range expansion days"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT_IDENTIFICATION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "TRADING_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "New York session news",
+          "economic calendar",
+          "high to medium impact U.S. reports"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "8:30 a.m. New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PD_ARRAY_MATRIX",
+        "confidence": 1,
+        "surface_terms": [
+          "daily PD array Matrix",
+          "PD array"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MARKET_STRUCTURE_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "Order flow"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_ANALYSIS",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SEEKING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "liquidity seeking movement"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OVERNIGHT_PRICE_ACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Overnight price action"
+        ],
+        "narrative_roles": [
+          "PRE_MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "OVERNIGHT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHARACTERISTICS OF TRENDING DAYS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3264",
+    "concepts": [
+      {
+        "canonical": "FOMC",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "MARKET_EVENT",
+          "TRADING_RESTRICTION",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "June 14, 2017",
+          "8:30 a.m."
+        ],
+        "session_tags": [
+          "New York session",
+          "FOMC afternoon session",
+          "morning session"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array",
+          "premium array"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "TRADE_ZONE_IDENTIFICATION",
+          "OPTIMAL_TRADE_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_RULES",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rules are that we're generally going to be waiting for FOMC",
+          "we are not trying to be active",
+          "we don't want to trade the FOMC afternoon session",
+          "we can trade the morning session if"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "STRATEGY_GUIDELINE",
+          "DISCIPLINE",
+          "EVENT_BASED_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "FOMC afternoon session",
+          "morning session"
+        ]
+      },
+      {
+        "canonical": "VOLATILITY_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "euro dollar vaulted higher",
+          "exploded on the upside",
+          "a lot of animation, a lot of movement, and a lot of energy",
+          "volatility squeeze",
+          "small ranges"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "SETUP_CONDITION",
+          "PRICE_DELIVERY",
+          "LIQUIDITY_RUN"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "New York session"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUNE 14, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3265",
+    "concepts": [
+      {
+        "canonical": "BOND_MARKET_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "BOND MARKET DIVERGENCE AS A TRIGGER",
+          "lower low in the bond market",
+          "did not go lower",
+          "That's our trigger"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "ENTRY_TRIGGER",
+          "SMART_MONEY_FOOTPRINT"
+        ],
+        "temporal_tags": [
+          "8 to 8:30 a.m. New York time",
+          "7 to 7:30 Central"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stop run"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "EXPECTED_OUTCOME"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expansion to the upside"
+        ],
+        "narrative_roles": [
+          "PRICE_MOVEMENT",
+          "DIRECTIONAL_BIAS",
+          "EXPECTED_OUTCOME"
+        ],
+        "temporal_tags": [
+          "FOMC",
+          "dollar-based news events"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "DISCOUNT_PREMIUM_ARRAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "at a discount"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONTEXT",
+          "VALUE_AREA",
+          "OPTIMAL_TRADE_ENTRY_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_CONCEPT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "professional accumulation",
+          "buyers are coming in strong",
+          "smart money"
+        ],
+        "narrative_roles": [
+          "INSTITUTIONAL_ACTIVITY",
+          "ORDER_FLOW_INDICATION",
+          "MARKET_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISPLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "displacement"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CONFIRMATION",
+          "SMART_MONEY_FOOTPRINT",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BOND MARKET DIVERGENCE AS A TRIGGER",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3266",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "divergence between the 10-year and the 30-year",
+          "bond market's condition"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "MACRO_ANALYSIS",
+          "VOLATILITY_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE_CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "being shackled",
+          "being held in consolidation or contraction"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "PRECURSOR_TO_EXPANSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_PHASE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "energy release in price",
+          "move dynamically",
+          "explosion in price action",
+          "volatility was allowed to be seen in price action"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_RELEASE",
+          "TRENDING_MOVEMENT",
+          "MARKET_CONDITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UNLOCKING VOLATILITY THROUGH BOND MARKETS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3267",
+    "concepts": [
+      {
+        "canonical": "DATE",
+        "confidence": 1,
+        "surface_terms": [
+          "JUNE 2, 2017",
+          "June 2nd, 2017"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "JUNE 2, 2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic calendar",
+          "heavy-hitting news coming out around dollar-based"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_DRIVER",
+          "VOLATILITY_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "small consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE_PHASE",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "permitted to expand",
+          "explosive price action"
+        ],
+        "narrative_roles": [
+          "MARKET_PROFILE_PHASE",
+          "VOLATILITY_GENERATION",
+          "PRICE_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRENDING_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trade higher and trend higher",
+          "big explosive up day"
+        ],
+        "narrative_roles": [
+          "MARKET_CHARACTERISTIC",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUNE 2, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3268",
+    "concepts": [
+      {
+        "canonical": "INTEREST_RATE_MARKET_SPONSORSHIP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "THE SPONSORSHIP OF INTEREST RATE MARKETS",
+          "sponsorship behind it by way of the interest rate markets",
+          "following the bond market",
+          "looking at the five-year, the 10-year, and the 30-year, and comparing them",
+          "what price action is most likely going to do in the treasury bonds"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING",
+          "SMART_MONEY_FLOW_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTIPLE_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe charts",
+          "daily",
+          "four-hour",
+          "two-hour"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "BIAS_DETERMINATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE SPONSORSHIP OF INTEREST RATE MARKETS",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3269",
+    "concepts": [
+      {
+        "canonical": "DATE_REFERENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "JUNE 2, 2017",
+          "June 2nd"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "JUNE_2",
+          "2017"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "economic calendar"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_DRIVER",
+          "MARKET_CATALYST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "treasury bond market",
+          "precursor in the treasury bond market"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_RELATIONSHIP",
+          "LEADING_INDICATOR",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRENDING_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "trending day"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR_CLASSIFICATION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_DISPLACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "exploded on the upside",
+          "lot of movement seen in the Aussie Dollar",
+          "intraday basis"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_OBSERVATION",
+          "MARKET_DIRECTION",
+          "MOMENTUM_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "INTRADAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUNE 2, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3270",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "treasury bond chart",
+          "Dollar Yen",
+          "dollar index was bearish; foreign currencies bullish",
+          "bond market unlocking the volatility",
+          "participation in the interest rate market"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "VOLATILITY_DRIVER",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "VOLATILITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "explosive move",
+          "dynamic",
+          "quick",
+          "energetic",
+          "bond market unlocking the volatility",
+          "explosive price action"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CHARACTERISTIC",
+          "OPPORTUNITY_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 0.8,
+        "surface_terms": [
+          "economic calendar"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "VOLATILITY_DRIVER_POTENTIAL"
+        ],
+        "temporal_tags": [
+          "JUNE 2, 2017"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "JUNE 2, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3271",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Interest rates",
+          "bond market",
+          "the interest rate market",
+          "the key is knowing the interest rates",
+          "it unlocks everything",
+          "trading without this insight"
+        ],
+        "narrative_roles": [
+          "FOUNDATIONAL_PRINCIPLE",
+          "CONTEXTUAL_AWARENESS",
+          "MARKET_BIAS_DETERMINATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE KEY TO MARKET UNLOCK",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3272",
+    "concepts": [
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.98,
+        "surface_terms": [
+          "BOND MARKET TRIGGER FOR CURRENCY EXPANSION",
+          "comparing the lows there because you're going to see the trigger occur between a five-year, a 10-year, and a 30-year note",
+          "expansive move take place in the other foreign currencies"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "TRADE_SIGNAL_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "expansion move",
+          "expansive move take place"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "TRADE_OPPORTUNITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SIGNAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trigger occur",
+          "buying signal gives you confirmation"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SESSION_TIMING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "7 o'clock on the chart",
+          "8 o'clock in New York time"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_TIMING",
+          "OBSERVATION_WINDOW"
+        ],
+        "temporal_tags": [
+          "APRIL_18_2017",
+          "8_AM_NY_TIME"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BOND MARKET TRIGGER FOR CURRENCY EXPANSION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3273",
+    "concepts": [
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pressure US dollar down",
+          "dollar index generally looks for lower prices",
+          "recesses to lower prices",
+          "Lower prices"
+        ],
+        "narrative_roles": [
+          "BIAS_FORMATION",
+          "MARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BOND RALLY, INTEREST RATES, AND DOLLAR",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3274",
+    "concepts": [
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "high impact news",
+          "FOMC",
+          "FOMC news drivers"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "MARCH 15, 2017",
+          "2 o'clock hour"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "The up move in the treasury bond market is going to send interest rates lower, which is going to pressure dollar lower, allowing foreign currencies to rally.",
+          "Treasury bond market",
+          "interest rates",
+          "dollar",
+          "foreign currencies"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "MACRO_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session"
+        ],
+        "narrative_roles": [
+          "TRADING_WINDOW",
+          "LIQUIDITY_GENERATION"
+        ],
+        "temporal_tags": [
+          "7:30 time period",
+          "8:30 in New York time"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "small consolidation on the daily chart"
+        ],
+        "narrative_roles": [
+          "PRE_EXPANSION_PHASE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_CALENDAR",
+        "confidence": 1,
+        "surface_terms": [
+          "economic calendar"
+        ],
+        "narrative_roles": [
+          "MARKET_OVERVIEW",
+          "EVENT_ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARCH 15, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3275",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "discount array"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_BUY_ZONE",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "institutional order flow"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bullish on the daily chart"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "HIGHER_TIMEFRAME_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "higher bond market, which is lower interest rate, is going to send dollar lower as a result, allowing euro dollar to rally against the dollar"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "CONFIRMATION",
+          "RELATIVE_STRENGTH_WEAKNESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ECONOMIC_NEWS_EVENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "news hits the market",
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_INDUCER",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [
+          "FOMC"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_AND_DATE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARCH 15, 2017",
+          "March 15, 2017",
+          "New York 8:30 a.m. time period",
+          "later on in the day"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "MARCH 15, 2017",
+          "NY_8_30_AM"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York 8:30 a.m. time period",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "NY"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARCH 15, 2017",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_3276",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_ARRAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "premium array on the daily chart"
+        ],
+        "narrative_roles": [
+          "REVERSAL_ZONE",
+          "SUPPLY_ZONE",
+          "SMART_MONEY_DISTRIBUTION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_EXPANSION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "expansion move lower",
+          "aggressively lower",
+          "obvious movement in the price"
+        ],
+        "narrative_roles": [
+          "TREND_INITIATION",
+          "TREND_CONTINUATION",
+          "MOMENTUM_DRIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERMARKET_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bond market is declining, which means interest rates are increasing, which is going to cause the dollar to rally and foreign currencies decline"
+        ],
+        "narrative_roles": [
+          "MACRO_BIAS_DETERMINATION",
+          "CONFLUENCE_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.75,
+        "surface_terms": [
+          "when the ranges have been small"
+        ],
+        "narrative_roles": [
+          "PRE-TREND_PHASE",
+          "LIQUIDITY_BUILDUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CONTRAST STUDY AND CONCLUSION",
+      "source_file": "ICT Mentorship Core Content - Month 10 - Bond Trading - Trending Days_Handbook.chunks.json"
+    }
+  }
+]

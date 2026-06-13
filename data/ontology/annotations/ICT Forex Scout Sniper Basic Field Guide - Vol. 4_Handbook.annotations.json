@@ -1,0 +1,1526 @@
+[
+  {
+    "chunk_id": "chunk_1416",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ICT Kill Zones",
+          "Kill Zone",
+          "Stalking in the Kill Zone"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "HIGH_PROBABILITY_SETUP_WINDOW",
+          "OBSERVATION_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "STALKING IN THE KILL ZONE ASSIGNMENT",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1417",
+    "concepts": [
+      {
+        "canonical": "YIELD_INTERPRETATION",
+        "confidence": 1,
+        "surface_terms": [
+          "increasing yields",
+          "increase in yields",
+          "decline in yields",
+          "INTEREST RATES"
+        ],
+        "narrative_roles": [
+          "MACROECONOMIC_DRIVER",
+          "MARKET_DIRECTIONAL_BIAS_GENERATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CURRENCY_MACRO_REACTION",
+        "confidence": 1,
+        "surface_terms": [
+          "Euro's upward movement",
+          "bullish for foreign currencies",
+          "bullish for the US dollar",
+          "bearish for foreign currencies"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTIONAL_BIAS",
+          "MARKET_REACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BOND_MARKET_INTERPRETATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "commodity market, specifically the 10-year futures market",
+          "10-year notes or bond market futures"
+        ],
+        "narrative_roles": [
+          "MACROECONOMIC_INDICATOR",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_ON_RISK_OFF_SENTIMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "risk-on/risk-off"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "MACROECONOMIC_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ICT_FUNDAMENTAL_PERSPECTIVE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "non-fundamental trader",
+          "my fundamental insights are limited to interest rates",
+          "fundamental driver"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "TRADER_IDENTITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTEREST RATES AND YIELDS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1418",
+    "concepts": [
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bullish outlook for EUR/USD",
+          "bearish tone for the US dollar",
+          "focus on one side of the market",
+          "allocating more equity to the long side",
+          "be a bull",
+          "fighting the tide"
+        ],
+        "narrative_roles": [
+          "CORE_ANALYSIS",
+          "STRATEGY_FOUNDATION",
+          "ENTRY_ALIGNMENT",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "REFERENCE_FOR_ALIGNMENT",
+          "INSTITUTIONAL_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_PLAN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "predetermined plan"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_DISCIPLINE",
+          "STRATEGY_FRAMEWORK",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "EMOTIONAL_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "react emotionally"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_TRAP",
+          "PITFALL_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING DIRECTIONAL BIAS IN TRADING",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1419",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Kill Zones",
+          "ICT Kill The red dashed lines encapsulate the London session",
+          "New York open or New York session",
+          "specific time windows daily",
+          "New York Kill Zone"
+        ],
+        "narrative_roles": [
+          "TIMING",
+          "ENTRY_CONFIRMATION",
+          "HIGH_PROBABILITY_SETUP_WINDOW"
+        ],
+        "temporal_tags": [
+          "September 9th",
+          "New York open",
+          "daily"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "declines or pullbacks",
+          "retracing back into a recently moved-away-from range",
+          "retracement within that range",
+          "minor pullback",
+          "pullback",
+          "retracement"
+        ],
+        "narrative_roles": [
+          "CONTINUATION_SETUP",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "recently moved-away-from range",
+          "initial London session range",
+          "London session range",
+          "dealing range high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_TARGET",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_EXPANSION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market expanded its London session range"
+        ],
+        "narrative_roles": [
+          "TREND_CONFIRMATION",
+          "MOMENTUM_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT KILL ZONE EXAMPLES ON 15-MINUTE CHART",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1420",
+    "concepts": [
+      {
+        "canonical": "SESSION_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "SESSION HIGHS AND LOWS",
+          "London session: low, high",
+          "London session range",
+          "New York session range"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_IDENTIFICATION",
+          "RANGE_DEFINITION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY"
+        ]
+      },
+      {
+        "canonical": "PREVIOUS_DAY_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "previous day's ranges"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_IDENTIFICATION",
+          "RANGE_DEFINITION",
+          "OPPORTUNITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing high/low"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_DEFINITION",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING SESSION HIGHS AND LOWS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1421",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "Optimal Trade Entry (OTE) area",
+          "sweet spot",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci",
+          "Fibonacci retracement levels",
+          "62 percent",
+          "79 percent",
+          "70.5 percent Fibonacci level"
+        ],
+        "narrative_roles": [
+          "TECHNICAL_TOOL",
+          "MEASUREMENT_TOOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_SESSION"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY WITH FIBONACCI",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1422",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "retracement back inside the range",
+          "Optimal Trade Entry region",
+          "pullback",
+          "retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "significant low and rallied"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_DIRECTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_DIRECTION",
+        "confidence": 1,
+        "surface_terms": [
+          "London session's established trend direction"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "TRADE_DIRECTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "London and New York Kill Zones",
+          "Kill Zones"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_ANALYSIS",
+          "SESSION_VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SESSION_OVERLAP",
+        "confidence": 1,
+        "surface_terms": [
+          "overlapping period between the London and New York Kill Zones"
+        ],
+        "narrative_roles": [
+          "TIME_BASED_ANALYSIS",
+          "CONSOLIDATION_PERIOD"
+        ],
+        "temporal_tags": [
+          "5:00 AM New York time",
+          "10:00 GMT"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pause or consolidation"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "RANGE_BOUND_PRICE_ACTION",
+          "VOLATILITY_EXPECTATION"
+        ],
+        "temporal_tags": [
+          "5:00 AM New York time",
+          "10:00 GMT"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 1,
+        "surface_terms": [
+          "swing low"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing high"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TUESDAY AND WEDNESDAY LONDON SESSION OPPORTUNITIES",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1423",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry level",
+          "70 percent retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "London",
+          "New York"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_DRIVER_WINDOW"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TRADABLE_RALLY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TRADABLE RALLIES",
+          "Price rallies up",
+          "tradable rally",
+          "opportunity to be a buyer and specifically looking to catch longs"
+        ],
+        "narrative_roles": [
+          "TRADE_OPPORTUNITY",
+          "PROFIT_GENERATION",
+          "PRICE_ACTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FURTHER OTE EXAMPLES AND TRADABLE RALLIES",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1424",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Hidden Optimal Trade Entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "support and resistance",
+          "discernible level of resistance",
+          "become support",
+          "price bounced here multiple times"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_AREA",
+          "REFERENCE_POINT",
+          "DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE_FLIP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "role reversal",
+          "If price moves above it, we expect it to become support"
+        ],
+        "narrative_roles": [
+          "CONFLUENCE",
+          "REFERENCE_POINT",
+          "REJECTION_ZONE",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_RANGE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "a range"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_GAP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The gap",
+          "weekend gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_VOID",
+          "IMBALANCE_IDENTIFICATION",
+          "REFERENCE_POINT",
+          "PRICE_INEFFICIENCY"
+        ],
+        "temporal_tags": [
+          "WEEKEND"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SUPPORT, RESISTANCE, AND GAPS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1425",
+    "concepts": [
+      {
+        "canonical": "PRICE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Gaps",
+          "common' gap",
+          "breakaway gap"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "INSTITUTIONAL_FOOTPRINT",
+          "TREND_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "discernible level of clear resistance and support"
+        ],
+        "narrative_roles": [
+          "PRICE_ANCHOR",
+          "POTENTIAL_REVERSAL_AREA",
+          "REFERENCE_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_TOOL",
+        "confidence": 1,
+        "surface_terms": [
+          "Fibonacci",
+          "anchor your Fibonacci"
+        ],
+        "narrative_roles": [
+          "MEASUREMENT_TOOL",
+          "ENTRY_SETUP_TOOL",
+          "HIGH_PROBABILITY_AREA_IDENTIFIER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "price retraces",
+          "retracing into this range"
+        ],
+        "narrative_roles": [
+          "PRICE_REBALANCING",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "70.5 percent level"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_ENTRY",
+          "ENTRY_CONFIRMATION",
+          "TRADE_TRIGGER_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "APPLYING FIBONACCI TO GAPS AND RESISTANCE",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1426",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-FOMC CONSOLIDATION",
+          "another consolidation",
+          "smaller ranges",
+          "small ranges, pauses"
+        ],
+        "narrative_roles": [
+          "MARKET_PAUSE",
+          "PRE_TREND_ACCUMULATION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE SHIFT",
+          "market structure shifting to the bullish side",
+          "break of a previous high"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS_CONFIRMATION",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "70 percent retracement",
+          "small violation"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "Kill Zones"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "HIGH_PROBABILITY_WINDOW"
+        ],
+        "temporal_tags": [
+          "TIME_WINDOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "POST-FOMC"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_IMPACT",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEEKLY_CLOSE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "close of the week"
+        ],
+        "narrative_roles": [
+          "MARKET_RESET",
+          "RANGE_BOUND_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-FOMC CONSOLIDATION AND MARKET STRUCTURE SHIFT",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1427",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "LONDON AND NEW YORK KILL ZONE RETRACEMENTS",
+          "Kill Zone",
+          "London Kill Zone",
+          "New York session"
+        ],
+        "narrative_roles": [
+          "OPTIMAL_TRADING_PERIOD",
+          "ENTRY_ZONE"
+        ],
+        "temporal_tags": [
+          "London Kill Zone",
+          "New York session"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RETRACEMENTS",
+          "retracement level"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_REFERENCE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the low during the London Kill Zone",
+          "the high made during the London Kill Zone",
+          "Asian session low",
+          "using the low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "ENTRY_ANCHOR",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "London Kill Zone",
+          "Asian session"
+        ],
+        "session_tags": [
+          "LONDON",
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "PRICE_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "price swing"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CANDLESTICK_PATTERN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'railroad tracks'",
+          "a big down range followed by an immediate up range"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "PRICE_ACTION_INTERPRETATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_INTERPRETATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "absorbing pressure"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Optimal Trade Entry",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADING_STRATEGY_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI_RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "50 percent Fibonacci"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADING_TOOL",
+          "VALIDATION_CRITERIA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "expected profit-taking"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_GUIDANCE",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "15:00 GMT candle"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "TIME_BASED_TRADING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "14:00 GMT candle",
+          "15:00 GMT candle"
+        ],
+        "narrative_roles": [
+          "ENTRY_TIMING",
+          "EXIT_TIMING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "14:00 GMT",
+          "15:00 GMT"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_SESSION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Asian session"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "LIQUIDITY_REFERENCE_PERIOD"
+        ],
+        "temporal_tags": [
+          "Asian session"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LONDON AND NEW YORK KILL ZONE RETRACEMENTS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1428",
+    "concepts": [
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Kill Zones"
+        ],
+        "narrative_roles": [
+          "TRADE_WINDOW",
+          "HIGH_PROBABILITY_SETUP_AREA"
+        ],
+        "temporal_tags": [
+          "KILL_ZONE_WINDOW"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "higher timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DIFFERENTIATING FROM NEOPHYTE TRADERS AND PATIENCE",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1429",
+    "concepts": [
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 1,
+        "surface_terms": [
+          "large institutional banks and investment firms",
+          "large-scale entities",
+          "catalysts",
+          "their sheer volume moving price",
+          "supply and demand factors they create",
+          "large institution will accumulate it",
+          "big footprint",
+          "elephant in a children's pool the displacement of water cannot be missed",
+          "major shifts in price are obvious",
+          "elephant tracks"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVERS",
+          "IDENTIFICATION_OF_SMART_MONEY",
+          "PREDICTIVE_ANALYSIS_FOUNDATION",
+          "UNDERSTANDING_MARKET_MECHANICS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "WHY MARKETS MOVE",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1430",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY FOOTPRINTS",
+          "smart money traders",
+          "smart money action"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT",
+          "ANALYTICAL_FOCUS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "candlesticks and overall price action",
+          "price action"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "DATA_SOURCE",
+          "VISUAL_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "institutional ordering",
+          "order flow"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "ANALYTICAL_FOCUS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LEADING_INDICATOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'leading indicator'",
+          "'see the future'"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK_DESCRIPTION",
+          "PREDICTIVE_TOOL",
+          "STRATEGY_DIFFERENTIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY FOOTPRINTS AND UNIVERSAL CONCEPTS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1431",
+    "concepts": [
+      {
+        "canonical": "DIRECTIONAL_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT NO-BRAINER DIRECTIONAL BIAS CONCEPTS",
+          "directional bias right more often",
+          "overall tendency for the market to continue in one direction"
+        ],
+        "narrative_roles": [
+          "BIAS_ESTABLISHMENT",
+          "TREND_IDENTIFICATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher-level charts",
+          "daily chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "BIAS_ESTABLISHMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "something of equal or greater significance causes a break and shifts the tide"
+        ],
+        "narrative_roles": [
+          "BIAS_REVERSAL_CRITERIA",
+          "TREND_CHANGE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT NO-BRAINER DIRECTIONAL BIAS CONCEPTS",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1432",
+    "concepts": [
+      {
+        "canonical": "SMART_MONEY_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "large institutional smart money traders",
+          "pushing the market",
+          "trading with this tide",
+          "Professionals"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "CONFLUENCE_FACTOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.9,
+        "surface_terms": [
+          "neophyte traders",
+          "retail neophytes",
+          "react"
+        ],
+        "narrative_roles": [
+          "CONTRAST_TO_SMART_MONEY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_AS_SMART_MONEY_CATALYST",
+        "confidence": 0.88,
+        "surface_terms": [
+          "economic calendars",
+          "high-volatility events",
+          "injections of volatility to confirm existing moves"
+        ],
+        "narrative_roles": [
+          "MARKET_CATALYST",
+          "CONFLUENCE_FACTOR",
+          "ANTICIPATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ANTICIPATION_VS_REACTION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ANTICIPATION VS. REACTION",
+          "anticipate",
+          "react"
+        ],
+        "narrative_roles": [
+          "TRADING_MINDSET",
+          "SKILL_DIFFERENTIATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TREND_FOLLOWING",
+        "confidence": 0.8,
+        "surface_terms": [
+          "trading with this tide",
+          "In an uptrend: any decline sets up a retracement in an up-move",
+          "You are buying dips in a rally"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANTICIPATION VS. REACTION",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1433",
+    "concepts": [
+      {
+        "canonical": "MACRO_PERSPECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "A macro perspective is crucial",
+          "MACRO PERSPECTIVE"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_UNDERSTANDING",
+          "HIGHER_TIMEFRAME_ANALYSIS",
+          "BIAS_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_ALIGNMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "on what days, and at what times"
+        ],
+        "narrative_roles": [
+          "OPPORTUNITY_IDENTIFICATION",
+          "ENTRY_CONFIRMATION",
+          "AVOIDANCE_OF_BAD_TIMES"
+        ],
+        "temporal_tags": [
+          "DAYS_OF_WEEK",
+          "TIME_OF_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_LOGIC",
+        "confidence": 0.85,
+        "surface_terms": [
+          "understanding the parameters and why price behaves as it does"
+        ],
+        "narrative_roles": [
+          "FUNDAMENTAL_UNDERSTANDING",
+          "PREDICTIVE_FRAMEWORK",
+          "PRICE_DELIVERY_MODELING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BEHAVIOR_ANALYSIS",
+        "confidence": 0.8,
+        "surface_terms": [
+          "identifying recurring phenomena",
+          "digesting price movement"
+        ],
+        "narrative_roles": [
+          "PATTERN_RECOGNITION",
+          "PREDICTIVE_MODELING",
+          "CONTEXTUAL_AWARENESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SIMPLE PROCEDURES AND MACRO PERSPECTIVE",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1434",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET STRUCTURE"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_FLOW",
+        "confidence": 0.8,
+        "surface_terms": [
+          "ORDER FLOW",
+          "market flow"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK_IDENTIFICATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_HIGH",
+        "confidence": 1,
+        "surface_terms": [
+          "swing highs",
+          "fractals",
+          "fractal high",
+          "swing high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SWING_LOW",
+        "confidence": 0.95,
+        "surface_terms": [
+          "swing lows",
+          "swing low"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "MARKET_STRUCTURE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "swing highs are taken out to the upside",
+          "violated to the upside",
+          "price moved above this swing high, market structure shifted upwards",
+          "market structure shifted upwards"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS",
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION",
+          "CONTINUATION_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "bullish momentum",
+          "general direction the market is looking to move",
+          "looking to be a buyer"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "seek a retracement"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET STRUCTURE AND ORDER FLOW",
+      "source_file": "ICT Forex Scout Sniper Basic Field Guide - Vol. 4_Handbook.chunks.json"
+    }
+  }
+]

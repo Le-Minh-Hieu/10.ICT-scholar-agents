@@ -1,0 +1,1450 @@
+[
+  {
+    "chunk_id": "chunk_1077",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY",
+          "where liquidity resides"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_OBSERVATION",
+          "LIQUIDITY_IDENTIFICATION",
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_ENGAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell side was attacked",
+          "specific high wasn't taken out",
+          "how the market wants to reach for it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "LIQUIDITY_TEST",
+          "MARKET_INTERACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OBSERVATION_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "INITIAL MARKET REACTION AND LIQUIDITY OBSERVATION",
+          "not 'tradeable'; it is purely for observation"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "PRE_SETUP_PHASE",
+          "WAITING_PERIOD"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL MARKET REACTION AND LIQUIDITY OBSERVATION",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1078",
+    "concepts": [
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC",
+          "FOMC event"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS",
+          "MARKET_DRIVER",
+          "RISK_CONTEXT"
+        ],
+        "temporal_tags": [
+          "2:00 PM",
+          "2:30 PM",
+          "2:45 PM",
+          "New York local time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADING_RESTRICTION",
+        "confidence": 1,
+        "surface_terms": [
+          "strongly advised against taking positions",
+          "no action should be taken now",
+          "not to trade FOMC at all",
+          "Pre-2:30 PM trading is considered a gamble"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "STRATEGIC_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "during this period",
+          "Pre-2:30 PM",
+          "after 2:45 PM",
+          "New York local time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "NEWS_EVENT_STRUCTURE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "two-stage event",
+          "initial move at 2:00 PM",
+          "'real' move at 2:30 PM"
+        ],
+        "narrative_roles": [
+          "EVENT_DYNAMICS_UNDERSTANDING",
+          "VOLATILITY_TIMING"
+        ],
+        "temporal_tags": [
+          "2:00 PM",
+          "2:30 PM",
+          "New York local time"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING RESTRICTIONS AND FOMC EVENT STAGES",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1079",
+    "concepts": [
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "RELATIVE EQUAL HIGHS",
+          "relatively equal highs",
+          "'too smooth'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "2:30 PM",
+          "2:30 PM to 2:45 PM period"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiencies"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "PRICE_REBALANCING_AREA",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [
+          "2:30 PM",
+          "2:30 PM to 2:45 PM period"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_TARGET",
+          "LIQUIDITY_DRAWS"
+        ],
+        "temporal_tags": [
+          "2:30 PM",
+          "2:30 PM to 2:45 PM period"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING RELATIVE EQUAL HIGHS AND INEFFICIENCIES",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1080",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "CHART_PATTERN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "clear the initial high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_ACTION_FORECAST"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "consequent encroachment",
+          "midpoint of a"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_TARGET",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_PURGE",
+        "confidence": 1,
+        "surface_terms": [
+          "buy side is 'purged'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_CONSUMPTION",
+          "PRICE_ACTION_RESULT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "MARKET_EVENT_CONTEXT",
+          "VOLATILITY_CATALYST"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 1,
+        "surface_terms": [
+          "SIBI",
+          "Sell Side Imbalance, Buy Side Inefficiency",
+          "down-delivery candle indicating only downside offering, making it inefficient for buy side"
+        ],
+        "narrative_roles": [
+          "IMBALANCE_IDENTIFICATION",
+          "ORDER_FLOW_DYNAMICS",
+          "INEFFICIENCY_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INEFFICIENCY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INEFFICIENCIES",
+          "inefficient for buy side"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_ANALYSIS",
+          "PRICE_ACTION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REPRICING",
+        "confidence": 1,
+        "surface_terms": [
+          "repriced is by touching the top of that level",
+          "repricing"
+        ],
+        "narrative_roles": [
+          "PRICE_ADJUSTMENT",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REBALANCING",
+        "confidence": 1,
+        "surface_terms": [
+          "rebalanced"
+        ],
+        "narrative_roles": [
+          "PRICE_ADJUSTMENT",
+          "LIQUIDITY_RESOLUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ANALYZING BUY SIDE LIQUIDITY AND INEFFICIENCIES",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1081",
+    "concepts": [
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "MARKET MANIPULATION"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PREDICTIVE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ANTICIPATED BUY SIDE RAID",
+          "attack them",
+          "aggressive run above existing highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PREDICTIVE_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "existing highs",
+          "a high where retail traders might anticipate lower prices"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market trading below old lows and rejecting them"
+        ],
+        "narrative_roles": [
+          "MARKET_SETUP",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSECUENT_ENCROACHMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SIBI",
+        "confidence": 0.95,
+        "surface_terms": [
+          "SIBI",
+          "high end of a SIBI"
+        ],
+        "narrative_roles": [
+          "REFERENCE_LEVEL",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_REJECTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "re enters but doesn't go back inside the two blue lines"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_SIGNAL",
+          "RETEST_FAILURE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_TIME_OF_DAY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "2:30 PM",
+          "'real move.'"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_WINDOW",
+          "MARKET_DIRECTION_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "2:30_PM"
+        ],
+        "session_tags": [
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "FOMC"
+        ],
+        "narrative_roles": [
+          "HIGH_VOLATILITY_CATALYST",
+          "RISK_AVOIDANCE"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MANIPULATION AND ANTICIPATED BUY SIDE RAID",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1082",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "that liquidity",
+          "looking 'too clean'",
+          "the 'pool'",
+          "the main high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TARGET_ZONE",
+          "UNMITIGATED_LIQUIDITY",
+          "PRICE_ATTRACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "pierced a low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "consequent encroachment"
+        ],
+        "narrative_roles": [
+          "MITIGATION",
+          "PRICE_ATTRACTION",
+          "EQUILIBRIUM"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC_EVENT",
+        "confidence": 1,
+        "surface_terms": [
+          "2:00 PM FOMC driver"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER",
+          "VOLATILITY_INDUCER"
+        ],
+        "temporal_tags": [
+          "2:00 PM",
+          "FOMC"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "favors the buy side"
+        ],
+        "narrative_roles": [
+          "MARKET_DIRECTION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_DELIVERY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "staggering or stalling is not to be trusted"
+        ],
+        "narrative_roles": [
+          "OBSERVATION_CRITERIA",
+          "ENTRY_VALIDATION",
+          "CAUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-INITIAL MOVE OBSERVATION AND CAUTION",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1083",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.85,
+        "surface_terms": [
+          "A small gap is observed, where the high of one candle and the low of another define an area",
+          "'institutional order flow entry drill'"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "ORDER_FLOW_TARGET",
+          "REBALANCING"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PYRAMIDING",
+        "confidence": 1,
+        "surface_terms": [
+          "'pyramiding' entry strategy",
+          "Starts with a core entry position",
+          "Adds progressively smaller positions"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_SIZING",
+          "RISK_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "'PD arrays'",
+          "Premium Discount Arrays",
+          "recurring elements in price action that provide a reason to anticipate specific price movements"
+        ],
+        "narrative_roles": [
+          "PRICE_REFERENCE",
+          "ENTRY_CONFIRMATION",
+          "TRADE_DIRECTION_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INSTITUTIONAL ORDER FLOW AND PYRAMIDING EXPLAINED",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1084",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 1,
+        "surface_terms": [
+          "Mean Threshold",
+          "The midpoint of an order block"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "REVERSAL_POINT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSEQUENT_ENCROACHMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "Consequent Encroachment",
+          "The midpoint of an inefficiency and/or gap",
+          "the midpoint of a wick"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "REVERSAL_POINT",
+          "LIQUIDITY_ATTRACTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "order block",
+          "standard order",
+          "OB"
+        ],
+        "narrative_roles": [
+          "SUPPLY_DEMAND_ZONE",
+          "REVERSAL_POINT",
+          "CONTINUATION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "breaker",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_BREAK_RESPONSE",
+          "REVERSAL_POINT",
+          "SUPPLY_DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MITIGATION_BLOCK",
+        "confidence": 0.9,
+        "surface_terms": [
+          "mitigation block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_MITIGATION",
+          "REVERSAL_POINT",
+          "SUPPLY_DEMAND_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "inefficiency and/or gap"
+        ],
+        "narrative_roles": [
+          "PRICE_LEVEL_IDENTIFICATION",
+          "PRICE_ATTRACTION",
+          "LIQUIDITY_VOID",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WICK",
+        "confidence": 0.85,
+        "surface_terms": [
+          "wick"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_INDICATION",
+          "PRICE_LEVEL_IDENTIFICATION",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITIONS OF MEAN THRESHOLD AND CONSEQUENT ENCROACHMENT",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1085",
+    "concepts": [
+      {
+        "canonical": "MEAN_THRESHOLD",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MEAN THRESHOLD",
+          "mean threshold"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "POTENTIAL_REVERSAL_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "RETRACEMENT",
+          "retracement down"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_FLOW",
+          "TEST_OF_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "4100"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "POTENTIAL_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONTEXT_ASSESSMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "CAUTION REITERATED",
+          "outcome (rejection or breakthrough to 4100) is uncertain",
+          "need for caution",
+          "unpredictable event",
+          "'luck'",
+          "skilled trading during this unpredictable event"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT_GUIDANCE",
+          "BEHAVIORAL_COGNITION",
+          "MARKET_CONTEXT_ASSESSMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_BASED_EXPECTATION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "'mood' of the market is expected to change in approximately 11 minutes"
+        ],
+        "narrative_roles": [
+          "EVENT_ANTICIPATION",
+          "TIMING_CONSIDERATION"
+        ],
+        "temporal_tags": [
+          "11 minutes"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "POST-MEAN THRESHOLD RETRACEMENT AND CAUTION REITERATED",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1086",
+    "concepts": [
+      {
+        "canonical": "WICK_MIDPOINT_SENSITIVITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midpoint of a specific wick",
+          "sensitivity' there, acting as support"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGH_IMPACT_NEWS_EVENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "real move"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "VOLATILITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "FOMC_ANNOUNCEMENT",
+          "four minutes remaining"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "many retail traders will regret their trades",
+          "some might incorrectly attribute lucky wins to skill"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "FALSE_MOVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING SENSITIVITY AT WICK MIDPOINT",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1087",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Run price through current highs",
+          "Sell stops have already been taken out",
+          "stop losses neutralized",
+          "driven higher, clearing them out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "TRADING_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "FOMC_EVENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MANIPULATION",
+        "confidence": 0.98,
+        "surface_terms": [
+          "manipulate it",
+          "manipulative approach",
+          "ICT shares his mental exercise during FOMC"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRAP_TRADERS"
+        ],
+        "temporal_tags": [
+          "FOMC_EVENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP_TRADERS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "leaving traders caught short on breakouts",
+          "'wreck' the remaining short traders",
+          "clearing them out",
+          "catch people buying 'offside'",
+          "'raked across the coals'"
+        ],
+        "narrative_roles": [
+          "TRAP_TRADERS",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "FOMC_EVENT"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_REVERSAL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "crash it",
+          "price crashes"
+        ],
+        "narrative_roles": [
+          "REVERSAL_SIGNAL",
+          "DISTRIBUTION_PHASE"
+        ],
+        "temporal_tags": [
+          "FOMC_EVENT"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S HYPOTHETICAL SCENARIO",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1088",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "low of a specific wick",
+          "A slight dip below the wick",
+          "rip higher"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Buy Side Imbalance, Sell Side Inefficiency",
+          "BISI",
+          "Deeper Inefficiency Fill"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "RETRACEMENT_TARGET",
+          "CONTINUATION_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OBSERVING WICK LOW FOR REVERSAL OR DEEPER INEFFICIENCY FILL",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1089",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TARGETING PROFITABLE TRADERS",
+          "market manipulation",
+          "Maximum Carnage",
+          "taken out of the game"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION",
+          "WEAK_HANDS_SHAKEOUT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Traders who are long, anticipating a rally to 4100, could be knocked out",
+          "move down into an imbalance",
+          "taken out of the game"
+        ],
+        "narrative_roles": [
+          "STOP_HUNT",
+          "LIQUIDITY_GENERATION",
+          "REVERSAL_SETUP_INITIATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "IMBALANCE",
+        "confidence": 1,
+        "surface_terms": [
+          "imbalance (highlighted)"
+        ],
+        "narrative_roles": [
+          "PRICE_ATTRACTION",
+          "REBALANCE_POINT",
+          "REVERSAL_SETUP_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FOMC_DAY",
+        "confidence": 1,
+        "surface_terms": [
+          "FOMC days"
+        ],
+        "narrative_roles": [
+          "HIGH_IMPACT_NEWS_EVENT",
+          "VOLATILITY_INDUCER",
+          "LIQUIDITY_GENERATOR"
+        ],
+        "temporal_tags": [
+          "FOMC_DAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING PROFITABLE TRADERS",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1090",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_ENGINEERING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LULLING SHORTS INTO FALSE SECURITY",
+          "market makers allowing short sellers to feel safe, reinforcing the"
+        ],
+        "narrative_roles": [
+          "DECEPTION",
+          "PRE-LIQUIDITY_GRAB_SETUP",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "The target liquidity pools are stop losses above 4092 and 4090",
+          "(specifically 4089.75)"
+        ],
+        "narrative_roles": [
+          "TARGET_LIQUIDITY",
+          "FUEL_FOR_MOVES"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "If price reaches 4089.75, it's expected to rip violently to 4092"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_GRAB",
+          "MOMENTUM_GENERATION",
+          "TRAP_ACTIVATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LULLING SHORTS INTO FALSE SECURITY",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1091",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "gap",
+          "fair value gap",
+          "old fair value gap"
+        ],
+        "narrative_roles": [
+          "POINT_OF_INTEREST",
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "GAP_INTERACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "GAP INTERACTION",
+          "traded through a gap",
+          "price showing sensitivity to it"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "SUPPORT_RESISTANCE",
+          "RETRACEMENT_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION",
+        "confidence": 0.8,
+        "surface_terms": [
+          "Price has traded through a gap, opened, traded down to its low, and is now expanding upwards",
+          "expanding upwards"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "MARKET_OBSERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "GAP INTERACTION AND FAIR VALUE GAP SENSITIVITY",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1092",
+    "concepts": [
+      {
+        "canonical": "UNFINISHED_BUSINESS",
+        "confidence": 1,
+        "surface_terms": [
+          "'unfinished business'"
+        ],
+        "narrative_roles": [
+          "MARKET_NARRATIVE",
+          "PRICE_OBJECTIVE_JUSTIFICATION",
+          "LIQUIDITY_DRAW_REASON"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "TARGETING 4092.25",
+          "The high and the 4092.25 level",
+          "4092.25 level",
+          "4092 level",
+          "Price has come all the way back up to this",
+          "Price then actively moves towards and reaches the 4092 level"
+        ],
+        "narrative_roles": [
+          "MARKET_DRAW",
+          "LIQUIDITY_OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The high and the 4092.25 level",
+          "The high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TARGETING 4092.25",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1093",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "BREAKER FORMATION",
+          "'breaker' pattern",
+          "breaker",
+          "a low, a high, then a lower low",
+          "breaker block"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "MARKET_STRUCTURE_SHIFT",
+          "LIQUIDITY_ENGINEERING",
+          "POSITIONING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "4100 TARGET",
+          "4092 target",
+          "4100",
+          "4108"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "LIQUIDITY_DRAW",
+          "PROJECTED_MOVEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BREAKER FORMATION AND 4100 TARGET",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1094",
+    "concepts": [
+      {
+        "canonical": "PRICE_TARGET_HIT",
+        "confidence": 1,
+        "surface_terms": [
+          "4100 TARGET HIT",
+          "Price has hit the 4100 target",
+          "target hit"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_FULFILLMENT",
+          "PROFIT_TAKING_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "IMPULSE_MOVE_ORIGIN",
+          "PRICE_ACTION_BEHAVIOR",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_LEVEL",
+        "confidence": 1,
+        "surface_terms": [
+          "acted as support"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_BEHAVIOR",
+          "PRICE_REACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCELERATED_PRICE_ACTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "market was in a 'hurry to get somewhere'"
+        ],
+        "narrative_roles": [
+          "PRICE_ACTION_CHARACTERISTIC",
+          "MOMENTUM_INDICATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ENTRY_CRITERIA_FAILURE",
+        "confidence": 0.75,
+        "surface_terms": [
+          "didn't provide a down-close candle he was looking for"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA_EVALUATION",
+          "SETUP_INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "PROFIT-TAKING STRATEGY",
+          "taking most of the position off"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "PROFIT_REALIZATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_PLACEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "setting an extremely tight stop loss",
+          "extremely tight stop loss"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "CAPITAL_PRESERVATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SCALING_OUT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "taking most of the position off and setting an extremely tight stop loss"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT",
+          "RISK_MANAGEMENT",
+          "PROFIT_PROTECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "4100 TARGET HIT AND PROFIT-TAKING STRATEGY",
+      "source_file": "ICT February 2023 FOMC_Handbook.chunks.json"
+    }
+  }
+]

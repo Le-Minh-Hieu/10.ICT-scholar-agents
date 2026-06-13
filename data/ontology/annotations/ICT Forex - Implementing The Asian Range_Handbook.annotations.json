@@ -1,0 +1,949 @@
+[
+  {
+    "chunk_id": "chunk_1166",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidations",
+          "ranges",
+          "The range itself"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "CONTEXT_BUILDING"
+        ],
+        "temporal_tags": [
+          "24-hour trading cycle"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIA_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range concept",
+          "Asian Range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "CONTEXT_BUILDING",
+          "ENTRY_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "24-hour trading cycle"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.98,
+        "surface_terms": [
+          "context",
+          "immediate context",
+          "must have context",
+          "storyline behind what price should be doing that particular day"
+        ],
+        "narrative_roles": [
+          "BIAS_DEVELOPMENT",
+          "TRADE_VALIDATION",
+          "MACRO_ANALYSIS"
+        ],
+        "temporal_tags": [
+          "that particular day",
+          "24-hour trading cycle"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE UTILITY OF CONSOLIDATION AND CONTEXT",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1167",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Chris Laurie's Asian Range",
+          "Asian Range",
+          "The height of the range is the highest high between 7:00 p.m. to midnight New York time to the lowest low",
+          "The width of the range is the duration of 7:00 p.m. to midnight New York time"
+        ],
+        "narrative_roles": [
+          "RANGE_DEFINITION",
+          "LIQUIDITY_REFERENCE",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "7:00 p.m. New York time",
+          "midnight New York time",
+          "12:30 a.m."
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "DAILY_RESET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "midnight New York time",
+          "financial markets truly begin at midnight New York time"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "START_OF_TRADING_DAY",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "midnight New York time"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TIME AND DIMENSIONS",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1168",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "CHARTING THE ASIAN RANGE MANUALLY",
+          "Asian Range",
+          "this range",
+          "The highest high and lowest low within this duration"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS",
+          "TRADE_FILTERING",
+          "LIQUIDITY_REFERENCE",
+          "RANGE_DEFINITION"
+        ],
+        "temporal_tags": [
+          "NY_PM_7PM",
+          "NY_MIDNIGHT"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHARTING THE ASIAN RANGE MANUALLY",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1169",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "very narrow consolidated range between 7:00 p.m. and midnight",
+          "the Asian Range"
+        ],
+        "narrative_roles": [
+          "SETUP",
+          "LIQUIDITY_REFERENCE"
+        ],
+        "temporal_tags": [
+          "7:00 p.m.",
+          "midnight"
+        ],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "TRENDING_MODEL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "trending model"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "OUTCOME",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SEEK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "seek the liquidity above or below this range"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRAP_FORMATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "put traders on the wrong side"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "JUDAS_SWING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "it'll go the other way for the remainder of the trading day"
+        ],
+        "narrative_roles": [
+          "TREND_ESTABLISHMENT",
+          "ENTRY_CONFIRMATION",
+          "FALSE_BREAKOUT"
+        ],
+        "temporal_tags": [
+          "remainder of the trading day"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE NARROW ASIAN RANGE AND TRENDING MODELS",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1170",
+    "concepts": [
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range high and low",
+          "Asian Range high"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "LIQUIDITY_ENGINEERING",
+          "POI"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "INSTITUTIONAL_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "institutional buying"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "MARKET_DIRECTION_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "higher timeframes",
+          "daily chart",
+          "four-hour or one hour chart"
+        ],
+        "narrative_roles": [
+          "CONTEXTUALIZATION",
+          "CONFLUENCE",
+          "BIAS_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "DAILY",
+          "H4",
+          "H1"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "EQUAL_HIGHS",
+        "confidence": 1,
+        "surface_terms": [
+          "equal high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "DRAW_ON_LIQUIDITY",
+          "TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity targets"
+        ],
+        "narrative_roles": [
+          "DRAW_ON_LIQUIDITY",
+          "TARGET",
+          "OBJECTIVE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "UTILIZING THE ASIAN RANGE IN BULLISH CONDITIONS",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1171",
+    "concepts": [
+      {
+        "canonical": "DISCOUNT_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "'buy below the open'",
+          "drop below the midnight opening price",
+          "buy it there",
+          "aim to enter as price was dropping"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "OPTIMAL_TRADE_LOCATION"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "PRE_ASIAN"
+        ]
+      },
+      {
+        "canonical": "MIDNIGHT_OPEN",
+        "confidence": 0.98,
+        "surface_terms": [
+          "midnight opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "PREMIUM_DISCOUNT_ANCHOR"
+        ],
+        "temporal_tags": [
+          "MIDNIGHT_OPEN"
+        ],
+        "session_tags": [
+          "PRE_ASIAN"
+        ]
+      },
+      {
+        "canonical": "SCALING_IN_STRATEGY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trigger both my market order (as it dropped) and my buy stop",
+          "filling half the position I wanted to trade at the buy stop level",
+          "ensured I got at least half a position",
+          "full position was ten standard lots"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "POSITION_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.98,
+        "surface_terms": [
+          "Risk management involved risking 1% to 1.5% per trade",
+          "keep the total risk around 2%"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "aggressively move my initial stop-loss up"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S EVOLVED BULLISH ENTRY STRATEGY (PRE-ASIAN RANGE)",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1172",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "breaks the Asian Range low",
+          "move below the extended Asian Range low",
+          "trips in sellers",
+          "knocks out individuals who would Long holders are in and then out",
+          "taking both sides in and out"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "FALSE_BREAKOUT",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range low",
+          "extended Asian Range low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "MARKET_STRUCTURE_REFERENCE",
+          "TRADE_SETUP_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BULLISH ASIAN RANGE APPLICATION",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1173",
+    "concepts": [
+      {
+        "canonical": "INTERBANK_PRICE_DELIVERY_ALGORITHM",
+        "confidence": 1,
+        "surface_terms": [
+          "INTERBANK PRICE DELIVERY ALGORITHM"
+        ],
+        "narrative_roles": [
+          "PRICE_DYNAMICS_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "ASIAN RANGE",
+          "Asian Range high",
+          "Asian Range application"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "TRADING_RANGE_DEFINITION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "optimal trade entry from this low to this high, retracing back down"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York open"
+        ],
+        "narrative_roles": [
+          "VOLATILITY_DRIVER",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "bullish conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INTERBANK PRICE DELIVERY ALGORITHM AND ASIAN RANGE",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1174",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "double tops",
+          "equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "fake outs",
+          "'Turtle Soup' trading pattern",
+          "rally above the opening price",
+          "price movement above the opening price"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [
+          "midnight",
+          "11:00 a.m. New York time"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "'kill zone' (London or New York open)"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_WINDOW",
+          "TEMPORAL_ALIGNMENT"
+        ],
+        "temporal_tags": [
+          "London open",
+          "New York open"
+        ],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "REFERENCE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "opening price",
+          "opening price line"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGETING",
+          "ANCHOR_POINT"
+        ],
+        "temporal_tags": [
+          "midnight",
+          "11:00 a.m. New York time"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PRE-ASIAN RANGE TRADING METHOD (BEARISH",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1175",
+    "concepts": [
+      {
+        "canonical": "ENTRY_STRATEGY",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT'S EVOLVED BEARISH ENTRY STRATEGY",
+          "my entry technique",
+          "sell short right there",
+          "place a limit order",
+          "place a sell stop there to get in"
+        ],
+        "narrative_roles": [
+          "INITIAL_POSITIONING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "move my stop-loss very tight",
+          "stopped out",
+          "stop-loss of 35 to 40 pips",
+          "don't trail stops",
+          "moving the stop-loss down",
+          "protective buy stop"
+        ],
+        "narrative_roles": [
+          "RISK_CONTROL",
+          "POSITION_PROTECTION",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TAKE_PROFIT",
+        "confidence": 1,
+        "surface_terms": [
+          "take some profit",
+          "take-profit would be 80 pips",
+          "weekly objective of 75 pips"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [
+          "WEEKLY_OBJECTIVE"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "rally above the opening price",
+          "two pips above the equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "the low that formed prior to that rally above the opening price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "CONTINUATION_ENTRY_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "take some profit",
+          "move my stop-loss very tight",
+          "manage risk by taking partials",
+          "slowly moving the stop-loss down"
+        ],
+        "narrative_roles": [
+          "RISK_CONTROL",
+          "PROFIT_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRE_ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "PRE-ASIAN RANGE"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "NY_SESSION",
+        "confidence": 1,
+        "surface_terms": [
+          "New York session",
+          "New York trading starts"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT",
+          "LIQUIDITY_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TIME_OF_DAY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "5:00 a.m."
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT_POINT",
+          "LIQUIDITY_GENERATION_PERIOD"
+        ],
+        "temporal_tags": [
+          "5_AM_EST"
+        ],
+        "session_tags": [
+          "LONDON_CLOSE_OVERLAP",
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ICT'S EVOLVED BEARISH ENTRY STRATEGY (PRE-ASIAN RANGE)",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1176",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "running above the Asian Range high to trip buy stops",
+          "initial sweep"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ASIAN_RANGE",
+        "confidence": 1,
+        "surface_terms": [
+          "Asian Range",
+          "Asian Range high",
+          "Asian Range low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "CONTEXT_SETTING",
+          "PRICE_RANGE_REFERENCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish conditions",
+          "bearish bias for the day",
+          "bearish bias"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [
+          "DAILY"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "lowest-risk, high-probability entry",
+          "Primary Entry: Sell above the Asian Range high when bearish, especially after seeing the initial sweep",
+          "Low-Risk Confirmation Trade: Wait for the Asian Range low to be broken, then wait for price to trade back"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_EXECUTION",
+          "ENTRY_STRATEGY"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "MARKET_NARRATIVE",
+        "confidence": 0.8,
+        "surface_terms": [
+          "clear storyline"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAK_OF_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Asian Range low to be broken"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "CONTINUATION_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "ASIA"
+        ]
+      },
+      {
+        "canonical": "ICT_KILL_ZONE",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Kill Zone"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING",
+          "HIGH_PROBABILITY_WINDOW",
+          "TIME_BASED_ALIGNMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": [
+          "LONDON",
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "LONDON_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "London Open"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_WINDOW",
+          "SESSION_SPECIFIC_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "LONDON_OPEN"
+        ],
+        "session_tags": [
+          "LONDON"
+        ]
+      },
+      {
+        "canonical": "NY_OPEN",
+        "confidence": 1,
+        "surface_terms": [
+          "New York Open"
+        ],
+        "narrative_roles": [
+          "HIGH_PROBABILITY_WINDOW",
+          "SESSION_SPECIFIC_LIQUIDITY"
+        ],
+        "temporal_tags": [
+          "NY_OPEN"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL ENTRY IN BEARISH ASIAN RANGE CONDITIONS AND RULES",
+      "source_file": "ICT Forex - Implementing The Asian Range_Handbook.chunks.json"
+    }
+  }
+]

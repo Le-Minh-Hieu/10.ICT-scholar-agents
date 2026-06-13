@@ -1,0 +1,1197 @@
+[
+  {
+    "chunk_id": "chunk_1191",
+    "concepts": [
+      {
+        "canonical": "ICT_BREAKER",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT Breaker"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION",
+          "REVERSAL_PATTERN_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_LOW_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "higher low"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "ENTRY_CONFIRMATION",
+          "CONTINUATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT (Smart Money Technique/Tool) divergence",
+          "SMT divergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_CONFIRMATION",
+          "INTERMARKET_ANALYSIS",
+          "SMART_MONEY_BEHAVIOR_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TWO TYPES OF LOW FORMATIONS & ICT BREAKER",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1192",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMART MONEY TECHNIQUE (SMT) DIVERGENCE",
+          "SMT",
+          "Smart Money Technique",
+          "Smart Money Tool",
+          "divergence between closely correlated assets or markets",
+          "strong disparity in how the algorithm is pricing one",
+          "crack in this correlation",
+          "Euro makes a higher low but Cable makes a lower low",
+          "This divergence"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "TIMING_ASPECT",
+          "ALGORITHMIC_DISPARITY_INDICATION",
+          "POTENTIAL_REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CORRELATED_ASSETS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "closely correlated assets or markets",
+          "Euro Dollar",
+          "Pound Dollar",
+          "Cable"
+        ],
+        "narrative_roles": [
+          "CONTEXT_FOR_SMT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "how the algorithm is pricing one",
+          "the algorithm is not willing to take Euro Dollar to a lower low"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVING_FORCE",
+          "EXPLANATION_FOR_DISPARITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_LEVEL",
+        "confidence": 0.75,
+        "surface_terms": [
+          "key low",
+          "key level"
+        ],
+        "narrative_roles": [
+          "POTENTIAL_SUPPORT_RESISTANCE",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMART MONEY TECHNIQUE (SMT) DIVERGENCE",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1193",
+    "concepts": [
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "consolidation",
+          "trading range",
+          "original consolidation",
+          "another short-term consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRECURSOR_TO_MOVE",
+          "LIQUIDITY_POOL_FORMATION",
+          "STRUCTURAL_ZONE"
+        ],
+        "temporal_tags": [
+          "15-minute chart",
+          "4-hour chart"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETRACEMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "retrace back to the original consolidation",
+          "attempts to return to the original consolidation low"
+        ],
+        "narrative_roles": [
+          "PULLBACK_TEST",
+          "LIQUIDITY_SEEKING",
+          "REJECTION_EXPECTED_IF_VALID"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE) pattern",
+          "OTE",
+          "optimal trade entry"
+        ],
+        "narrative_roles": [
+          "ENTRY_PATTERN",
+          "HIGH_PROBABILITY_SETUP",
+          "REPETITIVE_PATTERN",
+          "TRADE_SIGNAL"
+        ],
+        "temporal_tags": [
+          "daily",
+          "all timeframes"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "market structure"
+        ],
+        "narrative_roles": [
+          "CONTEXT",
+          "STRUCTURAL_GUIDANCE",
+          "FRAMEWORK_FOR_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL CONSOLIDATION AND MARKET DEPARTURE",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1194",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE)",
+          "OTE Short",
+          "OTE Sell",
+          "OTE Buy"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_ENTRY",
+          "CONTINUATION_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_MAKER_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "MARKET MAKER BUY MODEL STRUCTURE"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FRAMEWORK",
+          "BIAS_DETERMINATION",
+          "PREDICTIVE_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ZONE",
+          "RESISTANCE_LEVEL",
+          "RETRACEMENT_TARGET",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "runs out short-term buy stops",
+          "short-term high run",
+          "short-term lower low (stop run)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_CATALYST",
+          "ENTRY_CONFIRMATION",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "predetermined key level low",
+          "key level"
+        ],
+        "narrative_roles": [
+          "PRICE_TARGET",
+          "DRAW_ON_LIQUIDITY",
+          "MARKET_PHASE_CONCLUSION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "secondary level of distribution"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "TREND_CONTINUATION_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money Reversal"
+        ],
+        "narrative_roles": [
+          "REVERSAL_PATTERN",
+          "MARKET_PHASE_SHIFT",
+          "ENTRY_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT breaker setup"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_SHIFT_CONFIRMATION",
+          "ENTRY_ZONE",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A low, a lower low, followed by an ICT breaker setup",
+          "A low, a high, then a higher low"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "REVERSAL_SIGNAL",
+          "STRUCTURAL_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_TOOL_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT divergence"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION_SIGNAL",
+          "REVERSAL_CONFIRMATION",
+          "INTERMARKET_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "WEAK_REVERSAL_SIGN",
+        "confidence": 0.85,
+        "surface_terms": [
+          "'dull, flat, blunt-ended low'"
+        ],
+        "narrative_roles": [
+          "INVALIDATION_CRITERIA",
+          "CONTINUATION_SIGNAL",
+          "LACK_OF_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "smart money has accumulated longs"
+        ],
+        "narrative_roles": [
+          "MARKET_PHASE_IDENTIFICATION",
+          "BIAS_DETERMINATION",
+          "PRELUDE_TO_RALLY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "the algorithm reprices it"
+        ],
+        "narrative_roles": [
+          "UNDERLYING_MARKET_MECHANISM",
+          "ICT_WORLDVIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION_PHASE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "small consolidation"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_BUILDUP",
+          "ENTRY_ZONE",
+          "MARKET_PHASE_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "OPTIMAL TRADE ENTRY (OTE) AND MARKET MAKER BUY MODEL STRUCTURE",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1195",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Buy Model",
+          "complete cycle",
+          "essence of the Market Maker Buy Model"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "LIQUIDITY_ENGINEERING",
+          "TREND_REVERSAL_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "accumulate shorts",
+          "accumulating longs",
+          "Accumulation of Shorts",
+          "accumulates their short positions",
+          "accumulate long positions",
+          "Accumulation of Longs",
+          "initial long accumulation",
+          "accumulate sell stops"
+        ],
+        "narrative_roles": [
+          "PHASE_OF_MARKET_CYCLE",
+          "LIQUIDITY_ENGINEERING",
+          "POSITION_BUILDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "distribute them (buy them back)",
+          "distribute (sell them)",
+          "distribution phases",
+          "distributes their accumulated shorts",
+          "distribute to buy stops"
+        ],
+        "narrative_roles": [
+          "PHASE_OF_MARKET_CYCLE",
+          "LIQUIDITY_ENGINEERING",
+          "POSITION_OFFLOADING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 1,
+        "surface_terms": [
+          "Initial consolidation",
+          "short-term consolidation",
+          "small dealing range",
+          "original consolidation",
+          "consolidation highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_HOLDING",
+          "PHASE_OF_MARKET_CYCLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE short",
+          "Optimal Trade Entry (OTE) Buy"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "LOW_RISK_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop runs",
+          "stop run below a short term low",
+          "floods the market with selling"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_REVERSAL",
+        "confidence": 1,
+        "surface_terms": [
+          "Smart Money Reversal (SMR)"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL",
+          "LIQUIDITY_ENGINEERING",
+          "PHASE_OF_MARKET_CYCLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs",
+          "consolidation highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buy stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION & DISTRIBUTION CYCLE",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1196",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "Market Maker Sell Model"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "STRUCTURAL_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "consolidation",
+          "ranging market",
+          "sideways market"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "STARTING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_POOL",
+          "PRICE_ANCHOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_LONG",
+        "confidence": 1,
+        "surface_terms": [
+          "Optimal Trade Entry (OTE) Long",
+          "OTE long"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "ACCUMULATION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_RUN",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term low that's lower than a previous low (stop run)",
+          "stop runs",
+          "runs up to take you out (a stop run)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ACCUMULATION_PHASE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "accumulation phases",
+          "accumulate shorts (sell short)"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "PHASE_OF_MARKET",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHM",
+        "confidence": 0.8,
+        "surface_terms": [
+          "The algorithm"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DEALING_RANGE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "small dealing range"
+        ],
+        "narrative_roles": [
+          "PRICE_BEHAVIOR",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 1,
+        "surface_terms": [
+          "smart money"
+        ],
+        "narrative_roles": [
+          "MARKET_PARTICIPANT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION_PHASE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "distribute their longs (sell them)"
+        ],
+        "narrative_roles": [
+          "PHASE_OF_MARKET",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY_SELL",
+        "confidence": 1,
+        "surface_terms": [
+          "OTE Sell",
+          "OTE short"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "DISTRIBUTION_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_STOP_RAID",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run above a short-term high (buy stop raid)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONFIRMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "confirming the downside move"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "DIRECTIONAL_BIAS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER SELL MODEL PROGRESSION AND RISK MANAGEMENT",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1197",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_SELL_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET MAKER SELL MODEL"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_FORMATION",
+          "DIRECTIONAL_BIAS_BEARISH"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "RISK MANAGEMENT",
+          "Expect some losses; they are part of trading"
+        ],
+        "narrative_roles": [
+          "TRADING_PSYCHOLOGY",
+          "CAPITAL_PRESERVATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "stop runs",
+          "multiple consecutive stop runs (e.g., higher high after higher high)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "PRE_REVERSAL_SIGN"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "breaking down"
+        ],
+        "narrative_roles": [
+          "TREND_REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION_COMPONENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_MANAGEMENT_PROFIT_TARGETING",
+        "confidence": 0.85,
+        "surface_terms": [
+          "capture the larger moves"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TRADE_MANAGEMENT",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FRACTALITY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "These elements repeat across all timeframes and asset classes"
+        ],
+        "narrative_roles": [
+          "UNIVERSAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET MAKER SELL MODEL PROGRESSION AND RISK MANAGEMENT",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1198",
+    "concepts": [
+      {
+        "canonical": "MARKET_MAKER_BUY_MODEL",
+        "confidence": 1,
+        "surface_terms": [
+          "BRITISH POUND MARKET MAKER BUY MODEL",
+          "Market Maker Buy Model"
+        ],
+        "narrative_roles": [
+          "MARKET_CYCLE",
+          "TREND_REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_LOWS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal lows",
+          "daily relative equal low (the blue level)"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "sell stops below them",
+          "sell stops",
+          "the sell stops",
+          "sell stops are absorbed"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "ORDER_ABSORPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RELATIVE_EQUAL_HIGHS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "relative equal highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "DISTRIBUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_RUN",
+        "confidence": 0.9,
+        "surface_terms": [
+          "trade down to these sell stops",
+          "market cascaded lower, reaching the sell stops",
+          "price rallies towards the relative equal highs",
+          "price traded up and completed the accumulation of sell stops and distribution to buy stops",
+          "Price trades below the daily relative equal low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "INDUCEMENT",
+          "PROFIT_TAKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_ACCUMULATION",
+        "confidence": 1,
+        "surface_terms": [
+          "accumulate longs",
+          "accumulating longs",
+          "Smart money buys sell stops",
+          "allowing smart money to accumulate longs"
+        ],
+        "narrative_roles": [
+          "ORDER_BLOCK_FORMATION",
+          "REVERSAL_INITIATION",
+          "LIQUIDITY_ABSORPTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_DISTRIBUTION",
+        "confidence": 1,
+        "surface_terms": [
+          "distribution to buy stops",
+          "sells to buy stops"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "TREND_EXHAUSTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Optimal Trade Entry sells"
+        ],
+        "narrative_roles": [
+          "ENTRY_POINT",
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INTERBANK_ALGORITHMIC_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "The algorithm",
+          "the algorithm controls it"
+        ],
+        "narrative_roles": [
+          "PRICE_DELIVERY_MECHANISM",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CONSOLIDATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "small consolidation",
+          "consolidations"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ORDER_ACCUMULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DAILY_TIMEFRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "daily chart",
+          "daily swing",
+          "daily relative equal low"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TEMPORAL_TAG",
+        "confidence": 1,
+        "surface_terms": [
+          "Thursday of the production week"
+        ],
+        "narrative_roles": [],
+        "temporal_tags": [
+          "THURSDAY"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BRITISH POUND MARKET MAKER BUY MODEL",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1199",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "breakdown in SMT",
+          "SMT",
+          "divergence between correlated (e.g., EUR/USD vs. GBP/USD) or inversely correlated",
+          "DXY's higher high concurrent with Cable's failed lower low (or higher low)",
+          "SMT divergence"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "NARRATIVE_CONFIRMATION",
+          "INTERMARKET_ANALYSIS_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "relative equal lows on the British Pound, accumulating sell stops",
+          "sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "CORRELATION_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "DXY VS. GBP/USD",
+          "Bring in the Dollar Index (DXY). On TradingView, overlaying DXY on the Pound Dollar chart",
+          "Normally, if the dollar is going higher, the pound should be going lower, and vice versa.",
+          "correlated (e.g., EUR/USD vs. GBP/USD) or inversely correlated"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DXY VS. GBP/USD",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1200",
+    "concepts": [
+      {
+        "canonical": "SMT_DIVERGENCE",
+        "confidence": 1,
+        "surface_terms": [
+          "SMT DIVERGENCE",
+          "DXY",
+          "Pound Dollar",
+          "Cable",
+          "low followed by a higher low (or equal low)",
+          "Cable should have made a lower low corresponding to DXY's higher high",
+          "The fact that it didn't"
+        ],
+        "narrative_roles": [
+          "INTERMARKET_ANALYSIS",
+          "VISUAL_CONFIRMATION",
+          "DIRECTIONAL_BIAS_GENERATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "daily relative equal lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_REFERENCE",
+          "CONTEXTUAL_INFORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_ORDER_FLOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "accumulation of longs"
+        ],
+        "narrative_roles": [
+          "ORDER_FLOW_INDICATION",
+          "BIAS_CONFIRMATION",
+          "MARKET_PHASE_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_DELIVERY_MODEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "The algorithm is signaling",
+          "controlled",
+          "not due to supply/demand imbalances"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANICS_EXPLANATION",
+          "PRICE_MANIPULATION_INSIGHT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SMT DIVERGENCE VISUAL CONFIRMATION AND SELF-STUDY",
+      "source_file": "ICT Forex - Market Maker Series Vol. 3 of 5_Handbook.chunks.json"
+    }
+  }
+]

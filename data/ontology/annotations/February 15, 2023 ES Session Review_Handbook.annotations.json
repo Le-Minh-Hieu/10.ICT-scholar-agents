@@ -1,0 +1,486 @@
+[
+  {
+    "chunk_id": "chunk_639",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap",
+          "NWOG"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STATIC_LEVEL",
+          "POTENTIAL_MAGNET_LEVEL"
+        ],
+        "temporal_tags": [
+          "Sunday_opening_price",
+          "Friday_close"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "NDOG"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "STATIC_LEVEL",
+          "POTENTIAL_MAGNET_LEVEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_SELECTION_CRITERIA",
+        "confidence": 0.9,
+        "surface_terms": [
+          "universal visibility of the exact same price data across all participants",
+          "uniformity reduces manipulation",
+          "clearer, more objective view of market levels",
+          "more transparent and less manipulated environment"
+        ],
+        "narrative_roles": [
+          "MARKET_ENVIRONMENT_PREFERENCE",
+          "RISK_MITIGATION",
+          "INFORMATION_ADVANTAGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "NWOG AND THE ADVANTAGES OF TRADING FUTURES",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_640",
+    "concepts": [],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FUTURES VS. FOREX AND APPLICABILITY OF CONCEPTS",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_641",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE",
+        "confidence": 1,
+        "surface_terms": [
+          "'fair value'",
+          "fair value",
+          "these influential levels, offering what is termed 'fair value.'"
+        ],
+        "narrative_roles": [
+          "ALGORITHMIC_TARGET",
+          "TRADING_OPPORTUNITY",
+          "INEFFICIENCY_CORRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ALGORITHMIC_PRICE_DELIVERY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ALGORITHMIC REPRICING",
+          "The algorithm is continually repricing",
+          "algorithmic repricing"
+        ],
+        "narrative_roles": [
+          "MARKET_MECHANISM",
+          "PRICE_DISCOVERY_PROCESS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "THE 'INSIDER'S EDGE' AND ALGORITHMIC REPRICING TO FAIR VALUE",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_642",
+    "concepts": [
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "Fair value",
+          "a level where the algorithm has determined insufficient trading occurred within a specific price range over a period of time"
+        ],
+        "narrative_roles": [
+          "PRICE_IMBALANCE",
+          "INSTITUTIONAL_OPPORTUNITY",
+          "PRICE_DELIVERY_INEFFICIENCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INSTITUTIONAL_PERSPECTIVE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "INSTITUTIONAL TRADING PERSPECTIVE",
+          "algorithmic behavior",
+          "distinct class of institutional traders",
+          "high-level traders",
+          "their technical science is highly precise, involving billions of dollars, and is based on objective, non-manipulable price points"
+        ],
+        "narrative_roles": [
+          "SMART_MONEY_FLOW",
+          "MARKET_DRIVERS",
+          "ORDERFLOW_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDERFLOW_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "'open, high, low, and close,' and crucially, 'time.'",
+          "objective, non-manipulable price points"
+        ],
+        "narrative_roles": [
+          "ANALYTICAL_FRAMEWORK",
+          "PRICE_ACTION_READING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_CONCEPTS_INVALIDATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "do not rely on common retail analysis concepts such as trend lines, moving averages, Elliott Wave, or supply and demand"
+        ],
+        "narrative_roles": [
+          "DISMISSAL_OF_RETAIL_METHODS",
+          "CONTRAST_TO_INSTITUTIONAL_VIEW"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "DEFINITION OF FAIR VALUE AND INSTITUTIONAL TRADING PERSPECTIVE",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_643",
+    "concepts": [
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap",
+          "NDOG"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_REFERENCE",
+          "ANCHOR_POINT_FOR_SETUP"
+        ],
+        "temporal_tags": [
+          "7:00 AM New York local time hour"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "NY_OPENING_BELL",
+        "confidence": 1,
+        "surface_terms": [
+          "9:30 AM opening"
+        ],
+        "narrative_roles": [
+          "KEY_TIMING_REFERENCE",
+          "MARKET_INITIATION_POINT"
+        ],
+        "temporal_tags": [
+          "9:30 AM opening"
+        ],
+        "session_tags": [
+          "NY_AM"
+        ]
+      },
+      {
+        "canonical": "CHOPPY_RANGEBOUND_MARKET_PROFILE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "lethargic",
+          "choppy",
+          "range-bound",
+          "difficult market conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_CLASSIFICATION",
+          "RISK_AVOIDANCE_TRIGGER"
+        ],
+        "temporal_tags": [
+          "rest of the day"
+        ],
+        "session_tags": [
+          "NY_AM",
+          "NY_PM"
+        ]
+      },
+      {
+        "canonical": "TRADING_DISCIPLINE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sit on their hands",
+          "refrain from trading"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "BEHAVIORAL_GUIDANCE",
+          "DISCIPLINARY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_DRIVEN_ENVIRONMENT",
+        "confidence": 0.85,
+        "surface_terms": [
+          "news-driven environments"
+        ],
+        "narrative_roles": [
+          "MARKET_DRIVER_CLASSIFICATION",
+          "RISK_FACTOR",
+          "MARKET_AVOIDANCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_ACTION_INTERPRETATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "tape reading",
+          "price action interpretation"
+        ],
+        "narrative_roles": [
+          "MARKET_ANALYSIS_METHOD",
+          "EDUCATIONAL_CONCEPT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MISINTERPRETATION_OF_SIGNALS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "misinterpreting it as direct buy/sell signals"
+        ],
+        "narrative_roles": [
+          "BEHAVIORAL_TRAP",
+          "EDUCATIONAL_CORRECTION",
+          "RETAIL_TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING IN CHOPPY CONDITIONS AND IMPORTANCE OF FOLLOWING INSTRUCTIONS",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_644",
+    "concepts": [
+      {
+        "canonical": "MENTORSHIP_APPROACH",
+        "confidence": 1,
+        "surface_terms": [
+          "mentorship emphasizes a gradual learning process",
+          "New students are encouraged to observe and absorb",
+          "repetitive patterns in price action",
+          "live sessions",
+          "teach students to differentiate"
+        ],
+        "narrative_roles": [
+          "PEDAGOGY",
+          "SKILL_DEVELOPMENT",
+          "EDUCATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 1,
+        "surface_terms": [
+          "MANAGING ELEVATED RISK ENVIRONMENTS",
+          "elevated risks",
+          "difficult"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "MARKET_CONTEXT_AWARENESS",
+          "PRESERVATION_OF_CAPITAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADE_SELECTION_CRITERIA",
+        "confidence": 0.95,
+        "surface_terms": [
+          "high-probability trading conditions",
+          "low-probability trading conditions",
+          "high-probability setups"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "OPPORTUNITY_IDENTIFICATION",
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MENTORSHIP APPROACH AND MANAGING ELEVATED RISK ENVIRONMENTS",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_645",
+    "concepts": [
+      {
+        "canonical": "HIGH_PROBABILITY_TRADING",
+        "confidence": 0.9,
+        "surface_terms": [
+          "high-probability conditions"
+        ],
+        "narrative_roles": [
+          "ICT_METHODOLOGY",
+          "OPTIMAL_SETUP_IDENTIFICATION",
+          "FOUNDATIONAL_PRINCIPLE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADING_EFFICIENCY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Quick achievement of targets",
+          "profits are secured efficiently"
+        ],
+        "narrative_roles": [
+          "BENEFIT_OF_ICT",
+          "OUTCOME_OF_SOUND_TRADING",
+          "CONTRAST_WITH_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_LIFESTYLE",
+        "confidence": 0.9,
+        "surface_terms": [
+          "TRADER LIFESTYLE",
+          "finish early and enjoy their day",
+          "freeing up time for personal life and family"
+        ],
+        "narrative_roles": [
+          "BENEFIT_OF_ICT",
+          "ASPIRATIONAL_OUTCOME",
+          "LIFESTYLE_ENABLEMENT",
+          "CONTRAST_WITH_RETAIL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "HIGH VS. LOW PROBABILITY CONDITIONS AND TRADER LIFESTYLE",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_646",
+    "concepts": [
+      {
+        "canonical": "NEW_WEEK_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Week Opening Gap (NWOG)",
+          "low of the previous week's New Week Opening Gap (NWOG)"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "SUPPORT_RESISTANCE"
+        ],
+        "temporal_tags": [
+          "previous week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "KEY_PRICE_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "4140.25 (a quarter)",
+          "Specific price levels",
+          "50 percent mark"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEW_DAY_OPENING_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "New Day Opening Gap (NDOG)",
+          "difference between the 5 PM closing price and the 6 PM opening price"
+        ],
+        "narrative_roles": [
+          "REFERENCE_POINT",
+          "ALGORITHMIC_REFERENCE"
+        ],
+        "temporal_tags": [
+          "daily",
+          "5 PM closing price",
+          "6 PM opening price"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY PRICE LEVELS AND DAILY NDOG ANNOTATION",
+      "source_file": "February 15, 2023 ES Session Review_Handbook.chunks.json"
+    }
+  }
+]

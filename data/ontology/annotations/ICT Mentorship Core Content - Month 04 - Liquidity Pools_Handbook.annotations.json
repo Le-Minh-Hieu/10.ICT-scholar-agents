@@ -1,0 +1,912 @@
+[
+  {
+    "chunk_id": "chunk_2373",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Buy stops above the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "More refined Smart Money traders will be selling above the market"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_EXPLOITATION",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Sell stops below the market price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Smart Money wants to buy below the market price"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_EXPLOITATION",
+          "SMART_MONEY_ACTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRADER_BEHAVIOR",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Retail traders are usually reactive, buying and selling at market price"
+        ],
+        "narrative_roles": [
+          "CONTRASTING_BEHAVIOR",
+          "LIQUIDITY_SOURCE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING PENDING ORDERS AND TRADER BEHAVIOR",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2374",
+    "concepts": [
+      {
+        "canonical": "PREMIUM_DISCOUNT_ARRAY",
+        "confidence": 1,
+        "surface_terms": [
+          "TRADING AT PREMIUMS AND DISCOUNTS",
+          "selling at a premium",
+          "buying at a discount",
+          "level of discount"
+        ],
+        "narrative_roles": [
+          "VALUE_ASSESSMENT",
+          "ENTRY_CRITERIA",
+          "TRADE_DIRECTION_BIAS",
+          "SMART_MONEY_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "TRADING AT PREMIUMS AND DISCOUNTS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2375",
+    "concepts": [
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "old highs",
+          "Protective buy stops for short positions",
+          "pool of liquidity of buyers above old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "move above an old high",
+          "SELLING ABOVE OLD HIGHS",
+          "Selling at this moment means selling short into a pool of liquidity of buyers above old highs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "DISTRIBUTION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "market is predisposed to go lower",
+          "the Dollar is bearish"
+        ],
+        "narrative_roles": [
+          "BIAS_CONFIRMATION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETAIL_TRAP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Retail buyers view a move above an old high as a bullish breakout",
+          "bullish breakout",
+          "willing buyers"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "MANIPULATION",
+          "TRAP_FORMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "SELLING ABOVE OLD HIGHS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2376",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "pool or collection of orders",
+          "liquidity",
+          "stop-loss order locations"
+        ],
+        "narrative_roles": [
+          "IDENTIFYING_LIQUIDITY",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 1,
+        "surface_terms": [
+          "stop-loss orders",
+          "protective buy stop",
+          "protective sell stop"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "TRADER_BEHAVIOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRUCTURAL_LIQUIDITY_POINT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "Above old highs",
+          "above and below the marketplace"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LOCATION",
+          "REFERENCE_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADER_COGNITION_STRATEGY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LOCATING LIQUIDITY POOLS THROUGH ROLE-PLAYING",
+          "Most retail traders are unaware of other traders' actions, thinking myopically about themselves.",
+          "'If I were short right now, where would my protective buy stop be?'",
+          "'If I were long right now, where would my protective sell stop be?'"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION_STRATEGY",
+          "BEHAVIORAL_COGNITION",
+          "SMART_MONEY_MIMICRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LOCATING LIQUIDITY POOLS THROUGH ROLE-PLAYING",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2377",
+    "concepts": [
+      {
+        "canonical": "FALSE_BREAKOUT",
+        "confidence": 1,
+        "surface_terms": [
+          "FALSE BREAKOUT",
+          "false breakout",
+          "move above an old high"
+        ],
+        "narrative_roles": [
+          "MANIPULATION",
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SIGNAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_TARGET",
+        "confidence": 0.95,
+        "surface_terms": [
+          "LIQUIDITY TARGETS",
+          "lower level liquidity reference point"
+        ],
+        "narrative_roles": [
+          "PRICE_DRAW_ON_LIQUIDITY",
+          "REBALANCING_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SELL_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "running below another old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_DRAW_ON_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BULLISH_ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "a bullish order block"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "SUPPORT_ZONE",
+          "MITIGATION_BLOCK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "closing in a fair value gap",
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PRICE_REBALANCING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FALSE BREAKOUT AND LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2378",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "BUYING BELOW OLD LOWS",
+          "When the market trades below an old low, view it as an opportunity to buy up the sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "ENTRY_STRATEGY",
+          "LIQUIDITY_ENGINEERING",
+          "OPPORTUNISTIC_BUYING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "OLD LOWS",
+          "old low",
+          "sell-side liquidity"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_SOURCE",
+          "TARGETED_LIQUIDITY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY TARGETS",
+          "old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_TARGET",
+          "PROFIT_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ORDER_BLOCK",
+        "confidence": 1,
+        "surface_terms": [
+          "bearish order block"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FAIR_VALUE_GAP",
+        "confidence": 1,
+        "surface_terms": [
+          "fair value gap"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_VOID",
+        "confidence": 1,
+        "surface_terms": [
+          "liquidity void"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "REVERSAL_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISCOUNT_PRICE",
+        "confidence": 0.95,
+        "surface_terms": [
+          "buyer at a discount",
+          "below old lows"
+        ],
+        "narrative_roles": [
+          "ENTRY_ZONE",
+          "VALUE_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "BUYING BELOW OLD LOWS AND LIQUIDITY TARGETS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2379",
+    "concepts": [
+      {
+        "canonical": "MARKET_EFFICIENCY_PARADIGM",
+        "confidence": 1,
+        "surface_terms": [
+          "MARKET EFFICIENCY PARADIGM",
+          "market efficiency paradigm"
+        ],
+        "narrative_roles": [
+          "FRAMEWORK",
+          "MARKET_UNDERSTANDING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "HIGHER_TIMEFRAME_ANALYSIS",
+        "confidence": 1,
+        "surface_terms": [
+          "HIGHER TIMEFRAME ANALYSIS",
+          "higher timeframe analysis"
+        ],
+        "narrative_roles": [
+          "BIAS_DETERMINATION",
+          "CONTEXTUALIZATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "old highs",
+          "old lows"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_LOCATION",
+          "TARGET_AREA"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 1,
+        "surface_terms": [
+          "underlying bias",
+          "predisposed to go higher or lower",
+          "bullish or bearish bias"
+        ],
+        "narrative_roles": [
+          "DIRECTIONAL_PREFERENCE",
+          "TRADING_ALIGNMENT",
+          "TRADE_DIRECTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "MARKET EFFICIENCY PARADIGM & HIGHER TIMEFRAME ANALYSIS",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2380",
+    "concepts": [
+      {
+        "canonical": "ACCUMULATION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ACCUMULATION",
+          "accumulation of sell-side liquidity",
+          "Smart Money accumulates this rush of selling interest quickly"
+        ],
+        "narrative_roles": [
+          "PHASE_OF_MARKET_CYCLE",
+          "SMART_MONEY_ACTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "DISTRIBUTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DISTRIBUTION",
+          "Smart Money will accumulate and sell into that"
+        ],
+        "narrative_roles": [
+          "PHASE_OF_MARKET_CYCLE",
+          "SMART_MONEY_ACTION",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.98,
+        "surface_terms": [
+          "sell-side liquidity",
+          "buy-side liquidity",
+          "run on liquidity",
+          "liquidity pool"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "FUEL",
+          "ENGINEERING_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "knocks out weak longs or bullish traders with stop losses trailed too tight",
+          "knocking out sell stops",
+          "false break above an old high"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP",
+          "STOP_LOSS_MANIPULATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SMART_MONEY",
+        "confidence": 0.99,
+        "surface_terms": [
+          "Smart Money"
+        ],
+        "narrative_roles": [
+          "MARKET_ACTOR",
+          "MANIPULATOR"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ACCUMULATION AND DISTRIBUTION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2381",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "LIQUIDITY POOL SETUP",
+          "sell stops reside below these"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRICE_MAGNET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweep below them",
+          "Price trades down below it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "On the daily chart",
+          "Transpose this level to a 15-minute timeframe"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "NEWS_EVENT_CATALYST",
+        "confidence": 1,
+        "surface_terms": [
+          "an interest rate announcement (news) was expected, providing a catalyst"
+        ],
+        "narrative_roles": [
+          "PRICE_DRIVER",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE 1: USD/CAD LIQUIDITY POOL SETUP (PART 1)",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2382",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "run below an intraday low at 1.3095",
+          "Price traded down to a candle low of 1.3083"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER",
+          "STOP_HUNT"
+        ],
+        "temporal_tags": [
+          "intraday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing high at 1.3360",
+          "contrary liquidity",
+          "target for unloading the long position"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING_TARGET",
+          "LIQUIDITY_DRAWER"
+        ],
+        "temporal_tags": [
+          "daily chart"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE 1: USD/CAD EXECUTION AND TARGET (PART 2)",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2383",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "exploding up through it and taking the buy stops",
+          "run right up above and hitting the next layer of buy (stops)",
+          "running up and taking out buy stops",
+          "seeking sell (stops)",
+          "runs on both buy stops and then sell stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "MARKET_MANIPULATION"
+        ],
+        "temporal_tags": [
+          "Friday",
+          "end of week"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TAKING",
+        "confidence": 1,
+        "surface_terms": [
+          "FRIDAY'S PROFIT-TAKING",
+          "participants took profits"
+        ],
+        "narrative_roles": [
+          "MARKET_BEHAVIOR",
+          "LIQUIDITY_DRIVER"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_CONDITION_EXPECTATION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "choppy, sideways day",
+          "expectation for Friday was a choppy, sideways day"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "EXPECTATION_MODEL"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL_FORMATION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "tapped the first high, falling just short"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "SETUP_PHASE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRENDING_ENVIRONMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "DXY RALLY",
+          "trending environment prior to Friday"
+        ],
+        "narrative_roles": [
+          "MARKET_CONDITION",
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [
+          "prior to Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE 2: DXY RALLY AND FRIDAY'S PROFIT-TAKING",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2384",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "sweep down below it occurred",
+          "clearing out the 1.0130 and 1.0145 buy stop levels"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION",
+          "LIQUIDITY_SEEKING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 1,
+        "surface_terms": [
+          "identified level",
+          "1.0125 level",
+          "liquidity pool reaction",
+          "1.0130 and 1.0145 buy stop levels"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_ENGINEERING",
+          "ATTRACTION_POINT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "1.0130 and 1.0145 buy stop levels"
+        ],
+        "narrative_roles": [
+          "TARGET",
+          "LIQUIDITY_POOL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "REACTION",
+        "confidence": 0.9,
+        "surface_terms": [
+          "A notable reaction was observed after hitting this point",
+          "liquidity pool reaction"
+        ],
+        "narrative_roles": [
+          "CONFIRMATION",
+          "DISTRIBUTION",
+          "REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE 3: USD/CHF EXECUTION AND REACTION",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_2385",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sweep below a short-term low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_TARGET",
+        "confidence": 0.85,
+        "surface_terms": [
+          "target for price movement",
+          "1.2500-1.2520 level"
+        ],
+        "narrative_roles": [
+          "EXIT_CRITERIA",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [
+          "Friday"
+        ],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "CHART EXAMPLE 4: GBP/USD (CABLE) INTRADAY SETUP",
+      "source_file": "ICT Mentorship Core Content - Month 04 - Liquidity Pools_Handbook.chunks.json"
+    }
+  }
+]

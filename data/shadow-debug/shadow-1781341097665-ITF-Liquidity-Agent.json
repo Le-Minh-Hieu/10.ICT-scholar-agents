@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-06-13T08:58:17.665Z",
+  "agentType": "ITF-Liquidity-Agent",
+  "currentCallId": "ITF-Liquidity-Agent-ITF-Liquidity-Agent-1781341018084-29",
+  "prompt": "## ROLE\nYou are an ICT ITF liquidity analysis system.\n\n## TASK\nIdentify liquidity (sweeps, targets, inducement) from the chart using grounded reasoning.\n\n## PROBABILISTIC CONTEXT ANCHOR (FROM DAILY)\n- Suggested Bias: evidence_for_retracement (Confidence: 0.7)\n- Summary: Despite both EURUSD and GBPUSD exhibiting clear daily bearish market structure shifts, the current trading conditions suggest a probable daily retracement. EURUSD is currently situated in a discount zone and within a liquidity void, implying a likely move higher to fill this inefficiency or retest equilibrium. This potential for upward retracement is further supported by the daily intermarket alignment of a consolidating/slightly bearish DXY and bearish US Treasury yields, alongside a bullish SMT divergence favoring EURUSD.\n- Key Anchors: EURUSD Daily Bearish Market Structure Shift (BOS) below 1.16xxx (late Jan/early Feb 2024 low), GBPUSD Daily Bearish Market Structure Shift (BOS) below 1.34xxx (March 2024 low), EURUSD liquidity void between 1.15000 and 1.16500, with current price at ~1.15669, EURUSD current price (~1.15669) trading in a Discount zone below the 1.16301 equilibrium of the active dealing range, EURUSD Daily Bearish Order Block at 1.17xxx (March 2024), EURUSD Daily Bearish Order Block at 1.16xxx (late May 2024), GBPUSD Daily Bearish Order Block at 1.35xxx-1.36xxx (late April/early May 2024), Bullish SMT divergence between EURUSD (higher low) and GBPUSD (lower low) on the Daily timeframe (March/April 2024 lows), DXY Daily consolidating/slightly bearish, and US10Y/US20Y Daily bearish\n- Shift Conditions: This retracement thesis would likely be invalidated if price decisively breaks below the March 2024 EURUSD Daily Swing Low of 1.13880 or the April 2024 GBPUSD Daily Swing Low of 1.32xxx without first filling the liquidity void or reaching equilibrium. Conversely, a sustained daily bullish displacement by DXY, or a failure to respect the identified daily bearish order blocks upon retest, would also shift the daily outlook.\n\nIMPORTANT: This is a contextual anchor, NOT an absolute truth. Look for evidence that aligns with this anchor, but also actively seek signals that might indicate a local reversal or retracement against it.\n\n## GROUNDED KNOWLEDGE\n## LIVE MARKET OBSERVATIONS (VISION PRIMARY)\nHere are the ICT liquidity observations based on the provided charts for EURUSD on the H4, H1, and M15 timeframes:\n\n*   **Buy-side Liquidity (BSL) Pools:**\n    *   **H4:** Significant BSL exists at the prominent swing highs marked by the labels \"SS\" around 1.1708, \"BSL\" around 1.1785, and the highest swing high near 1.1849. A cluster of relative equal highs from late May/early June around 1.1660-1.1670 also forms a BSL pool.\n    *   **H1:** A clear BSL pool is present at 1.16399 (marked as \"EQH\" and \"SS\" at 1.16551), representing recent swing highs. Further BSL is visible at 1.16819. Multiple intermediate swing highs between 1.15800 and 1.15900 from June 10-13 also act as BSL targets.\n    *   **M15:** Recent short-term swing highs above 1.15800 (June 12, 13) and at 1.15900 (June 10) are identified as immediate BSL targets.\n\n*   **Sell-side Liquidity (SSL) Pools:**\n    *   **H4:** A clear SSL pool is located at 1.1524 (marked as \"SSL\"), a recent swing low. Multiple relative equal lows around 1.1500 from late May/early June also form a significant SSL pool.\n    *   **H1:** A prominent SSL pool is at 1.15242 (marked as \"SSL\"), representing a recent swing low from June 9. Additional SSL pools are present below 1.15000 and towards 1.14800.\n    *   **M15:** Recent short-term swing lows below 1.15600 (June 12, 13) and at 1.15000 (June 9) are current SSL targets.\n\n*   **Liquidity Sweeps & Stop Hunts:**\n    *   **H4:** Price swept the SSL around 1.15242 and multiple lows around 1.1500 on June 7-8, leading to a strong upward reversal.\n    *   **H1:** On June 9, price performed a liquidity sweep (stop hunt) of the SSL at 1.15242, which initiated a significant bullish move. On June 4, BSL around 1.16399 was swept before price reversed lower.\n    *   **M15:** On June 9, a clear stop hunt occurred when price swept the SSL at 1.15000 and immediately reversed to the upside. On June 12 and 13, price swept short-term BSL above 1.15800, leading to subsequent downward reactions.\n\n*   **Inducements:**\n    *   **H4:** The minor swing highs formed during the current upward consolidation (June 10-12) could act as inducement for price to target higher BSL.\n    *   **H1:** The short-term swing lows between 1.15600 and 1.15700 on June 11-12 could be inducements to draw in sellers before a potential push towards higher BSL pools.\n    *   **M15:** The small swing high around 1.15700 on June 13 could be an inducement before a potential sweep of the higher BSL at 1.15800.\n\n*   **Liquidity Voids & Delivery Gaps:**\n    *   **H4:** A significant liquidity void (unfilled price space) exists from the sharp bearish move on June 7-8, between approximately 1.1600 and 1.1520. Another large liquidity void remains unfilled from the sharp drop at the far left of the chart (around 1.1700-1.1780).\n    *   **H1:** A large liquidity void was created by the strong bullish move on June 9, from approximately 1.15200 to 1.15600. A large bearish liquidity void from June 7, from 1.16000 down to 1.15200, is also present.\n    *   **M15:** The strong bullish expansion on June 9 shows multiple smaller delivery gaps/liquidity voids in its ascent. A small FVG is visible within the recent move down around 1.15700 on June 13.\n\n## HISTORICAL REFERENCE (RAG SECONDARY)\n[CHUNK_ID:chunk_3166]\nTHE CONSOLIDATION-EXPANSION CYCLE AND LIQUIDITY TARGETS\nThe market operates in cycles of consolidation (often around equilibrium) and expansion. When price enters the 62 percent retracement level (discount) and then returns to equilibrium, it frequently consolidates before a subsequent expansion. This expansion phase targets liquidity above the marketplace, specifically buy stops located above Market makers will drive price to these liquidity pools to fill their sell orders, often overshooting previous Equal highs are considered 'too clean' and are prime targets for liquidity runs. While equilibrium represents fair market value, traders ideally seek discount prices (below equilibrium, especially 62-79 percent retracement levels) for the highest probability of explosive bullish moves, followed by a consolidation phase at equilibrium and then further expansion to liquidity targets.\n\n[CHUNK_ID:chunk_204]\nIDENTIFYING LIQUIDITY POOLS\nSo the only thing you're looking for is a likely movement higher or lower based on the weekly candle. That's all you're doing; that sets your initial bias for the week. On the daily chart, you're looking for swing highs and swing lows to get your liquidity, and the majority of your trading and the draw on liquidity (what makes the market go higher or lower) is predominantly found on this time frame. So, the majority of your analysis should really be linked to this time frame right here. You have to have an assumption whether you're going to be expecting that weekly candle to expand higher or lower that's your weekly bias. But then you have to go into the daily chart and figure out basically where you are in the grand scheme of things on that weekly range expanding higher or lower. Because we're looking for lower prices and we're looking for weakness, the expectation is we want to see every short-term low, like this would be a short-term low, this would be a short-term low, and underneath those lows, there's going to be sell stops. That's liquidity.\n\n[CHUNK_ID:chunk_2453]\nMARKET LIQUIDITY AND SMART MONEY DYNAMICS\nThe market actively seeks liquidity below lows, specifically below the second impulse swing preceding a Once this liquidity is taken out, price theoretically could drive down to the original support level, but often it retraces to accumulate more orders at an old low. This creates another selling opportunity to target liquidity below a newly formed short-term low, leading The expectation then is for price to bounce. However, if price retraces again, some traders might expect the prior low to be violated. Sometimes this occurs, sometimes it doesn't. A failure swing can also set up a new long opportunity, leading to a rally.\n\n[CHUNK_ID:chunk_2143]\nLARGE RANGE SELL STOP HUNT AND LIQUIDITY TARGET\nSo we see market action trade below that consolidation. It trades down into 108.85. With that movement down into that level, where is the liquidity at? Above the old high, at 109.45 or so. That's what you have up here, specifically buy stops. So we have willing buyers that are waiting up there for price once it gets there.\n\n[CHUNK_ID:chunk_3059]\nEQUILIBRIUM, PREMIUM, AND DISCOUNT IN CONSOLIDATIONS\nWe're more focused on the equilibrium price point because we understand premium and discount, not just We understand if it turned at an old high, liquidity is going to be just below that high for a bearish order block, or it's going to go above that high for the liquidity resting above it in the form of buy stops. At the equilibrium, we want to see price moving, expanding away from that.\n\n[CHUNK_ID:chunk_1189]\nSHORT-TERM SWING LOWS AND ACCUMULATION OF SELL STOPS\nConsider a short-term swing low, defined as a single candle with a higher low to its right and a higher low Sell stops are typically resting right below such swing lows. As the market rallies and consolidates, those who bought earlier often trail their stop losses just below these short-term lows. When the market drops down to take these participants out and then rallies, it is going there to Institutional traders do not buy at high prices; they wait for price to drop to attack a very deep discounted price and a pool of liquidity from sellers willing to sell at a cheap price (due to their stop loss being hit). These sell stops flood the market with sell orders, which 'smart money' buys at market. This process is called the 'pairing of orders'. Price hits this level and then rallies.\n\n## INPUT CONTEXT\nITF Liquidity Analysis (H4 -> H1 -> M15)\n\n## CONSTRAINTS\n- MANDATORY REASONING ORDER: 1. Extract Principles, 2. Apply to Chart (Pools, Sweeps, Inducement, Targets), 3. Refine with Query, 4. Derive Signals, 5. Validate with HTF\n- HTF CONTEXT (DO NOT OVERRIDE): {\"htf_bias\":\"bullish\",\"next_candle_bias\":\"bullish\",\"confidence\":0.75,\"reasoning\":\"The HTF bias is determined by synthesizing insights from structure, macro, liquidity, and PD array agents.\\n\\n1.  **Primary Bias Formation:** The `structure` agent, despite having conflicting bullish (Monthly BOS) and bearish (Weekly/Daily BOS) anchors, explicitly highlights a 'Bullish SMT divergence between EURUSD and GBPUSD daily lows (March/April 2024)'. This divergence is a strong technical signal for a potential upward movement. However, the `macro` agent indicates strong bullish momentum for DXY on both Monthly and Weekly timeframes, and the `weekly_profile` explicitly states a 'macro_bias: bearish' for EUR/GBP. This establishes an overarching bearish macro trend for EUR/GBP. Given the bullish SMT divergence, the primary bias for the immediate HTF is a bullish retracement against this stronger bearish macro trend.\\n\\n2.  **Confirm with Liquidity:** The `liquidity` agent reports `liquidity_context: {above: true, below: true}`, indicating the presence of liquidity targets in both directions. While it doesn't definitively confirm the direction, it ensures that there are liquidity pools available for a bullish retracement to target, which is consistent with the primary bias of an upward move. The `internal_conflict: true` in the liquidity agent suggests balanced liquidity, not opposing a short-term retracement.\\n\\n3.  **Use PD Array for Context:** The `pd_array` agent states that price is currently in a `discount` zone. For an asset within an overall bearish trend, a price in a discount zone, especially when coupled with a bullish divergence like an SMT, is a highly probable area for smart money to initiate buying for a retracement back towards equilibrium or premium levels.\\n\\n**Conclusion:** The combination of a 'Bullish SMT divergence' (structure) signaling a potential reversal or strong retracement, price being in a 'discount' zone (PD Array) making it attractive for buyers, and the DXY's 'Daily small bearish inside bar' (macro) suggesting a temporary pause in USD strength, collectively points to a bullish expectation for the HTF and the next candle. This bullish movement is interpreted as a retracement within the broader bearish macro context for EUR/GBP.\"}\n- Optional query context: analyze current market\n- If unclear → return empty arrays\n- You MUST explicitly reference CHUNK_ID inside both principles and reasoning notes\n\n## OUTPUT FORMAT\n{\n      \"principles\": [{\"rule\": \"...\", \"chunk_id\": \"...\"}],\n      \"sweeps\": [\"...\"],\n      \"targets\": [\"...\"],\n      \"inducement\": [\"...\"],\n      \"confidence\": 0.9,\n      \"references\": [\"CHUNK_ID:...\"],\n      \"notes\": \"Step-by-step reasoning\"\n    }",
+  "gemini": {
+    "raw": {
+      "sdkHttpResponse": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sat, 13 Jun 2026 08:57:58 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "candidates": [
+        {
+          "content": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "```json\n{\n  \"principles\": [\n    {\n      \"rule\": \"Market makers drive price to liquidity pools (buy stops above highs, sell stops below lows) to fill orders; equal highs/lows are prime targets.\",\n      \"chunk_id\": \"CHUNK_ID:chunk_3166\"\n    },\n    {\n      \"rule\": \"Traders seek discount prices (below equilibrium, especially 62-79% retracement) for high probability bullish moves, implying price in discount zones is attractive for accumulation.\",\n      \"chunk_id\": \"CHUNK_ID:chunk_3166\"\n    },\n    {\n      \"rule\": \"Markets operate in cycles of consolidation and expansion, where expansion phases target liquidity.\",\n      \"chunk_id\": \"CHUNK_ID:chunk_3166\"\n    },\n    {\n      \"rule\": \"Swing highs and swing lows represent liquidity pools (buy/sell stops) and are primary targets for market movement.\",\n      \"chunk_id\": \"CHUNK_ID:chunk_204\"\n    },\n    {\n      \"rule\": \"Price often sweeps short-term lows (stop hunts) to collect sell stops, which then fuels a rally as institutions buy at these discounted prices.\",\n      \"chunk_id\": \"CHUNK_ID:chunk_1189\"\n    }\n  ],\n  \"sweeps\": [\n    \"H4/H1: On June 7-9, price swept the significant SSL pool around 1.15242 and multiple lows around 1.1500 (H4/H1), initiating a strong bullish reversal. This is a classic 'stop hunt' where institutional buyers accumulate orders at discounted prices (CHUNK_ID:chunk_1189).\",\n    \"H1: On June 4, price swept BSL around 1.16399 before reversing lower, indicating a potential 'liquidity run' to fill sell orders (CHUNK_ID:chunk_3166).\",\n    \"M15: On June 12 and 13, short-term BSL above 1.15800 was swept, leading to immediate downward reactions, likely signifying short-term re-distributions or temporary pullbacks within a broader trend.\"\n  ],\n  \"targets\": [\n    \"Primary BSL Target (H4/H1): The prominent Equal High (EQH) at 1.16399 and the adjacent H4 Swing High (SS) at 1.16551 are significant short-to-medium term buy-side liquidity targets (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204). These align with the daily context of filling the liquidity void and retesting equilibrium.\",\n    \"Higher BSL Targets (H4): Further buy-side liquidity resides at the Swing Highs (SS) at 1.16819, 1.1708, and the larger BSL pool around 1.1785 and 1.1849. These represent deeper retracement targets consistent with the daily probabilistic context.\",\n    \"Immediate BSL Targets (H1/M15): Short-term swing highs above 1.15800 (June 10-13) are immediate targets for intra-day liquidity raids.\",\n    \"Secondary SSL Targets (H4/H1): Should the bullish retracement fail, or for deeper pullbacks, the recent significant Sell-Side Liquidity (SSL) at 1.15242 (June 9 low) and the cluster of lows around 1.1500 (late May/early June) are key targets below current price (CHUNK_ID:chunk_204).\"\n  ],\n  \"inducement\": [\n    \"H1/M15: The current consolidation with minor swing lows between 1.15600 and 1.15700 (June 11-13) can act as inducement, drawing in sellers before a potential move higher to sweep BSL (CHUNK_ID:chunk_1189).\",\n    \"H1/M15: Small swing highs within the current consolidation (e.g., around 1.15800 on M15/H1) could be inducement for buyers before a temporary short-term reversal or to collect liquidity for a larger move, similar to how price collects orders at old highs (CHUNK_ID:chunk_3059).\"\n  ],\n  \"confidence\": 0.9,\n  \"references\": [\n    \"CHUNK_ID:chunk_3166\",\n    \"CHUNK_ID:chunk_204\",\n    \"CHUNK_ID:chunk_2453\",\n    \"CHUNK_ID:chunk_2143\",\n    \"CHUNK_ID:chunk_3059\",\n    \"CHUNK_ID:chunk_1189\"\n  ],\n  \"notes\": \"Step-by-step reasoning:\\n1.  **Grounded Principles:** I extracted key ICT liquidity principles such as market targeting of BSL/SSL, the importance of discount/premium zones for entries, the consolidation-expansion cycle, and how swing lows/highs hold liquidity (sell/buy stops), along with the concept of liquidity sweeps/stop hunts. (References: CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204, CHUNK_ID:chunk_1189).\\n2.  **Liquidity Pools Identification:**\\n    *   **Buy-side Liquidity (BSL):** Identified prominent swing highs on H4 (1.16819, 1.1708, 1.1785, 1.1849) and especially the EQH at 1.16399 and SS at 1.16551 on H4/H1, which are clear 'too clean' targets (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204). Shorter-term BSL between 1.15800-1.15900 were noted on H1/M15.\\n    *   **Sell-side Liquidity (SSL):** The recent swing low at 1.15242 (H4/H1) and the significant cluster of lows around 1.1500 (H4) were identified as key SSL pools (CHUNK_ID:chunk_204).\\n3.  **Liquidity Sweeps Analysis:** The most significant sweep observed was on June 7-9, where price swept the SSL at 1.15242 and 1.1500, leading to a strong bullish reversal. This aligns with the 'pairing of orders' concept where smart money buys stop losses at discounted prices (CHUNK_ID:chunk_1189, CHUNK_ID:chunk_2453). A prior BSL sweep on June 4 (1.16399) was also noted.\\n4.  **Inducement Identification:** The current price action shows consolidation on H1/M15. Minor swing highs (e.g., 1.15800) and lows (e.g., 1.15600-1.15700) within this consolidation are potential inducement zones, designed to draw in participants before a move in the opposite direction to clear their stops (CHUNK_ID:chunk_1189).\\n5.  **Validation with HTF Context:**\\n    *   **Probabilistic Context Anchor (Daily):** The `evidence_for_retracement` bias and the observation that EURUSD is in a `discount zone` and `liquidity void` expecting a move higher, strongly supports the identified BSL targets (especially 1.16399 and 1.16551). The June 7-9 SSL sweep perfectly fits the idea of price attacking a discounted price before rallying (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_1189).\\n    *   **HTF Context (Constraint):** The `bullish` `htf_bias` and `next_candle_bias` (confidence 0.75) derived from bullish SMT divergence, price in a discount zone, and a slightly bearish DXY, unequivocally supports the expectation of price targeting the identified BSL pools. The recent price action after the SSL sweep is consistent with an accumulation phase before a potential expansion upwards (CHUNK_ID:chunk_3166).\\n6.  **Derived Signal:** Given the strong alignment with the HTF bullish retracement bias, the primary signal is that EURUSD is currently in an accumulation/inducement phase after sweeping SSL, and is likely targeting the BSL at 1.16399 (EQH) and 1.16551 (SS) as part of a bullish retracement to fill the liquidity void and retest equilibrium.\"\n}\n```"
+              }
+            ]
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.7561592300812563
+        }
+      ],
+      "createTime": "2026-06-13T08:57:34.053820Z",
+      "modelVersion": "gemini-2.5-flash",
+      "responseId": "fhstarykA-XlwLUPt9Tw4Aw",
+      "usageMetadata": {
+        "promptTokenCount": 4153,
+        "candidatesTokenCount": 1996,
+        "totalTokenCount": 9297,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3379
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1996
+          }
+        ],
+        "thoughtsTokenCount": 3148
+      }
+    },
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Market makers drive price to liquidity pools (buy stops above highs, sell stops below lows) to fill orders; equal highs/lows are prime targets.",
+          "chunk_id": "CHUNK_ID:chunk_3166"
+        },
+        {
+          "rule": "Traders seek discount prices (below equilibrium, especially 62-79% retracement) for high probability bullish moves, implying price in discount zones is attractive for accumulation.",
+          "chunk_id": "CHUNK_ID:chunk_3166"
+        },
+        {
+          "rule": "Markets operate in cycles of consolidation and expansion, where expansion phases target liquidity.",
+          "chunk_id": "CHUNK_ID:chunk_3166"
+        },
+        {
+          "rule": "Swing highs and swing lows represent liquidity pools (buy/sell stops) and are primary targets for market movement.",
+          "chunk_id": "CHUNK_ID:chunk_204"
+        },
+        {
+          "rule": "Price often sweeps short-term lows (stop hunts) to collect sell stops, which then fuels a rally as institutions buy at these discounted prices.",
+          "chunk_id": "CHUNK_ID:chunk_1189"
+        }
+      ],
+      "sweeps": [
+        "H4/H1: On June 7-9, price swept the significant SSL pool around 1.15242 and multiple lows around 1.1500 (H4/H1), initiating a strong bullish reversal. This is a classic 'stop hunt' where institutional buyers accumulate orders at discounted prices (CHUNK_ID:chunk_1189).",
+        "H1: On June 4, price swept BSL around 1.16399 before reversing lower, indicating a potential 'liquidity run' to fill sell orders (CHUNK_ID:chunk_3166).",
+        "M15: On June 12 and 13, short-term BSL above 1.15800 was swept, leading to immediate downward reactions, likely signifying short-term re-distributions or temporary pullbacks within a broader trend."
+      ],
+      "targets": [
+        "Primary BSL Target (H4/H1): The prominent Equal High (EQH) at 1.16399 and the adjacent H4 Swing High (SS) at 1.16551 are significant short-to-medium term buy-side liquidity targets (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204). These align with the daily context of filling the liquidity void and retesting equilibrium.",
+        "Higher BSL Targets (H4): Further buy-side liquidity resides at the Swing Highs (SS) at 1.16819, 1.1708, and the larger BSL pool around 1.1785 and 1.1849. These represent deeper retracement targets consistent with the daily probabilistic context.",
+        "Immediate BSL Targets (H1/M15): Short-term swing highs above 1.15800 (June 10-13) are immediate targets for intra-day liquidity raids.",
+        "Secondary SSL Targets (H4/H1): Should the bullish retracement fail, or for deeper pullbacks, the recent significant Sell-Side Liquidity (SSL) at 1.15242 (June 9 low) and the cluster of lows around 1.1500 (late May/early June) are key targets below current price (CHUNK_ID:chunk_204)."
+      ],
+      "inducement": [
+        "H1/M15: The current consolidation with minor swing lows between 1.15600 and 1.15700 (June 11-13) can act as inducement, drawing in sellers before a potential move higher to sweep BSL (CHUNK_ID:chunk_1189).",
+        "H1/M15: Small swing highs within the current consolidation (e.g., around 1.15800 on M15/H1) could be inducement for buyers before a temporary short-term reversal or to collect liquidity for a larger move, similar to how price collects orders at old highs (CHUNK_ID:chunk_3059)."
+      ],
+      "confidence": 0.9,
+      "references": [
+        "CHUNK_ID:chunk_3166",
+        "CHUNK_ID:chunk_204",
+        "CHUNK_ID:chunk_2453",
+        "CHUNK_ID:chunk_2143",
+        "CHUNK_ID:chunk_3059",
+        "CHUNK_ID:chunk_1189"
+      ],
+      "notes": "Step-by-step reasoning:\n1.  **Grounded Principles:** I extracted key ICT liquidity principles such as market targeting of BSL/SSL, the importance of discount/premium zones for entries, the consolidation-expansion cycle, and how swing lows/highs hold liquidity (sell/buy stops), along with the concept of liquidity sweeps/stop hunts. (References: CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204, CHUNK_ID:chunk_1189).\n2.  **Liquidity Pools Identification:**\n    *   **Buy-side Liquidity (BSL):** Identified prominent swing highs on H4 (1.16819, 1.1708, 1.1785, 1.1849) and especially the EQH at 1.16399 and SS at 1.16551 on H4/H1, which are clear 'too clean' targets (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_204). Shorter-term BSL between 1.15800-1.15900 were noted on H1/M15.\n    *   **Sell-side Liquidity (SSL):** The recent swing low at 1.15242 (H4/H1) and the significant cluster of lows around 1.1500 (H4) were identified as key SSL pools (CHUNK_ID:chunk_204).\n3.  **Liquidity Sweeps Analysis:** The most significant sweep observed was on June 7-9, where price swept the SSL at 1.15242 and 1.1500, leading to a strong bullish reversal. This aligns with the 'pairing of orders' concept where smart money buys stop losses at discounted prices (CHUNK_ID:chunk_1189, CHUNK_ID:chunk_2453). A prior BSL sweep on June 4 (1.16399) was also noted.\n4.  **Inducement Identification:** The current price action shows consolidation on H1/M15. Minor swing highs (e.g., 1.15800) and lows (e.g., 1.15600-1.15700) within this consolidation are potential inducement zones, designed to draw in participants before a move in the opposite direction to clear their stops (CHUNK_ID:chunk_1189).\n5.  **Validation with HTF Context:**\n    *   **Probabilistic Context Anchor (Daily):** The `evidence_for_retracement` bias and the observation that EURUSD is in a `discount zone` and `liquidity void` expecting a move higher, strongly supports the identified BSL targets (especially 1.16399 and 1.16551). The June 7-9 SSL sweep perfectly fits the idea of price attacking a discounted price before rallying (CHUNK_ID:chunk_3166, CHUNK_ID:chunk_1189).\n    *   **HTF Context (Constraint):** The `bullish` `htf_bias` and `next_candle_bias` (confidence 0.75) derived from bullish SMT divergence, price in a discount zone, and a slightly bearish DXY, unequivocally supports the expectation of price targeting the identified BSL pools. The recent price action after the SSL sweep is consistent with an accumulation phase before a potential expansion upwards (CHUNK_ID:chunk_3166).\n6.  **Derived Signal:** Given the strong alignment with the HTF bullish retracement bias, the primary signal is that EURUSD is currently in an accumulation/inducement phase after sweeping SSL, and is likely targeting the BSL at 1.16399 (EQH) and 1.16551 (SS) as part of a bullish retracement to fill the liquidity void and retest equilibrium."
+    },
+    "latency": 47720.83330000006,
+    "telemetry": {
+      "promptTokens": 4153,
+      "completionTokens": 1996,
+      "totalTokens": 9297
+    }
+  },
+  "openrouter": {
+    "modelUsed": "poolside/laguna-xs.2:free",
+    "success": true,
+    "parsed": {
+      "principles": [
+        {
+          "rule": "Market operates in cycles of consolidation and expansion, targeting liquidity pools above/below the marketplace",
+          "chunk_id": "chunk_3166"
+        },
+        {
+          "rule": "Identify swing highs and swing lows on daily timeframe to locate primary liquidity pools",
+          "chunk_id": "chunk_204"
+        },
+        {
+          "rule": "Price sweeps liquidity (stop hunts) to trigger stops, then reverses for the opposite direction",
+          "chunk_id": "chunk_2453"
+        },
+        {
+          "rule": "Buy-side liquidity targets are above old highs where buy stops rest; sell-side liquidity targets are below old lows",
+          "chunk_id": "chunk_2143"
+        },
+        {
+          "rule": "Price in discount zone (62-79% retracement) within bearish trend is high probability area for smart money buying",
+          "chunk_id": "chunk_3059"
+        },
+        {
+          "rule": "Short-term swing lows accumulate sell stops below them, creating liquidity for bullish sweeps",
+          "chunk_id": "chunk_1189"
+        }
+      ],
+      "sweeps": [
+        "H4: SSL sweep around 1.15242 and 1.1500 on June 7-8 triggered bullish reversal",
+        "H1: June 9 SSL sweep at 1.15242 initiated significant bullish move",
+        "H1: June 4 BSL sweep around 1.16399 preceded bearish reversal",
+        "M15: June 9 SSL sweep at 1.15000 triggered immediate bullish reversal",
+        "M15: June 12-13 BSL sweeps above 1.15800 led to subsequent downward reactions"
+      ],
+      "targets": [
+        "H4: BSL at 1.1708, 1.1785, 1.1849 (prominent swing highs)",
+        "H4: BSL cluster at 1.1660-1.1670 (relative equal highs)",
+        "H1: BSL at 1.16399/1.16551 (recent swing highs)",
+        "H1: BSL at 1.16819",
+        "H1: BSL at 1.15800-1.15900 (intermediate swing highs)",
+        "M15: BSL above 1.15800 (recent swing highs)",
+        "M15: BSL at 1.15900 (June 10 swing high)"
+      ],
+      "inducement": [
+        "H4: Minor swing highs during June 10-12 consolidation could act as inducement for BSL sweep",
+        "H1: Short-term swing lows at 1.15600-1.15700 (June 11-12) may induce selling before BSL push",
+        "M15: Small swing high around 1.15700 (June 13) could induce buying before 1.15800 BSL sweep"
+      ],
+      "confidence": 0.85,
+      "references": [
+        "CHUNK_ID:chunk_3166",
+        "CHUNK_ID:chunk_204",
+        "CHUNK_ID:chunk_2453",
+        "CHUNK_ID:chunk_2143",
+        "CHUNK_ID:chunk_3059",
+        "CHUNK_ID:chunk_1189"
+      ],
+      "notes": "Step-by-step reasoning: 1) Applied principles from CHUNK_ID:chunk_3166 (consolidation-expansion cycle) and CHUNK_ID:chunk_204 (swing identification) to identify BSL/SSL pools across H4-H1-M15. 2) Recent sweeps (June 7-9) show classic stop hunt patterns per CHUNK_ID:chunk_2453 - SSL sweeps triggered reversals to BSL targets. 3) Current price ~1.15669 is in discount zone (CHUNK_ID:chunk_3059) with HTF bullish bias, confirming retracement setup. 4) Inducement patterns align with CHUNK_ID:chunk_1189 - recent swing lows accumulate sell stops below, creating liquidity for bullish sweeps. 5) Primary BSL targets: H4 1.1708-1.1849, H1 1.16399-1.16819, M15 1.15800-1.15900. Confidence elevated due to alignment between HTF bullish bias, price in discount zone, and clear liquidity pool structure."
+    },
+    "latency": 12217.193400000222,
+    "telemetry": {
+      "promptTokens": 3792,
+      "completionTokens": 1906,
+      "totalTokens": 5698
+    },
+    "estimatedCost": 0.007604
+  }
+}

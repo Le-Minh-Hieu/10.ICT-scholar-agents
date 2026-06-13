@@ -1,0 +1,686 @@
+[
+  {
+    "chunk_id": "chunk_1256",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 1,
+        "surface_terms": [
+          "stop runs"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "ENTRY_TRIGGER"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PRICE_REJECTION",
+        "confidence": 0.85,
+        "surface_terms": [
+          "rejection level"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "KEY CHARACTERISTICS OF THE ICT ATM METHOD",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1257",
+    "concepts": [
+      {
+        "canonical": "ICT_TRADING_MODEL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "ATM"
+        ],
+        "narrative_roles": [
+          "METHODOLOGY",
+          "FRAMEWORK"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_BIAS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "bearish conditions"
+        ],
+        "narrative_roles": [
+          "MARKET_CONTEXT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TRADITIONAL_TECHNICAL_ANALYSIS",
+        "confidence": 0.85,
+        "surface_terms": [
+          "support resistance"
+        ],
+        "narrative_roles": [
+          "TRADITIONAL_CONCEPT_CRITIQUE",
+          "PROBLEM_STATEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL OVERVIEW",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1258",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "key high to form",
+          "initial short-term high",
+          "break a swing low",
+          "trades through that",
+          "valid pattern",
+          "get below this swing low",
+          "check mark"
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_VALIDATION",
+          "BEARISH_CONFIRMATION",
+          "TREND_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.95,
+        "surface_terms": [
+          "check mark gets surpassed by price action",
+          "trades back up to that",
+          "that's the setup"
+        ],
+        "narrative_roles": [
+          "ENTRY_CRITERIA",
+          "RETRACEMENT_FOR_ENTRY",
+          "LIQUIDITY_REPURPOSE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "IDENTIFYING A KEY HIGH IN BEARISH CONDITIONS",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1259",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "stop run above this short-term high",
+          "rejected price above this short-term high",
+          "stops below this low",
+          "run through those stops"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_INDICATION",
+          "ENTRY_CONTEXT",
+          "INDUCEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 1,
+        "surface_terms": [
+          "broken market structure with this swing low",
+          "this drop down"
+        ],
+        "narrative_roles": [
+          "REVERSAL_INDICATION",
+          "ENTRY_CONFIRMATION",
+          "TREND_CHANGE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "SUPPORT_RESISTANCE",
+        "confidence": 0.85,
+        "surface_terms": [
+          "classify and quantify real support/resistance"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_CLARIFICATION",
+          "LEVEL_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY AND CONTEXT FOR BEARISH ATM",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1260",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.95,
+        "surface_terms": [
+          "sell stops resting below that short-term low",
+          "level just below the old low"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGETING",
+          "LIQUIDITY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRUCTURAL_LOW",
+        "confidence": 0.9,
+        "surface_terms": [
+          "swing low",
+          "short-term low",
+          "old low"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_IDENTIFICATION",
+          "REFERENCE_POINT",
+          "PROFIT_TARGETING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_DEFINITION",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Define risk",
+          "one or two pips above the key high or the rejection high",
+          "Your stop-loss is up there to do its work",
+          "stop-loss protecting our overall position"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STRUCTURAL_HIGH",
+        "confidence": 0.85,
+        "surface_terms": [
+          "key high",
+          "rejection high"
+        ],
+        "narrative_roles": [
+          "RISK_DEFINITION",
+          "REFERENCE_POINT",
+          "STOP_LOSS_PLACEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGETING",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Determine potential profit",
+          "That's what we are aiming for; that's our target",
+          "our objective"
+        ],
+        "narrative_roles": [
+          "TRADE_MANAGEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "PROFIT TARGETS AND RISK DEFINITION",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1261",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "price creating a short-term high. Price runs through it.",
+          "another short-term high here, price runs through that"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "PRECURSOR_TO_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "rejects being above this short-term high and trades down below this low."
+        ],
+        "narrative_roles": [
+          "MARKET_STRUCTURE_CONFIRMATION",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 0.85,
+        "surface_terms": [
+          "Price comes back up and retests, trades to it. This candle here violates it, then we come right back up to it and trades right into that same level.",
+          "As soon as that happens, that is a sell scenario or shorting opportunity."
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RETRACEMENT_FOR_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "PROFIT_TARGET",
+        "confidence": 0.9,
+        "surface_terms": [
+          "We're looking for a move below this low."
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_TARGET"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "STOP_LOSS",
+        "confidence": 0.95,
+        "surface_terms": [
+          "Our risk is defined by the high set",
+          "65 pips risk"
+        ],
+        "narrative_roles": [
+          "RISK_MANAGEMENT",
+          "TRADE_VALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "60-MINUTE CHART",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1262",
+    "concepts": [
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.95,
+        "surface_terms": [
+          "short-term swing high broken to the upside",
+          "low that's violated and then we trade right back above the short-term high"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TREND_REVERSAL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.9,
+        "surface_terms": [
+          "low that's violated"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "STOP_HUNT",
+          "PRE_REVERSAL_INDICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "ATM_SETUP",
+        "confidence": 0.8,
+        "surface_terms": [
+          "ATM"
+        ],
+        "narrative_roles": [
+          "SETUP_MODEL"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "INITIAL OVERVIEW",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1263",
+    "concepts": [
+      {
+        "canonical": "BREAKER_BLOCK",
+        "confidence": 0.75,
+        "surface_terms": [
+          "retrace back to the swing high broken prior to the key low forming",
+          "our setup for a long"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "TRADE_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "BUY_SIDE_LIQUIDITY",
+        "confidence": 0.95,
+        "surface_terms": [
+          "hunting buy stops above this swing high here",
+          "the buy stops above here"
+        ],
+        "narrative_roles": [
+          "PROFIT_TARGET",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "INVALIDATION_LEVEL",
+        "confidence": 0.9,
+        "surface_terms": [
+          "the stop-loss is below here",
+          "our entry to our stop is our risk"
+        ],
+        "narrative_roles": [
+          "RISK_DEFINITION",
+          "INVALIDATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "ENTRY, PROFIT TARGETS, AND RISK DEFINITION FOR BULLISH ATM",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1264",
+    "concepts": [
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "old low violated aggressively",
+          "price trades back above it"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "REVERSAL_SETUP"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY",
+        "confidence": 1,
+        "surface_terms": [
+          "buy stops are our target here"
+        ],
+        "narrative_roles": [
+          "PROFIT_TAKING",
+          "LIQUIDITY_ENGINEERING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "TIME_FRAME",
+        "confidence": 1,
+        "surface_terms": [
+          "60-MINUTE CHART",
+          "hourly chart"
+        ],
+        "narrative_roles": [
+          "CONTEXT_SETTING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RETEST_ENTRY",
+        "confidence": 0.9,
+        "surface_terms": [
+          "retest of that old high",
+          "that's where we're hunting a long"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "REVERSAL_ENTRY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MARKET_STRUCTURE_SHIFT",
+        "confidence": 0.75,
+        "surface_terms": [],
+        "narrative_roles": [
+          "ENTRY_PREREQUISITE",
+          "REVERSAL_CONFIRMATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "60-MINUTE CHART",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1265",
+    "concepts": [
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "FURTHER RISK REDUCTION WITH OTE",
+          "optimal trade entry long",
+          "awesome trade entry long"
+        ],
+        "narrative_roles": [
+          "ENTRY_CONFIRMATION",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "FIBONACCI",
+        "confidence": 0.9,
+        "surface_terms": [
+          "running the Fib from the body's lowest open or close to the highest open or close in this swing high"
+        ],
+        "narrative_roles": [
+          "ENTRY_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "FURTHER RISK REDUCTION WITH OTE",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  },
+  {
+    "chunk_id": "chunk_1266",
+    "concepts": [
+      {
+        "canonical": "ICT_METHODOLOGY",
+        "confidence": 1,
+        "surface_terms": [
+          "ICT ATM METHOD",
+          "ATM method"
+        ],
+        "narrative_roles": [
+          "OVERALL_FRAMEWORK",
+          "TRADE_EXECUTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_SWEEP",
+        "confidence": 0.95,
+        "surface_terms": [
+          "runs on liquidity stops",
+          "targets in the form of a stop run"
+        ],
+        "narrative_roles": [
+          "LIQUIDITY_ENGINEERING",
+          "TRADE_SETUP_IDENTIFICATION",
+          "TARGET_IDENTIFICATION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "OPTIMAL_TRADE_ENTRY",
+        "confidence": 1,
+        "surface_terms": [
+          "optimal trade entry",
+          "OTE"
+        ],
+        "narrative_roles": [
+          "ENTRY_MODEL",
+          "RISK_REDUCTION"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_MANAGEMENT",
+        "confidence": 0.9,
+        "surface_terms": [
+          "reduce the risk",
+          "20 pips stop-loss"
+        ],
+        "narrative_roles": [
+          "RISK_MITIGATION",
+          "TRADE_PLANNING"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "RISK_REWARD_RATIO",
+        "confidence": 0.95,
+        "surface_terms": [
+          "225 pips is still available to us with a 20 pips stop-loss",
+          "hunt 225 pips is available with a 20 pip stop-loss"
+        ],
+        "narrative_roles": [
+          "TRADE_PLANNING",
+          "EXPECTANCY"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "LIQUIDITY_POOL",
+        "confidence": 0.85,
+        "surface_terms": [
+          "key levels relative to runs on liquidity stops",
+          "key support/resistance levels"
+        ],
+        "narrative_roles": [
+          "STRUCTURAL_ANALYSIS",
+          "TARGET_IDENTIFICATION",
+          "LIQUIDITY_ENGINEERING_ZONE"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      },
+      {
+        "canonical": "MULTI_TIME_FRAME_ANALYSIS",
+        "confidence": 0.9,
+        "surface_terms": [
+          "hourly setup",
+          "5-minute zoomed out"
+        ],
+        "narrative_roles": [
+          "CONTEXTUAL_ANALYSIS",
+          "ENTRY_REFINEMENT"
+        ],
+        "temporal_tags": [],
+        "session_tags": []
+      }
+    ],
+    "session_tags": [],
+    "temporal_tags": [],
+    "source_context": {
+      "section_title": "LEVERAGING THE ICT ATM METHOD",
+      "source_file": "ICT Forex - The ICT ATM Method_Handbook.chunks.json"
+    }
+  }
+]
